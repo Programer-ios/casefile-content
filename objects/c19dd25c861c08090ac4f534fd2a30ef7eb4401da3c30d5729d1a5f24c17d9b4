@@ -1,0 +1,56 @@
+{
+  "suspects": [
+    {
+      "id": "joel",
+      "name": "Joel Lacey",
+      "role": "The developer",
+      "age": 29,
+      "bio": "Nightjar’s lead developer and its second employee: he joined at twenty-two, straight from university, and wrote the engine that plays the rain. He runs every day in all weathers, and he’s running London in April. On Thursdays he runs home from the office.",
+      "symbol": "laptopcomputer",
+      "color": "#4A6577",
+      "monogram": "JL",
+      "portrait": "portraits/joel.png",
+      "dismissal": "Sorry. I don’t follow. Could you put that another way?",
+      "rebuttal": "I sat on a bench. I wanted to go up and say sorry to him, and I couldn’t make myself do it. That’s the worst thing I did on Thursday."
+    },
+    {
+      "id": "fiona",
+      "name": "Fiona Brodie",
+      "role": "The co-founder",
+      "age": 44,
+      "bio": "Will’s co-founder and Nightjar’s chief operating officer, the one who kept the lights on. In 2023 she remortgaged her house in Clifton, twice, to pay the wages. Since Friday she has been running Nightjar, and holding the Halcyon deal together.",
+      "symbol": "briefcase.fill",
+      "color": "#6E4A5C",
+      "monogram": "FB",
+      "portrait": "portraits/fiona.png",
+      "dismissal": "I’m sorry, I don’t see what you’re asking.",
+      "rebuttal": "Will was my oldest friend. I spent that evening in front of three lawyers. You’ve got this wrong."
+    },
+    {
+      "id": "gavin",
+      "name": "Gavin Rourke",
+      "role": "The investor",
+      "age": 52,
+      "bio": "A partner at Larchwood Ventures in London, which put £8 million into Nightjar in 2024 and has a seat on its board. He came to Bristol on Thursday for Friday’s signing, and he’s still at his hotel on the harbour.",
+      "symbol": "banknote.fill",
+      "color": "#6F5E43",
+      "monogram": "GR",
+      "portrait": "portraits/gavin.png",
+      "dismissal": "I fail to see the relevance.",
+      "rebuttal": "I lost a friend and eight million pounds on Thursday night. I’d choose your next words very carefully."
+    },
+    {
+      "id": "kai",
+      "name": "Kai Campbell",
+      "role": "The head of growth",
+      "age": 26,
+      "bio": "Nightjar’s head of growth, Bristol born and bred: ads, influencers and referral links. Since September he has taken Nightjar from six hundred thousand monthly listeners to over a million. On Thursdays he goes bouldering.",
+      "symbol": "iphone",
+      "color": "#3D6B5F",
+      "monogram": "KC",
+      "portrait": "portraits/kai.png",
+      "dismissal": "Not with you, sorry.",
+      "rebuttal": "I was halfway up a wall in Bedminster. Ask anyone who was there."
+    }
+  ]
+}

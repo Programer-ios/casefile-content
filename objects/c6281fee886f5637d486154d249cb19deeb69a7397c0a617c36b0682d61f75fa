@@ -1,0 +1,801 @@
+{
+  "id": "case007",
+  "number": 1,
+  "title": "Moving Time",
+  "tagline": "He ran ten kilometres in fifty minutes. His run took sixty-five.",
+  "setting": "Queen Square · Bristol · March 2026",
+  "sketchTitle": "QUEEN SQUARE",
+  "sketchCredit": "SKETCH: SITE VISIT, 10 MARCH 2026 · NOT TO SCALE",
+  "stayLabel": "Stay in Queen Square",
+  "briefing": [
+    "Bristol. Tuesday 10 March 2026. On the top floor of No. 31 Queen Square, a Georgian house on the north side of the square, are the offices of Nightjar: twenty-two people and a sleep and meditation app with a million listeners. Last Friday, 6 March, Nightjar was to be sold to Halcyon Health of San Francisco for £60 million.",
+    "At ten past seven that Friday, the cleaner found Will Harding, 43, Nightjar’s co-founder and chief executive, dead at his desk. He had been struck on the head with the glass award from his shelf. His sports watch stopped finding his pulse at 21:34 the night before, Thursday 5 March.",
+    "The police have arrested Joel Lacey, 29, Nightjar’s lead developer. At ten past six on Thursday the whole office heard him shout at Will: ‘If you sign it tomorrow, I’ll tell them myself!’ He left at 20:51 and ran home, as he does every Thursday. His running app says ten kilometres in fifty minutes, but the run took sixty-five: from 21:24 to 21:38 he sat on a bench in Queen Square, twenty metres from No. 31’s bike-store door. He’s on bail, and the police expect to charge him with murder.",
+    "Will’s widow, Claire Harding, has hired you. ‘At twenty past nine Will messaged me: “Joel’s right. I’m not signing it.” Fourteen minutes later he was dead. Why would Joel kill the man who’d just agreed with him?’",
+    "Fiona Brodie, Will’s co-founder, is running Nightjar now, and has given you the run of the office. Everyone who was there on Thursday is still in Bristol."
+  ],
+  "startingEvidence": [
+    "police_summary",
+    "wills_messages",
+    "joel_run"
+  ],
+  "locations": [
+    {
+      "id": "square",
+      "name": "Queen Square",
+      "summary": "Joel’s bench, King William, and No. 31’s street door and bike-store door.",
+      "description": "Queen Square on a damp Tuesday evening: lawns and gravel paths under bare plane trees, with King William III on horseback in the middle. Offices stand on all four sides, their windows going dark one by one. No. 31 is on the north side, a tall house of pale stone, and Nightjar’s lights are still on at the top.",
+      "art": {
+        "aspect": 1.25,
+        "props": [
+          {
+            "label": "No. 31",
+            "symbol": "building.2.fill",
+            "x": 0.52,
+            "y": 0.08,
+            "w": 0.56,
+            "h": 0.14
+          },
+          {
+            "label": "Bike store",
+            "x": 0.155,
+            "y": 0.1,
+            "w": 0.15,
+            "h": 0.1
+          },
+          {
+            "x": 0.155,
+            "y": 0.155,
+            "w": 0.06,
+            "h": 0.02,
+            "style": "door"
+          },
+          {
+            "label": "Street door",
+            "x": 0.7,
+            "y": 0.16,
+            "w": 0.1,
+            "h": 0.02,
+            "style": "door"
+          },
+          {
+            "label": "North path",
+            "x": 0.5,
+            "y": 0.27,
+            "w": 0.96,
+            "h": 0.07,
+            "style": "rug"
+          },
+          {
+            "label": "Bench",
+            "x": 0.42,
+            "y": 0.32,
+            "w": 0.14,
+            "h": 0.05,
+            "style": "fixture"
+          },
+          {
+            "label": "Lawns",
+            "x": 0.5,
+            "y": 0.67,
+            "w": 0.86,
+            "h": 0.5,
+            "style": "rug"
+          },
+          {
+            "label": "King William",
+            "symbol": "figure.equestrian.sports",
+            "x": 0.5,
+            "y": 0.66,
+            "w": 0.18,
+            "h": 0.15,
+            "style": "fixture"
+          },
+          {
+            "label": "Plane trees",
+            "symbol": "tree.fill",
+            "x": 0.18,
+            "y": 0.5,
+            "w": 0.14,
+            "h": 0.12
+          },
+          {
+            "symbol": "tree.fill",
+            "x": 0.82,
+            "y": 0.62,
+            "w": 0.12,
+            "h": 0.12
+          },
+          {
+            "label": "To the harbour",
+            "x": 0.5,
+            "y": 0.975,
+            "w": 0.24,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_sq_bench",
+          "label": "Joel’s bench",
+          "x": 0.42,
+          "y": 0.41,
+          "text": "You sit where Joel sat on Thursday night, in the drizzle.",
+          "reward": {
+            "evidence": [
+              "bench"
+            ]
+          }
+        },
+        {
+          "id": "hs_sq_bikestore",
+          "label": "The bike-store door",
+          "x": 0.16,
+          "y": 0.22,
+          "text": "A plain door in No. 31’s side wall, with a keypad. Fiona gives you the code: everyone at Nightjar knows it. Behind it, past the bikes and the showers, a corridor leads to the foot of the stairs. Nothing records who uses it, and there’s no camera."
+        },
+        {
+          "id": "hs_sq_door",
+          "label": "The street door",
+          "x": 0.82,
+          "y": 0.2,
+          "text": "A black door with a fanlight and a brass intercom panel. Nightjar is the top button. A small camera lens looks out above the buttons. It takes a picture only when somebody presses one."
+        }
+      ]
+    },
+    {
+      "id": "hall",
+      "name": "The hall at No. 31",
+      "summary": "The intercom screen, the visitor book, and the stairs and lift up to Nightjar.",
+      "description": "Inside the street door is a hall of black and white stone flags. A corridor at the back on the left runs to the bike store. A small lift and a stone staircase climb to the top of the house, and the building manager’s desk sits under the stairs, unstaffed after five.",
+      "art": {
+        "aspect": 1.2,
+        "props": [
+          {
+            "label": "Hall",
+            "x": 0.45,
+            "y": 0.58,
+            "w": 0.46,
+            "h": 0.6,
+            "style": "rug"
+          },
+          {
+            "label": "To the bike store",
+            "x": 0.11,
+            "y": 0.45,
+            "w": 0.18,
+            "h": 0.62,
+            "style": "rug"
+          },
+          {
+            "label": "Manager’s desk",
+            "symbol": "book.closed.fill",
+            "x": 0.46,
+            "y": 0.17,
+            "w": 0.3,
+            "h": 0.13
+          },
+          {
+            "label": "Stairs",
+            "symbol": "stairs",
+            "x": 0.83,
+            "y": 0.42,
+            "w": 0.26,
+            "h": 0.46
+          },
+          {
+            "label": "Lift",
+            "x": 0.83,
+            "y": 0.08,
+            "w": 0.22,
+            "h": 0.12,
+            "style": "fixture"
+          },
+          {
+            "label": "Intercom screen",
+            "x": 0.81,
+            "y": 0.865,
+            "w": 0.22,
+            "h": 0.09,
+            "style": "fixture"
+          },
+          {
+            "label": "Street door",
+            "x": 0.5,
+            "y": 0.975,
+            "w": 0.2,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_hall_intercom",
+          "label": "The intercom screen",
+          "x": 0.6,
+          "y": 0.86,
+          "text": "A small screen beside the street door lists the intercom’s calls, each with a still from its camera.",
+          "reward": {
+            "evidence": [
+              "intercom_log"
+            ]
+          }
+        },
+        {
+          "id": "hs_hall_book",
+          "label": "The visitor book",
+          "x": 0.46,
+          "y": 0.32,
+          "text": "On the building manager’s desk, Thursday’s page: ‘Gavin Rourke · Larchwood Ventures · for Nightjar · in 16:28 · out 18:24.’ Nobody else signed in after lunch."
+        },
+        {
+          "id": "hs_hall_stairs",
+          "label": "The stairs and the lift",
+          "x": 0.83,
+          "y": 0.71,
+          "text": "Sixty-four stone stairs climb round the walls to Nightjar’s floor, fourteen metres up, with a small lift beside them. Both come out at the east end of the floor, beside Will’s office. The bike-store corridor joins the foot of the stairs."
+        }
+      ]
+    },
+    {
+      "id": "office",
+      "name": "Nightjar’s floor",
+      "summary": "The Nest, the Fishbowl, the printer, Joel’s desk and Will’s office.",
+      "description": "The top of No. 31 is one long room under a sloping ceiling: rows of desks with plants and headphones, a glass meeting room in the middle that everyone calls the Fishbowl, and a kitchen at the back. The Nest is at the west end, and Will’s corner office is at the east end, by the stairs and the lift. The ceiling lights come on by themselves as you walk under them, a bank at a time. Most of the team are working from home this week.",
+      "art": {
+        "aspect": 1.6,
+        "props": [
+          {
+            "label": "The Nest",
+            "symbol": "headphones",
+            "x": 0.09,
+            "y": 0.7,
+            "w": 0.15,
+            "h": 0.46
+          },
+          {
+            "label": "Desks",
+            "x": 0.44,
+            "y": 0.75,
+            "w": 0.48,
+            "h": 0.36,
+            "style": "rug"
+          },
+          {
+            "label": "The Fishbowl",
+            "symbol": "person.3.fill",
+            "x": 0.42,
+            "y": 0.3,
+            "w": 0.22,
+            "h": 0.3
+          },
+          {
+            "label": "Printer",
+            "x": 0.6,
+            "y": 0.11,
+            "w": 0.09,
+            "h": 0.12,
+            "style": "fixture"
+          },
+          {
+            "label": "Kitchen",
+            "symbol": "cup.and.saucer.fill",
+            "x": 0.73,
+            "y": 0.14,
+            "w": 0.14,
+            "h": 0.24
+          },
+          {
+            "label": "Will’s office",
+            "symbol": "lamp.desk.fill",
+            "x": 0.88,
+            "y": 0.7,
+            "w": 0.21,
+            "h": 0.46
+          },
+          {
+            "label": "Stairs and lift",
+            "symbol": "stairs",
+            "x": 0.9,
+            "y": 0.2,
+            "w": 0.17,
+            "h": 0.34
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_off_fishbowl",
+          "label": "The Fishbowl",
+          "x": 0.24,
+          "y": 0.3,
+          "text": "The glass meeting room where Joel and Will rowed on Thursday. From every desk on the floor you can see straight in. Someone has wiped the whiteboard, but in one corner, in Joel’s square capitals, a scrap survives: ‘03:00:00’."
+        },
+        {
+          "id": "hs_off_printer",
+          "label": "The printer",
+          "x": 0.6,
+          "y": 0.27,
+          "text": "The office printer by the kitchen door. Its tray is full of Halcyon’s contract drafts, and underneath them is something else.",
+          "reward": {
+            "evidence": [
+              "printout"
+            ]
+          }
+        },
+        {
+          "id": "hs_off_joel",
+          "label": "Joel’s desk",
+          "x": 0.3,
+          "y": 0.82,
+          "text": "The police have his laptop. They’ve left a mug that says IT WORKS ON MY MACHINE, a jar of energy gels and his marathon plan, pinned to the partition: ‘THU: run home. Harbour loop, back through Queen Sq, then home. 10 km easy.’ The London Marathon, on 26 April, is circled. Underneath: ‘sub-3??’"
+        },
+        {
+          "id": "hs_off_will",
+          "label": "Will’s office",
+          "x": 0.88,
+          "y": 0.53,
+          "text": "The blinds are down, as they were on Thursday night. The police took his laptop and his phone, and left the rest: a cold pizza box, a pen, his reading glasses. There’s no sign of the pages Joel gave him. On the shelf by the door, a clean square in the dust shows where the award stood. Unlike the sensor lights out on the floor, his office light works from a switch by the door. His running medals hang on the back of the door, beside a photo of Will and Joel at the finish of last year’s Bristol Half, arm in arm and soaked."
+        },
+        {
+          "id": "hs_off_nest",
+          "label": "The Nest",
+          "x": 0.09,
+          "y": 0.52,
+          "text": "A small room at the west end of the floor, as far from the stairs and the lift as you can get. Beside its frosted-glass door is a booking screen.",
+          "visibleWhen": {
+            "statement": "st_joel_lights"
+          },
+          "reward": {
+            "evidence": [
+              "nest_panel"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "timeline": {
+    "id": "timeline",
+    "title": "Thursday evening, reconstructed",
+    "prompt": "Put the events in the order they really happened. Times you know for certain are shown; reason out the rest.",
+    "events": [
+      {
+        "id": "tl_row",
+        "text": "Joel and Will row in the Fishbowl",
+        "time": "18:10"
+      },
+      {
+        "id": "tl_nest",
+        "text": "Somebody goes into the Nest",
+        "visibleWhen": {
+          "evidence": "nest_panel"
+        },
+        "teaser": "Something written down."
+      },
+      {
+        "id": "tl_run",
+        "text": "Joel sets off on his run home",
+        "time": "20:56"
+      },
+      {
+        "id": "tl_gavin",
+        "text": "A man in a camel coat buzzes Nightjar",
+        "visibleWhen": {
+          "evidence": "intercom_log"
+        },
+        "teaser": "Something a machine remembers."
+      },
+      {
+        "id": "tl_message",
+        "text": "Will messages Claire: ‘Joel’s right’",
+        "time": "21:20"
+      },
+      {
+        "id": "tl_bench",
+        "text": "Joel sits down on the bench",
+        "time": "21:24"
+      },
+      {
+        "id": "tl_lights",
+        "text": "The lights come on along Nightjar’s floor",
+        "visibleWhen": {
+          "statement": "st_joel_lights"
+        },
+        "teaser": "Something somebody saw."
+      },
+      {
+        "id": "tl_death",
+        "text": "Will’s heart stops",
+        "time": "21:34"
+      },
+      {
+        "id": "tl_dark",
+        "text": "Will’s office goes dark",
+        "visibleWhen": {
+          "deduced": "d_light"
+        },
+        "teaser": "Something else somebody saw."
+      }
+    ],
+    "conclusion": "The row was at ten past six, and at 18:34 somebody went into the Nest and shut the door. Joel set off at 20:56, Gavin was turned away at the door at 21:06, and Will messaged Claire at 21:20. Joel sat down on his bench at 21:24. Just after half past nine the lights came on along the floor, from the Nest towards Will’s office. At 21:34 Will’s heart stopped, and at 21:36 his light went off. A dead man doesn’t switch off his light."
+  },
+  "accusation": {
+    "culprit": "fiona",
+    "methods": [
+      "Came in by the bike-store door with the staff code, and struck him with the award",
+      "Was let in at the street door, and struck him with the award",
+      "Never left Nightjar’s floor after six, and struck him with the award",
+      "Followed somebody in at the street door, and struck him with the award"
+    ],
+    "method": 2,
+    "motives": [
+      "Revenge for Thursday’s row",
+      "To stop Will telling Halcyon what Joel had found",
+      "To save Larchwood’s eight million",
+      "To take Will’s place at the head of Nightjar",
+      "To stop Halcyon closing the Bristol office"
+    ],
+    "motive": 1,
+    "proof": [
+      [
+        "d_bench",
+        "run_export"
+      ],
+      [
+        "d_who",
+        "d_inside",
+        "d_light",
+        "call_record",
+        "st_fiona_alive",
+        "st_fiona_confession"
+      ],
+      [
+        "d_found",
+        "growth_report",
+        "gavin_messages",
+        "st_kai_link",
+        "printout"
+      ]
+    ],
+    "proofLabels": [
+      "The fourteen minutes — why it wasn’t Joel",
+      "The opportunity — who was with Will when he died",
+      "The motive — what Will was about to do"
+    ],
+    "successTitle": "Case closed"
+  },
+  "hints": [
+    {
+      "id": "h_start",
+      "doneWhen": {
+        "evidence": "run_export"
+      },
+      "levels": [
+        "The police care about fourteen minutes. Start there.",
+        "Ask Joel about his run, and read everything his watch recorded.",
+        "Ask Joel ‘Tell me about your run.’"
+      ]
+    },
+    {
+      "id": "h_bench",
+      "activeWhen": {
+        "evidence": "run_export"
+      },
+      "doneWhen": {
+        "deduced": "d_bench"
+      },
+      "levels": [
+        "The police say GPS can’t tell the bench from the bike-store door. What else did Joel’s watch measure?",
+        "Look at the elevation in Joel’s watch file, and at how high Will’s office is.",
+        "On the board, answer ‘No: his watch never climbed, and never left his wrist’, with Joel’s watch file and the police summary (or the bench)."
+      ]
+    },
+    {
+      "id": "h_view",
+      "activeWhen": {
+        "deduced": "d_bench"
+      },
+      "doneWhen": {
+        "statement": "st_joel_lights"
+      },
+      "levels": [
+        "Joel spent fourteen minutes looking up at Nightjar’s windows.",
+        "Ask him what he saw.",
+        "Ask Joel ‘What could you see from the bench?’"
+      ]
+    },
+    {
+      "id": "h_nest",
+      "activeWhen": {
+        "statement": "st_joel_lights"
+      },
+      "doneWhen": {
+        "evidence": "nest_panel"
+      },
+      "levels": [
+        "Joel says the lights came on from the Nest end.",
+        "Go and look at the Nest.",
+        "On Nightjar’s floor, examine the Nest."
+      ]
+    },
+    {
+      "id": "h_inside",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_joel_lights"
+          },
+          {
+            "evidence": "nest_panel"
+          }
+        ]
+      },
+      "doneWhen": {
+        "deduced": "d_inside"
+      },
+      "levels": [
+        "Where did the walker Joel saw come from?",
+        "The stairs and the lift come out at Will’s end. Who was already in the Nest?",
+        "On the board, answer ‘The Nest, at the far end of Nightjar’s own floor’, with Joel’s statement about the lights and the Nest’s screen."
+      ]
+    },
+    {
+      "id": "h_printer",
+      "doneWhen": {
+        "evidence": "printout"
+      },
+      "levels": [
+        "What did Joel give Will at six o’clock on Thursday?",
+        "Will was ‘reading something Joel gave me’. Look around the office for a copy.",
+        "On Nightjar’s floor, examine the printer."
+      ]
+    },
+    {
+      "id": "h_joel_row",
+      "activeWhen": {
+        "evidence": "printout"
+      },
+      "doneWhen": {
+        "resolved": "c_joel_row"
+      },
+      "levels": [
+        "Joel says the row was about Halcyon closing the Bristol office.",
+        "What had he printed just before it started?",
+        "Ask Joel ‘What did you and Will row about?’, then challenge his ‘Bristol office’ statement with ‘Night traffic’."
+      ]
+    },
+    {
+      "id": "h_found",
+      "activeWhen": {
+        "evidence": "printout"
+      },
+      "doneWhen": {
+        "deduced": "d_found"
+      },
+      "levels": [
+        "What do Joel’s pages show, and what did Will make of them?",
+        "Read ‘Night traffic’, then Will’s last messages to Claire.",
+        "On the board, answer ‘That four in ten of Nightjar’s listeners were fake’, with ‘Night traffic’ (or Joel’s admission) and Will’s messages (or Gavin’s statement about the door)."
+      ]
+    },
+    {
+      "id": "h_kai",
+      "activeWhen": {
+        "evidence": "printout"
+      },
+      "doneWhen": {
+        "resolved": "c_kai_never"
+      },
+      "levels": [
+        "Kai says every one of Nightjar’s new listeners is real.",
+        "Whose link did all 412,316 of them sign up through?",
+        "Ask Kai ‘How did Nightjar grow so fast last autumn?’, then challenge his ‘never heard of fake listeners’ statement with ‘Night traffic’."
+      ]
+    },
+    {
+      "id": "h_intercom",
+      "doneWhen": {
+        "evidence": "intercom_log"
+      },
+      "levels": [
+        "Did anybody else come to No. 31 on Thursday evening?",
+        "The intercom remembers its calls.",
+        "In the hall at No. 31, examine the intercom screen."
+      ]
+    },
+    {
+      "id": "h_gavin",
+      "activeWhen": {
+        "evidence": "intercom_log"
+      },
+      "doneWhen": {
+        "resolved": "c_gavin_bar"
+      },
+      "levels": [
+        "Gavin says he never went near Queen Square after the meeting.",
+        "Who is the man in the camel coat at 21:06?",
+        "Ask Gavin ‘Where were you on Thursday evening?’, then challenge his ‘never went near Queen Square’ statement with the intercom."
+      ]
+    },
+    {
+      "id": "h_confirm",
+      "activeWhen": {
+        "deduced": "d_inside"
+      },
+      "doneWhen": {
+        "evidence": "call_record"
+      },
+      "levels": [
+        "Somebody was in the Nest all evening, and everyone says they were somewhere else. Can they prove it?",
+        "Ask the people who say they were elsewhere whether anyone can confirm it, starting with Fiona.",
+        "Ask Fiona ‘Can anyone confirm where you were?’"
+      ]
+    },
+    {
+      "id": "h_who",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_inside"
+          },
+          {
+            "evidence": "call_record"
+          }
+        ]
+      },
+      "doneWhen": {
+        "deduced": "d_who"
+      },
+      "levels": [
+        "Look closely at the stills from the New York call. In Bristol it was nine at night, and raining.",
+        "Where does the sunshine behind Fiona come from? And what does her clock say, both times?",
+        "On the board, answer ‘Fiona Brodie’, with the New York call and the Nest’s screen (or Fiona’s statement about Thursday)."
+      ]
+    },
+    {
+      "id": "h_fiona_home",
+      "activeWhen": {
+        "evidence": "call_record"
+      },
+      "doneWhen": {
+        "resolved": "c_fiona_home"
+      },
+      "levels": [
+        "Fiona says she was at her kitchen table in Clifton all evening.",
+        "Her kitchen in the stills is sunny at nine at night.",
+        "Ask Fiona ‘Where were you on Thursday evening?’, then challenge her ‘kitchen table’ statement with the New York call."
+      ]
+    },
+    {
+      "id": "h_fiona_nest",
+      "activeWhen": {
+        "statement": "st_fiona_nest"
+      },
+      "doneWhen": {
+        "resolved": "c_fiona_nest"
+      },
+      "levels": [
+        "Fiona now says she never left the Nest.",
+        "What did Joel see at half past nine, while she was off the call?",
+        "Challenge Fiona’s ‘never left the room’ statement with Joel’s statement about the lights (or your answer about where the killer came from)."
+      ]
+    },
+    {
+      "id": "h_light",
+      "activeWhen": {
+        "statement": "st_fiona_alive"
+      },
+      "doneWhen": {
+        "deduced": "d_light"
+      },
+      "levels": [
+        "Fiona says Will was alive when she went back to the Nest.",
+        "When did Joel see Will’s light go off, and when did Will’s heart stop?",
+        "On the board, answer ‘Somebody who was with him after his heart stopped’, with Joel’s statement about the lights and the police summary."
+      ]
+    },
+    {
+      "id": "h_fiona_alive",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_fiona_alive"
+          },
+          {
+            "deduced": "d_light"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_fiona_alive"
+      },
+      "levels": [
+        "Fiona still says Will was alive when she left him.",
+        "Who switched off his light, and when?",
+        "Challenge Fiona’s ‘he was alive’ statement with your answer about Will’s light."
+      ]
+    },
+    {
+      "id": "h_timeline",
+      "activeWhen": {
+        "deduced": "d_light"
+      },
+      "doneWhen": {
+        "timeline": true
+      },
+      "levels": [
+        "Put Thursday evening in order.",
+        "Somebody went into the Nest at 18:34. The man in the camel coat was at the door at 21:06, the lights came on just after half past nine, and Will’s light went off at 21:36.",
+        "The order: the row, somebody goes into the Nest, Joel’s run, the man at the door, Will’s message, Joel on the bench, the lights come on, Will’s heart stops, Will’s office goes dark."
+      ]
+    },
+    {
+      "id": "h_accuse_ready",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_bench"
+          },
+          {
+            "deduced": "d_who"
+          },
+          {
+            "deduced": "d_found"
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "For each proof slot, ask: which card shows it wasn’t Joel, which shows who was with Will when he died, and which shows what Will was about to do?",
+        "Why it wasn’t Joel: your answer about the bench, or his watch file. The opportunity: your answers about the Nest or Will’s light, the New York call, or what Fiona admitted. The motive: your answer about what Joel found, Growth Partners’ report, Gavin’s messages, Kai’s admission, or ‘Night traffic’.",
+        "Accuse Fiona Brodie: she never left Nightjar’s floor after six, and struck him with the award, to stop Will telling Halcyon what Joel had found. Prove it with your answer about the bench, your answer about who was in the Nest, and your answer about what Joel found."
+      ]
+    },
+    {
+      "id": "h_accuse",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_bench"
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "deduced": "d_bench"
+                },
+                {
+                  "deduced": "d_who"
+                },
+                {
+                  "deduced": "d_found"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "Joel never went in. Who was already upstairs?",
+        "Only one person was in the Nest, and only one alibi was a photograph.",
+        "The killer is Fiona Brodie: she never left Nightjar’s floor after six, and struck him with the award, to stop Will telling Halcyon what Joel had found. Prove it with your answer about the bench, your answer about who was in the Nest, and your answer about what Joel found."
+      ]
+    }
+  ],
+  "epilogue": [
+    "Fiona Brodie repeated her confession at the police station on the Wednesday, with her solicitor beside her, and that evening she was charged with Will’s murder. Joel’s bail was cancelled the same night. On the Friday the police told him, in writing, that he would not be charged.",
+    "The kitchen behind her on the call was a photograph she had taken one sunny afternoon the May before. She had used it on every call for a year, and the lawyers in New York had never once wondered about the weather in Bristol. She took Joel’s pages from Will’s desk and shredded them at home; she never knew there were two. When the police checked her phone, it put her in Queen Square all evening.",
+    "Halcyon withdrew on the Monday. That night, for the first time since September, nobody listened to ‘Rain on a Tin Roof’ at three in the morning: Growth Partners had switched off all 412,316 of its phones. Kai told the police everything he knew and lost his job. Larchwood wrote its eight million down to almost nothing, and Gavin went back to London on the first train.",
+    "Nightjar didn’t die. Claire kept Will’s shares, the twenty-two of them voted to carry on, and in June a smaller buyer paid a fairer price for 631,000 real listeners. Joel is the chief technology officer now. On the screen by his desk there’s a graph of the night, and at three in the morning it’s as low and ragged as the rest.",
+    "In April Joel ran London with WILL on the back of his vest, and finished in 2:58:41. At the line, out of habit, he looked at his watch. Moving time 2:58:41. Elapsed time 2:58:41. He hadn’t stopped once."
+  ]
+}

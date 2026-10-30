@@ -1,0 +1,391 @@
+{
+  "topics": [
+    {
+      "id": "t_joel_thursday",
+      "suspect": "joel",
+      "prompt": "Tell me about Thursday evening.",
+      "lines": [
+        [
+          "you",
+          "Joel, tell me about Thursday evening."
+        ],
+        [
+          "joel",
+          "I worked till half past eight. Will was in his office with the door shut. At quarter to nine I changed, knocked on his door and said goodnight. He said, ‘Go home, Joel.’ Not angry. Just tired."
+        ],
+        [
+          "joel",
+          "I ran my harbour loop, same as every Thursday. When I came back through the square, his light was still on. So I sat down on the bench. Fourteen minutes. His light went off, I sat there a minute or two longer, and then I ran home."
+        ],
+        [
+          "joel",
+          "I never went in. I told the police. They looked at me like I’d said the dog ate my homework."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_joel_bench"
+        ]
+      }
+    },
+    {
+      "id": "t_joel_row",
+      "suspect": "joel",
+      "prompt": "What did you and Will row about?",
+      "lines": [
+        [
+          "joel",
+          "Halcyon. They’re going to close the Bristol office a year after the sale and move engineering to San Francisco. Will knew, and he hadn’t told anyone."
+        ],
+        [
+          "joel",
+          "So I said if he signed it tomorrow, I’d tell them myself. The team, I mean."
+        ],
+        [
+          "joel",
+          "That’s all it was."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_joel_row"
+        ]
+      }
+    },
+    {
+      "id": "t_joel_run",
+      "suspect": "joel",
+      "prompt": "Tell me about your run.",
+      "lines": [
+        [
+          "joel",
+          "Thursday’s my run home: a loop of the harbour, back through the square, then home to Southville. Ten k, easy. I’m doing London in April."
+        ],
+        [
+          "joel",
+          "I came out at ten to nine and warmed up on the steps for five minutes, like always. Then I started the watch and set off at four minutes to."
+        ],
+        [
+          "joel",
+          "The app shows moving time, because that’s what runners care about: it stops the clock when you stop. That’s why it says fifty minutes. The police found the other fifteen."
+        ],
+        [
+          "joel",
+          "My watch records everything, every second. Here: I’ll download the whole file for you. Read all of it. There’s nothing in it I’m hiding."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "run_export"
+        ]
+      }
+    },
+    {
+      "id": "t_joel_view",
+      "suspect": "joel",
+      "prompt": "What could you see from the bench?",
+      "visibleWhen": {
+        "deduced": "d_bench"
+      },
+      "lines": [
+        [
+          "you",
+          "Joel, what could you see from the bench?"
+        ],
+        [
+          "joel",
+          "Our floor. The Nest’s light was on; it always is, people forget it. The desks were dark. Will’s light was on behind his blinds. I kept thinking: I’ll go up. I’ll say sorry. I didn’t."
+        ],
+        [
+          "joel",
+          "Nobody went in or out of the street door or the bike store. I’d have seen them. I was looking up at those doors every few seconds, working up the nerve."
+        ],
+        [
+          "joel",
+          "Then, just after half nine, the lights came on along the floor. Bank by bank, from the Nest end towards Will’s office. Like somebody walking."
+        ],
+        [
+          "joel",
+          "At 21:36 Will’s light went off. I know, because I looked at my watch: I’d been sat there twelve minutes. I thought he was coming down at last. For a minute or two I couldn’t decide whether to stay and say sorry, or go before he found me sat there like a lemon. Then I ran."
+        ],
+        [
+          "joel",
+          "I never told the police about the lights. They asked me about the bike store, over and over. Only now, telling you, have I thought about which end they started from."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_joel_lights"
+        ]
+      }
+    },
+    {
+      "id": "t_fiona_thursday",
+      "suspect": "fiona",
+      "prompt": "Where were you on Thursday evening?",
+      "lines": [
+        [
+          "you",
+          "Fiona, where were you on Thursday evening?"
+        ],
+        [
+          "fiona",
+          "I said goodnight at half past six and went home to Clifton. From nine until half past ten I was on a video call with Halcyon’s lawyers in New York, at my kitchen table, camera on."
+        ],
+        [
+          "fiona",
+          "Will should have been on it with me. He said he’d rather read. I thought it was nerves about Friday."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_fiona_home"
+        ]
+      }
+    },
+    {
+      "id": "t_fiona_sale",
+      "suspect": "fiona",
+      "prompt": "Tell me about the sale.",
+      "lines": [
+        [
+          "fiona",
+          "Halcyon pay by the listener: sixty million pounds for a million of them. Will and I spent seven years on Nightjar. In 2023 I remortgaged my house, twice, to pay the wages. Friday was going to give it back."
+        ],
+        [
+          "fiona",
+          "Halcyon have been very kind. They’ll sign in April instead, for Will. It’s what he’d have wanted."
+        ],
+        [
+          "fiona",
+          "I’d never have believed it of Joel. But he knows the code, and he sat outside that door for a quarter of an hour."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_fiona_confirm",
+      "suspect": "fiona",
+      "prompt": "Can anyone confirm where you were?",
+      "visibleWhen": {
+        "deduced": "d_inside"
+      },
+      "lines": [
+        [
+          "fiona",
+          "Three lawyers in New York, for an hour and a half. The police rang them on Saturday."
+        ],
+        [
+          "fiona",
+          "They record their calls. They sent me their note and a couple of stills. Here: my kitchen, my tea, my terrible shelves."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "call_record"
+        ]
+      }
+    },
+    {
+      "id": "t_gavin_thursday",
+      "suspect": "gavin",
+      "prompt": "Where were you on Thursday evening?",
+      "lines": [
+        [
+          "you",
+          "Mr Rourke, where were you on Thursday evening?"
+        ],
+        [
+          "gavin",
+          "With Will and Fiona until twenty past six. Then back to my hotel on the harbour: dinner, and the bar until midnight, with my laptop and a very good Scotch."
+        ],
+        [
+          "gavin",
+          "I never went near Queen Square again. Why would I? We were signing at nine."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_gavin_bar"
+        ]
+      }
+    },
+    {
+      "id": "t_gavin_deal",
+      "suspect": "gavin",
+      "prompt": "What did the sale mean to your fund?",
+      "lines": [
+        [
+          "gavin",
+          "Larchwood put eight million into Nightjar in 2024. Halcyon’s price gives us back twenty-two. My fund needs a win this year, and I’m not ashamed to say so."
+        ],
+        [
+          "gavin",
+          "Will was a sound man who got lucky with a recording of rain. Fiona built the business. Thank God she’s still here."
+        ],
+        [
+          "gavin",
+          "And if you’re asking whether a man in my line of work would kill somebody over a deal: we’d sue them. It’s cheaper."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_gavin_confirm",
+      "suspect": "gavin",
+      "prompt": "Can anyone confirm where you were?",
+      "visibleWhen": {
+        "deduced": "d_inside"
+      },
+      "lines": [
+        [
+          "gavin",
+          "The barman at my hotel, a very patient Portuguese man called Rui. And my bill, since you ask. I sign for everything; my accountant insists."
+        ],
+        [
+          "gavin",
+          "Here. You’ll see I was drinking steadily, and not in Queen Square."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "gavin_bill"
+        ]
+      }
+    },
+    {
+      "id": "t_kai_growth",
+      "suspect": "kai",
+      "prompt": "How did Nightjar grow so fast last autumn?",
+      "lines": [
+        [
+          "you",
+          "Kai, how did Nightjar grow so fast last autumn?"
+        ],
+        [
+          "kai",
+          "Ads, influencers, a referral scheme, and graft. We went from six hundred thousand monthly listeners to over a million in four months. Best quarter we ever had."
+        ],
+        [
+          "kai",
+          "Fake listeners? No. Never heard of anything like that. Every one of that million is a real person who can’t sleep."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_kai_never"
+        ]
+      }
+    },
+    {
+      "id": "t_kai_thursday",
+      "suspect": "kai",
+      "prompt": "Where were you on Thursday evening?",
+      "lines": [
+        [
+          "kai",
+          "I left about twenty to seven and went bouldering in Bedminster, like every Thursday. I was there till quarter to ten."
+        ],
+        [
+          "kai",
+          "Joel, though… Joel’s the only man in Bristol who’d sit on a bench in the rain for a quarter of an hour because he felt bad about something."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_kai_wall"
+        ]
+      }
+    },
+    {
+      "id": "t_kai_confirm",
+      "suspect": "kai",
+      "prompt": "Can anyone confirm where you were?",
+      "visibleWhen": {
+        "deduced": "d_inside"
+      },
+      "lines": [
+        [
+          "kai",
+          "Half the wall can. And my mate Dev filmed me falling off the same problem for the fifth week running. He put it on his story, the traitor."
+        ],
+        [
+          "kai",
+          "Look: that’s me, that’s the café clock, half nine. Dark outside, raining. Thursday."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "kai_video"
+        ]
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "st_joel_bench",
+      "suspect": "joel",
+      "text": "At 21:24 I sat down on the bench opposite No. 31, and I didn’t get up until 21:38. I never went in."
+    },
+    {
+      "id": "st_joel_row",
+      "suspect": "joel",
+      "text": "Will and I rowed because Halcyon means to close the Bristol office after the sale, and he hadn’t told the team."
+    },
+    {
+      "id": "st_joel_found",
+      "suspect": "joel",
+      "text": "On Thursday I showed Will that 412,316 of our listeners were fake. On the bench I wrote an email to Halcyon’s lawyers, and never sent it."
+    },
+    {
+      "id": "st_joel_lights",
+      "suspect": "joel",
+      "text": "Just after half past nine the lights came on along our floor, bank by bank, from the Nest end towards Will’s office. At 21:36 Will’s light went off. Nobody went in or out of either door while I sat there."
+    },
+    {
+      "id": "st_fiona_home",
+      "suspect": "fiona",
+      "text": "At half past six I said goodnight and went home to Clifton. From nine to half past ten I was on the New York call at my kitchen table."
+    },
+    {
+      "id": "st_fiona_nest",
+      "suspect": "fiona",
+      "text": "I took the New York call from the Nest. The connection dropped for a few minutes after half past nine, but I never left the room, and I never saw Will."
+    },
+    {
+      "id": "st_fiona_alive",
+      "suspect": "fiona",
+      "text": "At half past nine I left the call and went to Will’s office to talk him round. When I went back to the Nest, he was alive."
+    },
+    {
+      "id": "st_fiona_confession",
+      "suspect": "fiona",
+      "text": "I hit Will with the award, took Joel’s pages, switched off his light and went back to the call."
+    },
+    {
+      "id": "st_gavin_bar",
+      "suspect": "gavin",
+      "text": "After the meeting I went back to my hotel and stayed in the bar until midnight. I never went near Queen Square again."
+    },
+    {
+      "id": "st_gavin_door",
+      "suspect": "gavin",
+      "text": "At 21:06 Will told me through the intercom that he wasn’t signing, and that the numbers were wrong. I texted Fiona and went back to the bar."
+    },
+    {
+      "id": "st_kai_never",
+      "suspect": "kai",
+      "text": "Every one of our new listeners is a real person. I’ve never heard of fake listeners at Nightjar."
+    },
+    {
+      "id": "st_kai_wall",
+      "suspect": "kai",
+      "text": "On Thursday evening I was at the bouldering wall in Bedminster, from about seven until quarter to ten."
+    },
+    {
+      "id": "st_kai_link",
+      "suspect": "kai",
+      "text": "In September I made the link for Growth Partners, an agency paid to supply listeners. I knew they weren’t real."
+    }
+  ]
+}

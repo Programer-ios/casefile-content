@@ -1,0 +1,354 @@
+{
+  "contradictions": [
+    {
+      "id": "c_joel_row",
+      "statement": "st_joel_row",
+      "proof": [
+        "printout",
+        "d_found"
+      ],
+      "title": "The row was about the listeners",
+      "insight": "At 17:56 Joel printed ‘Night traffic’ for Will: 412,316 listeners who all listen at exactly three in the morning. The row began at ten past six. It was never about the Bristol office.",
+      "response": [
+        [
+          "joel",
+          "…You found the other copy. I always print two."
+        ],
+        [
+          "joel",
+          "I found them in February, chasing a spike on our servers at three in the morning. Four hundred thousand phones that wake up at three, play exactly ten minutes of rain and go back to sleep. Real people don’t do anything at exactly three o’clock."
+        ],
+        [
+          "joel",
+          "I gave it to Will at six. He said Halcyon’s own people had checked Fiona’s numbers, and I lost my temper. ‘If you sign it tomorrow, I’ll tell them myself.’ Halcyon, I meant. Not the team."
+        ],
+        [
+          "joel",
+          "On the bench I wrote an email to Halcyon’s lawyers. Four times. I couldn’t send it. Then Will was dead, and the police had me for it. If I’d told them I’d found a fraud and Will had laughed at me and thrown me out, that’s a better motive than anything they had. And if it came out, twenty-two people would lose their jobs. So I told them it was about the office. There’s no plan to close it. I made that up in the interview room."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_joel_found"
+        ]
+      }
+    },
+    {
+      "id": "c_kai_never",
+      "statement": "st_kai_never",
+      "proof": [
+        "printout",
+        "st_joel_found",
+        "d_found"
+      ],
+      "title": "Kai made the link",
+      "insight": "Every one of the 412,316 fake accounts signed up through nightjar.app/r/growthpartners, a link Kai made on 12 September.",
+      "response": [
+        [
+          "kai",
+          "…Growth Partners. Yeah."
+        ],
+        [
+          "kai",
+          "In September a contract came down from upstairs, already signed, with a budget I’d never have got past anyone. An agency that ‘seeds engagement’. Every app does it before a sale, I was told, and Halcyon would never look that closely. I made the link, I watched the numbers go up, and I didn’t ask how."
+        ],
+        [
+          "kai",
+          "They send a report to accounts every month, and I’m copied in. Here’s February’s. It says a director signed the contract, and Nightjar’s got three: Will, Fiona and Gavin. Don’t ask me which. I never wanted to know."
+        ],
+        [
+          "kai",
+          "I knew they weren’t real people. I just didn’t want to know how not real. But Will didn’t know. I’d swear to that."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "growth_report"
+        ],
+        "statements": [
+          "st_kai_link"
+        ]
+      }
+    },
+    {
+      "id": "c_gavin_bar",
+      "statement": "st_gavin_bar",
+      "proof": [
+        "intercom_log"
+      ],
+      "title": "Gavin was at the door",
+      "insight": "At 21:06 Gavin stood at No. 31’s street door in the rain, talking to Will on the intercom for thirty-eight seconds. Will didn’t let him in.",
+      "response": [
+        [
+          "gavin",
+          "…That’s me. Yes."
+        ],
+        [
+          "gavin",
+          "Fiona messaged me at seven: Will was ‘wobbling’. So after dinner I walked over to talk some sense into him. He wouldn’t let me up. He said, through that box, ‘I’m not signing, Gavin. The numbers are wrong. Go back to your hotel.’"
+        ],
+        [
+          "gavin",
+          "I texted Fiona and walked back. I was in the bar by twenty past nine; the barman will tell you. I kept quiet because a man who was turned away from the door half an hour before it happened looks exactly like a man who came back."
+        ],
+        [
+          "gavin",
+          "And because if Halcyon ever hear the words ‘the numbers are wrong’, there’s no deal in April either. Here. Read them yourself."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "gavin_messages"
+        ],
+        "statements": [
+          "st_gavin_door"
+        ]
+      }
+    },
+    {
+      "id": "c_fiona_home",
+      "statement": "st_fiona_home",
+      "proof": [
+        "call_record",
+        "d_who"
+      ],
+      "title": "Sunshine at nine at night",
+      "insight": "At 21:02 and at 21:51 the sun was shining across Fiona’s kitchen, and her clock said ten to three. It had been dark since six, and raining. Her kitchen was a photograph.",
+      "response": [
+        [
+          "fiona",
+          "…It’s a photo. My kitchen, last May. I use it on every call. My real kitchen is two teenagers and a dog."
+        ],
+        [
+          "fiona",
+          "All right. I wasn’t at home. After the row I couldn’t go home. I had to know what Will would do with Joel’s pages. So I said goodnight and walked to the lift, and when nobody was looking I went back down the floor into the Nest and shut the door. I did the New York call from there."
+        ],
+        [
+          "fiona",
+          "My Wi-Fi dropped once, for a few minutes after half past nine. That’s all. I never left the room, and I never saw Will. I didn’t know anything had happened until the police rang on Friday."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_fiona_nest"
+        ]
+      }
+    },
+    {
+      "id": "c_fiona_nest",
+      "statement": "st_fiona_nest",
+      "proof": [
+        "st_joel_lights",
+        "d_inside"
+      ],
+      "title": "The lights came on from the Nest",
+      "insight": "Just after half past nine, while Fiona was off the call, the floor’s lights came on bank by bank from the Nest towards Will’s office. Somebody walked out of the Nest to Will’s office, and Fiona was the only person in the Nest.",
+      "response": [
+        [
+          "fiona",
+          "…Joel. On his bench. Of course he was."
+        ],
+        [
+          "fiona",
+          "Yes. I went to see Will. Gavin had texted me: Will wasn’t signing, the numbers were wrong. So I told the lawyers my Wi-Fi was dying, and I walked down the floor to talk him round."
+        ],
+        [
+          "fiona",
+          "We argued. He wouldn’t listen to me. I went back to the Nest and sat there for a few minutes, until I could face three lawyers again, and then I rejoined the call."
+        ],
+        [
+          "fiona",
+          "When I left him, Will was alive. I swear it on my children."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_fiona_alive"
+        ]
+      }
+    },
+    {
+      "id": "c_fiona_alive",
+      "statement": "st_fiona_alive",
+      "proof": [
+        "d_light"
+      ],
+      "title": "A dead man’s light",
+      "insight": "Will’s heart stopped at 21:34. His light, on a switch by the door, went off at 21:36. Somebody switched it off after he died, and the only person on the floor was Fiona.",
+      "response": [
+        [
+          "fiona",
+          "…He was dead. When I switched it off, he was already dead."
+        ],
+        [
+          "fiona",
+          "Gavin’s message came at nine minutes past nine: Will wasn’t signing, the numbers were wrong. I sat in the Nest smiling at three lawyers for twenty minutes. Then I told them my Wi-Fi was dying, and I walked down the floor to Will."
+        ],
+        [
+          "fiona",
+          "He had Joel’s pages on his desk, and the Growth Partners contract with my name on it. He said he’d tell Halcyon at nine, and then the police. I begged him. Seven years. My house. And he said, ‘Go home, Fi.’ Just like that. As if I were a child."
+        ],
+        [
+          "fiona",
+          "The award was on the shelf by the door. I don’t remember picking it up. I remember standing there afterwards, and taking the pages, and switching his light off so the building would look empty. Then I went back to the Nest, said ‘Sorry! Router’, and smiled for another hour."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_fiona_confession"
+        ]
+      }
+    }
+  ],
+  "deductions": [
+    {
+      "id": "d_bench",
+      "title": "Fourteen minutes on a bench",
+      "symbol": "figure.run",
+      "question": "Did Joel go up to Will’s office while he sat on the bench?",
+      "options": [
+        "Yes: in by the bike-store door, twenty metres away",
+        "Yes: Will came down and let him in at the street door",
+        "No: his watch never climbed, and never left his wrist",
+        "No: his GPS would have shown him walking to the door"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "run_export"
+        ],
+        [
+          "police_summary",
+          "bench"
+        ]
+      ],
+      "proofLabels": [
+        "What his watch recorded on the bench",
+        "How high Will’s office is"
+      ],
+      "visibleWhen": {
+        "evidence": "run_export"
+      },
+      "conclusion": "GPS can’t tell a bench from a door twenty metres away, but a barometer can tell the square from the top of the house. Joel’s watch read nine metres above sea level when he sat down at 21:24, and nine when he stood up at 21:38. Will’s office is fourteen metres above the square: by the stairs or in the lift, the line would have climbed fourteen metres and come back down. His pulse never broke, so the watch never left his wrist, and it counted no steps. Joel sat on the bench for fourteen minutes, and he never went in."
+    },
+    {
+      "id": "d_found",
+      "title": "The three o’clock listeners",
+      "symbol": "waveform",
+      "question": "What did Joel show Will on Thursday?",
+      "options": [
+        "That Halcyon meant to close the Bristol office after the sale",
+        "That four in ten of Nightjar’s listeners were fake",
+        "That his own share options were worth almost nothing",
+        "That Larchwood had lied to Halcyon about the price"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "printout",
+          "st_joel_found"
+        ],
+        [
+          "wills_messages",
+          "st_gavin_door"
+        ]
+      ],
+      "proofLabels": [
+        "What Joel found",
+        "What Will made of it"
+      ],
+      "visibleWhen": {
+        "evidence": "printout"
+      },
+      "conclusion": "Since September, 412,316 accounts had played ‘Rain on a Tin Roof’ for exactly ten minutes at exactly three in the morning, and every one of them had signed up through a single link. Halcyon’s £60 million was a price per listener, and without them Nightjar had about 630,000. Joel showed Will at six, and by twenty past nine Will believed him: ‘Joel’s right. I’m not signing it.’ Whoever had bought those listeners had until nine o’clock on Friday morning, when Halcyon expected Will’s signature."
+    },
+    {
+      "id": "d_inside",
+      "title": "Somebody already upstairs",
+      "symbol": "lightbulb.fill",
+      "question": "Where did Will’s killer come from?",
+      "options": [
+        "The bike-store door, with the staff code",
+        "The street door, let in by Will",
+        "The kitchen, where somebody had waited since six",
+        "The Nest, at the far end of Nightjar’s own floor"
+      ],
+      "answer": 3,
+      "proof": [
+        [
+          "st_joel_lights"
+        ],
+        [
+          "nest_panel"
+        ]
+      ],
+      "proofLabels": [
+        "What Joel saw at half past nine",
+        "Who was already on the floor"
+      ],
+      "visibleWhen": {
+        "statement": "st_joel_lights"
+      },
+      "conclusion": "Nobody went in by either door while Joel watched them, and the intercom let nobody in all evening. At half past nine the lights came on along Nightjar’s floor, bank by bank, from the Nest towards Will’s office. The stairs and the lift come out at Will’s end, so whoever walked to his office walked out of the Nest. Somebody had been in the Nest since 18:34, without a booking."
+    },
+    {
+      "id": "d_who",
+      "title": "In the Nest",
+      "symbol": "video.fill",
+      "question": "Who was in the Nest on Thursday evening?",
+      "options": [
+        "Joel Lacey",
+        "Fiona Brodie",
+        "Gavin Rourke",
+        "Kai Campbell"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "call_record"
+        ],
+        [
+          "nest_panel",
+          "st_fiona_home"
+        ]
+      ],
+      "proofLabels": [
+        "Whose alibi doesn’t hold",
+        "When the Nest’s visitor arrived"
+      ],
+      "visibleWhen": {
+        "deduced": "d_inside"
+      },
+      "conclusion": "At 21:02, and again at 21:51, the sun was shining across Fiona’s kitchen and her clock said ten to three. In Bristol it had been dark since six, and raining all evening. In New York it was four in the afternoon, and nobody on the call thought twice about the sun. The mug in front of her came and went; the light behind her never moved. Fiona’s kitchen was a photograph. She said goodnight at half past six, and at 18:34 the Nest’s sensor saw somebody come in. Joel was on his bench, Kai was on a wall in Bedminster, and Gavin, never let in, was signing for whiskies at his hotel. Fiona took the New York call from the Nest, thirty metres from Will."
+    },
+    {
+      "id": "d_light",
+      "title": "Lights out",
+      "symbol": "lamp.desk.fill",
+      "question": "Who switched off Will’s light?",
+      "options": [
+        "Will himself, on his way home",
+        "The cleaner, early on Friday morning",
+        "Somebody who was with him after his heart stopped",
+        "Nobody: the office lights go off by themselves"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "st_joel_lights"
+        ],
+        [
+          "police_summary"
+        ]
+      ],
+      "proofLabels": [
+        "When Will’s light went off",
+        "When Will’s heart stopped"
+      ],
+      "visibleWhen": {
+        "statement": "st_fiona_alive"
+      },
+      "conclusion": "Will’s office light works from a switch by the door; the sensor lights are only out on the floor. Joel saw it go off at 21:36, two minutes after Will’s heart stopped at 21:34. A dead man doesn’t switch off his light. Somebody was standing in his office after he died, and switched it off on the way out, so the building would look empty. Nobody came in by either door all evening, and the only person on the floor was the one who walked out of the Nest. Fiona says Will was alive when she left him. He wasn’t."
+    }
+  ]
+}

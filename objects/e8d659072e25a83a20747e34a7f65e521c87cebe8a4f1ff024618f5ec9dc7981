@@ -1,0 +1,108 @@
+{
+  "evidence": [
+    {
+      "id": "police_summary",
+      "category": "document",
+      "symbol": "list.clipboard.fill",
+      "name": "Police summary",
+      "summary": "Will died at 21:34. The police say Joel went in by the bike store while he sat outside.",
+      "detail": "Avon and Somerset Police — summary for the family. Thursday 5 March 2026, a wet night.\n\nMr W. HARDING (43), chief executive of Nightjar Ltd, was found dead at 07:10 on Friday by the cleaner, at his desk in his corner office. Nightjar’s floor is the top floor of No. 31 Queen Square, fourteen metres above the square. Cause of death: blows to the head with a glass award from his office shelf, found on the floor, wiped. His office light, which works from a switch by the door, was off, and his blinds were down.\n\nTime of death: Mr HARDING’s sports watch recorded his pulse every second. It rose to 148 at 21:33 and stopped at 21:34.\n\nAccess after 18:00: the street door, by staff badge or the intercom (no badge entries; no door released); or the bike-store door on the square, by a keypad whose code all staff know (not logged). All other staff had left by 18:45, and have accounted for their evening.\n\nMr J. LACEY (29), lead developer. At 18:10, in the glass meeting room, staff heard him shout at Mr HARDING: ‘If you sign it tomorrow, I’ll tell them myself!’ He left at 20:51 and ran home. From 21:24 to 21:38 his running app places him on a bench in Queen Square, twenty metres from the bike-store door. A watch’s GPS is good to about ten metres beside tall buildings. We believe he went in by the bike store during those fourteen minutes.\n\nArrested Saturday 7 March, and released on bail. The Crown Prosecution Service is considering a charge of murder."
+    },
+    {
+      "id": "wills_messages",
+      "category": "document",
+      "symbol": "message.fill",
+      "name": "Will’s messages",
+      "summary": "Will and Claire on Thursday, ending at 21:20: ‘Joel’s right. I’m not signing it.’",
+      "detail": "Claire’s phone: her messages with Will on Thursday 5 March.\n\n17:02 Will: Big night. Don’t wait up x\n19:48 Claire: Kids are down. Have you eaten?\n20:05 Will: Pizza at my desk. Reading something Joel gave me\n21:20 Will: Joel’s right. I’m not signing it. I’ll tell you everything tomorrow x\n22:31 Claire: Coming home?\n23:40 Claire: Will?\n01:12 Claire: Please answer me"
+    },
+    {
+      "id": "joel_run",
+      "category": "document",
+      "symbol": "figure.run",
+      "name": "Joel’s run",
+      "summary": "10.4 km in fifty minutes of moving time, and sixty-five in all: fourteen of them on a bench in Queen Square.",
+      "detail": "Joel’s run on his running app, as the police printed it.\n\n‘Thursday run home’ · Thursday 5 March 2026 · 20:56–22:01 · 7°C, light rain\nDistance 10.4 km · Moving time 49:58 · Elapsed time 1:05:20 · Pace 4:48 /km\n\n(Moving time stops the clock whenever you stop. Elapsed time never stops.)\n\nMap: from No. 31 Queen Square, a loop of the harbour: Prince Street Bridge, Wapping Wharf, the Cumberland Basin and back along Hotwells. Into Queen Square again at 21:24, then south over the river and round Victoria Park, home to Southville.\n\nPace graph: flat from 21:24 to 21:38, at a bench on the north side of Queen Square, opposite No. 31."
+    },
+    {
+      "id": "run_export",
+      "category": "document",
+      "symbol": "timer",
+      "name": "Joel’s watch file",
+      "summary": "Every second Joel’s watch recorded on the bench: where he was, how high, and his pulse.",
+      "detail": "The file Joel’s watch recorded on Thursday, a line for every second. Joel downloads it for you from his account. On the bench, from 21:24:12 to 21:38:02:\n\nPosition: the bench, give or take nine metres.\nElevation, from the watch’s barometer: 9 metres above sea level when he sat down, and 9 metres when he stood up. Never above 10 in between.\nHeart rate: 126 as he sat down, settling to 64–71 by 21:27, unbroken to the end. (The watch reads the pulse through the skin of the wrist. Take it off, and the line stops.)\nSteps: none.\n\nAt 21:38:02 he is running again, south out of the square."
+    },
+    {
+      "id": "bench",
+      "category": "physical",
+      "symbol": "eye.fill",
+      "name": "The bench",
+      "summary": "Joel’s bench faces No. 31. Nightjar’s windows are the top row, fourteen metres up.",
+      "detail": "A slatted bench on the gravel path along the north side of Queen Square, under a plane tree. Its brass plaque says ‘For Dot, who sat here every day’.\n\nFrom it you look straight up at No. 31: four rows of tall windows, and Nightjar’s are the top row, under the parapet, fourteen metres up. Left to right: the Nest’s single window at the west end, six windows of open-plan desks, and Will’s corner office at the east end, its blinds still down.\n\nTwenty metres to your left, in the side wall, is the bike-store door with its keypad. Thirty metres to your right is the street door and its intercom. From the bench you can see them both."
+    },
+    {
+      "id": "intercom_log",
+      "category": "document",
+      "symbol": "bell.fill",
+      "name": "The intercom",
+      "summary": "One call to Nightjar after six on Thursday: a man in a camel coat at 21:06. The door stayed shut.",
+      "detail": "The intercom screen in the hall keeps a week of calls, each with a still from the camera in the street door.\n\nThursday 5 March:\n16:28 — to Nightjar. Answered. Door released. A tall man in a camel coat, wheeling a small suitcase.\n21:06 — to Nightjar. Answered on the office handset, 38 seconds. Door not released. The same tall man in the camel coat, collar up and rain on his shoulders, looking up into the camera.\n\nNo other calls after 18:00. No door released after 16:28."
+    },
+    {
+      "id": "printout",
+      "category": "document",
+      "symbol": "waveform",
+      "name": "Night traffic",
+      "summary": "Three pages Joel printed at 17:56 on Thursday: 412,316 listeners who all listen at exactly three in the morning.",
+      "detail": "Three pages from the printer tray, under a stack of Halcyon’s contract drafts, printed from Joel’s laptop at 17:56 on Thursday: two copies, and this is the second. At the top: ‘NIGHT TRAFFIC — for Will’.\n\nPage 1 is a graph of Nightjar’s listening, minute by minute, every night since September: low and ragged all night long, and a needle at exactly 03:00.\n\nPage 2: ‘412,316 accounts. Every one plays “Rain on a Tin Roof” for exactly 10:00, starting at 03:00:00, every night since 14 September. Nine phone models. One app version. Not one has ever paused, skipped or rated a track. All signed up through one link: nightjar.app/r/growthpartners, made by Kai on 12 September.’\n\nPage 3: ‘Halcyon pay per monthly listener: £60m for 1.04 million. Without these accounts we have about 630,000. Real people don’t do anything at exactly three o’clock. Will, please read this before Friday. J.’"
+    },
+    {
+      "id": "nest_panel",
+      "category": "physical",
+      "symbol": "calendar",
+      "name": "The Nest’s screen",
+      "summary": "Nobody booked the Nest on Thursday evening. Its sensor saw somebody there from 18:34 to 22:52.",
+      "detail": "The booking screen beside the Nest’s door, open at Thursday:\n\n14:00–15:00 · Booked · Design review\n18:34–22:52 · In use · Not booked (sensor)\n\nUnderneath, in small grey letters: ‘Please book the rooms you use! Unbooked use is reported to the office manager. A room stays in use until the sensor has seen nobody for fifteen minutes.’\n\nThe Nest is a room for one or two at the west end of the floor, as far from the stairs and the lift as you can get. It has a frosted-glass door, a small round wooden table, a screen and a window onto the square."
+    },
+    {
+      "id": "call_record",
+      "category": "document",
+      "symbol": "video.fill",
+      "name": "The New York call",
+      "summary": "The lawyers’ note of the call, with two stills: Fiona on camera at her kitchen table from nine until half past ten.",
+      "detail": "Halcyon’s lawyers in New York sent Fiona their note of Thursday’s call, with two stills from the recording. She forwards them to you.\n\n‘Halcyon / Nightjar, 21:00–22:30 GMT. Present: three of us, and F. Brodie (Nightjar), from home, on camera. Agreed: the papers are final; signing as planned, 09:00 Friday, Bristol.’\n\nStill, 21:02: Fiona at a round wooden table with a mug of tea. Behind her are bookshelves, a wall clock and a tall window. Sunlight falls across the shelves. The clock says ten to three.\n\nStill, 21:51: Fiona at the same table, the mug gone. The same shelves, the same patch of sunlight. The clock says ten to three."
+    },
+    {
+      "id": "gavin_messages",
+      "category": "document",
+      "symbol": "iphone",
+      "name": "Gavin’s messages",
+      "summary": "At 21:09 Gavin told Fiona that Will wasn’t signing. At 21:12 she answered: ‘Leave it with me.’",
+      "detail": "Gavin’s phone: his messages with Fiona on Thursday.\n\n19:00 Fiona: He’s wobbling. Joel’s got at him\n21:09 Gavin: Will won’t let me up. Says he’s not signing. Says the numbers are ‘wrong’. CALL ME\n21:12 Fiona: On with NY. Leave it with me.\n22:34 Gavin: Well??\n22:58 Fiona: Go to bed Gavin"
+    },
+    {
+      "id": "growth_report",
+      "category": "document",
+      "symbol": "envelope.fill",
+      "name": "Growth Partners’ report",
+      "summary": "February’s report from the agency that supplied the listeners: 412,316 of them, under an agreement a director signed.",
+      "detail": "An email Kai forwards you, sent on 2 March by Growth Partners Ltd. He is only copied in.\n\n‘To: Accounts, Nightjar · Cc: Kai Campbell\nFebruary: 412,316 engaged listeners maintained (target met).\nInvoice GP-0226: £41,200, payable under your agreement of 11 September, signed for Nightjar by a director.\nAs you asked, all activity is scheduled for 03:00, outside UK daytime.’"
+    },
+    {
+      "id": "gavin_bill",
+      "category": "document",
+      "symbol": "banknote.fill",
+      "name": "Gavin’s bar bill",
+      "summary": "Thursday’s bill from Gavin’s hotel bar: a whisky signed for at 20:38, then 21:22, 21:36 and 21:51.",
+      "detail": "Gavin’s bill from his hotel on the harbour, ten minutes’ walk from Queen Square: Thursday 5 March, charged to room 214, each line signed ‘G. Rourke’ at the bar.\n\n19:12 · Dinner for one\n20:38 · Talisker 18\n21:22 · Talisker 18\n21:36 · Talisker 18\n21:51 · Talisker 18\n22:40 · Talisker 18\n23:52 · Sparkling water"
+    },
+    {
+      "id": "kai_video",
+      "category": "document",
+      "symbol": "film.fill",
+      "name": "Kai’s video",
+      "summary": "Posted at 21:31: Kai on the bouldering wall in Bedminster, falling off the last hold.",
+      "detail": "A video in Kai’s story, posted at 21:31 on Thursday by his climbing partner. Kai is on the overhang at the bouldering wall in Bedminster. He reaches for the last hold, misses, and drops onto the mat. Behind him, the clock above the café counter says 21:30, and through the café’s windows the street is dark and wet.\n\nThe caption: ‘week five. still no 😤’"
+    }
+  ]
+}
