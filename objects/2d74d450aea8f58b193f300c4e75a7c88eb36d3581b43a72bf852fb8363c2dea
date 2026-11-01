@@ -1,0 +1,346 @@
+{
+  "contradictions": [
+    {
+      "id": "c_viktor_alibi",
+      "statement": "st_viktor_alibi",
+      "proof": [
+        "analysis_notebook",
+        "cafe_receipt",
+        "coat_check"
+      ],
+      "title": "The empty chair",
+      "insight": "Viktor says he stayed in the analysis room, but his notebook describes the altered demonstration position and his jacket was missing when the service key was out. The café receipt places him outside at 18:08.",
+      "response": [
+        [
+          "viktor",
+          "I left for coffee after six. The notebook does not say I was sitting there every second."
+        ],
+        [
+          "you",
+          "Your 18:06 note describes pieces moved on the demonstration board, and your jacket was missing when SERVICE 2 was out."
+        ],
+        [
+          "viktor",
+          "I looked at the board before I left. Someone else could have moved the pieces after me."
+        ],
+        [
+          "narrator",
+          "Viktor’s alibi has become a story about being nearby, not proof that he stayed in the analysis room."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "c_viktor_result",
+      "statement": "st_viktor_result",
+      "proof": [
+        "round8_scores",
+        "result_slips",
+        "board_four_sheet"
+      ],
+      "title": "Not a copied result",
+      "insight": "The signed sheet records a draw, while the later 1–0 slip uses Viktor’s squared-off V and agrees with the altered position on the demonstration board.",
+      "response": [
+        [
+          "viktor",
+          "I corrected nothing. The board was already wrong when I saw it."
+        ],
+        [
+          "you",
+          "The signed sheet says a draw. The replacement slip and the altered demonstration position both favour Maja."
+        ],
+        [
+          "viktor",
+          "Maja was winning the game in every meaningful sense. A careless result slip should not erase that."
+        ],
+        [
+          "narrator",
+          "Viktor’s explanation turns a signed result into a matter of opinion. Boris’s appeal says the opposite: the record must follow the board, not a coach’s judgement."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "c_sara_result",
+      "statement": "st_sara_result",
+      "proof": [
+        "desk_items",
+        "result_slips",
+        "bell_log"
+      ],
+      "title": "The correction she did not mention",
+      "insight": "Sara says the replacement slip was already on the board when she returned, but Boris’s desk ledger shows he was reviewing that exact slip before the break ended.",
+      "response": [
+        [
+          "sara",
+          "I did not write the 1–0. I only saw it after I came back from the foyer."
+        ],
+        [
+          "you",
+          "Boris had the replacement under the signed sheet, and your bell log says you checked the stage at 17:52. You knew he was challenging it."
+        ],
+        [
+          "sara",
+          "I knew he was checking a result. I did not know he had hidden the appeal, and I was afraid to admit I had let the slip reach the board."
+        ],
+        [
+          "narrator",
+          "Sara hid a paperwork mistake, but the records do not place her in the service corridor during the death window."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "c_elena_attendance",
+      "statement": "st_elena_grant",
+      "proof": [
+        "sponsor_grant",
+        "entry_ledger"
+      ],
+      "title": "The missing signatures",
+      "insight": "Elena needed a full event for the city grant, but the attendance ledger shows the final round was not yet underway and the missing signatures were already known.",
+      "response": [
+        [
+          "elena",
+          "I needed the final round to happen. That does not mean I needed Boris silenced."
+        ],
+        [
+          "you",
+          "You wrote that Boris must not cancel the ceremony, while the attendance sheet was short by seven signatures."
+        ],
+        [
+          "elena",
+          "He was going to give me an hour to collect them. I was at the sponsor table, not behind his stage."
+        ],
+        [
+          "narrator",
+          "Elena had public pressure and a fragile grant, but her own paperwork keeps her in the foyer."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "c_dragan_key",
+      "statement": "st_dragan_key",
+      "proof": [
+        "service_key_log",
+        "entry_ledger"
+      ],
+      "title": "The badge was not permission",
+      "insight": "Dragan says Viktor was trusted with the service key, but the club rule allowed only officials to sign it out and the return line is blank.",
+      "response": [
+        [
+          "dragan",
+          "I made a practical decision. Viktor knew the building and had used that corridor for years."
+        ],
+        [
+          "you",
+          "The rule says only arbiters and the club president may sign out SERVICE 2."
+        ],
+        [
+          "dragan",
+          "Then I should have stopped him. I did not think a key for the courtyard would matter."
+        ],
+        [
+          "narrator",
+          "Dragan admits he gave Viktor access, but the key record still points away from Dragan and toward the person who signed it out."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "c_nikola_break",
+      "statement": "st_nikola_break",
+      "proof": [
+        "journalist_notes",
+        "entry_ledger"
+      ],
+      "title": "The camera was in public",
+      "insight": "Nikola’s photographs place him in the public hall during the break, but his notes show that he was following Boris’s private appeal and knew a document was expected.",
+      "response": [
+        [
+          "nikola",
+          "I wanted the story, not a body. My camera never went behind the stage."
+        ],
+        [
+          "you",
+          "You knew Boris had a sealed document and that it concerned Viktor."
+        ],
+        [
+          "nikola",
+          "Knowing a story is coming is not the same as owning it. I was waiting for the final round."
+        ],
+        [
+          "narrator",
+          "Nikola had a reason to watch Boris, but his time-stamped photographs keep him in the open hall."
+        ]
+      ],
+      "reward": {}
+    }
+  ],
+  "deductions": [
+    {
+      "id": "d_time",
+      "title": "The break was not empty",
+      "symbol": "clock.fill",
+      "question": "What does the stopped clock establish?",
+      "options": [
+        "Boris was killed exactly at 17:48, when Round Eight ended",
+        "Something struck or knocked the clock at about 18:06, inside the death window",
+        "The final round had already begun when Boris died",
+        "The clock proves Sara was in the arbiter’s room"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "police_report"
+        ],
+        [
+          "tournament_schedule",
+          "clock_control"
+        ]
+      ],
+      "proofLabels": [
+        "The medical window",
+        "The break clock"
+      ],
+      "visibleWhen": {
+        "evidence": "clock_control"
+      },
+      "conclusion": "Boris was killed during the scheduled break, not during a game. The clock was struck or knocked at about 18:06, within the police window of 17:55 to 18:10. It gives the investigation a moment to test against the suspects’ alibis, not a complete answer by itself.",
+      "reward": {}
+    },
+    {
+      "id": "d_route",
+      "title": "Behind the stage",
+      "symbol": "arrow.turn.up.right",
+      "question": "How could someone reach Boris without crossing the public hall?",
+      "options": [
+        "Through the street door and around the building",
+        "Through the service corridor from the analysis room",
+        "By hiding in the foyer until the final round",
+        "Through the tall windows facing Širok Sokak"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "hall_plan"
+        ],
+        [
+          "service_key_log",
+          "back_corridor"
+        ]
+      ],
+      "proofLabels": [
+        "The building route",
+        "The key and the latch"
+      ],
+      "visibleWhen": {
+        "evidence": "hall_plan"
+      },
+      "conclusion": "The analysis room connects to Boris’s office through the staff corridor behind the stage. SERVICE 2 opens the arbiter’s door, and the route is outside the view of the crowd and the café.",
+      "reward": {}
+    },
+    {
+      "id": "d_record",
+      "title": "A result cannot be rewritten",
+      "symbol": "doc.text",
+      "question": "What happened to the Board Four result?",
+      "options": [
+        "Maja won after Katerina resigned at the board",
+        "A signed draw was replaced by an unsigned win during the break",
+        "The players forgot to sign the original sheet",
+        "Boris had already approved the correction before Round Eight"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "round8_scores"
+        ],
+        [
+          "result_slips",
+          "desk_items"
+        ]
+      ],
+      "proofLabels": [
+        "The signed game",
+        "The later correction"
+      ],
+      "visibleWhen": {
+        "evidence": "round8_scores"
+      },
+      "conclusion": "Board Four ended as a signed draw at 17:38. A later unsigned slip changed it to a win for Maja and was placed on the results board during the break. Boris was reviewing the alteration when he died.",
+      "reward": {}
+    },
+    {
+      "id": "d_report",
+      "title": "The report before the prize",
+      "symbol": "envelope.fill",
+      "question": "What was Boris about to send to the federation?",
+      "options": [
+        "A request to cancel Elena’s city grant",
+        "A report about an altered result and Viktor’s role in it",
+        "A resignation from the national federation",
+        "A complaint that Nikola photographed the wrong board"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "appeal_envelope"
+        ],
+        [
+          "old_match_report",
+          "journalist_notes"
+        ]
+      ],
+      "proofLabels": [
+        "Boris’s sealed appeal",
+        "The older pattern"
+      ],
+      "visibleWhen": {
+        "evidence": "appeal_envelope"
+      },
+      "conclusion": "Boris was preparing to report that Board Four’s draw had been changed after the players signed, repeating the pattern from 2018. The appeal named Viktor’s role and was meant to be opened before the prize ceremony.",
+      "reward": {}
+    },
+    {
+      "id": "d_who",
+      "title": "The player who left the room",
+      "symbol": "person.crop.circle.badge.checkmark",
+      "question": "Who connects the service route to Boris’s report?",
+      "options": [
+        "Maja Velkova",
+        "Viktor Markovski",
+        "Elena Stojanovska",
+        "Dragan Petrov"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "service_key_log",
+          "coat_check"
+        ],
+        [
+          "appeal_envelope",
+          "result_slips"
+        ]
+      ],
+      "proofLabels": [
+        "Who held the route",
+        "Who had something to lose"
+      ],
+      "visibleWhen": {
+        "all": [
+          {
+            "deduced": "d_route"
+          },
+          {
+            "deduced": "d_report"
+          }
+        ]
+      },
+      "conclusion": "Viktor signed out SERVICE 2, disappeared from the analysis room, bought coffee after the stopped clock and returned the key without initials. Boris was preparing to report Viktor’s role in the altered result. The route, the timing and the threatened report meet on the same person.",
+      "reward": {}
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "topics": [
+    {
+      "id": "t_viv_ice",
+      "suspect": "vivienne",
+      "prompt": "Tell me about the Black Ice.",
+      "lines": [
+        [
+          "you",
+          "Dame Vivienne, tell me about the Black Ice."
+        ],
+        [
+          "vivienne",
+          "Archie gave it to me on the day we married, in 1969. He said it looked like black ice on a road: beautiful, and you never see it coming. I wore it in his film, in this very hall."
+        ],
+        [
+          "vivienne",
+          "In 2004 he came here to die. The snow shut the glen for six weeks and no nurse could get up. Halina sat with him every night. She washed him, she read to him, she held his hand when it happened. I had my diamond, and she had nothing. Now she had it."
+        ],
+        [
+          "vivienne",
+          "Rory thinks it should have been his, and stood up at supper to tell everybody so. Nobody else had a claim on it."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_viv_claim"
+        ]
+      }
+    },
+    {
+      "id": "t_viv_night",
+      "suspect": "vivienne",
+      "prompt": "Where were you when the lights went out?",
+      "lines": [
+        [
+          "vivienne",
+          "In the middle of the band’s photograph, with Alasdair’s arm round me. The flash went, and a breath later, the dark."
+        ],
+        [
+          "vivienne",
+          "Alasdair lit candles and got everyone round the fire. People were frightened, so I sang them some Burns. I haven’t sung in public since 1979, and I was terrible."
+        ],
+        [
+          "vivienne",
+          "Peggy came down at twenty to one, white as a sheet. She hates the dark, poor lamb; she’d sat it out upstairs on her own. At quarter to one she took me up to bed."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_rory_night",
+      "suspect": "rory",
+      "prompt": "Where were you when the lights went out?",
+      "lines": [
+        [
+          "you",
+          "Mr Lisle, where were you when the lights went out?"
+        ],
+        [
+          "rory",
+          "In bed. After my little scene at supper I went up at half eleven, poured myself a large one and passed out. I slept through the whole thing. I didn’t know a thing had happened until Peggy banged on my door this morning."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_rory_bed"
+        ]
+      }
+    },
+    {
+      "id": "t_rory_gift",
+      "suspect": "rory",
+      "prompt": "Tell me about the gift.",
+      "lines": [
+        [
+          "rory",
+          "That stone was my mother’s to inherit. She died when I was nineteen. Gran always said, ‘It’ll come to you, darling.’ And then she hangs it round the housekeeper’s neck in front of a roomful of strangers, with a speech."
+        ],
+        [
+          "rory",
+          "So yes, I stood up and said so, and when the speeches were over I walked out. I’m not proud of it. Gran would have wanted it back by Monday anyway; she always does. But I’d no reason on earth to hurt Mrs K. She brought me hot chocolate when I was eight."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_peggy_night",
+      "suspect": "peggy",
+      "prompt": "Where were you when the lights went out?",
+      "lines": [
+        [
+          "you",
+          "Miss Rennie, where were you when the lights went out?"
+        ],
+        [
+          "peggy",
+          "Peggy, please. I went up at half past eleven to get Vivienne’s things ready for bed, as I have every night here for forty-five winters. I was in the suite from then until the lights came back."
+        ],
+        [
+          "peggy",
+          "When they went out I sat very still in the dark and waited. I don’t like the dark. When I’d got my nerve back I came down, and found everybody singing."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_peggy_suite"
+        ]
+      }
+    },
+    {
+      "id": "t_peggy_viv",
+      "suspect": "peggy",
+      "prompt": "Tell me about Dame Vivienne.",
+      "lines": [
+        [
+          "peggy",
+          "I’ve dressed her since 1981. Forty quick changes a night in the West End: hooks and eyes in the dark, with my torch in my teeth."
+        ],
+        [
+          "narrator",
+          "She touches the pencil torch she wears on a cord round her neck: a habit, she says, from forty years in the wings."
+        ],
+        [
+          "peggy",
+          "She’s dying, you know. She doesn’t want a fuss. Giving Halina the Black Ice was so like her: a grand gesture, and no warning to anyone."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_al_night",
+      "suspect": "alasdair",
+      "prompt": "Where were you after the gift?",
+      "lines": [
+        [
+          "you",
+          "Mr Munro, where were you after the gift?"
+        ],
+        [
+          "alasdair",
+          "In the Great Hall, running a Burns supper. I never left it. I called the last dance, I was in the band’s photo with Dame Vivienne, and when the lights went I had candles lit inside two minutes."
+        ],
+        [
+          "alasdair",
+          "I counted heads at half past twelve. Mrs K wasn’t there, and I thought nothing of it: she’d often slip across to the cottage after her rounds. God forgive me."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_al_hall"
+        ]
+      }
+    },
+    {
+      "id": "t_al_hotel",
+      "suspect": "alasdair",
+      "prompt": "Tell me about the Glenmorran.",
+      "lines": [
+        [
+          "alasdair",
+          "My great-grandfather bought it in 1920. Queen Victoria took tea in the library, and Dame Vivienne made her film in the hall. We still turn the beds down with shortbread and a hot water bottle. People come back for fifty years."
+        ],
+        [
+          "alasdair",
+          "It’s a hard old place to keep going. The roof alone would break you. But we manage."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_ham_night",
+      "suspect": "hamish",
+      "prompt": "What happened when the lights went out?",
+      "lines": [
+        [
+          "you",
+          "Mr Grant, what happened when the lights went out?"
+        ],
+        [
+          "hamish",
+          "I was on the phone to the Dalmore depot at the desk. The lights went, and the phone with them. When a storm takes the lights, it’s the line down the glen, and nothing in the plant room will help ye. So I lit the desk candle and went straight out to the stable block for the generator. She wouldn’t start. Twenty minutes in the snow, swearing at her."
+        ],
+        [
+          "hamish",
+          "Twenty past twelve, I gave up on her and thought: the main switch. Down to the plant room, and sure enough it had tripped. Storms trip that switch every winter. I pushed it up, and we had the lights back at 00:24."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_ham_storm"
+        ]
+      }
+    },
+    {
+      "id": "t_ham_halina",
+      "suspect": "hamish",
+      "prompt": "Tell me about Mrs K.",
+      "lines": [
+        [
+          "hamish",
+          "Twenty-two years she ran this house. She knew every guest’s pillows and every guest’s secrets, and she never told one of them."
+        ],
+        [
+          "hamish",
+          "On a big night she’d do the first floor herself. ‘The best rooms get the best turndown,’ she’d say. Shortbread on the pillow, a hot water bottle in the bed, curtains drawn, and a tick on her list."
+        ],
+        [
+          "hamish",
+          "Come March the bank’ll have the place, and there’s no new owner wants a night porter of sixty-three. Mrs K always said she’d see me right. Last night she was wearing the means to do it round her neck."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_tom_night",
+      "suspect": "tomasz",
+      "prompt": "Where were you in the dark?",
+      "lines": [
+        [
+          "you",
+          "Tomasz, where were you in the dark?"
+        ],
+        [
+          "tomasz",
+          "Behind my bar, all the time. When the lights went, I lit candles and kept serving. People want a whisky in the dark. I never left the bar."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_tom_bar"
+        ]
+      }
+    },
+    {
+      "id": "t_tom_halina",
+      "suspect": "tomasz",
+      "prompt": "Tell me about Mrs K.",
+      "lines": [
+        [
+          "tomasz",
+          "Pani Halina found me this job when I was washing dishes in Inverness. She fed me every Sunday: pierogi, here in the Highlands."
+        ],
+        [
+          "tomasz",
+          "Last night she showed me the stone under her collar like a schoolgirl. ‘Tomek, what does a housekeeper do with a diamond?’ I said, ‘Sell it, and buy a house.’ She laughed at me."
+        ]
+      ],
+      "reward": {}
+    }
+  ],
+  "statements": [
+    {
+      "id": "st_viv_claim",
+      "suspect": "vivienne",
+      "text": "Rory thinks the Black Ice should have been his. Nobody else had a claim on it."
+    },
+    {
+      "id": "st_viv_promise",
+      "suspect": "vivienne",
+      "text": "In 1985 I wrote Peggy a card promising her the Black Ice once I’m gone. I’d forgotten it."
+    },
+    {
+      "id": "st_rory_bed",
+      "suspect": "rory",
+      "text": "I went up at half past eleven and slept through the whole thing."
+    },
+    {
+      "id": "st_rory_car",
+      "suspect": "rory",
+      "text": "From twenty to twelve until half past twelve I sat in my car by the gatepost, where the signal is. Most of that time I was on the phone to my bookmaker about my debts."
+    },
+    {
+      "id": "st_peggy_suite",
+      "suspect": "peggy",
+      "text": "I was in the suite from half past eleven until the lights came back."
+    },
+    {
+      "id": "st_peggy_kitchen",
+      "suspect": "peggy",
+      "text": "At quarter to twelve I went down to the kitchens to heat milk for Vivienne. I was there when the lights went out, and I felt my way back up in the dark. I never saw Halina."
+    },
+    {
+      "id": "st_peggy_torch",
+      "suspect": "peggy",
+      "text": "I came up the back stairs by my own torch and went straight to my room. I never went near the linen room, and I never saw Halina."
+    },
+    {
+      "id": "st_peggy_confession",
+      "suspect": "peggy",
+      "text": "I switched off the main switch, struck Halina with her own torch in the linen room, and hid the Black Ice on my window ledge. Vivienne promised it to me."
+    },
+    {
+      "id": "st_al_hall",
+      "suspect": "alasdair",
+      "text": "After the gift I never left the Great Hall."
+    },
+    {
+      "id": "st_al_bank",
+      "suspect": "alasdair",
+      "text": "At 23:45 I went up and asked Mrs K to lend the hotel the Black Ice as security for the bank. She refused, and I came straight back down."
+    },
+    {
+      "id": "st_ham_storm",
+      "suspect": "hamish",
+      "text": "The main switch had tripped. Storms trip that switch every winter."
+    },
+    {
+      "id": "st_ham_off",
+      "suspect": "hamish",
+      "text": "When I got to the plant room, the main switch was right down at OFF, not halfway as a trip leaves it, and the plant-room door was unlocked."
+    },
+    {
+      "id": "st_tom_bar",
+      "suspect": "tomasz",
+      "text": "In the dark I never left the bar."
+    },
+    {
+      "id": "st_tom_beam",
+      "suspect": "tomasz",
+      "text": "At about eight minutes past twelve I saw a thin torch beam, like a pencil, go into the Victoria Suite at the end of the corridor."
+    }
+  ]
+}

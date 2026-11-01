@@ -1,0 +1,69 @@
+{
+  "suspects": [
+    {
+      "id": "iris",
+      "name": "Iris Chen",
+      "role": "The head of rights",
+      "age": 39,
+      "bio": "Rookery’s head of rights, and the person who can name almost every voice in its archive. Iris joined Marcus three years ago after working for a major catalogue company. She speaks carefully, keeps the archive immaculate, and says the Vesper sale is the only way Rookery can survive.",
+      "symbol": "doc.text.magnifyingglass",
+      "color": "#2F5963",
+      "monogram": "IC",
+      "portrait": "portraits/iris.png",
+      "dismissal": "I’m afraid you’ve mistaken a routine rights audit for a crime.",
+      "rebuttal": "I managed those rights because somebody had to. Marcus made promises to everyone and kept records for no one. I did not kill him."
+    },
+    {
+      "id": "tom",
+      "name": "Tom Hargreaves",
+      "role": "The late-night host",
+      "age": 34,
+      "bio": "The voice of Rookery After Dark: quick, funny, and more popular than the station that employs him. Tom had a loud argument with Marcus about the Vesper sale earlier in the evening. At 23:00, his programme sounded as if he were still in Studio A.",
+      "symbol": "mic.fill",
+      "color": "#C38A2E",
+      "monogram": "TH",
+      "portrait": "portraits/tom.png",
+      "dismissal": "That’s a very dramatic way to misunderstand radio.",
+      "rebuttal": "Marcus and I fought about a contract. I was angry, not murderous. And if you want to know where I was, ask the pub."
+    },
+    {
+      "id": "anika",
+      "name": "Anika Rao",
+      "role": "The chief operating officer",
+      "age": 42,
+      "bio": "Anika co-founded Rookery with Marcus and has spent the last year trying to make its finances orderly enough to sell. She is direct, tired, and protective of the staff. She says she left before nine to take a train home after Marcus told her the sale might be delayed.",
+      "symbol": "briefcase.fill",
+      "color": "#8A4B5C",
+      "monogram": "AR",
+      "portrait": "portraits/anika.png",
+      "dismissal": "You’re building a theory out of an unpleasant meeting.",
+      "rebuttal": "I was the person trying to keep Rookery alive. Marcus could be impossible, but I had no reason to silence him."
+    },
+    {
+      "id": "ben",
+      "name": "Ben Bell",
+      "role": "The sound engineer",
+      "age": 28,
+      "bio": "Ben keeps the studios, racks, and cables alive. He is good with equipment and bad with explanations, especially after a shortcut goes wrong. He found Marcus at 22:30 and admits he knew the late-night show could fall back to a recording.",
+      "symbol": "wrench.and.screwdriver.fill",
+      "color": "#2756A3",
+      "monogram": "BB",
+      "portrait": "portraits/ben.png",
+      "dismissal": "That’s not how the rack works. Or the night. Or any of this.",
+      "rebuttal": "I left the system in fallback because I was fixing it. I found Marcus, called the police, and stayed here. That’s everything."
+    },
+    {
+      "id": "felix",
+      "name": "Felix Ward",
+      "role": "The Vesper acquisition lead",
+      "age": 46,
+      "bio": "Felix Ward negotiated Vesper Media’s eighteen-million-pound offer. He is polished, impatient, and accustomed to people calling a deadline a crisis. He met Marcus at Rookery at 20:04 and says he left with the deal intact.",
+      "symbol": "building.2.fill",
+      "color": "#9A6F45",
+      "monogram": "FW",
+      "portrait": "portraits/felix.png",
+      "dismissal": "You’re confusing leverage with motive.",
+      "rebuttal": "I had a commercial disagreement with Marcus. Killing him would destroy the transaction I was paid to close."
+    }
+  ]
+}

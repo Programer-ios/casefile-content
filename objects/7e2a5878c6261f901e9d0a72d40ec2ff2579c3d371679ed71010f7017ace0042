@@ -1,0 +1,403 @@
+{
+  "contradictions": [
+    {
+      "id": "c_al_hall",
+      "statement": "st_al_hall",
+      "proof": [
+        "turndown_list"
+      ],
+      "title": "Mr M came up",
+      "insight": "At 23:45, on the first floor, Mrs K wrote on her list: ‘Mr M came up. The bank. NO.’",
+      "response": [
+        [
+          "alasdair",
+          "…She wrote it down. Of course she did."
+        ],
+        [
+          "alasdair",
+          "The bank takes the Glenmorran in March. A hundred and six years of Munros, and I’m the one who loses it. So I went up and asked her to lend us the stone as security, just until the summer. She said no, and she was right."
+        ],
+        [
+          "alasdair",
+          "I was back in the hall inside five minutes. I’m in the middle of the band’s photo at three minutes to midnight. Look at it."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_al_bank"
+        ]
+      }
+    },
+    {
+      "id": "c_peggy_suite",
+      "statement": "st_peggy_suite",
+      "proof": [
+        "turndown_list"
+      ],
+      "title": "Nobody in",
+      "insight": "At 23:52 Mrs K turned down the Victoria Suite and Miss Rennie’s room, and wrote ‘Nobody in’. Miss Rennie says she was in the suite from half past eleven.",
+      "response": [
+        [
+          "peggy",
+          "…No. Not at that moment, I wasn’t. How silly of me."
+        ],
+        [
+          "peggy",
+          "I’d gone down to the kitchens to heat some milk for Vivienne. She sleeps better with it. I was down there when the lights went out, and I felt my way back up the back stairs in the dark."
+        ],
+        [
+          "peggy",
+          "I never saw Halina. If I’d known she was up there on her own…"
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_peggy_kitchen"
+        ]
+      }
+    },
+    {
+      "id": "c_rory_bed",
+      "statement": "st_rory_bed",
+      "proof": [
+        "rory_bed",
+        "turndown_list"
+      ],
+      "title": "Shortbread on the pillow",
+      "insight": "Rory’s bed is exactly as Mrs K turned it down at 23:48, when he wasn’t in: the corner folded back, the shortbread on the pillow. Nobody slept in it.",
+      "response": [
+        [
+          "rory",
+          "…She did my bed, and I never even saw her."
+        ],
+        [
+          "rory",
+          "All right. I owe a man in London sixty thousand pounds, and he doesn’t send reminders by letter. At twenty to twelve I went out to the car, ran the engine for the heater and sat by the gatepost where the signal is, begging him for another month."
+        ],
+        [
+          "rory",
+          "It took me ten minutes to work up the nerve to ring him, and then I was on the phone for twenty. The hotel went dark in the middle of it. I came in at half past twelve and sat in that chair till morning. Here. See for yourself."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "rory_calls"
+        ],
+        "statements": [
+          "st_rory_car"
+        ]
+      }
+    },
+    {
+      "id": "c_ham_storm",
+      "statement": "st_ham_storm",
+      "proof": [
+        "cottage",
+        "plant_room"
+      ],
+      "title": "Not the storm",
+      "insight": "The staff cottage, on the same cable up the glen, never lost its power, so it wasn’t the storm. And by Hamish’s own card a tripped lever sits halfway, and has to go down before it goes up. He says he just pushed it up.",
+      "response": [
+        [
+          "hamish",
+          "…Aye. I’ve been telling myself all morning it was the storm. It wasnae, was it?"
+        ],
+        [
+          "hamish",
+          "And I’ll tell ye what I didn’t stop to think about. When I got to the plant room, the lever wasn’t halfway. A trip leaves it halfway; I wrote the card on the wall myself. It was right down. Off. I was frozen and in a hurry, with a hotel full of folk in the dark, so I pushed it up and wrote ‘tripped’ in the book, like every other winter."
+        ],
+        [
+          "hamish",
+          "And the door was unlocked, with the key from the boot room still in it. I lock that door myself. Anybody who’s been here long enough knows where that key lives."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_ham_off"
+        ]
+      }
+    },
+    {
+      "id": "c_tom_bar",
+      "statement": "st_tom_bar",
+      "proof": [
+        "wax"
+      ],
+      "title": "Red wax on the stairs",
+      "insight": "Red candle wax on the top of the main stairs. The Great Hall’s candles were white; the red supper candles were in a box behind the bar.",
+      "response": [
+        [
+          "tomasz",
+          "…Yes. I went up."
+        ],
+        [
+          "tomasz",
+          "At five past twelve I thought: Pani Halina is up there alone in the dark. So I took a red candle from the box and went up the main stairs. I called her name along the corridor. Nothing."
+        ],
+        [
+          "tomasz",
+          "At the far end, by the Victoria Suite, I saw a little light. A thin beam, like a pencil. It went into the suite and the door closed. I thought it was her. So I went back down to my bar."
+        ],
+        [
+          "tomasz",
+          "I didn’t tell anyone. A Polish barman upstairs in the dark, the night a diamond goes missing. Who believes him?"
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_tom_beam"
+        ]
+      }
+    },
+    {
+      "id": "c_peggy_torch",
+      "statement": "st_peggy_kitchen",
+      "proof": [
+        "st_tom_beam"
+      ],
+      "title": "A pencil of light",
+      "insight": "At about eight minutes past twelve Tomasz saw a thin torch beam, like a pencil, go into the Victoria Suite. Miss Rennie wears a pencil torch round her neck, and says she felt her way up in the dark.",
+      "response": [
+        [
+          "narrator",
+          "Her hand goes to the pencil torch on its cord."
+        ],
+        [
+          "peggy",
+          "…Yes. I always have it with me. I said I felt my way because it sounded braver than the truth, which is that I was frightened, and I used my torch all the way up."
+        ],
+        [
+          "peggy",
+          "I came up the back stairs and went straight to my room, and I sat on my bed until the lights came back. I didn’t stop anywhere, and I didn’t see Halina. I’d give anything now to have seen her."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_peggy_torch"
+        ]
+      }
+    },
+    {
+      "id": "c_peggy_room",
+      "statement": "st_peggy_torch",
+      "proof": [
+        "d_ice"
+      ],
+      "title": "Black ice",
+      "insight": "The Black Ice, torn from Mrs K’s neck, is frozen into Miss Rennie’s tooth mug on Miss Rennie’s window ledge. She says she went straight to her room and never went near the linen room.",
+      "response": [
+        [
+          "peggy",
+          "…You looked out of the window. Nobody looks out of the window."
+        ],
+        [
+          "peggy",
+          "In the storm of 1998 I held the torch for old Mr Dunbar, the handyman, while he put the big switch back. I’ve never forgotten anything about this hotel. Last night I went down the back stairs, took the key from the boot room, and pushed the switch down."
+        ],
+        [
+          "peggy",
+          "I only meant to take it in the dark. She’d never have known who. But she had her torch, and she put it on my face and said, ‘Peggy?’ So I told her. ‘It’s mine, Hal. She promised it to me.’ And she said, ‘Then ask her,’ and turned back to her pillowcases, as if I’d come for an extra towel."
+        ],
+        [
+          "peggy",
+          "She’d put the torch down on the shelf. I hit her once. I took the chain, and I switched her torch off, because a light on that floor would have brought somebody. Then I heard Tomasz on the main stairs, calling for her, and I went to my room. I put the stone in my tooth mug, filled it at the basin, and set it out in the snow."
+        ],
+        [
+          "peggy",
+          "Forty-five years I’ve dressed that woman. She gave it away with a speech, and I clapped."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_peggy_confession"
+        ]
+      }
+    },
+    {
+      "id": "c_peggy_room_k",
+      "statement": "st_peggy_kitchen",
+      "proof": [
+        "d_ice"
+      ],
+      "title": "Black ice",
+      "insight": "The Black Ice, torn from Mrs K’s neck, is frozen into Miss Rennie’s tooth mug on Miss Rennie’s window ledge. She says she never saw Mrs K.",
+      "response": [
+        [
+          "peggy",
+          "…You looked out of the window. Nobody looks out of the window."
+        ],
+        [
+          "peggy",
+          "In the storm of 1998 I held the torch for old Mr Dunbar, the handyman, while he put the big switch back. I’ve never forgotten anything about this hotel. Last night I went down the back stairs, took the key from the boot room, and pushed the switch down."
+        ],
+        [
+          "peggy",
+          "I only meant to take it in the dark. She’d never have known who. But she had her torch, and she put it on my face and said, ‘Peggy?’ So I told her. ‘It’s mine, Hal. She promised it to me.’ And she said, ‘Then ask her,’ and turned back to her pillowcases, as if I’d come for an extra towel."
+        ],
+        [
+          "peggy",
+          "She’d put the torch down on the shelf. I hit her once. I took the chain, and I switched her torch off, because a light on that floor would have brought somebody. Then I heard Tomasz on the main stairs, calling for her, and I went to my room. I put the stone in my tooth mug, filled it at the basin, and set it out in the snow."
+        ],
+        [
+          "peggy",
+          "Forty-five years I’ve dressed that woman. She gave it away with a speech, and I clapped."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_peggy_confession"
+        ]
+      }
+    },
+    {
+      "id": "c_viv_claim",
+      "statement": "st_viv_claim",
+      "proof": [
+        "promise_card"
+      ],
+      "title": "A card from 1985",
+      "insight": "In 1985 Dame Vivienne wrote to Peggy: ‘When I’m gone, the Black Ice will be yours.’ Peggy kept the card in her handbag for forty years.",
+      "response": [
+        [
+          "vivienne",
+          "…Oh, Peg."
+        ],
+        [
+          "vivienne",
+          "Archie’s last première. A seam went in the interval, and she sewed me back into the dress in the dark with a needle in her teeth. I was drunk on the applause, and I wrote her that. I’d quite forgotten it."
+        ],
+        [
+          "vivienne",
+          "She never said one word about it. Not once in forty years. And last night she clapped."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_viv_promise"
+        ]
+      }
+    }
+  ],
+  "deductions": [
+    {
+      "id": "d_last",
+      "title": "Lights out",
+      "symbol": "clock.fill",
+      "question": "When was Mrs K last alive?",
+      "options": [
+        "At 23:15, at the supper, with the Black Ice round her neck",
+        "At 23:45, on the first floor, refusing Mr Munro",
+        "At 23:58, in the linen room, as the lights went out",
+        "At 00:40, crossing the yard to the cottage"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "turndown_list"
+        ],
+        [
+          "night_book",
+          "depot_call",
+          "till_roll"
+        ]
+      ],
+      "proofLabels": [
+        "What she wrote last",
+        "When the lights went out"
+      ],
+      "visibleWhen": {
+        "evidence": "turndown_list"
+      },
+      "conclusion": "Mrs K’s last line runs crooked across her list, written by torchlight: ‘Linen room. LIGHTS OUT!’ The lights went out at 23:58. She was alive in the linen room when the hotel went dark, and Dr Shaw’s window of 23:30 to 01:30 fits. She was killed in the dark, by somebody who came to her there."
+    },
+    {
+      "id": "d_dark",
+      "title": "Not the storm",
+      "symbol": "moon.stars.fill",
+      "question": "What put the Glenmorran in the dark at 23:58?",
+      "options": [
+        "The storm brought the line down",
+        "The band’s flash blew a fuse",
+        "The old wiring tripped the main switch",
+        "Somebody switched off the hotel’s main switch"
+      ],
+      "answer": 3,
+      "proof": [
+        [
+          "cottage"
+        ],
+        [
+          "st_ham_off"
+        ]
+      ],
+      "proofLabels": [
+        "Whether the line up the glen failed",
+        "How the switch was found"
+      ],
+      "visibleWhen": {
+        "evidence": "cottage"
+      },
+      "conclusion": "The staff cottage has its own meter on the same cable up the glen: when a storm takes the hotel’s power, it takes the cottage’s too. Last night the cottage’s clocks never stopped, while every clock in the hotel was left blinking 00:00. The line never failed. And when Hamish reached the plant room, he found the hotel’s main switch right down at OFF, not halfway, where a trip leaves it, with the plant-room door unlocked. The storm didn’t put the Glenmorran in the dark: somebody went down to the plant room and switched it off."
+    },
+    {
+      "id": "d_who",
+      "title": "Two minutes to midnight",
+      "symbol": "figure.walk",
+      "question": "Who could have been in the plant room at 23:58?",
+      "options": [
+        "Rory Lisle",
+        "Peggy Rennie",
+        "Tomasz Wrona",
+        "Hamish Grant"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "st_peggy_kitchen"
+        ],
+        [
+          "till_roll",
+          "depot_call",
+          "rory_calls"
+        ]
+      ],
+      "proofLabels": [
+        "Who was a minute from the switch",
+        "Where someone else was at 23:58"
+      ],
+      "visibleWhen": {
+        "deduced": "d_dark"
+      },
+      "conclusion": "The plant room is a minute from the kitchens, three from the Great Hall or the bar, and five from reception. At 23:57:14 everybody still at the supper, guests and staff, was in the band’s photo, too far away to reach the switch by 23:58. Tomasz rang up two drams at the bar at 23:57:52. Hamish was on the phone to the depot at reception until the line died at 23:58. Rory was on his phone at the gatepost from 23:52 to 00:14, and the call drops if you move. That leaves Miss Rennie, who says she was in the empty kitchens, by the cellar stairs, when the lights went out."
+    },
+    {
+      "id": "d_ice",
+      "title": "Black ice",
+      "symbol": "snowflake",
+      "question": "Where is the Black Ice now?",
+      "options": [
+        "In the lining of her handbag",
+        "Sewn into the hem of her good coat",
+        "Outside her window, on the ledge",
+        "Hidden on the shelves of the linen room"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "peggy_room"
+        ],
+        [
+          "night_book"
+        ]
+      ],
+      "proofLabels": [
+        "What her room tells you",
+        "How cold the night was"
+      ],
+      "visibleWhen": {
+        "evidence": "peggy_room"
+      },
+      "conclusion": "Miss Rennie’s tooth mug is gone from the shelf over her basin. Her window’s catch is up, and a ring of water has dried on the sill. Last night it was eight below at the door, cold enough to shut the pass with black ice. You open the window and brush the snow off the ledge, and there is her tooth mug, frozen solid. Inside the ice, coiled like something asleep, lie a snapped platinum chain and a black stone the size of a quail’s egg. Nobody searching a room thinks to look out of the window, and by morning a mug of water on a Highland ledge had turned the Black Ice into black ice. Miss Rennie is still waiting in the corridor. She told you she never saw Halina. Now you can put the truth to her."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "suspects": [
+    {
+      "id": "viktor",
+      "name": "Viktor Markovski",
+      "role": "The former champion and coach",
+      "age": 57,
+      "bio": "Viktor won the national title twice and has spent the last decade coaching adult players who cannot afford to waste a season. He is charismatic, proud and still angry that Boris Vasilev became the federation’s trusted arbiter instead of returning to the board. Viktor says he spent the break in the analysis room, helping Maja prepare for the final round.",
+      "symbol": "crown.fill",
+      "color": "#7A4E35",
+      "monogram": "VM",
+      "portrait": "portraits/viktor.png",
+      "dismissal": "You are confusing a loud argument with a murder.",
+      "rebuttal": "Boris and I disagreed about chess, about the federation and about the way he treated people. I walked out for coffee and came back. That is not a killing."
+    },
+    {
+      "id": "maja",
+      "name": "Maja Velkova",
+      "role": "The defending champion",
+      "age": 34,
+      "bio": "Maja is the reigning national champion and the only player in the field with a realistic chance of earning an international norm this weekend. She is controlled at the board and exhausted away from it. Boris questioned one of her Round Eight results in front of the other players, while Viktor insists she should ignore the noise and play.",
+      "symbol": "figure.chess.queen",
+      "color": "#3D6272",
+      "monogram": "MV",
+      "portrait": "portraits/maja.png",
+      "dismissal": "A disputed game is not a reason to murder an arbiter.",
+      "rebuttal": "Boris was difficult, but he was doing the job everyone else was too frightened to do. I wanted the final round, not his silence."
+    },
+    {
+      "id": "elena",
+      "name": "Elena Stojanovska",
+      "role": "The tournament sponsor",
+      "age": 48,
+      "bio": "Elena owns a stationery business in Bitola and paid for the hall, the boards and the prize fund. She wants the Bitola Open to become an annual event with the city’s backing. Boris threatened to delay the prize ceremony after discovering that the attendance figures in her grant application did not match the registration books.",
+      "symbol": "banknote.fill",
+      "color": "#7D5C3D",
+      "monogram": "ES",
+      "portrait": "portraits/elena.png",
+      "dismissal": "I sponsored a chess tournament. I did not arrange a tragedy.",
+      "rebuttal": "Boris was going to embarrass me in front of the mayor, and I was angry. But I was in the foyer where half the players could see me. You are looking for a private quarrel in a public room."
+    },
+    {
+      "id": "sara",
+      "name": "Sara Dinevska",
+      "role": "The assistant arbiter",
+      "age": 29,
+      "bio": "Sara has worked under Boris for three tournaments and is waiting for the federation to certify her as a full arbiter. She knows the result slips, the clock-control sheets and every key in the building. She found Boris at 18:24 when he failed to answer the bell-test call.",
+      "symbol": "checklist",
+      "color": "#5D6B4D",
+      "monogram": "SD",
+      "portrait": "portraits/sara.png",
+      "dismissal": "I was the person trying to keep the tournament legal.",
+      "rebuttal": "I made mistakes in the paperwork because Boris made everyone work too fast. I did not touch him. I found him, called the police and stayed until they arrived."
+    },
+    {
+      "id": "dragan",
+      "name": "Dragan Petrov",
+      "role": "The chess-club president",
+      "age": 45,
+      "bio": "Dragan runs the Bitola Chess Club from a small office above a sports shop. He arranged the venue and the volunteer list, and he has promised the federation that the club can host a larger event next year. Boris had asked to see the club accounts before signing the final report.",
+      "symbol": "building.columns.fill",
+      "color": "#55606B",
+      "monogram": "DP",
+      "portrait": "portraits/dragan.png",
+      "dismissal": "The club has survived worse than an argument over receipts.",
+      "rebuttal": "Boris wanted every number explained, which is his right. I was downstairs with the registration books. If I had wanted him gone, I would not have called him the only honest official in the room."
+    },
+    {
+      "id": "nikola",
+      "name": "Nikola Koteski",
+      "role": "The chess journalist",
+      "age": 51,
+      "bio": "Nikola writes the chess column for a Bitola weekly and has been collecting stories about the federation since he was a teenager. He was preparing a piece about Boris’s 2018 appeal when the tournament stopped. He says he spent the break photographing the empty boards and waiting for the final pairings.",
+      "symbol": "newspaper.fill",
+      "color": "#6B4F66",
+      "monogram": "NK",
+      "portrait": "portraits/nikola.png",
+      "dismissal": "A journalist’s notebook is not a murder weapon.",
+      "rebuttal": "Boris promised me a document, then changed his mind. I was disappointed, not desperate. My camera was in the hall; ask anyone who saw the flash."
+    }
+  ]
+}

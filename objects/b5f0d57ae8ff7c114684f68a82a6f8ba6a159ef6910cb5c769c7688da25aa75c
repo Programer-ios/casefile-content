@@ -1,0 +1,851 @@
+{
+  "topics": [
+    {
+      "id": "t_priya_kitchen",
+      "suspect": "priya",
+      "prompt": "Tell me about your kitchen.",
+      "lines": [
+        [
+          "you",
+          "Ms Ratnam, tell me about your kitchen."
+        ],
+        [
+          "priya",
+          "Nine years, and not one peanut through my door. No cashews, no almonds, no satay — nothing. My nephew nearly died from a sesame bun when he was six. I know what an allergy looks like."
+        ],
+        [
+          "priya",
+          "I cooked that curry myself, from the pot I’d fed three other people from that night. I packed it, I folded the bag and I sealed it with our sticker at quarter to nine. Nothing in my kitchen contains nuts. Nothing."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_priya_nut_free",
+          "st_priya_sealed"
+        ]
+      }
+    },
+    {
+      "id": "t_priya_review",
+      "suspect": "priya",
+      "prompt": "What happened with Jonah’s review?",
+      "lines": [
+        [
+          "priya",
+          "He came in January, ate for twenty minutes, and called us ‘a lawsuit with a menu’. Two million people watched it. Our bookings halved in a week."
+        ],
+        [
+          "priya",
+          "I’d never heard of him before that video. Nobody from his side ever contacted me — not a message, not a call. He just turned up and destroyed us."
+        ],
+        [
+          "priya",
+          "So I told him to order again. Publicly. I wanted him to eat my food and admit he was wrong. Now look."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_priya_no_contact"
+        ]
+      }
+    },
+    {
+      "id": "t_priya_lab",
+      "suspect": "priya",
+      "prompt": "What did the police lab find?",
+      "lines": [
+        [
+          "priya",
+          "My solicitor got the report on Saturday. They found peanut in the curry. Of course they did — that’s why I’m under investigation."
+        ],
+        [
+          "priya",
+          "They say a garnish of mine must have been contaminated. I don’t garnish that curry. Read it properly — read where the peanut was."
+        ],
+        [
+          "narrator",
+          "She pushes a printed report across the table to you."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "lab_report"
+        ]
+      }
+    },
+    {
+      "id": "t_priya_thursday",
+      "suspect": "priya",
+      "prompt": "Where were you on Thursday night?",
+      "lines": [
+        [
+          "priya",
+          "Where I am every night: at the pass, from half eight until I’d cleaned down. My kitchen camera shows every minute of it. The police have the footage. They just don’t care."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_priya_alibi"
+        ]
+      }
+    },
+    {
+      "id": "t_priya_jonah",
+      "suspect": "priya",
+      "prompt": "What did you think of Jonah?",
+      "lines": [
+        [
+          "priya",
+          "I thought he was a bully with a ring light. I still do. And I’m sorry he’s dead. Both things."
+        ],
+        [
+          "priya",
+          "People like him think a restaurant is a set for their videos. It’s a family’s whole life."
+        ]
+      ]
+    },
+    {
+      "id": "t_lena_evening",
+      "suspect": "lena",
+      "prompt": "Where were you on Thursday evening?",
+      "lines": [
+        [
+          "you",
+          "Where were you on Thursday evening?"
+        ],
+        [
+          "lena",
+          "Pilates. The studio on Wallis Road, the half-eight class. I left the flat at twenty past eight. Jonah was ordering his curry for the video — he was so pleased with himself."
+        ],
+        [
+          "lena",
+          "The class finished at half nine. I walked home slowly, and when I came up the stairs at ten to ten there were paramedics in our flat. That’s all."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_lena_pilates"
+        ]
+      }
+    },
+    {
+      "id": "t_lena_pens",
+      "suspect": "lena",
+      "prompt": "Tell me about Jonah’s adrenaline pens.",
+      "lines": [
+        [
+          "lena",
+          "He never went anywhere without two. They lived in a little zip pouch in his crossbody bag — the black one on the hook by the door."
+        ],
+        [
+          "lena",
+          "And they weren’t old. He collected new ones from the chemist on the twenty-sixth of February. I went with him. The police keep saying ‘expired’, and it makes no sense."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_lena_new_pens"
+        ]
+      }
+    },
+    {
+      "id": "t_lena_codes",
+      "suspect": "lena",
+      "prompt": "Who could get into the flat?",
+      "lines": [
+        [
+          "lena",
+          "The door has a keypad. Jonah and I had our own codes. The cleaner has one that only works on Monday and Thursday mornings."
+        ],
+        [
+          "lena",
+          "And there’s the guest code, for family and team. Hannah has it, Marcus has it — he’s always dropping off PR boxes. It works on the building doors too, front and back."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_lena_codes"
+        ]
+      }
+    },
+    {
+      "id": "t_lena_routine",
+      "suspect": "lena",
+      "prompt": "How did Jonah film his reviews?",
+      "lines": [
+        [
+          "lena",
+          "Always the same. Order, set up the ring light and the camera at the island, then shower — he would not go on camera with flat hair, not ever. Then plate up and film."
+        ],
+        [
+          "lena",
+          "Anyone who’s watched more than three of his videos could tell you that. He even joked about it."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_lena_shower"
+        ]
+      }
+    },
+    {
+      "id": "t_lena_laptop",
+      "suspect": "lena",
+      "prompt": "May I look at Jonah’s laptop?",
+      "lines": [
+        [
+          "lena",
+          "So it wasn’t an accident. Someone did this to him. The police didn’t even want his laptop — they took his phone and that was it."
+        ],
+        [
+          "lena",
+          "The password’s our anniversary. One, four, zero, six, one, nine. It’s on the desk in the studio. Everything syncs to it, even his messages."
+        ]
+      ],
+      "reward": {
+        "flags": [
+          "laptop_open"
+        ]
+      },
+      "visibleWhen": {
+        "deduced": "d_spiked"
+      }
+    },
+    {
+      "id": "t_lena_policy",
+      "suspect": "lena",
+      "prompt": "Tell me about the life policy.",
+      "visibleWhen": {
+        "evidence": "life_policy"
+      },
+      "lines": [
+        [
+          "lena",
+          "We took it out when we bought the flat — the mortgage adviser talked us into it. Four hundred and fifty thousand to whoever’s left. It pays off the mortgage, and then some."
+        ],
+        [
+          "lena",
+          "I know exactly how that looks, with everything else. I didn’t kill him for a flat."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_lena_policy"
+        ]
+      }
+    },
+    {
+      "id": "t_lena_inbox",
+      "suspect": "lena",
+      "prompt": "Who ran Jonah’s business inbox?",
+      "visibleWhen": {
+        "evidence": "receipts_draft"
+      },
+      "lines": [
+        [
+          "lena",
+          "Marcus. For two years. Jonah never touched his DMs — there were thousands a day. Brand deals, collabs, all of it went through Marcus."
+        ],
+        [
+          "lena",
+          "Why? What did you find?"
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_lena_inbox"
+        ]
+      }
+    },
+    {
+      "id": "t_lena_owen",
+      "suspect": "lena",
+      "prompt": "How long have you and Owen been…?",
+      "visibleWhen": {
+        "resolved": "c_lena_pilates"
+      },
+      "lines": [
+        [
+          "lena",
+          "Since Christmas. Jonah was never home, and when he was, he was filming. Owen was downstairs. That’s the whole sordid story."
+        ],
+        [
+          "lena",
+          "I was forty feet away while he died, and I didn’t hear a thing. I’ll live with that."
+        ]
+      ]
+    },
+    {
+      "id": "t_marcus_evening",
+      "suspect": "marcus",
+      "prompt": "Where were you on Thursday night?",
+      "lines": [
+        [
+          "you",
+          "Where were you on Thursday night, Mr Doyle?"
+        ],
+        [
+          "marcus",
+          "Running. Round Victoria Park, from nine until about half past. Five hundred and twelve days in a row — I don’t miss, even with a dodgy knee."
+        ],
+        [
+          "marcus",
+          "Don’t take my word for it. It’s all on the app, to the second. Here."
+        ],
+        [
+          "narrator",
+          "He holds up his phone, his running profile open."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_marcus_run"
+        ],
+        "evidence": [
+          "marcus_running"
+        ]
+      }
+    },
+    {
+      "id": "t_marcus_thambi",
+      "suspect": "marcus",
+      "prompt": "Whose idea was the Thambi video?",
+      "lines": [
+        [
+          "marcus",
+          "Jonah’s, all his. He couldn’t resist a fight. I’d have told him to leave it — you don’t go back to a place you’ve buried."
+        ],
+        [
+          "marcus",
+          "But that was Jonah. Once he’d decided, nobody could stop him."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_marcus_thambi"
+        ]
+      }
+    },
+    {
+      "id": "t_marcus_jonah",
+      "suspect": "marcus",
+      "prompt": "Tell me about you and Jonah.",
+      "lines": [
+        [
+          "marcus",
+          "I found him when he had nine thousand followers and a phone propped against a ketchup bottle. Seven years. I made him a brand. He made me a living. That’s management."
+        ],
+        [
+          "marcus",
+          "And he was my wife’s little brother. My kids’ favourite uncle. Whatever you’ve heard, we were family."
+        ]
+      ]
+    },
+    {
+      "id": "t_marcus_inbox",
+      "suspect": "marcus",
+      "prompt": "Who ran Jonah’s business inbox?",
+      "visibleWhen": {
+        "evidence": "receipts_draft"
+      },
+      "lines": [
+        [
+          "marcus",
+          "The inbox? Half the team used it — assistants, interns, Lena, whoever was free. Thousands of messages a day. I couldn’t tell you who sent what."
+        ],
+        [
+          "marcus",
+          "Restaurants pay for features all the time. It’s how the industry works. If someone got creative with the wording, that’s not on me."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_marcus_inbox"
+        ]
+      }
+    },
+    {
+      "id": "t_hannah_evening",
+      "suspect": "hannah",
+      "prompt": "What were you doing on Thursday evening?",
+      "lines": [
+        [
+          "you",
+          "What were you doing on Thursday evening, Mrs Doyle?"
+        ],
+        [
+          "hannah",
+          "Working. I tutor online three nights a week — Thursday was a Year 6 boy, fractions, from nine until quarter to ten, camera on the whole time. Alfie was asleep upstairs."
+        ],
+        [
+          "hannah",
+          "Marcus went out for his run at about five to nine, while I was setting up my lesson. He never misses a day."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_hannah_tutoring",
+          "st_hannah_out"
+        ]
+      }
+    },
+    {
+      "id": "t_hannah_family",
+      "suspect": "hannah",
+      "prompt": "How did Marcus and Jonah get on?",
+      "lines": [
+        [
+          "hannah",
+          "Like brothers. Honestly. Marcus found him, built him, stood by him through every pile-on. There was never a cross word between them."
+        ],
+        [
+          "hannah",
+          "Whatever you’re thinking, you can stop thinking it."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_hannah_close"
+        ]
+      }
+    },
+    {
+      "id": "t_hannah_alfie",
+      "suspect": "hannah",
+      "prompt": "Does anyone else in the family have Jonah’s allergy?",
+      "lines": [
+        [
+          "hannah",
+          "My son Alfie. He’s eight — it runs in the family. Since September he’s been on oral immunotherapy: a tiny dose of peanut protein every day, to train his body not to panic."
+        ],
+        [
+          "hannah",
+          "It’s a powder in a little foil sachet. You tear it open and stir it into his yoghurt at breakfast. Three hundred milligrams. It’s done wonders for him. In the wrong person it could kill."
+        ],
+        [
+          "hannah",
+          "Lena does his breakfast and his sachet on Wednesdays, when I’m in early for staff training. She’s had a key to our house for years."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_hannah_oit",
+          "st_hannah_babysit"
+        ]
+      },
+      "visibleWhen": {
+        "any": [
+          {
+            "deduced": "d_pens"
+          },
+          {
+            "evidence": "sachet_corner"
+          }
+        ]
+      }
+    },
+    {
+      "id": "t_hannah_pens",
+      "suspect": "hannah",
+      "prompt": "Who keeps old adrenaline pens?",
+      "visibleWhen": {
+        "deduced": "d_pens"
+      },
+      "lines": [
+        [
+          "hannah",
+          "We do — Alfie’s, my son. His in-date pens are in his school bag and by his bed, always two of each."
+        ],
+        [
+          "hannah",
+          "And I keep his old ones for training — the junior dose, 0.15 milligrams, all expired — so I can show babysitters and the school what to do. A box in the coat cupboard."
+        ],
+        [
+          "hannah",
+          "You think someone used Alfie’s pens? Come to the house. I’ll show you myself."
+        ],
+        [
+          "narrator",
+          "The Doyles’ House is now open to you."
+        ]
+      ],
+      "reward": {
+        "flags": [
+          "doyles_invite"
+        ]
+      }
+    },
+    {
+      "id": "t_hannah_jonah",
+      "suspect": "hannah",
+      "prompt": "What was Jonah like, as a brother?",
+      "lines": [
+        [
+          "hannah",
+          "Loud. Vain. Generous to a fault. When Alfie was diagnosed, Jonah sat with him in hospital and told him they were ‘the peanut club’ and the club was very exclusive."
+        ],
+        [
+          "hannah",
+          "The internet thought he was cruel. He was cruel on camera. Off it, he was my little brother."
+        ]
+      ]
+    },
+    {
+      "id": "t_hannah_sunday",
+      "suspect": "hannah",
+      "prompt": "What were they rowing about on Sunday?",
+      "visibleWhen": {
+        "resolved": "c_hannah_close"
+      },
+      "lines": [
+        [
+          "hannah",
+          "I don’t know. Truly. That was Sunday the third — the last time we were all together. Marcus said it was business — a brand deal, a contract. He’s been sleeping badly ever since."
+        ],
+        [
+          "hannah",
+          "We remortgaged the house to start the agency. If Jonah had walked, we’d have lost it. Is that what you want me to say?"
+        ]
+      ]
+    },
+    {
+      "id": "t_owen_evening",
+      "suspect": "owen",
+      "prompt": "Where were you on Thursday evening?",
+      "lines": [
+        [
+          "you",
+          "Where were you on Thursday evening?"
+        ],
+        [
+          "owen",
+          "In my flat, on my own, all night. I taught a live class online at nine — core and mobility, thirty minutes — then I had a shower and watched the football."
+        ],
+        [
+          "owen",
+          "First I knew of anything was the sirens."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_owen_alone"
+        ]
+      }
+    },
+    {
+      "id": "t_owen_logs",
+      "suspect": "owen",
+      "prompt": "Who can see the building’s door records?",
+      "lines": [
+        [
+          "owen",
+          "Me, actually. I look after the door system for the landlord — I’ve got the admin login. Every code, every buzz."
+        ],
+        [
+          "owen",
+          "Here, I’ll pull up Thursday. Knock yourself out."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "building_log"
+        ]
+      }
+    },
+    {
+      "id": "t_owen_pipes",
+      "suspect": "owen",
+      "prompt": "Did you hear anything from upstairs?",
+      "lines": [
+        [
+          "owen",
+          "The pipes. This building’s an old rope factory — when Jonah runs his shower, the pipes in my wall thump like someone’s in there with a hammer."
+        ],
+        [
+          "owen",
+          "They went from about eighteen minutes past nine, for five minutes or so. I remember because I was teaching my class and had to talk over them."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_owen_pipes"
+        ]
+      }
+    },
+    {
+      "id": "t_owen_hartfuel",
+      "suspect": "owen",
+      "prompt": "What’s in the sacks by your door?",
+      "visibleWhen": {
+        "evidence": "owen_flour"
+      },
+      "lines": [
+        [
+          "owen",
+          "Peanut flour, for my protein balls. Hart Fuel. Fifteen hundred subscribers, all handmade in my kitchen."
+        ],
+        [
+          "owen",
+          "Yeah, I know how that looks. Jonah did a video on them — said they tasted like a gym bag. Sales went up, funnily enough. I wasn’t going to kill a bloke for free advertising."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_owen_flour"
+        ]
+      }
+    },
+    {
+      "id": "t_owen_class",
+      "suspect": "owen",
+      "prompt": "May I see the recording of your class?",
+      "visibleWhen": {
+        "all": [
+          {
+            "resolved": "c_owen_alone"
+          },
+          {
+            "deduced": "d_window"
+          }
+        ]
+      },
+      "lines": [
+        [
+          "owen",
+          "The class? Sure — I record every one for my subscribers. Thursday, nine o’clock, Core and Mobility. Thirty minutes of me telling people to breathe."
+        ],
+        [
+          "owen",
+          "Lena’s in the background, mind. Probably why I didn’t offer it."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "owen_class"
+        ]
+      }
+    },
+    {
+      "id": "t_mihai_delivery",
+      "suspect": "mihai",
+      "prompt": "Tell me about the delivery.",
+      "lines": [
+        [
+          "you",
+          "Tell me about Thursday’s delivery to The Ropeworks."
+        ],
+        [
+          "mihai",
+          "I am Andrei. Andrei P., it is my account. I picked up from Thambi at ten to nine, I rode to Hackney Wick. Somebody buzzed me in from the phone."
+        ],
+        [
+          "mihai",
+          "I go up to Flat 3, I put the bag on the mat, I take the photo — the app wants a photo. The sticker was on it, perfect. Then I go. One minute, maybe two."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_mihai_andrei",
+          "st_mihai_sealed"
+        ]
+      }
+    },
+    {
+      "id": "t_mihai_work",
+      "suspect": "mihai",
+      "prompt": "How long have you been delivering?",
+      "lines": [
+        [
+          "mihai",
+          "Two years. Twelve hours a day, six days. In the rain you get more money, so I like the rain."
+        ],
+        [
+          "mihai",
+          "The app gives me two minutes for the stairs. If I’m late, my rating drops. If my rating drops, I don’t eat."
+        ]
+      ]
+    },
+    {
+      "id": "t_mihai_police",
+      "suspect": "mihai",
+      "prompt": "Why have you been avoiding the police?",
+      "lines": [
+        [
+          "mihai",
+          "I’m not avoiding. I am working. The police call the number on the account, and the account is… complicated."
+        ],
+        [
+          "mihai",
+          "I did nothing to that bag. I swear on my mother."
+        ]
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "id": "st_priya_nut_free",
+      "suspect": "priya",
+      "text": "Nothing in my kitchen contains nuts. Nothing, in nine years."
+    },
+    {
+      "id": "st_priya_sealed",
+      "suspect": "priya",
+      "text": "I packed Jonah’s order myself and sealed the bag with our sticker at 20:47."
+    },
+    {
+      "id": "st_priya_no_contact",
+      "suspect": "priya",
+      "text": "Before his review, nobody from Jonah’s side ever contacted me."
+    },
+    {
+      "id": "st_priya_alibi",
+      "suspect": "priya",
+      "text": "I was at my pass from 20:30 until I closed. My kitchen camera shows every minute."
+    },
+    {
+      "id": "st_priya_chili",
+      "suspect": "priya",
+      "text": "Since February I’ve used a chilli crisp labelled ‘may contain peanuts’. I hid it because I was terrified it was my fault."
+    },
+    {
+      "id": "st_priya_fee",
+      "suspect": "priya",
+      "text": "On 2 January Jonah’s business inbox asked me for a £1,500 ‘collab fee’. I said no, and three days later came the review."
+    },
+    {
+      "id": "st_lena_pilates",
+      "suspect": "lena",
+      "text": "I was at pilates until 21:30, walked home slowly and came up the stairs at 21:50."
+    },
+    {
+      "id": "st_lena_owen",
+      "suspect": "lena",
+      "text": "I left pilates early. From 21:03 to 21:47 I was in Owen’s flat downstairs. We’ve been seeing each other."
+    },
+    {
+      "id": "st_lena_new_pens",
+      "suspect": "lena",
+      "text": "Jonah collected two new pens on 26 February and kept them in the pouch in his crossbody bag."
+    },
+    {
+      "id": "st_lena_codes",
+      "suspect": "lena",
+      "text": "The guest code is for family and team: Hannah and Marcus both have it. It opens the building doors too, front and back."
+    },
+    {
+      "id": "st_lena_shower",
+      "suspect": "lena",
+      "text": "Jonah always set up his camera, then showered before he filmed. Anyone who watched his videos knew it."
+    },
+    {
+      "id": "st_lena_policy",
+      "suspect": "lena",
+      "text": "Our joint life policy pays £450,000 to whichever of us is left. It’s for the mortgage."
+    },
+    {
+      "id": "st_lena_inbox",
+      "suspect": "lena",
+      "text": "Marcus has run Jonah’s business inbox for two years. Jonah never touched his messages."
+    },
+    {
+      "id": "st_marcus_run",
+      "suspect": "marcus",
+      "text": "From 21:00 until about 21:30 I was running round Victoria Park. It’s on my running app."
+    },
+    {
+      "id": "st_marcus_home",
+      "suspect": "marcus",
+      "text": "Evie took my watch and phone on her run, to keep my streak going. I was in my garden office all evening."
+    },
+    {
+      "id": "st_marcus_walk",
+      "suspect": "marcus",
+      "text": "I went for a walk along the canal to think. I never went near The Ropeworks."
+    },
+    {
+      "id": "st_marcus_thambi",
+      "suspect": "marcus",
+      "text": "The Thambi second-chance video was Jonah’s idea, not mine."
+    },
+    {
+      "id": "st_marcus_content",
+      "suspect": "marcus",
+      "text": "I suggested the Thambi video, and that he order around nine. Suggesting content is my job."
+    },
+    {
+      "id": "st_marcus_inbox",
+      "suspect": "marcus",
+      "text": "Half the team used Jonah’s inbox — assistants, interns, Lena. I couldn’t tell you who sent what."
+    },
+    {
+      "id": "st_marcus_fees",
+      "suspect": "marcus",
+      "text": "I ran Jonah’s inbox, and I asked restaurants for ‘collab fees’. Everyone in this industry does."
+    },
+    {
+      "id": "st_hannah_tutoring",
+      "suspect": "hannah",
+      "text": "From 21:00 to 21:45 I was tutoring online, camera on, the whole time."
+    },
+    {
+      "id": "st_hannah_out",
+      "suspect": "hannah",
+      "text": "Marcus went out in his running things at about 20:55, while I set up my lesson."
+    },
+    {
+      "id": "st_hannah_close",
+      "suspect": "hannah",
+      "text": "Marcus and Jonah got on like brothers. Never a cross word."
+    },
+    {
+      "id": "st_hannah_row",
+      "suspect": "hannah",
+      "text": "At Sunday lunch I heard Jonah tell Marcus, ‘You’ve been using my name.’ They didn’t speak again that day."
+    },
+    {
+      "id": "st_hannah_oit",
+      "suspect": "hannah",
+      "text": "Alfie’s immunotherapy is a 300 mg sachet of peanut protein a day, torn open and stirred into his yoghurt."
+    },
+    {
+      "id": "st_hannah_babysit",
+      "suspect": "hannah",
+      "text": "Lena does Alfie’s breakfast and sachet every Wednesday, and has had our key for years."
+    },
+    {
+      "id": "st_owen_alone",
+      "suspect": "owen",
+      "text": "I was on my own in my flat all evening, teaching a class online."
+    },
+    {
+      "id": "st_owen_lena",
+      "suspect": "owen",
+      "text": "Lena was with me in my flat from 21:03 until 21:47, when we heard the commotion and she ran upstairs."
+    },
+    {
+      "id": "st_owen_pipes",
+      "suspect": "owen",
+      "text": "Jonah’s shower pipes thumped through my wall from about 21:18, for five minutes or so."
+    },
+    {
+      "id": "st_owen_flour",
+      "suspect": "owen",
+      "text": "The peanut flour is for my protein balls. Jonah slated them in a video."
+    },
+    {
+      "id": "st_mihai_andrei",
+      "suspect": "mihai",
+      "text": "I am Andrei P. It is my account."
+    },
+    {
+      "id": "st_mihai_sealed",
+      "suspect": "mihai",
+      "text": "At 21:04 I left the bag on Flat 3’s mat with the sticker unbroken, took the photo and went."
+    },
+    {
+      "id": "st_mihai_yoga",
+      "suspect": "mihai",
+      "text": "Coming in at 21:03 I saw a blonde woman with a yoga mat go into Flat 1, on the ground floor."
+    }
+  ]
+}

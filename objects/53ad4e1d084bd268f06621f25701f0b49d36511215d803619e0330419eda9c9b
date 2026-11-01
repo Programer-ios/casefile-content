@@ -1,0 +1,1501 @@
+{
+  "id": "case002",
+  "number": 2,
+  "title": "The Glasshouse Widow",
+  "tagline": "A botanist, a will, and an orchid that only blooms at night.",
+  "setting": "Penhallow House · Cornwall · July 1963",
+  "sketchTitle": "PENHALLOW HO.",
+  "sketchCredit": "SKETCH: SGT. W. POLGLASE · NOT TO SCALE",
+  "stayLabel": "Stay at Penhallow",
+  "briefing": [
+    "Penhallow House, Cornwall. Saturday 27 July 1963, ten o’clock in the morning.",
+    "For twenty years the village has called Lady Hester Penhallow the Glasshouse Widow. Since the telegram from Burma in 1943 she has worn black, veil and all, and lived among the plants her husband sent home — above all the moon orchid, which had never once flowered in England. Last night, for one night only, it bloomed.",
+    "She kept her vigil alone, locked in the glasshouse, and promised to ring the bell when it opened. At 11.32 the bell rang, and four people on the terrace saw her through the glass, lamp in hand beside the great white flower. At a quarter to six this morning the gardener found her dead at the foot of a stepladder.",
+    "On Tuesday she wrote asking you to come: someone in her family had done ‘something criminal’. Her letter reached you too late. Sergeant Polglase of St Austell has a theory and a suspect, and has given you the morning before the coroner’s officer arrives.",
+    "Find out who killed Lady Penhallow, how it was done and why — and be ready to prove it."
+  ],
+  "startingEvidence": [
+    "hester_letter",
+    "sergeant_notes",
+    "pascoe_statement"
+  ],
+  "locations": [
+    {
+      "id": "glasshouse",
+      "name": "The Glasshouse",
+      "summary": "Where Lady Penhallow kept her vigil, and died.",
+      "description": "Sir Edmund’s great glasshouse at the bottom of the lawn, built in 1912 for the plants he sent home. The boiler keeps it as warm as a jungle night. Sergeant Polglase has had the body taken to St Austell. The air still smells of clove and lily.",
+      "art": {
+        "aspect": 1.15,
+        "props": [
+          {
+            "label": "Glass wall",
+            "x": 0.5,
+            "y": 0.025,
+            "w": 0.96,
+            "h": 0.04,
+            "style": "window"
+          },
+          {
+            "label": "Glass wall",
+            "x": 0.02,
+            "y": 0.5,
+            "w": 0.04,
+            "h": 0.9,
+            "style": "window"
+          },
+          {
+            "label": "Glass wall",
+            "x": 0.98,
+            "y": 0.66,
+            "w": 0.04,
+            "h": 0.6,
+            "style": "window"
+          },
+          {
+            "label": "Heating pipes",
+            "x": 0.36,
+            "y": 0.095,
+            "w": 0.56,
+            "h": 0.06,
+            "style": "fixture"
+          },
+          {
+            "label": "Staging",
+            "symbol": "leaf.fill",
+            "x": 0.15,
+            "y": 0.3,
+            "w": 0.2,
+            "h": 0.14
+          },
+          {
+            "label": "Tree fern",
+            "symbol": "tree.fill",
+            "x": 0.13,
+            "y": 0.53,
+            "w": 0.12,
+            "h": 0.12
+          },
+          {
+            "label": "Staging",
+            "symbol": "leaf.fill",
+            "x": 0.15,
+            "y": 0.76,
+            "w": 0.2,
+            "h": 0.14
+          },
+          {
+            "label": "Lamp bracket",
+            "symbol": "lightbulb.fill",
+            "x": 0.6,
+            "y": 0.21,
+            "w": 0.14,
+            "h": 0.07,
+            "style": "fixture"
+          },
+          {
+            "label": "Orchid bench",
+            "symbol": "camera.macro",
+            "x": 0.62,
+            "y": 0.36,
+            "w": 0.32,
+            "h": 0.13
+          },
+          {
+            "label": "Log table",
+            "symbol": "book.closed.fill",
+            "x": 0.62,
+            "y": 0.64,
+            "w": 0.18,
+            "h": 0.1
+          },
+          {
+            "label": "Stokehole steps",
+            "symbol": "stairs",
+            "x": 0.89,
+            "y": 0.17,
+            "w": 0.18,
+            "h": 0.26,
+            "style": "fixture"
+          },
+          {
+            "label": "Rainwater tank",
+            "symbol": "drop.fill",
+            "x": 0.87,
+            "y": 0.81,
+            "w": 0.16,
+            "h": 0.15
+          },
+          {
+            "label": "Door to the lawn",
+            "x": 0.42,
+            "y": 0.975,
+            "w": 0.2,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_gh_orchid",
+          "label": "The moon orchid",
+          "x": 0.44,
+          "y": 0.3,
+          "text": "In pride of place on the bench, in a slatted teak basket: the moon orchid. One flower, and it is over.",
+          "reward": {
+            "evidence": [
+              "moon_orchid"
+            ]
+          }
+        },
+        {
+          "id": "hs_gh_staging",
+          "label": "Edge of the staging",
+          "x": 0.8,
+          "y": 0.47,
+          "text": "The iron edge of the orchid bench, at the height of an old woman’s head — if she fell from the third step.",
+          "reward": {
+            "evidence": [
+              "iron_staging"
+            ]
+          }
+        },
+        {
+          "id": "hs_gh_stick",
+          "label": "Ebony stick",
+          "x": 0.67,
+          "y": 0.52,
+          "text": "Under the bench, among the moss and the dropped labels, lies a walking stick with a silver knob.",
+          "reward": {
+            "evidence": [
+              "ebony_stick"
+            ]
+          }
+        },
+        {
+          "id": "hs_gh_outline",
+          "label": "Chalk outline",
+          "x": 0.53,
+          "y": 0.52,
+          "text": "Sergeant Polglase’s chalk outline at the foot of the orchid bench. She lay on her side with her veil over her hair and her shawl about her shoulders, Jory says, neat as if she’d sat down on the tiles to rest."
+        },
+        {
+          "id": "hs_gh_ladder",
+          "label": "Stepladder",
+          "x": 0.38,
+          "y": 0.44,
+          "text": "A wooden stepladder lies on its side across the tiles, where the sergeant found it.",
+          "reward": {
+            "evidence": [
+              "stepladder"
+            ]
+          }
+        },
+        {
+          "id": "hs_gh_log",
+          "label": "Log table",
+          "x": 0.82,
+          "y": 0.63,
+          "text": "A small bamboo table at the end of the path, with a ledger, a fountain pen, a sable brush and a bottle of green ink.",
+          "reward": {
+            "evidence": [
+              "bloom_log"
+            ]
+          }
+        },
+        {
+          "id": "hs_gh_flask",
+          "label": "Cocoa flask",
+          "x": 0.45,
+          "y": 0.67,
+          "text": "Agnes Quill’s flask of cocoa, one cup poured and drunk. The rest has gone cold, with a skin on it. Nothing in it but cocoa and too much sugar, the sergeant says. He has tasted it."
+        },
+        {
+          "id": "hs_gh_lamp",
+          "label": "Lamp",
+          "x": 0.75,
+          "y": 0.21,
+          "text": "The paraffin lamp hangs from its iron bracket above the orchid bench, turned down to a blue bead. Jory filled it yesterday afternoon; there’s oil enough left in it for another night."
+        },
+        {
+          "id": "hs_gh_bell",
+          "label": "Bell pull",
+          "x": 0.24,
+          "y": 0.93,
+          "text": "By the door, a bell pull on a brass chain runs up to the ship’s bell on the roof ridge. One pull and the whole garden hears it. Anyone standing inside could ring it."
+        },
+        {
+          "id": "hs_gh_door",
+          "label": "Glass door",
+          "x": 0.63,
+          "y": 0.9,
+          "text": "The door to the lawn locks from the inside. At dawn the key was in the lock, on the inside, and the door was locked. Jory turned it himself to run for help. Whoever left here last night didn’t leave this way."
+        },
+        {
+          "id": "hs_gh_stokehole",
+          "label": "Stokehole steps",
+          "x": 0.92,
+          "y": 0.37,
+          "text": "At the east end, iron steps go down into the dark. The stokehole: the boiler, the coke heap, and a stout door that opens out at the foot of the walled-garden wall.",
+          "reward": {
+            "evidence": [
+              "stokehole_door"
+            ]
+          }
+        },
+        {
+          "id": "hs_gh_prints",
+          "label": "Coke dust on the steps",
+          "x": 0.74,
+          "y": 0.09,
+          "text": "Someone dressed as Lady Penhallow left this glasshouse locked behind them. You go back to the stokehole steps with a torch and look again, more carefully.",
+          "visibleWhen": {
+            "deduced": "d_bell_ringer"
+          },
+          "reward": {
+            "evidence": [
+              "slipper_prints"
+            ]
+          }
+        },
+        {
+          "id": "hs_gh_ashpan",
+          "label": "Boiler ash pan",
+          "x": 0.92,
+          "y": 0.52,
+          "text": "Somebody burned something in Jory’s boiler. You draw out the ash pan beneath the firebars and sift it with a trowel.",
+          "visibleWhen": {
+            "any": [
+              {
+                "statement": "st_jory_stokehole"
+              },
+              {
+                "deduced": "d_way_out"
+              }
+            ]
+          },
+          "reward": {
+            "evidence": [
+              "deed_fragment"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gardens",
+      "name": "The Terrace & Gardens",
+      "summary": "Where the household watched for the bell.",
+      "description": "The terrace runs the length of the south front. Below it the lawn falls forty yards to the glasshouse. To the east are the walled garden and the rose walk behind its tall yew hedge. The grass is still grey with dew.",
+      "art": {
+        "aspect": 1.3,
+        "props": [
+          {
+            "label": "House — south front",
+            "symbol": "house.fill",
+            "x": 0.5,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.09,
+            "style": "fixture"
+          },
+          {
+            "label": "Drawing room",
+            "x": 0.3,
+            "y": 0.11,
+            "w": 0.16,
+            "h": 0.03,
+            "style": "door"
+          },
+          {
+            "label": "Scullery door",
+            "x": 0.74,
+            "y": 0.11,
+            "w": 0.08,
+            "h": 0.03,
+            "style": "door"
+          },
+          {
+            "label": "Terrace",
+            "x": 0.4,
+            "y": 0.2,
+            "w": 0.56,
+            "h": 0.12,
+            "style": "rug"
+          },
+          {
+            "label": "Lawn",
+            "x": 0.38,
+            "y": 0.52,
+            "w": 0.56,
+            "h": 0.4,
+            "style": "rug"
+          },
+          {
+            "label": "Sundial",
+            "symbol": "sun.max.fill",
+            "x": 0.38,
+            "y": 0.5,
+            "w": 0.07,
+            "h": 0.08
+          },
+          {
+            "label": "Yew hedge",
+            "symbol": "tree.fill",
+            "x": 0.8,
+            "y": 0.52,
+            "w": 0.06,
+            "h": 0.5
+          },
+          {
+            "label": "Rose walk",
+            "x": 0.92,
+            "y": 0.47,
+            "w": 0.12,
+            "h": 0.6,
+            "style": "rug"
+          },
+          {
+            "label": "Glasshouse",
+            "symbol": "camera.macro",
+            "x": 0.28,
+            "y": 0.86,
+            "w": 0.4,
+            "h": 0.14
+          },
+          {
+            "label": "Walled garden",
+            "symbol": "leaf.fill",
+            "x": 0.72,
+            "y": 0.86,
+            "w": 0.28,
+            "h": 0.18
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_gd_tripod",
+          "label": "Tripod marks",
+          "x": 0.28,
+          "y": 0.25,
+          "text": "Three small dents in the gravel at the edge of the terrace, where Dr. Ellery’s tripod stood. This is where the four of them watched from when the bell rang."
+        },
+        {
+          "id": "hs_gd_view",
+          "label": "View down the lawn",
+          "x": 0.47,
+          "y": 0.3,
+          "text": "From the terrace the glasshouse is forty yards off, down the slope of the lawn. Even this morning the glass is misted from the warmth inside. Last night, with the lamp lit, it must have glowed like a lantern."
+        },
+        {
+          "id": "hs_gd_rose",
+          "label": "Rose walk",
+          "x": 0.92,
+          "y": 0.33,
+          "text": "A grass walk between old roses, behind a yew hedge ten feet high and thick as a wall. From here you can’t see so much as the roof of the glasshouse, though you would hear its bell well enough. A pleasant place to walk on a warm night, and nobody would see you there."
+        },
+        {
+          "id": "hs_gd_wall_door",
+          "label": "Walled-garden door",
+          "x": 0.62,
+          "y": 0.74,
+          "text": "The door in the wall of the kitchen garden, beside the east end of the glasshouse. On the step, something has been knocked out and trodden on.",
+          "reward": {
+            "evidence": [
+              "jory_pipe"
+            ]
+          }
+        },
+        {
+          "id": "hs_gd_stokehole",
+          "label": "Stokehole door",
+          "x": 0.52,
+          "y": 0.92,
+          "text": "Below the east end of the glasshouse, a short flight of brick steps drops to the stokehole door. Stout oak, with no keyhole and no handle on this side. Once it’s bolted from inside, you can’t get in. Once it’s unbolted, anyone can come out."
+        },
+        {
+          "id": "hs_gd_garden_door",
+          "label": "Scullery door",
+          "x": 0.73,
+          "y": 0.24,
+          "text": "A plain door at the east end of the house, onto the old scullery passage — the back stairs, the darkroom, the servants’ way. Anyone could come and go by it unseen from the drawing room, or the terrace."
+        }
+      ]
+    },
+    {
+      "id": "library",
+      "name": "The Library",
+      "summary": "Where Julian and Mr. Kittow argued over the will.",
+      "description": "Sir Edmund’s library: plant-hunting journals, botanical plates and forty years of Kew Bulletins. Nobody has tidied since last night. Two glasses still stand on the drinks table, and the room smells of cigar smoke.",
+      "art": {
+        "aspect": 1.2,
+        "props": [
+          {
+            "label": "Bookcases",
+            "symbol": "books.vertical.fill",
+            "x": 0.46,
+            "y": 0.06,
+            "w": 0.7,
+            "h": 0.08
+          },
+          {
+            "label": "Sir Edmund",
+            "x": 0.9,
+            "y": 0.13,
+            "w": 0.12,
+            "h": 0.06,
+            "style": "fixture"
+          },
+          {
+            "label": "Fireplace",
+            "symbol": "fireplace.fill",
+            "x": 0.045,
+            "y": 0.5,
+            "w": 0.07,
+            "h": 0.24,
+            "style": "fixture"
+          },
+          {
+            "label": "Armchair",
+            "symbol": "chair.lounge.fill",
+            "x": 0.24,
+            "y": 0.38,
+            "w": 0.14,
+            "h": 0.12
+          },
+          {
+            "label": "Armchair",
+            "symbol": "chair.lounge.fill",
+            "x": 0.24,
+            "y": 0.64,
+            "w": 0.14,
+            "h": 0.12
+          },
+          {
+            "label": "Desk",
+            "x": 0.58,
+            "y": 0.42,
+            "w": 0.32,
+            "h": 0.14
+          },
+          {
+            "label": "Rug",
+            "x": 0.5,
+            "y": 0.72,
+            "w": 0.5,
+            "h": 0.24,
+            "style": "rug"
+          },
+          {
+            "label": "Drinks table",
+            "symbol": "wineglass.fill",
+            "x": 0.84,
+            "y": 0.74,
+            "w": 0.12,
+            "h": 0.1
+          },
+          {
+            "label": "Window",
+            "x": 0.98,
+            "y": 0.46,
+            "w": 0.04,
+            "h": 0.3,
+            "style": "window"
+          },
+          {
+            "x": 0.5,
+            "y": 0.975,
+            "w": 0.16,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_lb_briefcase",
+          "label": "Mr. Kittow’s briefcase",
+          "x": 0.66,
+          "y": 0.52,
+          "text": "A pigskin briefcase stamped ‘E.K.’ stands by the desk, unlocked. Mr. Kittow told you to help yourself.",
+          "reward": {
+            "evidence": [
+              "will_draft"
+            ]
+          }
+        },
+        {
+          "id": "hs_lb_glasses",
+          "label": "Two glasses",
+          "x": 0.84,
+          "y": 0.62,
+          "text": "Two whisky glasses and Mrs. Pascoe’s tray. An ashtray full to the brim: cigar ends, and the stubs of a great many cigarettes. Kittow smokes cigars; Julian chain-smokes. They were here a long while."
+        },
+        {
+          "id": "hs_lb_portrait",
+          "label": "Portrait of Sir Edmund",
+          "x": 0.9,
+          "y": 0.25,
+          "text": "Sir Edmund Penhallow in 1938, painted in his bush jacket with a vasculum on his shoulder, laughing at something just out of the frame. Beneath it, in green ink on a card: ‘Missing, Shan Hills, March 1943. He always came home.’"
+        },
+        {
+          "id": "hs_lb_window",
+          "label": "Window",
+          "x": 0.92,
+          "y": 0.46,
+          "text": "The library looks east over the stable yard. From here you can’t see the glasshouse, the terrace or the lawn. Whoever sat in this room last night saw nothing of the garden until they went out onto the terrace."
+        }
+      ]
+    },
+    {
+      "id": "darkroom",
+      "name": "The Darkroom",
+      "summary": "Dr. Ellery’s darkroom, in the old scullery.",
+      "description": "The old scullery off the back passage, which Dr. Ellery has blacked out and filled with chemicals. It smells of vinegar and fixer. The red safelight still glows over the sink.",
+      "art": {
+        "aspect": 1.0,
+        "props": [
+          {
+            "label": "Blacked-out window",
+            "x": 0.5,
+            "y": 0.025,
+            "w": 0.3,
+            "h": 0.04,
+            "style": "window"
+          },
+          {
+            "label": "Stone sink",
+            "symbol": "drop.fill",
+            "x": 0.2,
+            "y": 0.13,
+            "w": 0.28,
+            "h": 0.12
+          },
+          {
+            "label": "Bench",
+            "x": 0.72,
+            "y": 0.14,
+            "w": 0.4,
+            "h": 0.12
+          },
+          {
+            "label": "Safelight",
+            "symbol": "lightbulb.fill",
+            "x": 0.2,
+            "y": 0.34,
+            "w": 0.14,
+            "h": 0.1,
+            "style": "fixture"
+          },
+          {
+            "label": "Enlarger",
+            "symbol": "camera.fill",
+            "x": 0.86,
+            "y": 0.4,
+            "w": 0.14,
+            "h": 0.14
+          },
+          {
+            "label": "Drying line",
+            "x": 0.5,
+            "y": 0.52,
+            "w": 0.66,
+            "h": 0.05,
+            "style": "fixture"
+          },
+          {
+            "label": "Dresser",
+            "symbol": "cabinet.fill",
+            "x": 0.1,
+            "y": 0.76,
+            "w": 0.14,
+            "h": 0.22
+          },
+          {
+            "label": "To the passage",
+            "x": 0.62,
+            "y": 0.975,
+            "w": 0.2,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_dr_line",
+          "label": "Prints on the line",
+          "x": 0.34,
+          "y": 0.6,
+          "text": "Prints hang from the drying line on wooden pegs: the orchid’s bud, the glasshouse by daylight — and one of Lady Penhallow herself.",
+          "reward": {
+            "evidence": [
+              "photo_bud"
+            ]
+          }
+        },
+        {
+          "id": "hs_dr_newprint",
+          "label": "A fresh print",
+          "x": 0.66,
+          "y": 0.6,
+          "text": "At the end of the line, still damp and curling: the print Dr. Ellery made this morning from her one exposure at the bell.",
+          "visibleWhen": {
+            "statement": "st_marian_photo"
+          },
+          "reward": {
+            "evidence": [
+              "photo_bell"
+            ]
+          }
+        },
+        {
+          "id": "hs_dr_satchel",
+          "label": "Dr. Ellery’s satchel",
+          "x": 0.3,
+          "y": 0.84,
+          "text": "A canvas satchel hangs from a hook by the dresser: notebooks, light meter, spare film. And a cable form, folded very small.",
+          "reward": {
+            "evidence": [
+              "lindqvist_cable"
+            ]
+          }
+        },
+        {
+          "id": "hs_dr_trays",
+          "label": "Developing trays",
+          "x": 0.72,
+          "y": 0.26,
+          "text": "Three enamel trays and a notebook in a neat hand: ‘10.05 — bud negatives in the tank. 10.40 — first prints. 10.50 — Mrs. P. at the door!! 11.10 — washed; out to the terrace.’ The prints from those negatives hang on the line, dated and numbered."
+        },
+        {
+          "id": "hs_dr_safelight",
+          "label": "Safelight",
+          "x": 0.2,
+          "y": 0.44,
+          "text": "A red lamp over the sink. When it’s lit the door must stay shut, or a night’s work is ruined. A perfect place to be alone, and nobody can see that you are there."
+        }
+      ]
+    },
+    {
+      "id": "blue_room",
+      "name": "The Blue Room",
+      "summary": "Julian and Celia’s bedroom.",
+      "description": "The best guest bedroom on the north front, papered in faded blue. The bed has been slept in on both sides. Julian’s clothes are thrown over a chair; Celia’s are put away.",
+      "art": {
+        "aspect": 1.2,
+        "props": [
+          {
+            "label": "Window — north",
+            "x": 0.5,
+            "y": 0.025,
+            "w": 0.3,
+            "h": 0.04,
+            "style": "window"
+          },
+          {
+            "label": "Dressing table",
+            "x": 0.13,
+            "y": 0.28,
+            "w": 0.18,
+            "h": 0.12
+          },
+          {
+            "label": "Bed",
+            "symbol": "bed.double.fill",
+            "x": 0.5,
+            "y": 0.38,
+            "w": 0.34,
+            "h": 0.3
+          },
+          {
+            "label": "Wardrobe",
+            "symbol": "cabinet.fill",
+            "x": 0.9,
+            "y": 0.3,
+            "w": 0.14,
+            "h": 0.24
+          },
+          {
+            "label": "Armchair",
+            "symbol": "chair.lounge.fill",
+            "x": 0.16,
+            "y": 0.72,
+            "w": 0.14,
+            "h": 0.12
+          },
+          {
+            "label": "Rug",
+            "x": 0.52,
+            "y": 0.74,
+            "w": 0.4,
+            "h": 0.2,
+            "style": "rug"
+          },
+          {
+            "x": 0.82,
+            "y": 0.975,
+            "w": 0.16,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_br_window",
+          "label": "Window",
+          "x": 0.5,
+          "y": 0.13,
+          "text": "You draw back the curtain and look out.",
+          "reward": {
+            "evidence": [
+              "blue_room_window"
+            ]
+          }
+        },
+        {
+          "id": "hs_br_wardrobe",
+          "label": "Wardrobe",
+          "x": 0.9,
+          "y": 0.5,
+          "text": "The figure at the bell showed a pale hem under the black shawl, and left by the stokehole. You open the wardrobe.",
+          "visibleWhen": {
+            "deduced": "d_bell_ringer"
+          },
+          "reward": {
+            "evidence": [
+              "celia_mules"
+            ]
+          }
+        },
+        {
+          "id": "hs_br_dressing",
+          "label": "Dressing table",
+          "x": 0.13,
+          "y": 0.42,
+          "text": "Among the scent bottles, a silver-framed photograph of a young actress in a crown and a long gown: ‘Celia Lane as Lady Macbeth, Bristol Old Vic, 1954’. Even in a photograph, she holds the eye."
+        },
+        {
+          "id": "hs_br_chair",
+          "label": "Julian’s jacket",
+          "x": 0.26,
+          "y": 0.66,
+          "text": "Julian’s dinner jacket is thrown over the armchair. Something crackles in the inside pocket.",
+          "reward": {
+            "evidence": [
+              "bank_demand"
+            ]
+          }
+        },
+        {
+          "id": "hs_br_bed",
+          "label": "Bed",
+          "x": 0.5,
+          "y": 0.58,
+          "text": "Slept in on both sides. On Julian’s side, a bottle of sleeping tablets: he took two when he came up at one, he told the sergeant, and slept like the dead until the alarm. Whatever his wife did in the night, he wouldn’t have known."
+        }
+      ]
+    },
+    {
+      "id": "sitting_room",
+      "name": "Lady Penhallow’s Sitting Room",
+      "summary": "Her private room over the terrace.",
+      "description": "A small, light room on the south front, where Hester did her letters and her botany. Pressed specimens are framed on every wall. From the window she could watch her glasshouse at the bottom of the lawn.",
+      "availableWhen": {
+        "flag": "sitting_key"
+      },
+      "lockedHint": "Locked. Agnes Quill has the key.",
+      "art": {
+        "aspect": 1.2,
+        "props": [
+          {
+            "label": "Window over the lawn",
+            "x": 0.5,
+            "y": 0.025,
+            "w": 0.36,
+            "h": 0.04,
+            "style": "window"
+          },
+          {
+            "label": "Writing desk",
+            "x": 0.5,
+            "y": 0.24,
+            "w": 0.34,
+            "h": 0.12
+          },
+          {
+            "label": "Chair",
+            "symbol": "chair.fill",
+            "x": 0.5,
+            "y": 0.38,
+            "w": 0.1,
+            "h": 0.08
+          },
+          {
+            "label": "Herbarium cabinet",
+            "symbol": "archivebox.fill",
+            "x": 0.08,
+            "y": 0.44,
+            "w": 0.12,
+            "h": 0.3
+          },
+          {
+            "label": "Fireplace",
+            "symbol": "fireplace.fill",
+            "x": 0.955,
+            "y": 0.56,
+            "w": 0.07,
+            "h": 0.24,
+            "style": "fixture"
+          },
+          {
+            "label": "Rug",
+            "x": 0.54,
+            "y": 0.62,
+            "w": 0.44,
+            "h": 0.26,
+            "style": "rug"
+          },
+          {
+            "label": "Sofa",
+            "symbol": "sofa.fill",
+            "x": 0.34,
+            "y": 0.72,
+            "w": 0.3,
+            "h": 0.12
+          },
+          {
+            "x": 0.5,
+            "y": 0.975,
+            "w": 0.16,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_sr_desk",
+          "label": "Writing desk",
+          "x": 0.27,
+          "y": 0.36,
+          "text": "Her letters, answered and unanswered, in two neat piles. One lies apart from the rest, under a paperweight shaped like a snail.",
+          "reward": {
+            "evidence": [
+              "finance_letter"
+            ]
+          }
+        },
+        {
+          "id": "hs_sr_blotter",
+          "label": "Blotter",
+          "x": 0.73,
+          "y": 0.36,
+          "text": "A green leather blotter. Folded inside the cover, where she could find it and nobody else would, is a letter.",
+          "reward": {
+            "evidence": [
+              "kittow_letter"
+            ]
+          }
+        },
+        {
+          "id": "hs_sr_ink",
+          "label": "Inkstand",
+          "x": 0.36,
+          "y": 0.12,
+          "text": "A silver inkstand with two wells. Both are filled with green ink. There isn’t a bottle of any other colour in the room, nor a black pen."
+        },
+        {
+          "id": "hs_sr_diary",
+          "label": "Engagement diary",
+          "x": 0.64,
+          "y": 0.12,
+          "text": "Her engagement diary lies open at this week, in green: ‘Fri 26 — 6 pm, Celia. THE BLOOM!’ and ‘Sat 27 — 10 am, Edwin. The will.’ Under Friday, in a smaller hand: ‘Forgive him if he comes.’"
+        },
+        {
+          "id": "hs_sr_window",
+          "label": "Window",
+          "x": 0.2,
+          "y": 0.12,
+          "text": "From here you look straight down the lawn to the glasshouse. A south window, like Miss Quill’s next door. From this side of the house the bell, the lamp and the white flower would all have been in plain view."
+        },
+        {
+          "id": "hs_sr_cabinet",
+          "label": "Herbarium cabinet",
+          "x": 0.21,
+          "y": 0.52,
+          "text": "Edmund’s pressed specimens in mahogany drawers, each one labelled twice, in his brown ink and in her green. The bottom drawer holds a single yellowed telegram: ‘REGRET TO INFORM YOU SIR EDMUND PENHALLOW MISSING BELIEVED KILLED.’"
+        }
+      ]
+    }
+  ],
+  "timeline": {
+    "id": "timeline",
+    "title": "The night of the bloom, reconstructed",
+    "prompt": "Put Friday night’s events in the order they really happened. Times you know for certain are shown; reason out the rest.",
+    "events": [
+      {
+        "id": "tl_lock",
+        "text": "Lady Penhallow locks herself in with her orchid",
+        "time": "9.30 pm"
+      },
+      {
+        "id": "tl_cocoa",
+        "text": "Agnes brings cocoa — Lady Penhallow is alive and well",
+        "time": "10.15 pm",
+        "visibleWhen": {
+          "statement": "st_agnes_cocoa"
+        },
+        "teaser": "Someone saw her alive after she locked herself in."
+      },
+      {
+        "id": "tl_last_entry",
+        "text": "Lady Penhallow writes her last entry in the bloom log",
+        "time": "10.25 pm",
+        "visibleWhen": {
+          "evidence": "bloom_log"
+        },
+        "teaser": "The last thing she is known to have done."
+      },
+      {
+        "id": "tl_celia_goes",
+        "text": "Celia slips down to the glasshouse",
+        "visibleWhen": {
+          "statement": "st_celia_plead"
+        },
+        "teaser": "Someone went to the glasshouse between half past ten and eleven — and has kept quiet about it."
+      },
+      {
+        "id": "tl_struck",
+        "text": "Lady Penhallow is struck down with her own stick",
+        "visibleWhen": {
+          "deduced": "d_struck"
+        },
+        "teaser": "How she really died."
+      },
+      {
+        "id": "tl_bloom",
+        "text": "The moon orchid opens — and no one pollinates it",
+        "visibleWhen": {
+          "deduced": "d_dead_before_bloom"
+        },
+        "teaser": "What became of the flower."
+      },
+      {
+        "id": "tl_bell",
+        "text": "The bell rings and the ‘widow’ raises her lamp to the terrace",
+        "time": "11.32 pm"
+      },
+      {
+        "id": "tl_stokehole",
+        "text": "A pale figure slips out of the stokehole",
+        "visibleWhen": {
+          "statement": "st_jory_figure"
+        },
+        "teaser": "Someone in the garden saw more than they’ve told."
+      },
+      {
+        "id": "tl_drawing_room",
+        "text": "Celia comes down to the drawing room in her dressing gown",
+        "time": "11.45 pm"
+      },
+      {
+        "id": "tl_julian",
+        "text": "Julian finds the glasshouse locked and the lamp turned low",
+        "time": "12.15 am",
+        "visibleWhen": {
+          "statement": "st_julian_glasshouse"
+        },
+        "teaser": "Someone went down to the glasshouse after midnight."
+      },
+      {
+        "id": "tl_found",
+        "text": "Jory finds the body — and pollinates the orchid",
+        "time": "5.45 am",
+        "visibleWhen": {
+          "statement": "st_jory_dawn"
+        },
+        "teaser": "What the gardener did at dawn."
+      }
+    ],
+    "conclusion": "Lady Penhallow was alive at 10.25 and dead before her orchid opened at about 11.05. Only one person is known to have been with her then: Celia, who went down at twenty to eleven and left by the stokehole a few minutes after the bell."
+  },
+  "accusation": {
+    "culprit": "celia",
+    "methods": [
+      "Pushed her off the stepladder onto the iron staging",
+      "Struck her down with the silver knob of her own stick",
+      "Poisoned the cocoa Agnes took her",
+      "Smothered her with her own shawl"
+    ],
+    "method": 1,
+    "motives": [
+      "To keep her husband’s forgery from the police — and Penhallow in his hands",
+      "To sell the moon orchid’s seed to an American nursery",
+      "To save the gardens from being sold for a holiday camp",
+      "To keep a secret engagement from coming out",
+      "To be free after twenty years as a paid companion"
+    ],
+    "motive": 0,
+    "proof": [
+      [
+        "st_celia_plead",
+        "timeline"
+      ],
+      [
+        "celia_mules",
+        "st_jory_figure",
+        "st_marian_scent"
+      ],
+      [
+        "d_forgery",
+        "finance_letter",
+        "st_kittow_engaged",
+        "st_celia_knew"
+      ]
+    ],
+    "proofLabels": [
+      "Opportunity — with her when she died",
+      "The false widow — who rang the bell at 11.32",
+      "Motive — why it had to be Friday night"
+    ],
+    "successTitle": "Case closed"
+  },
+  "hints": [
+    {
+      "id": "h_scene",
+      "doneWhen": {
+        "all": [
+          {
+            "evidence": "ebony_stick"
+          },
+          {
+            "evidence": "stepladder"
+          },
+          {
+            "evidence": "bloom_log"
+          }
+        ]
+      },
+      "levels": [
+        "Crime scenes are generous to those who look twice. Have you been over the glasshouse properly?",
+        "Look at what she is supposed to have fallen from, what she walked with, and what she wrote.",
+        "In the Glasshouse, examine the stepladder, the ebony stick and the log table."
+      ]
+    },
+    {
+      "id": "h_struck",
+      "activeWhen": {
+        "any": [
+          {
+            "evidence": "ebony_stick"
+          },
+          {
+            "evidence": "stepladder"
+          }
+        ]
+      },
+      "doneWhen": {
+        "deduced": "d_struck"
+      },
+      "levels": [
+        "Dr. Tresidder says she fell from the steps. Does the glasshouse agree with him?",
+        "Compare the wound in the sergeant’s notes with her stick. Then ask yourself whether anyone climbed that ladder.",
+        "On the board, answer ‘Struck down with the silver knob of her own stick’, with the ebony stick and the stepladder (or the iron staging)."
+      ]
+    },
+    {
+      "id": "h_jory_dawn",
+      "doneWhen": {
+        "statement": "st_jory_dawn"
+      },
+      "levels": [
+        "Someone was in the glasshouse at dawn, before the police. What did they see?",
+        "Jory Trevenna found her.",
+        "Interrogate Jory and ask him how he found her."
+      ]
+    },
+    {
+      "id": "h_bloom",
+      "activeWhen": {
+        "statement": "st_jory_dawn"
+      },
+      "doneWhen": {
+        "deduced": "d_dead_before_bloom"
+      },
+      "levels": [
+        "Hester had waited twenty-five years for that flower. Did she get her chance?",
+        "Read her bloom log, or ask Dr. Ellery what Hester would have done the moment it opened. Then remember what Jory found at dawn.",
+        "Answer ‘No — she would never have left it unpollinated’, with Jory’s dawn statement (or the moon orchid) and the bloom log (or Dr. Ellery’s statement about pollinating)."
+      ]
+    },
+    {
+      "id": "h_tod",
+      "activeWhen": {
+        "deduced": "d_dead_before_bloom"
+      },
+      "doneWhen": {
+        "deduced": "d_time_of_death"
+      },
+      "levels": [
+        "If she died before the flower opened, when did it open?",
+        "Her last entry gives the time of the first scent — and how long Edmund said the flower takes to open.",
+        "Answer ‘Between 10.25 and about 11.05 pm’, with the bloom log and your ‘Dead before the flower opened’ deduction."
+      ]
+    },
+    {
+      "id": "h_julian_lawn",
+      "activeWhen": {
+        "statement": "st_julian_drawing_room"
+      },
+      "doneWhen": {
+        "resolved": "c_julian_drawing_room"
+      },
+      "levels": [
+        "Julian says he never left the drawing room after the bell. The police think otherwise.",
+        "Re-read Sergeant Polglase’s notes, or ask Agnes Quill what she saw from her window.",
+        "Challenge Julian’s ‘never left the drawing room’ statement with the sergeant’s notes, or Agnes’s statement about the lawn."
+      ]
+    },
+    {
+      "id": "h_photo",
+      "activeWhen": {
+        "any": [
+          {
+            "deduced": "d_struck"
+          },
+          {
+            "deduced": "d_dead_before_bloom"
+          }
+        ]
+      },
+      "doneWhen": {
+        "evidence": "photo_bell"
+      },
+      "levels": [
+        "Four people saw her at 11.32. Did any of them keep a record of what they saw?",
+        "Dr. Ellery had her camera on the terrace when the bell rang.",
+        "Ask Dr. Ellery what she saw when the bell rang, then look at the fresh print in her Darkroom."
+      ]
+    },
+    {
+      "id": "h_bell_ringer",
+      "activeWhen": {
+        "evidence": "photo_bell"
+      },
+      "doneWhen": {
+        "deduced": "d_bell_ringer"
+      },
+      "levels": [
+        "Compare the woman at the bell with the woman in the 9.25 photograph.",
+        "Look at her height against the lamp bracket, at her hands, and at her hem. Lady Penhallow couldn’t take a single step without something.",
+        "Answer ‘Someone wearing her veil and shawl’, with the 11.32 photograph and the 9.25 photograph (or the ebony stick)."
+      ]
+    },
+    {
+      "id": "h_julian_alibi",
+      "activeWhen": {
+        "deduced": "d_time_of_death"
+      },
+      "doneWhen": {
+        "deduced": "d_julian_alibi"
+      },
+      "levels": [
+        "Now that you know when she died, look again at the sergeant’s suspect.",
+        "Mrs. Pascoe’s statement says where Julian was from a quarter past ten until ten past eleven.",
+        "Answer ‘No — he was in the library with Kittow while she died’, with Mrs. Pascoe’s statement (or Mr. Kittow’s) and your time-of-death deduction."
+      ]
+    },
+    {
+      "id": "h_who_absent",
+      "activeWhen": {
+        "deduced": "d_bell_ringer"
+      },
+      "doneWhen": {
+        "resolved": "c_celia_bed"
+      },
+      "levels": [
+        "Four people watched from the terrace when the bell rang. Who didn’t?",
+        "The sergeant’s notes say who missed the bell. Ask her where she was, then look out of her bedroom window.",
+        "Ask Celia Penhallow where she was last night, examine the window in the Blue Room, and challenge her ‘watched Hester from my window’ statement with it."
+      ]
+    },
+    {
+      "id": "h_way_out",
+      "activeWhen": {
+        "deduced": "d_bell_ringer"
+      },
+      "doneWhen": {
+        "deduced": "d_way_out"
+      },
+      "levels": [
+        "The glasshouse door was locked from inside. So how did the bell-ringer get out?",
+        "Ask Jory about the stokehole door, and look again at the stokehole steps.",
+        "Answer ‘Down through the stokehole and out by its outer door’, with the stokehole door (or Jory’s statement about it) and the prints in the coke dust (or the charred deed)."
+      ]
+    },
+    {
+      "id": "h_jory_pipe",
+      "activeWhen": {
+        "statement": "st_jory_bed"
+      },
+      "doneWhen": {
+        "resolved": "c_jory_bed"
+      },
+      "levels": [
+        "Jory says he was in his bed by ten. Was he?",
+        "Someone stood a long while by the walled-garden door last night, smoking.",
+        "Examine the walled-garden door in the Terrace & Gardens, then challenge Jory’s ‘in my bed by ten’ statement with the pipe dottle."
+      ]
+    },
+    {
+      "id": "h_celia_rose",
+      "activeWhen": {
+        "statement": "st_celia_rose_walk"
+      },
+      "doneWhen": {
+        "resolved": "c_celia_rose_walk"
+      },
+      "levels": [
+        "Celia says she walked in the rose walk and never went near the glasshouse. Does anything of hers say otherwise?",
+        "Whoever rang the bell wore something pale under the shawl and left by the stokehole. Look in the Blue Room wardrobe, or ask Dr. Ellery about the scent.",
+        "Challenge Celia’s ‘rose walk’ statement with her dressing gown and mules, the prints in the coke dust, or Jory’s or Dr. Ellery’s statement."
+      ]
+    },
+    {
+      "id": "h_celia_alive",
+      "activeWhen": {
+        "statement": "st_celia_plead"
+      },
+      "doneWhen": {
+        "resolved": "c_celia_alive"
+      },
+      "levels": [
+        "Celia swears Hester was alive and writing when she left at ten to eleven. Check what Hester wrote.",
+        "Hester logged the flower every quarter of an hour.",
+        "Challenge Celia’s ‘alive, writing in her log’ statement with the bloom log, or with your time-of-death deduction."
+      ]
+    },
+    {
+      "id": "h_sitting",
+      "doneWhen": {
+        "flag": "sitting_key"
+      },
+      "levels": [
+        "Lady Penhallow’s own papers may tell you what she meant to hand her solicitor.",
+        "Her sitting room is locked. Her companion keeps the key.",
+        "Ask Agnes Quill whether you may see Lady Penhallow’s rooms."
+      ]
+    },
+    {
+      "id": "h_forgery",
+      "activeWhen": {
+        "evidence": "finance_letter"
+      },
+      "doneWhen": {
+        "deduced": "d_forgery"
+      },
+      "levels": [
+        "What was the ‘something criminal’ in her letter?",
+        "A signature tells you more once you know what ink she used. Ask Agnes about her habits, and search the boiler’s ash pan.",
+        "Answer ‘Proof that Julian forged her signature on a £20,000 mortgage’, with the letter from Lorimer & Dane and the charred deed (or Agnes’s statement about green ink)."
+      ]
+    },
+    {
+      "id": "h_julian_money",
+      "activeWhen": {
+        "statement": "st_julian_money"
+      },
+      "doneWhen": {
+        "resolved": "c_julian_money"
+      },
+      "levels": [
+        "Julian says his affairs are in perfectly good order.",
+        "His dinner jacket is thrown over a chair in the Blue Room.",
+        "Challenge Julian’s ‘perfectly good order’ statement with the letter from the Westminster Bank."
+      ]
+    },
+    {
+      "id": "h_julian_forgery",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_julian_debts"
+          },
+          {
+            "evidence": "finance_letter"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_julian_forgery"
+      },
+      "levels": [
+        "Julian swears he kept his business afloat honestly.",
+        "Lady Penhallow’s writing desk says otherwise.",
+        "Challenge Julian’s ‘kept it afloat honestly’ statement with the letter from Lorimer & Dane."
+      ]
+    },
+    {
+      "id": "h_celia_knew",
+      "activeWhen": {
+        "statement": "st_celia_didnt_know"
+      },
+      "doneWhen": {
+        "resolved": "c_celia_knew"
+      },
+      "levels": [
+        "Celia says she knew nothing about any forgery. Who would have told her?",
+        "Read Hester’s note on the Lorimer & Dane letter again — or ask Mr. Kittow what Hester told him.",
+        "Challenge Celia’s ‘know nothing whatever about any forgery’ statement with the letter from Lorimer & Dane, or with Mr. Kittow’s statement about the engagement."
+      ]
+    },
+    {
+      "id": "h_kittow",
+      "activeWhen": {
+        "evidence": "kittow_letter"
+      },
+      "doneWhen": {
+        "resolved": "c_kittow_professional"
+      },
+      "levels": [
+        "Mr. Kittow says it was all entirely professional.",
+        "Lady Penhallow kept a letter in her blotter.",
+        "Challenge Mr. Kittow’s ‘entirely professional’ statement with his letter from her blotter."
+      ]
+    },
+    {
+      "id": "h_marian",
+      "activeWhen": {
+        "evidence": "lindqvist_cable"
+      },
+      "doneWhen": {
+        "resolved": "c_marian_kew"
+      },
+      "levels": [
+        "Dr. Ellery says she is here for Kew. Is she?",
+        "Her satchel holds a cable from rather further away.",
+        "Challenge Dr. Ellery’s ‘on behalf of Kew’ statement with the cable from Miami."
+      ]
+    },
+    {
+      "id": "h_scent",
+      "activeWhen": {
+        "deduced": "d_bell_ringer"
+      },
+      "doneWhen": {
+        "statement": "st_marian_scent"
+      },
+      "levels": [
+        "The moon orchid’s scent clings to anyone who has been near it.",
+        "Dr. Ellery knows that scent better than anyone. Who came into the drawing room after the bell?",
+        "Ask Dr. Ellery whether she noticed anything when Celia came down at 11.45."
+      ]
+    },
+    {
+      "id": "h_timeline",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_agnes_cocoa"
+          },
+          {
+            "evidence": "bloom_log"
+          },
+          {
+            "statement": "st_celia_plead"
+          },
+          {
+            "deduced": "d_struck"
+          },
+          {
+            "deduced": "d_dead_before_bloom"
+          },
+          {
+            "statement": "st_jory_figure"
+          },
+          {
+            "statement": "st_julian_glasshouse"
+          },
+          {
+            "statement": "st_jory_dawn"
+          }
+        ]
+      },
+      "doneWhen": {
+        "timeline": true
+      },
+      "levels": [
+        "Every event of the night is now on the record. Can you put them in order?",
+        "Open the timeline in your Notebook. Anchor the events whose times you know, then reason about the rest.",
+        "The true order: she locks herself in, Agnes’s cocoa, the last log entry, Celia goes down, the blow, the flower opens, the bell, the figure from the stokehole, Celia in the drawing room, Julian at the door, Jory at dawn."
+      ]
+    },
+    {
+      "id": "h_accuse_ready",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_celia_plead"
+          },
+          {
+            "any": [
+              {
+                "evidence": "celia_mules"
+              },
+              {
+                "statement": "st_jory_figure"
+              },
+              {
+                "statement": "st_marian_scent"
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "deduced": "d_forgery"
+              },
+              {
+                "statement": "st_kittow_engaged"
+              },
+              {
+                "statement": "st_celia_knew"
+              }
+            ]
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "You may already have enough for an arrest. Who was with Hester when she died, who rang the bell, and why did it have to be Friday night?",
+        "Only one person missed the bell, was in the glasshouse that night, and knew what Hester meant to do in the morning.",
+        "Accuse Celia Penhallow: struck down with the silver knob of Hester’s own stick, to keep her husband’s forgery from the police. Prove it with her admission that she went to the glasshouse (or the timeline), her dressing gown and mules (or Jory’s or Dr. Ellery’s statement), and your forgery deduction (or the letter from Lorimer & Dane)."
+      ]
+    },
+    {
+      "id": "h_accuse",
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "Review your board. Who was with Hester when she died, who rang the bell at 11.32, and who needed her silenced before morning?",
+        "Every part of the accusation needs a card: opportunity, the false widow and the motive. If one is missing, the hints above will have pointed you to it. Re-read your notebook.",
+        "The killer is Celia Penhallow: struck down with the silver knob of Hester’s own stick, to keep Julian’s forgery from the police. Prove it with Celia’s admission that she went to the glasshouse, her coke-dusted dressing gown and mules, and the forgery deduction."
+      ]
+    }
+  ],
+  "epilogue": [
+    "Celia Penhallow held out for two days. Then Sergeant Polglase laid Dr. Ellery’s photograph in front of her: the tall black figure with the lamp held high. She looked at it for a long time, and then she said, quite calmly, ‘I always did play to the gallery.’",
+    "Hester had told her at six o’clock: Julian had forged her name on a mortgage of Home Farm, and in the morning the deed would go to Mr. Kittow, and from Mr. Kittow to the police. At twenty to eleven Celia went down to the glasshouse to beg. Hester said that Julian would answer for it, as Edmund would have wished. Her stick was leaning against the bench.",
+    "Afterwards Celia did what eleven years in repertory had taught her: she waited for her cue. She sat with the body for three-quarters of an hour while the moon orchid opened beside it. Then she put on the veil and the shawl, rang the bell and gave the performance of her life to an audience of four. Afterwards she dressed Hester in them again, locked the door so that no doctor would see the body before morning, burned the deed in the stokehole, and went in to drink champagne.",
+    "She had studied everything about Hester Penhallow except the one thing that mattered. Hester would never have let that flower open and close untouched.",
+    "Julian Penhallow was sent to prison for three years for forgery. The new will was never signed, so Penhallow came to him after all, and from his cell he gave it to the National Trust, gardens, glasshouse and all. Marian Ellery turned down Mr. Lindqvist’s twenty thousand dollars and took the seed to Kew. Edwin Kittow kept the ring he had bought in Truro for September.",
+    "In November a single green pod ripened on the moon orchid. The first seedlings flowered at Kew in the spring of 1971. Jory Trevenna travelled up in his Sunday suit to see them, and chose their name: they are registered as ‘Glasshouse Widow’. On the last Friday of every July he still sits up all night in the glasshouse. Somebody ought to, he says."
+  ]
+}

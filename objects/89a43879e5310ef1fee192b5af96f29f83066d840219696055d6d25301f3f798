@@ -1,0 +1,15 @@
+{
+  "cases": [
+    {"id": "case001", "number": 1, "title": "The Midnight Toast", "tagline": "A toast that was never raised.", "available": true},
+    {"id": "case002", "number": 2, "title": "The Glasshouse Widow", "tagline": "A botanist, a will, and an orchid that only blooms at night.", "available": true},
+    {"id": "case003", "number": 3, "title": "Last Order", "tagline": "A food critic with a deadly allergy, a one-star review, and a takeaway that killed him.", "available": true},
+    {"id": "case004", "number": 4, "title": "Undertow", "tagline": "A borrowed camper van, a cold night by the sea, and a heater that should never have failed.", "available": true},
+    {"id": "case005", "number": 5, "title": "Silent Partner", "tagline": "A band back together, a song with one name on it, and a fall in the small hours.", "available": true},
+    {"id": "case006", "number": 6, "title": "The Last Ferry", "tagline": "Forty people boarded the last ferry off the island. Thirty-nine got off.", "available": true},
+    {"id": "case007", "number": 7, "title": "Moving Time", "tagline": "He ran ten kilometres in fifty minutes. His run took sixty-five.", "available": true},
+    {"id": "case008", "number": 8, "title": "Black Ice", "tagline": "A famous hotel cut off by snow, a power cut at midnight, and a housekeeper who never finished her rounds.", "available": true},
+    {"id": "case009", "number": 9, "title": "The Last Track", "tagline": "A voice on air, a deal at midnight, and a door left open.", "available": true},
+    {"id": "case010", "number": 10, "title": "The Chess Clock", "tagline": "A final round, a missing result, and a clock that stopped at the wrong moment.", "available": true},
+    {"id": "case011", "number": 11, "title": "The Midnight Express", "tagline": "A locked compartment, five night stops, and a passenger list that does not agree with the train.", "available": true}
+  ]
+}

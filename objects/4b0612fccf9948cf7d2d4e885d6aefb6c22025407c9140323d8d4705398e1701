@@ -1,0 +1,691 @@
+{
+  "id": "case009",
+  "number": 9,
+  "title": "The Last Track",
+  "tagline": "A voice on air, a deal at midnight, and a door left open.",
+  "setting": "North Quay · Brighton · October 2026",
+  "sketchTitle": "ROOKERY AUDIO",
+  "sketchCredit": "SKETCH: FRIDAY 16 OCTOBER 2026 · NOT TO SCALE",
+  "stayLabel": "Stay at Rookery Audio",
+  "briefing": [
+    "Rookery Audio occupies a converted warehouse on Brighton’s North Quay: two recording studios, a small archive, and a late-night radio stream that made its founder famous. On Friday 16 October, the company is hours away from announcing its sale to Vesper Media for eighteen million pounds.",
+    "At 22:30, Marcus Vale, 51, Rookery’s founder and CEO, was found dead in Studio B. He had been struck once with a heavy object from the studio. The door was ajar. Nothing obvious was stolen, and the building’s front door was still locked from the inside.",
+    "The police believe Marcus died between 22:10 and 22:25. At 23:00, his company’s flagship late-night programme began exactly on time, with host Tom Hargreaves sounding relaxed on air. Tom says he had been live in Studio A all evening.",
+    "Marcus’s sister Clare has asked you to look before the police make an arrest. She says her brother was difficult, vain, and very good at hearing the one false note in a room. ‘He was about to sell the thing he built,’ she says. ‘If somebody killed him for it, I want to know what they thought they were saving.’",
+    "Everybody who worked late at Rookery is still in Brighton. The sale announcement is paused, the archive is sealed, and the station’s last broadcast is still in the system. Find out what happened before the company’s own story becomes the only one anyone remembers."
+  ],
+  "startingEvidence": [
+    "police_summary",
+    "marcus_messages",
+    "broadcast_schedule",
+    "sale_memo"
+  ],
+  "locations": [
+    {
+      "id": "quay",
+      "name": "North Quay",
+      "summary": "The warehouse entrance, loading yard, and the short route between reception and the studios.",
+      "description": "Rookery Audio sits in a long brick warehouse beside the river. The public entrance faces the quay; a staff door opens onto the loading yard. Inside, reception looks down a central corridor, with the two studios on one side and the archive at the far end.",
+      "art": {
+        "aspect": 1.7,
+        "props": [
+          {
+            "label": "Rookery Audio",
+            "x": 0.28,
+            "y": 0.2,
+            "w": 0.38,
+            "h": 0.18,
+            "style": "fixture"
+          },
+          {
+            "label": "River",
+            "x": 0.83,
+            "y": 0.24,
+            "w": 0.22,
+            "h": 0.42,
+            "style": "window"
+          },
+          {
+            "label": "Public entrance",
+            "x": 0.24,
+            "y": 0.7,
+            "w": 0.18,
+            "h": 0.24,
+            "style": "door"
+          },
+          {
+            "label": "Loading yard",
+            "x": 0.72,
+            "y": 0.74,
+            "w": 0.34,
+            "h": 0.22,
+            "style": "rug"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_quay_layout",
+          "label": "The warehouse plan",
+          "x": 0.08,
+          "y": 0.2,
+          "text": "A framed plan beside the entrance labels the public corridor, the two studios, the archive, and a narrow staff passage that runs behind the soundproofing. The archive has its own door onto that passage. Studio B’s only public-facing door is at the opposite end of the corridor.",
+          "reward": {
+            "evidence": [
+              "station_layout"
+            ]
+          }
+        },
+        {
+          "id": "hs_quay_door",
+          "label": "The staff door",
+          "x": 0.56,
+          "y": 0.86,
+          "text": "The loading-yard door is shut and alarmed. Its little green light is steady. A smear of river grit lies on the threshold, but the rain has made every footprint outside useless.",
+          "reward": {
+            "evidence": [
+              "entry_log"
+            ]
+          }
+        },
+        {
+          "id": "hs_quay_sign",
+          "label": "The paused announcement",
+          "x": 0.52,
+          "y": 0.32,
+          "text": "A printed notice on the glass says the Vesper Media announcement is postponed until further notice. Someone has crossed out ‘midnight’ in black marker, then written it again beneath the line.",
+          "reward": {
+            "evidence": [
+              "sale_memo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "reception",
+      "name": "Reception",
+      "summary": "The front desk, key cabinet, visitor book, and the camera looking into the central corridor.",
+      "description": "The reception desk is made from a flight case painted Rookery blue. Behind it hang the building keys, each on a numbered hook. A small monitor shows the corridor camera in black and white; the camera sees the studio doors but not the archive passage.",
+      "art": {
+        "aspect": 1.4,
+        "props": [
+          {
+            "label": "Desk",
+            "x": 0.25,
+            "y": 0.65,
+            "w": 0.38,
+            "h": 0.2,
+            "style": "furniture"
+          },
+          {
+            "label": "Key cabinet",
+            "x": 0.75,
+            "y": 0.3,
+            "w": 0.25,
+            "h": 0.34,
+            "style": "fixture"
+          },
+          {
+            "label": "Camera monitor",
+            "x": 0.25,
+            "y": 0.28,
+            "w": 0.24,
+            "h": 0.18,
+            "style": "fixture"
+          },
+          {
+            "label": "Visitor book",
+            "x": 0.42,
+            "y": 0.68,
+            "w": 0.14,
+            "h": 0.12,
+            "style": "furniture"
+          },
+          {
+            "label": "Corridor",
+            "x": 0.82,
+            "y": 0.7,
+            "w": 0.28,
+            "h": 0.5,
+            "style": "rug"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_reception_keys",
+          "label": "The key cabinet",
+          "x": 0.94,
+          "y": 0.1,
+          "text": "The cabinet has hooks for every room and two heavier keys labelled MASTER A and MASTER B. The sign beneath says that master keys must be returned before leaving the building. One hook is empty; the sign-out sheet is clipped below it.",
+          "reward": {
+            "evidence": [
+              "key_register"
+            ]
+          }
+        },
+        {
+          "id": "hs_reception_visitors",
+          "label": "The visitor book",
+          "x": 0.42,
+          "y": 0.93,
+          "text": "The visitor book is open to Friday. A Vesper Media name is written at 20:04, followed by a neat departure time. The next line is blank, though a second cup has left a damp ring on the paper.",
+          "reward": {
+            "evidence": [
+              "visitor_log"
+            ]
+          }
+        },
+        {
+          "id": "hs_reception_monitor",
+          "label": "The corridor monitor",
+          "x": 0.06,
+          "y": 0.12,
+          "text": "The corridor camera records in short clips whenever the building alarm changes state. The monitor has been left on the clip list for Friday night. The image is grainy, but the timecode is clear enough to read.",
+          "reward": {
+            "evidence": [
+              "corridor_camera"
+            ]
+          }
+        },
+        {
+          "id": "hs_reception_receipt",
+          "label": "The desk drawer",
+          "x": 0.08,
+          "y": 0.55,
+          "text": "Under old courier labels is a folded taxi receipt, paid by card at 21:12. The passenger name is not printed, but the booking reference is written in Anika Rao’s handwriting on the back.",
+          "reward": {
+            "evidence": [
+              "anika_taxi"
+            ]
+          }
+        },
+        {
+          "id": "hs_reception_hotel",
+          "label": "Felix’s hotel card",
+          "x": 0.55,
+          "y": 0.3,
+          "text": "A hotel card lies beneath the visitor book. The front desk at the Brighton Marine confirms a late check-in, but the time has been written in pencil rather than printed by the hotel system.",
+          "reward": {
+            "evidence": [
+              "felix_hotel"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "studios",
+      "name": "The studios",
+      "summary": "Studio A, Studio B, the control room, and the racks that keep Rookery on air.",
+      "description": "The studios are two dark, padded rooms joined by a glass-fronted control room. Studio A has the microphone used by Tom Hargreaves. Studio B is smaller and usually used for interviews. Marcus’s body was found there beside a low tape machine and a brass reel weight.",
+      "art": {
+        "aspect": 1.6,
+        "props": [
+          {
+            "label": "Studio A",
+            "x": 0.2,
+            "y": 0.24,
+            "w": 0.25,
+            "h": 0.25,
+            "style": "fixture"
+          },
+          {
+            "label": "Studio B",
+            "x": 0.2,
+            "y": 0.68,
+            "w": 0.25,
+            "h": 0.25,
+            "style": "fixture"
+          },
+          {
+            "label": "Control room",
+            "x": 0.63,
+            "y": 0.48,
+            "w": 0.34,
+            "h": 0.42,
+            "style": "furniture"
+          },
+          {
+            "label": "Rack wall",
+            "x": 0.87,
+            "y": 0.2,
+            "w": 0.14,
+            "h": 0.34,
+            "style": "fixture"
+          },
+          {
+            "label": "Glass",
+            "x": 0.51,
+            "y": 0.48,
+            "w": 0.08,
+            "h": 0.56,
+            "style": "window"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_studio_automation",
+          "label": "The broadcast rack",
+          "x": 0.76,
+          "y": 0.1,
+          "text": "The automation rack is still warm. Its screen shows the overnight schedule, a list of audio files, and an option called Auto-Rescue. A green dot says the stream never lost connection.",
+          "reward": {
+            "evidence": [
+              "automation_log"
+            ]
+          }
+        },
+        {
+          "id": "hs_studio_listener",
+          "label": "The listener recording",
+          "x": 0.45,
+          "y": 0.9,
+          "text": "A listener has sent the station a recording from Friday night. At 23:07, beneath Tom’s voice, there is a tiny repeating click. It is the same click heard on an earlier test file in the automation rack.",
+          "visibleWhen": {
+            "evidence": "automation_log"
+          },
+          "reward": {
+            "evidence": [
+              "listener_recording"
+            ]
+          }
+        },
+        {
+          "id": "hs_studio_b",
+          "label": "Studio B",
+          "x": 0.06,
+          "y": 0.8,
+          "text": "Studio B has been photographed but not cleaned. Marcus lies beside the table, one hand under his jacket. The door was not forced. On the table, a brass reel weight sits just outside the dark outline where it had been moved.",
+          "reward": {
+            "evidence": [
+              "studio_b_panel"
+            ]
+          }
+        },
+        {
+          "id": "hs_studio_ticket",
+          "label": "The maintenance queue",
+          "x": 0.63,
+          "y": 0.76,
+          "text": "Ben Bell’s maintenance queue is open on the control-room terminal. One ticket records a fault in the rack’s Auto-Rescue input, closed at 18:42. A second note says the system was left in fallback mode for the night.",
+          "reward": {
+            "evidence": [
+              "ben_ticket"
+            ]
+          }
+        },
+        {
+          "id": "hs_studio_tom",
+          "label": "Tom’s microphone",
+          "x": 0.06,
+          "y": 0.35,
+          "text": "Tom’s microphone is live, but the chair is pushed back and a paper cup has gone cold. The clock in Studio A is five minutes slow. On the desk is a receipt from the pub across the quay, time-stamped during the part of the programme Tom says he was speaking live.",
+          "reward": {
+            "evidence": [
+              "tom_receipt"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "archive",
+      "name": "The archive",
+      "summary": "Rookery’s paper contracts, rights ledgers, and the staff passage to Studio B.",
+      "description": "The archive is colder than the rest of the building. Shelves of old programme tapes line one wall; contracts and royalty ledgers fill another. A staff-only door at the back opens onto the narrow passage behind the studios.",
+      "art": {
+        "aspect": 1.35,
+        "props": [
+          {
+            "label": "Rights shelves",
+            "x": 0.2,
+            "y": 0.4,
+            "w": 0.24,
+            "h": 0.58,
+            "style": "fixture"
+          },
+          {
+            "label": "Ledger table",
+            "x": 0.54,
+            "y": 0.62,
+            "w": 0.3,
+            "h": 0.2,
+            "style": "furniture"
+          },
+          {
+            "label": "Staff passage",
+            "x": 0.88,
+            "y": 0.48,
+            "w": 0.16,
+            "h": 0.62,
+            "style": "door"
+          },
+          {
+            "label": "Scanner",
+            "x": 0.55,
+            "y": 0.3,
+            "w": 0.18,
+            "h": 0.14,
+            "style": "fixture"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_archive_ledger",
+          "label": "The rights ledger",
+          "x": 0.06,
+          "y": 0.25,
+          "text": "The current ledger lists the programmes sold to Vesper Media. One line is marked in pencil: Clearwater Rights, 17 percent of every archive licence, payable to a company whose name has been blacked out.",
+          "reward": {
+            "evidence": [
+              "rights_ledger"
+            ]
+          }
+        },
+        {
+          "id": "hs_archive_contract",
+          "label": "The Clearwater file",
+          "x": 0.45,
+          "y": 0.92,
+          "text": "The Clearwater file is missing from its box. A photocopy remains underneath: a two-page agreement signed by Rookery’s rights department, with a handwritten amendment that directs the payments elsewhere.",
+          "visibleWhen": {
+            "evidence": "rights_ledger"
+          },
+          "reward": {
+            "evidence": [
+              "clearwater_contract"
+            ]
+          }
+        },
+        {
+          "id": "hs_archive_scans",
+          "label": "The document scanner",
+          "x": 0.55,
+          "y": 0.1,
+          "text": "The scanner keeps a local activity log. Friday’s last scan was made at 21:41 using Iris Chen’s staff code. After that, the next scan is dated Monday morning, although the archive door was opened again before midnight.",
+          "visibleWhen": {
+            "evidence": "clearwater_contract"
+          },
+          "reward": {
+            "evidence": [
+              "archive_scan_log"
+            ]
+          }
+        },
+        {
+          "id": "hs_archive_passage",
+          "label": "The staff passage",
+          "x": 0.9,
+          "y": 0.75,
+          "text": "The passage is too narrow for two people to pass comfortably. It runs from the archive door to the back of Studio B, behind a layer of acoustic panels. There is no camera here, only a small red door-contact light.",
+          "reward": {
+            "evidence": [
+              "passage_note"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "timeline": {
+    "id": "timeline",
+    "title": "Friday night, reconstructed",
+    "prompt": "Put the events in the order they really happened. Times you know for certain are shown; reason out the rest.",
+    "events": [
+      {
+        "id": "tl_argument",
+        "text": "Tom argues with Marcus about the sale",
+        "time": "20:35"
+      },
+      {
+        "id": "tl_anika",
+        "text": "Anika leaves in a taxi",
+        "visibleWhen": {
+          "evidence": "anika_taxi"
+        },
+        "teaser": "Something the road remembers."
+      },
+      {
+        "id": "tl_scan",
+        "text": "Iris’s last archive scan is recorded",
+        "visibleWhen": {
+          "evidence": "archive_scan_log"
+        },
+        "teaser": "A machine remembers a hand."
+      },
+      {
+        "id": "tl_death",
+        "text": "Marcus is killed in Studio B",
+        "time": "22:18"
+      },
+      {
+        "id": "tl_found",
+        "text": "Ben finds Marcus and calls the police",
+        "time": "22:30"
+      },
+      {
+        "id": "tl_show",
+        "text": "The late-night programme begins",
+        "time": "23:00"
+      }
+    ],
+    "conclusion": "At 20:35 Tom argued with Marcus about the sale. Anika left at 21:07, and Iris’s last archive scan was at 21:41. Marcus was killed in Studio B at about 22:18 and found at 22:30. The late-night programme began at 23:00, after the murder, even though Tom’s voice was already in the system.",
+    "reward": {}
+  },
+  "accusation": {
+    "culprit": "iris",
+    "methods": [
+      "Used the archive passage and the master key to enter Studio B, then struck Marcus with the brass reel weight.",
+      "Lured Marcus to the quay, staged the door, and used the broadcast system to fake the time of death.",
+      "Disabled the building cameras, entered through reception, and poisoned Marcus before leaving.",
+      "Confronted Marcus in Studio A, pushed him into the desk, and hid the contract in the archive."
+    ],
+    "method": 0,
+    "motives": [
+      "To stop Marcus exposing a private rights agreement before the Vesper sale.",
+      "To punish Tom for humiliating her during the live programme.",
+      "To save Rookery Audio from being sold to Vesper Media.",
+      "To inherit Marcus’s shares through Clare’s family trust."
+    ],
+    "motive": 0,
+    "proof": [
+      [
+        "d_broadcast",
+        "tom_receipt"
+      ],
+      [
+        "d_route",
+        "d_last",
+        "key_register"
+      ],
+      [
+        "d_deal",
+        "d_who",
+        "clearwater_contract"
+      ]
+    ],
+    "proofLabels": [
+      "The false live alibi",
+      "The route into Studio B",
+      "The reason Marcus had to be stopped"
+    ],
+    "successTitle": "The last track, traced"
+  },
+  "hints": [
+    {
+      "id": "h_station",
+      "doneWhen": {
+        "evidence": "station_layout"
+      },
+      "levels": [
+        "Start with the building itself.",
+        "Find out how the studios and archive connect.",
+        "Examine the framed warehouse plan by the entrance."
+      ]
+    },
+    {
+      "id": "h_automation",
+      "activeWhen": {
+        "evidence": "station_layout"
+      },
+      "doneWhen": {
+        "evidence": "automation_log"
+      },
+      "levels": [
+        "Tom’s voice may not tell you where Tom was.",
+        "Look at what can keep a programme running without a host.",
+        "In the studios, examine the broadcast rack."
+      ]
+    },
+    {
+      "id": "h_tom",
+      "activeWhen": {
+        "evidence": "automation_log"
+      },
+      "doneWhen": {
+        "resolved": "c_tom_live"
+      },
+      "levels": [
+        "Tom says he was live when Marcus died.",
+        "Find something that can play a host’s voice by itself.",
+        "Ask Tom about the programme, then challenge his live statement with the automation log."
+      ]
+    },
+    {
+      "id": "h_route",
+      "activeWhen": {
+        "evidence": "station_layout"
+      },
+      "doneWhen": {
+        "deduced": "d_route"
+      },
+      "levels": [
+        "The killer did not need to use the public corridor.",
+        "Study the staff passage and the keys that open it.",
+        "On the board, answer how someone could reach Studio B unseen, with the plan and key register."
+      ]
+    },
+    {
+      "id": "h_deal",
+      "activeWhen": {
+        "evidence": "rights_ledger"
+      },
+      "doneWhen": {
+        "deduced": "d_deal"
+      },
+      "levels": [
+        "Marcus was protecting more than a sale price.",
+        "Follow the unusual name in the rights ledger.",
+        "On the board, answer what the Clearwater file was doing to Rookery’s archive income."
+      ]
+    },
+    {
+      "id": "h_iris",
+      "activeWhen": {
+        "deduced": "d_deal"
+      },
+      "doneWhen": {
+        "resolved": "c_iris_archive"
+      },
+      "levels": [
+        "One person had both the contract and the archive access.",
+        "Ask who controlled the rights files and where they say they stayed.",
+        "Challenge Iris’s archive alibi with the key register and scan log."
+      ]
+    },
+    {
+      "id": "h_last",
+      "activeWhen": {
+        "deduced": "d_route"
+      },
+      "doneWhen": {
+        "deduced": "d_last"
+      },
+      "levels": [
+        "The route only matters if someone used it after Marcus was alone.",
+        "Compare the Studio B door panel with the master-key record.",
+        "On the board, identify the evidence that places someone in Studio B after 22:10."
+      ]
+    },
+    {
+      "id": "h_who",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_deal"
+          },
+          {
+            "deduced": "d_last"
+          }
+        ]
+      },
+      "doneWhen": {
+        "deduced": "d_who"
+      },
+      "levels": [
+        "Now connect the hidden deal to the route and the time.",
+        "Ask who could make both records line up.",
+        "On the board, identify the person who controlled the Clearwater agreement and the master key."
+      ]
+    },
+    {
+      "id": "h_timeline",
+      "activeWhen": {
+        "deduced": "d_who"
+      },
+      "doneWhen": {
+        "timeline": true
+      },
+      "levels": [
+        "Put the night in order before you accuse anyone.",
+        "The broadcast began after the death, not before it.",
+        "Use the six events to reconstruct Friday night."
+      ]
+    },
+    {
+      "id": "h_accuse_ready",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_broadcast"
+          },
+          {
+            "deduced": "d_route"
+          },
+          {
+            "deduced": "d_deal"
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "You have three proof slots: the alibi, the route, and the reason.",
+        "Choose cards that explain how the false broadcast and the hidden deal fit together.",
+        "Accuse the person whose rights access, key access, and archive alibi all meet in the same night."
+      ]
+    },
+    {
+      "id": "h_accuse",
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "The case turns on a voice that was not where it sounded.",
+        "The route and the rights file point to one person.",
+        "Use the accusation form: the false live alibi, the route into Studio B, and the reason Marcus had to be stopped."
+      ]
+    }
+  ],
+  "epilogue": [
+    "By midnight, the police had taken over the Rookery building and the Vesper announcement was cancelled. The station’s stream played a silent holding loop until dawn, while the people who had spent years filling the archive boxes waited in the corridor outside.",
+    "Clare Vale refused the first offer from Vesper Media. The sale eventually went through the following spring, but the archive stayed in Brighton, under a trust that paid its royalties to the people who had made the programmes. Tom’s late-night show returned with a new producer and a strict rule: no one was allowed to call a recording live.",
+    "Ben kept the old automation rack in a glass case. He labelled the button that had fooled everyone for one night: AUTO-RESCUE. Underneath, in Marcus’s handwriting, someone added a second label. LISTEN CLOSELY.",
+    "Rookery’s archive still has a gap on one shelf where the Clearwater file used to be. The photocopy is kept in a locked drawer now, beside the master keys and the brass reel weight. Nobody at the company calls the empty space a memorial. They call it a warning."
+  ]
+}

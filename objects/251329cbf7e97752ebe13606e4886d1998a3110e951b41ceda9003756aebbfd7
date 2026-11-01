@@ -1,0 +1,1158 @@
+{
+  "topics": [
+    {
+      "id": "t_dean_night",
+      "suspect": "dean",
+      "prompt": "Tell me about Saturday night.",
+      "lines": [
+        [
+          "you",
+          "Dean, tell me about Saturday night."
+        ],
+        [
+          "dean",
+          "Long session. Six takes of the new one, all of us, and I was drinking through every one of them. I’m not proud of it. I was rough on six — you can hear it."
+        ],
+        [
+          "dean",
+          "We went out for a smoke and had a row at the bottom of the steps — you’ve seen it, the whole country’s seen it. I shoved him. He fell back against the bottom step and got up again, shaking his head at me."
+        ],
+        [
+          "dean",
+          "I left him there alive, about quarter to two, and went to bed. Next thing I know there’s a copper shaking me and the yard’s full of blue lights."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_dean_left"
+        ]
+      }
+    },
+    {
+      "id": "t_dean_rhys",
+      "suspect": "dean",
+      "prompt": "What was Rhys to you?",
+      "lines": [
+        [
+          "dean",
+          "We met in school, in Pill. Fifteen. He had a bass he couldn’t play and a notebook full of words, and I had a guitar and no words at all. That was the band, really. Everything after was just more people."
+        ],
+        [
+          "dean",
+          "That notebook. In ’94 he copied everything worth keeping into a new one — black, brass on the corners — and he never went anywhere without it after. Every word he cared about is in that book. Every word of ‘Small Hours’."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_dean_book"
+        ]
+      }
+    },
+    {
+      "id": "t_dean_song",
+      "suspect": "dean",
+      "prompt": "Who wrote ‘Small Hours’?",
+      "lines": [
+        [
+          "dean",
+          "I wrote the music. The riff, the chords, the bit where it lifts into the chorus. March ’95, in my kitchen in Pill, on a guitar with five strings. Rhys wrote the words that same night, on the end of my table."
+        ],
+        [
+          "dean",
+          "Eddie did the forms. ‘One name looks better on a sleeve, we’ll sort it out later.’ Later never came. I’ve had twenty-eight years of later."
+        ],
+        [
+          "dean",
+          "There’s a tape. Ffion knows where it is. Go on, play it — you’ll see."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_dean_wrote"
+        ]
+      }
+    },
+    {
+      "id": "t_dean_shove",
+      "suspect": "dean",
+      "prompt": "Why did you shove him?",
+      "visibleWhen": {
+        "asked": "t_dean_night"
+      },
+      "lines": [
+        [
+          "dean",
+          "Because I was drunk and he was standing there being reasonable. We weren’t even arguing about the song. Just the take — my playing. He said six was rough and I took it badly."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_dean_notsong"
+        ]
+      }
+    },
+    {
+      "id": "t_dean_steps",
+      "suspect": "dean",
+      "prompt": "Did you go up the steps after him?",
+      "visibleWhen": {
+        "asked": "t_dean_night"
+      },
+      "lines": [
+        [
+          "dean",
+          "Never. I never set foot on them steps all week — I was in the farmhouse. I left him at the bottom, with a cigarette, and I went to bed."
+        ],
+        [
+          "dean",
+          "Fourteen steps, no rail, wet as a fish. I said on the first day somebody’d break their neck on them."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_dean_steps"
+        ]
+      }
+    },
+    {
+      "id": "t_dean_police",
+      "suspect": "dean",
+      "prompt": "Why did you lie to the police?",
+      "visibleWhen": {
+        "asked": "t_dean_night"
+      },
+      "lines": [
+        [
+          "dean",
+          "Because I woke up with a copper’s torch in my face and Rhys was dead and the last thing I’d done was put my hands on him. What would you have said?"
+        ],
+        [
+          "dean",
+          "I’ve told them the truth since. They just don’t like it."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_dean_eddie",
+      "suspect": "dean",
+      "prompt": "Tell me about Eddie.",
+      "visibleWhen": {
+        "any": [
+          {
+            "resolved": "c_dean_song"
+          },
+          {
+            "resolved": "c_carys_row"
+          }
+        ]
+      },
+      "lines": [
+        [
+          "dean",
+          "Eddie found us in the Riverside in ’94 and signed us on a beer mat. He’s been in the middle of everything since. The money, the forms, the story everyone tells."
+        ],
+        [
+          "dean",
+          "When I left, he was the one who rang me every Christmas. ‘All right, Deano? Keeping off it?’ I always thought he felt bad about the forms."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_bryn_night",
+      "suspect": "bryn",
+      "prompt": "Where were you on Saturday night?",
+      "lines": [
+        [
+          "you",
+          "Bryn, where were you on Saturday night?"
+        ],
+        [
+          "bryn",
+          "In bed by midnight. Lemonade and decaf, like every night for twelve years. I did my drums early and left them to it. Old men need their sleep."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_bryn_bed"
+        ]
+      }
+    },
+    {
+      "id": "t_bryn_rhys",
+      "suspect": "bryn",
+      "prompt": "How did you get on with Rhys?",
+      "lines": [
+        [
+          "bryn",
+          "Best mate since I was sixteen. Best man at both my weddings — I’d have asked him to a third if I’d had one."
+        ],
+        [
+          "bryn",
+          "He read me the riot act on Friday, mind. He’d seen me eyeing the wine at dinner. ‘One drink, Bryn, and you’re off the tour. I’m not losing you again.’ Fair play. He was right."
+        ],
+        [
+          "bryn",
+          "It was like 1996 all over again this week. Same jokes, same rows. Our riff’s on half the phones in the place — Eddie’s had it as his ringtone for thirty years, the soft old sod, and Carys put it on hers this summer. Every time a phone goes off, I’m nineteen."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_bryn_tour"
+        ]
+      }
+    },
+    {
+      "id": "t_bryn_watch",
+      "suspect": "bryn",
+      "prompt": "His watch rang 999 by itself. Had that happened before?",
+      "lines": [
+        [
+          "bryn",
+          "Ha — yes. In June, at a solo gig of his in Cardiff. He jumped off the front of the stage, landed on his backside, and two minutes later there’s an ambulance outside asking for him. His watch had done it on its own."
+        ],
+        [
+          "bryn",
+          "We pulled his leg about it all week. Everybody knew — if Rhys fell over, his watch rang 999 and told them exactly when and where."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_bryn_watch"
+        ]
+      }
+    },
+    {
+      "id": "t_bryn_dean",
+      "suspect": "bryn",
+      "prompt": "What state was Dean in?",
+      "visibleWhen": {
+        "resolved": "c_bryn_bed"
+      },
+      "lines": [
+        [
+          "bryn",
+          "Gone. Couldn’t stand. I had to take his boots off for him, like a toddler. I sat with him in case he was sick in his sleep — you learn that, in the rooms."
+        ],
+        [
+          "bryn",
+          "He wasn’t going anywhere, I’ll tell you that. He couldn’t have found the door."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_bryn_why",
+      "suspect": "bryn",
+      "prompt": "Why didn’t you tell the police?",
+      "visibleWhen": {
+        "resolved": "c_bryn_sleep"
+      },
+      "lines": [
+        [
+          "bryn",
+          "Because I’d have had to tell them what I was doing in my car at that time of night. Twelve years. My sponsor, my kids, the tour. Rhys had told me, one drink."
+        ],
+        [
+          "bryn",
+          "And then he was dead, and I thought — I can’t have seen what I saw. I was drunk. It was dark. I kept my mouth shut and hated myself for it."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_bryn_who",
+      "suspect": "bryn",
+      "prompt": "Who did you see at the steps?",
+      "visibleWhen": {
+        "resolved": "c_bryn_sleep"
+      },
+      "lines": [
+        [
+          "bryn",
+          "I couldn’t see a face. Just somebody coming down the steps with a phone lit up, bending over him, and then going back up, quick, the way they’d come. A phone rang while they were down there — some tune, I couldn’t tell you what over the wind and that alarm."
+        ],
+        [
+          "bryn",
+          "Not from the farmhouse, I know that much — I’d been staring at that door all night. Whoever it was came down from the top, and went back up there."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_carys_night",
+      "suspect": "carys",
+      "prompt": "Where were you on Saturday night?",
+      "lines": [
+        [
+          "you",
+          "Mrs Morgan, where were you on Saturday night?"
+        ],
+        [
+          "carys",
+          "In the spare room in the farmhouse. I was on the phone to my sister in Vancouver until about ten to two, then I took a sleeping tablet. The next thing I knew, the ambulance people were ringing me to say Rhys had fallen."
+        ],
+        [
+          "carys",
+          "I ran out in my socks. He was at the bottom of the steps. I’ve told the police all of this."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_carys_call"
+        ]
+      }
+    },
+    {
+      "id": "t_carys_rhys",
+      "suspect": "carys",
+      "prompt": "Tell me about Rhys.",
+      "lines": [
+        [
+          "carys",
+          "When I met him he’d been sober for a year and he was terrified of everything: of his own songs, of being happy. I ran his life for seven years so he could just write."
+        ],
+        [
+          "carys",
+          "And this year, when ‘Small Hours’ came back, I watched him become himself again. Do you know what that’s like, and then this?"
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_carys_room",
+      "suspect": "carys",
+      "prompt": "Why were you sleeping in the farmhouse?",
+      "lines": [
+        [
+          "carys",
+          "He snores. It’s no more interesting than that. We didn’t argue, if that’s what you’ve heard. We never argued."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_carys_fine"
+        ]
+      }
+    },
+    {
+      "id": "t_carys_will",
+      "suspect": "carys",
+      "prompt": "Who inherits Rhys’s songs?",
+      "lines": [
+        [
+          "carys",
+          "I do. I’m his wife. The sale goes ahead on the same terms, Eddie says; the lawyers are already talking."
+        ],
+        [
+          "carys",
+          "And before you ask: I don’t owe anybody anything. I don’t need his money."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_carys_nodebt"
+        ]
+      }
+    },
+    {
+      "id": "t_carys_sale",
+      "suspect": "carys",
+      "prompt": "Tell me about the sale.",
+      "visibleWhen": {
+        "resolved": "c_carys_row"
+      },
+      "lines": [
+        [
+          "carys",
+          "A fund in Los Angeles, Westwater, buying everything: Rhys’s songs and Eddie’s quarter of the publishing. It was meant to be signed on Monday. On Saturday Rhys told me he was going to wreck it, and now it’ll go through with my name on it instead. You can imagine how that looks."
+        ],
+        [
+          "carys",
+          "The papers are in my room in the farmhouse. Look at them, if it helps. I’m past caring who reads what."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_carys_sister",
+      "suspect": "carys",
+      "prompt": "When exactly were you on the phone to your sister?",
+      "visibleWhen": {
+        "deduced": "d_clocks"
+      },
+      "lines": [
+        [
+          "carys",
+          "About half one until ten to two. I looked at the time when I put the phone down, because I was going to take a tablet."
+        ],
+        [
+          "carys",
+          "My sister says it was half five till ten to six, her time, in Vancouver. Why does that matter?"
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_carys_sister"
+        ]
+      }
+    },
+    {
+      "id": "t_carys_eddie",
+      "suspect": "carys",
+      "prompt": "Tell me about Eddie’s money.",
+      "visibleWhen": {
+        "resolved": "c_carys_debt"
+      },
+      "lines": [
+        [
+          "carys",
+          "Eddie’s been living on the sale since the spring. The house in Highgate, the reunion, the film — he paid for most of it up front."
+        ],
+        [
+          "carys",
+          "He said the bank had lent him four hundred thousand against it, on his house. ‘If Monday goes wrong, Carys, we’re both on the street.’ I thought he was joking."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_carys_emails",
+      "suspect": "carys",
+      "prompt": "May I see the emails about the sale?",
+      "visibleWhen": {
+        "all": [
+          {
+            "deduced": "d_motive"
+          },
+          {
+            "deduced": "d_alibi"
+          },
+          {
+            "asked": "t_carys_sale"
+          }
+        ]
+      },
+      "lines": [
+        [
+          "carys",
+          "Eddie copies me in on everything. I haven’t opened a single one since Sunday."
+        ],
+        [
+          "narrator",
+          "She unlocks her phone and hands it to you. Near the top, unopened, is an email from Westwater’s lawyer in Los Angeles, sent at 03:12 on Sunday morning."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "dana_email"
+        ]
+      }
+    },
+    {
+      "id": "t_freya_night",
+      "suspect": "freya",
+      "prompt": "Where were you on Saturday night?",
+      "lines": [
+        [
+          "you",
+          "Freya, where were you on Saturday night?"
+        ],
+        [
+          "freya",
+          "I filmed until the row, and wrapped not long after. I went up to my room at about two and slept straight through, until the screaming."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_freya_asleep"
+        ]
+      }
+    },
+    {
+      "id": "t_freya_film",
+      "suspect": "freya",
+      "prompt": "Tell me about your film.",
+      "lines": [
+        [
+          "freya",
+          "Halflight, twenty-six years on: three men in a room with everything they never said. That was the pitch, and it was working. I’m the whole crew — camera, sound, the lot. Then Saturday."
+        ],
+        [
+          "freya",
+          "The streaming people rang on Monday. They want ‘the night itself’. They’ve doubled the budget. I haven’t decided whether to be sick."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_freya_banner",
+      "suspect": "freya",
+      "prompt": "How did the Banner get your footage?",
+      "lines": [
+        [
+          "freya",
+          "Not from me. I gave everything to the police on Sunday. Somebody there must have leaked it — it happens all the time."
+        ],
+        [
+          "freya",
+          "I never sold anything to anyone."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_freya_nosale"
+        ]
+      }
+    },
+    {
+      "id": "t_freya_kit",
+      "suspect": "freya",
+      "prompt": "May I look at your camera?",
+      "lines": [
+        [
+          "freya",
+          "It’s on the windowsill in my room, charging. Help yourself."
+        ],
+        [
+          "freya",
+          "I’ve no idea what time it thinks it is, by the way. I never touch the clock on that thing — I just point it and shoot."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_freya_clock"
+        ]
+      }
+    },
+    {
+      "id": "t_freya_rhys",
+      "suspect": "freya",
+      "prompt": "What was Rhys like to film?",
+      "lines": [
+        [
+          "freya",
+          "Dreadful. He forgot the camera was there, so everything he did was usable. On Thursday he did twenty minutes about Dean, looking straight at the lens, and then said ‘Not that bit, Frey,’ and I said fine."
+        ],
+        [
+          "freya",
+          "I’ve still got it. I haven’t watched it again."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_freya_saturday",
+      "suspect": "freya",
+      "prompt": "Did you hear anything on Saturday afternoon?",
+      "visibleWhen": {
+        "asked": "t_carys_room"
+      },
+      "lines": [
+        [
+          "freya",
+          "Rhys and Carys, about half past two. The walls up there are paper; the whole landing heard. Not words, mostly — voices. Then her: ‘You’re giving away half of everything for a guilty conscience!’ And then her bag bumping down the steps past my door."
+        ],
+        [
+          "freya",
+          "She went to sleep in the farmhouse after that. Everyone pretended not to notice."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_freya_heard"
+        ]
+      }
+    },
+    {
+      "id": "t_freya_thursday",
+      "suspect": "freya",
+      "prompt": "May I see what Rhys said about Dean on Thursday?",
+      "visibleWhen": {
+        "deduced": "d_motive"
+      },
+      "lines": [
+        [
+          "freya",
+          "The bit he told me not to use. I’ve never cut it into anything. Here — the whole thing."
+        ],
+        [
+          "narrator",
+          "She finds the file on her laptop and turns it towards you."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "rhys_interview"
+        ]
+      }
+    },
+    {
+      "id": "t_freya_window",
+      "suspect": "freya",
+      "prompt": "What could you see from the lounge window?",
+      "visibleWhen": {
+        "all": [
+          {
+            "resolved": "c_freya_asleep"
+          },
+          {
+            "deduced": "d_alibi"
+          }
+        ]
+      },
+      "lines": [
+        [
+          "freya",
+          "The steps. From my end of the sofa you look straight across the yard at them, like a stage."
+        ],
+        [
+          "freya",
+          "When Eddie went up to bed, just before the clocks went back, the landing light came on the way it does — and went off again almost at once. It usually stays on a whole minute. I remember thinking it had broken."
+        ],
+        [
+          "freya",
+          "After that it never came on again. Not when Rhys went across to bed, either. He walked out into the dark and I lost him, and I thought, he’ll break his neck on those steps. Then I put my headphones back on and went back to my clip. I didn’t look up again until Carys screamed."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_freya_light"
+        ]
+      }
+    },
+    {
+      "id": "t_huw_session",
+      "suspect": "huw",
+      "prompt": "Tell me about Saturday’s session.",
+      "lines": [
+        [
+          "you",
+          "Mr Bevan, tell me about Saturday’s session."
+        ],
+        [
+          "huw",
+          "Nine takes of ‘Holding Pattern’. Six with the whole band, then Bryn’s drums again on their own, then two vocals from Rhys. The last one — duw, the last one. I’ve been doing this forty-five years."
+        ],
+        [
+          "huw",
+          "I was at the desk all night, start to finish. It’s all on the computer, every take; have a look. And the band’s iPad is in the lounge, if you want their chat. I’ll unlock it for you."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_huw_desk"
+        ]
+      }
+    },
+    {
+      "id": "t_huw_rhys",
+      "suspect": "huw",
+      "prompt": "Tell me about Rhys.",
+      "lines": [
+        [
+          "huw",
+          "He made his first record here when he was twenty-two, and slept on that sofa because he couldn’t afford the granary. This week I gave him the best room up there. He said, ‘Look at us, Huw. We’ve come up in the world.’"
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_huw_steps",
+      "suspect": "huw",
+      "prompt": "Those granary steps have no handrail.",
+      "lines": [
+        [
+          "huw",
+          "They’ve stood four hundred years without one. The insurers wanted a rail and a light, and I put the light in, in June — a good one, on a sensor."
+        ],
+        [
+          "huw",
+          "And it was working all night, before you ask. Those steps are perfectly safe if you look where you’re going."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_huw_light"
+        ]
+      }
+    },
+    {
+      "id": "t_huw_sequence",
+      "suspect": "huw",
+      "prompt": "Who left the control room that night, and when?",
+      "visibleWhen": {
+        "deduced": "d_clocks"
+      },
+      "lines": [
+        [
+          "huw",
+          "Eddie was on his call all the way through Bryn’s drums — Take 7. Headphones on, thumbs up from the sofa. When it finished he said goodnight and went up to bed. ‘There’s your extra hour, Huw,’ he said."
+        ],
+        [
+          "huw",
+          "That was before we’d even started Rhys’s vocals, Takes 8 and 9. Rhys sang them to me and nobody else."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_huw_sequence"
+        ]
+      }
+    },
+    {
+      "id": "t_huw_glass",
+      "suspect": "huw",
+      "prompt": "Who else was in the studio after the clocks went back?",
+      "visibleWhen": {
+        "deduced": "d_clocks"
+      },
+      "lines": [
+        [
+          "huw",
+          "Only Freya, in the lounge next door. I could see her through the side window the whole time Rhys was singing: on the sofa with her laptop and her headphones on, cutting something."
+        ],
+        [
+          "huw",
+          "Rhys left a few minutes after Take 9. ‘Night, Huw.’ I stayed and backed everything up. I never heard a thing. That room’s built so you can’t."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_huw_glass"
+        ]
+      }
+    },
+    {
+      "id": "t_huw_saturday",
+      "suspect": "huw",
+      "prompt": "Did anything happen on Saturday, before the session?",
+      "visibleWhen": {
+        "deduced": "d_motive"
+      },
+      "lines": [
+        [
+          "huw",
+          "Half past five. I was setting up, with my headphones on, and somebody had left the talkback open in the lounge. Rhys’s voice: ‘I’m not signing on Monday, Eddie. Half of “Small Hours” is Dean’s.’"
+        ],
+        [
+          "huw",
+          "And Eddie: ‘You’ll sink us both.’ Then the door went, and I took my headphones off and pretended I’d never heard it."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_huw_overheard"
+        ]
+      }
+    },
+    {
+      "id": "t_huw_sunday",
+      "suspect": "huw",
+      "prompt": "What happened on Sunday morning?",
+      "visibleWhen": {
+        "deduced": "d_motive"
+      },
+      "lines": [
+        [
+          "huw",
+          "Nobody slept. The last police car went about seven. At half past, Eddie came into the lounge and lit the wood burner — said he was freezing. First log I’d seen him lift all week. He sat by it for an hour."
+        ],
+        [
+          "huw",
+          "I haven’t cleaned the stove since. The police told me not to touch anything, and then they never came back."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_huw_stove"
+        ]
+      }
+    },
+    {
+      "id": "t_eddie_night",
+      "suspect": "eddie",
+      "prompt": "Where were you when Rhys fell?",
+      "lines": [
+        [
+          "you",
+          "Mr Cole, where were you when Rhys fell?"
+        ],
+        [
+          "eddie",
+          "On a video call to Los Angeles, on the control-room sofa, from twenty past one until five to two. The people buying the songs. Huw was sat right there in front of me — ask him."
+        ],
+        [
+          "eddie",
+          "Then I went straight up to bed and slept like the dead until Carys screamed. God forgive me, I slept through it."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_eddie_call",
+          "st_eddie_bed"
+        ]
+      }
+    },
+    {
+      "id": "t_eddie_rhys",
+      "suspect": "eddie",
+      "prompt": "Tell me about Rhys.",
+      "lines": [
+        [
+          "eddie",
+          "The Riverside in Newport, 1994. Three lads who couldn’t play, and one of them could sing like it hurt. I signed them on a beer mat. I’ve still got the beer mat."
+        ],
+        [
+          "eddie",
+          "Thirty years. I got him off the drink twice. He was my boy."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_eddie_sale",
+      "suspect": "eddie",
+      "prompt": "Tell me about the sale.",
+      "lines": [
+        [
+          "eddie",
+          "Westwater, in LA: six point two million for the catalogue. My company’s had a quarter of the publishing since ’95 — everybody knows that. It was due to sign on Monday."
+        ],
+        [
+          "eddie",
+          "Rhys was happy with it. Over the moon. He’d have signed on Monday, and the boys would’ve had a tour, and I’d have retired to the seaside. That was the plan."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_eddie_happy",
+          "st_eddie_share"
+        ]
+      }
+    },
+    {
+      "id": "t_eddie_watch",
+      "suspect": "eddie",
+      "prompt": "Did you know about Rhys’s watch?",
+      "visibleWhen": {
+        "asked": "t_bryn_watch"
+      },
+      "lines": [
+        [
+          "eddie",
+          "The ambulance in June? Who didn’t. I was the one who had to ring them and apologise. ‘He’s fine, he’s a singer, he fell off a stage.’"
+        ],
+        [
+          "eddie",
+          "God. If it had gone off like that on Saturday and he’d just been sitting on the cobbles with a sore head…"
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_eddie_watch"
+        ]
+      }
+    },
+    {
+      "id": "t_eddie_clocks",
+      "suspect": "eddie",
+      "prompt": "Did you know the clocks were going back that night?",
+      "visibleWhen": {
+        "deduced": "d_clocks"
+      },
+      "lines": [
+        [
+          "eddie",
+          "Everybody knew. Huw had it on the whiteboard in letters a foot high. I told him on my way out, ‘There’s your extra hour, Huw.’"
+        ],
+        [
+          "eddie",
+          "Why?"
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_eddie_book",
+      "suspect": "eddie",
+      "prompt": "Where is Rhys’s notebook?",
+      "visibleWhen": {
+        "deduced": "d_motive"
+      },
+      "lines": [
+        [
+          "eddie",
+          "His book? I wouldn’t know. I never touched it in thirty years — nobody did. Probably in his jacket, or the police have it."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_eddie_book"
+        ]
+      }
+    },
+    {
+      "id": "t_eddie_song",
+      "suspect": "eddie",
+      "prompt": "Who registered ‘Small Hours’?",
+      "visibleWhen": {
+        "any": [
+          {
+            "resolved": "c_dean_song"
+          },
+          {
+            "resolved": "c_carys_row"
+          }
+        ]
+      },
+      "lines": [
+        [
+          "eddie",
+          "I did the forms, in ’95, the way you did then. Rhys wrote the song; Dean played on it. Everybody plays on everything. If we’d put every name on that sleeve we’d have needed a bigger sleeve."
+        ],
+        [
+          "eddie",
+          "Dean’s had a chip on his shoulder about it ever since. You’ve seen where that got him."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_eddie_ringtone",
+      "suspect": "eddie",
+      "prompt": "What’s your ringtone, Mr Cole?",
+      "visibleWhen": {
+        "evidence": "nine_nine_nine"
+      },
+      "lines": [
+        [
+          "eddie",
+          "My ringtone? The riff. ‘Small Hours’. Has been since 1996 — the boys hate it."
+        ],
+        [
+          "eddie",
+          "Why do you ask?"
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_eddie_ringtone"
+        ]
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "st_dean_left",
+      "suspect": "dean",
+      "text": "Rhys and I argued at the bottom of the steps. I left him there alive at about quarter to two and went to bed."
+    },
+    {
+      "id": "st_dean_steps",
+      "suspect": "dean",
+      "text": "I never set foot on the granary steps all week."
+    },
+    {
+      "id": "st_dean_notsong",
+      "suspect": "dean",
+      "text": "We weren’t arguing about the song. Just the take — my playing."
+    },
+    {
+      "id": "st_dean_promise",
+      "suspect": "dean",
+      "text": "In the yard Rhys told me he was putting my name on ‘Small Hours’ on Monday. I called him a liar."
+    },
+    {
+      "id": "st_dean_wrote",
+      "suspect": "dean",
+      "text": "I wrote the music of ‘Small Hours’ in my kitchen in Pill in March 1995. Rhys wrote the words that night."
+    },
+    {
+      "id": "st_dean_book",
+      "suspect": "dean",
+      "text": "Rhys never went anywhere without his notebook — black, with brass on the corners. Every word he ever wrote is in it."
+    },
+    {
+      "id": "st_bryn_bed",
+      "suspect": "bryn",
+      "text": "I was in bed by midnight, stone-cold sober, like every night for twelve years."
+    },
+    {
+      "id": "st_bryn_tour",
+      "suspect": "bryn",
+      "text": "On Friday Rhys told me that one drink and I was off the tour."
+    },
+    {
+      "id": "st_bryn_watch",
+      "suspect": "bryn",
+      "text": "Everybody knew that if Rhys fell, his watch rang 999 by itself. It did in June, at a gig."
+    },
+    {
+      "id": "st_bryn_dean",
+      "suspect": "bryn",
+      "text": "After my drums I went over to the farmhouse. Dean had just come in and was on the stairs, too drunk to stand. I got him to bed and sat with him. My phone went back to one o’clock, and a bit after that I sent the chat a photo of him."
+    },
+    {
+      "id": "st_bryn_sleep",
+      "suspect": "bryn",
+      "text": "After I sent the photo, I went to sleep."
+    },
+    {
+      "id": "st_bryn_car",
+      "suspect": "bryn",
+      "text": "From quarter past one, after the clocks went back, I sat in my car with a bottle, facing the yard. Nobody came out of the farmhouse until Carys ran out."
+    },
+    {
+      "id": "st_bryn_saw",
+      "suspect": "bryn",
+      "text": "I saw Rhys go up the steps in the dark. A thump, and an alarm. Then someone came down from the top with a phone lit up and bent over him. A phone rang twice, and they went back up the steps, fast."
+    },
+    {
+      "id": "st_carys_call",
+      "suspect": "carys",
+      "text": "I was on the phone to my sister until about ten to two. Then I took a sleeping tablet and slept until the ambulance people rang."
+    },
+    {
+      "id": "st_carys_fine",
+      "suspect": "carys",
+      "text": "Rhys and I didn’t argue. I slept in the farmhouse because he snores."
+    },
+    {
+      "id": "st_carys_row",
+      "suspect": "carys",
+      "text": "On Saturday afternoon Rhys told me he was giving Dean half of ‘Small Hours’. I told him he was mad, and moved my bag to the farmhouse."
+    },
+    {
+      "id": "st_carys_nodebt",
+      "suspect": "carys",
+      "text": "I don’t owe anybody anything."
+    },
+    {
+      "id": "st_carys_loan",
+      "suspect": "carys",
+      "text": "In April Eddie lent me £60,000, to be paid back out of the sale."
+    },
+    {
+      "id": "st_carys_eddieloan",
+      "suspect": "carys",
+      "text": "Eddie told me he’d borrowed £400,000 against the sale himself, on his house. If Monday went wrong, he’d lose it."
+    },
+    {
+      "id": "st_carys_sister",
+      "suspect": "carys",
+      "text": "My sister says we spoke from half five to ten to six, her time, in Vancouver."
+    },
+    {
+      "id": "st_freya_asleep",
+      "suspect": "freya",
+      "text": "I went up to my room at about two and slept straight through until the screaming."
+    },
+    {
+      "id": "st_freya_nosale",
+      "suspect": "freya",
+      "text": "I never sold anything to anyone. The police must have leaked the clip."
+    },
+    {
+      "id": "st_freya_sold",
+      "suspect": "freya",
+      "text": "I cut the row into a clip that night and sold it to the Banner for £8,000."
+    },
+    {
+      "id": "st_freya_clock",
+      "suspect": "freya",
+      "text": "I never touch the clock on my camera."
+    },
+    {
+      "id": "st_freya_heard",
+      "suspect": "freya",
+      "text": "On Saturday afternoon I heard Carys shouting at Rhys in the granary: ‘You’re giving away half of everything for a guilty conscience!’"
+    },
+    {
+      "id": "st_freya_lounge",
+      "suspect": "freya",
+      "text": "After the clocks went back I was in the lounge cutting the clip, with Huw at his desk through the side window, until I heard Carys scream. Rhys said goodnight to me a few minutes before that, and went out."
+    },
+    {
+      "id": "st_freya_light",
+      "suspect": "freya",
+      "text": "When Eddie went up to bed, just before the clocks went back, the landing light came on and went straight off again. After that it never came on again, not even when Rhys went across to bed."
+    },
+    {
+      "id": "st_huw_desk",
+      "suspect": "huw",
+      "text": "I was at the desk all night, start to finish."
+    },
+    {
+      "id": "st_huw_light",
+      "suspect": "huw",
+      "text": "The landing light was working all night. Those steps are perfectly safe."
+    },
+    {
+      "id": "st_huw_bulb",
+      "suspect": "huw",
+      "text": "On Sunday morning I found the landing bulb loose in its holder and twisted it back, before the police looked in daylight."
+    },
+    {
+      "id": "st_huw_sequence",
+      "suspect": "huw",
+      "text": "Eddie was on his call through Bryn’s drums, Take 7, then said goodnight and went up, before we started Rhys’s vocals, Takes 8 and 9."
+    },
+    {
+      "id": "st_huw_glass",
+      "suspect": "huw",
+      "text": "While Rhys sang his last takes, Freya was in the lounge on her laptop. I could see her through the glass the whole time."
+    },
+    {
+      "id": "st_huw_overheard",
+      "suspect": "huw",
+      "text": "On Saturday at half five I heard Rhys tell Eddie, ‘I’m not signing on Monday. Half of “Small Hours” is Dean’s.’ Eddie said, ‘You’ll sink us both.’"
+    },
+    {
+      "id": "st_huw_stove",
+      "suspect": "huw",
+      "text": "At half seven on Sunday morning Eddie lit the wood burner in the lounge, and sat by it for an hour."
+    },
+    {
+      "id": "st_eddie_call",
+      "suspect": "eddie",
+      "text": "From twenty past one until five to two I was on a video call to Los Angeles, on the control-room sofa, with Huw right in front of me."
+    },
+    {
+      "id": "st_eddie_bed",
+      "suspect": "eddie",
+      "text": "After my call I went straight to bed and slept until Carys screamed."
+    },
+    {
+      "id": "st_eddie_happy",
+      "suspect": "eddie",
+      "text": "Rhys was happy with the sale. He’d have signed on Monday."
+    },
+    {
+      "id": "st_eddie_coldfeet",
+      "suspect": "eddie",
+      "text": "On Saturday Rhys got cold feet about the sale. Artists do. He’d have signed."
+    },
+    {
+      "id": "st_eddie_share",
+      "suspect": "eddie",
+      "text": "My company has had a quarter of the publishing on Halflight’s songs since 1995."
+    },
+    {
+      "id": "st_eddie_ringtone",
+      "suspect": "eddie",
+      "text": "The riff of ‘Small Hours’ has been my ringtone since 1996."
+    },
+    {
+      "id": "st_eddie_book",
+      "suspect": "eddie",
+      "text": "I never touched Rhys’s notebook. I couldn’t tell you where it is."
+    },
+    {
+      "id": "st_eddie_watch",
+      "suspect": "eddie",
+      "text": "I knew Rhys’s watch rang 999 by itself. In June I had to ring the ambulance service to apologise."
+    }
+  ]
+}

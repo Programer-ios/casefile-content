@@ -1,0 +1,82 @@
+{
+  "suspects": [
+    {
+      "id": "elena",
+      "name": "Elena Danevska",
+      "role": "The foundation director",
+      "age": 43,
+      "bio": "Elena survived the 2011 Demir Kapija sleeper fire that killed her younger sister Mila. She later rebuilt the Danevski Relief Foundation and became one of its most recognisable public faces. Damjan asked to speak with her before Skopje. Elena says the conversation was brief, the accusations were cruel and she left the train before midnight because she felt unwell.",
+      "symbol": "heart.text.square.fill",
+      "color": "#704C5A",
+      "monogram": "ED",
+      "portrait": "portraits/elena.png",
+      "dismissal": "Surviving an old fire does not make me responsible for a new death.",
+      "rebuttal": "Damjan wanted to turn the worst night of my life into a public spectacle. I left because I could not breathe in that carriage, not because I killed him."
+    },
+    {
+      "id": "nikola",
+      "name": "Nikola Danevski",
+      "role": "The sisters’ brother",
+      "age": 48,
+      "bio": "Nikola manages the foundation’s buildings and finances. He identified the sisters’ luggage after the 2011 fire and signed the family insurance settlement the following year. His ticket ended at Kumanovo, where a platform gate recorded his exit at 00:44. He says Damjan was reopening grief for the sake of a report nobody needed.",
+      "symbol": "person.2.fill",
+      "color": "#675A42",
+      "monogram": "ND",
+      "portrait": "portraits/nikola.png",
+      "dismissal": "Protecting my family is not the same as killing for it.",
+      "rebuttal": "I argued with Damjan because he spoke about my sisters as entries in a ledger. I left at the station printed on my ticket, in front of cameras and railway staff."
+    },
+    {
+      "id": "hana",
+      "name": "Dr. Hana Koleva",
+      "role": "The forensic odontologist",
+      "age": 55,
+      "bio": "Hana was the junior forensic dentist assigned to the burned sleeper in 2011. Her signature appears on the provisional identification, although the original dental records arrived after the case was closed. Damjan asked her to make a new comparison for the Belgrade inquiry. If the first identification was careless, her professional reputation will carry the damage.",
+      "symbol": "cross.case.fill",
+      "color": "#49646A",
+      "monogram": "HK",
+      "portrait": "portraits/hana.png",
+      "dismissal": "A mistaken form sixteen years ago is not evidence of murder tonight.",
+      "rebuttal": "I had every reason to fear Damjan’s report and every reason to finish it correctly. I was in the dining car when he went to the rear vestibule."
+    },
+    {
+      "id": "mara",
+      "name": "Mara Petreska",
+      "role": "The investigative journalist",
+      "age": 38,
+      "bio": "Mara writes long investigations about public money and forgotten court cases. She claims that sharing Train 417 with Damjan was useful coincidence, but her notebook is already organised around the Demir Kapija fire and the Danevski foundation. A Sunday publication deadline would make Damjan’s missing report extremely valuable to her.",
+      "symbol": "newspaper.fill",
+      "color": "#53617B",
+      "monogram": "MP",
+      "portrait": "portraits/mara.png",
+      "dismissal": "Wanting the truth before another newspaper is not a murder motive.",
+      "rebuttal": "I paid for research and hid it because confidential work is easy to misrepresent. Hana sat across from me until the Skopje departure call."
+    },
+    {
+      "id": "petar",
+      "name": "Petar Rusev",
+      "role": "The railway archivist",
+      "age": 42,
+      "bio": "Petar works in the railway’s paper archive and knows the old sleeper-car mechanisms better than most current crews. His father was the attendant blamed for delaying the 2011 evacuation. Petar found the unopened dental envelope that persuaded Damjan to reopen the case, but he feared Damjan’s report would correct the names without clearing his father.",
+      "symbol": "archivebox.fill",
+      "color": "#5D604F",
+      "monogram": "PR",
+      "portrait": "portraits/petar.png",
+      "dismissal": "Knowing how a sleeper door works does not put me behind one.",
+      "rebuttal": "I wanted Damjan to finish the report. I wanted my father’s name in it. Killing him would leave both histories unfinished."
+    },
+    {
+      "id": "emil",
+      "name": "Emil Stojanov",
+      "role": "The sleeper attendant",
+      "age": 31,
+      "bio": "Emil controls the berth cards, passport rack, luggage slips and emergency release for sleeping car 218. He found Damjan at Preševo after the compartment call went unanswered. Emil insists that every early departure was written on the manifest and that nobody could have opened Compartment 6 without leaving a mark on his key register.",
+      "symbol": "tram.fill",
+      "color": "#3F5963",
+      "monogram": "ES",
+      "portrait": "portraits/emil.png",
+      "dismissal": "A bad manifest makes me careless, not violent.",
+      "rebuttal": "I was working the forward door while Skopje unloaded the train. I lied about one passenger leaving early because I took money. I did not go near the rear vestibule with Damjan."
+    }
+  ]
+}

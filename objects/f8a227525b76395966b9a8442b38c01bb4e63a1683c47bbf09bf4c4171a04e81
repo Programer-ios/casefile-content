@@ -1,0 +1,1346 @@
+{
+  "id": "case001",
+  "number": 1,
+  "title": "The Midnight Toast",
+  "tagline": "A toast that was never raised.",
+  "setting": "Larkspur House · Wiltshire · November 1962",
+  "sketchTitle": "LARKSPUR HO.",
+  "sketchCredit": "SKETCH: CONST. R. PIKE · NOT TO SCALE",
+  "stayLabel": "Stay at Larkspur House",
+  "briefing": [
+    "Larkspur House, Wiltshire. Sunday 18 November 1962, nine o’clock in the morning.",
+    "Last night Lionel Thorne — sixty-three, self-made, founder of Thorne Instruments — was found dead at his study desk, less than an hour before the midnight toast at which he meant to ‘clear the decks’ with an announcement.",
+    "The storm flooded the only bridge out of the valley. No one came and no one went. Six people were in the house with him.",
+    "Constable Pike, out of his depth and soaked to the knees, has sealed the study and asked you to look into it before the county men can get through. His notes are in the file. Everyone, he says, has something to hide.",
+    "Find out who killed Lionel Thorne, how it was done and why — and be ready to prove it."
+  ],
+  "startingEvidence": [
+    "constable_notes",
+    "maid_statement",
+    "cook_statement"
+  ],
+  "locations": [
+    {
+      "id": "study",
+      "name": "The Study",
+      "summary": "Where Lionel Thorne was found dead.",
+      "description": "Lionel Thorne’s study, sealed by Constable Pike at half past midnight. The body has been taken to the morning room; everything else is as it was found. The air still smells of coal smoke and whisky.",
+      "art": {
+        "aspect": 1.0,
+        "props": [
+          {
+            "label": "Bookcase",
+            "symbol": "books.vertical.fill",
+            "x": 0.22,
+            "y": 0.06,
+            "w": 0.34,
+            "h": 0.08
+          },
+          {
+            "label": "Side table",
+            "x": 0.14,
+            "y": 0.24,
+            "w": 0.14,
+            "h": 0.1
+          },
+          {
+            "label": "Desk",
+            "x": 0.57,
+            "y": 0.42,
+            "w": 0.48,
+            "h": 0.18
+          },
+          {
+            "label": "Chair",
+            "symbol": "chair.fill",
+            "x": 0.57,
+            "y": 0.26,
+            "w": 0.1,
+            "h": 0.08
+          },
+          {
+            "label": "Fireplace",
+            "symbol": "fireplace.fill",
+            "x": 0.045,
+            "y": 0.6,
+            "w": 0.07,
+            "h": 0.24,
+            "style": "fixture"
+          },
+          {
+            "label": "French windows",
+            "x": 0.98,
+            "y": 0.52,
+            "w": 0.04,
+            "h": 0.36,
+            "style": "window"
+          },
+          {
+            "label": "Fern",
+            "symbol": "leaf.fill",
+            "x": 0.88,
+            "y": 0.2,
+            "w": 0.1,
+            "h": 0.1
+          },
+          {
+            "label": "Rug",
+            "x": 0.5,
+            "y": 0.72,
+            "w": 0.56,
+            "h": 0.28,
+            "style": "rug"
+          },
+          {
+            "label": "Armchair",
+            "symbol": "chair.lounge.fill",
+            "x": 0.24,
+            "y": 0.82,
+            "w": 0.16,
+            "h": 0.12
+          },
+          {
+            "x": 0.4,
+            "y": 0.98,
+            "w": 0.18,
+            "h": 0.04,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_recorder",
+          "label": "Tape recorder",
+          "x": 0.14,
+          "y": 0.36,
+          "text": "Lionel’s tape recorder sits on the side table by the bookcase, its reel threaded and still.",
+          "reward": {
+            "evidence": [
+              "tape_recorder"
+            ]
+          }
+        },
+        {
+          "id": "hs_pillbox",
+          "label": "Silver pill box",
+          "x": 0.39,
+          "y": 0.38,
+          "text": "A small silver pill box, the kind with a lid for every day of the week.",
+          "reward": {
+            "evidence": [
+              "pill_box"
+            ]
+          }
+        },
+        {
+          "id": "hs_diary",
+          "label": "Desk diary",
+          "x": 0.52,
+          "y": 0.36,
+          "text": "Lionel’s desk diary lies open at this week, written in his small, precise hand.",
+          "reward": {
+            "evidence": [
+              "desk_diary"
+            ]
+          }
+        },
+        {
+          "id": "hs_tray",
+          "label": "Letter tray",
+          "x": 0.65,
+          "y": 0.36,
+          "text": "The letter tray holds the week’s invoices. One of them has been singled out.",
+          "reward": {
+            "evidence": [
+              "calder_invoice"
+            ]
+          }
+        },
+        {
+          "id": "hs_glass",
+          "label": "Whisky glass",
+          "x": 0.75,
+          "y": 0.45,
+          "text": "A cut-glass tumbler and the decanter it came from.",
+          "reward": {
+            "evidence": [
+              "whisky_glass"
+            ]
+          }
+        },
+        {
+          "id": "hs_pen",
+          "label": "Fountain pen",
+          "x": 0.57,
+          "y": 0.48,
+          "text": "Lionel’s fountain pen lies uncapped on the blotter, a bead of ink dried on the nib. A careful man doesn’t usually leave a good pen to dry out."
+        },
+        {
+          "id": "hs_drawer",
+          "label": "Desk drawer",
+          "x": 0.42,
+          "y": 0.48,
+          "text": "The top drawer slides open on cigars, sealing wax — and a folded note.",
+          "reward": {
+            "evidence": [
+              "finch_note"
+            ]
+          }
+        },
+        {
+          "id": "hs_lamp",
+          "label": "Desk lamp",
+          "x": 0.77,
+          "y": 0.29,
+          "text": "The green-shaded desk lamp at the back corner of the desk.",
+          "reward": {
+            "evidence": [
+              "unplugged_lamp"
+            ]
+          }
+        },
+        {
+          "id": "hs_bookend",
+          "label": "Bronze bookend",
+          "x": 0.29,
+          "y": 0.5,
+          "text": "Constable Pike’s chalk circle marks where the bookend lay on the carpet.",
+          "reward": {
+            "evidence": [
+              "bronze_bookend"
+            ]
+          }
+        },
+        {
+          "id": "hs_fern",
+          "label": "Potted fern",
+          "x": 0.87,
+          "y": 0.31,
+          "text": "A large fern in a brass pot stands beside the desk.",
+          "reward": {
+            "evidence": [
+              "wilted_fern"
+            ]
+          }
+        },
+        {
+          "id": "hs_grate",
+          "label": "Fireplace",
+          "x": 0.14,
+          "y": 0.6,
+          "text": "The fire went out hours ago. Something pale lies among the ashes.",
+          "reward": {
+            "evidence": [
+              "burnt_iou"
+            ]
+          }
+        },
+        {
+          "id": "hs_window",
+          "label": "French windows",
+          "x": 0.92,
+          "y": 0.58,
+          "text": "The French windows are bolted on the inside. Pike checked the terrace at first light: the rain had washed it clean and nothing had been forced. Whoever did this was already in the house."
+        }
+      ]
+    },
+    {
+      "id": "drawing_room",
+      "name": "The Drawing Room",
+      "summary": "Where the guests played bridge.",
+      "description": "The long drawing room where the household waited for the toast. The fire has been relit this morning; last night’s brandy glasses still stand on the tray.",
+      "art": {
+        "aspect": 1.3,
+        "props": [
+          {
+            "label": "Fireplace",
+            "symbol": "fireplace.fill",
+            "x": 0.5,
+            "y": 0.045,
+            "w": 0.2,
+            "h": 0.07,
+            "style": "fixture"
+          },
+          {
+            "label": "Sofa",
+            "symbol": "sofa.fill",
+            "x": 0.32,
+            "y": 0.26,
+            "w": 0.34,
+            "h": 0.12
+          },
+          {
+            "label": "Rug",
+            "x": 0.46,
+            "y": 0.52,
+            "w": 0.5,
+            "h": 0.4,
+            "style": "rug"
+          },
+          {
+            "label": "Bridge table",
+            "symbol": "suit.spade.fill",
+            "x": 0.66,
+            "y": 0.58,
+            "w": 0.2,
+            "h": 0.2
+          },
+          {
+            "label": "Armchair",
+            "symbol": "chair.lounge.fill",
+            "x": 0.2,
+            "y": 0.62,
+            "w": 0.14,
+            "h": 0.14
+          },
+          {
+            "label": "Wireless",
+            "symbol": "radio.fill",
+            "x": 0.92,
+            "y": 0.2,
+            "w": 0.1,
+            "h": 0.12
+          },
+          {
+            "label": "Drinks tray",
+            "symbol": "wineglass.fill",
+            "x": 0.88,
+            "y": 0.76,
+            "w": 0.12,
+            "h": 0.1
+          },
+          {
+            "label": "Windows",
+            "x": 0.02,
+            "y": 0.5,
+            "w": 0.04,
+            "h": 0.4,
+            "style": "window"
+          },
+          {
+            "x": 0.6,
+            "y": 0.975,
+            "w": 0.16,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_scorepad",
+          "label": "Bridge table",
+          "x": 0.66,
+          "y": 0.75,
+          "text": "The card table is as they left it: two decks, an ashtray and the score pad.",
+          "reward": {
+            "evidence": [
+              "bridge_scorepad"
+            ]
+          }
+        },
+        {
+          "id": "hs_sewing",
+          "label": "Sewing basket",
+          "x": 0.11,
+          "y": 0.75,
+          "text": "Margaret’s sewing basket, beside her armchair. Something has been tucked beneath the silks.",
+          "reward": {
+            "evidence": [
+              "love_note"
+            ]
+          }
+        },
+        {
+          "id": "hs_wireless",
+          "label": "Wireless set",
+          "x": 0.92,
+          "y": 0.33,
+          "text": "A walnut wireless set. Mrs. Thorne says it played dance music from ten until the alarm — loud enough to cover a good deal of conversation, though not loud enough to carry to the study."
+        },
+        {
+          "id": "hs_brandy",
+          "label": "Brandy glasses",
+          "x": 0.88,
+          "y": 0.62,
+          "text": "Five brandy glasses on the tray. Daniel took his whisky to the billiards room; everyone else drank in here — eventually."
+        },
+        {
+          "id": "hs_mantel",
+          "label": "Mantel clock",
+          "x": 0.66,
+          "y": 0.08,
+          "text": "A carriage clock on the mantelpiece, keeping perfect time. Lionel set every clock in the house himself, every Sunday."
+        }
+      ]
+    },
+    {
+      "id": "hall",
+      "name": "The Hall",
+      "summary": "Telephone, cupboard and the boot room.",
+      "description": "The entrance hall at the heart of the house. Every room opens off it: the corridor to the study, the conservatory’s glass door, the boot room and the stairs. The telephone stands on its table, still dead.",
+      "art": {
+        "aspect": 1.3,
+        "props": [
+          {
+            "label": "Staircase",
+            "symbol": "stairs",
+            "x": 0.2,
+            "y": 0.34,
+            "w": 0.22,
+            "h": 0.48
+          },
+          {
+            "label": "Grandfather clock",
+            "symbol": "clock.fill",
+            "x": 0.45,
+            "y": 0.07,
+            "w": 0.08,
+            "h": 0.1
+          },
+          {
+            "label": "Conservatory door",
+            "x": 0.72,
+            "y": 0.025,
+            "w": 0.18,
+            "h": 0.04,
+            "style": "door"
+          },
+          {
+            "label": "Telephone table",
+            "symbol": "phone.fill",
+            "x": 0.63,
+            "y": 0.43,
+            "w": 0.14,
+            "h": 0.12
+          },
+          {
+            "label": "Hall cupboard",
+            "symbol": "cabinet.fill",
+            "x": 0.9,
+            "y": 0.14,
+            "w": 0.14,
+            "h": 0.12
+          },
+          {
+            "label": "Rug",
+            "x": 0.56,
+            "y": 0.66,
+            "w": 0.4,
+            "h": 0.28,
+            "style": "rug"
+          },
+          {
+            "label": "Umbrella stand",
+            "symbol": "umbrella.fill",
+            "x": 0.82,
+            "y": 0.86,
+            "w": 0.07,
+            "h": 0.08
+          },
+          {
+            "label": "To the study",
+            "x": 0.98,
+            "y": 0.5,
+            "w": 0.04,
+            "h": 0.22,
+            "style": "door"
+          },
+          {
+            "label": "Boot room",
+            "x": 0.02,
+            "y": 0.8,
+            "w": 0.04,
+            "h": 0.2,
+            "style": "door"
+          },
+          {
+            "label": "Front door",
+            "x": 0.45,
+            "y": 0.975,
+            "w": 0.2,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_phone_pad",
+          "label": "Telephone pad",
+          "x": 0.56,
+          "y": 0.56,
+          "text": "The message pad beside the telephone. Its top sheet has been torn away.",
+          "reward": {
+            "evidence": [
+              "phone_pad"
+            ]
+          }
+        },
+        {
+          "id": "hs_boot_room",
+          "label": "Boot room shelf",
+          "x": 0.13,
+          "y": 0.66,
+          "text": "The boot room smells of wet wool and dubbin. On the high shelf, the gardener’s tins and jars.",
+          "reward": {
+            "evidence": [
+              "rabbit_poison"
+            ]
+          }
+        },
+        {
+          "id": "hs_cupboard",
+          "label": "Hall cupboard",
+          "x": 0.9,
+          "y": 0.29,
+          "text": "Coats, umbrellas — and a cardboard box labelled ‘TIME SWITCHES — for the lamps when we’re in London’. It has three slots and holds two switches."
+        },
+        {
+          "id": "hs_clock",
+          "label": "Grandfather clock",
+          "x": 0.55,
+          "y": 0.16,
+          "text": "The grandfather clock is exact to the second. Lionel wound and set it himself every Sunday. Today, for the first time in thirty years, nobody will."
+        },
+        {
+          "id": "hs_corridor",
+          "label": "Study corridor",
+          "x": 0.87,
+          "y": 0.52,
+          "text": "From beside the telephone you can see straight down the corridor to the study door — and, through the glass door opposite, into the conservatory."
+        },
+        {
+          "id": "hs_phone_drawer",
+          "label": "Telephone-table drawer",
+          "x": 0.77,
+          "y": 0.43,
+          "text": "Something has been bothering you about that lamp. The shallow drawer under the telephone holds the directory and a few pencils — and something heavier, wedged underneath.",
+          "reward": {
+            "evidence": [
+              "time_switch"
+            ]
+          },
+          "visibleWhen": {
+            "any": [
+              {
+                "statement": "st_hobbs_lamp"
+              },
+              {
+                "deduced": "d_recording"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "office",
+      "name": "Secretary’s Office",
+      "summary": "Eleanor Voss’s domain.",
+      "description": "A small, orderly room off the back corridor where Eleanor Voss runs Lionel Thorne’s affairs. Everything is squared, labelled and in its place.",
+      "availableWhen": {
+        "flag": "office_key"
+      },
+      "lockedHint": "Locked. Eleanor Voss keeps the key.",
+      "art": {
+        "aspect": 1.2,
+        "props": [
+          {
+            "label": "Window",
+            "x": 0.5,
+            "y": 0.025,
+            "w": 0.3,
+            "h": 0.04,
+            "style": "window"
+          },
+          {
+            "label": "Reel shelf",
+            "symbol": "archivebox.fill",
+            "x": 0.14,
+            "y": 0.08,
+            "w": 0.22,
+            "h": 0.08
+          },
+          {
+            "label": "Desk",
+            "x": 0.5,
+            "y": 0.42,
+            "w": 0.42,
+            "h": 0.16
+          },
+          {
+            "label": "Chair",
+            "symbol": "chair.fill",
+            "x": 0.5,
+            "y": 0.24,
+            "w": 0.1,
+            "h": 0.08
+          },
+          {
+            "label": "Filing cabinet",
+            "symbol": "cabinet.fill",
+            "x": 0.88,
+            "y": 0.18,
+            "w": 0.13,
+            "h": 0.15
+          },
+          {
+            "label": "Fireplace",
+            "symbol": "fireplace.fill",
+            "x": 0.045,
+            "y": 0.56,
+            "w": 0.07,
+            "h": 0.22,
+            "style": "fixture"
+          },
+          {
+            "label": "Rug",
+            "x": 0.5,
+            "y": 0.72,
+            "w": 0.4,
+            "h": 0.22,
+            "style": "rug"
+          },
+          {
+            "x": 0.78,
+            "y": 0.975,
+            "w": 0.16,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_typewriter",
+          "label": "Typewriter",
+          "x": 0.5,
+          "y": 0.35,
+          "text": "Eleanor’s typewriter, its cover folded neatly beside it.",
+          "reward": {
+            "evidence": [
+              "typewriter_flaw"
+            ]
+          }
+        },
+        {
+          "id": "hs_calendar",
+          "label": "Desk calendar",
+          "x": 0.34,
+          "y": 0.44,
+          "text": "Monday the 19th is circled: ‘PEMBERTON — AUDIT, 10.00’. The circle has been gone over so many times the pencil has torn the paper."
+        },
+        {
+          "id": "hs_files",
+          "label": "Correspondence file",
+          "x": 0.88,
+          "y": 0.34,
+          "text": "Carbon copies of every letter Lionel sent this year, filed by date.",
+          "reward": {
+            "evidence": [
+              "carbon_hartley"
+            ]
+          }
+        },
+        {
+          "id": "hs_tape_shelf",
+          "label": "Reel shelf",
+          "x": 0.14,
+          "y": 0.2,
+          "text": "A shelf of small cardboard boxes, each holding one reel of Lionel’s dictation.",
+          "reward": {
+            "evidence": [
+              "tape_shelf"
+            ]
+          }
+        },
+        {
+          "id": "hs_office_grate",
+          "label": "Fireplace",
+          "x": 0.14,
+          "y": 0.56,
+          "text": "The office fireplace, laid for a fire.",
+          "reward": {
+            "evidence": [
+              "cold_grate"
+            ]
+          }
+        },
+        {
+          "id": "hs_galoshes",
+          "label": "Galoshes",
+          "x": 0.86,
+          "y": 0.84,
+          "text": "A pair of ladies’ galoshes by the door, the welts crusted with dry garden mud. Dry, mind — they haven’t been out since before the rain."
+        },
+        {
+          "id": "hs_out_tray",
+          "label": "Out-tray",
+          "x": 0.66,
+          "y": 0.44,
+          "text": "The letters Eleanor took to the study last night must be somewhere. The out-tray holds a buff folder: Saturday’s letters, typed and signed, ready for the post.",
+          "reward": {
+            "evidence": [
+              "half_signature"
+            ]
+          },
+          "visibleWhen": {
+            "any": [
+              {
+                "statement": "st_eleanor_letters"
+              },
+              {
+                "statement": "st_finch_saw_eleanor"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "conservatory",
+      "name": "The Conservatory",
+      "summary": "Glass, orchids and the rain.",
+      "description": "Lionel’s glasshouse, opening off the hall. Rain still drums on the roof. It is warm, green and — after dark — very private.",
+      "art": {
+        "aspect": 1.3,
+        "props": [
+          {
+            "label": "Glass wall",
+            "x": 0.5,
+            "y": 0.025,
+            "w": 0.9,
+            "h": 0.04,
+            "style": "window"
+          },
+          {
+            "label": "Glass wall",
+            "x": 0.02,
+            "y": 0.5,
+            "w": 0.04,
+            "h": 0.8,
+            "style": "window"
+          },
+          {
+            "label": "Glass wall",
+            "x": 0.98,
+            "y": 0.5,
+            "w": 0.04,
+            "h": 0.8,
+            "style": "window"
+          },
+          {
+            "label": "Palm",
+            "symbol": "tree.fill",
+            "x": 0.13,
+            "y": 0.2,
+            "w": 0.12,
+            "h": 0.14
+          },
+          {
+            "label": "Orchid bench",
+            "symbol": "camera.macro",
+            "x": 0.78,
+            "y": 0.3,
+            "w": 0.28,
+            "h": 0.1
+          },
+          {
+            "label": "Tiled floor",
+            "x": 0.5,
+            "y": 0.62,
+            "w": 0.6,
+            "h": 0.36,
+            "style": "rug"
+          },
+          {
+            "label": "Wicker settee",
+            "symbol": "sofa.fill",
+            "x": 0.36,
+            "y": 0.56,
+            "w": 0.3,
+            "h": 0.14
+          },
+          {
+            "label": "Glass door to hall",
+            "x": 0.5,
+            "y": 0.975,
+            "w": 0.2,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_wicker",
+          "label": "Wicker settee",
+          "x": 0.36,
+          "y": 0.7,
+          "text": "A wicker settee half hidden behind the palms, its cushions still dented.",
+          "reward": {
+            "evidence": [
+              "shawl_case"
+            ]
+          }
+        },
+        {
+          "id": "hs_glass_door",
+          "label": "Glass door",
+          "x": 0.5,
+          "y": 0.865,
+          "text": "The conservatory’s glass door looks straight across the hall to the telephone table. Anyone standing there last night would have seen whoever sat in here — and been seen."
+        },
+        {
+          "id": "hs_orchids",
+          "label": "Orchids",
+          "x": 0.88,
+          "y": 0.42,
+          "text": "Lionel’s prize orchids, each labelled in his precise hand. One label simply reads: ‘Patience is a precision instrument.’"
+        },
+        {
+          "id": "hs_roof",
+          "label": "Glass roof",
+          "x": 0.6,
+          "y": 0.14,
+          "text": "Rain hammers on the glass roof. Last night it came down in sheets from nine o’clock. Nobody strolled on the terrace and came back dry."
+        }
+      ]
+    }
+  ],
+  "timeline": {
+    "id": "timeline",
+    "title": "The evening, reconstructed",
+    "prompt": "Put Saturday night’s events in the order they really happened. Times you know for certain are shown; reason out the rest.",
+    "events": [
+      {
+        "id": "tl_quarrel",
+        "text": "Daniel and Lionel quarrel at dinner",
+        "time": "8.45 pm"
+      },
+      {
+        "id": "tl_ice",
+        "text": "Hobbs brings fresh ice — Lionel is alive and well",
+        "time": "9.25 pm",
+        "visibleWhen": {
+          "statement": "st_hobbs_ice"
+        },
+        "teaser": "Someone saw Lionel alive after dinner."
+      },
+      {
+        "id": "tl_call",
+        "text": "Finch begins his secret call to Hartley",
+        "time": "9.32 pm",
+        "visibleWhen": {
+          "statement": "st_finch_phone"
+        },
+        "teaser": "Someone wasn’t where they claimed between half past nine and ten."
+      },
+      {
+        "id": "tl_letters",
+        "text": "Eleanor brings Lionel letters to sign",
+        "visibleWhen": {
+          "any": [
+            {
+              "statement": "st_eleanor_letters"
+            },
+            {
+              "statement": "st_finch_saw_eleanor"
+            }
+          ]
+        },
+        "teaser": "Someone visited the study between half past nine and ten."
+      },
+      {
+        "id": "tl_poison",
+        "text": "Lionel drinks the poisoned whisky and collapses",
+        "visibleWhen": {
+          "deduced": "d_poisoned"
+        },
+        "teaser": "How Lionel really died."
+      },
+      {
+        "id": "tl_bridge",
+        "text": "The bridge game begins",
+        "time": "10.00 pm",
+        "visibleWhen": {
+          "evidence": "bridge_scorepad"
+        },
+        "teaser": "What the guests did from ten o’clock."
+      },
+      {
+        "id": "tl_tape",
+        "text": "The old dictation reel plays through the study door",
+        "visibleWhen": {
+          "deduced": "d_switch"
+        },
+        "teaser": "How Lionel’s voice was heard at 10.15."
+      },
+      {
+        "id": "tl_daniel",
+        "text": "Daniel finds his father dead and burns his IOU",
+        "time": "10.45 pm",
+        "visibleWhen": {
+          "statement": "st_daniel_found_body"
+        },
+        "teaser": "Someone slipped into the study between ten and eleven — and has kept quiet about it."
+      },
+      {
+        "id": "tl_found",
+        "text": "Hobbs finds the body",
+        "time": "11.10 pm"
+      },
+      {
+        "id": "tl_kneels",
+        "text": "Eleanor kneels behind the desk while the others crowd round",
+        "visibleWhen": {
+          "statement": "st_finch_eleanor_knees"
+        },
+        "teaser": "Something happened in the confusion after the body was found."
+      }
+    ],
+    "conclusion": "Lionel was alive at 9.25 and dead before ten. In that window only one person is known to have been in the study with him: Eleanor Voss, from about 9.36 to 9.48."
+  },
+  "accusation": {
+    "culprit": "eleanor",
+    "methods": [
+      "Struck him with the bronze bookend",
+      "Poisoned his whisky with cyanide from the boot room",
+      "Doubled his digitalis tablets",
+      "Smothered him and staged a fall"
+    ],
+    "method": 1,
+    "motives": [
+      "To stop a new will being signed on Monday",
+      "To stop the Hartley deal being exposed at midnight",
+      "To hide years of embezzlement from Monday’s audit",
+      "To protect a secret love affair",
+      "To escape crushing gambling debts"
+    ],
+    "motive": 2,
+    "proof": [
+      [
+        "st_finch_saw_eleanor",
+        "st_eleanor_letters",
+        "half_signature",
+        "timeline"
+      ],
+      [
+        "time_switch",
+        "d_switch",
+        "d_recording",
+        "st_finch_eleanor_knees"
+      ],
+      [
+        "d_calder",
+        "st_eleanor_embezzle",
+        "desk_diary"
+      ]
+    ],
+    "proofLabels": [
+      "Opportunity — in the study when he died",
+      "The false alibi — how the 10.15 voice was faked",
+      "Motive — why it had to be this weekend"
+    ],
+    "successTitle": "Case closed"
+  },
+  "hints": [
+    {
+      "id": "h_study",
+      "doneWhen": {
+        "all": [
+          {
+            "evidence": "whisky_glass"
+          },
+          {
+            "evidence": "wilted_fern"
+          },
+          {
+            "evidence": "pill_box"
+          }
+        ]
+      },
+      "levels": [
+        "Crime scenes are generous to those who look twice. Have you been over the study properly?",
+        "Lionel’s desk and its surroundings hold more than paperwork. Think about what he drank, and what he took.",
+        "In the Study, examine the whisky glass, the potted fern and the silver pill box."
+      ]
+    },
+    {
+      "id": "h_office",
+      "doneWhen": {
+        "flag": "office_key"
+      },
+      "levels": [
+        "Lionel’s correspondence and dictation are kept somewhere you haven’t been yet.",
+        "Eleanor Voss holds the key to her office.",
+        "Ask Eleanor where she was after dinner — she’ll hand you the key."
+      ]
+    },
+    {
+      "id": "h_hobbs",
+      "doneWhen": {
+        "statement": "st_hobbs_voice"
+      },
+      "levels": [
+        "Servants often notice what the family misses.",
+        "Hobbs was the last person to hear Lionel ‘alive’.",
+        "Interrogate Hobbs and ask him about a quarter past ten."
+      ]
+    },
+    {
+      "id": "h_harrow_blow",
+      "activeWhen": {
+        "evidence": "wilted_fern"
+      },
+      "doneWhen": {
+        "resolved": "c_harrow_blow"
+      },
+      "levels": [
+        "Dr. Harrow was very quick to name the cause of death.",
+        "Something in the study smells wrong for a man who was simply struck down.",
+        "Ask Dr. Harrow how Lionel died, then challenge his statement with the wilted fern."
+      ]
+    },
+    {
+      "id": "h_poisoned",
+      "activeWhen": {
+        "statement": "st_harrow_cyanide"
+      },
+      "doneWhen": {
+        "deduced": "d_poisoned"
+      },
+      "levels": [
+        "You know how he died now. Pin it down on the evidence board.",
+        "Open the question ‘How did Lionel Thorne really die?’ on the board.",
+        "Answer ‘Poisoned — cyanide in his whisky’, backed by Harrow’s cyanide statement (or the fern) and the polished whisky glass."
+      ]
+    },
+    {
+      "id": "h_recording",
+      "activeWhen": {
+        "statement": "st_hobbs_voice"
+      },
+      "doneWhen": {
+        "deduced": "d_recording"
+      },
+      "levels": [
+        "Hobbs remembers Lionel’s exact words. Have you seen them written down anywhere?",
+        "Lionel’s past letters and dictation reels are filed in Eleanor’s office. Compare them with what Hobbs heard.",
+        "Answer ‘An old dictation reel playing on the tape recorder’ using Hobbs’s statement, the 15 November carbon copy, and the tape recorder (or the empty reel box)."
+      ]
+    },
+    {
+      "id": "h_tod",
+      "activeWhen": {
+        "evidence": "pill_box"
+      },
+      "doneWhen": {
+        "deduced": "d_time_of_death"
+      },
+      "levels": [
+        "Lionel was a man of strict habits. Did he keep them all on Saturday night?",
+        "Find out when Lionel was last seen alive, and when he took his heart tablet. Hobbs, Margaret and Dr. Harrow can help.",
+        "Answer ‘Between 9.25 and 10.00 pm’ with Hobbs’s 9.25 statement, the pill box, and Harrow’s (or Margaret’s) statement about the ten o’clock tablet."
+      ]
+    },
+    {
+      "id": "h_switch",
+      "activeWhen": {
+        "deduced": "d_recording"
+      },
+      "doneWhen": {
+        "deduced": "d_switch"
+      },
+      "levels": [
+        "If the voice was a recording, how did it start at exactly the right moment?",
+        "Look at how the recorder was plugged in, and ask Hobbs how the master’s lamp is normally set up. Then search the hall.",
+        "Examine the telephone-table drawer in the Hall to find the time switch, then pair it with the unplugged desk lamp."
+      ]
+    },
+    {
+      "id": "h_eleanor_typing",
+      "activeWhen": {
+        "statement": "st_eleanor_typing"
+      },
+      "doneWhen": {
+        "resolved": "c_eleanor_typing"
+      },
+      "levels": [
+        "Eleanor says she spent the evening typing. Does anyone’s account disagree?",
+        "Re-read the housemaid’s statement in your case file — or look at Eleanor’s fireplace.",
+        "Challenge Eleanor’s ‘typing in my office’ statement with Rosie Dunn’s statement or the cold grate."
+      ]
+    },
+    {
+      "id": "h_finch",
+      "activeWhen": {
+        "statement": "st_finch_library"
+      },
+      "doneWhen": {
+        "resolved": "c_finch_library"
+      },
+      "levels": [
+        "Gerald Finch’s quiet evening in the library is rather convenient.",
+        "The telephone in the hall keeps more secrets than you might think.",
+        "Examine the telephone pad in the Hall, then challenge Finch’s library statement with it."
+      ]
+    },
+    {
+      "id": "h_finch_saw",
+      "activeWhen": {
+        "resolved": "c_finch_library"
+      },
+      "doneWhen": {
+        "asked": "t_finch_saw"
+      },
+      "levels": [
+        "Finch spent twenty minutes standing in the hall. What might he have seen?",
+        "The hall telephone has a view straight down the study corridor.",
+        "Ask Finch what he could see from the telephone."
+      ]
+    },
+    {
+      "id": "h_eleanor_letters",
+      "activeWhen": {
+        "statement": "st_eleanor_letters"
+      },
+      "doneWhen": {
+        "resolved": "c_eleanor_letters"
+      },
+      "levels": [
+        "Eleanor insists Lionel was well when she left him. Is there any trace of what happened while she was there?",
+        "Look closely at the letters she brought him that night. They’re in her office.",
+        "Challenge Eleanor’s ‘perfectly well when I left’ statement with the half-signed letter from her out-tray."
+      ]
+    },
+    {
+      "id": "h_knees",
+      "activeWhen": {
+        "deduced": "d_switch"
+      },
+      "doneWhen": {
+        "statement": "st_finch_eleanor_knees"
+      },
+      "levels": [
+        "Whoever set the time switch had to remove it before morning. When could they have done it?",
+        "In the confusion after the body was found, somebody may have noticed something.",
+        "Ask Gerald Finch what he saw when everyone rushed into the study."
+      ]
+    },
+    {
+      "id": "h_papers",
+      "doneWhen": {
+        "all": [
+          {
+            "evidence": "calder_invoice"
+          },
+          {
+            "evidence": "desk_diary"
+          }
+        ]
+      },
+      "levels": [
+        "Lionel’s own papers may say more about his last week than any witness.",
+        "Look through what’s on Lionel’s desk: his diary, and the invoices he was checking.",
+        "In the Study, examine the desk diary and the letter tray."
+      ]
+    },
+    {
+      "id": "h_calder",
+      "activeWhen": {
+        "evidence": "calder_invoice"
+      },
+      "doneWhen": {
+        "deduced": "d_calder"
+      },
+      "levels": [
+        "Lionel ringed one invoice in red. Why?",
+        "Calder & Rowe’s invoices have a peculiar typeface. Have you seen it anywhere else in the house?",
+        "Answer ‘A sham firm’ with the Calder & Rowe invoice and Eleanor’s typewriter."
+      ]
+    },
+    {
+      "id": "h_embezzle",
+      "activeWhen": {
+        "deduced": "d_calder"
+      },
+      "doneWhen": {
+        "resolved": "c_eleanor_calder"
+      },
+      "levels": [
+        "Eleanor would have you believe Calder & Rowe is perfectly ordinary. You know better.",
+        "Your deductions are cards too. You can present them in an interrogation.",
+        "Ask Eleanor about Calder & Rowe, then challenge her answer with your ‘Calder & Rowe is a sham’ deduction."
+      ]
+    },
+    {
+      "id": "h_accuse_ready",
+      "activeWhen": {
+        "all": [
+          {
+            "any": [
+              {
+                "evidence": "half_signature"
+              },
+              {
+                "statement": "st_finch_saw_eleanor"
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "evidence": "time_switch"
+              },
+              {
+                "deduced": "d_switch"
+              }
+            ]
+          },
+          {
+            "deduced": "d_calder"
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "You may already have enough to make an arrest. Who was in the study when Lionel died, and who gained an alibi from the 10.15 ‘voice’?",
+        "Only one person sat at the bridge table at 10.15 and was also in the study between 9.25 and 10.00. Why would they need Lionel dead before Monday?",
+        "Accuse Eleanor Voss: cyanide in the whisky, to hide her embezzlement from Monday’s audit. Prove it with the half-signed letter (or Finch’s sighting), the time switch (or your time-switch deduction), and the Calder & Rowe deduction."
+      ]
+    },
+    {
+      "id": "h_daniel_cleared",
+      "activeWhen": {
+        "deduced": "d_time_of_death"
+      },
+      "doneWhen": {
+        "deduced": "d_daniel_innocent"
+      },
+      "levels": [
+        "Now that you know when Lionel died, look again at the obvious suspect.",
+        "Rosie’s statement says where Daniel was during the crucial half hour.",
+        "Answer ‘No — he was in the billiards room’ with Rosie Dunn’s statement and your time-of-death deduction."
+      ]
+    },
+    {
+      "id": "h_daniel",
+      "activeWhen": {
+        "any": [
+          {
+            "evidence": "burnt_iou"
+          },
+          {
+            "evidence": "bronze_bookend"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_daniel_study"
+      },
+      "levels": [
+        "Everyone suspects Daniel. But is his own account of the evening true?",
+        "Daniel says he never went near the study. Something in the study says otherwise.",
+        "Ask Daniel where he went after dinner, then challenge that statement with the burnt IOU or the bronze bookend."
+      ]
+    },
+    {
+      "id": "h_affair",
+      "activeWhen": {
+        "any": [
+          {
+            "statement": "st_margaret_drawing_room"
+          },
+          {
+            "statement": "st_harrow_drawing_room"
+          }
+        ]
+      },
+      "doneWhen": {
+        "all": [
+          {
+            "resolved": "c_margaret_room"
+          },
+          {
+            "resolved": "c_harrow_room"
+          }
+        ]
+      },
+      "levels": [
+        "Margaret and Dr. Harrow tell the same story about the drawing room. Perhaps too neatly.",
+        "Look through Margaret’s things in the drawing room — and visit the conservatory.",
+        "Challenge Margaret’s and Harrow’s drawing-room statements with the note from the sewing basket, or the shawl and cigarette case."
+      ]
+    },
+    {
+      "id": "h_timeline",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_hobbs_ice"
+          },
+          {
+            "statement": "st_finch_phone"
+          },
+          {
+            "any": [
+              {
+                "statement": "st_eleanor_letters"
+              },
+              {
+                "statement": "st_finch_saw_eleanor"
+              }
+            ]
+          },
+          {
+            "deduced": "d_poisoned"
+          },
+          {
+            "evidence": "bridge_scorepad"
+          },
+          {
+            "deduced": "d_switch"
+          },
+          {
+            "statement": "st_daniel_found_body"
+          },
+          {
+            "statement": "st_finch_eleanor_knees"
+          }
+        ]
+      },
+      "doneWhen": {
+        "timeline": true
+      },
+      "levels": [
+        "Every event of the evening is now on the record. Can you put them in order?",
+        "Open the timeline in your Notebook. Anchor the events whose times you know, then reason about the rest.",
+        "The true order: the quarrel, the ice, Finch’s call, Eleanor’s letters, the poison, bridge, the old reel, Daniel, Hobbs finds the body, Eleanor kneels."
+      ]
+    },
+    {
+      "id": "h_accuse",
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "Review your board. Who was in the study when Lionel died, who gained an alibi from the 10.15 ‘voice’, and who needed him silenced before Monday?",
+        "Every part of the accusation needs a card: opportunity, the false alibi and the motive. If one is missing, the hints above will have pointed you to it — re-read your notebook.",
+        "The killer is Eleanor Voss: cyanide in the whisky, to hide her embezzlement from Monday’s audit. Prove it with the half-signed letter or Finch’s sighting, the time switch, and the Calder & Rowe deduction (from the invoice on Lionel’s desk and Eleanor’s typewriter)."
+      ]
+    }
+  ],
+  "epilogue": [
+    "Eleanor Voss said nothing at all when Constable Pike took her arm. It was only at the county police station, faced with the time switch and the half-signed letter, that she began to talk — precisely, as she did everything.",
+    "She had been taking money through Calder & Rowe for eight years: forty thousand pounds, typed into existence one invoice at a time. When Lionel ringed an invoice in red and booked the auditors for Monday, she knew she had one weekend.",
+    "The rabbit powder at four o’clock. The letters, so that Lionel would be bent over his desk with his whisky at his elbow while she stood beside him. The 15 November reel, because Hobbs had never heard that dictation. And the time switch set for a quarter past ten, because everyone in the house knew Hobbs banked the study fire then — and that he would never interrupt the master’s dictation.",
+    "She had planned for everything except Lionel Thorne dying halfway through his own name, on a letter she had put in front of him.",
+    "Daniel Thorne went to work at Thorne Instruments in the spring — as a junior clerk. Gerald Finch sold his shares to Hartley. Margaret Thorne and Felix Harrow were married, very quietly, the following year.",
+    "Hobbs still banks the study fire at a quarter past ten every night. He says the house doesn’t feel right otherwise."
+  ]
+}

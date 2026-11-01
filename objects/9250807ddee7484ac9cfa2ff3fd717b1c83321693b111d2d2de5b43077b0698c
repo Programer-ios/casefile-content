@@ -1,0 +1,82 @@
+{
+  "suspects": [
+    {
+      "id": "vivienne",
+      "name": "Dame Vivienne Lisle",
+      "role": "The film star",
+      "age": 78,
+      "bio": "The star of The Grey Lady of Glenmorran, filmed in the hotel’s Great Hall in 1971, and its most famous guest for more than fifty winters. Her husband, the director Archie Lisle, died here in 2004. She is very ill, and says so. At the Burns supper she gave away the Black Ice.",
+      "symbol": "theatermasks.fill",
+      "color": "#5E4B6E",
+      "monogram": "VL",
+      "portrait": "portraits/vivienne.png",
+      "dismissal": "Darling, I haven’t the faintest idea what you mean.",
+      "rebuttal": "I sat in that hall in the dark and sang to frightened people. I gave Halina the stone because she deserved it. I’d have given her anything."
+    },
+    {
+      "id": "rory",
+      "name": "Rory Lisle",
+      "role": "The grandson",
+      "age": 34,
+      "bio": "Dame Vivienne’s only grandson, a London property agent between jobs. The Black Ice was his late mother’s to inherit, and then, he always understood, his. At the supper he stood up, said so to the whole room, and walked out.",
+      "symbol": "suit.spade.fill",
+      "color": "#7A4A3A",
+      "monogram": "RL",
+      "portrait": "portraits/rory.png",
+      "dismissal": "Not a clue what you’re on about.",
+      "rebuttal": "I wanted that stone, and everybody knows it. That’s not the same as killing a woman for it."
+    },
+    {
+      "id": "peggy",
+      "name": "Peggy Rennie",
+      "role": "The dresser",
+      "age": 68,
+      "bio": "Dame Vivienne’s dresser since 1981, and her companion now: forty-five winters at the Glenmorran. She sleeps in the small room that connects to the Victoria Suite, and has never once been late with a hem.",
+      "symbol": "scissors",
+      "color": "#4F5D6B",
+      "monogram": "PR",
+      "portrait": "portraits/peggy.png",
+      "dismissal": "I’m sorry, dear. I don’t follow.",
+      "rebuttal": "Halina was my friend for twenty years. I’m sixty-eight, and I dress an old lady for a living. Look at me."
+    },
+    {
+      "id": "alasdair",
+      "name": "Alasdair Munro",
+      "role": "The owner",
+      "age": 52,
+      "bio": "The third Munro to own the Glenmorran, and the man who made its Burns supper famous. He was master of ceremonies on Saturday night. When the lights went out, he had candles lit in two minutes and everyone gathered round the Great Hall fire.",
+      "symbol": "key.fill",
+      "color": "#4C6A55",
+      "monogram": "AM",
+      "portrait": "portraits/alasdair.png",
+      "dismissal": "I’m afraid I don’t follow you.",
+      "rebuttal": "This hotel is my family’s life, and Halina was part of it for twenty-two years. I spent that whole night in the Great Hall with a candle and thirty frightened people."
+    },
+    {
+      "id": "hamish",
+      "name": "Hamish Grant",
+      "role": "The night porter",
+      "age": 63,
+      "bio": "Night porter at the Glenmorran for thirty-one years. He keeps the night book at reception, and knows where every key in the building hangs. When the lights went out he fought the old generator in the snow, and at 00:24 he got the lights back on.",
+      "symbol": "bell.fill",
+      "color": "#5A6B3E",
+      "monogram": "HG",
+      "portrait": "portraits/hamish.png",
+      "dismissal": "Ye’ve lost me there.",
+      "rebuttal": "Thirty-one years I’ve kept this door. I was out in the snow swearing at a generator while somebody did that to her."
+    },
+    {
+      "id": "tomasz",
+      "name": "Tomasz Wrona",
+      "role": "The barman",
+      "age": 29,
+      "bio": "From Kraków, like Mrs K, who found him the job four years ago and fed him every Sunday since. He runs the Glenmorran’s bar of four hundred whiskies, and on Saturday night he kept it open by candlelight.",
+      "symbol": "wineglass.fill",
+      "color": "#3E5A70",
+      "monogram": "TW",
+      "portrait": "portraits/tomasz.png",
+      "dismissal": "Sorry, I don’t understand.",
+      "rebuttal": "She was like my mother here. I would never touch her. Never."
+    }
+  ]
+}

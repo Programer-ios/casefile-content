@@ -1,0 +1,82 @@
+{
+  "suspects": [
+    {
+      "id": "dean",
+      "name": "Dean Pritchard",
+      "role": "The guitarist",
+      "age": 52,
+      "bio": "Halflight’s guitarist, until he walked out in 1998. He wrote the music of ‘Small Hours’, he says, and never got the credit. These days he teaches guitar above a shop in Newport. He has been arrested for Rhys’s murder and is out on bail, forbidden to go back to Hafod.",
+      "symbol": "guitars.fill",
+      "color": "#8A4B3C",
+      "monogram": "DP",
+      "portrait": "portraits/dean.png",
+      "dismissal": "You’ve lost me, butt.",
+      "rebuttal": "I shoved him. I’ve shoved him a hundred times since we were fifteen. I never pushed him down any steps, and I never would."
+    },
+    {
+      "id": "bryn",
+      "name": "Bryn Lewis",
+      "role": "The drummer",
+      "age": 51,
+      "bio": "Halflight’s drummer, and the one who kept in touch with everybody. A driving instructor in Newport, twelve years sober, with the coin to prove it. He shared a room in the farmhouse with Dean.",
+      "symbol": "car.fill",
+      "color": "#4F6B5A",
+      "monogram": "BL",
+      "portrait": "portraits/bryn.png",
+      "dismissal": "Sorry — what’s that got to do with anything?",
+      "rebuttal": "Rhys was my best mate for thirty-five years. I’d have done anything for him. Anything."
+    },
+    {
+      "id": "carys",
+      "name": "Carys Morgan",
+      "role": "The wife",
+      "age": 44,
+      "bio": "Rhys’s wife for seven years, and the person who runs his business: the deals, the diary, the social media. Before that she ran a PR firm in Cardiff. She has stayed on at Hafod this week, to be near where he died.",
+      "symbol": "heart.fill",
+      "color": "#6E4A6B",
+      "monogram": "CM",
+      "portrait": "portraits/carys.png",
+      "dismissal": "I don’t see what that has to do with my husband.",
+      "rebuttal": "I’ve just lost my husband, and you want to tell me I did it? I was asleep in that house. Prove otherwise or leave me alone."
+    },
+    {
+      "id": "freya",
+      "name": "Freya Holt",
+      "role": "The film-maker",
+      "age": 31,
+      "bio": "A documentary director from London, making a film about the reunion for a streaming service. She was the whole crew: camera, sound, the lot. Her footage of the row is the reason Dean was arrested.",
+      "symbol": "video.fill",
+      "color": "#3F5E7A",
+      "monogram": "FH",
+      "portrait": "portraits/freya.png",
+      "dismissal": "That doesn’t prove anything. Next question.",
+      "rebuttal": "I film things. That’s all I did that night. I didn’t touch him."
+    },
+    {
+      "id": "huw",
+      "name": "Huw Bevan",
+      "role": "The studio owner",
+      "age": 63,
+      "bio": "He built Hafod Studios in his father’s barn in 1979, and has engineered half the records you remember from the nineties. He recorded every take that Saturday night, and he was the last to see Rhys alive.",
+      "symbol": "headphones",
+      "color": "#7A6A3A",
+      "monogram": "HB",
+      "portrait": "portraits/huw.png",
+      "dismissal": "Duw, I don’t follow you at all.",
+      "rebuttal": "I was at my desk all night, the whole time that boy was singing. Ask anybody."
+    },
+    {
+      "id": "eddie",
+      "name": "Eddie Cole",
+      "role": "The manager",
+      "age": 61,
+      "bio": "Halflight’s manager since 1994, when he heard them in a Newport pub and signed them on a beer mat. He put the reunion together, and the documentary, and the tour. He has been looking after Carys all week.",
+      "symbol": "briefcase.fill",
+      "color": "#5C5C70",
+      "monogram": "EC",
+      "portrait": "portraits/eddie.png",
+      "dismissal": "Sorry, I’m not with you. Try me again?",
+      "rebuttal": "Thirty years I looked after that boy. I was on a call to Los Angeles with Huw sat right in front of me. You’ve got this wrong."
+    }
+  ]
+}

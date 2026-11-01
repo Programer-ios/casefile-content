@@ -1,0 +1,495 @@
+{
+  "topics": [
+    {
+      "id": "t_elena_departure",
+      "suspect": "elena",
+      "prompt": "When did you leave the train?",
+      "lines": [
+        [
+          "you",
+          "Elena, your ticket runs to Belgrade. Why did you leave at Skopje?"
+        ],
+        [
+          "elena",
+          "Damjan used the dining car to accuse me of lying about my own sister’s death. I became short of breath and decided I could not spend another night inside a sleeper."
+        ],
+        [
+          "elena",
+          "Emil returned my passport and a porter found my suitcase. I stepped off before midnight, before Damjan went anywhere near the rear of the train."
+        ],
+        [
+          "elena",
+          "I did not hide the fact that I left. The railway failed to update its own paper."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_elena_departure"
+        ]
+      }
+    },
+    {
+      "id": "t_elena_folio",
+      "suspect": "elena",
+      "prompt": "What were you carrying on the platform?",
+      "visibleWhen": {
+        "evidence": "missing_folio"
+      },
+      "lines": [
+        [
+          "you",
+          "The platform camera shows a red folio under your arm. Damjan’s red folio is missing."
+        ],
+        [
+          "elena",
+          "The foundation uses red folders for donor accounts. I brought one onto the train and carried the same one off."
+        ],
+        [
+          "elena",
+          "Damjan waved his own papers at me in the dining car. I never touched them."
+        ],
+        [
+          "elena",
+          "A colour in a grainy photograph is not ownership."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_elena_folio"
+        ]
+      }
+    },
+    {
+      "id": "t_elena_fire",
+      "suspect": "elena",
+      "prompt": "Tell me about the 2011 fire.",
+      "visibleWhen": {
+        "evidence": "old_manifest"
+      },
+      "lines": [
+        [
+          "you",
+          "What do you remember about the night your sister died near Demir Kapija?"
+        ],
+        [
+          "elena",
+          "Smoke, metal and someone striking the corridor window with a shoe. Mila had Berth 10. I found the service door and woke up outside without my coat."
+        ],
+        [
+          "elena",
+          "They gave me her damaged luggage tag in a paper bag and told me not to look at the body. Nikola identified our things."
+        ],
+        [
+          "elena",
+          "Damjan signed the name sixteen years ago. If he had doubts, he should have carried them then instead of putting them on me now."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_elena_fire"
+        ]
+      }
+    },
+    {
+      "id": "t_nikola_money",
+      "suspect": "nikola",
+      "prompt": "Was foundation money missing before the fire?",
+      "visibleWhen": {
+        "evidence": "foundation_ledger"
+      },
+      "lines": [
+        [
+          "you",
+          "The audit shows a €180,000 transfer before your sisters boarded the train."
+        ],
+        [
+          "nikola",
+          "It was a supplier advance, not theft. The account was frozen after the fire and most of it was recovered."
+        ],
+        [
+          "nikola",
+          "Damjan kept calling it motive because an ugly word makes old paperwork sound alive. Neither sister gained from that transfer."
+        ],
+        [
+          "nikola",
+          "The insurance settlement paid for treatment and a funeral. There was no secret fortune to protect."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_nikola_money"
+        ]
+      }
+    },
+    {
+      "id": "t_nikola_sister",
+      "suspect": "nikola",
+      "prompt": "Did the survivor seem different?",
+      "lines": [
+        [
+          "you",
+          "When you saw your surviving sister after the fire, did anything trouble you?"
+        ],
+        [
+          "nikola",
+          "Everything troubled me. Her hair was burned, her hands were bandaged and she could not sleep without a light."
+        ],
+        [
+          "nikola",
+          "Elena had always written with her left hand. After the fire she used her right and said the burns had changed it. I accepted that because the alternative was unthinkable."
+        ],
+        [
+          "nikola",
+          "I signed what the investigators placed in front of me. I chose the sister who was breathing."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_nikola_sister"
+        ]
+      }
+    },
+    {
+      "id": "t_hana_identification",
+      "suspect": "hana",
+      "prompt": "How was the body identified in 2011?",
+      "visibleWhen": {
+        "evidence": "old_manifest"
+      },
+      "lines": [
+        [
+          "you",
+          "Your signature appears on the identification of the woman from Berth 10. What did you compare?"
+        ],
+        [
+          "hana",
+          "The berth assignment, a damaged luggage tag and the survivor’s passport. The body was badly burned and the family wanted a name before the funeral."
+        ],
+        [
+          "hana",
+          "I personally confirmed the dental identification available to us. There was no contradiction in the file when I signed it."
+        ],
+        [
+          "hana",
+          "If an envelope arrived after closure, it should have been routed back to me. It was not."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_hana_identification"
+        ]
+      }
+    },
+    {
+      "id": "t_hana_night",
+      "suspect": "hana",
+      "prompt": "Where were you during the Skopje stop?",
+      "lines": [
+        [
+          "you",
+          "Where were you from the Skopje arrival until the train departed?"
+        ],
+        [
+          "hana",
+          "At Table Two with Mara. She wanted me to explain every line of a provisional dental form without letting me see the article she had already written."
+        ],
+        [
+          "hana",
+          "I heard the arrival announcement, the platform porters and then the departure call. I never went to the sleeper’s rear vestibule."
+        ],
+        [
+          "hana",
+          "My career is attached to the old mistake. Correcting it was the only useful thing I could still do."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_hana_alibi"
+        ]
+      }
+    },
+    {
+      "id": "t_mara_work",
+      "suspect": "mara",
+      "prompt": "Why were you travelling with Damjan?",
+      "lines": [
+        [
+          "you",
+          "You and Damjan were on the same overnight train to the same inquiry. Was that arranged?"
+        ],
+        [
+          "mara",
+          "We knew each other professionally. I heard he was reopening the fire and booked the train because the route mattered to my article."
+        ],
+        [
+          "mara",
+          "I did not hire him, buy documents or promise payment for a name. We shared information when it suited both of us."
+        ],
+        [
+          "mara",
+          "His report would have helped, but a dead source is the worst possible source."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_mara_work"
+        ]
+      }
+    },
+    {
+      "id": "t_mara_night",
+      "suspect": "mara",
+      "prompt": "What did you see before Skopje?",
+      "visibleWhen": {
+        "evidence": "dining_receipts"
+      },
+      "lines": [
+        [
+          "you",
+          "What happened in the dining car before Damjan disappeared?"
+        ],
+        [
+          "mara",
+          "Damjan sat with Elena at Table Four. She kept both hands around her tea while he spoke. He showed her a red folio but did not open it flat."
+        ],
+        [
+          "mara",
+          "When Skopje was announced, Damjan left toward the sleeper. Elena waited perhaps a minute, then followed."
+        ],
+        [
+          "mara",
+          "Hana and I stayed until the departure call. She was angry with me, which made her very easy to remember."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_mara_alibi"
+        ]
+      }
+    },
+    {
+      "id": "t_petar_lock",
+      "suspect": "petar",
+      "prompt": "How could the compartment be locked?",
+      "visibleWhen": {
+        "evidence": "inside_bolt"
+      },
+      "lines": [
+        [
+          "you",
+          "You know this model of sleeper. Can someone set the privacy bolt from the corridor?"
+        ],
+        [
+          "petar",
+          "Not with the door closed. But an attendant’s emergency key can hold the latch while the door appears bolted. Old sockets stick after a hard slide."
+        ],
+        [
+          "petar",
+          "My first thought was that someone killed Damjan in the compartment, left with a key and let the bent socket imitate the inside bolt."
+        ],
+        [
+          "petar",
+          "If there is blood on the bolt, it could have transferred when the officers forced it."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_petar_lock"
+        ]
+      }
+    },
+    {
+      "id": "t_petar_archive",
+      "suspect": "petar",
+      "prompt": "Why did you reopen the old archive?",
+      "visibleWhen": {
+        "evidence": "old_manifest"
+      },
+      "lines": [
+        [
+          "you",
+          "You found the dental envelope. What were you looking for?"
+        ],
+        [
+          "petar",
+          "The wiring appendix. My father was blamed for losing minutes during the evacuation, but the carriage alarm was dead before smoke reached him."
+        ],
+        [
+          "petar",
+          "The dental envelope was still sealed behind the report. I gave it to Damjan because he had signed the original claim and because I wanted both errors corrected together."
+        ],
+        [
+          "petar",
+          "He warned me that a corrected name could hurt living people. I told him the wrong name had already hurt the dead."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_petar_archive"
+        ]
+      }
+    },
+    {
+      "id": "t_emil_manifest",
+      "suspect": "emil",
+      "prompt": "Did anyone leave unexpectedly?",
+      "lines": [
+        [
+          "you",
+          "Your manifest says Elena is still aboard. Did she leave at Skopje?"
+        ],
+        [
+          "emil",
+          "No Belgrade passenger left my car without being crossed off. Nikola was the only scheduled departure before the border, and I turned his card at Kumanovo."
+        ],
+        [
+          "emil",
+          "The porters moved bags at Skopje, but passengers used the forward door where I could see them. The rear door was for luggage."
+        ],
+        [
+          "emil",
+          "If Elena appears outside, she must have returned before departure. Her blue card proves she remained aboard."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_emil_manifest"
+        ]
+      }
+    },
+    {
+      "id": "t_emil_call",
+      "suspect": "emil",
+      "prompt": "Why did Damjan’s call not ring?",
+      "visibleWhen": {
+        "evidence": "call_panel_log"
+      },
+      "lines": [
+        [
+          "you",
+          "Compartment 6 pressed its call at 00:05. Why did you not answer?"
+        ],
+        [
+          "emil",
+          "Because the forward bell wire was open. Compartment 7 tested it before Veles and I entered the fault in the book. The local light works even when my bell does not."
+        ],
+        [
+          "emil",
+          "At 00:05 I was resetting the panel beside Compartment 1. The rear platform and Compartment 6 are the length of the carriage away."
+        ],
+        [
+          "emil",
+          "If I had heard the bell, Damjan might be alive. That is the failure I will carry, whether or not it was my wire to repair."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_emil_call"
+        ]
+      }
+    },
+    {
+      "id": "t_emil_luggage",
+      "suspect": "emil",
+      "prompt": "Who unloaded Compartment 8’s suitcase?",
+      "visibleWhen": {
+        "evidence": "baggage_receipt"
+      },
+      "lines": [
+        [
+          "you",
+          "The porter unloaded Elena’s suitcase at 00:04. Who authorised it?"
+        ],
+        [
+          "emil",
+          "Elena said she was ill and might leave. She asked for her passport, then offered money so I would not delay the border sheet."
+        ],
+        [
+          "emil",
+          "I told myself I would correct the manifest after departure. Then Kumanovo arrived, then the border officers, and I left her card blue."
+        ],
+        [
+          "emil",
+          "I never saw the red folio. I was at the forward door. The rear porter moved the suitcase."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_emil_luggage"
+        ]
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "st_elena_departure",
+      "suspect": "elena",
+      "text": "Elena says she stepped off at Skopje before midnight, before Damjan went to the rear of the train."
+    },
+    {
+      "id": "st_elena_folio",
+      "suspect": "elena",
+      "text": "The red folio Elena carried from the train belonged to the foundation, not to Damjan."
+    },
+    {
+      "id": "st_elena_fire",
+      "suspect": "elena",
+      "text": "Elena says Mila occupied Berth 10 and died there during the 2011 fire."
+    },
+    {
+      "id": "st_nikola_money",
+      "suspect": "nikola",
+      "text": "Nikola says the €180,000 transfer was a supplier advance and neither sister benefited from it."
+    },
+    {
+      "id": "st_nikola_sister",
+      "suspect": "nikola",
+      "text": "After the fire, the surviving sister changed from writing left-handed to writing right-handed."
+    },
+    {
+      "id": "st_hana_identification",
+      "suspect": "hana",
+      "text": "Hana says she personally confirmed the available dental identification before signing the 2011 form."
+    },
+    {
+      "id": "st_hana_alibi",
+      "suspect": "hana",
+      "text": "Hana remained with Mara in the dining car from the Skopje arrival until the departure call."
+    },
+    {
+      "id": "st_mara_work",
+      "suspect": "mara",
+      "text": "Mara says she did not hire Damjan or pay for the Demir Kapija investigation."
+    },
+    {
+      "id": "st_mara_alibi",
+      "suspect": "mara",
+      "text": "Mara saw Damjan leave the dining car first and Elena follow him toward the sleeper."
+    },
+    {
+      "id": "st_petar_lock",
+      "suspect": "petar",
+      "text": "Petar believes an emergency key and a sticking socket could make the door appear bolted after a killer left."
+    },
+    {
+      "id": "st_petar_archive",
+      "suspect": "petar",
+      "text": "Petar found the sealed dental envelope and gave it to Damjan so the old identification could be corrected."
+    },
+    {
+      "id": "st_emil_manifest",
+      "suspect": "emil",
+      "text": "Emil says no Belgrade passenger left at Skopje and Elena’s blue berth card proves she remained aboard."
+    },
+    {
+      "id": "st_emil_call",
+      "suspect": "emil",
+      "text": "The call from Compartment 6 failed because the forward bell wire was already broken."
+    },
+    {
+      "id": "st_emil_luggage",
+      "suspect": "emil",
+      "text": "Emil returned Elena’s passport and let her suitcase be unloaded after accepting money to delay the paperwork."
+    }
+  ]
+}

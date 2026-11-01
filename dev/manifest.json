@@ -1,0 +1,703 @@
+{
+  "channel": "dev",
+  "files": {
+    "case001/case.json": {
+      "sha256": "f8a227525b76395966b9a8442b38c01bb4e63a1683c47bbf09bf4c4171a04e81",
+      "size": 41214
+    },
+    "case001/deductions.json": {
+      "sha256": "350301a4e0548decc5c7f0c17beb88fa978e9e9950c07ece9d4ade827fb07ec8",
+      "size": 14717
+    },
+    "case001/dialogues.json": {
+      "sha256": "71bc5a60fc626d6b8eb7a571c05c075f0a84fc4c16faa221cc43454b891cab3c",
+      "size": 27675
+    },
+    "case001/evidence.json": {
+      "sha256": "a67ac01eb066745958f07edacf37354d8dbaa7e2d92f56e262d0200dacd97211",
+      "size": 12343
+    },
+    "case001/i18n/ar.json": {
+      "sha256": "e0d50c3503fb64c4faae4647ff82b6518b9dd22e84edf040d291ebf6e5b1db4a",
+      "size": 98299
+    },
+    "case001/i18n/bn.json": {
+      "sha256": "2bbd6ba81f5818e3f9f149b1505f241cfed4904035498bcb1a344786c67ea727",
+      "size": 148927
+    },
+    "case001/i18n/en.json": {
+      "sha256": "56016038e1ab90e748be1040379220dd2036c1606dfd638113e17b9799bfdf9d",
+      "size": 74503
+    },
+    "case001/i18n/es.json": {
+      "sha256": "0f85a811deb31ac29da821e8d8b27ef65216c0b530851b8c4670885d34438573",
+      "size": 80867
+    },
+    "case001/i18n/fr.json": {
+      "sha256": "190635a5e10287b55943e3368721a03bb1282760a231a71ac8e5c7b31544a81a",
+      "size": 85031
+    },
+    "case001/i18n/hi.json": {
+      "sha256": "9e39da8b40f8b7f73107f3cbecabeb8884d17641ed0ca5e84d362935618751c0",
+      "size": 144244
+    },
+    "case001/i18n/mk.json": {
+      "sha256": "23c7f1966993bb59136f692687c6c456085d8d0a46a931f4704403d760da8952",
+      "size": 114541
+    },
+    "case001/i18n/pt-BR.json": {
+      "sha256": "1bd16dad571cbf4626ac404868ba429873343fb68e8d8df006e0af03e3d04882",
+      "size": 79217
+    },
+    "case001/i18n/qps.json": {
+      "sha256": "4579fa7e50aa43421696a60c418567e72e4f6c187cdd5a00c34e147611a25412",
+      "size": 97021
+    },
+    "case001/i18n/ru.json": {
+      "sha256": "1d013f02973a913ca67ab5f2458db8dd34d48350a810c549d2ce583310ca6b38",
+      "size": 110385
+    },
+    "case001/i18n/sr-Latn.json": {
+      "sha256": "6bf16dc05e9a24f4faef45066af77c2b5e12027a9e8b30c75dab898db68a10bc",
+      "size": 76277
+    },
+    "case001/i18n/ur.json": {
+      "sha256": "9e0b414793257c41e00aab37bb1d00b8ea0f4e6a339c72d6d712a3b6fedc7059",
+      "size": 110244
+    },
+    "case001/i18n/zh-Hans.json": {
+      "sha256": "6bf4f975ab477a0e14d5b510539447696b4d2c3474bda5aeaffa42e0dd08aca6",
+      "size": 74464
+    },
+    "case001/suspects.json": {
+      "sha256": "ab08134e5afe6e0c8e7650c810ef4e5aa60b4d089bc71f14377264c917c2b82f",
+      "size": 3787
+    },
+    "case002/case.json": {
+      "sha256": "53ad4e1d084bd268f06621f25701f0b49d36511215d803619e0330419eda9c9b",
+      "size": 50570
+    },
+    "case002/deductions.json": {
+      "sha256": "d639f77636dc61224702fcdb8887e346f4d329086a05b07424de4926a3d4f91e",
+      "size": 18317
+    },
+    "case002/dialogues.json": {
+      "sha256": "9b6f23692f06b5d58a5e2c9627fd1f09758dd5046dd36fa6b3f440909d991353",
+      "size": 26787
+    },
+    "case002/evidence.json": {
+      "sha256": "f3d72567586645f2afb369637a7971ffdbafa56ce7497a80899caeac9503feeb",
+      "size": 14462
+    },
+    "case002/i18n/ar.json": {
+      "sha256": "a8cce04e7a292c7392320a7c5edc17eca2f92c441dde1cf0058866f67ca7a286",
+      "size": 120799
+    },
+    "case002/i18n/bn.json": {
+      "sha256": "024b3fadf548c9778389e2b4a0a217b5edf75eab7830c6595d317b6ca9d79cd1",
+      "size": 180897
+    },
+    "case002/i18n/en.json": {
+      "sha256": "eddfde5be2486257c839dd75b56ac6460857081f194042f87c88833038a8b2c3",
+      "size": 89368
+    },
+    "case002/i18n/es.json": {
+      "sha256": "47272e09b16332acf9dd853af91e698818d2d9d5ddcf5e96eadaffbfa48526c6",
+      "size": 97500
+    },
+    "case002/i18n/fr.json": {
+      "sha256": "f2255d3cc0b0d23e37e91e89a4ed4ccb05d2a5eb7eeeef988ebc668e20b804cb",
+      "size": 102717
+    },
+    "case002/i18n/hi.json": {
+      "sha256": "3bbfed56a23b1579f217145f1e309abe9960dbc4c9a767357657d369b5f295cc",
+      "size": 180669
+    },
+    "case002/i18n/mk.json": {
+      "sha256": "280af7411d2d63f54a6726f0564864b7579495c2f94a43c5c396e8d71fead259",
+      "size": 139253
+    },
+    "case002/i18n/pt-BR.json": {
+      "sha256": "7622ccb4de308d8094aa5c305df413f87b8d9ae02697597eb966deaf4f4bae2b",
+      "size": 94473
+    },
+    "case002/i18n/qps.json": {
+      "sha256": "8349efc2ef129e6dc7b179fd372439c1ed3883386836b5074a176203d23aea13",
+      "size": 117072
+    },
+    "case002/i18n/ru.json": {
+      "sha256": "f4ba1ac40ece1e6cf18d194db9821a2ce68366b18cd7947eec14ae716c093e48",
+      "size": 138887
+    },
+    "case002/i18n/sr-Latn.json": {
+      "sha256": "a85aa097a6b9969941364ed833aa24f1cb9aab91b27324a6b7e6baebe741779e",
+      "size": 90834
+    },
+    "case002/i18n/ur.json": {
+      "sha256": "ab239789f7c8b411ebff1f704b508bdddb37933020f99e1bacda9cdd26d7bb1a",
+      "size": 137606
+    },
+    "case002/i18n/zh-Hans.json": {
+      "sha256": "9a225c8cb14803041bf9bef754b380a0516a0af0d994e9bb50bf261a071ae543",
+      "size": 90008
+    },
+    "case002/suspects.json": {
+      "sha256": "caf33c8fcde3a2a8e6e5bab44db8b0e9ee26bd2f9a1bb035c8acf0a3e386987e",
+      "size": 4215
+    },
+    "case003/case.json": {
+      "sha256": "9ee032bcacd0ab12c2b559766d49933b02989a00d3d52a439ae122786a8dd63c",
+      "size": 51696
+    },
+    "case003/deductions.json": {
+      "sha256": "a792b67cb86dffe334ccc87ca8071da7df9da293261b65e8302baf491b3607d7",
+      "size": 19863
+    },
+    "case003/dialogues.json": {
+      "sha256": "b5f0d57ae8ff7c114684f68a82a6f8ba6a159ef6910cb5c769c7688da25aa75c",
+      "size": 25931
+    },
+    "case003/evidence.json": {
+      "sha256": "982fc25f1589724664a01ef78a80bc50629613a2680e46bd6065daf4afc3962c",
+      "size": 18531
+    },
+    "case003/i18n/en.json": {
+      "sha256": "89dd12d3be76fa84fda0819d2e76acc76f6203d5bbe161742142aa0f47c4cc86",
+      "size": 91589
+    },
+    "case003/i18n/mk.json": {
+      "sha256": "6b2b52e8418da07420597f1a9b6b34c414f20668c3db2565edb724abeab83907",
+      "size": 144517
+    },
+    "case003/i18n/qps.json": {
+      "sha256": "7c91317af05b899afc19fe88be58cf1de0dfa54d0472a5ca091b4761195b2602",
+      "size": 120600
+    },
+    "case003/suspects.json": {
+      "sha256": "87a0379fc34a870cce1b84a3d23930aac8b4866b08c6a66d617cccb2840d4e6a",
+      "size": 3774
+    },
+    "case004/case.json": {
+      "sha256": "fc4a766b7f69399b6f381d6a826b4252aab3b450720682d4f32ab69b9f451ffe",
+      "size": 59883
+    },
+    "case004/deductions.json": {
+      "sha256": "6b4ce1fbce8e55313199e28673e43780e7cb253e845827ba2bd528171278aa61",
+      "size": 22296
+    },
+    "case004/dialogues.json": {
+      "sha256": "3b7ea264ee85e63951ad49f416ddbf554bb0d6dce80462b9aad7e380e74986c8",
+      "size": 31468
+    },
+    "case004/evidence.json": {
+      "sha256": "5bbea07f5ebe51ff6c2001b02b41576f3387685540b9d7d4eccfe5445287a1ba",
+      "size": 22253
+    },
+    "case004/i18n/en.json": {
+      "sha256": "9f3cdef08a343166c8b12fe976c7b1ab8ab023b4a3bb68622deb885f609fe4e1",
+      "size": 105821
+    },
+    "case004/i18n/mk.json": {
+      "sha256": "0cac70fe59bfb17705772c74bf3c65faee8b91c7f66808b9d8e5b1844f96a936",
+      "size": 170530
+    },
+    "case004/i18n/qps.json": {
+      "sha256": "ccf7006a517afb5b530147f278c4a292575610b0af6748514117f71c61343c8d",
+      "size": 139453
+    },
+    "case004/portraits/callum.png": {
+      "sha256": "cb7fc78332d79a6921cd98e80fb2559a4c6c4112d1eb2cc96281dac7c46bab56",
+      "size": 35089
+    },
+    "case004/portraits/dan.png": {
+      "sha256": "4cb92df3d61644efd35db8b13c5b44ee76bac19963547a2d770e3d053ddde89a",
+      "size": 35055
+    },
+    "case004/portraits/gwen.png": {
+      "sha256": "0df565e54b40fffa425e3246ce16892215149c452ce85aadcc5eb2d2168c5955",
+      "size": 35999
+    },
+    "case004/portraits/jo.png": {
+      "sha256": "fe81a22f9fb130a5c0ffbbd6bdec21911bd9693df3ed171b3fc7131cc215c643",
+      "size": 37007
+    },
+    "case004/portraits/lou.png": {
+      "sha256": "06cb3e7aa85a0d0f409309e28360a98f7a91270cedb2c9251e43d97a4a9e0f69",
+      "size": 36960
+    },
+    "case004/portraits/pete.png": {
+      "sha256": "36530535fd64a2a8480c0fdff6b79bd06767dfd8ca132f60f6fbf10cd3722f87",
+      "size": 36384
+    },
+    "case004/suspects.json": {
+      "sha256": "5611709bf8cf0a2b7d9f46dc08386cbf8cbd185855046bf06d469360a3fb992a",
+      "size": 3852
+    },
+    "case005/case.json": {
+      "sha256": "4c1625924c5f3d30846871417ccf34d6031a5e399a43c7399ef46995778e6990",
+      "size": 57772
+    },
+    "case005/deductions.json": {
+      "sha256": "64269af54979e12a0d2217fe74a2ec29986314d4d1e3186e9b2e10b955811ac6",
+      "size": 23451
+    },
+    "case005/dialogues.json": {
+      "sha256": "251329cbf7e97752ebe13606e4886d1998a3110e951b41ceda9003756aebbfd7",
+      "size": 36574
+    },
+    "case005/evidence.json": {
+      "sha256": "4609a3497110a23b70d86fd8a519b12353be55c3b19e94485f64419502556c18",
+      "size": 17763
+    },
+    "case005/i18n/en.json": {
+      "sha256": "bd1ff070189a73a3cca0c4032c8c254f3bcd3831c5cca9ddb2e56cdd5757c201",
+      "size": 105722
+    },
+    "case005/i18n/mk.json": {
+      "sha256": "346482a44611cd4b316bc0d129af10b5095b82714a630cfc0ab6327f2b820859",
+      "size": 167680
+    },
+    "case005/i18n/qps.json": {
+      "sha256": "7be00264054621b54dfa71233b179587504bdd1ba1615077182c07f9f9d5bcae",
+      "size": 139032
+    },
+    "case005/portraits/bryn.png": {
+      "sha256": "e831628fc01b58bfce6641ffba9f5b029f6fcd6fac414e025026ae313f1a85f8",
+      "size": 33056
+    },
+    "case005/portraits/carys.png": {
+      "sha256": "7f26755e429f930c1ae0796fe211e4e1c9d88a2a16e4baec96c4dd317c6900cd",
+      "size": 32311
+    },
+    "case005/portraits/dean.png": {
+      "sha256": "e924806af4c4d6a13478f35fd916a744f77c1ddd2a38b485e91252a2511ce2f3",
+      "size": 40938
+    },
+    "case005/portraits/eddie.png": {
+      "sha256": "daaff57d46c7c1d9f7fa00ade7d865c8d88f926a0d8ea87f421e60697176c757",
+      "size": 33747
+    },
+    "case005/portraits/freya.png": {
+      "sha256": "69c6ff3c24e63c9a567ddf493bb0d7763f1feddd2db4fb1dc9b055f9de09470d",
+      "size": 35712
+    },
+    "case005/portraits/huw.png": {
+      "sha256": "256dd227f8bb08a9c3863beffa56a698e4a38e7c903019872543d72f5d1a874d",
+      "size": 35380
+    },
+    "case005/suspects.json": {
+      "sha256": "9d7caaa6b0e412dede6655fec7a18ef7e5b58e61d48f601ccc96202f23d78067",
+      "size": 3908
+    },
+    "case006/case.json": {
+      "sha256": "83d543d7deb07b7d6b0a729fa1e55f449fa433ed7fcc58d5d3a10ba7b10bdfe4",
+      "size": 37287
+    },
+    "case006/deductions.json": {
+      "sha256": "a9d4d7273aefc19de17da2eed9117f337994fcc464b0570d7f9ac575a315c581",
+      "size": 15185
+    },
+    "case006/dialogues.json": {
+      "sha256": "2ab70adfadc0aff25f7133e029a3cd79a7fc8fbada37f31388b0e2b36cf02890",
+      "size": 20110
+    },
+    "case006/evidence.json": {
+      "sha256": "6e9dfc95750b0d13e2a8af44689c360d26a76f24c33ff0edadd8b8abde71a370",
+      "size": 13641
+    },
+    "case006/i18n/en.json": {
+      "sha256": "c04e1142d9bf10de8e5985f074a4339529f08535147e78251496a91426e8c65a",
+      "size": 72214
+    },
+    "case006/i18n/mk.json": {
+      "sha256": "340dba4bc5ad3a61cb5aa3f848fe713327c2dbba16f09aac26b089d2029c2b11",
+      "size": 119487
+    },
+    "case006/i18n/qps.json": {
+      "sha256": "f8aaba7e88671758798aa26b41286f54b6909c5dcc0c14116b02ae0e85eb4a65",
+      "size": 95418
+    },
+    "case006/portraits/gaz.png": {
+      "sha256": "fa7a388288112ac50a2d6ddee6f1d7a60f0e40f5f51fd6b63fa83941abc01b15",
+      "size": 31312
+    },
+    "case006/portraits/kirsty.png": {
+      "sha256": "fcacba45d27d27cb116975b4604812137f14ee6b23bb9cd6d8f8248af22b34be",
+      "size": 37189
+    },
+    "case006/portraits/morag.png": {
+      "sha256": "833a70f60e8919094a55450827dbeb4f1353eb3b1aff09707d23beb4b9920c20",
+      "size": 37308
+    },
+    "case006/portraits/sam.png": {
+      "sha256": "5fd24747521fb51a4c9eabaec6f6a1c2a2a0bcc55fdf1ee41465bb8120e6524d",
+      "size": 31687
+    },
+    "case006/portraits/tom.png": {
+      "sha256": "be4cb80ccd49514e652900de1d8ec8dd1e4465a3b8451dbdc94d272c2d551c01",
+      "size": 37905
+    },
+    "case006/suspects.json": {
+      "sha256": "510562130aad4262266fb1f5c4bb0194e6a03888643cfbf775b6c4cdcbcc874e",
+      "size": 3421
+    },
+    "case007/case.json": {
+      "sha256": "f1f83d4efcf53867411d96f7b34da8074261aa24a6a1d91f9277015d9c95cf76",
+      "size": 28545
+    },
+    "case007/deductions.json": {
+      "sha256": "a869f0a7ef33a060174132e880df5111cb2b0949dcd2b2270f0640985fef2374",
+      "size": 14790
+    },
+    "case007/dialogues.json": {
+      "sha256": "12421b7ad4ff796bc5dad16dcff6eb02020b60c412158a730b64fbf0160fa336",
+      "size": 12969
+    },
+    "case007/evidence.json": {
+      "sha256": "e8d659072e25a83a20747e34a7f65e521c87cebe8a4f1ff024618f5ec9dc7981",
+      "size": 11333
+    },
+    "case007/i18n/en.json": {
+      "sha256": "5945cd59eea93d5296095fb26cd4369bf4af6d0438eaf40092012f763936c386",
+      "size": 57811
+    },
+    "case007/i18n/mk.json": {
+      "sha256": "2d12d4dc3e1246a8a2e4983cc582d0c1f9f43bc21a0648cbc0c860e627e49997",
+      "size": 94049
+    },
+    "case007/i18n/qps.json": {
+      "sha256": "8a5e65e00d2f11a7709a7a9375d7035fbef5b11447f76d222dfb9a2ba714885f",
+      "size": 76456
+    },
+    "case007/portraits/fiona.png": {
+      "sha256": "541d27be8d28f133e8bfd6d0a007124422329b613949c35e918d091ffa6878c4",
+      "size": 35857
+    },
+    "case007/portraits/gavin.png": {
+      "sha256": "352f89e8ef41d0123165fabf0e0f309ff570bf57e6e525bf8dbaeb682da02508",
+      "size": 38666
+    },
+    "case007/portraits/joel.png": {
+      "sha256": "7f5329d708051bd1b34afd4365d8d4cf03a86058dabc0a51ff1001d65bd71aca",
+      "size": 42537
+    },
+    "case007/portraits/kai.png": {
+      "sha256": "b7503fd05d46ed3ec434d26bfb1a9741f934b71596c2d39a09040614840d83a2",
+      "size": 36942
+    },
+    "case007/suspects.json": {
+      "sha256": "c19dd25c861c08090ac4f534fd2a30ef7eb4401da3c30d5729d1a5f24c17d9b4",
+      "size": 2703
+    },
+    "case007/trailer/trailer-en.mp4": {
+      "sha256": "1d4c5eca2c4f64a9229f409407890d3a26a16433790d205feaa3d5cd70e61b1d",
+      "size": 4029055
+    },
+    "case007/trailer/trailer-mk.mp4": {
+      "sha256": "e6df8b81a2d669b36efbfafe2214a1157effac8166ec63ad77df3d9217eedc0e",
+      "size": 3925652
+    },
+    "case008/case.json": {
+      "sha256": "7131c440fee395c19f0f5d7a6835d41e05ff483ec6b0f2304b16954f6f7568f2",
+      "size": 29704
+    },
+    "case008/deductions.json": {
+      "sha256": "7e2a5878c6261f901e9d0a72d40ec2ff2579c3d371679ed71010f7017ace0042",
+      "size": 16005
+    },
+    "case008/dialogues.json": {
+      "sha256": "5bc097528bb74c8f44e624d8b37cacd1bf9913ef64a7e8c5aeede881933c200d",
+      "size": 11678
+    },
+    "case008/evidence.json": {
+      "sha256": "4889e82f833e078dbe10f4600d53cd2308241eaf8a86e8cf6333dc80b5d8a38f",
+      "size": 11859
+    },
+    "case008/i18n/en.json": {
+      "sha256": "37c0a90724b24f551118e0275a6b030b94680533e65157d6618e3166e3554658",
+      "size": 60680
+    },
+    "case008/i18n/mk.json": {
+      "sha256": "d6d698683ec96c778ccb6da7f5fc4123a79de7bcc23358c16ed81cca3a03375f",
+      "size": 98602
+    },
+    "case008/i18n/qps.json": {
+      "sha256": "fef6bce00d714c103aeab9ab143e17f614fc63c72e726f6a3a4d5f4b44c4ac40",
+      "size": 80261
+    },
+    "case008/portraits/alasdair.png": {
+      "sha256": "eed6884912c82fb6a1fa4ba913cb65160e53818e2b1e1c969466d41b41416e91",
+      "size": 37683
+    },
+    "case008/portraits/hamish.png": {
+      "sha256": "c2f88f7e474a9009db66164f329e477450c6f03df5496b8009b3b1169d503e89",
+      "size": 38908
+    },
+    "case008/portraits/peggy.png": {
+      "sha256": "06cb7705eecc59581a640cc616a0670fed709ba5d964c6378888f1854e77c9f4",
+      "size": 38646
+    },
+    "case008/portraits/rory.png": {
+      "sha256": "30d5bf1432930aac58167029f209c2fbdcf53113387b65f8dcac2d38357e625d",
+      "size": 38633
+    },
+    "case008/portraits/tomasz.png": {
+      "sha256": "5ec0fff67012774a748a1b87006915d74d04775b2cf8d596387d76c6d5f24123",
+      "size": 40766
+    },
+    "case008/portraits/vivienne.png": {
+      "sha256": "e3062a6240df427de3112284490f03e324d7369c2f726b636e38a32505daf9d0",
+      "size": 40775
+    },
+    "case008/suspects.json": {
+      "sha256": "9250807ddee7484ac9cfa2ff3fd717b1c83321693b111d2d2de5b43077b0698c",
+      "size": 4104
+    },
+    "case009/case.json": {
+      "sha256": "4b0612fccf9948cf7d2d4e885d6aefb6c22025407c9140323d8d4705398e1701",
+      "size": 24190
+    },
+    "case009/deductions.json": {
+      "sha256": "90dd0e2c2289f58b5a821d191ab4bd2594949c9d9ddb1e1f08bc0487f69c6b6d",
+      "size": 11166
+    },
+    "case009/dialogues.json": {
+      "sha256": "212ecbbf2e843e42e5daa7890b1041c53e878e9cbebdad452f04a9b5aa1bf59f",
+      "size": 11188
+    },
+    "case009/evidence.json": {
+      "sha256": "1630000082e12c311d3bd5e5f9837dd700f357a3e5ba1b421f1c32916ecd8229",
+      "size": 15322
+    },
+    "case009/i18n/en.json": {
+      "sha256": "bbfbfce14b0ce85afb07cc3e90ed1ba8ec7dd959d42379778d49d1a44286e1dc",
+      "size": 54311
+    },
+    "case009/i18n/mk.json": {
+      "sha256": "2f94ba0f2888552dd6aba692418116ad3aa07d7ff2df80602eb55ccbadff3bad",
+      "size": 87006
+    },
+    "case009/i18n/qps.json": {
+      "sha256": "387535a18510e653996a0f368b2f5df4e6729fc3aea48edda22d762bab33f9c9",
+      "size": 72440
+    },
+    "case009/portraits/anika.png": {
+      "sha256": "243aca998d3f9d34fd749caf986faa5d870a131b03aab1a465100837ed6b9375",
+      "size": 264299
+    },
+    "case009/portraits/ben.png": {
+      "sha256": "7a0d3d656d6316aa7fc329acc7e24b6302a052bfd1563b4b245a20f62de48b94",
+      "size": 299869
+    },
+    "case009/portraits/felix.png": {
+      "sha256": "3c06dc6c1c3b645ff930020fd0e5f468a526c61667c11befbe0cd1eba8a63d82",
+      "size": 288471
+    },
+    "case009/portraits/iris.png": {
+      "sha256": "e4d62cc6227c588b3e66dd748bcfc610d686b79353351be13e3214b86d96c23e",
+      "size": 251621
+    },
+    "case009/portraits/tom.png": {
+      "sha256": "01bad8eacd23b7e1ee6c20b810f5710c7f253a53693264657e289b68d1d114a3",
+      "size": 308141
+    },
+    "case009/suspects.json": {
+      "sha256": "e2803a1f802fcc9072562c2f91852dc4ee543f79e727429a210b008db4606a7a",
+      "size": 3673
+    },
+    "case009/trailer/trailer-en.mp4": {
+      "sha256": "80ebd0aa2015bd8e1fde1ff32a30caa4d56e9a558e88932bf156019a3a7d858f",
+      "size": 1432886
+    },
+    "case009/trailer/trailer-mk.mp4": {
+      "sha256": "3bb8586b798ecddd7a5627c43674ed6e6899dec274149cf31b83bd0f64700db6",
+      "size": 1437309
+    },
+    "case010/case.json": {
+      "sha256": "05ce41f33f1b22b790cd6942e48b826753e2bcbb269d779ff4d876957ad6c9bb",
+      "size": 24946
+    },
+    "case010/deductions.json": {
+      "sha256": "2d74d450aea8f58b193f300c4e75a7c88eb36d3581b43a72bf852fb8363c2dea",
+      "size": 11678
+    },
+    "case010/dialogues.json": {
+      "sha256": "b58d14633bf3bb96b9dfbcaf11c6fe3453fb51b65dbdacd459d16f75a37d636f",
+      "size": 12146
+    },
+    "case010/evidence.json": {
+      "sha256": "caa2d7a886217bc4aad4c0659fa48c1e98e416a423d116bd7b2e953c4d23b80c",
+      "size": 15381
+    },
+    "case010/i18n/en.json": {
+      "sha256": "7e15793226014b74cd457249df69ab4131f74883fda1e573eaf6e4b64c75b990",
+      "size": 57027
+    },
+    "case010/i18n/mk.json": {
+      "sha256": "80b670f005cc3ff20e26d332e726d255d967211d1208b3581864b41ee38e7d65",
+      "size": 91795
+    },
+    "case010/i18n/qps.json": {
+      "sha256": "8795157bec4da4699e4454278dc1aac488bbb6e0b9759313ed9db364c5e1cc49",
+      "size": 75900
+    },
+    "case010/portraits/dragan.png": {
+      "sha256": "59fd0eea19ea6f6aeff4229dac9df01efe1e8c831298b9a78e032b0557354d95",
+      "size": 32815
+    },
+    "case010/portraits/elena.png": {
+      "sha256": "871bd09ffa754ce7c3f69bc629de5a5727861ec0d139353bec5bdfe029e9f32e",
+      "size": 31110
+    },
+    "case010/portraits/maja.png": {
+      "sha256": "bfcd7c1840a2992c31d6a040d07c4d2af474f86ba9ceff9570d4926ee08d8804",
+      "size": 34198
+    },
+    "case010/portraits/nikola.png": {
+      "sha256": "a29ee7f6edcc1a557f6cfd0d63c32cd5b787ef6f2a4e94eb17b92434e872a4e5",
+      "size": 34351
+    },
+    "case010/portraits/sara.png": {
+      "sha256": "a3909abcf0794da17019179e22f66bd5b6e625a32517d479d5dff6b4e74cfb66",
+      "size": 31172
+    },
+    "case010/portraits/viktor.png": {
+      "sha256": "ce4bcfad0c55bacc18abbdddb36d375fcf08dd4a2ea14aba58d0fd27a9f9bba2",
+      "size": 30373
+    },
+    "case010/suspects.json": {
+      "sha256": "4052d12e0696ac76b43a51cd5f70a4f48cd2381649b33fecaa7e8cdd3892fc43",
+      "size": 5052
+    },
+    "case010/trailer/trailer-en.mp4": {
+      "sha256": "ce12b4feed65e09e1cffe7ffa8ca784742205b3b985408298db6b85f5fd66271",
+      "size": 12071825
+    },
+    "case010/trailer/trailer-mk.mp4": {
+      "sha256": "96a7ce80020de9b683921dac803fef18b0283fa8e82ea016c6abec6c8fd492d5",
+      "size": 12220782
+    },
+    "case011/case.json": {
+      "sha256": "30794cf7102bac18cae69a01c755239a0c0021095cd019960a50eb4a590015ae",
+      "size": 33000
+    },
+    "case011/deductions.json": {
+      "sha256": "f2022efedc953b3a28e17caaa176bd463495d9b4052d12c36e5d352020b955c4",
+      "size": 14854
+    },
+    "case011/dialogues.json": {
+      "sha256": "c6651d857a11b4095ff5a5b12acced782a47f681883ccecea7d7189440d8bfd8",
+      "size": 15479
+    },
+    "case011/evidence.json": {
+      "sha256": "162f2feb2c9a0938780113c26a39245ee85ff30b387be6c823e05b914c7df7e0",
+      "size": 22648
+    },
+    "case011/i18n/en.json": {
+      "sha256": "e1a952c41a320d7c96cbf4d54e9ab2041537d6e7a80a608f2b53ed403107fa25",
+      "size": 76209
+    },
+    "case011/i18n/mk.json": {
+      "sha256": "ed307ce914ac408e9ba311da12087cc39a78402e016fbcba89463350d1274f0a",
+      "size": 126306
+    },
+    "case011/i18n/qps.json": {
+      "sha256": "1702c5d9a9ab8f568c5f3121582d668659d865faa5b7b0165f7007e9566fcc89",
+      "size": 101704
+    },
+    "case011/portraits/elena.png": {
+      "sha256": "2f5c787f019fb21b933ae59ab1c6f724befae4671a8b6378f58413dea2222946",
+      "size": 263821
+    },
+    "case011/portraits/emil.png": {
+      "sha256": "ae409e6fe52c05626cc28499546561bbb617d493376cd851f270590a308b6458",
+      "size": 256408
+    },
+    "case011/portraits/hana.png": {
+      "sha256": "76c90d1627b2b2cc01c4fadf69186b3f8643c9a5238fd57c1b968553b596f5c0",
+      "size": 256485
+    },
+    "case011/portraits/mara.png": {
+      "sha256": "eabd31e52d88d305923c9fb2130e5ac8825561a5c304c5f098787f3fc1176954",
+      "size": 261777
+    },
+    "case011/portraits/nikola.png": {
+      "sha256": "ef1bfa161269af6d2d1ed296a798d5604e1eeac0d0ce5e6c24166d06c2315fd4",
+      "size": 290540
+    },
+    "case011/portraits/petar.png": {
+      "sha256": "8c0641808f0abd2940984f8f3e1e168e962c85865a67201f561b3cd384396b4d",
+      "size": 320937
+    },
+    "case011/suspects.json": {
+      "sha256": "aa170ef50ffe3ce5d7d06f122cc306be433e1c7f7353bac2506c551dcb9c7cc9",
+      "size": 5229
+    },
+    "case011/trailer/trailer-en.mp4": {
+      "sha256": "35bad2557c4c0e75a1c2440e734fbb62c27e43b8388a9b00e98b2d9bdb312e92",
+      "size": 16476057
+    },
+    "case011/trailer/trailer-mk.mp4": {
+      "sha256": "b052b69fa70139c001d6f1c098fcf3aec079bffb2dea44c41a8993eafb26e6dc",
+      "size": 16534667
+    },
+    "catalog.json": {
+      "sha256": "89a43879e5310ef1fee192b5af96f29f83066d840219696055d6d25301f3f798",
+      "size": 1908
+    },
+    "i18n/ar.json": {
+      "sha256": "1971476417a33c78f057ee0276740af0c5d9a1d228c60a257860f2dabd4d1bd1",
+      "size": 338
+    },
+    "i18n/bn.json": {
+      "sha256": "27b82f5ce475e11508fbca9c72690b5f7046ea009e9819fb713f28f29927c009",
+      "size": 438
+    },
+    "i18n/en.json": {
+      "sha256": "ef301f33ecfb4bf69709d04bc0e572912e1c234994ed111919b106749d136e15",
+      "size": 1790
+    },
+    "i18n/es.json": {
+      "sha256": "4dae275bd1153c1504aa087e1811faf97350bbc1f8a364e759021be06a63d14e",
+      "size": 306
+    },
+    "i18n/fr.json": {
+      "sha256": "9d842b7ec08f76267b062b0e8dc39ffa09582e80bc035467f44dd7edc27225c4",
+      "size": 295
+    },
+    "i18n/hi.json": {
+      "sha256": "df5ca37c2c72a6ecf742e22a4f7c0315a1597823fe8d7e29592d841fe0aa2434",
+      "size": 494
+    },
+    "i18n/mk.json": {
+      "sha256": "86059603b2420bb8ee4d10dd5b24187bbf1ead2a84adae534a452f3420944cd1",
+      "size": 2674
+    },
+    "i18n/pt-BR.json": {
+      "sha256": "65a66f32898ab3c83b76663b716a197ac95b5c2158652586b1b3245a6bd0f66d",
+      "size": 301
+    },
+    "i18n/qps.json": {
+      "sha256": "a7628fd7d9e4dbb1312961b3ec28ddd9de13970cfdebb7b7bbe56749ebad0c6d",
+      "size": 2336
+    },
+    "i18n/ru.json": {
+      "sha256": "ef81360ac63b4dea2676a09d46c80446a328718bd2931fb18b5bd08adfbdca9a",
+      "size": 380
+    },
+    "i18n/sr-Latn.json": {
+      "sha256": "ab8ef2d997f1ead70f2375667c9c4e48ede2cb8b91d8b70c869827128192e1f2",
+      "size": 282
+    },
+    "i18n/ur.json": {
+      "sha256": "729b7ad6d9663726d994f1facebaef7d9e18390e9d7f857f45223b89a6a914e5",
+      "size": 381
+    },
+    "i18n/zh-Hans.json": {
+      "sha256": "187c4db7d8254592acf910bb00e9cf700f5ee18f46f54ae38c6ec3bd5e2f5c86",
+      "size": 277
+    }
+  },
+  "format": 1,
+  "version": "209897bca6dcae88"
+}

@@ -1,0 +1,76 @@
+{
+  "suspects": [
+    {
+      "id": "julian",
+      "name": "Julian Penhallow",
+      "role": "The nephew",
+      "age": 41,
+      "bio": "Sir Edmund’s nephew and, under the present will, heir to Penhallow. He sells motor cars in Plymouth, and has a buyer for the estate lined up: a holiday-camp company. He quarrelled with his aunt at dinner.",
+      "symbol": "car.fill",
+      "color": "#7A4A2E",
+      "monogram": "JP",
+      "dismissal": "Is that supposed to mean something? I sell cars, old thing. I know a dud when I see one.",
+      "rebuttal": "I was in the library with Kittow from a quarter past ten — ask him, ask Mrs. Pascoe. I’ve done things I’m ashamed of. I never laid a finger on Aunt Hester."
+    },
+    {
+      "id": "celia",
+      "name": "Celia Penhallow",
+      "role": "The nephew’s wife",
+      "age": 36,
+      "bio": "Julian’s wife of eight years. Before her marriage she was an actress in repertory — Bristol, Bath, a season at Stratford. Graceful, quick and watchful. She went up early last night with a headache.",
+      "symbol": "theatermasks.fill",
+      "color": "#5B4A7A",
+      "monogram": "CP",
+      "dismissal": "Darling, you’ll have to do better than that.",
+      "rebuttal": "Me? Four people saw Hester alive at half past eleven, and I was with them the rest of the night. You’ve been reading too many detective stories."
+    },
+    {
+      "id": "marian",
+      "name": "Dr. Marian Ellery",
+      "role": "The botanist",
+      "age": 31,
+      "bio": "An orchid specialist, here — she says — on behalf of the Royal Botanic Gardens, Kew, to photograph and record the bloom. Lady Penhallow’s correspondent and protégée for five years.",
+      "symbol": "camera.fill",
+      "color": "#2F6B5E",
+      "monogram": "ME",
+      "dismissal": "That’s not evidence. That’s an anecdote.",
+      "rebuttal": "I was on the terrace taking the photograph when she rang that bell — you’ve seen it. And I would never, ever have let that flower close untouched. Whoever did this didn’t care about it at all."
+    },
+    {
+      "id": "kittow",
+      "name": "Edwin Kittow",
+      "role": "The solicitor",
+      "age": 68,
+      "bio": "Senior partner of Kittow & Pengelly, Truro, and the Penhallows’ solicitor for forty years. A widower, courteous and unhurried. He came to stay so that the new will could be signed at ten this morning.",
+      "symbol": "scroll.fill",
+      "color": "#6B5A3A",
+      "monogram": "EK",
+      "dismissal": "I have spent forty years listening to arguments. That one would not detain a magistrate.",
+      "rebuttal": "I was in the library arguing with Julian when you say she died, and Mrs. Pascoe saw us both. I would have married her in September. Look elsewhere — and look carefully."
+    },
+    {
+      "id": "agnes",
+      "name": "Agnes Quill",
+      "role": "The companion",
+      "age": 61,
+      "bio": "Lady Penhallow’s companion for twenty years, since the telegram from Burma. She runs the household, reads aloud in the evenings and knows every one of Hester’s habits. She took her a flask of cocoa last night, against orders.",
+      "symbol": "cup.and.saucer.fill",
+      "color": "#7A3E52",
+      "monogram": "AQ",
+      "dismissal": "I’m sorry. I don’t see what you mean.",
+      "rebuttal": "I was standing on the terrace with the others when the bell rang. I’ve looked after her for twenty years. Under the new will she was giving me the lodge — I had every reason to want her to sign it."
+    },
+    {
+      "id": "jory",
+      "name": "Jory Trevenna",
+      "role": "The head gardener",
+      "age": 66,
+      "bio": "He came to Penhallow as a garden boy of fourteen, the year Sir Edmund built the glasshouse, and has been head gardener for thirty years. He stokes its boiler at dusk and at dawn. He found her ladyship at a quarter to six this morning.",
+      "symbol": "leaf.fill",
+      "color": "#4E6B2F",
+      "monogram": "JT",
+      "dismissal": "That don’t prove nothing, begging your pardon.",
+      "rebuttal": "Me? I’d have died for her, and for that orchid. Whoever came out of that stokehole was in a sight more of a hurry than an old man with a bad knee."
+    }
+  ]
+}

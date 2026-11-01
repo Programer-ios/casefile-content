@@ -1,0 +1,423 @@
+{
+  "topics": [
+    {
+      "id": "t_viktor_break",
+      "suspect": "viktor",
+      "prompt": "Where were you during the break?",
+      "lines": [
+        [
+          "you",
+          "Viktor, where were you between the end of Round Eight and the discovery of Boris’s body?"
+        ],
+        [
+          "viktor",
+          "In the analysis room. Maja had a difficult final position and I was helping her see the exchange."
+        ],
+        [
+          "viktor",
+          "The players came and went, but I stayed by the main board. Ask Maja. She was there until the foyer filled."
+        ],
+        [
+          "viktor",
+          "I walked out for coffee after six. I came back before anyone knew there was a problem."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_viktor_alibi"
+        ]
+      }
+    },
+    {
+      "id": "t_viktor_result",
+      "suspect": "viktor",
+      "prompt": "What happened to the Board Four result?",
+      "visibleWhen": {
+        "evidence": "result_slips"
+      },
+      "lines": [
+        [
+          "you",
+          "Why did Board Four change from a draw to a win for Maja?"
+        ],
+        [
+          "viktor",
+          "It did not change. Someone copied the wrong result, saw the error and corrected it."
+        ],
+        [
+          "viktor",
+          "Maja was the better player. The board showed that even if the paperwork did not."
+        ],
+        [
+          "viktor",
+          "Boris loved a rule when it helped him control a room. He would have corrected the slip himself if he had been given time."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_viktor_result"
+        ]
+      }
+    },
+    {
+      "id": "t_maja_board",
+      "suspect": "maja",
+      "prompt": "Tell me about Board Four.",
+      "lines": [
+        [
+          "you",
+          "Maja, what happened in your Round Eight game?"
+        ],
+        [
+          "maja",
+          "Katerina offered a draw after eleven moves. I accepted it. We both signed the sheet and left the board."
+        ],
+        [
+          "maja",
+          "I did not ask anyone to change the result. A half point is not worth turning a tournament into a fraud."
+        ],
+        [
+          "maja",
+          "Viktor said Boris would make a scene, but I thought he meant an argument at the board."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_maja_result"
+        ]
+      }
+    },
+    {
+      "id": "t_maja_viktor",
+      "suspect": "maja",
+      "prompt": "Was Viktor with you?",
+      "visibleWhen": {
+        "evidence": "analysis_notebook"
+      },
+      "lines": [
+        [
+          "you",
+          "Was Viktor in the analysis room at 18:06, as he says?"
+        ],
+        [
+          "maja",
+          "He was there when I arrived. He put the Board Four position on the demonstration board and told me to stop looking at the results."
+        ],
+        [
+          "maja",
+          "Then I went to the foyer for water. When I came back, he was gone and the service door was shut."
+        ],
+        [
+          "maja",
+          "I assumed he had gone to find Boris. I did not assume he meant to hurt him."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_maja_viktor"
+        ]
+      }
+    },
+    {
+      "id": "t_elena_grant",
+      "suspect": "elena",
+      "prompt": "Why were the attendance figures important?",
+      "visibleWhen": {
+        "evidence": "sponsor_grant"
+      },
+      "lines": [
+        [
+          "you",
+          "Elena, why did the grant folder say the final round had to go ahead?"
+        ],
+        [
+          "elena",
+          "Because the city gave us money for a full event, not a half-finished afternoon with police tape on the stage."
+        ],
+        [
+          "elena",
+          "Boris threatened to delay the ceremony over seven missing signatures. He was right to ask, but he enjoyed making the question public."
+        ],
+        [
+          "elena",
+          "I was at my table in the foyer. Players came to me for badges, coffee and complaints. You can ask any of them."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_elena_grant"
+        ]
+      }
+    },
+    {
+      "id": "t_elena_boris",
+      "suspect": "elena",
+      "prompt": "What did Boris want to report?",
+      "lines": [
+        [
+          "you",
+          "What did Boris say he would report before the prize ceremony?"
+        ],
+        [
+          "elena",
+          "He said the tournament records were untidy. Boris called every untidy thing a threat to chess."
+        ],
+        [
+          "elena",
+          "I assumed he meant the grant figures. I did not know about Viktor’s old appeal."
+        ],
+        [
+          "elena",
+          "I wanted the event to continue. That is not the same as wanting Boris dead."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_elena_boris"
+        ]
+      }
+    },
+    {
+      "id": "t_sara_found",
+      "suspect": "sara",
+      "prompt": "What happened when you found Boris?",
+      "lines": [
+        [
+          "you",
+          "Sara, tell me exactly what happened at 18:24."
+        ],
+        [
+          "sara",
+          "I was returning to the stage to test the bell. Boris had not answered my call through the public door."
+        ],
+        [
+          "sara",
+          "The room was quiet. His lamp was on, his phone was off the cradle and the service door was closed."
+        ],
+        [
+          "sara",
+          "I touched nothing except the telephone. I called the police and waited in the foyer."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_sara_found"
+        ]
+      }
+    },
+    {
+      "id": "t_sara_correction",
+      "suspect": "sara",
+      "prompt": "Who changed the Board Four result?",
+      "visibleWhen": {
+        "evidence": "round8_scores"
+      },
+      "lines": [
+        [
+          "you",
+          "The signed sheet says a draw. Who entered the later 1–0 result?"
+        ],
+        [
+          "sara",
+          "I did not. Boris had written that no result could be altered without a written appeal."
+        ],
+        [
+          "sara",
+          "The replacement slip was already on the board when I returned from the foyer. I assumed Boris had approved it."
+        ],
+        [
+          "sara",
+          "I should have checked the signatures. I was trying to keep sixty-four people from asking me the same question."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_sara_result"
+        ]
+      }
+    },
+    {
+      "id": "t_dragan_keys",
+      "suspect": "dragan",
+      "prompt": "Who could sign out SERVICE 2?",
+      "visibleWhen": {
+        "evidence": "service_key_log"
+      },
+      "lines": [
+        [
+          "you",
+          "Dragan, why did Viktor have a service key?"
+        ],
+        [
+          "dragan",
+          "Because he used to run the federation events here. He knows the building, and I trusted him to get a cigarette from the courtyard."
+        ],
+        [
+          "dragan",
+          "The rule says only officials should sign out a service key. The old badge system is not a fortress."
+        ],
+        [
+          "dragan",
+          "I did not see him return it. By the time I checked the sheet, the line was blank."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_dragan_key"
+        ]
+      }
+    },
+    {
+      "id": "t_dragan_accounts",
+      "suspect": "dragan",
+      "prompt": "Why was Boris checking the club accounts?",
+      "visibleWhen": {
+        "evidence": "entry_ledger"
+      },
+      "lines": [
+        [
+          "you",
+          "Why did Boris want the club accounts before signing the tournament report?"
+        ],
+        [
+          "dragan",
+          "Because he wanted every receipt copied twice. The prize fund was intact and the volunteers were paid."
+        ],
+        [
+          "dragan",
+          "There was a delay with one supplier. That is an accounting problem, not a murder motive."
+        ],
+        [
+          "dragan",
+          "I was downstairs when he died. Elena saw me at the registration table."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_dragan_accounts"
+        ]
+      }
+    },
+    {
+      "id": "t_nikola_2018",
+      "suspect": "nikola",
+      "prompt": "What happened in 2018?",
+      "visibleWhen": {
+        "evidence": "journalist_notes"
+      },
+      "lines": [
+        [
+          "you",
+          "Nikola, what were you researching about the 2018 championship?"
+        ],
+        [
+          "nikola",
+          "A result changed after the players signed their sheet. Boris objected, then withdrew the objection before the prize ceremony."
+        ],
+        [
+          "nikola",
+          "The player who benefited was coached by Viktor. That does not prove Viktor ordered it, but it explains why Boris kept the file."
+        ],
+        [
+          "nikola",
+          "Boris promised me a copy of his new appeal after the final round. I was waiting for the document, not stealing it."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_nikola_report"
+        ]
+      }
+    },
+    {
+      "id": "t_nikola_break",
+      "suspect": "nikola",
+      "prompt": "Where were you during the break?",
+      "lines": [
+        [
+          "you",
+          "Where were you between 17:55 and 18:17?"
+        ],
+        [
+          "nikola",
+          "In the hall, photographing the empty boards and the result board. I wanted the atmosphere before the final round began."
+        ],
+        [
+          "nikola",
+          "My camera has the time in its files. I was never behind the stage."
+        ],
+        [
+          "nikola",
+          "I saw Viktor’s jacket missing from the analysis room, but I thought he had gone outside for air."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_nikola_break"
+        ]
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "st_viktor_alibi",
+      "suspect": "viktor",
+      "text": "I stayed in the analysis room until after six, helping Maja prepare for the final round."
+    },
+    {
+      "id": "st_viktor_result",
+      "suspect": "viktor",
+      "text": "The Board Four result was corrected because someone copied the wrong result, not because I changed it."
+    },
+    {
+      "id": "st_maja_result",
+      "suspect": "maja",
+      "text": "Maja and Katerina agreed a draw, signed the sheet and left the board."
+    },
+    {
+      "id": "st_maja_viktor",
+      "suspect": "maja",
+      "text": "Viktor was gone from the analysis room when Maja returned from the foyer."
+    },
+    {
+      "id": "st_elena_grant",
+      "suspect": "elena",
+      "text": "Elena needed the final round and prize ceremony to satisfy the city grant."
+    },
+    {
+      "id": "st_elena_boris",
+      "suspect": "elena",
+      "text": "Elena believed Boris was going to report the grant figures, not the old chess appeal."
+    },
+    {
+      "id": "st_sara_found",
+      "suspect": "sara",
+      "text": "Sara found Boris at 18:24 after he failed to answer her bell-test call."
+    },
+    {
+      "id": "st_sara_result",
+      "suspect": "sara",
+      "text": "Sara did not write the replacement Board Four result slip."
+    },
+    {
+      "id": "st_dragan_key",
+      "suspect": "dragan",
+      "text": "Viktor was allowed to sign out SERVICE 2 because he knew the building and had an old federation badge."
+    },
+    {
+      "id": "st_dragan_accounts",
+      "suspect": "dragan",
+      "text": "Boris was checking the club accounts before signing the tournament report."
+    },
+    {
+      "id": "st_nikola_report",
+      "suspect": "nikola",
+      "text": "The 2018 result was changed after the signed sheet, and a Viktor-coached player benefited."
+    },
+    {
+      "id": "st_nikola_break",
+      "suspect": "nikola",
+      "text": "Nikola photographed the public hall throughout the break and never went behind the stage."
+    }
+  ]
+}

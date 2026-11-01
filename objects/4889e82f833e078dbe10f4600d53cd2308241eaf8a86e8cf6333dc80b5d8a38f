@@ -1,0 +1,116 @@
+{
+  "evidence": [
+    {
+      "id": "doctors_note",
+      "category": "document",
+      "symbol": "stethoscope",
+      "name": "Dr Shaw’s note",
+      "summary": "Struck once from behind with something heavy and rounded, between 23:30 and 01:30. A chain was torn from her neck.",
+      "detail": "Notes made at 07:05 on Sunday by Dr Morven Shaw, a GP from Inverness who was at the Burns supper, for the police.\n\nHalina Kowalczyk, 54, head housekeeper. Found by her daughter at 06:40 on the floor of the first-floor linen room, face down by the far shelves.\n\nOne blow to the back of the head with something heavy and rounded. Her own torch, the big rubber kind the hotel keeps for power cuts, lay beside her, switched off. It would fit. She will have died within minutes.\n\nA fresh red line round the back of her neck, where a fine chain was torn away.\n\nTime of death: between 23:30 and 01:30, from her temperature and the stiffness. I can’t be closer than that.\n\nI’ve touched nothing else. Mr Munro has locked the linen room and kept the key."
+    },
+    {
+      "id": "night_book",
+      "category": "document",
+      "symbol": "book.closed.fill",
+      "name": "The night book",
+      "summary": "Hamish’s log of the night: minus eight at the door, the gift at 23:15, lights out at 23:58, the main switch reset at 00:24.",
+      "detail": "The porter’s night book, kept at reception since 1890. Saturday 24 January, in Hamish Grant’s capitals:\n\n21:30 Police have shut the pass. Black ice. No arrivals, no departures. Minus eight at the door.\n23:15 Burns supper: Dame V gave Mrs K the Black Ice, in front of the whole Hall.\n23:55 Dalmore depot on the phone: gritters at the pass by noon tomorrow.\n23:58 LIGHTS OUT. Phone dead.\n00:00 Out to the stable block. Generator won’t start (cold).\n00:24 Plant room: main switch had tripped. Reset. Lights back.\n00:30 Mr Munro’s head count: all present but Mr Lisle (gone to bed), Miss Rennie (upstairs) and Mrs K (across at the cottage?).\n02:00 Snow stopped. Hard frost.\n06:40 Kasia found her mother in the linen room. God rest her.\n07:00 Police told, on the landline. Nobody to leave."
+    },
+    {
+      "id": "black_ice",
+      "category": "physical",
+      "symbol": "suit.diamond.fill",
+      "name": "The Black Ice",
+      "summary": "A 31-carat black diamond on a platinum chain. At 23:15 Dame Vivienne fastened it round Mrs K’s neck.",
+      "detail": "The card from the hotel’s display case in the Great Hall, where the stone stood for the supper:\n\n‘The Black Ice. A black diamond of 31 carats on a platinum chain, the wedding gift of the director Archie Lisle to Dame Vivienne Lisle, 1969. Worn by Dame Vivienne in The Grey Lady of Glenmorran (1971), filmed in this hall.’\n\nArchie used to say it looked like a puddle of black ice on a road. It is insured for £2.8 million.\n\nAt 23:15 on Saturday Dame Vivienne took it out of the case and fastened it round Mrs K’s neck, in front of the whole supper. Mrs K went red to the ears, tucked it inside her collar, and said she’d take it off when she’d done her rooms."
+    },
+    {
+      "id": "turndown_list",
+      "category": "document",
+      "symbol": "list.clipboard.fill",
+      "name": "Mrs K’s turndown list",
+      "summary": "Her clipboard from Saturday night: each first-floor room with the time she did it, and a last line at 23:58.",
+      "detail": "The clipboard on Mrs K’s trolley, in the first-floor corridor. Saturday’s turndown list, in her quick, sloping hand:\n\n23:31 Heather (Dr Shaw) ✓\n23:36 Thistle ✓\n23:41 Rowan ✓\n23:45 Mr M came up. The bank. NO.\n23:48 Stag (Mr Lisle) ✓ Not in. Shortbread on pillow.\n23:52 Victoria Suite & Miss Rennie ✓ Nobody in. Bottles in both beds.\n23:58 Linen room. LIGHTS OUT!\n\nThe last line runs crooked across the page, as if it was written by torchlight."
+    },
+    {
+      "id": "rory_bed",
+      "category": "physical",
+      "symbol": "bed.double.fill",
+      "name": "Rory’s bed",
+      "summary": "The Stag Room’s bed is still turned down: the corner folded back, and Mrs K’s shortbread on the pillow.",
+      "detail": "The Stag Room, at the east end of the corridor. The bed is exactly as Mrs K left it at turndown: the covers folded back in a neat triangle, a hot water bottle, long cold, under the sheet, and a round of shortbread in its waxed paper on the pillow. Nobody has slept in it, or even sat on it.\n\nOver the armchair by the window hang a dinner jacket and a bow tie. On the sill is a whisky glass, dried to a brown ring."
+    },
+    {
+      "id": "wax",
+      "category": "physical",
+      "symbol": "flame.fill",
+      "name": "Red wax on the stairs",
+      "summary": "Red candle wax on the top steps of the main stairs. The candles in the Great Hall were white; the red ones were at the bar.",
+      "detail": "Three drops of red candle wax on the top steps of the main stairs, and a fourth on the first-floor landing, hard in the tartan carpet.\n\nWhen the lights went out, the candles handed round in the Great Hall were the hotel’s plain white ones, in silver sticks. The only red candles in the building were the supper’s table candles, in tartan holders. After the supper they went back in their box behind the bar."
+    },
+    {
+      "id": "band_photo",
+      "category": "physical",
+      "symbol": "camera.fill",
+      "name": "The band’s photo",
+      "summary": "The ceilidh band’s end-of-night photo from the stage at 23:57:14. Everyone still at the supper is in it.",
+      "detail": "The Glen Morran Ceilidh Band always ends the night with a photo from the stage. Their leader, Ewan, shows it to you on his camera: Saturday, 23:57:14.\n\nEveryone still at the supper is crammed in front of the stage with their glasses up. Dame Vivienne and Mr Munro are in the middle, arm in arm. Dr Shaw is there, and you are, at the back, with thirteen more guests, and the chef and the waiting staff are by the kitchen door, Kasia among them. Two places at the top table are empty: Rory Lisle walked out at half past eleven, and Miss Rennie went up at the same time, as she does every night, to get Dame Vivienne’s things ready for bed. The bar and reception are out of the shot.\n\n‘I’d hardly put the camera down when the lights went,’ Ewan says. ‘Half the room thought my flash had blown the fuses.’"
+    },
+    {
+      "id": "till_roll",
+      "category": "document",
+      "symbol": "scroll.fill",
+      "name": "The bar’s till roll",
+      "summary": "The last sale before the lights went out: two drams, rung up by Tomasz at 23:57:52.",
+      "detail": "The end of Saturday’s till roll, which Tomasz tears off for you:\n\n23:51:30 · 1 × Talisker 10 · £9.00\n23:54:12 · 2 × Glenmorran 12 · £19.00\n23:57:52 · 2 × Laphroaig 10 · £18.00 · cash · served by TW\n\nNothing after that. The till died with the lights at 23:58. In the dark Tomasz kept serving by candlelight, and took the money in a pint glass."
+    },
+    {
+      "id": "depot_call",
+      "category": "document",
+      "symbol": "phone.fill",
+      "name": "The depot’s call",
+      "summary": "The Dalmore depot’s duty officer was on the phone to Hamish until the line went dead at 23:58.",
+      "detail": "Mr Munro rang the Dalmore gritting depot at 08:00 to ask about the pass, and wrote down what the duty officer told him:\n\n‘Gritters at the pass by twelve, and your police up by two, if it holds. Funny night, mind. I rang your front desk at five to twelve about this very thing, and your night porter and I were halfway through when the line went dead. Two minutes to midnight, my screen says. I thought, there goes the Glenmorran’s power again.’"
+    },
+    {
+      "id": "plant_room",
+      "category": "physical",
+      "symbol": "bolt.fill",
+      "name": "The main switch",
+      "summary": "A trip leaves the lever halfway. It’s a minute from the kitchens, three from the Great Hall or the bar, and five from reception.",
+      "detail": "The hotel’s main switch, on the wall of the plant room: a black box with a lever as long as your hand, ON at the top and OFF at the bottom. Beside it is a card in Hamish’s capitals:\n\n‘IF IT TRIPS THE LEVER SITS HALFWAY. PUSH IT DOWN, THEN UP.’\n\nThe door locks, and the key lives on a hook in the boot room.\n\nFrom the kitchens it’s a minute to the switch: down the cellar stairs and along the passage. From the Great Hall or the bar it’s a good three minutes; from reception, five."
+    },
+    {
+      "id": "cottage",
+      "category": "physical",
+      "symbol": "house.fill",
+      "name": "The staff cottage",
+      "summary": "Mrs K’s cottage, across the yard, never lost its power: its clocks are right. It’s on the same cable as the hotel.",
+      "detail": "Kasia lets you into the cottage she shared with her mother, across the courtyard from the kitchen door. The cat is asleep on the radiator. Mrs K’s reading glasses are on the arm of her chair.\n\nOn the cooker, the clock says 09:12, right to the minute. So does the radio alarm by her mother’s bed. In the hotel, every clock was blinking 00:00 this morning, until the chef set them again.\n\n‘The cottage has its own meter,’ Kasia says, ‘but it’s the same cable up the glen as the hotel. When a storm takes the hotel’s power, it takes ours too, every time. The last time was in November, and every clock in here was blinking.’\n\n‘I came across at one,’ she says, ‘and Mum wasn’t here. She’d sometimes sit up with Dame Vivienne when the old lady couldn’t sleep, so I went to bed. At six she still wasn’t back, and she’s never once been late for the breakfast trays.’"
+    },
+    {
+      "id": "rory_calls",
+      "category": "document",
+      "symbol": "iphone",
+      "name": "Rory’s phone",
+      "summary": "Rory’s calls on Saturday night: twenty-two minutes to his bookmaker, from 23:52 to 00:14.",
+      "detail": "Rory shows you the call log on his phone for Saturday night:\n\n23:52 · Tony B (mobile) · 22 minutes\n\n‘There’s one bar of signal in this whole glen, by the gatepost in the car park. You sit in the car with the engine on for the heater, and you don’t move, or you lose it. Ring Tony if you like. He’ll tell you I never stopped talking.’"
+    },
+    {
+      "id": "promise_card",
+      "category": "document",
+      "symbol": "envelope.fill",
+      "name": "The 1985 card",
+      "summary": "A card from Dame Vivienne to Peggy, 1985: ‘When I’m gone, the Black Ice will be yours.’",
+      "detail": "In the zipped pocket of Peggy’s handbag, soft at the corners from handling: a card from the première of Archie Lisle’s last film, 1985. In green ink:\n\n‘My darling Peg. Forty quick changes and not one dropped stitch. When I’m gone, the Black Ice will be yours. I mean it. V.’"
+    },
+    {
+      "id": "peggy_room",
+      "category": "physical",
+      "symbol": "drop.fill",
+      "name": "Miss Rennie’s room",
+      "summary": "Neat as a pin, with nothing sewn into anything. But her tooth mug is missing from the basin, and her window’s catch is up.",
+      "detail": "Miss Rennie’s room, through the connecting door from the Victoria Suite: narrow, warm and neat as a pin. A sewing kit lies open on the table, a nightdress is folded on the pillow, and her good coat hangs on the back of the door. You go through her handbag, the coat’s pockets and every hem in the room. Nothing has been sewn into anything.\n\nOver the basin, her toothbrush lies flat on the glass shelf beside the toothpaste. There’s no tooth mug, there or anywhere else in the room.\n\nThe window looks over the courtyard. Its catch is up, and a ring of water has dried on the sill beneath it. Outside, last night’s snow lies thick and smooth on the ledge."
+    }
+  ]
+}

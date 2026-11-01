@@ -1,0 +1,116 @@
+{
+  "evidence": [
+    {
+      "id": "police_summary",
+      "category": "document",
+      "symbol": "list.clipboard.fill",
+      "name": "Police summary",
+      "summary": "Forty tickets scanned, thirty-nine people ashore, and a fall from the upper deck.",
+      "detail": "Northumbria Police — summary for the family, via the coroner’s officer. A Maritime and Coastguard Agency investigation is ongoing.\n\nSunday 28 September 2025. Ebba Belle (Dunn’s Boats, Seahouses): the last public sailing of the season from St Ebba’s Isle.\n16:09–16:31 — Forty return e-tickets scanned at the island’s Landing, among them those of Mr T. ASHBY and Mrs N. ASHBY (39). The vessel left at 16:34 and made the skipper’s customary last-day loop around the north end of the island.\n17:08 — At Seahouses the skipper, Mr R. DUNN, counted thirty-nine passengers ashore. Mrs ASHBY could not be found. 17:12 — Coastguard alerted. Lifeboat and helicopter searched the route and the north end until dark.\nMonday 29 September, 07:50 — Mrs ASHBY’s body recovered by the lifeboat from the sea below the cliffs at the north end of the island.\n\nPost-mortem (initial): drowning. A wound above the right temple from a blow against a hard edge, consistent with the vessel’s hull or rocks. Grazes to both palms. No alcohol or drugs.\n\nMrs ASHBY last communicated at 16:22, when she messaged her husband to board and save her a seat. Her ticket was scanned at 16:26. Her phone has not been recovered. She was wearing a yellow waterproof jacket. No passenger recalls seeing her on board. It is believed she went up to the open upper deck for the north-end loop, in a heavy swell, and fell overboard unseen. The upper-deck rail is 1.0 m high.\n\nNo suspicion of third-party involvement. The MCA is examining the operator’s procedure for counting persons on board, and the upper deck. Mr DUNN’s boatmaster’s licence is suspended pending the investigation. Inquest opened and adjourned."
+    },
+    {
+      "id": "tom_messages",
+      "category": "document",
+      "symbol": "message.fill",
+      "name": "Tom’s messages",
+      "summary": "Sunday’s messages between Tom and Nell, ending with hers at 16:22: ‘save me a seat inside’.",
+      "detail": "Screenshots of Tom’s phone, which Bea forwarded to you: his messages with Nell on Sunday 28 September.\n\n10:16 Nell: made it, sea was grim 🤢 never again x\n10:52 Nell: its showing!!! gorse by the foghorn, come up\n11:05 Tom: On my way 🐦\n13:40 Nell: going back up for the afternoon, back by 4 x\n14:58 Tom: Chapel at 3? Need to talk x\n15:02 Nell: ok\n16:14 Tom: Boat’s here. Where are you? x\n16:19 Tom: They’re boarding!!\n16:22 Nell: Get on & save me a seat inside. Just coming x\n16:40 Tom: Where are you sitting? I’m by the door x\n16:51 Tom: Nell?\n17:09 Tom: NELL"
+    },
+    {
+      "id": "bea_photo",
+      "category": "physical",
+      "symbol": "photo.fill",
+      "name": "Bea’s photo",
+      "summary": "Nell in 2010, on the bench inside the Ebba Belle’s cabin door, green in the face.",
+      "detail": "A photo Bea gave you: Nell, aged 24, on the Ebba Belle in July 2010, on her way to her first summer as a volunteer on St Ebba’s. She’s on the bench just inside the cabin door, grey-green in the face, with a paper bag in one hand and a thumbs-up for the camera in the other.\n\nOn the back, in Nell’s writing: ‘Never again!! (Said every time.)’\n\n‘She sat there on every crossing for fifteen years,’ Bea says. ‘Inside, by the door, with her eyes on the horizon.’"
+    },
+    {
+      "id": "upper_deck",
+      "category": "physical",
+      "symbol": "ferry.fill",
+      "name": "The upper deck",
+      "summary": "Open to the sky, up a ladder you need both hands for. A 1-metre rail; twelve people at most.",
+      "detail": "The Ebba Belle’s upper deck is open to the sky above the cabin: four slatted benches, and a white rail 1.0 metres high round the edge. A police seal is still taped to one of the stanchions.\n\nYou reach it by an iron ladder from the open stern deck, almost vertical, its rungs worn smooth. A brass plate at the bottom: ‘UPPER DECK — MAX 12 PERSONS — USE BOTH HANDS ON THE LADDER’.\n\nFrom the stern end of the upper deck, a fall would go straight into the wake, out of sight of the wheelhouse. That’s where the police believe Nell went over."
+    },
+    {
+      "id": "scanner_log",
+      "category": "document",
+      "symbol": "qrcode",
+      "name": "The scanner log",
+      "summary": "Forty of forty return tickets, 16:09–16:31. Both Ashby tickets went through two seconds apart, on Tom’s phone.",
+      "detail": "Dunn’s Boats — return tickets scanned at St Ebba’s Landing, Sunday 28 September 2025. Kirsty prints it for you from the scanner.\n\n40 of 40 tickets scanned · first 16:09:12 · last 16:31:02\n\n(extract)\n16:26:41 ASHBY T. · booking EB-2291 · ticket 1 of 2\n16:26:43 ASHBY N. · booking EB-2291 · ticket 2 of 2\n16:27:30 MILBURN G. · booking EB-2317 · ticket 1 of 1\n16:31:02 PURVIS J. · booking EB-2302 · ticket 2 of 2\n\nBoth Ashby tickets were on Tom’s phone; two seconds is the time it takes to swipe to the next ticket. The scanner reads the code on a phone’s screen. It doesn’t count the people holding the phone."
+    },
+    {
+      "id": "clicker",
+      "category": "physical",
+      "symbol": "number",
+      "name": "Kirsty’s counter",
+      "summary": "Her thumb counter from Sunday’s last boat. It still reads 039.",
+      "detail": "In the wheelhouse drawer, on a lanyard: a chrome tally counter, the kind you click with your thumb as each person steps aboard. It was Kirsty’s grandfather’s, she says, and she sets it to zero at the start of every boarding.\n\nIts little window reads 039.\n\nNobody has touched it since Sunday’s last boat."
+    },
+    {
+      "id": "bird_news",
+      "category": "document",
+      "symbol": "bird.fill",
+      "name": "Bird news, Sunday",
+      "summary": "The rubythroat flew at 15:52, and turned up in the chapel garden at 16:01, with a photo.",
+      "detail": "Gaz shows you the bird news app on his phone: the posts for St Ebba’s Isle on Sunday 28 September.\n\n10:40 Siberian Rubythroat still present, gorse below the old foghorn. (G. Milburn)\n13:15 Still showing on and off, foghorn gorse. (G. Milburn)\n15:47 Showing well, foghorn gorse. [photo] (G. Milburn)\n15:52 Flew south over the lighthouse. Lost. (G. Milburn)\n16:01 Relocated in the chapel garden! Showing well in the elders. [photo] (J. Purvis)\n16:24 Still in the chapel garden as we leave for the boat. (J. Purvis)\n17:40 St Ebba’s: a passenger is missing from the last boat. If you saw anything, please contact the coastguard. (moderator)\n\nJ. Purvis’s photo, taken at 16:00:48, shows the rubythroat on an elder branch, its red throat blazing. Behind it, a little out of focus, stands the island’s young ranger in his green fleece, with his own camera to his eye."
+    },
+    {
+      "id": "gaz_photos",
+      "category": "physical",
+      "symbol": "camera.fill",
+      "name": "Gaz’s photos",
+      "summary": "15:53: Nell walking alone towards the Churn. 16:05–16:14: seal pups, from inside the closed fence.",
+      "detail": "Gaz’s camera, frame by frame, with the times it recorded.\n\n15:47 — The rubythroat in the gorse below the foghorn.\n15:52:58 to 15:53:04 — A burst of twelve frames as the bird flies off over the lighthouse; it’s a speck. In the last four, at the edge of the frame, a woman in a yellow jacket is walking away from the crowd along the spur that leads out to the Churn: alone, with binoculars on her chest.\n16:05 to 16:14 — Twenty-two frames of grey seal pups, white and new on the shingle of Seal Haven, from a few metres away. They were taken inside the fence, in the cove that has been closed to everyone since 1 September."
+    },
+    {
+      "id": "router_log",
+      "category": "document",
+      "symbol": "wifi.router.fill",
+      "name": "The Wi-Fi log",
+      "summary": "Every phone on the visitor hut’s Wi-Fi on Sunday afternoon. Nell’s was on it from 16:21:40 to 16:23:05.",
+      "detail": "The visitor hut’s Wi-Fi, ‘EbbaGuest’, is the only connection there is at the Landing: the cove gets no mobile signal at all. Sam opens the router’s log for Sunday afternoon on the trust laptop. Each device, with the times it joined and left:\n\nTom’s phone — 15:18 → 16:36\nKirsty’s phone — 16:01 → 16:35\nDunn’s scanner — 16:01 → 16:35\nSam’s phone — 16:12 → 17:21\nMorag’s phone — 16:18 → 17:20\nNell’s phone — 16:21:40 → 16:23:05\nGaz’s phone — 16:26:20 → 16:35\n…and thirty other phones, joining between 15:31 and 16:31 and leaving at 16:35 or 16:36.\n\nEarlier that day the log shows Nell’s phone once more, 10:16 → 10:31, when the morning boat came in. The router reaches about fifty metres: the hut, the jetty and the foot of the path."
+    },
+    {
+      "id": "till_roll",
+      "category": "document",
+      "symbol": "cup.and.saucer.fill",
+      "name": "The hut’s till roll",
+      "summary": "The card machine’s sales on Sunday afternoon. 15:57: two teas and a flapjack, on Tom Ashby’s card.",
+      "detail": "The visitor hut’s card machine prints a paper roll of every sale. Sunday afternoon’s, torn off and spiked by the till:\n\n14:41 · 1 × tea, 1 × flapjack · card ending 3301\n15:22 · 1 × tea · card ending 0915\n15:57 · 2 × tea, 1 × flapjack · card ending 6620 (T. ASHBY)\n16:13 · 1 × tea · card ending 2208\n\nThe hut is at the Landing, sixteen minutes’ walk from the Churn by the main path."
+    },
+    {
+      "id": "island_log",
+      "category": "document",
+      "symbol": "book.closed.fill",
+      "name": "The day book",
+      "summary": "Morag counting seals from the lighthouse at 15:40, Sam’s ‘north end clear’ at 16:04, the oil store locked at 16:05.",
+      "detail": "The island’s day book, in the cottage: a thick ledger in which the rangers log every boat, every count and every radio call. Sunday 28 September 2025, the last landing day, in Morag’s hand:\n\n10:15 Ebba Belle in. 40 visitors landed. Siberian Rubythroat still in the foghorn gorse.\n15:40 Seal Haven, counted from the lighthouse gallery: 14 pups.\n15:45 S.O. (radio): starting the last sweep, north end first.\n16:00 R.D. (radio): Ebba Belle alongside at the Landing.\n16:04 S.O. (radio): north end clear.\n16:05 Lighthouse and oil store checked and locked for the winter. M.H.\n17:15 Coastguard: passenger missing from the Ebba Belle, Mrs N. Ashby. Shore search until dark: north end M.H., south end S.O. Nothing found.\n\nAnd on Monday, in Sam’s hand: ‘07:50 Lifeboat recovered a body from the sea below the Churn.’"
+    },
+    {
+      "id": "board_summary",
+      "category": "document",
+      "symbol": "doc.text.fill",
+      "name": "The trust’s review",
+      "summary": "‘St Ebba’s 2026’: cameras instead of resident rangers, the cottage a holiday let, and trust-only landings.",
+      "detail": "Sam’s printout of an email from the Northumberland Seabird Trust to all staff, Friday 26 September.\n\n‘Review of island reserves — summary for staff.\nSt Ebba’s 2026, a proposal by Dr Nell Ashby, Head of Reserves, goes to the board on Tuesday 30 September:\n1. Remote cameras and drone surveys to replace the resident ranger posts on St Ebba’s, with a seasonal day warden.\n2. The keepers’ cottage to become a research base and holiday let.\n3. From 2026, landings by the trust’s own guided trips only. Day trips by private operators, and unguided birding, to end.\nWe know this will be difficult news for some colleagues. Staff affected will be told in person before Tuesday.’"
+    },
+    {
+      "id": "churn_scene",
+      "category": "physical",
+      "symbol": "water.waves",
+      "name": "The Churn",
+      "summary": "A cleft in the north-east cliffs where the sea booms; a low wall, a warning, and a fingerpost with walking times.",
+      "detail": "At the island’s north-east tip a spur of turf runs out from the foghorn to a deep cleft in the cliffs. In any swell the sea surges into it with a boom like a slammed door, and the spray comes up over the top. A waist-high stone wall runs along the edge, with a sign: ‘DANGER — THE CHURN — KEEP BEHIND THE WALL’.\n\nOn the far side of the wall the turf is torn at the lip, as if something heavy went over. The police never came up here: they were looking at a boat.\n\nA fingerpost stands at the end of the spur: ‘Lighthouse 3 min · Chapel 12 min (cliff path) · Landing 16 min (main path)’. The spur is a dead end. The only ways back are the cliff path, south along the east side, and the main path past the lighthouse."
+    },
+    {
+      "id": "binoculars",
+      "category": "physical",
+      "symbol": "binoculars.fill",
+      "name": "Nell’s binoculars",
+      "summary": "Hidden behind paint tins in the lighthouse oil store, which was locked at 16:05 on Sunday.",
+      "detail": "Sam unlocks the oil store at the foot of the lighthouse for you: a cold stone room of shelves, rope and old paint. Behind a stack of paint tins on the top shelf is a pair of green binoculars on a yellow neck strap.\n\nA label on the strap, in neat capitals: ‘N. ASHBY — IF FOUND PLEASE RING 07700 900418’. The eyecups are crusted with dried salt, as if the spray had reached them.\n\nIn Gaz’s photo at 15:53 they were on Nell’s chest. The day book says the oil store was locked at 16:05 on Sunday, and Sam says nobody has opened it since."
+    }
+  ]
+}

@@ -1,0 +1,933 @@
+{
+  "topics": [
+    {
+      "id": "t_daniel_evening",
+      "suspect": "daniel",
+      "prompt": "Where did you go after dinner?",
+      "lines": [
+        [
+          "you",
+          "Where did you go after dinner, Mr. Thorne?"
+        ],
+        [
+          "daniel",
+          "After Father had finished humiliating me? The billiards room, with a bottle of his best Scotch. I stayed there until Hobbs started shrieking."
+        ],
+        [
+          "daniel",
+          "I never set foot in the study after dinner, if that’s what you’re fishing for."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_daniel_billiards"
+        ]
+      }
+    },
+    {
+      "id": "t_daniel_quarrel",
+      "suspect": "daniel",
+      "prompt": "What was the quarrel at dinner about?",
+      "lines": [
+        [
+          "you",
+          "The whole table heard you threaten him."
+        ],
+        [
+          "daniel",
+          "He’d bought up my IOU — three thousand pounds’ worth — from a man in Soho. Waved the thing at me over the soup."
+        ],
+        [
+          "daniel",
+          "On Monday he meant to change his will and cut me out, unless I started at the works as a junior clerk. A clerk! At thirty-two!"
+        ],
+        [
+          "daniel",
+          "So yes, I said I’d sooner see him in his grave. People say things."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_daniel_will"
+        ]
+      }
+    },
+    {
+      "id": "t_daniel_father",
+      "suspect": "daniel",
+      "prompt": "What kind of man was your father?",
+      "lines": [
+        [
+          "daniel",
+          "Precise. He set every clock in this house himself, every Sunday. He liked things to run to time — and people to run to him."
+        ],
+        [
+          "daniel",
+          "He trusted exactly two people: Hobbs, and that secretary of his. Certainly not me."
+        ]
+      ]
+    },
+    {
+      "id": "t_daniel_boot_room",
+      "suspect": "daniel",
+      "prompt": "Did you go into the boot room last night?",
+      "visibleWhen": {
+        "evidence": "rabbit_poison"
+      },
+      "lines": [
+        [
+          "daniel",
+          "After the row I went out on the terrace to cool off. In the rain, like a fool. I came back in through the boot room, dripping, and kicked my shoes off there."
+        ],
+        [
+          "daniel",
+          "I didn’t touch any rabbit poison, if that’s where this is going. I didn’t even know we kept any."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_daniel_boot_room"
+        ]
+      }
+    },
+    {
+      "id": "t_daniel_found",
+      "suspect": "daniel",
+      "prompt": "Tell me exactly what you saw in the study.",
+      "visibleWhen": {
+        "resolved": "c_daniel_study"
+      },
+      "lines": [
+        [
+          "daniel",
+          "It was dark. The desk lamp was off — just the fire glowing. He was slumped over the desk. I said his name twice."
+        ],
+        [
+          "daniel",
+          "The tape machine was silent. The room smelled of whisky and coal smoke. That’s all I remember. That, and running."
+        ]
+      ]
+    },
+    {
+      "id": "t_daniel_suspicion",
+      "suspect": "daniel",
+      "prompt": "Who do you think wanted your father dead?",
+      "visibleWhen": {
+        "deduced": "d_daniel_innocent"
+      },
+      "lines": [
+        [
+          "daniel",
+          "Gerald, for one. Father had found out something about him and Hartley — he was gloating about it before dinner."
+        ],
+        [
+          "daniel",
+          "And Eleanor’s been as jumpy as a cat all week. Nineteen years she’s run his life. Ask her what she’s afraid of."
+        ]
+      ]
+    },
+    {
+      "id": "t_margaret_evening",
+      "suspect": "margaret",
+      "prompt": "Where were you after dinner?",
+      "lines": [
+        [
+          "margaret",
+          "In the drawing room, with the others. Coffee, a little brandy, then bridge from ten."
+        ],
+        [
+          "margaret",
+          "I didn’t leave it until Hobbs raised the alarm."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_margaret_drawing_room"
+        ]
+      }
+    },
+    {
+      "id": "t_margaret_toast",
+      "suspect": "margaret",
+      "prompt": "What was Lionel going to announce at midnight?",
+      "lines": [
+        [
+          "margaret",
+          "He wouldn’t tell me. He was terribly pleased with himself about it."
+        ],
+        [
+          "margaret",
+          "He said the toast would ‘settle old debts and clear the decks’. Lionel loved a mystery — as long as he was the one keeping it."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_margaret_toast"
+        ]
+      }
+    },
+    {
+      "id": "t_margaret_health",
+      "suspect": "margaret",
+      "prompt": "Was your husband in good health?",
+      "lines": [
+        [
+          "margaret",
+          "His heart was weak. Felix had him on digitalis — one tablet at ten o’clock every night, exactly."
+        ],
+        [
+          "margaret",
+          "Lionel never missed it. Not once in five years. He was more afraid of his heart than of anything on earth."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_margaret_pill"
+        ]
+      }
+    },
+    {
+      "id": "t_margaret_alarm",
+      "suspect": "margaret",
+      "prompt": "What happened when the body was found?",
+      "lines": [
+        [
+          "margaret",
+          "Hobbs cried out and we all ran in. Felix went straight to Lionel. Gerald stood in the doorway like a statue."
+        ],
+        [
+          "margaret",
+          "Eleanor said she would telephone for the police and went out to the hall — alone. The line was dead, of course. And I’m afraid I fainted."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_margaret_eleanor_hall"
+        ]
+      }
+    },
+    {
+      "id": "t_margaret_eleanor",
+      "suspect": "margaret",
+      "prompt": "What do you make of Eleanor Voss?",
+      "lines": [
+        [
+          "margaret",
+          "Lionel trusted her with everything. The books, the bank, his signature, his diary. More than he ever trusted me."
+        ],
+        [
+          "margaret",
+          "Nineteen years at his elbow. Some days I think she was more married to him than I was."
+        ]
+      ]
+    },
+    {
+      "id": "t_margaret_daniel",
+      "suspect": "margaret",
+      "prompt": "Could Daniel have done this?",
+      "lines": [
+        [
+          "margaret",
+          "Daniel is weak, not wicked. He’s been in debt since Cambridge."
+        ],
+        [
+          "margaret",
+          "I’ve been paying some of it myself, if you must know. Lionel never knew. Please don’t tell Daniel I told you."
+        ]
+      ]
+    },
+    {
+      "id": "t_margaret_felix",
+      "suspect": "margaret",
+      "prompt": "How long have you and Dr. Harrow been…?",
+      "visibleWhen": {
+        "resolved": "c_margaret_room"
+      },
+      "lines": [
+        [
+          "margaret",
+          "Two years. Lionel was married to Thorne Instruments long before he married me."
+        ],
+        [
+          "margaret",
+          "I’d have asked him for a divorce eventually. I would never have needed to kill him for it. Please — be discreet."
+        ]
+      ]
+    },
+    {
+      "id": "t_harrow_evening",
+      "suspect": "harrow",
+      "prompt": "Where were you after dinner?",
+      "lines": [
+        [
+          "harrow",
+          "The drawing room, all evening. Brandy, then bridge from ten o’clock. Margaret and I partnered against Eleanor and Gerald."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_harrow_drawing_room"
+        ]
+      }
+    },
+    {
+      "id": "t_harrow_cause",
+      "suspect": "harrow",
+      "prompt": "How did Lionel die?",
+      "lines": [
+        [
+          "harrow",
+          "A blow to the left temple. The bronze bookend, I’d say — it was lying right beside him. The poor devil was struck down at his own desk."
+        ],
+        [
+          "harrow",
+          "When I examined him at a quarter past eleven he’d been dead under an hour. Hobbs heard him dictating at a quarter past ten, so there’s your window."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_harrow_blow"
+        ]
+      }
+    },
+    {
+      "id": "t_harrow_pills",
+      "suspect": "harrow",
+      "prompt": "Tell me about Lionel’s heart tablets.",
+      "visibleWhen": {
+        "evidence": "pill_box"
+      },
+      "lines": [
+        [
+          "harrow",
+          "Digitalis. One tablet at ten o’clock sharp every night, with a glass of water. I made him swear to it after his attack in 1957."
+        ],
+        [
+          "harrow",
+          "He never missed. Not once. He was terrified of his heart."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_harrow_pill"
+        ]
+      }
+    },
+    {
+      "id": "t_harrow_lionel",
+      "suspect": "harrow",
+      "prompt": "What was Lionel like?",
+      "lines": [
+        [
+          "harrow",
+          "Brilliant. Impossible. He built Thorne Instruments out of a shed in Coventry and never forgave anyone for being slower than he was."
+        ],
+        [
+          "harrow",
+          "We were in the desert together in ’42. He saved my life once. I’ve never been allowed to forget it."
+        ]
+      ]
+    },
+    {
+      "id": "t_harrow_earlier",
+      "suspect": "harrow",
+      "prompt": "Could he have died earlier than you thought?",
+      "visibleWhen": {
+        "resolved": "c_harrow_blow"
+      },
+      "lines": [
+        [
+          "harrow",
+          "If it was cyanide — yes. Easily. It kills in minutes, and that room was as warm as an oven from the fire."
+        ],
+        [
+          "harrow",
+          "I took Hobbs’s ‘dictation’ at a quarter past ten as gospel. Medically, Lionel could have been dead since half past nine."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_harrow_earlier"
+        ]
+      }
+    },
+    {
+      "id": "t_harrow_poisons",
+      "suspect": "harrow",
+      "prompt": "Where would someone get cyanide in a house like this?",
+      "visibleWhen": {
+        "deduced": "d_poisoned"
+      },
+      "lines": [
+        [
+          "harrow",
+          "Not from my bag, if that’s what you’re thinking — I carry nothing of the kind. But every country house has something. Wasp killer. Rabbit gas."
+        ],
+        [
+          "harrow",
+          "Ask Hobbs what the gardener keeps in the boot room."
+        ]
+      ]
+    },
+    {
+      "id": "t_harrow_margaret",
+      "suspect": "harrow",
+      "prompt": "You and Margaret…",
+      "visibleWhen": {
+        "resolved": "c_harrow_room"
+      },
+      "lines": [
+        [
+          "harrow",
+          "I’m not proud of it. Lionel was my friend. But I love her — and he loved his company."
+        ]
+      ]
+    },
+    {
+      "id": "t_finch_evening",
+      "suspect": "finch",
+      "prompt": "Where were you between dinner and bridge?",
+      "lines": [
+        [
+          "finch",
+          "In the library, with a book. Trollope. Alone, I’m afraid — nobody to vouch for me. Then bridge from ten."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_finch_library"
+        ]
+      }
+    },
+    {
+      "id": "t_finch_company",
+      "suspect": "finch",
+      "prompt": "How were things at Thorne Instruments?",
+      "lines": [
+        [
+          "finch",
+          "Lionel and I built it together. We disagreed about where it should go next. Partners do."
+        ],
+        [
+          "finch",
+          "Hartley Precision made us an offer this month. Lionel refused it without consulting me. That was Lionel all over."
+        ]
+      ]
+    },
+    {
+      "id": "t_finch_note",
+      "suspect": "finch",
+      "prompt": "Lionel left you a note. He knew about Hartley.",
+      "visibleWhen": {
+        "evidence": "finch_note"
+      },
+      "lines": [
+        [
+          "finch",
+          "So he’d found out. He meant to make me resign last night — or announce it for me at his precious midnight toast."
+        ],
+        [
+          "finch",
+          "It would have been humiliating. It would not have been worth killing a friend of forty years. I’m sixty; I can bear a little humiliation."
+        ]
+      ]
+    },
+    {
+      "id": "t_finch_saw",
+      "suspect": "finch",
+      "prompt": "From the telephone, what could you see?",
+      "visibleWhen": {
+        "resolved": "c_finch_library"
+      },
+      "lines": [
+        [
+          "finch",
+          "The telephone table looks straight down the corridor to the study, and across into the conservatory through the glass door."
+        ],
+        [
+          "finch",
+          "Margaret and Felix were in the conservatory — thick as thieves, as they have been for months. And Eleanor came past at about twenty to ten with a folder under her arm, heading for the study."
+        ],
+        [
+          "finch",
+          "She came back ten minutes later, perhaps a little more. Walked right past me without a glance. I assumed Lionel had letters to sign."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_finch_saw_eleanor"
+        ]
+      }
+    },
+    {
+      "id": "t_finch_alarm",
+      "suspect": "finch",
+      "prompt": "When you all rushed into the study, what did you see?",
+      "visibleWhen": {
+        "evidence": "time_switch"
+      },
+      "lines": [
+        [
+          "finch",
+          "Felix bent over Lionel. Margaret went as white as paper. I stood in the doorway, I’m ashamed to say."
+        ],
+        [
+          "finch",
+          "Eleanor — now you mention it — was down on her knees behind the desk, by the skirting board. I thought she’d come over faint. Then she stood up, very composed, and said she’d telephone for the police."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_finch_eleanor_knees"
+        ]
+      }
+    },
+    {
+      "id": "t_hobbs_voice",
+      "suspect": "hobbs",
+      "prompt": "Tell me about a quarter past ten last night.",
+      "lines": [
+        [
+          "hobbs",
+          "At a quarter past ten I went up to bank the study fire, as I do every night."
+        ],
+        [
+          "hobbs",
+          "Through the door I heard the master dictating. Clear as you like: ‘I regret I must decline your offer of the fourteenth.’ So I came away. The master never permitted interruption while he was dictating."
+        ],
+        [
+          "hobbs",
+          "Everyone in the house knows that rule."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_hobbs_voice"
+        ]
+      }
+    },
+    {
+      "id": "t_hobbs_ice",
+      "suspect": "hobbs",
+      "prompt": "When did you last see Mr. Thorne?",
+      "lines": [
+        [
+          "hobbs",
+          "At twenty-five past nine I took him fresh ice. He poured his own whisky — he always did — and was in fine fettle. Humming, even."
+        ],
+        [
+          "hobbs",
+          "Then I went down to my supper with Mrs. Bell at half past."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_hobbs_ice"
+        ]
+      }
+    },
+    {
+      "id": "t_hobbs_routine",
+      "suspect": "hobbs",
+      "prompt": "What was Mr. Thorne’s evening routine?",
+      "lines": [
+        [
+          "hobbs",
+          "Whisky at half past nine. His tablet at ten o’clock precisely. The fire banked at a quarter past. He set every clock in the house by the wireless pips on a Sunday."
+        ],
+        [
+          "hobbs",
+          "The master was a man of habits. Everyone who knew him knew them."
+        ]
+      ]
+    },
+    {
+      "id": "t_hobbs_body",
+      "suspect": "hobbs",
+      "prompt": "How did you find him?",
+      "lines": [
+        [
+          "hobbs",
+          "At ten past eleven Mrs. Thorne sent me to fetch him for the toast. The room was dark but for the embers. He was slumped over his desk."
+        ],
+        [
+          "hobbs",
+          "Thirty years I’ve served in this house. I never heard myself cry out like that."
+        ]
+      ]
+    },
+    {
+      "id": "t_hobbs_lamp",
+      "suspect": "hobbs",
+      "prompt": "The desk lamp was unplugged.",
+      "visibleWhen": {
+        "evidence": "unplugged_lamp"
+      },
+      "lines": [
+        [
+          "hobbs",
+          "Unplugged? The master never sat in the dark. That lamp was always lit when he worked."
+        ],
+        [
+          "hobbs",
+          "And the recorder lives on the side table by the bookcase. It plugs in right there beside it. There’d be no call to run the flex across the room."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_hobbs_lamp"
+        ]
+      }
+    },
+    {
+      "id": "t_hobbs_boot_room",
+      "suspect": "hobbs",
+      "prompt": "Who has been in the boot room?",
+      "visibleWhen": {
+        "evidence": "rabbit_poison"
+      },
+      "lines": [
+        [
+          "hobbs",
+          "That tin was sealed when Jenkins the gardener left on Friday. I checked the stores myself."
+        ],
+        [
+          "hobbs",
+          "Since then? Miss Voss came through for her galoshes at four o’clock yesterday — a walk before the rain, she said. And Mr. Daniel came in that way after the quarrel, soaked to the skin."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_hobbs_boot_room"
+        ]
+      }
+    },
+    {
+      "id": "t_hobbs_switches",
+      "suspect": "hobbs",
+      "prompt": "Do you recognise this time switch?",
+      "visibleWhen": {
+        "evidence": "time_switch"
+      },
+      "lines": [
+        [
+          "hobbs",
+          "That’s one of ours. We keep three in the hall cupboard, for the lamps when the family’s in London. To deter burglars."
+        ],
+        [
+          "hobbs",
+          "Anyone in the house would know where they’re kept."
+        ]
+      ]
+    },
+    {
+      "id": "t_hobbs_affair",
+      "suspect": "hobbs",
+      "prompt": "Did you know about Mrs. Thorne and Dr. Harrow?",
+      "visibleWhen": {
+        "any": [
+          {
+            "evidence": "love_note"
+          },
+          {
+            "evidence": "shawl_case"
+          }
+        ]
+      },
+      "lines": [
+        [
+          "hobbs",
+          "It isn’t my place to say."
+        ],
+        [
+          "hobbs",
+          "…I have seen them in the conservatory. More than once. I would not have had the master hurt by it, so I held my tongue."
+        ]
+      ]
+    },
+    {
+      "id": "t_eleanor_evening",
+      "suspect": "eleanor",
+      "prompt": "Where were you after dinner?",
+      "lines": [
+        [
+          "eleanor",
+          "In my office, typing Mr. Thorne’s speech for the midnight toast. From the end of dinner until ten, when I joined the others for bridge."
+        ],
+        [
+          "eleanor",
+          "You’ll want to see my office, I expect — Constable Pike has asked for the key twice already. Here. I keep it locked at night; Mr. Thorne’s papers are confidential."
+        ],
+        [
+          "narrator",
+          "She hands you a small brass key. The Secretary’s Office is now open to you."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_eleanor_typing"
+        ],
+        "flags": [
+          "office_key"
+        ]
+      }
+    },
+    {
+      "id": "t_eleanor_duties",
+      "suspect": "eleanor",
+      "prompt": "What did your work for Mr. Thorne involve?",
+      "lines": [
+        [
+          "eleanor",
+          "Everything. His diary, his letters, the accounts. He dictated onto reels each evening; I transcribed them each morning and filed the reels on my shelf."
+        ],
+        [
+          "eleanor",
+          "Nineteen years. Some days I knew his mind better than he did."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_eleanor_reels"
+        ]
+      }
+    },
+    {
+      "id": "t_eleanor_toast",
+      "suspect": "eleanor",
+      "prompt": "What was the midnight announcement?",
+      "lines": [
+        [
+          "eleanor",
+          "His retirement, and the name of his successor. He hadn’t told me whom — he meant to write the name in himself."
+        ],
+        [
+          "eleanor",
+          "Mr. Thorne liked his surprises."
+        ]
+      ]
+    },
+    {
+      "id": "t_eleanor_alarm",
+      "suspect": "eleanor",
+      "prompt": "What did you do when the body was found?",
+      "lines": [
+        [
+          "eleanor",
+          "I went out to the hall to telephone for the police. The line was dead — the storm. Then I came back and sat with Mrs. Thorne."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_eleanor_hall"
+        ]
+      }
+    },
+    {
+      "id": "t_eleanor_calder",
+      "suspect": "eleanor",
+      "prompt": "What is Calder & Rowe Supplies?",
+      "visibleWhen": {
+        "evidence": "calder_invoice"
+      },
+      "lines": [
+        [
+          "eleanor",
+          "A supplier of brass fittings. Perfectly ordinary. I’ve settled their invoices for years."
+        ],
+        [
+          "eleanor",
+          "Mr. Thorne queried one this week, I believe. He queried everything."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_eleanor_calder"
+        ]
+      }
+    },
+    {
+      "id": "t_eleanor_reel",
+      "suspect": "eleanor",
+      "prompt": "The reel in the recorder came from your shelf.",
+      "visibleWhen": {
+        "deduced": "d_recording"
+      },
+      "lines": [
+        [
+          "eleanor",
+          "Then someone took it from my shelf. I don’t lock the office during the day — anyone in the house could have walked in."
+        ],
+        [
+          "eleanor",
+          "I’d hardly label my own reels and then leave one in the machine for you to find, would I?"
+        ]
+      ]
+    },
+    {
+      "id": "t_eleanor_switch",
+      "suspect": "eleanor",
+      "prompt": "Someone used a time switch to fake Lionel’s voice.",
+      "visibleWhen": {
+        "deduced": "d_switch"
+      },
+      "lines": [
+        [
+          "eleanor",
+          "How ingenious. And how very convenient for whoever was nowhere near the study at a quarter past ten."
+        ],
+        [
+          "eleanor",
+          "That describes four of us — Mrs. Thorne, Dr. Harrow, Mr. Finch and me. You’ll have to do better than that."
+        ]
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "id": "st_daniel_billiards",
+      "suspect": "daniel",
+      "text": "After dinner I drank in the billiards room. I never set foot in the study."
+    },
+    {
+      "id": "st_daniel_will",
+      "suspect": "daniel",
+      "text": "On Monday Father was changing his will to cut me out."
+    },
+    {
+      "id": "st_daniel_boot_room",
+      "suspect": "daniel",
+      "text": "After the quarrel I came in from the terrace through the boot room."
+    },
+    {
+      "id": "st_daniel_found_body",
+      "suspect": "daniel",
+      "text": "At a quarter to eleven Father was already dead in the dark study. I picked up the bookend from the floor and burned my IOU."
+    },
+    {
+      "id": "st_margaret_drawing_room",
+      "suspect": "margaret",
+      "text": "After dinner I stayed in the drawing room until the alarm."
+    },
+    {
+      "id": "st_margaret_toast",
+      "suspect": "margaret",
+      "text": "Lionel said the toast would ‘settle old debts and clear the decks’."
+    },
+    {
+      "id": "st_margaret_pill",
+      "suspect": "margaret",
+      "text": "Lionel took his digitalis at ten o’clock exactly, every night. He never missed in five years."
+    },
+    {
+      "id": "st_margaret_eleanor_hall",
+      "suspect": "margaret",
+      "text": "After the body was found, Eleanor went out to the hall telephone alone."
+    },
+    {
+      "id": "st_margaret_conservatory",
+      "suspect": "margaret",
+      "text": "Felix and I were together in the conservatory from half past nine until nearly ten."
+    },
+    {
+      "id": "st_harrow_drawing_room",
+      "suspect": "harrow",
+      "text": "I was in the drawing room all evening."
+    },
+    {
+      "id": "st_harrow_blow",
+      "suspect": "harrow",
+      "text": "A blow to the temple killed him, less than an hour before 11.15."
+    },
+    {
+      "id": "st_harrow_cyanide",
+      "suspect": "harrow",
+      "text": "Lionel was poisoned with cyanide, which kills within minutes. The temple wound happened as he fell."
+    },
+    {
+      "id": "st_harrow_pill",
+      "suspect": "harrow",
+      "text": "Lionel took one digitalis tablet at ten o’clock sharp every night. He never missed."
+    },
+    {
+      "id": "st_harrow_conservatory",
+      "suspect": "harrow",
+      "text": "I was with Margaret in the conservatory from half past nine until five to ten."
+    },
+    {
+      "id": "st_harrow_earlier",
+      "suspect": "harrow",
+      "text": "Medically, Lionel could have been dead since half past nine."
+    },
+    {
+      "id": "st_finch_library",
+      "suspect": "finch",
+      "text": "Between dinner and bridge I was alone in the library with a book."
+    },
+    {
+      "id": "st_finch_phone",
+      "suspect": "finch",
+      "text": "From 9.32 to 9.51 I was on the hall telephone to Rupert Hartley."
+    },
+    {
+      "id": "st_finch_saw_eleanor",
+      "suspect": "finch",
+      "text": "At about twenty to ten Eleanor went to the study with a folder, and came back ten minutes or so later."
+    },
+    {
+      "id": "st_finch_eleanor_knees",
+      "suspect": "finch",
+      "text": "When we rushed into the study, Eleanor was on her knees behind the desk, then went to telephone."
+    },
+    {
+      "id": "st_hobbs_voice",
+      "suspect": "hobbs",
+      "text": "At 10.15 I heard the master dictating: ‘I regret I must decline your offer of the fourteenth.’"
+    },
+    {
+      "id": "st_hobbs_ice",
+      "suspect": "hobbs",
+      "text": "At 9.25 I took the master fresh ice. He poured his own whisky and was well."
+    },
+    {
+      "id": "st_hobbs_lamp",
+      "suspect": "hobbs",
+      "text": "The master never worked in the dark, and the recorder always plugs in beside the bookcase."
+    },
+    {
+      "id": "st_hobbs_boot_room",
+      "suspect": "hobbs",
+      "text": "Since Friday only Miss Voss (at four on Saturday) and Mr. Daniel (after the quarrel) came through the boot room."
+    },
+    {
+      "id": "st_eleanor_typing",
+      "suspect": "eleanor",
+      "text": "From the end of dinner until ten I was in my office, typing the toast speech."
+    },
+    {
+      "id": "st_eleanor_reels",
+      "suspect": "eleanor",
+      "text": "I transcribe Mr. Thorne’s dictation each morning and keep the reels on my shelf."
+    },
+    {
+      "id": "st_eleanor_hall",
+      "suspect": "eleanor",
+      "text": "When the body was found I went to the hall to telephone. The line was dead."
+    },
+    {
+      "id": "st_eleanor_calder",
+      "suspect": "eleanor",
+      "text": "Calder & Rowe is an ordinary supplier of brass fittings."
+    },
+    {
+      "id": "st_eleanor_letters",
+      "suspect": "eleanor",
+      "text": "At about twenty to ten I took Mr. Thorne letters to sign. He was perfectly well when I left at a quarter to ten."
+    },
+    {
+      "id": "st_eleanor_embezzle",
+      "suspect": "eleanor",
+      "text": "I invented Calder & Rowe and took the money. But I did not kill him."
+    }
+  ]
+}

@@ -1,0 +1,1821 @@
+{
+  "id": "case005",
+  "number": 5,
+  "title": "Silent Partner",
+  "tagline": "A band back together, a song with one name on it, and a fall in the small hours.",
+  "setting": "Hafod · mid-Wales · October 2024",
+  "sketchTitle": "HAFOD",
+  "sketchCredit": "SKETCH: SITE VISIT, 30 OCTOBER 2024 · NOT TO SCALE",
+  "stayLabel": "Stay at Hafod",
+  "briefing": [
+    "Hafod Studios, mid-Wales. Wednesday 30 October 2024. A hill farm above the Wye, at the end of a single-track lane: a farmhouse, an old stone granary, and a long barn that has been a recording studio since 1979. Half the records you remember from the nineties were made here.",
+    "In the early hours of Sunday 27 October, Rhys Morgan, 52, the singer of Halflight, fell backwards down the stone steps outside the granary where he was sleeping. His smartwatch felt the fall and rang 999 by itself. He was dead before the ambulance arrived.",
+    "It was meant to be a comeback. Halflight split up in 1998; this week, for the first time in twenty-six years, the three of them were back in one room, recording, with a documentary camera watching. Their old hit, ‘Small Hours’, has been everywhere this year.",
+    "The police have the documentary’s footage: Dean Pritchard, the band’s guitarist, shouting at Rhys at the foot of those steps and shoving him in the chest. Dean says he wrote the music of ‘Small Hours’, and he never got the credit. He told the police he had gone to bed; then that he had left Rhys alive ‘at about quarter to two’. The watch felt the fall at 01:41. Dean has been arrested on suspicion of murder and released on bail. The CPS is deciding whether to charge him, and a tabloid has run the pictures under the headline ‘THE SHOVE’.",
+    "Dean’s daughter, Ffion, has hired you. ‘Dad’s been angry with Rhys for thirty years. He’s also the only person who never stopped loving him. He didn’t do this.’ Huw Bevan, who owns Hafod, has given you the run of the place, and everyone who was there that night is still close by."
+  ],
+  "startingEvidence": [
+    "police_summary",
+    "tabloid_page"
+  ],
+  "locations": [
+    {
+      "id": "yard",
+      "name": "The Yard",
+      "summary": "The cobbled farmyard, and the granary steps where Rhys fell.",
+      "description": "Hafod’s old farmyard, cobbled and mossy and closed in on three sides: the long stone barn that is now the studio, the farmhouse with its slate porch, and the granary, a squat stone building whose rooms are upstairs, reached by fourteen stone steps up its outside wall. There is no handrail. Bryn’s car is still parked by the farmhouse porch. The police tape has gone; the dark patch on the cobbles hasn’t.",
+      "art": {
+        "aspect": 1.3,
+        "props": [
+          {
+            "label": "The studio (old barn)",
+            "x": 0.42,
+            "y": 0.1,
+            "w": 0.8,
+            "h": 0.16
+          },
+          {
+            "label": "Studio door",
+            "x": 0.2,
+            "y": 0.19,
+            "w": 0.1,
+            "h": 0.03,
+            "style": "door"
+          },
+          {
+            "label": "Lounge window",
+            "x": 0.6,
+            "y": 0.19,
+            "w": 0.24,
+            "h": 0.03,
+            "style": "window"
+          },
+          {
+            "label": "Cobbles",
+            "x": 0.5,
+            "y": 0.52,
+            "w": 0.3,
+            "h": 0.3,
+            "style": "rug"
+          },
+          {
+            "label": "Farmhouse",
+            "symbol": "house.fill",
+            "x": 0.14,
+            "y": 0.62,
+            "w": 0.26,
+            "h": 0.4
+          },
+          {
+            "x": 0.285,
+            "y": 0.5,
+            "w": 0.03,
+            "h": 0.08,
+            "style": "door"
+          },
+          {
+            "label": "Bryn’s car",
+            "symbol": "car.fill",
+            "x": 0.42,
+            "y": 0.8,
+            "w": 0.14,
+            "h": 0.08
+          },
+          {
+            "label": "Granary steps",
+            "symbol": "stairs",
+            "x": 0.7,
+            "y": 0.58,
+            "w": 0.07,
+            "h": 0.34,
+            "style": "fixture"
+          },
+          {
+            "label": "The granary",
+            "x": 0.87,
+            "y": 0.58,
+            "w": 0.24,
+            "h": 0.42
+          },
+          {
+            "label": "Lane",
+            "x": 0.5,
+            "y": 0.975,
+            "w": 0.2,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_yd_steps",
+          "label": "The granary steps",
+          "x": 0.7,
+          "y": 0.47,
+          "text": "Fourteen stone steps climb the granary wall to a landing hardly wider than a doormat. They’re worn hollow in the middle and slick with moss, and the police’s chalk is still on them.",
+          "reward": {
+            "evidence": [
+              "steps_scene"
+            ]
+          }
+        },
+        {
+          "id": "hs_yd_foot",
+          "label": "The foot of the steps",
+          "x": 0.67,
+          "y": 0.71,
+          "text": "Where Rhys landed, and where, on the video, Dean shoved him. From here you can see straight across the yard into the big lounge window."
+        },
+        {
+          "id": "hs_yd_window",
+          "label": "The lounge window",
+          "x": 0.6,
+          "y": 0.24,
+          "text": "The studio lounge’s big window looks straight across the yard at the granary steps, thirty metres away. At night, with the lamps on inside, you’d see little of the dark yard from that sofa. But when the landing light comes on, it lights the steps like a stage."
+        },
+        {
+          "id": "hs_yd_farmdoor",
+          "label": "The farmhouse door",
+          "x": 0.3,
+          "y": 0.5,
+          "text": "A slate porch, a boot rack and a door that sticks. From the porch to the foot of the granary steps is the whole width of the yard: anyone crossing it would be in plain view of the parked cars and the lounge window."
+        },
+        {
+          "id": "hs_yd_car",
+          "label": "Bryn’s car",
+          "x": 0.55,
+          "y": 0.81,
+          "text": "Bryn’s old estate car, parked a few metres from the farmhouse porch with its nose to the granary. From the driver’s seat you look straight at the steps, and the farmhouse door sits in the wing mirror.",
+          "visibleWhen": {
+            "all": [
+              {
+                "resolved": "c_bryn_bed"
+              },
+              {
+                "deduced": "d_alibi"
+              }
+            ]
+          },
+          "reward": {
+            "evidence": [
+              "bryn_bottle"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "granary",
+      "name": "The Granary",
+      "summary": "The rooms over the old granary, where Rhys, Eddie and Freya slept.",
+      "description": "At the top of the fourteen steps is a flagged landing, a caged light on the wall above it, and three doors: Freya’s, nearest the steps; then Eddie’s; then Rhys’s, at the end. The rooms were once the granary loft, with low beams, sheepskins and a view of the hills. Huw has left Rhys’s room as the police left it.",
+      "art": {
+        "aspect": 1.4,
+        "props": [
+          {
+            "label": "Freya’s room",
+            "x": 0.3,
+            "y": 0.32,
+            "w": 0.24,
+            "h": 0.48
+          },
+          {
+            "label": "Eddie’s room",
+            "x": 0.56,
+            "y": 0.32,
+            "w": 0.24,
+            "h": 0.48
+          },
+          {
+            "label": "Rhys’s room",
+            "symbol": "bed.double.fill",
+            "x": 0.82,
+            "y": 0.32,
+            "w": 0.24,
+            "h": 0.48
+          },
+          {
+            "x": 0.3,
+            "y": 0.56,
+            "w": 0.08,
+            "h": 0.03,
+            "style": "door"
+          },
+          {
+            "x": 0.56,
+            "y": 0.56,
+            "w": 0.08,
+            "h": 0.03,
+            "style": "door"
+          },
+          {
+            "x": 0.82,
+            "y": 0.56,
+            "w": 0.08,
+            "h": 0.03,
+            "style": "door"
+          },
+          {
+            "label": "Landing",
+            "x": 0.55,
+            "y": 0.74,
+            "w": 0.8,
+            "h": 0.14,
+            "style": "rug"
+          },
+          {
+            "label": "Light",
+            "symbol": "lightbulb.fill",
+            "x": 0.43,
+            "y": 0.63,
+            "w": 0.06,
+            "h": 0.04,
+            "style": "fixture"
+          },
+          {
+            "label": "Top of the steps",
+            "symbol": "stairs",
+            "x": 0.08,
+            "y": 0.8,
+            "w": 0.12,
+            "h": 0.3,
+            "style": "fixture"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_gr_landing",
+          "label": "The landing",
+          "x": 0.68,
+          "y": 0.76,
+          "text": "Two people could just about pass each other up here. Three doors open onto it, and above them is a caged light on a sensor.",
+          "reward": {
+            "evidence": [
+              "landing_light"
+            ]
+          }
+        },
+        {
+          "id": "hs_gr_view",
+          "label": "The top step",
+          "x": 0.08,
+          "y": 0.62,
+          "text": "From the top step you look straight down fourteen steps to the cobbles, and across the yard into the lounge window. The landing is so narrow that anyone waiting up here in the dark would be within arm’s reach of whoever came up."
+        },
+        {
+          "id": "hs_gr_rhys",
+          "label": "Rhys’s room",
+          "x": 0.82,
+          "y": 0.49,
+          "text": "Huw unlocks the end door for you.",
+          "reward": {
+            "evidence": [
+              "rhys_room"
+            ]
+          }
+        },
+        {
+          "id": "hs_gr_eddie",
+          "label": "Eddie’s door",
+          "x": 0.56,
+          "y": 0.58,
+          "text": "Locked. Eddie has moved to a hotel in Builth Wells for the week — ‘I can’t sleep up there’ — and Huw says the police have already been through the room."
+        },
+        {
+          "id": "hs_gr_freya",
+          "label": "Freya’s room",
+          "x": 0.3,
+          "y": 0.49,
+          "text": "Freya’s room, nearest the steps: camera bags, a drone case, a shoebox of hard drives, a sleeping bag on top of the duvet.",
+          "visibleWhen": {
+            "asked": "t_freya_kit"
+          },
+          "reward": {
+            "evidence": [
+              "freya_camera"
+            ]
+          }
+        },
+        {
+          "id": "hs_gr_bulb",
+          "label": "The light fitting",
+          "x": 0.43,
+          "y": 0.75,
+          "text": "Huw fetches a screwdriver and takes the cage off the landing light.",
+          "visibleWhen": {
+            "resolved": "c_huw_light"
+          },
+          "reward": {
+            "evidence": [
+              "bulb"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "studio",
+      "name": "The Studio",
+      "summary": "The live room and Huw’s control room, in the old barn.",
+      "description": "The old barn has a live room big enough for an orchestra, rugs and drums and amps under the beams. Behind the glass is the control room, where Huw’s desk takes up a whole wall. A leather sofa sits at the back, and a side window looks into the lounge next door. Everything is as it was on Saturday night: the police never came in here.",
+      "art": {
+        "aspect": 1.3,
+        "props": [
+          {
+            "label": "Live room",
+            "x": 0.5,
+            "y": 0.2,
+            "w": 0.9,
+            "h": 0.34,
+            "style": "rug"
+          },
+          {
+            "label": "Drums",
+            "x": 0.3,
+            "y": 0.19,
+            "w": 0.14,
+            "h": 0.12
+          },
+          {
+            "label": "Vocal booth",
+            "x": 0.82,
+            "y": 0.19,
+            "w": 0.14,
+            "h": 0.2
+          },
+          {
+            "label": "Glass",
+            "x": 0.5,
+            "y": 0.41,
+            "w": 0.9,
+            "h": 0.03,
+            "style": "window"
+          },
+          {
+            "label": "Wall clock",
+            "symbol": "clock.fill",
+            "x": 0.5,
+            "y": 0.46,
+            "w": 0.06,
+            "h": 0.03,
+            "style": "fixture"
+          },
+          {
+            "label": "Mixing desk",
+            "symbol": "headphones",
+            "x": 0.48,
+            "y": 0.56,
+            "w": 0.46,
+            "h": 0.1
+          },
+          {
+            "label": "Computer",
+            "symbol": "laptopcomputer",
+            "x": 0.79,
+            "y": 0.56,
+            "w": 0.08,
+            "h": 0.06
+          },
+          {
+            "label": "Whiteboard",
+            "x": 0.05,
+            "y": 0.62,
+            "w": 0.04,
+            "h": 0.2,
+            "style": "fixture"
+          },
+          {
+            "label": "Sofa",
+            "symbol": "sofa.fill",
+            "x": 0.5,
+            "y": 0.82,
+            "w": 0.3,
+            "h": 0.1
+          },
+          {
+            "label": "Window to the lounge",
+            "x": 0.97,
+            "y": 0.72,
+            "w": 0.04,
+            "h": 0.2,
+            "style": "window"
+          },
+          {
+            "label": "Door",
+            "x": 0.12,
+            "y": 0.975,
+            "w": 0.12,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_st_whiteboard",
+          "label": "The whiteboard",
+          "x": 0.12,
+          "y": 0.62,
+          "text": "A whiteboard by the control-room door, covered in Huw’s capitals.",
+          "reward": {
+            "evidence": [
+              "whiteboard"
+            ]
+          }
+        },
+        {
+          "id": "hs_st_sofa",
+          "label": "The sofa",
+          "x": 0.71,
+          "y": 0.82,
+          "text": "A battered leather sofa at the back of the control room, with a view of the desk and, through the glass, the live room. On Saturday night Eddie sat here with his laptop on his knees and his headphones on, on his call."
+        },
+        {
+          "id": "hs_st_clock",
+          "label": "The wall clock",
+          "x": 0.6,
+          "y": 0.465,
+          "text": "A big station clock over the glass. It shows the right time now. ‘Put it back on Sunday afternoon,’ Huw says. ‘First thing I’d done by hand all week.’"
+        },
+        {
+          "id": "hs_st_glass",
+          "label": "The window to the lounge",
+          "x": 0.95,
+          "y": 0.7,
+          "text": "A side window looks from the control room into the lounge next door. From the desk you can see the lounge sofa and the stove; from the lounge sofa, the desk."
+        },
+        {
+          "id": "hs_st_computer",
+          "label": "The studio computer",
+          "x": 0.88,
+          "y": 0.56,
+          "text": "Huw wakes the computer and opens Saturday’s session.",
+          "visibleWhen": {
+            "asked": "t_huw_session"
+          },
+          "reward": {
+            "evidence": [
+              "take_list"
+            ]
+          }
+        },
+        {
+          "id": "hs_st_booth",
+          "label": "The vocal booth",
+          "x": 0.7,
+          "y": 0.19,
+          "text": "A booth in the corner of the live room: one microphone, a pop shield, and a music stand with a lyric sheet still on it.",
+          "visibleWhen": {
+            "evidence": "take_list"
+          },
+          "reward": {
+            "evidence": [
+              "lyric_sheet"
+            ]
+          }
+        },
+        {
+          "id": "hs_st_drawer",
+          "label": "Huw’s desk drawer",
+          "x": 0.62,
+          "y": 0.62,
+          "text": "Cables, spare valves, a tin of toffees, and a sheaf of letters Huw would rather not open.",
+          "visibleWhen": {
+            "asked": "t_huw_steps"
+          },
+          "reward": {
+            "evidence": [
+              "insurer_letter"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lounge",
+      "name": "The Lounge",
+      "summary": "The studio lounge: sofas, a stove, and a window onto the yard.",
+      "description": "The lounge at the end of the studio has two sofas, a kitchenette, a wood burner, a table of empty mugs, and the big window onto the yard. This is where everyone waited between takes. Huw hasn’t cleaned it since Sunday: the police told him not to touch anything, then never came back.",
+      "art": {
+        "aspect": 1.3,
+        "props": [
+          {
+            "label": "Window — the yard",
+            "x": 0.5,
+            "y": 0.03,
+            "w": 0.6,
+            "h": 0.05,
+            "style": "window"
+          },
+          {
+            "label": "Sofa",
+            "symbol": "sofa.fill",
+            "x": 0.35,
+            "y": 0.28,
+            "w": 0.3,
+            "h": 0.12
+          },
+          {
+            "label": "Sofa",
+            "x": 0.66,
+            "y": 0.28,
+            "w": 0.2,
+            "h": 0.12
+          },
+          {
+            "label": "Table",
+            "symbol": "cup.and.saucer.fill",
+            "x": 0.5,
+            "y": 0.55,
+            "w": 0.5,
+            "h": 0.16
+          },
+          {
+            "label": "Wood burner",
+            "symbol": "fireplace.fill",
+            "x": 0.9,
+            "y": 0.42,
+            "w": 0.1,
+            "h": 0.14
+          },
+          {
+            "label": "Kitchenette",
+            "symbol": "refrigerator.fill",
+            "x": 0.16,
+            "y": 0.8,
+            "w": 0.26,
+            "h": 0.14
+          },
+          {
+            "label": "Window to the control room",
+            "x": 0.03,
+            "y": 0.42,
+            "w": 0.04,
+            "h": 0.2,
+            "style": "window"
+          },
+          {
+            "label": "Door",
+            "x": 0.62,
+            "y": 0.975,
+            "w": 0.12,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_lg_window",
+          "label": "The window",
+          "x": 0.5,
+          "y": 0.08,
+          "text": "From the end of the sofa you look straight across the yard at the granary steps. At night, with the lamps on in here, the yard would be a black mirror — but you couldn’t miss the landing light coming on."
+        },
+        {
+          "id": "hs_lg_corner",
+          "label": "The end of the sofa",
+          "x": 0.25,
+          "y": 0.28,
+          "text": "Freya’s corner: a phone charger, a lens cloth, a mug with lipstick on it. From here you can see straight through the side window into the control room, to the back of Huw’s chair."
+        },
+        {
+          "id": "hs_lg_table",
+          "label": "The table",
+          "x": 0.34,
+          "y": 0.55,
+          "text": "Mugs, a biscuit tin, and a tour plan, ‘HALFLIGHT 2025 — 24 DATES’, with a heart drawn round ‘Small Hours — encore’."
+        },
+        {
+          "id": "hs_lg_ipad",
+          "label": "The band iPad",
+          "x": 0.71,
+          "y": 0.55,
+          "text": "The band’s shared iPad, propped against the fruit bowl: lyrics, set lists and the band’s group chat. Huw unlocks it for you.",
+          "visibleWhen": {
+            "asked": "t_huw_session"
+          },
+          "reward": {
+            "evidence": [
+              "band_chat"
+            ]
+          }
+        },
+        {
+          "id": "hs_lg_notepad",
+          "label": "Huw’s notepad",
+          "x": 0.595,
+          "y": 0.56,
+          "text": "Under the biscuit tin on the table is Huw’s studio notepad. You slide it out and tilt it to the window.",
+          "visibleWhen": {
+            "resolved": "c_dean_song"
+          },
+          "reward": {
+            "evidence": [
+              "letter_impression"
+            ]
+          }
+        },
+        {
+          "id": "hs_lg_burner",
+          "label": "The wood burner",
+          "x": 0.9,
+          "y": 0.28,
+          "text": "A small cast-iron stove, cold now, with a basket of logs beside it. Nobody has touched the lounge since Sunday."
+        },
+        {
+          "id": "hs_lg_stove",
+          "label": "The stove’s ash pan",
+          "x": 0.9,
+          "y": 0.56,
+          "text": "Now that you know who lit the stove on Sunday, you open the ash pan.",
+          "visibleWhen": {
+            "statement": "st_huw_stove"
+          },
+          "reward": {
+            "evidence": [
+              "clasp"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "farmhouse",
+      "name": "The Farmhouse",
+      "summary": "Where Dean, Bryn and Carys slept.",
+      "description": "Huw’s family farmhouse, where the rest of the party slept: a flagged kitchen with an Aga, a creaking staircase, and small bedrooms under the eaves. Carys is staying on here this week, to be near where Rhys died.",
+      "art": {
+        "aspect": 1.2,
+        "props": [
+          {
+            "label": "Dean and Bryn’s room",
+            "symbol": "bed.double.fill",
+            "x": 0.26,
+            "y": 0.22,
+            "w": 0.42,
+            "h": 0.3
+          },
+          {
+            "label": "Carys’s room",
+            "symbol": "bed.double.fill",
+            "x": 0.72,
+            "y": 0.22,
+            "w": 0.42,
+            "h": 0.3
+          },
+          {
+            "label": "Landing window",
+            "x": 0.5,
+            "y": 0.03,
+            "w": 0.2,
+            "h": 0.04,
+            "style": "window"
+          },
+          {
+            "label": "Stairs",
+            "symbol": "stairs",
+            "x": 0.9,
+            "y": 0.56,
+            "w": 0.1,
+            "h": 0.2,
+            "style": "fixture"
+          },
+          {
+            "label": "Kitchen",
+            "x": 0.44,
+            "y": 0.76,
+            "w": 0.78,
+            "h": 0.38,
+            "style": "rug"
+          },
+          {
+            "label": "Aga",
+            "symbol": "flame.fill",
+            "x": 0.15,
+            "y": 0.7,
+            "w": 0.14,
+            "h": 0.12
+          },
+          {
+            "label": "Kitchen table",
+            "x": 0.55,
+            "y": 0.77,
+            "w": 0.4,
+            "h": 0.14
+          },
+          {
+            "label": "Front door",
+            "x": 0.5,
+            "y": 0.975,
+            "w": 0.14,
+            "h": 0.05,
+            "style": "door"
+          },
+          {
+            "x": 0.38,
+            "y": 0.37,
+            "w": 0.08,
+            "h": 0.025,
+            "style": "door"
+          },
+          {
+            "x": 0.62,
+            "y": 0.37,
+            "w": 0.08,
+            "h": 0.025,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_fh_aga",
+          "label": "The Aga",
+          "x": 0.29,
+          "y": 0.7,
+          "text": "The cream Aga hums in the corner, warm as a cow.",
+          "reward": {
+            "evidence": [
+              "aga_clock"
+            ]
+          }
+        },
+        {
+          "id": "hs_fh_table",
+          "label": "The kitchen table",
+          "x": 0.705,
+          "y": 0.77,
+          "text": "A long pine table, still with eight chairs round it from Saturday’s dinner. Huw says nobody talked. Rhys ate in ten minutes and went back to the studio; Carys didn’t eat at all."
+        },
+        {
+          "id": "hs_fh_room",
+          "label": "Dean and Bryn’s room",
+          "x": 0.38,
+          "y": 0.37,
+          "text": "Two single beds under the eaves. A plastic bucket by one of them, scrubbed out. On the windowsill, a bronze coin with ‘XII’ on it: twelve years sober. From this window you can’t see the granary at all."
+        },
+        {
+          "id": "hs_fh_window",
+          "label": "The landing window",
+          "x": 0.5,
+          "y": 0.07,
+          "text": "From the little window on the farmhouse stairs you can just see the granary steps across the yard. At night, with no light on the landing, you would see nothing at all."
+        },
+        {
+          "id": "hs_fh_carys",
+          "label": "Carys’s room",
+          "x": 0.62,
+          "y": 0.37,
+          "text": "The spare room: an unmade bed, a suitcase, a box of sleeping tablets, and a document folder on the chair.",
+          "visibleWhen": {
+            "asked": "t_carys_sale"
+          },
+          "reward": {
+            "evidence": [
+              "sale_agreement",
+              "carys_loan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "flat",
+      "name": "Dean’s Flat",
+      "summary": "Two rooms over a guitar shop in Newport, and the defence papers.",
+      "description": "Two rooms over a guitar shop in Newport, where Dean teaches. There are guitars on every wall, a mattress, a kettle and a view of the bus station. Dean, on bail, isn’t allowed back to Hafod. Ffion has spread the defence papers across the kitchen table.",
+      "art": {
+        "aspect": 1.2,
+        "props": [
+          {
+            "label": "Window — the street",
+            "x": 0.5,
+            "y": 0.03,
+            "w": 0.4,
+            "h": 0.05,
+            "style": "window"
+          },
+          {
+            "label": "Photo wall",
+            "x": 0.5,
+            "y": 0.15,
+            "w": 0.5,
+            "h": 0.06,
+            "style": "fixture"
+          },
+          {
+            "label": "Guitars",
+            "symbol": "guitars.fill",
+            "x": 0.08,
+            "y": 0.42,
+            "w": 0.08,
+            "h": 0.5
+          },
+          {
+            "label": "Kitchen table",
+            "x": 0.5,
+            "y": 0.46,
+            "w": 0.5,
+            "h": 0.16
+          },
+          {
+            "label": "Shelf",
+            "symbol": "recordingtape",
+            "x": 0.92,
+            "y": 0.42,
+            "w": 0.08,
+            "h": 0.4
+          },
+          {
+            "label": "Mattress",
+            "symbol": "bed.double.fill",
+            "x": 0.32,
+            "y": 0.8,
+            "w": 0.3,
+            "h": 0.16
+          },
+          {
+            "label": "Door",
+            "x": 0.85,
+            "y": 0.975,
+            "w": 0.14,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_df_papers",
+          "label": "The defence papers",
+          "x": 0.34,
+          "y": 0.46,
+          "text": "Ffion’s neat piles: the police disclosure, Dean’s interview, the bail conditions, and the pathologist’s report.",
+          "reward": {
+            "evidence": [
+              "post_mortem"
+            ]
+          }
+        },
+        {
+          "id": "hs_df_wall",
+          "label": "The photo wall",
+          "x": 0.7,
+          "y": 0.15,
+          "text": "Halflight in 1996, all elbows and cheekbones: on a roof in Pill, on a bus, at the top of a chart. Eddie is in every other photo with an arm round two of them. In one, Dean and Rhys sit on a kitchen table sharing a cigarette, one guitar between them."
+        },
+        {
+          "id": "hs_df_guitar",
+          "label": "The old guitar",
+          "x": 0.08,
+          "y": 0.26,
+          "text": "A battered sunburst guitar on its own hook, still strung with only five strings. ‘That’s the one,’ Ffion says. ‘He won’t let anyone touch it.’"
+        },
+        {
+          "id": "hs_df_tape",
+          "label": "The cassette",
+          "x": 0.92,
+          "y": 0.3,
+          "text": "A shoebox of old cassettes on the shelf. Ffion goes straight to one.",
+          "visibleWhen": {
+            "asked": "t_dean_song"
+          },
+          "reward": {
+            "evidence": [
+              "dean_tape"
+            ]
+          }
+        },
+        {
+          "id": "hs_df_laptop",
+          "label": "Ffion’s laptop",
+          "x": 0.66,
+          "y": 0.46,
+          "text": "After what Bryn saw, Ffion asked Dean’s solicitor for the ambulance service’s recording of the 999 call from Rhys’s watch. The line stayed open after the fall. It has just come through, with a transcript.",
+          "visibleWhen": {
+            "all": [
+              {
+                "deduced": "d_nobody"
+              },
+              {
+                "deduced": "d_motive"
+              }
+            ]
+          },
+          "reward": {
+            "evidence": [
+              "nine_nine_nine"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "timeline": {
+    "id": "timeline",
+    "title": "Saturday night, reconstructed",
+    "prompt": "Put the events in the order they really happened. Times you know for certain are shown; reason out the rest.",
+    "events": [
+      {
+        "id": "tl_take6",
+        "text": "Take 6: the last take with the whole band",
+        "time": "00:40",
+        "visibleWhen": {
+          "evidence": "take_list"
+        },
+        "teaser": "Something the studio computer remembers."
+      },
+      {
+        "id": "tl_row",
+        "text": "Dean shoves Rhys at the foot of the granary steps, on Freya’s camera"
+      },
+      {
+        "id": "tl_dean",
+        "text": "Dean goes to bed in the farmhouse",
+        "visibleWhen": {
+          "statement": "st_dean_left"
+        },
+        "teaser": "Something in the farmhouse."
+      },
+      {
+        "id": "tl_eddie",
+        "text": "Eddie says goodnight and goes up to the granary",
+        "visibleWhen": {
+          "statement": "st_huw_sequence"
+        },
+        "teaser": "Something Huw remembers."
+      },
+      {
+        "id": "tl_clocks",
+        "text": "The clocks go back an hour",
+        "time": "02:00 → 01:00",
+        "visibleWhen": {
+          "evidence": "whiteboard"
+        },
+        "teaser": "Something written in the control room."
+      },
+      {
+        "id": "tl_photo",
+        "text": "Bryn posts a photo of Dean asleep",
+        "visibleWhen": {
+          "evidence": "band_chat"
+        },
+        "teaser": "Something posted to the band."
+      },
+      {
+        "id": "tl_take9",
+        "text": "Rhys sings Take 9, his last vocal",
+        "visibleWhen": {
+          "evidence": "take_list"
+        },
+        "teaser": "Something else the studio computer remembers."
+      },
+      {
+        "id": "tl_leaves",
+        "text": "Rhys says goodnight and leaves the studio",
+        "visibleWhen": {
+          "any": [
+            {
+              "statement": "st_freya_lounge"
+            },
+            {
+              "statement": "st_huw_glass"
+            }
+          ]
+        },
+        "teaser": "Somebody saw Rhys go."
+      },
+      {
+        "id": "tl_fall",
+        "text": "Rhys falls down the granary steps, and his watch calls for help"
+      },
+      {
+        "id": "tl_ring",
+        "text": "A phone rings beside Rhys’s body",
+        "visibleWhen": {
+          "evidence": "nine_nine_nine"
+        },
+        "teaser": "Something heard after the fall."
+      },
+      {
+        "id": "tl_ambulance",
+        "text": "The ambulance arrives",
+        "time": "02:16"
+      },
+      {
+        "id": "tl_stove",
+        "text": "Eddie lights the wood burner in the lounge",
+        "time": "07:30",
+        "visibleWhen": {
+          "statement": "st_huw_stove"
+        },
+        "teaser": "Something done on Sunday morning."
+      }
+    ],
+    "conclusion": "The row, Dean’s bedtime and Eddie’s call all happened in the first one o’clock, summer time. Then the clocks went back. Rhys sang the vocal of his life, said goodnight, and climbed the steps in the dark, and at 01:41, the second time round, he fell. By then the only person in the granary was the man whose alibi everyone had already checked."
+  },
+  "accusation": {
+    "culprit": "eddie",
+    "methods": [
+      "Shoved him off the bottom steps during their row in the yard",
+      "Tripped him with a cable stretched across the top step",
+      "Waited at the top of the steps and pushed him backwards",
+      "Hit him at the foot of the steps and made it look like a fall"
+    ],
+    "method": 2,
+    "motives": [
+      "Revenge for a stolen song",
+      "To inherit the songs",
+      "To give a documentary the ending it needed",
+      "To save the sale of the songs",
+      "To keep a place on the tour",
+      "To keep the insurers from closing the studio"
+    ],
+    "motive": 3,
+    "proof": [
+      [
+        "d_alibi",
+        "timeline"
+      ],
+      [
+        "d_ringtone",
+        "d_landing",
+        "nine_nine_nine",
+        "dana_email",
+        "st_bryn_saw",
+        "clasp"
+      ],
+      [
+        "d_motive",
+        "sale_agreement",
+        "st_carys_eddieloan",
+        "rhys_interview"
+      ]
+    ],
+    "proofLabels": [
+      "The chance — free when Rhys fell",
+      "At the steps — proof the killer was there",
+      "The motive — what Monday would have cost the killer"
+    ],
+    "successTitle": "Case closed"
+  },
+  "hints": [
+    {
+      "id": "h_scene",
+      "doneWhen": {
+        "all": [
+          {
+            "evidence": "steps_scene"
+          },
+          {
+            "evidence": "landing_light"
+          },
+          {
+            "evidence": "post_mortem"
+          }
+        ]
+      },
+      "levels": [
+        "Start where Rhys fell.",
+        "Look at the granary steps and the landing above them, and read the post-mortem in the defence papers at Dean’s flat.",
+        "In the Yard, examine the granary steps; in the Granary, examine the landing; in Dean’s Flat, examine the defence papers."
+      ]
+    },
+    {
+      "id": "h_fall",
+      "activeWhen": {
+        "all": [
+          {
+            "evidence": "steps_scene"
+          },
+          {
+            "evidence": "post_mortem"
+          }
+        ]
+      },
+      "doneWhen": {
+        "deduced": "d_fall"
+      },
+      "levels": [
+        "The video shows Dean shoving Rhys at the bottom of the steps. Is that where Rhys fell from?",
+        "Where were his phone and his blood found? And how does the post-mortem say he fell?",
+        "On the board, answer ‘From the very top: backwards, down all fourteen steps’, with the post-mortem summary and the granary steps."
+      ]
+    },
+    {
+      "id": "h_session",
+      "doneWhen": {
+        "asked": "t_huw_session"
+      },
+      "levels": [
+        "Somebody recorded every minute of Saturday night’s session.",
+        "Ask the man who owns the studio.",
+        "Ask Huw ‘Tell me about Saturday’s session.’"
+      ]
+    },
+    {
+      "id": "h_take_list",
+      "activeWhen": {
+        "asked": "t_huw_session"
+      },
+      "doneWhen": {
+        "evidence": "take_list"
+      },
+      "levels": [
+        "Huw’s computer keeps a list of every take.",
+        "It’s in the control room.",
+        "In the Studio, examine the studio computer."
+      ]
+    },
+    {
+      "id": "h_clocks",
+      "activeWhen": {
+        "evidence": "take_list"
+      },
+      "doneWhen": {
+        "deduced": "d_clocks"
+      },
+      "levels": [
+        "Take 8 was recorded after Take 7. Look at their times.",
+        "What does the whiteboard in the control room say about two o’clock on Saturday night?",
+        "On the board, answer ‘The clocks went back at 2 a.m., so one o’clock came round twice’, with Huw’s take list and the studio whiteboard (or the band chat, or the Aga’s clock)."
+      ]
+    },
+    {
+      "id": "h_dean_song",
+      "activeWhen": {
+        "statement": "st_dean_notsong"
+      },
+      "doneWhen": {
+        "resolved": "c_dean_song"
+      },
+      "levels": [
+        "Dean says the row wasn’t about the song.",
+        "What can Dean be heard shouting on the video?",
+        "Challenge Dean’s ‘weren’t arguing about the song’ statement with the Banner’s front page."
+      ]
+    },
+    {
+      "id": "h_shove",
+      "activeWhen": {
+        "asked": "t_dean_night"
+      },
+      "doneWhen": {
+        "asked": "t_dean_shove"
+      },
+      "levels": [
+        "Dean admits the row. Ask him what the shove was about.",
+        "Dean has more to say about that night.",
+        "Ask Dean ‘Why did you shove him?’"
+      ]
+    },
+    {
+      "id": "h_camera_kit",
+      "activeWhen": {
+        "deduced": "d_clocks"
+      },
+      "doneWhen": {
+        "evidence": "freya_camera"
+      },
+      "levels": [
+        "Which clocks at Hafod were never put back?",
+        "Freya filmed the row. Ask to see her camera.",
+        "Ask Freya ‘May I look at your camera?’, then in the Granary examine Freya’s room."
+      ]
+    },
+    {
+      "id": "h_camera",
+      "activeWhen": {
+        "deduced": "d_clocks"
+      },
+      "doneWhen": {
+        "deduced": "d_camera"
+      },
+      "levels": [
+        "Freya’s camera timed the row at 01:22. Which 01:22?",
+        "What time does her camera say now? Compare it with your watch.",
+        "On the board, answer ‘In the first one o’clock, before the clocks went back’, with Freya’s camera (or her footage of the paramedics) and the Banner’s front page (or the police summary)."
+      ]
+    },
+    {
+      "id": "h_alive",
+      "activeWhen": {
+        "deduced": "d_clocks"
+      },
+      "doneWhen": {
+        "deduced": "d_alive"
+      },
+      "levels": [
+        "Rhys’s last takes came after the clocks went back.",
+        "Takes 8 and 9 were his vocals. Read the band chat too.",
+        "On the board, answer ‘Yes: he sang two more takes after the clocks went back’, with Huw’s take list (or the lyric sheet) and your answer about the clocks (or the band chat)."
+      ]
+    },
+    {
+      "id": "h_freya_heard",
+      "activeWhen": {
+        "statement": "st_carys_fine"
+      },
+      "doneWhen": {
+        "statement": "st_freya_heard"
+      },
+      "levels": [
+        "Carys moved out of the granary on Saturday. Somebody was next door.",
+        "Freya’s room is on the same landing.",
+        "Ask Freya ‘Did you hear anything on Saturday afternoon?’"
+      ]
+    },
+    {
+      "id": "h_carys_row",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_carys_fine"
+          },
+          {
+            "statement": "st_freya_heard"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_carys_row"
+      },
+      "levels": [
+        "Carys says she and Rhys never argued.",
+        "Somebody heard them through the wall on Saturday afternoon.",
+        "Challenge Carys’s ‘didn’t argue’ statement with Freya’s statement about Saturday afternoon."
+      ]
+    },
+    {
+      "id": "h_freya_sold",
+      "activeWhen": {
+        "statement": "st_freya_nosale"
+      },
+      "doneWhen": {
+        "resolved": "c_freya_sold"
+      },
+      "levels": [
+        "Freya says she never sold anything.",
+        "Read where the Banner says it got the video.",
+        "Challenge Freya’s ‘never sold anything’ statement with the Banner’s front page."
+      ]
+    },
+    {
+      "id": "h_bryn_bed",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_bryn_bed"
+          },
+          {
+            "evidence": "band_chat"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_bryn_bed"
+      },
+      "levels": [
+        "Bryn says he was in bed by midnight.",
+        "Who posted to the band chat after the clocks went back? And when did Bryn really record his drums?",
+        "Challenge Bryn’s ‘in bed by midnight’ statement with the band chat (or Huw’s take list)."
+      ]
+    },
+    {
+      "id": "h_bryn_car",
+      "activeWhen": {
+        "all": [
+          {
+            "resolved": "c_bryn_bed"
+          },
+          {
+            "deduced": "d_alibi"
+          }
+        ]
+      },
+      "doneWhen": {
+        "evidence": "bryn_bottle"
+      },
+      "levels": [
+        "Bryn’s car is still parked in the yard.",
+        "Have a look inside.",
+        "In the Yard, examine Bryn’s car."
+      ]
+    },
+    {
+      "id": "h_bryn_sleep",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_bryn_sleep"
+          },
+          {
+            "evidence": "bryn_bottle"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_bryn_sleep"
+      },
+      "levels": [
+        "Bryn says he went to sleep after sending his photo.",
+        "What’s in his glovebox?",
+        "Challenge Bryn’s ‘went to sleep’ statement with the bottle in Bryn’s car."
+      ]
+    },
+    {
+      "id": "h_sequence",
+      "activeWhen": {
+        "deduced": "d_clocks"
+      },
+      "doneWhen": {
+        "statement": "st_huw_sequence"
+      },
+      "levels": [
+        "Everyone’s alibi says ‘one o’clock’ something. Which one o’clock?",
+        "Huw saw who left the control room, and when.",
+        "Ask Huw ‘Who left the control room that night, and when?’"
+      ]
+    },
+    {
+      "id": "h_glass",
+      "activeWhen": {
+        "deduced": "d_clocks"
+      },
+      "doneWhen": {
+        "statement": "st_huw_glass"
+      },
+      "levels": [
+        "Was anyone else in the studio while Rhys sang his last takes?",
+        "Ask Huw.",
+        "Ask Huw ‘Who else was in the studio after the clocks went back?’"
+      ]
+    },
+    {
+      "id": "h_freya_asleep",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_freya_asleep"
+          },
+          {
+            "statement": "st_huw_glass"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_freya_asleep"
+      },
+      "levels": [
+        "Freya says she was asleep in her room from about two.",
+        "Huw could see the lounge through the side window.",
+        "Challenge Freya’s ‘went up to my room at about two’ statement with Huw’s statement about the lounge."
+      ]
+    },
+    {
+      "id": "h_window",
+      "activeWhen": {
+        "all": [
+          {
+            "resolved": "c_freya_asleep"
+          },
+          {
+            "deduced": "d_alibi"
+          }
+        ]
+      },
+      "doneWhen": {
+        "statement": "st_freya_light"
+      },
+      "levels": [
+        "From the lounge sofa, Freya could see the granary steps.",
+        "Ask her what she saw.",
+        "Ask Freya ‘What could you see from the lounge window?’"
+      ]
+    },
+    {
+      "id": "h_huw_light",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_huw_light"
+          },
+          {
+            "any": [
+              {
+                "evidence": "paramedic_footage"
+              },
+              {
+                "statement": "st_bryn_saw"
+              }
+            ]
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_huw_light"
+      },
+      "levels": [
+        "Huw says the landing light was on all night.",
+        "Look at the top of the steps in Freya’s footage of the paramedics.",
+        "Challenge Huw’s ‘landing light was working all night’ statement with Freya’s footage of the paramedics (or Bryn’s account of the yard)."
+      ]
+    },
+    {
+      "id": "h_motive",
+      "activeWhen": {
+        "any": [
+          {
+            "resolved": "c_dean_song"
+          },
+          {
+            "resolved": "c_carys_row"
+          }
+        ]
+      },
+      "doneWhen": {
+        "deduced": "d_motive"
+      },
+      "levels": [
+        "Rhys made Dean a promise in the yard. Did he mean it?",
+        "Rhys wrote something on Saturday afternoon, in the lounge. Paper has a memory.",
+        "In the Lounge, examine Huw’s notepad. Then answer “Put Dean’s name beside his own on ‘Small Hours’”, with the dents on Huw’s notepad and Dean’s statement about the yard (or the cassette, Huw on the talkback, or Carys on the row)."
+      ]
+    },
+    {
+      "id": "h_overheard",
+      "activeWhen": {
+        "deduced": "d_motive"
+      },
+      "doneWhen": {
+        "statement": "st_huw_overheard"
+      },
+      "levels": [
+        "Did Rhys tell anybody else what he meant to do?",
+        "Huw was in the control room with his headphones on, on Saturday afternoon.",
+        "Ask Huw ‘Did anything happen on Saturday, before the session?’"
+      ]
+    },
+    {
+      "id": "h_nobody",
+      "activeWhen": {
+        "resolved": "c_bryn_sleep"
+      },
+      "doneWhen": {
+        "deduced": "d_nobody"
+      },
+      "levels": [
+        "Bryn spent the second one o’clock staring at the farmhouse door.",
+        "Who came out of the farmhouse, and who didn’t?",
+        "On the board, answer ‘No: Bryn watched the door, and nobody came out until Carys’, with Bryn’s statement about his car and the band chat (or Bryn’s statement about Dean, or the 999 recording)."
+      ]
+    },
+    {
+      "id": "h_999",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_nobody"
+          },
+          {
+            "deduced": "d_motive"
+          }
+        ]
+      },
+      "doneWhen": {
+        "evidence": "nine_nine_nine"
+      },
+      "levels": [
+        "Rhys’s watch rang 999 by itself, and the line stayed open.",
+        "Dean’s solicitor has asked for the recording. Ffion has the email.",
+        "In Dean’s Flat, examine Ffion’s laptop."
+      ]
+    },
+    {
+      "id": "h_alibi",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_alive"
+          },
+          {
+            "statement": "st_huw_sequence"
+          },
+          {
+            "statement": "st_carys_sister"
+          }
+        ]
+      },
+      "doneWhen": {
+        "deduced": "d_alibi"
+      },
+      "levels": [
+        "Two people say they were on the phone ‘until five to two’ or ‘ten to two’. Which one o’clock were they in?",
+        "Huw saw when Eddie went up to bed. Carys’s sister knows when they spoke, in Vancouver time.",
+        "On the board, answer ‘Neither: Eddie’s call and Carys’s call were both in the first one o’clock’, with Huw’s statement about who left when (or Dana’s email) and Carys’s statement about her sister."
+      ]
+    },
+    {
+      "id": "h_sister",
+      "activeWhen": {
+        "deduced": "d_clocks"
+      },
+      "doneWhen": {
+        "statement": "st_carys_sister"
+      },
+      "levels": [
+        "Carys says she was on the phone until about ten to two. Which ten to two?",
+        "Her sister was in Vancouver. Ask Carys exactly when they spoke.",
+        "Ask Carys ‘When exactly were you on the phone to your sister?’"
+      ]
+    },
+    {
+      "id": "h_carys_sale",
+      "activeWhen": {
+        "resolved": "c_carys_row"
+      },
+      "doneWhen": {
+        "asked": "t_carys_sale"
+      },
+      "levels": [
+        "Who was buying Rhys’s songs, and when?",
+        "Ask Rhys’s wife about the sale.",
+        "Ask Carys ‘Tell me about the sale.’"
+      ]
+    },
+    {
+      "id": "h_papers",
+      "activeWhen": {
+        "asked": "t_carys_sale"
+      },
+      "doneWhen": {
+        "evidence": "sale_agreement"
+      },
+      "levels": [
+        "Carys keeps the sale papers in her room.",
+        "She told you to look.",
+        "In the Farmhouse, examine Carys’s room."
+      ]
+    },
+    {
+      "id": "h_carys_debt",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_carys_nodebt"
+          },
+          {
+            "evidence": "carys_loan"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_carys_debt"
+      },
+      "levels": [
+        "Carys says she doesn’t owe anybody anything.",
+        "Read the papers in her room.",
+        "Challenge Carys’s ‘don’t owe anybody anything’ statement with Carys’s loan from Eddie."
+      ]
+    },
+    {
+      "id": "h_emails",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_motive"
+          },
+          {
+            "deduced": "d_nobody"
+          },
+          {
+            "asked": "t_carys_sale"
+          }
+        ]
+      },
+      "doneWhen": {
+        "evidence": "dana_email"
+      },
+      "levels": [
+        "Westwater’s lawyers were busy that night.",
+        "Carys is copied in on everything.",
+        "Ask Carys ‘May I see the emails about the sale?’"
+      ]
+    },
+    {
+      "id": "h_landing",
+      "activeWhen": {
+        "statement": "st_freya_light"
+      },
+      "doneWhen": {
+        "deduced": "d_landing"
+      },
+      "levels": [
+        "The light came on for Eddie and went straight off. It never came on again.",
+        "Look at the landing light again, and ask yourself what Huw found on Sunday morning.",
+        "On the board, answer ‘Someone on the landing loosened the bulb when the light came on for Eddie’, with the landing light (or the landing bulb, or Huw’s statement about it) and Freya’s statement about the light."
+      ]
+    },
+    {
+      "id": "h_ringtone",
+      "activeWhen": {
+        "evidence": "nine_nine_nine"
+      },
+      "doneWhen": {
+        "deduced": "d_ringtone"
+      },
+      "levels": [
+        "A phone rang beside Rhys at 01:43. Whose phone plays that riff?",
+        "Bryn told you early on whose ringtone that riff has been since 1996. And someone in Los Angeles was ringing that person at that very moment.",
+        "On the board, answer ‘Eddie’s: Los Angeles was ringing him back’, with the 999 recording and Dana’s email (or Eddie’s statement about his ringtone)."
+      ]
+    },
+    {
+      "id": "h_eddie_happy",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_eddie_happy"
+          },
+          {
+            "any": [
+              {
+                "statement": "st_huw_overheard"
+              },
+              {
+                "evidence": "letter_impression"
+              }
+            ]
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_eddie_happy"
+      },
+      "levels": [
+        "Eddie says Rhys was happy to sign.",
+        "What did Huw hear on the talkback? What did Rhys write?",
+        "Challenge Eddie’s ‘Rhys was happy with the sale’ statement with Huw’s statement about Saturday (or the dents on Huw’s notepad)."
+      ]
+    },
+    {
+      "id": "h_stove",
+      "activeWhen": {
+        "deduced": "d_motive"
+      },
+      "doneWhen": {
+        "evidence": "clasp"
+      },
+      "levels": [
+        "Rhys’s notebook has vanished. How would you get rid of a book?",
+        "Ask Huw about Sunday morning, then look in the lounge.",
+        "Ask Huw ‘What happened on Sunday morning?’, then in the Lounge examine the stove’s ash pan."
+      ]
+    },
+    {
+      "id": "h_eddie_alibi",
+      "activeWhen": {
+        "deduced": "d_alibi"
+      },
+      "doneWhen": {
+        "resolved": "c_eddie_alibi"
+      },
+      "levels": [
+        "Your answer about the two phone calls is a card too.",
+        "Show it to him.",
+        "Challenge Eddie’s ‘video call to Los Angeles’ statement with your answer about the two phone calls."
+      ]
+    },
+    {
+      "id": "h_eddie_bed",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_eddie_bed"
+          },
+          {
+            "any": [
+              {
+                "evidence": "dana_email"
+              },
+              {
+                "deduced": "d_ringtone"
+              }
+            ]
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_eddie_bed"
+      },
+      "levels": [
+        "Eddie says he slept until Carys screamed.",
+        "Somebody rang him at 01:43, and he declined.",
+        "Challenge Eddie’s ‘slept until Carys screamed’ statement with Dana’s email (or your answer about the phone)."
+      ]
+    },
+    {
+      "id": "h_eddie_book",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_eddie_book"
+          },
+          {
+            "evidence": "clasp"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_eddie_book"
+      },
+      "levels": [
+        "Eddie says he never touched Rhys’s notebook.",
+        "What survived the fire in the lounge stove?",
+        "Challenge Eddie’s ‘never touched Rhys’s notebook’ statement with the brass corners from the stove."
+      ]
+    },
+    {
+      "id": "h_timeline",
+      "activeWhen": {
+        "deduced": "d_alibi"
+      },
+      "doneWhen": {
+        "timeline": true
+      },
+      "levels": [
+        "Put the night in order: both one o’clocks.",
+        "The row, Dean’s bedtime and Eddie going up all happened before the clocks went back. Bryn’s photo, Take 9, Rhys’s goodnight, the fall and the phone by the body all happened after.",
+        "The order: Take 6, the shove, Dean to bed, Eddie goes up, the clocks go back, Bryn’s photo, Take 9, Rhys says goodnight, the fall, the phone by the body, the ambulance, Eddie lights the stove."
+      ]
+    },
+    {
+      "id": "h_accuse_ready",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_alibi"
+          },
+          {
+            "deduced": "d_ringtone"
+          },
+          {
+            "deduced": "d_motive"
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "For each proof slot, ask: which card shows the killer was free when Rhys fell, which puts the killer at the steps, and which shows what Monday would have cost him?",
+        "The chance: your answer about the two phone calls, or the timeline. At the steps: your answer about the phone or the landing light, the 999 recording, Dana’s email, Bryn’s account, or the brass corners. The motive: your answer about Monday, the sale agreement, Carys on Eddie’s loan, or Rhys’s Thursday interview.",
+        "Accuse Eddie Cole: he waited at the top of the steps and pushed Rhys backwards, to save the sale of the songs. Prove it with your answer about the two phone calls, your answer about the phone by the body, and your answer about what Rhys meant to do on Monday."
+      ]
+    },
+    {
+      "id": "h_accuse",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_alive"
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "deduced": "d_alibi"
+                },
+                {
+                  "deduced": "d_ringtone"
+                },
+                {
+                  "deduced": "d_motive"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "Somebody’s alibi is true — for the wrong hour.",
+        "Who was alone in the granary after the clocks went back, and who stood to lose everything on Monday?",
+        "The killer is Eddie Cole: he waited at the top of the steps and pushed Rhys backwards, to save the sale of the songs. Prove it with your answer about the two phone calls, your answer about the phone by the body, and your answer about Monday."
+      ]
+    }
+  ],
+  "epilogue": [
+    "Eddie Cole said nothing to anybody except his solicitor. He didn’t need to. The 999 recording, Dana Whitlock’s call log, Bryn Lewis’s statement and two brass corners from the ash pan of the lounge stove were enough, and he was charged with murder. The police cancelled Dean’s bail the same afternoon, and the CPS dropped him.",
+    "He had planned it from the Thursday, when Rhys first said he couldn’t sell ‘Small Hours’ as his own. He moved the Los Angeles call to Saturday at 17:20 Pacific time — 01:20 at Hafod, in summer time — because Huw had written on the whiteboard that the clocks went back at two. He knew Rhys’s watch would ring 999 and stamp the time. All he had to do was be seen at the first twenty to two and wait in the dark for the second. He gave the landing bulb a quarter-turn on his way in. He never told anyone a false time. He simply let them believe there was only one of each.",
+    "What he hadn’t counted on was Los Angeles. Dana rang to confirm Monday at 6.43 their time, 01:43 at Hafod, while Eddie was kneeling beside Rhys with the book in his hand. His phone played the riff he had loved for thirty years into an open line to the ambulance service. On Sunday morning he lit the stove and burned the book, and thirty years of words went with it. The letter Rhys wrote on Saturday afternoon survived only as dents in the page beneath it, on Huw’s notepad.",
+    "Westwater walked away from the sale. PRS amended the registration of ‘Small Hours’ to Pritchard/Morgan, from first publication. They did it on the strength of a pencil rubbing, and of a cassette from 1995 on which a twenty-two-year-old Rhys says, ‘That’s it, Deano. That’s the one.’ Cole Music went into administration before Christmas.",
+    "Carys paid back the sixty thousand pounds, and asked Dean to play at the funeral. Freya gave the Banner’s eight thousand pounds to a music project for children in Pill, gave every frame she had shot to Dean’s solicitor, and turned down the streaming service’s new budget; her film is about two friends now, and it takes its time. Bryn went back to his meetings on the Tuesday and started counting his days again from one. Huw fitted a handrail to the granary steps, and now puts the clocks back himself.",
+    "At the funeral in Newport, Dean played ‘Small Hours’ alone, on the five-string guitar he wrote it on. It’s a song about staying up until the town is asleep and the hour comes round again. He sang it in Rhys’s key."
+  ]
+}

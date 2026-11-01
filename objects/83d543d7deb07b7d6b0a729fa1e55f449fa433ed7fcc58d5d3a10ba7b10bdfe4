@@ -1,0 +1,1054 @@
+{
+  "id": "case006",
+  "number": 6,
+  "title": "The Last Ferry",
+  "tagline": "Forty people boarded the last ferry off the island. Thirty-nine got off.",
+  "setting": "St Ebba’s Isle · Northumberland · September 2025",
+  "sketchTitle": "ST EBBA’S",
+  "sketchCredit": "SKETCH: SITE VISIT, 1 OCTOBER 2025 · NOT TO SCALE",
+  "stayLabel": "Stay on St Ebba’s",
+  "briefing": [
+    "Seahouses, Northumberland. Wednesday 1 October 2025. Three miles out to sea lies St Ebba’s Isle: a seabird reserve with a ruined chapel, a lighthouse, and two rangers who live out there from April to October. Day visitors cross on Dunn’s Boats’ Ebba Belle. Sunday was the last landing day of the season.",
+    "A rare bird, a Siberian rubythroat, brought forty people across on Sunday. That afternoon, at the island’s Landing, forty return tickets were scanned onto the last boat. At Seahouses, thirty-nine people got off. The missing passenger was Nell Ashby, 39, Head of Reserves at the Northumberland Seabird Trust. On Monday morning the lifeboat found her body in the sea below the island’s north end.",
+    "The police believe she went up to the open upper deck as the boat rounded the north end in a heavy swell, and fell overboard unseen. At 16:22 she had messaged her husband, Tom, to get on and save her a seat, and her ticket was scanned four minutes later. The Maritime and Coastguard Agency is investigating Dunn’s Boats. Rob Dunn, the skipper, has had his licence suspended, and online he’s ‘the man who lost a passenger and didn’t notice’.",
+    "Nell’s sister, Bea Lowther, has hired you. ‘Nell was sick on every boat she ever got on. She sat inside, by the door, every single time. She texted Tom to save her a seat inside. Inside! And they want me to believe she climbed a ladder to the top deck in a swell?’",
+    "The trust has given you a crossing on its work boat. The two rangers are closing the island for the winter and leave on Friday. Everyone who was on St Ebba’s on Sunday afternoon is still close by."
+  ],
+  "startingEvidence": [
+    "police_summary",
+    "tom_messages",
+    "bea_photo"
+  ],
+  "locations": [
+    {
+      "id": "harbour",
+      "name": "Seahouses Harbour",
+      "summary": "The Ebba Belle at her winter mooring, and Dunn’s ticket kiosk on the quay.",
+      "description": "Seahouses harbour on a grey Wednesday: lobster pots stacked on the quay, a gull on every bollard. The Ebba Belle lies against the inner wall, tied up for the winter now that the season is over. Dunn’s ticket kiosk is shuttered, with a handwritten sign in the window: ‘SAILINGS SUSPENDED — SORRY’. Kirsty lets you aboard.",
+      "art": {
+        "aspect": 1.3,
+        "props": [
+          {
+            "label": "Quay",
+            "x": 0.5,
+            "y": 0.07,
+            "w": 0.96,
+            "h": 0.12,
+            "style": "rug"
+          },
+          {
+            "label": "Dunn’s kiosk",
+            "symbol": "qrcode",
+            "x": 0.16,
+            "y": 0.07,
+            "w": 0.22,
+            "h": 0.09
+          },
+          {
+            "label": "Ebba Belle",
+            "x": 0.5,
+            "y": 0.58,
+            "w": 0.94,
+            "h": 0.66,
+            "style": "rug"
+          },
+          {
+            "label": "Wheelhouse",
+            "x": 0.15,
+            "y": 0.58,
+            "w": 0.16,
+            "h": 0.34,
+            "style": "fixture"
+          },
+          {
+            "label": "Cabin (upper deck above)",
+            "x": 0.45,
+            "y": 0.58,
+            "w": 0.38,
+            "h": 0.5
+          },
+          {
+            "x": 0.645,
+            "y": 0.58,
+            "w": 0.02,
+            "h": 0.14,
+            "style": "door"
+          },
+          {
+            "label": "Stern deck",
+            "x": 0.81,
+            "y": 0.58,
+            "w": 0.26,
+            "h": 0.5,
+            "style": "rug"
+          },
+          {
+            "label": "Ladder",
+            "symbol": "stairs",
+            "x": 0.76,
+            "y": 0.52,
+            "w": 0.1,
+            "h": 0.12,
+            "style": "fixture"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_hb_upper",
+          "label": "The upper deck",
+          "x": 0.38,
+          "y": 0.42,
+          "text": "Kirsty takes you up the ladder to the open deck above the cabin.",
+          "reward": {
+            "evidence": [
+              "upper_deck"
+            ]
+          }
+        },
+        {
+          "id": "hs_hb_cabin",
+          "label": "The bench by the cabin door",
+          "x": 0.58,
+          "y": 0.72,
+          "text": "Inside the cabin, eight rows of benches face forward under streaming windows. The bench nearest the back door has the best of the fresh air and a view of the horizon: Nell’s seat, Bea says, on every crossing. On Sunday Tom sat here, with his coat on the seat beside him."
+        },
+        {
+          "id": "hs_hb_ladder",
+          "label": "The ladder",
+          "x": 0.86,
+          "y": 0.66,
+          "text": "An iron ladder up from the stern deck to the upper deck, almost vertical. You need both hands for it in a flat calm. In Sunday’s swell, Kirsty says, the birders went up it ‘like sailors in a storm’."
+        },
+        {
+          "id": "hs_hb_wheel",
+          "label": "The wheelhouse",
+          "x": 0.15,
+          "y": 0.4,
+          "text": "Rob Dunn’s chair, the radio, a chart of the island with every rock pencilled in, and a photo of his father at this same wheel in 1964. From here the skipper can’t see the stern of the upper deck at all."
+        },
+        {
+          "id": "hs_hb_kiosk",
+          "label": "Dunn’s kiosk",
+          "x": 0.36,
+          "y": 0.08,
+          "text": "A poster on the kiosk’s shutter: ‘TICKETS ON YOUR PHONE — show the code at the gangway. One phone can hold your whole party’s tickets!’"
+        },
+        {
+          "id": "hs_hb_drawer",
+          "label": "The wheelhouse drawer",
+          "x": 0.15,
+          "y": 0.8,
+          "text": "Kirsty opens the drawer under the wheel and takes out the counter she uses at every boarding.",
+          "visibleWhen": {
+            "statement": "st_kirsty_forty"
+          },
+          "reward": {
+            "evidence": [
+              "clicker"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "landing",
+      "name": "The Landing",
+      "summary": "St Ebba’s stone jetty, the visitor hut, and the foot of the path.",
+      "description": "The trust’s work boat puts you ashore at the Landing, a stone jetty in a sheltered cove on the island’s south-west side. Beside it stands the visitor hut: benches, a tea urn, maps and a sightings board. From here the path climbs past the chapel to the lighthouse and the north end. Down in the cove your phone shows no signal at all.",
+      "art": {
+        "aspect": 1.25,
+        "props": [
+          {
+            "label": "The cove",
+            "x": 0.22,
+            "y": 0.66,
+            "w": 0.4,
+            "h": 0.6,
+            "style": "rug"
+          },
+          {
+            "label": "Jetty",
+            "x": 0.22,
+            "y": 0.66,
+            "w": 0.08,
+            "h": 0.52,
+            "style": "fixture"
+          },
+          {
+            "label": "Visitor hut",
+            "symbol": "house.fill",
+            "x": 0.64,
+            "y": 0.64,
+            "w": 0.4,
+            "h": 0.34
+          },
+          {
+            "label": "Sightings board",
+            "x": 0.88,
+            "y": 0.4,
+            "w": 0.2,
+            "h": 0.05,
+            "style": "fixture"
+          },
+          {
+            "label": "Path to the chapel",
+            "x": 0.8,
+            "y": 0.12,
+            "w": 0.3,
+            "h": 0.14,
+            "style": "rug"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_ld_jetty",
+          "label": "The jetty",
+          "x": 0.32,
+          "y": 0.58,
+          "text": "Sunday’s queue stood here, along the jetty. From its foot you can see the last two hundred metres of the path coming down from the chapel, open turf all the way: nobody comes down that path without being seen, least of all in a yellow jacket. At the far end, steps go down into green water four fathoms deep."
+        },
+        {
+          "id": "hs_ld_hut",
+          "label": "The visitor hut",
+          "x": 0.5,
+          "y": 0.62,
+          "text": "Benches round the walls, a tea urn, a card machine and a rack of soggy leaflets. On Sunday afternoon it was full of people out of the wind, Tom among them, reading by the window. The card machine’s paper roll is still spiked by the till.",
+          "reward": {
+            "evidence": [
+              "till_roll"
+            ]
+          }
+        },
+        {
+          "id": "hs_ld_board",
+          "label": "The sightings board",
+          "x": 0.9,
+          "y": 0.53,
+          "text": "Sunday’s sightings are still on the whiteboard, in Sam’s capitals: ‘SIBERIAN RUBYTHROAT!!! (found Sat by S.O.) — foghorn gorse. LAST BOAT 16:30 — BE AT THE LANDING BY 16:15 PLEASE. SEAL HAVEN CLOSED FOR PUPPING — KEEP OUT.’"
+        },
+        {
+          "id": "hs_ld_router",
+          "label": "The Wi-Fi router",
+          "x": 0.77,
+          "y": 0.6,
+          "text": "On a shelf above the urn is a small white router with a card taped to it: ‘EbbaGuest — free Wi-Fi for visitors’. It’s the only connection there is down here in the cove; the card machine runs on it too."
+        }
+      ]
+    },
+    {
+      "id": "north",
+      "name": "The North End",
+      "summary": "The lighthouse and the keepers’ cottage, the foghorn gorse, the Churn, and the cliff path.",
+      "description": "The north end is the island’s high point. A squat white lighthouse stands beside the old keepers’ cottage, and a disused foghorn station sits at the tip, in gorse and bramble where the rubythroat hid. Out on the north-east spur is the Churn. A cliff path runs south along the east side, above the fenced cove of Seal Haven, where the pups are.",
+      "art": {
+        "aspect": 1.25,
+        "props": [
+          {
+            "label": "Foghorn gorse",
+            "x": 0.42,
+            "y": 0.18,
+            "w": 0.4,
+            "h": 0.2,
+            "style": "rug"
+          },
+          {
+            "label": "Foghorn",
+            "x": 0.31,
+            "y": 0.16,
+            "w": 0.15,
+            "h": 0.08,
+            "style": "fixture"
+          },
+          {
+            "label": "The Churn",
+            "symbol": "water.waves",
+            "x": 0.85,
+            "y": 0.12,
+            "w": 0.18,
+            "h": 0.12,
+            "style": "fixture"
+          },
+          {
+            "label": "Lighthouse",
+            "symbol": "light.beacon.max.fill",
+            "x": 0.38,
+            "y": 0.52,
+            "w": 0.14,
+            "h": 0.16,
+            "style": "fixture"
+          },
+          {
+            "label": "Oil store",
+            "x": 0.38,
+            "y": 0.7,
+            "w": 0.14,
+            "h": 0.08
+          },
+          {
+            "label": "Cottage",
+            "symbol": "house.lodge.fill",
+            "x": 0.14,
+            "y": 0.56,
+            "w": 0.18,
+            "h": 0.2
+          },
+          {
+            "label": "Cliff path",
+            "x": 0.67,
+            "y": 0.62,
+            "w": 0.12,
+            "h": 0.5,
+            "style": "rug"
+          },
+          {
+            "label": "Seal Haven (closed)",
+            "x": 0.87,
+            "y": 0.7,
+            "w": 0.22,
+            "h": 0.36,
+            "style": "rug"
+          },
+          {
+            "label": "To the chapel",
+            "x": 0.38,
+            "y": 0.975,
+            "w": 0.2,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_nt_gorse",
+          "label": "The foghorn gorse",
+          "x": 0.5,
+          "y": 0.28,
+          "text": "A tangle of gorse and bramble round the old foghorn station, flattened at the edges where forty people stood with telescopes all Sunday. From here a spur of turf runs out to the north-east, to the Churn."
+        },
+        {
+          "id": "hs_nt_churn",
+          "label": "The Churn",
+          "x": 0.7,
+          "y": 0.3,
+          "text": "You walk out along the spur to the Churn.",
+          "reward": {
+            "evidence": [
+              "churn_scene"
+            ]
+          }
+        },
+        {
+          "id": "hs_nt_path",
+          "label": "The cliff path",
+          "x": 0.67,
+          "y": 0.72,
+          "text": "The cliff path runs south from the lighthouse along the east side, above Seal Haven. From a few hundred metres along it you can look back and see the Churn wall on its headland, small and clear against the sky."
+        },
+        {
+          "id": "hs_nt_gallery",
+          "label": "The lighthouse gallery",
+          "x": 0.53,
+          "y": 0.54,
+          "text": "A narrow iron gallery runs round the top of the lighthouse. From it you can see the whole north end: the gorse, the spur out to the Churn, the cottage, and Seal Haven below the cliffs, where the seals are counted."
+        },
+        {
+          "id": "hs_nt_oil",
+          "label": "The oil store",
+          "x": 0.56,
+          "y": 0.8,
+          "text": "A stone room at the foot of the lighthouse, with an iron door, locked for the winter. The main path back from the Churn runs right past it. Sam has the other key.",
+          "visibleWhen": {
+            "deduced": "d_churn"
+          },
+          "reward": {
+            "evidence": [
+              "binoculars"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cottage",
+      "name": "The Rangers’ Cottage",
+      "summary": "The old keepers’ cottage by the lighthouse: the day book, the radio and the noticeboard.",
+      "description": "The keepers’ cottage is two rooms and a porch, whitewashed, smelling of paraffin and drying waterproofs. The walls are a metre thick: inside, you can’t hear the sea at all. Boxes are half packed for the winter: Morag and Sam are closing the island and leave on Friday’s work boat. The trust’s laptop is on the kitchen table, and Sam doesn’t mind you looking round.",
+      "art": {
+        "aspect": 1.25,
+        "props": [
+          {
+            "label": "Desk",
+            "symbol": "book.closed.fill",
+            "x": 0.26,
+            "y": 0.24,
+            "w": 0.4,
+            "h": 0.16
+          },
+          {
+            "label": "Radio",
+            "symbol": "radio.fill",
+            "x": 0.56,
+            "y": 0.1,
+            "w": 0.16,
+            "h": 0.1,
+            "style": "fixture"
+          },
+          {
+            "label": "Noticeboard",
+            "x": 0.84,
+            "y": 0.08,
+            "w": 0.26,
+            "h": 0.06,
+            "style": "fixture"
+          },
+          {
+            "label": "Photo wall",
+            "x": 0.2,
+            "y": 0.93,
+            "w": 0.3,
+            "h": 0.05,
+            "style": "fixture"
+          },
+          {
+            "label": "Stove",
+            "symbol": "fireplace.fill",
+            "x": 0.56,
+            "y": 0.55,
+            "w": 0.14,
+            "h": 0.14
+          },
+          {
+            "label": "Kitchen table",
+            "x": 0.32,
+            "y": 0.76,
+            "w": 0.36,
+            "h": 0.16
+          },
+          {
+            "label": "Boxes",
+            "symbol": "shippingbox.fill",
+            "x": 0.82,
+            "y": 0.68,
+            "w": 0.24,
+            "h": 0.2
+          },
+          {
+            "label": "Door",
+            "x": 0.62,
+            "y": 0.975,
+            "w": 0.14,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_ct_book",
+          "label": "The day book",
+          "x": 0.14,
+          "y": 0.42,
+          "text": "On the desk under the window lies the island’s day book, a ledger as thick as a family Bible.",
+          "reward": {
+            "evidence": [
+              "island_log"
+            ]
+          }
+        },
+        {
+          "id": "hs_ct_radio",
+          "label": "The radio",
+          "x": 0.56,
+          "y": 0.25,
+          "text": "The base-station radio, with two handsets charging beside it. Rangers carry one each, all day. Everything said on channel 6 is heard in the cottage, and on the boat, and on the other handset."
+        },
+        {
+          "id": "hs_ct_notice",
+          "label": "The noticeboard",
+          "x": 0.86,
+          "y": 0.24,
+          "text": "Tide tables, a puffin rota, a postcard of the Farnes and the season’s boat times, all curling in the damp."
+        },
+        {
+          "id": "hs_ct_photos",
+          "label": "The photo wall",
+          "x": 0.1,
+          "y": 0.8,
+          "text": "Twenty-four summers of rangers and volunteers, squinting into the wind on the jetty. Morag is in every one of them, her hair a little greyer each year."
+        }
+      ]
+    }
+  ],
+  "timeline": {
+    "id": "timeline",
+    "title": "Sunday afternoon, reconstructed",
+    "prompt": "Put the events in the order they really happened. Times you know for certain are shown; reason out the rest.",
+    "events": [
+      {
+        "id": "tl_landed",
+        "text": "The Ebba Belle lands forty visitors on St Ebba’s",
+        "time": "10:15"
+      },
+      {
+        "id": "tl_row",
+        "text": "Nell and Tom row in the chapel ruins",
+        "visibleWhen": {
+          "statement": "st_sam_row"
+        },
+        "teaser": "Something somebody overheard."
+      },
+      {
+        "id": "tl_flew",
+        "text": "The rubythroat flies from the foghorn gorse",
+        "visibleWhen": {
+          "evidence": "bird_news"
+        },
+        "teaser": "Something the birders saw."
+      },
+      {
+        "id": "tl_churn",
+        "text": "Nell meets someone at the Churn wall",
+        "visibleWhen": {
+          "statement": "st_gaz_churn"
+        },
+        "teaser": "Something somebody saw."
+      },
+      {
+        "id": "tl_clear",
+        "text": "Sam radios ‘north end clear’",
+        "visibleWhen": {
+          "evidence": "island_log"
+        },
+        "teaser": "Something written down."
+      },
+      {
+        "id": "tl_locked",
+        "text": "Morag locks the oil store for the winter",
+        "visibleWhen": {
+          "evidence": "island_log"
+        },
+        "teaser": "Something else written down."
+      },
+      {
+        "id": "tl_text",
+        "text": "Tom gets ‘Get on & save me a seat inside’",
+        "time": "16:22"
+      },
+      {
+        "id": "tl_scan",
+        "text": "Nell’s ticket is scanned on Tom’s phone",
+        "visibleWhen": {
+          "evidence": "scanner_log"
+        },
+        "teaser": "Something a machine remembers."
+      },
+      {
+        "id": "tl_away",
+        "text": "The Ebba Belle leaves the Landing",
+        "time": "16:34"
+      },
+      {
+        "id": "tl_ashore",
+        "text": "Thirty-nine people get off at Seahouses",
+        "time": "17:08"
+      }
+    ],
+    "conclusion": "Nell never left St Ebba’s. Just before four she walked out to the Churn to meet someone, and she died there, while the birders chased the bird and the boat came in. Twenty minutes later, at the Landing, somebody with her phone in their pocket told Tom to get on and save her a seat. Her ticket went aboard on his phone, and a boat with forty tickets sailed with thirty-nine people."
+  },
+  "accusation": {
+    "culprit": "morag",
+    "methods": [
+      "Pushed her over the upper-deck rail during the loop, out of sight of the wheelhouse",
+      "Followed her onto the jetty after the boat had gone, and pushed her into the cove",
+      "Pushed her into the Churn before the boat left, then answered Tom from her phone",
+      "Struck her in the chapel ruins, then carried her to the cliffs before the boat came"
+    ],
+    "method": 2,
+    "motives": [
+      "For the life insurance",
+      "To save the family’s boat trips",
+      "To stop a plan that would end the island’s rangers",
+      "To keep St Ebba’s open to birders",
+      "Revenge for a police caution"
+    ],
+    "motive": 2,
+    "proof": [
+      [
+        "d_count",
+        "d_text",
+        "d_churn",
+        "timeline"
+      ],
+      [
+        "d_who",
+        "st_kirsty_radio",
+        "st_morag_churn",
+        "binoculars",
+        "st_morag_confession"
+      ],
+      [
+        "d_motive",
+        "board_summary",
+        "st_sam_email"
+      ]
+    ],
+    "proofLabels": [
+      "The chance — where and when Nell really died",
+      "At the Churn — proof the killer was there",
+      "The motive — what Nell came to tell"
+    ],
+    "successTitle": "Case closed"
+  },
+  "hints": [
+    {
+      "id": "h_start",
+      "doneWhen": {
+        "all": [
+          {
+            "evidence": "upper_deck"
+          },
+          {
+            "statement": "st_kirsty_deck"
+          }
+        ]
+      },
+      "levels": [
+        "Start with the boat she’s supposed to have fallen from.",
+        "Look at the Ebba Belle’s upper deck, and ask the deckhand who was up there on the way back.",
+        "At Seahouses Harbour, examine the upper deck. Then ask Kirsty ‘Who was on the upper deck on the way back?’"
+      ]
+    },
+    {
+      "id": "h_deck",
+      "activeWhen": {
+        "evidence": "upper_deck"
+      },
+      "doneWhen": {
+        "deduced": "d_deck"
+      },
+      "levels": [
+        "Six people went up for the loop. Was Nell one of them?",
+        "Who was on the upper deck, and where did Nell always sit?",
+        "On the board, answer ‘No: nobody up there saw her, and she always sat inside’, with Kirsty’s (or Gaz’s) statement about the upper deck and Bea’s photo (or Tom’s statement about Nell, or Tom’s messages)."
+      ]
+    },
+    {
+      "id": "h_count_ask",
+      "doneWhen": {
+        "asked": "t_kirsty_count"
+      },
+      "levels": [
+        "Two different things counted the passengers aboard.",
+        "Ask the deckhand how she counts them.",
+        "Ask Kirsty ‘How do you count passengers aboard?’"
+      ]
+    },
+    {
+      "id": "h_scanner",
+      "doneWhen": {
+        "evidence": "scanner_log"
+      },
+      "levels": [
+        "The scanner kept a record of every ticket.",
+        "Kirsty will print it for you.",
+        "Ask Kirsty ‘Tell me about the boarding on Sunday.’"
+      ]
+    },
+    {
+      "id": "h_clicker",
+      "activeWhen": {
+        "statement": "st_kirsty_forty"
+      },
+      "doneWhen": {
+        "evidence": "clicker"
+      },
+      "levels": [
+        "Kirsty says her counter agreed with the scanner. Has anyone looked at it since?",
+        "She keeps it on the boat.",
+        "At Seahouses Harbour, examine the wheelhouse drawer."
+      ]
+    },
+    {
+      "id": "h_kirsty_count",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_kirsty_forty"
+          },
+          {
+            "evidence": "clicker"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_kirsty_count"
+      },
+      "levels": [
+        "Kirsty says she counted forty aboard.",
+        "What does her counter say?",
+        "Challenge Kirsty’s ‘counted forty aboard’ statement with Kirsty’s counter."
+      ]
+    },
+    {
+      "id": "h_count",
+      "activeWhen": {
+        "evidence": "scanner_log"
+      },
+      "doneWhen": {
+        "deduced": "d_count"
+      },
+      "levels": [
+        "Forty tickets. How many people?",
+        "Whose phone was Nell’s ticket on? And what did Kirsty’s counter say?",
+        "On the board, answer ‘Thirty-nine: Nell’s ticket was scanned on Tom’s phone, but she never got on’, with the scanner log (or Kirsty’s statement about Tom) and Kirsty’s counter (or her admission)."
+      ]
+    },
+    {
+      "id": "h_wifi",
+      "activeWhen": {
+        "deduced": "d_count"
+      },
+      "doneWhen": {
+        "evidence": "router_log"
+      },
+      "levels": [
+        "If Nell never boarded, where was her phone at 16:22?",
+        "There’s no signal at the Landing, only the visitor hut’s Wi-Fi. Ask the ranger who looks after it.",
+        "Ask Sam ‘Is there any Wi-Fi on the island?’"
+      ]
+    },
+    {
+      "id": "h_text",
+      "activeWhen": {
+        "evidence": "router_log"
+      },
+      "doneWhen": {
+        "deduced": "d_text"
+      },
+      "levels": [
+        "The message came at 16:22. Where was Nell’s phone then, and where was Nell?",
+        "Read the Wi-Fi log, and remember who was watching the path.",
+        "On the board, answer ‘Somebody at the Landing, with Nell’s phone in their pocket’, with the Wi-Fi log and your answer about the count (or Tom’s statement about watching the path)."
+      ]
+    },
+    {
+      "id": "h_row",
+      "activeWhen": {
+        "statement": "st_tom_day"
+      },
+      "doneWhen": {
+        "resolved": "c_tom_row"
+      },
+      "levels": [
+        "Tom says there wasn’t a cross word between them all day.",
+        "Somebody was in the chapel garden at about ten past three.",
+        "Ask Sam ‘Did you see Nell and Tom on Sunday?’, then challenge Tom’s ‘not a cross word’ statement with Sam’s statement about the row."
+      ]
+    },
+    {
+      "id": "h_gaz_photos",
+      "activeWhen": {
+        "deduced": "d_count"
+      },
+      "doneWhen": {
+        "evidence": "gaz_photos"
+      },
+      "levels": [
+        "Gaz was at the foghorn with Nell all afternoon, and so was his camera.",
+        "Ask to see his photos.",
+        "Ask Gaz ‘May I see your photos from Sunday?’"
+      ]
+    },
+    {
+      "id": "h_gaz_chapel",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_gaz_chapel"
+          },
+          {
+            "evidence": "gaz_photos"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_gaz_chapel"
+      },
+      "levels": [
+        "Gaz says he went straight to the chapel garden when the bird flew.",
+        "Look at the times on his own photos, and where they were taken.",
+        "Challenge Gaz’s ‘straight down to the chapel garden’ statement with Gaz’s photos."
+      ]
+    },
+    {
+      "id": "h_churn",
+      "activeWhen": {
+        "statement": "st_gaz_churn"
+      },
+      "doneWhen": {
+        "deduced": "d_churn"
+      },
+      "levels": [
+        "Where was Nell going at 15:53, and who saw her there?",
+        "Gaz’s photos, and what he saw from the cliff path.",
+        "On the board, answer ‘At the Churn, just before four, with somebody in dark clothes’, with Gaz’s photos and Gaz’s statement about the Churn."
+      ]
+    },
+    {
+      "id": "h_sam_sweep",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_sam_sweep"
+          },
+          {
+            "evidence": "bird_news"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_sam_sweep"
+      },
+      "levels": [
+        "Sam says he swept the north end at quarter to four.",
+        "Look closely at the photo from the chapel garden on the bird news.",
+        "Challenge Sam’s ‘swept the north end’ statement with the bird news."
+      ]
+    },
+    {
+      "id": "h_daybook",
+      "activeWhen": {
+        "deduced": "d_churn"
+      },
+      "doneWhen": {
+        "evidence": "island_log"
+      },
+      "levels": [
+        "The rangers write everything down.",
+        "The day book is kept in the cottage.",
+        "At the Rangers’ Cottage, examine the day book."
+      ]
+    },
+    {
+      "id": "h_oil",
+      "activeWhen": {
+        "deduced": "d_churn"
+      },
+      "doneWhen": {
+        "evidence": "binoculars"
+      },
+      "levels": [
+        "Whoever was with Nell at the Churn went back by the main path. Something she had with her at 15:53 has never been found.",
+        "The main path passes the lighthouse, and the oil store at its foot.",
+        "At the North End, examine the oil store."
+      ]
+    },
+    {
+      "id": "h_who",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_churn"
+          },
+          {
+            "resolved": "c_sam_sweep"
+          }
+        ]
+      },
+      "doneWhen": {
+        "deduced": "d_who"
+      },
+      "levels": [
+        "Whoever was with Nell at the Churn just before four had her phone at the Landing at 16:22. Who could have been in both places?",
+        "Check each of them: Tom’s tea in the hut, Kirsty’s boat, Sam’s photo in the chapel garden, and when each phone joined the Wi-Fi. Then read the day book.",
+        "On the board, answer ‘Morag Heslop’, with the Wi-Fi log and the day book (or Sam’s admission about the chapel garden, or Morag’s statement about being indoors)."
+      ]
+    },
+    {
+      "id": "h_radio",
+      "activeWhen": {
+        "deduced": "d_who"
+      },
+      "doneWhen": {
+        "statement": "st_kirsty_radio"
+      },
+      "levels": [
+        "The boat radioed the island when it came alongside at four. Who answered, and from where?",
+        "Ask the deckhand about coming alongside.",
+        "Ask Kirsty ‘What happened when you came alongside at four?’"
+      ]
+    },
+    {
+      "id": "h_morag_lighthouse",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_morag_lighthouse"
+          },
+          {
+            "any": [
+              {
+                "statement": "st_kirsty_radio"
+              },
+              {
+                "deduced": "d_who"
+              }
+            ]
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_morag_lighthouse"
+      },
+      "levels": [
+        "Morag says she was indoors from twenty to four, and never set foot outside.",
+        "What did Kirsty hear behind Morag’s voice on the radio at four? What makes a sound like that?",
+        "Challenge Morag’s ‘never set foot outside’ statement with Kirsty’s statement about the radio (or your answer about the Churn and the Landing)."
+      ]
+    },
+    {
+      "id": "h_morag_churn",
+      "activeWhen": {
+        "statement": "st_morag_churn"
+      },
+      "doneWhen": {
+        "resolved": "c_morag_churn"
+      },
+      "levels": [
+        "Morag says Nell walked off down the cliff path, alive.",
+        "Who was on the cliff path? And how did Nell’s binoculars get into the oil store?",
+        "Challenge Morag’s ‘walked off down the cliff path’ statement with Gaz’s statement about the Churn (or Nell’s binoculars)."
+      ]
+    },
+    {
+      "id": "h_review",
+      "activeWhen": {
+        "deduced": "d_count"
+      },
+      "doneWhen": {
+        "evidence": "board_summary"
+      },
+      "levels": [
+        "Nell ran the trust’s reserves. What was she planning for St Ebba’s?",
+        "The island’s young ranger printed out the trust’s plans.",
+        "Ask Sam ‘What is the trust planning for the island?’"
+      ]
+    },
+    {
+      "id": "h_email",
+      "activeWhen": {
+        "deduced": "d_churn"
+      },
+      "doneWhen": {
+        "statement": "st_sam_email"
+      },
+      "levels": [
+        "Did anyone on the island know that Nell was coming?",
+        "Ask Sam about Morag.",
+        "Ask Sam ‘Tell me about Morag.’"
+      ]
+    },
+    {
+      "id": "h_motive",
+      "activeWhen": {
+        "all": [
+          {
+            "evidence": "board_summary"
+          },
+          {
+            "deduced": "d_churn"
+          }
+        ]
+      },
+      "doneWhen": {
+        "deduced": "d_motive"
+      },
+      "levels": [
+        "Nell had something to say to somebody’s face.",
+        "What would her plan do, and whom did she come to tell?",
+        "On the board, answer ‘To tell the rangers herself that the trust meant to replace them’, with the trust’s review and Sam’s statement about Friday’s email (or Morag’s confession)."
+      ]
+    },
+    {
+      "id": "h_timeline",
+      "activeWhen": {
+        "deduced": "d_churn"
+      },
+      "doneWhen": {
+        "timeline": true
+      },
+      "levels": [
+        "Put Sunday afternoon in order.",
+        "The row came before the bird flew. The Churn came between the bird flying and Sam’s radio call, and the day book says what happened at 16:04 and 16:05.",
+        "The order: the boat lands, the row, the bird flies, the Churn, ‘north end clear’, the oil store locked, the message, the scan, the boat leaves, thirty-nine ashore."
+      ]
+    },
+    {
+      "id": "h_accuse_ready",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_churn"
+          },
+          {
+            "deduced": "d_who"
+          },
+          {
+            "deduced": "d_motive"
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "For each proof slot, ask: which card shows where and when Nell really died, which puts the killer at the Churn, and which shows what Nell came to tell?",
+        "The chance: your answer about the count, the message or the Churn, or the timeline. At the Churn: your answer about who could have been at the Churn and at the Landing, Kirsty’s statement about the radio, Morag’s own admissions, or Nell’s binoculars. The motive: your answer about why Nell came, the trust’s review, or Sam’s statement about Friday’s email.",
+        "Accuse Morag Heslop: she pushed Nell into the Churn before the boat left, then answered Tom from her phone, to stop a plan that would end the island’s rangers. Prove it with your answer about where Nell was last seen, your answer about the Churn and the Landing, and your answer about why Nell came."
+      ]
+    },
+    {
+      "id": "h_accuse",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_text"
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "deduced": "d_churn"
+                },
+                {
+                  "deduced": "d_who"
+                },
+                {
+                  "deduced": "d_motive"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "Nell never left the island. Who was with her at the Churn, and then at the Landing with her phone?",
+        "Only one person was free at the north end just before four and at the Landing at 16:22.",
+        "The killer is Morag Heslop: she pushed Nell into the Churn before the boat left, then answered Tom from her phone, to stop a plan that would end the island’s rangers. Prove it with your answer about where Nell was last seen, your answer about the Churn and the Landing, and your answer about why Nell came."
+      ]
+    }
+  ],
+  "epilogue": [
+    "Morag Heslop made a full statement at Alnwick police station on the Thursday, with a solicitor beside her and her hands folded on the table. She was charged with Nell’s murder that evening. The following week a police diver brought Nell’s phone up from four fathoms of water off the end of the jetty.",
+    "She had chosen the Churn because nobody would hear them. When Nell said ‘twenty-four wonderful years’, she pushed her over the wall, and a minute later answered Rob Dunn on the radio with the Churn booming behind her. From Gaz’s cliff path, her bottle-green fleece was only ‘dark clothes’. She put Nell’s phone into airplane mode from its lock screen, pushed the binoculars behind the paint tins in the oil store she had been clearing all afternoon, and wrote ‘locked for the winter’ in the day book. At the Landing she let the phone back onto the Wi-Fi in her pocket for eighty-five seconds, read Tom’s messages on the lock screen, and answered him. She knew where Nell always sat: she had watched her by that cabin door for fifteen years. She didn’t know how Nell typed. After that it was arithmetic: a scanner counts tickets, not people.",
+    "The MCA’s report said the same. Rob Dunn got his licence back in November. Kirsty had told the investigators the truth about her counter before anyone needed to ask her twice. Since the first sailing of 2026, Dunn’s Boats count every head on and every head off, and say the number out loud to each other.",
+    "Tom told Bea about the money the day after the funeral, and Bea told him Nell had already forgiven him: she’d said so on the phone on Saturday night. Gaz Milburn pleaded guilty to disturbing seals, gave the police every frame he had shot that afternoon, and hasn’t posted a word about the trust since. In March the trust’s board passed Nell’s plan with one change: a resident ranger stays on St Ebba’s, and it’s Sam. The keepers’ cottage is the Nell Ashby Research Base now.",
+    "In May, when the puffins came back, Bea and Tom took Nell out to the north end on the Ebba Belle. Kirsty counted them aboard. They didn’t go up to the top deck. They sat inside, by the cabin door, with the window open, and let her go into the wake."
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "evidence": [
+    {
+      "id": "hester_letter",
+      "category": "document",
+      "symbol": "envelope.fill",
+      "name": "Lady Penhallow’s letter",
+      "summary": "Posted on Tuesday: ‘a member of my family has done something criminal’.",
+      "detail": "Penhallow House, St Austell. 23rd July 1963.\n\n‘Dear Sir or Madam — I am told you are discreet. I have discovered that a member of my family has done something criminal. On Saturday morning I mean to put the proof into my solicitor’s hands, together with a new will. Until then I should feel easier with someone in the house who is not family.\n\nThe moon orchid my husband sent home in 1938 will flower on Friday night, for the first time in this country. Come on Friday, and you shall see it.\n\nYours faithfully, Hester Penhallow’\n\nWritten in green ink. It reached your office on Friday afternoon."
+    },
+    {
+      "id": "sergeant_notes",
+      "category": "document",
+      "symbol": "list.clipboard.fill",
+      "name": "Sergeant Polglase’s notes",
+      "summary": "The night as the police have it — and their suspect.",
+      "detail": "Friday 26 July. Fine, warm, no wind.\n\n8.00 pm — Dinner. Deceased, Mr. J. Penhallow (nephew), Mrs. C. Penhallow, Dr. M. Ellery, Mr. E. Kittow (solicitor), Miss A. Quill (companion). Words between deceased and nephew over a new will.\n9.30 pm — Deceased locks herself in glasshouse to watch her orchid flower. Says she will ring the bell once when it opens, and again when the household may come down to see it.\n10.15 pm — Miss Quill takes her cocoa.\n10.30 pm — Mrs. C. Penhallow retires with a headache.\n11.32 pm — Glasshouse bell. Deceased seen from terrace beside her flower, lamp in hand, by Mr. J. Penhallow, Mr. Kittow, Miss Quill and Dr. Ellery. Lamp lowered c. 11.35.\n11.45 pm — Mrs. C. Penhallow comes down to drawing room.\n12.15 am — Nephew seen on lawn going towards glasshouse (Miss Quill, from her window).\n5.45 am — J. Trevenna, gardener, finds deceased at foot of stepladder below orchid bench. Glasshouse door locked inside, key in lock. Stokehole door unbolted.\n\nDr. Tresidder: fell from the steps and struck her head on the iron staging. Wound above left ear, round, size of a half-crown. Death between 11.30 pm and 2 am.\n\nNephew had motive, was out alone after midnight, and the stokehole was open. — Sgt. W. Polglase"
+    },
+    {
+      "id": "pascoe_statement",
+      "category": "witness",
+      "symbol": "fork.knife",
+      "name": "Statement of Mrs. Pascoe",
+      "summary": "The cook-housekeeper: the library row from 10.15 to 11.10, and Dr. Ellery in her darkroom at 10.50.",
+      "detail": "Statement of Mrs. Morwenna Pascoe, cook-housekeeper, taken by Sgt. Polglase:\n\n‘From a quarter past ten I was in the butler’s pantry next to the library, cleaning the silver for the morning. Mr. Julian and Mr. Kittow were going at it hammer and tongs over the will the whole time — I could hear every word through the wall. I took them in a tray of whisky at twenty to eleven, and they were still at it at ten past eleven when I went down to my kitchen.\n\nAt ten to eleven I stepped along to the old scullery that Dr. Ellery has made her darkroom, to ask did she want cocoa. She called through the door she had paper in the developer and I wasn’t to open it on any account.\n\nAfter that I was in my kitchen until I heard the bell.’"
+    },
+    {
+      "id": "ebony_stick",
+      "category": "physical",
+      "symbol": "figure.walk",
+      "name": "Lady Penhallow’s stick",
+      "summary": "A heavy silver knob, the size of a half-crown — with blood in the chasing.",
+      "detail": "Her ebony walking stick, found under the orchid bench. Its knob is solid silver, round, about the size of a half-crown, and engraved all over with a pattern of leaves.\n\nThe knob has been wiped. But down in the engraving there is a dark smear of dried blood, and two white hairs are caught in it."
+    },
+    {
+      "id": "stepladder",
+      "category": "physical",
+      "symbol": "stairs",
+      "name": "The stepladder",
+      "summary": "Lying beside the body — but no one has climbed it.",
+      "detail": "A wooden stepladder lying on its side beside the chalk outline. It usually hangs on a hook by the door.\n\nIts treads are grey with a summer’s dust, and the dust is perfect: not one footprint, not one smudge. Nobody climbed this ladder last night."
+    },
+    {
+      "id": "iron_staging",
+      "category": "physical",
+      "symbol": "square.grid.3x3.fill",
+      "name": "The iron staging",
+      "summary": "Where she supposedly struck her head: not a mark on it.",
+      "detail": "The cast-iron edge of the staging, where Dr. Tresidder says she struck her head as she fell. You go over it with a lens.\n\nNo blood, no hair, not a scrape in the old green paint. And its edge is a sharp right angle — nothing like a round wound the size of a half-crown."
+    },
+    {
+      "id": "bloom_log",
+      "category": "document",
+      "symbol": "book.closed.fill",
+      "name": "The bloom log",
+      "summary": "Green ink every quarter of an hour — until 10.25, then nothing.",
+      "detail": "Hester’s log of the bloom, in green ink, in a small upright hand:\n\n‘9.30 — Locked in. Lamp lit. Bud swelling.\n9.45 — Tip of the bud colouring.\n10.00 — Edmund’s hour. Bud loosening.\n10.15 — Agnes with cocoa, against orders. Bless her.\n10.25 — Sepals parting. First scent: clove and lily. Forty minutes, Edmund always said. I shall pollinate the moment it opens.’\n\nAfter 10.25 the page is blank. Her pen lies beside the log, capped. Her sable pollinating brush lies beside it."
+    },
+    {
+      "id": "moon_orchid",
+      "category": "physical",
+      "symbol": "moon.stars.fill",
+      "name": "The moon orchid",
+      "summary": "Closed and hanging now. A twist of green twine marks it as pollinated.",
+      "detail": "Edmund’s orchid, label in his hand: ‘No. 7 — Shan Hills, 1938’. The great white flower has closed and hangs limp. The air around it still smells faintly of clove and lily.\n\nA twist of green garden twine has been freshly tied around the stem — a gardener’s sign that a flower has been pollinated. Lady Penhallow’s own twine is silk, and white."
+    },
+    {
+      "id": "stokehole_door",
+      "category": "physical",
+      "symbol": "door.left.hand.open",
+      "name": "The stokehole door",
+      "summary": "The way out under the glasshouse: bolted on the inside only — and found unbolted.",
+      "detail": "Steps at the east end of the glasshouse lead down to the stokehole, where the boiler is. From there a stout oak door opens out at the foot of the walled-garden wall.\n\nIts only bolt is on the inside. It can’t be fastened, or opened, from the garden. At dawn it was found unbolted."
+    },
+    {
+      "id": "slipper_prints",
+      "category": "physical",
+      "symbol": "shoeprints.fill",
+      "name": "Prints in the coke dust",
+      "summary": "A small, heelless slipper went down the stokehole steps.",
+      "detail": "The stokehole steps are thick with coke dust. Jory’s hobnailed boots have trampled most of it. But at the edges of the treads there are prints of quite another kind: small, smooth and heelless, like a lady’s mule or slipper, going down.\n\nNobody goes down to a boiler in their slippers."
+    },
+    {
+      "id": "deed_fragment",
+      "category": "document",
+      "symbol": "flame.fill",
+      "name": "Charred deed",
+      "summary": "From the boiler’s ash pan: ‘…Home Farm… £20,000… Hester Penhallow’ — signed in black ink.",
+      "detail": "A scorched corner of heavy legal paper that fell through the firebars into the ash pan:\n\n‘…MORTGAGE of the property known as Home Farm, Penhallow… the sum of Twenty Thousand Pounds… Lorimer & Dane… signed by the said Hester Penhallow…’\n\nThe signature survives at the edge, burnt brown: ‘Hester Penhallow’, in black ink."
+    },
+    {
+      "id": "jory_pipe",
+      "category": "physical",
+      "symbol": "smoke.fill",
+      "name": "Pipe dottle by the walled-garden door",
+      "summary": "Fresh pipe ash and spent matches where the walled garden looks onto the glasshouse.",
+      "detail": "By the walled-garden door, on the step: a little heap of pipe dottle and half a dozen spent matches. The tobacco is Cornish twist, black and strong. Jory Trevenna smokes nothing else.\n\nFrom this step you can see the whole east end of the glasshouse — and the stokehole door below it."
+    },
+    {
+      "id": "will_draft",
+      "category": "document",
+      "symbol": "doc.text.fill",
+      "name": "Draft of the new will",
+      "summary": "To be signed at ten this morning: Penhallow to the National Trust; Julian, £1,000.",
+      "detail": "From Mr. Kittow’s briefcase, ready for signature ‘at 10 a.m., Saturday 27th July 1963’, revoking the will of 1950 (under which Penhallow passes to Julian):\n\n— Penhallow House, its gardens and glasshouses, to the National Trust, with £40,000 for their upkeep.\n— To Julian Penhallow: £1,000, and Sir Edmund’s books.\n— To Agnes Quill: the lodge for her lifetime, and £300 a year.\n— To Jory Trevenna: his cottage, and £500.\n— To Edwin Kittow: Sir Edmund’s gold watch.\n— The moon orchid, and all its seed, to Kew."
+    },
+    {
+      "id": "bank_demand",
+      "category": "document",
+      "symbol": "building.columns.fill",
+      "name": "Letter from the Westminster Bank",
+      "summary": "A final demand to Penhallow Motors, threatening ‘legal proceedings’.",
+      "detail": "Crumpled in the inside pocket of Julian’s dinner jacket: a letter from the Westminster Bank, Plymouth, dated 22nd July 1963.\n\n‘Dear Mr. Penhallow — We must again draw your attention to the overdrawn account of Penhallow Motors, which now stands at £6,412 7s. 2d. Unless it is cleared by 31st July, we shall have no alternative but to commence legal proceedings…’\n\nIt has been folded and unfolded many times."
+    },
+    {
+      "id": "photo_bud",
+      "category": "physical",
+      "symbol": "photo.fill",
+      "name": "Photograph, 9.25 pm",
+      "summary": "Lady Penhallow with her orchid in bud: small, bent over her stick, black from veil to hem.",
+      "detail": "Dr. Ellery’s photograph taken inside the glasshouse at 9.25, just before Hester locked herself in.\n\nA small, stooped woman in black leans on her ebony stick beside the orchid bench. The top of her veil barely reaches the shelf below the iron lamp bracket. She is black from veil to hem."
+    },
+    {
+      "id": "photo_bell",
+      "category": "physical",
+      "symbol": "camera.fill",
+      "name": "Photograph, 11.32 pm",
+      "summary": "The ‘widow’ at the bell: tall, upright, no stick — and a pale hem under the black.",
+      "detail": "Dr. Ellery’s single long exposure from the terrace when the bell rang, through misted glass at forty yards. Grainy, but the shapes are plain: the orchid bench, the iron lamp bracket above it, and the white star of the open flower.\n\nBeside it stands a figure in a black veil and shawl, lamp held high in one hand, the other hand raised. It stands upright, so tall that its head is level with the lamp bracket. There is no stick. And below the black shawl a hem shows pale against the dark."
+    },
+    {
+      "id": "lindqvist_cable",
+      "category": "document",
+      "symbol": "envelope.open.fill",
+      "name": "Cable from Miami",
+      "summary": "To Dr. Ellery: ‘Twenty thousand dollars … secure pod at any cost.’",
+      "detail": "A cable form, folded small in Dr. Ellery’s satchel, received at St Austell on Thursday:\n\n‘ELLERY PENHALLOW HOUSE ST AUSTELL — OFFER STANDS TWENTY THOUSAND DOLLARS EXCLUSIVE FIRST SEEDLINGS STOP SECURE POD AT ANY COST STOP — LINDQVIST ORCHIDS MIAMI’"
+    },
+    {
+      "id": "blue_room_window",
+      "category": "physical",
+      "symbol": "eye.slash",
+      "name": "The Blue Room window",
+      "summary": "Celia’s window faces north, over the drive. The glasshouse is on the other side of the house.",
+      "detail": "The Blue Room, where Julian and Celia sleep, is on the north front. Its only window looks over the gravel drive and the beech avenue.\n\nThe glasshouse lies to the south, at the bottom of the lawn, on the far side of the house. From this room you can’t see so much as its weathervane."
+    },
+    {
+      "id": "celia_mules",
+      "category": "physical",
+      "symbol": "hanger",
+      "name": "Celia’s dressing gown and mules",
+      "summary": "Pale-blue satin — and black coke dust on the soles and the hem.",
+      "detail": "At the back of the wardrobe, pushed behind the evening dresses: a pair of pale-blue satin mules and the matching dressing gown.\n\nThe soles of the mules are grey with coke dust, ground into the satin. The hem of the dressing gown is smudged black all round. Someone has tried to brush it, and only spread it."
+    },
+    {
+      "id": "finance_letter",
+      "category": "document",
+      "symbol": "banknote.fill",
+      "name": "Letter from Lorimer & Dane",
+      "summary": "About ‘her’ £20,000 mortgage of Home Farm, and her note in green: ‘I never signed this.’",
+      "detail": "Lorimer & Dane, Finance, London E.C.2. 19th July 1963.\n\n‘Dear Lady Penhallow — We enclose for your records the counterpart deed of your mortgage of Home Farm, executed on 2nd May, under which the sum of £20,000 was advanced to your nephew, Mr. Julian Penhallow, as your agent…’\n\nAcross the foot, in green ink:\n\n‘I never signed this. Julian, of course. I shall tell Celia on Friday at six, and give him the night to come to me himself. On Saturday it goes to Edwin, and from Edwin to the police.’\n\nThe counterpart deed itself isn’t with the letter."
+    },
+    {
+      "id": "kittow_letter",
+      "category": "document",
+      "symbol": "heart.fill",
+      "name": "Letter from Edwin Kittow",
+      "summary": "‘…once the will is signed and your orchid is safe, let us tell them.’",
+      "detail": "Folded inside her blotter, in a lawyer’s careful hand:\n\n‘My dear Hester — Saturday, then, once the will is signed and your orchid is safe, let us tell them. Forty years I have waited; I can wait until the flower has had its night. September at St Mewan’s, as you wished. — Your Edwin’"
+    }
+  ]
+}

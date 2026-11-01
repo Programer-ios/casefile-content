@@ -1,0 +1,635 @@
+{
+  "contradictions": [
+    {
+      "id": "c_jo_home",
+      "statement": "st_jo_home",
+      "proof": [
+        "cafe_footage",
+        "tess_last_message",
+        "jo_flowers"
+      ],
+      "title": "Jo was at Marram Point",
+      "insight": "Jo drove out to the car park at nine with a dozen roses and spent forty minutes in the van with Tess. She lied because she was the last person to see Tess alive — and she left her there.",
+      "response": [
+        [
+          "jo",
+          "…Okay. Okay. I went."
+        ],
+        [
+          "jo",
+          "I took her roses. I wanted to say sorry properly, to her face. We argued, she told me to go, and I went. At twenty to ten she was alive and furious with me. That’s the last time I saw her."
+        ],
+        [
+          "jo",
+          "I didn’t say because I knew how it would look. The ex who turns up in the dark."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_jo_visit"
+        ]
+      }
+    },
+    {
+      "id": "c_jo_findmy",
+      "statement": "st_jo_story",
+      "proof": [
+        "megan_statement",
+        "tess_story"
+      ],
+      "title": "Jo was watching her location",
+      "insight": "Tess’s story had no location on it. Jo and Tess still shared their locations from when they lived together, and Jo still watched. On Friday night she saw Tess’s dot stop at Marram Point.",
+      "response": [
+        [
+          "jo",
+          "…We never turned it off. Location sharing. From when we lived together."
+        ],
+        [
+          "jo",
+          "I’d look at it at work. At night. I told myself it was just so I’d know she was safe. On Friday I watched her dot go out to Marram Point and stop, and I got in the car."
+        ],
+        [
+          "jo",
+          "I know what that makes me. It doesn’t make me a killer."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_jo_findmy"
+        ]
+      }
+    },
+    {
+      "id": "c_gwen_never",
+      "statement": "st_gwen_never",
+      "proof": [
+        "cafe_footage",
+        "gwen_sign"
+      ],
+      "title": "Gwen left the note",
+      "insight": "The quad bike and head torch at 23:09 were Gwen’s, and the note on Moss is in the same block capitals as the sign on her gate. She lied because she has let down vanlifers’ tyres before, and was afraid of what else the police might ask.",
+      "response": [
+        [
+          "gwen",
+          "…All right. Yes. I go round most nights with a torch, and I left that note."
+        ],
+        [
+          "gwen",
+          "I didn’t tell the police because they’d have asked about the tyres. I’ve let a few down over the years. Not that one. Not that night."
+        ],
+        [
+          "gwen",
+          "The windows were running wet inside, and the heater was ticking away underneath — you can hear them, those little diesel things. I thought, well, at least she’s warm. I put my note under the wiper and went home."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_gwen_heater"
+        ]
+      }
+    },
+    {
+      "id": "c_callum_row",
+      "statement": "st_callum_fine",
+      "proof": [
+        "tess_notebook",
+        "megan_statement"
+      ],
+      "title": "Tess and Callum had fallen out",
+      "insight": "Callum owed Tess the £18,000 deposit for the flat she was buying, and couldn’t pay it back. They rowed about it at Sunday lunch, five days before she died.",
+      "response": [
+        [
+          "callum",
+          "…She lent me the money in February, when Saltworks nearly went under. Her whole deposit. She completes in January. I promised her Christmas."
+        ],
+        [
+          "callum",
+          "On Sunday at Mum’s I told her I couldn’t. Not till the spring. She said I was always going to be like this, and she was right. The last proper conversation we had was a row."
+        ],
+        [
+          "callum",
+          "And on Friday she texted me as if nothing had happened, and asked for Moss. That was Tess."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_callum_debt"
+        ]
+      }
+    },
+    {
+      "id": "c_dan_contact",
+      "statement": "st_dan_nothing",
+      "proof": [
+        "dan_dm",
+        "gate_log"
+      ],
+      "title": "Dan threatened Callum",
+      "insight": "Two days before Tess died, Dan sent Callum a threat, and on Thursday evening he turned up at Saltworks’ gate to shout at him. He has never forgiven Callum for blaming him at Kieran’s inquest.",
+      "response": [
+        [
+          "dan",
+          "…All right. I sent him a message on Wednesday night. And I went round there on Thursday."
+        ],
+        [
+          "dan",
+          "He’s starting the school again. After everything. He stood up at that inquest and said it was my positioning — and it was, partly, I’ve had four years to know that — but he’s the one who left me alone with nine kids in a rip."
+        ],
+        [
+          "dan",
+          "I shouted. He turned his back on me and went round the side to get his phone, and I followed him, still shouting. Then he walked me back to my car. I never laid a finger on his van."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_dan_yard"
+        ]
+      }
+    },
+    {
+      "id": "c_lou_home",
+      "statement": "st_lou_home",
+      "proof": [
+        "gate_log"
+      ],
+      "title": "Lou was in the yard on Thursday night",
+      "insight": "At 22:40 on Thursday, Lou let herself into the yard and spent a quarter of an hour there — on the night Moss stood unwatched behind Unit 4.",
+      "response": [
+        [
+          "lou",
+          "…I popped in. For the VAT paperwork. The return’s due and I can’t concentrate in the day with the radio going."
+        ],
+        [
+          "lou",
+          "Fifteen minutes. I was in and out."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_lou_paperwork"
+        ]
+      }
+    },
+    {
+      "id": "c_lou_paperwork",
+      "statement": "st_lou_paperwork",
+      "proof": [
+        "gate_log",
+        "stock_count",
+        "marketplace_ad"
+      ],
+      "title": "Lou was stealing heaters",
+      "insight": "The camera shows Lou carrying six boxes to her car. Six heaters are missing from the stockroom, and six are for sale online, collection Braunton. Lou has been selling Saltworks’ stock since August — and letting Callum blame Kai.",
+      "response": [
+        [
+          "lou",
+          "…Since August. Since Steve lost his job at the car dealership and our mortgage went from seven hundred a month to thirteen hundred."
+        ],
+        [
+          "lou",
+          "I sell a few on the side. I always meant to pay it back. And Callum blamed Kai, and I let him."
+        ],
+        [
+          "lou",
+          "But I went in the front, I went to the stockroom, and I went out the front. I never went out the back. I never touched Moss."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_lou_heaters"
+        ]
+      }
+    },
+    {
+      "id": "c_lou_rear",
+      "statement": "st_lou_heaters",
+      "proof": [
+        "alarm_log"
+      ],
+      "title": "Lou went out of the back door",
+      "insight": "Unit 4’s alarm shows the rear door open for forty-two seconds at 22:49 — the door on to the rear yard, where Moss stood. Lou said she never went out the back.",
+      "response": [
+        [
+          "lou",
+          "…The cartons. Oh God, I forgot the cartons."
+        ],
+        [
+          "lou",
+          "Six heaters wouldn’t fit in my car in their big outer boxes, so I took them out, flattened the cartons and shoved them in the recycling cage out the back. Thirty seconds. I didn’t look at Moss. I didn’t even put the light on."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_lou_cartons"
+        ]
+      }
+    },
+    {
+      "id": "c_pete_rushed",
+      "statement": "st_pete_rushed",
+      "proof": [
+        "kai_message"
+      ],
+      "title": "Pete never thought Callum’s work was rushed",
+      "insight": "To Kai, Pete always called Callum’s installs the tidiest on the estate. He told the police the opposite on Monday, two days after Tess died in one of them.",
+      "response": [
+        [
+          "pete",
+          "…Kai’s a kid. He hears what he wants to hear."
+        ],
+        [
+          "pete",
+          "Neat isn’t the same as safe. That’s all I meant."
+        ]
+      ]
+    },
+    {
+      "id": "c_pete_newcomer",
+      "statement": "st_pete_newcomer",
+      "proof": [
+        "kieran_photo"
+      ],
+      "title": "Pete knew Croyde long before Unit 5",
+      "insight": "The boy in the photo in Pete’s office is on Croyde beach in August 2019, at his first surf lesson, and Pete keeps him on the wall above his desk. Pete knew Croyde long before he took the unit next to Callum’s.",
+      "response": [
+        [
+          "narrator",
+          "Pete looks at the photo for a moment too long."
+        ],
+        [
+          "pete",
+          "That’s my sister’s lad. On his holidays — she sent me that. I’ve never been down there with him. I’d not been to Devon in my life till I came for the unit."
+        ],
+        [
+          "pete",
+          "Nice-looking boy, isn’t he."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_pete_nephew"
+        ]
+      }
+    },
+    {
+      "id": "c_pete_nephew",
+      "statement": "st_pete_nephew",
+      "proof": [
+        "d_father"
+      ],
+      "title": "Kieran was Pete’s son",
+      "insight": "The boy on Pete’s office wall is no nephew. Kieran Moyle had his mother’s surname; his father was a mechanic from Swindon who brought him to Croyde every August — and who told the inquest that somebody should answer for his death.",
+      "response": [
+        [
+          "narrator",
+          "Pete takes off his glasses and rubs his eyes. When he speaks again his voice is very quiet."
+        ],
+        [
+          "pete",
+          "Kieran. His mum gave him her name. I had him summers."
+        ],
+        [
+          "pete",
+          "We came down every August, him and me. I had a son, and he drowned three hundred yards from where Callum Rendle was teaching some rich kid to stand up on a board. I came down here because I wanted to live by the sea he loved. That’s all."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_pete_kieran"
+        ]
+      }
+    },
+    {
+      "id": "c_pete_moss",
+      "statement": "st_pete_friday",
+      "proof": [
+        "kai_message"
+      ],
+      "title": "Pete was at Moss on Friday morning",
+      "insight": "Just before eight on Friday, Kai saw Pete come in through his back door from the rear yard, with a torch and wet knees. Pete told him he’d had Moss’s seat base off — the seat over the heater.",
+      "response": [
+        [
+          "pete",
+          "…All right. I was in early. I always am — I don’t sleep."
+        ],
+        [
+          "pete",
+          "I thought I smelled coolant when I came in, round the back. Moss was nearest, so I had a look. Seat base off, torch, nothing there. Put it back. That’s all it was."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_pete_coolant"
+        ]
+      }
+    },
+    {
+      "id": "c_pete_coolant",
+      "statement": "st_pete_coolant",
+      "proof": [
+        "police_summary",
+        "gasket"
+      ],
+      "title": "There was no coolant leak",
+      "insight": "The vehicle examiner found nothing wrong with Moss’s engine or cooling system. And what sits under Moss’s passenger seat isn’t the engine. It’s the heater.",
+      "response": [
+        [
+          "pete",
+          "…I don’t know what you want me to say."
+        ],
+        [
+          "pete",
+          "I smelled something, I looked, I put it back. That’s all. That’s not a crime."
+        ]
+      ]
+    }
+  ],
+  "deductions": [
+    {
+      "id": "d_fitted",
+      "title": "Fitted properly, then undone",
+      "symbol": "wrench.and.screwdriver.fill",
+      "question": "Was Moss’s heater badly fitted, as the police think?",
+      "options": [
+        "Yes — the gasket was never put in",
+        "Yes — the exhaust pipe was the wrong size",
+        "No — it was fitted properly, then undone",
+        "No — the heater itself was faulty from new"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "heater_joint"
+        ],
+        [
+          "build_photos",
+          "callum_story"
+        ]
+      ],
+      "proofLabels": [
+        "Signs of tampering",
+        "It was fitted properly"
+      ],
+      "visibleWhen": {
+        "evidence": "heater_joint"
+      },
+      "conclusion": "Moss’s heater was fitted properly and was working. Since then, somebody has taken the gasket out and loosened the clamp: the broken paint mark and the bright spanner marks on the nut show it has been turned since it was tightened. Somebody undid Callum’s work."
+    },
+    {
+      "id": "d_alarm",
+      "title": "A blinded alarm",
+      "symbol": "bell.fill",
+      "question": "Why didn’t Moss’s carbon monoxide alarm wake Tess?",
+      "options": [
+        "Its batteries had run flat",
+        "It was mounted too far from the heater",
+        "Tess switched it off when it chirped",
+        "Someone had taped over its sensor"
+      ],
+      "answer": 3,
+      "proof": [
+        [
+          "co_alarm"
+        ],
+        [
+          "alarm_leaflet",
+          "st_callum_test",
+          "police_summary"
+        ]
+      ],
+      "proofLabels": [
+        "What’s wrong with the alarm",
+        "Why nobody noticed"
+      ],
+      "visibleWhen": {
+        "evidence": "co_alarm"
+      },
+      "conclusion": "A strip of clear tape covers the grille where the gas reaches the sensor. The TEST button only checks the electronics and the sounder, so the alarm still shrieks whenever anyone tests it — it passed for the police — but it could never smell the gas."
+    },
+    {
+      "id": "d_gas",
+      "title": "From the first minute",
+      "symbol": "smoke.fill",
+      "question": "When did Moss start filling with carbon monoxide?",
+      "options": [
+        "On the drive over from the yard",
+        "From the moment Tess turned the heater on",
+        "Not until after midnight, while Tess slept",
+        "Only once someone had tampered with the van that night"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "tess_story",
+          "cafe_footage"
+        ],
+        [
+          "tess_last_message",
+          "st_jo_headache"
+        ]
+      ],
+      "proofLabels": [
+        "When the heater went on",
+        "The first symptoms"
+      ],
+      "visibleWhen": {
+        "evidence": "tess_story"
+      },
+      "conclusion": "Tess switched the heater on at about half past seven. Within two hours there were headaches in that van — the first sign of carbon monoxide, put down to a row. The leak was there from the moment the heater ran. Nobody who came to Marram Point that night caused it."
+    },
+    {
+      "id": "d_when",
+      "title": "Rigged in the yard",
+      "symbol": "clock.fill",
+      "question": "When was Moss tampered with?",
+      "options": [
+        "At Marram Point, while Tess slept",
+        "In the yard, on Friday afternoon",
+        "At its MOT, two weeks earlier",
+        "In the yard, between Thursday evening and half past eight on Friday"
+      ],
+      "answer": 3,
+      "proof": [
+        [
+          "callum_story"
+        ],
+        [
+          "st_lou_friday",
+          "st_callum_friday"
+        ]
+      ],
+      "proofLabels": [
+        "Still fine on Thursday",
+        "In plain sight from half past eight"
+      ],
+      "visibleWhen": {
+        "all": [
+          {
+            "deduced": "d_fitted"
+          },
+          {
+            "deduced": "d_alarm"
+          }
+        ]
+      },
+      "conclusion": "At 17:41 on Thursday the heater ran clean and the alarm’s grille was clear. From half past eight on Friday, Moss stood in front of the open workshop, in sight of everyone, until Tess drove it away. Somebody rigged it in the yard on Thursday night or early on Friday — before Tess had it, and before anyone came near it at Marram Point."
+    },
+    {
+      "id": "d_target",
+      "title": "Meant for Callum",
+      "symbol": "scope",
+      "question": "Who was Moss rigged to kill?",
+      "options": [
+        "Tess — someone knew she would be in it",
+        "Anyone — it was meant to look like an accident",
+        "Callum — Fridays were his night in Moss",
+        "Callum’s family — Abby and Ruby used to go too"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "d_when"
+        ],
+        [
+          "tess_messages",
+          "megan_statement"
+        ]
+      ],
+      "proofLabels": [
+        "When it was rigged",
+        "When Tess decided"
+      ],
+      "visibleWhen": {
+        "deduced": "d_when"
+      },
+      "conclusion": "Moss was rigged before half past eight on Friday. Tess only decided she needed the sea when she woke up after her last night shift, and asked at 11:40. Whoever rigged Moss wasn’t waiting for Tess. They were waiting for the man who slept in it at Marram Point every Friday night: Callum."
+    },
+    {
+      "id": "d_dan",
+      "title": "Never out of reach",
+      "symbol": "video.fill",
+      "question": "Could Dan have rigged Moss on Thursday evening?",
+      "options": [
+        "Yes — in the three minutes he was out of the camera’s sight",
+        "No — Callum never let him out of arm’s reach",
+        "Yes — he climbed back over the fence after dark",
+        "No — he was at sea with the lifeboat"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "gate_log"
+        ],
+        [
+          "st_callum_dan",
+          "st_callum_minutes"
+        ]
+      ],
+      "proofLabels": [
+        "What the camera saw",
+        "What happened out of shot"
+      ],
+      "visibleWhen": {
+        "all": [
+          {
+            "evidence": "gate_log"
+          },
+          {
+            "resolved": "c_dan_contact"
+          }
+        ]
+      },
+      "conclusion": "Dan was out of the camera’s sight for three minutes on Thursday evening — at Moss, but with Callum, who had gone round for his phone and never let him out of arm’s reach. Undoing the heater joint takes ten minutes at least. He has no key to the gate, the fence is two and a half metres of spiked steel, and early on Friday he was at sea. He never had the chance."
+    },
+    {
+      "id": "d_lou",
+      "title": "Forty-two seconds",
+      "symbol": "shippingbox.fill",
+      "question": "Could Lou have rigged Moss on Thursday night?",
+      "options": [
+        "Yes — she went out of the back door to Moss",
+        "Yes — she came back while the camera was down",
+        "No — under a minute out the back, and home all night after",
+        "No — she never left the stockroom"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "alarm_log"
+        ],
+        [
+          "lou_doorbell"
+        ]
+      ],
+      "proofLabels": [
+        "Thursday night at the yard",
+        "The rest of the night"
+      ],
+      "visibleWhen": {
+        "resolved": "c_lou_rear"
+      },
+      "conclusion": "Lou was out of Unit 4’s back door for forty-two seconds at 22:49 — long enough to push six flattened cartons into the recycling cage, nowhere near long enough to take Moss’s seat base off, undo the heater joint, put it all back and tape the alarm. And after 23:14 her car never left her drive, six miles away, until 08:05. She was stealing heaters, not rigging a van."
+    },
+    {
+      "id": "d_father",
+      "title": "Kieran’s father",
+      "symbol": "figure.surfing",
+      "question": "Who was Kieran Moyle’s father?",
+      "options": [
+        "A Swindon mechanic who never came back to Devon",
+        "Pete Stannard, the mechanic next door",
+        "Steve Bray, Lou’s husband",
+        "Nobody in this case — the family stayed away"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "inquest_article"
+        ],
+        [
+          "kieran_photo",
+          "st_pete_newcomer"
+        ]
+      ],
+      "proofLabels": [
+        "What the newspaper says about his father",
+        "Who in this case is tied to Kieran"
+      ],
+      "visibleWhen": {
+        "evidence": "inquest_article"
+      },
+      "conclusion": "Kieran Moyle, who drowned on Callum’s lesson in 2019, had his mother’s surname. The cutting says his father was a mechanic from Swindon who brought him to Croyde every August, and told the inquest that somebody should answer for it. Pete is a mechanic who sold up in Swindon, and on his office wall hangs ‘K’ at his first surf lesson, at Croyde, in August 2019. A year and a half after the inquest he took the unit next to Callum’s — and made him tea, and lent him his ramp, and watched him."
+    },
+    {
+      "id": "d_friday",
+      "title": "Not coolant",
+      "symbol": "flashlight.on.fill",
+      "question": "What was Pete doing at Moss early on Friday?",
+      "options": [
+        "Checking a coolant leak, as he told Kai",
+        "Fetching a tool Callum had borrowed",
+        "Nothing — Kai has got his days mixed up",
+        "Loosening the heater’s exhaust and taping over the alarm"
+      ],
+      "answer": 3,
+      "proof": [
+        [
+          "kai_message",
+          "st_pete_coolant"
+        ],
+        [
+          "police_summary",
+          "gasket"
+        ]
+      ],
+      "proofLabels": [
+        "He was at Moss",
+        "It wasn’t coolant"
+      ],
+      "visibleWhen": {
+        "evidence": "kai_message"
+      },
+      "conclusion": "At about eight on Friday, Kai saw Pete come in from the rear yard with a torch and wet knees, saying he’d had Moss’s seat base off — the seat over the heater. The examiner found nothing wrong with Moss’s cooling system. What Pete was doing under that seat turned up in the drain outside his back door: the gasket from Moss’s heater."
+    }
+  ]
+}

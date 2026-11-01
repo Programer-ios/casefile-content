@@ -1,0 +1,1038 @@
+{
+  "topics": [
+    {
+      "id": "t_callum_heater",
+      "suspect": "callum",
+      "prompt": "Tell me about Moss’s heater.",
+      "lines": [
+        [
+          "you",
+          "Callum, tell me about the heater in Moss."
+        ],
+        [
+          "callum",
+          "I fitted it two years ago — Moss was the first van Saltworks ever did. A two-kilowatt diesel heater under the passenger seat, exhaust straight down through the floor. I’ve fitted fifty-odd of them. I photograph every step — it’s all in the albums on my bench."
+        ],
+        [
+          "callum",
+          "I never skip the gasket. Never. And every nut I tighten gets a line of yellow paint across it, so I can see if it’s ever moved. The police can say what they like."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_callum_gasket"
+        ]
+      }
+    },
+    {
+      "id": "t_callum_check",
+      "suspect": "callum",
+      "prompt": "When did you last check the heater?",
+      "lines": [
+        [
+          "callum",
+          "Thursday, about half five. I check Moss every Thursday before my Friday night — run the heater for twenty minutes, sit in it, watch the alarm. I even put it on my story, like an idiot."
+        ],
+        [
+          "narrator",
+          "He finds it on the workshop tablet and hands it to you."
+        ],
+        [
+          "callum",
+          "Zero. It read zero. It was fine."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "callum_story"
+        ],
+        "statements": [
+          "st_callum_check"
+        ]
+      }
+    },
+    {
+      "id": "t_callum_friday",
+      "suspect": "callum",
+      "prompt": "Tell me about Friday.",
+      "lines": [
+        [
+          "callum",
+          "Tess texted me at twenty to twelve, out of nowhere: she’d finished her nights and she needed the sea. I said yes. Of course I said yes."
+        ],
+        [
+          "callum",
+          "Moss was out front of the workshop all day — I’d brought her round at half eight to sort out a cupboard catch that kept rattling. Megan dropped Tess off at half three, and I showed her everything: the heater controls, the timer. I pressed the test button on the alarm and it went off. She laughed at me for fussing."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_callum_test",
+          "st_callum_friday"
+        ]
+      }
+    },
+    {
+      "id": "t_callum_tess",
+      "suspect": "callum",
+      "prompt": "Were you and Tess close?",
+      "lines": [
+        [
+          "callum",
+          "She was my little sister. When she was small she used to sit on Dad’s van roof with me and count the waves in a set."
+        ],
+        [
+          "callum",
+          "We never fell out. Not once, not ever."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_callum_fine"
+        ]
+      }
+    },
+    {
+      "id": "t_callum_pete",
+      "suspect": "callum",
+      "prompt": "Tell me about Pete next door.",
+      "lines": [
+        [
+          "callum",
+          "Pete? Best neighbour I’ve ever had. Came down last year and took Unit 5. Lends me his ramp, makes Kai tea, never takes a penny for any of it."
+        ],
+        [
+          "callum",
+          "Somebody at the units told the police my work’s been rushed. Maybe it has. Maybe this is all my fault and I just can’t see it."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_callum_lou",
+      "suspect": "callum",
+      "prompt": "Tell me about Lou.",
+      "lines": [
+        [
+          "callum",
+          "Lou’s my partner, fifty-fifty since we started. She does the carpentry and the books; I do the gas and the electrics. Without her there’d be no business."
+        ],
+        [
+          "callum",
+          "It’s been a horrible year. Heaters keep going missing from the stockroom and I’ve been on at Kai about it. That’s the state I’m in — accusing a nineteen-year-old."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_callum_minutes",
+      "suspect": "callum",
+      "prompt": "How long would it take to undo the joint?",
+      "visibleWhen": {
+        "deduced": "d_fitted"
+      },
+      "lines": [
+        [
+          "callum",
+          "Seat base off — four screws. Loosen the clamp, slide the gasket out, nip the clamp back up so it looks right, seat base back on. Ten minutes, if you knew exactly what you were doing and had the right spanner in your hand. Longer in the dark."
+        ],
+        [
+          "callum",
+          "The tape on the alarm, a minute. But you’d need both."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_callum_minutes"
+        ]
+      }
+    },
+    {
+      "id": "t_callum_routine",
+      "suspect": "callum",
+      "prompt": "Do you use Moss yourself?",
+      "visibleWhen": {
+        "deduced": "d_when"
+      },
+      "lines": [
+        [
+          "callum",
+          "Every Friday, October to March. I sleep in her at Marram Point, surf at first light, and I’m at the yard by ten. Dawn patrol. Everyone knows — I’m a bore about it."
+        ],
+        [
+          "callum",
+          "This Friday I gave her to Tess, and I paddled out off the beach below the house on Saturday instead. I was in the water when Dan rang."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_callum_routine"
+        ]
+      }
+    },
+    {
+      "id": "t_callum_enemies",
+      "suspect": "callum",
+      "prompt": "Who would want you dead?",
+      "visibleWhen": {
+        "deduced": "d_target"
+      },
+      "lines": [
+        [
+          "you",
+          "Callum, whoever did this rigged Moss before Tess had even asked for it. They were expecting you."
+        ],
+        [
+          "narrator",
+          "He sits down on an upturned crate as if his legs have gone."
+        ],
+        [
+          "callum",
+          "Me. It was meant for me. Oh God. Oh God, Tess."
+        ],
+        [
+          "callum",
+          "I don’t — Dan. Dan Kellow. He sent me this on Wednesday, after I announced the surf school. And on Thursday evening he turned up at the yard, shouting."
+        ],
+        [
+          "narrator",
+          "He pulls the message up on the workshop tablet."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "dan_dm"
+        ]
+      }
+    },
+    {
+      "id": "t_callum_dan",
+      "suspect": "callum",
+      "prompt": "What happened when Dan came to the yard?",
+      "visibleWhen": {
+        "evidence": "gate_log"
+      },
+      "lines": [
+        [
+          "callum",
+          "He was at the gate when I came out — shouting about Kieran, the inquest, the school. I’d left my phone on Moss’s dashboard after the heater check, so I turned my back on him and went round to get it, and he followed me, right on my shoulder, still shouting."
+        ],
+        [
+          "callum",
+          "I got the phone, turned round and walked him all the way back to his car. He was never out of arm’s reach. He didn’t touch Moss. He didn’t even look at her."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_callum_dan"
+        ]
+      }
+    },
+    {
+      "id": "t_callum_kieran",
+      "suspect": "callum",
+      "prompt": "Tell me about Rendle Surf.",
+      "visibleWhen": {
+        "deduced": "d_dan"
+      },
+      "lines": [
+        [
+          "callum",
+          "I ran a surf school in Croyde for five years. In August 2019 a boy drowned on one of my lessons. Kieran Moyle. Sixteen. He got caught in a rip."
+        ],
+        [
+          "callum",
+          "I’d left Dan with nine beginners while I gave a private lesson up the beach. Nine. At the inquest I said Dan was badly positioned. He was. But I was the one who left him on his own."
+        ],
+        [
+          "callum",
+          "I closed the school. I never met the family — the inquest was nearly all on video, because of the pandemic. I kept the newspaper cutting. It’s in my desk drawer at home. I read it more than I should."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_callum_kieran"
+        ]
+      }
+    },
+    {
+      "id": "t_jo_tess",
+      "suspect": "jo",
+      "prompt": "Tell me about you and Tess.",
+      "lines": [
+        [
+          "jo",
+          "Three years. We had a flat in Barnstaple. We split up in September — her idea. She said I was too much. She moved into a house share with Megan."
+        ],
+        [
+          "jo",
+          "We were trying to be friends. I was trying."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_jo_friday",
+      "suspect": "jo",
+      "prompt": "Where were you on Friday night?",
+      "lines": [
+        [
+          "jo",
+          "At home. All night. I’d been on nights all week and I was wrecked. I didn’t even know she’d gone to the coast until Saturday."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_jo_home"
+        ]
+      }
+    },
+    {
+      "id": "t_jo_co",
+      "suspect": "jo",
+      "prompt": "What does carbon monoxide do to you?",
+      "lines": [
+        [
+          "jo",
+          "It sticks to your blood better than oxygen does. First you get a headache. Then you feel sick and dizzy, and you put it down to anything — a cold, a hangover, a row. Then you get sleepy."
+        ],
+        [
+          "jo",
+          "If you’re already asleep, you just don’t wake up. In a van that size, with a leak, it wouldn’t take long."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_jo_thursday",
+      "suspect": "jo",
+      "prompt": "And on Thursday night?",
+      "visibleWhen": {
+        "deduced": "d_when"
+      },
+      "lines": [
+        [
+          "jo",
+          "Working. Night shift on the ambulance out of Barnstaple, seven till seven. Ask control — every job’s logged. Why Thursday?"
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_jo_shift"
+        ]
+      }
+    },
+    {
+      "id": "t_jo_visit",
+      "suspect": "jo",
+      "prompt": "What happened in the van?",
+      "visibleWhen": {
+        "resolved": "c_jo_home"
+      },
+      "lines": [
+        [
+          "jo",
+          "I said sorry. I said I’d change. She said she’d heard it all before. We both cried. It was boiling in there and it smelled of the heater — they all do, those diesel ones, Tess said. She’d had it on since before I got there."
+        ],
+        [
+          "jo",
+          "By the end we both had headaches. I thought it was the crying. I left at twenty to ten, and sat in my car, and nearly went back."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_jo_headache"
+        ]
+      }
+    },
+    {
+      "id": "t_jo_where",
+      "suspect": "jo",
+      "prompt": "How did you know where she was?",
+      "visibleWhen": {
+        "resolved": "c_jo_home"
+      },
+      "lines": [
+        [
+          "jo",
+          "She’d posted a story from the car park. That’s all. It was right there for anyone to see."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_jo_story"
+        ]
+      }
+    },
+    {
+      "id": "t_gwen_vans",
+      "suspect": "gwen",
+      "prompt": "Tell me about the vans at Marram Point.",
+      "lines": [
+        [
+          "gwen",
+          "Forty of them on a summer night. Barbecues on my grass, rubbish over my wall, people doing their business behind my hedge. Last spring a loose dog had two of my ewes. I’ve asked the council, I’ve asked the parish, I’ve asked the police."
+        ],
+        [
+          "gwen",
+          "Nobody does anything. So I leave notes."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_gwen_friday",
+      "suspect": "gwen",
+      "prompt": "Where were you on Friday night?",
+      "lines": [
+        [
+          "gwen",
+          "In my kitchen with the telly and a whisky. I wasn’t up at the car park on Friday night. I don’t go up there in the dark."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_gwen_never"
+        ]
+      }
+    },
+    {
+      "id": "t_gwen_callum",
+      "suspect": "gwen",
+      "prompt": "Do you know Callum Rendle?",
+      "lines": [
+        [
+          "gwen",
+          "The van man. Half the vans that park up there have his sticker on the back. I wrote to him once and asked him to tell his customers to sleep somewhere else. He wrote back very politely, and nothing changed."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_gwen_knock",
+      "suspect": "gwen",
+      "prompt": "Did you knock on the van?",
+      "visibleWhen": {
+        "resolved": "c_gwen_never"
+      },
+      "lines": [
+        [
+          "gwen",
+          "No. Why would I? I’d said what I had to say in the note."
+        ],
+        [
+          "gwen",
+          "I keep thinking about it. If I’d knocked. If she’d come to the door and given me a mouthful, she’d have been awake. She’d have been alive."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_dan_found",
+      "suspect": "dan",
+      "prompt": "Tell me what you found on Saturday.",
+      "lines": [
+        [
+          "dan",
+          "I came up at half eight to open. The van was in the end bay with its windows running wet and the heater still going, and one of Gwen’s notes on the windscreen."
+        ],
+        [
+          "dan",
+          "I knocked. Nothing. The side door wasn’t locked. I got her out on to the gravel and did CPR, with the call handler on speaker, till the ambulance came — ten minutes. It stank of diesel fumes in there, and I was dizzy myself after a minute. She’d been gone for hours; I knew it the moment I touched her."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_dan_found"
+        ]
+      }
+    },
+    {
+      "id": "t_dan_camera",
+      "suspect": "dan",
+      "prompt": "Does the café have a camera?",
+      "lines": [
+        [
+          "dan",
+          "Over the door, for break-ins. It sees the end bays. I’ve been through Friday night already — wrote it all down for the police. They didn’t want it."
+        ],
+        [
+          "narrator",
+          "He hands you a printed page and a memory stick."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "cafe_footage"
+        ]
+      }
+    },
+    {
+      "id": "t_dan_callum",
+      "suspect": "dan",
+      "prompt": "How do you know Callum?",
+      "lines": [
+        [
+          "dan",
+          "I taught for his surf school for four summers. I was twenty when I started. Then it closed."
+        ],
+        [
+          "dan",
+          "Until I had to ring him on Saturday, I’d had nothing to do with Callum since the inquest. Nothing."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_dan_nothing"
+        ]
+      }
+    },
+    {
+      "id": "t_dan_bench",
+      "suspect": "dan",
+      "prompt": "Who leaves the flowers on the bench?",
+      "visibleWhen": {
+        "evidence": "memorial_bench"
+      },
+      "lines": [
+        [
+          "dan",
+          "Me. On the twenty-first of every month."
+        ],
+        [
+          "dan",
+          "I’m not talking about that. If you want to know, ask Callum Rendle. Ask him what he said."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_dan_shout",
+      "suspect": "dan",
+      "prompt": "Where were you early on Friday?",
+      "visibleWhen": {
+        "deduced": "d_when"
+      },
+      "lines": [
+        [
+          "dan",
+          "At sea. I live in Appledore, two minutes from the lifeboat station, and I crew the inshore boat. My pager went at twenty to six — a fishing boat aground in the estuary. We were back on the slipway at twenty past eight. It’s all logged."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_dan_shout"
+        ]
+      }
+    },
+    {
+      "id": "t_dan_kieran",
+      "suspect": "dan",
+      "prompt": "Tell me about Kieran.",
+      "visibleWhen": {
+        "resolved": "c_dan_contact"
+      },
+      "lines": [
+        [
+          "dan",
+          "Sixteen. Funny. Couldn’t stand up on a board to save his life, kept trying anyway. His dad had paid for the whole week."
+        ],
+        [
+          "dan",
+          "The rip took him and another lad out together. I got the other one. By the time I went back for Kieran I couldn’t see him. I’ve crewed the lifeboat ever since. Make of that what you like."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_lou_business",
+      "suspect": "lou",
+      "prompt": "How’s business?",
+      "lines": [
+        [
+          "lou",
+          "Honestly? Dying. Everyone’s mortgage doubled this year, and a camper van’s the first thing people cancel. And now Trading Standards want every install record we’ve ever made."
+        ],
+        [
+          "lou",
+          "Callum’s the best fitter in Devon. I’d stake my life on that heater. Somebody’s lying, or something’s very wrong."
+        ],
+        [
+          "lou",
+          "And Kai — our apprentice — is off on his college block in Exeter this week. He hasn’t been in since Friday. The police never even spoke to him."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_lou_friday",
+      "suspect": "lou",
+      "prompt": "Tell me about Friday at the yard.",
+      "lines": [
+        [
+          "lou",
+          "Callum brought Moss round the front at half eight and she sat there all day, right in front of the workshop door. He was on the Jenkinses’ kitchen pod till Tess came. Nobody went near Moss — we’d have seen."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_lou_friday"
+        ]
+      }
+    },
+    {
+      "id": "t_lou_policy",
+      "suspect": "lou",
+      "prompt": "Tell me about the partnership insurance.",
+      "visibleWhen": {
+        "evidence": "partnership_policy"
+      },
+      "lines": [
+        [
+          "lou",
+          "Every partnership has one. If one of us dies, the other can buy their share from the family, so the business doesn’t die too. That’s all it is."
+        ],
+        [
+          "lou",
+          "Two hundred thousand pounds, yes. I can do the sum as well as you can. I didn’t want Callum dead."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_lou_thursday",
+      "suspect": "lou",
+      "prompt": "Where were you on Thursday night?",
+      "visibleWhen": {
+        "deduced": "d_when"
+      },
+      "lines": [
+        [
+          "lou",
+          "Home. All night. Sofa, telly, bed. Why?"
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_lou_home"
+        ]
+      }
+    },
+    {
+      "id": "t_lou_told",
+      "suspect": "lou",
+      "prompt": "Who knew Tess was taking Moss?",
+      "visibleWhen": {
+        "deduced": "d_target"
+      },
+      "lines": [
+        [
+          "lou",
+          "Me and Kai. Callum told us just after twelve — Tess had texted him. Pete had gone already; he went off to his mum’s just before twelve."
+        ],
+        [
+          "lou",
+          "Callum didn’t tell anybody else, I don’t think. Why would he?"
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_lou_told"
+        ]
+      }
+    },
+    {
+      "id": "t_lou_doorbell",
+      "suspect": "lou",
+      "prompt": "Could you have come back to the yard later that night?",
+      "visibleWhen": {
+        "resolved": "c_lou_rear"
+      },
+      "lines": [
+        [
+          "lou",
+          "After the cameras went down, you mean? No. I went home and sat in the car on the drive till I’d stopped shaking, and then I went to bed."
+        ],
+        [
+          "narrator",
+          "She opens the doorbell app on her phone and scrolls back to Thursday night, and holds it out to you."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "lou_doorbell"
+        ]
+      }
+    },
+    {
+      "id": "t_lou_kai",
+      "suspect": "lou",
+      "prompt": "Callum blamed Kai for the missing heaters.",
+      "visibleWhen": {
+        "resolved": "c_lou_paperwork"
+      },
+      "lines": [
+        [
+          "lou",
+          "I know. And I let him. Every time Callum said ‘Kai?’, I said nothing."
+        ],
+        [
+          "lou",
+          "I’ll tell Callum. I’ll tell Kai. I’ll pay back every penny. But I didn’t go anywhere near Moss."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_pete_next_door",
+      "suspect": "pete",
+      "prompt": "How long have you been next door?",
+      "lines": [
+        [
+          "pete",
+          "Year and a half. Best thing I ever did. Callum’s a good lad — helped me get my lift in, first week, and wouldn’t take a penny for it."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_pete_mot",
+      "suspect": "pete",
+      "prompt": "You did Moss’s MOT.",
+      "lines": [
+        [
+          "pete",
+          "Second of November. She passed; one tyre on the way out, that’s all."
+        ],
+        [
+          "pete",
+          "An MOT doesn’t cover the living bits, mind — heaters, fridges, all that. Just the vehicle."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_pete_weekend",
+      "suspect": "pete",
+      "prompt": "Where were you on Friday night?",
+      "lines": [
+        [
+          "pete",
+          "Exeter. Mum’s in a care home there — dementia. I go every few weeks and stop over in a hotel. Left here at twelve on Friday, back on Sunday night. The home’ll tell you; so will the hotel."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_pete_exeter"
+        ]
+      }
+    },
+    {
+      "id": "t_pete_routine",
+      "suspect": "pete",
+      "prompt": "Did you know Callum’s habits?",
+      "visibleWhen": {
+        "deduced": "d_target"
+      },
+      "lines": [
+        [
+          "pete",
+          "Fridays? Dawn patrol. Regular as clockwork — boards on the roof by four, off to Marram Point, in the water at first light. Comes in on Saturdays smelling of wetsuit and grinning."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_pete_routine"
+        ]
+      }
+    },
+    {
+      "id": "t_pete_unit",
+      "suspect": "pete",
+      "prompt": "Can I have a look round your garage?",
+      "visibleWhen": {
+        "deduced": "d_target"
+      },
+      "lines": [
+        [
+          "pete",
+          "Course. Help yourself — I’ve nothing to hide. I’m off to Barnstaple for a part anyway. Kettle’s on the counter."
+        ]
+      ],
+      "reward": {
+        "flags": [
+          "garage_open"
+        ]
+      }
+    },
+    {
+      "id": "t_pete_friday",
+      "suspect": "pete",
+      "prompt": "Tell me about Friday morning.",
+      "visibleWhen": {
+        "evidence": "gate_log"
+      },
+      "lines": [
+        [
+          "pete",
+          "Same as always. Opened up, kettle on, did my paperwork, couple of quick jobs, gone by twelve. Never went near Moss. Why would I?"
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_pete_friday"
+        ]
+      }
+    },
+    {
+      "id": "t_pete_why",
+      "suspect": "pete",
+      "prompt": "How did you come to take the unit next to Callum’s?",
+      "visibleWhen": {
+        "asked": "t_pete_unit"
+      },
+      "lines": [
+        [
+          "pete",
+          "Saw it on a website. I’d never set foot in North Devon before — sold up in Swindon, fancied the sea air, and the rent was half what I’d been paying. Simple as that."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_pete_newcomer"
+        ]
+      }
+    },
+    {
+      "id": "t_pete_rushed",
+      "suspect": "pete",
+      "prompt": "Someone told the police Callum’s work was rushed. Was that you?",
+      "visibleWhen": {
+        "all": [
+          {
+            "deduced": "d_target"
+          },
+          {
+            "asked": "t_callum_pete"
+          }
+        ]
+      },
+      "lines": [
+        [
+          "pete",
+          "That was me, and I’m sorry if it’s hurt him. He’s a lovely lad. But he’s been under pressure since the money went bad — working till ten at night — and his work’s been rushed. I’d told him so."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_pete_rushed"
+        ]
+      }
+    },
+    {
+      "id": "t_pete_kieran",
+      "suspect": "pete",
+      "prompt": "Tell me about Kieran.",
+      "visibleWhen": {
+        "resolved": "c_pete_nephew"
+      },
+      "lines": [
+        [
+          "pete",
+          "His mum and me split up when he was three. I had him summers. Every August we came down here, and I’d watch him in the water and think, he’s braver than I ever was."
+        ],
+        [
+          "pete",
+          "That year he wanted proper lessons, a proper school. I paid for the week. Rendle Surf."
+        ],
+        [
+          "pete",
+          "Nobody ever answered for it. Callum Rendle went back to the beach like nothing had happened. That’s all I’m going to say."
+        ]
+      ],
+      "reward": {}
+    }
+  ],
+  "statements": [
+    {
+      "id": "st_callum_gasket",
+      "suspect": "callum",
+      "text": "I never skip the gasket, and every nut I tighten gets a line of yellow paint across it."
+    },
+    {
+      "id": "st_callum_check",
+      "suspect": "callum",
+      "text": "On Thursday at about half five I ran Moss’s heater for twenty minutes. The alarm read zero."
+    },
+    {
+      "id": "st_callum_test",
+      "suspect": "callum",
+      "text": "On Friday afternoon I pressed the test button on Moss’s alarm for Tess, and it went off."
+    },
+    {
+      "id": "st_callum_friday",
+      "suspect": "callum",
+      "text": "From half eight on Friday, Moss sat out front of the workshop all day."
+    },
+    {
+      "id": "st_callum_routine",
+      "suspect": "callum",
+      "text": "Every Friday from October to March I sleep in Moss at Marram Point and surf at first light."
+    },
+    {
+      "id": "st_callum_fine",
+      "suspect": "callum",
+      "text": "Tess and I never fell out. Not once, not ever."
+    },
+    {
+      "id": "st_callum_debt",
+      "suspect": "callum",
+      "text": "I owed Tess £18,000 for her flat deposit and couldn’t pay it back. We rowed about it on Sunday."
+    },
+    {
+      "id": "st_callum_dan",
+      "suspect": "callum",
+      "text": "When Dan came on Thursday he followed me round to Moss and back, shouting, never out of arm’s reach. He didn’t touch her."
+    },
+    {
+      "id": "st_callum_minutes",
+      "suspect": "callum",
+      "text": "Undoing the heater joint and putting Moss’s seat back takes ten minutes at least, even if you know how."
+    },
+    {
+      "id": "st_callum_kieran",
+      "suspect": "callum",
+      "text": "In 2019 a boy called Kieran Moyle drowned on one of my lessons. I never met his family."
+    },
+    {
+      "id": "st_jo_home",
+      "suspect": "jo",
+      "text": "I was at home on Friday night. All night."
+    },
+    {
+      "id": "st_jo_shift",
+      "suspect": "jo",
+      "text": "On Thursday night I was on a night shift on the ambulance, seven till seven."
+    },
+    {
+      "id": "st_jo_visit",
+      "suspect": "jo",
+      "text": "I went to the van at nine on Friday with flowers. We argued, and I left at twenty to ten."
+    },
+    {
+      "id": "st_jo_headache",
+      "suspect": "jo",
+      "text": "The heater had been on since before I got there. By the time I left, we both had headaches."
+    },
+    {
+      "id": "st_jo_story",
+      "suspect": "jo",
+      "text": "Tess’s story showed where she was. That’s how I knew."
+    },
+    {
+      "id": "st_jo_findmy",
+      "suspect": "jo",
+      "text": "We still shared our locations. I watched her dot stop at Marram Point and drove out."
+    },
+    {
+      "id": "st_gwen_never",
+      "suspect": "gwen",
+      "text": "I wasn’t up at the car park on Friday night."
+    },
+    {
+      "id": "st_gwen_heater",
+      "suspect": "gwen",
+      "text": "At ten past eleven Moss’s windows were running wet inside, and the heater was ticking away."
+    },
+    {
+      "id": "st_dan_found",
+      "suspect": "dan",
+      "text": "On Saturday at 08:40 I found Tess in the van with the heater still running, and got her out."
+    },
+    {
+      "id": "st_dan_nothing",
+      "suspect": "dan",
+      "text": "Until I rang him on Saturday, I’d had nothing to do with Callum since the inquest."
+    },
+    {
+      "id": "st_dan_shout",
+      "suspect": "dan",
+      "text": "Early on Friday I was at sea with the lifeboat, from twenty to six until twenty past eight."
+    },
+    {
+      "id": "st_dan_yard",
+      "suspect": "dan",
+      "text": "On Thursday evening I went to the yard and shouted at Callum. I followed him round the side and back, and he walked me to my car."
+    },
+    {
+      "id": "st_lou_friday",
+      "suspect": "lou",
+      "text": "From half eight on Friday, Moss sat in front of the workshop door all day. Nobody went near it."
+    },
+    {
+      "id": "st_lou_told",
+      "suspect": "lou",
+      "text": "Just after twelve on Friday, Callum told me and Kai that Tess was having Moss. Pete had already gone."
+    },
+    {
+      "id": "st_lou_home",
+      "suspect": "lou",
+      "text": "I was at home all Thursday night."
+    },
+    {
+      "id": "st_lou_paperwork",
+      "suspect": "lou",
+      "text": "I only went into the yard on Thursday night for the VAT paperwork."
+    },
+    {
+      "id": "st_lou_heaters",
+      "suspect": "lou",
+      "text": "On Thursday night I took six heaters from the stockroom to sell. I never went out the back."
+    },
+    {
+      "id": "st_lou_cartons",
+      "suspect": "lou",
+      "text": "On Thursday night I put six empty heater cartons in the recycling cage out the back. I was out there less than a minute."
+    },
+    {
+      "id": "st_pete_routine",
+      "suspect": "pete",
+      "text": "Every Friday, Callum takes Moss to Marram Point for the dawn patrol. Regular as clockwork."
+    },
+    {
+      "id": "st_pete_rushed",
+      "suspect": "pete",
+      "text": "Callum’s been under pressure, and his work’s been rushed. I’d told him so."
+    },
+    {
+      "id": "st_pete_exeter",
+      "suspect": "pete",
+      "text": "I left for Exeter at twelve on Friday and came back on Sunday night."
+    },
+    {
+      "id": "st_pete_newcomer",
+      "suspect": "pete",
+      "text": "I’d never set foot in North Devon before. I saw the unit on a website and sold up in Swindon."
+    },
+    {
+      "id": "st_pete_friday",
+      "suspect": "pete",
+      "text": "On Friday I opened up, did my paperwork and left at twelve. I never went near Moss."
+    },
+    {
+      "id": "st_pete_nephew",
+      "suspect": "pete",
+      "text": "The boy in the photo is my sister’s lad. I’d never been down there with him."
+    },
+    {
+      "id": "st_pete_kieran",
+      "suspect": "pete",
+      "text": "Kieran Moyle was my son. Nobody ever answered for his death."
+    },
+    {
+      "id": "st_pete_coolant",
+      "suspect": "pete",
+      "text": "On Friday morning I thought I could smell coolant, so I had Moss’s seat base off for a look. That’s all."
+    }
+  ]
+}

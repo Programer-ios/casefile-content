@@ -1,0 +1,639 @@
+{
+  "contradictions": [
+    {
+      "id": "c_dean_song",
+      "statement": "st_dean_notsong",
+      "proof": [
+        "tabloid_page",
+        "st_carys_row",
+        "letter_impression"
+      ],
+      "title": "It was about the song",
+      "insight": "‘Thirty years’ was about ‘Small Hours’. In the yard Rhys told Dean he was putting Dean’s name on the song on Monday, and Dean, drunk, called him a liar and shoved him.",
+      "response": [
+        [
+          "dean",
+          "…Thirty years. Yeah. It wasn’t about the take."
+        ],
+        [
+          "dean",
+          "He took me out for that cigarette to tell me. He’d written to PRS. He was putting my name on it, Monday, fifty-fifty, back to the start. He had it all worked out."
+        ],
+        [
+          "dean",
+          "And I called him a liar. Thirty years, and you think a letter fixes it? I put my hands on him. That’s the last thing I ever said to my best friend."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_dean_promise"
+        ]
+      }
+    },
+    {
+      "id": "c_bryn_bed",
+      "statement": "st_bryn_bed",
+      "proof": [
+        "band_chat",
+        "take_list"
+      ],
+      "title": "Bryn was up, with Dean",
+      "insight": "Bryn wasn’t asleep by midnight: he recorded his drums again at 01:38, and posted a photo of Dean asleep to the band chat at 01:12, after the clocks went back. He’d put a very drunk Dean to bed.",
+      "response": [
+        [
+          "bryn",
+          "…Right. You’ve got me there."
+        ],
+        [
+          "bryn",
+          "I wasn’t in bed by twelve. I did my drums again at gone half one, and then I went over to the farmhouse. Dean was on the stairs — he’d only just come in, and he couldn’t stand. I got him into bed and sat with him. When my phone went back to one I thought, smashing, another hour of this. A bit later I sent the chat that photo."
+        ],
+        [
+          "bryn",
+          "Then I went to sleep. Honestly."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_bryn_dean",
+          "st_bryn_sleep"
+        ]
+      }
+    },
+    {
+      "id": "c_bryn_sleep",
+      "statement": "st_bryn_sleep",
+      "proof": [
+        "bryn_bottle"
+      ],
+      "title": "Bryn was drinking in his car",
+      "insight": "Bryn didn’t sleep after his photo. From quarter past one, second time round, he sat in his car in the yard with a bottle, facing the steps. After the fall he saw someone come down from the top of the steps to Rhys, heard a phone ring, and watched them go back up.",
+      "response": [
+        [
+          "bryn",
+          "…Twelve years. Twelve years and four months."
+        ],
+        [
+          "bryn",
+          "I went out to the car at quarter past one. I keep a bottle in there — I always have, in case. I sat with the window down, facing the granary, and I drank it, and I kept the farmhouse door in my wing mirror in case anyone caught me."
+        ],
+        [
+          "bryn",
+          "I saw Rhys come out of the studio and go up the steps in the dark. Then a thump, and his watch going off, like a little car alarm. I ducked down — I had the bottle in my hand. When I looked again, somebody was coming down the steps from the top with a phone lit up. They bent over him. A phone rang, twice, and then they went back up the steps, fast. A door shut."
+        ],
+        [
+          "bryn",
+          "Nobody came out of that farmhouse until Carys, a few minutes later, screaming. I’ve been too ashamed to say."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_bryn_car",
+          "st_bryn_saw"
+        ]
+      }
+    },
+    {
+      "id": "c_carys_row",
+      "statement": "st_carys_fine",
+      "proof": [
+        "st_freya_heard"
+      ],
+      "title": "Carys and Rhys rowed about the song",
+      "insight": "On Saturday afternoon Rhys told Carys he was giving Dean half of ‘Small Hours’. They rowed, and she moved out of the granary. If Rhys had lived, she would have lost half of the songs she inherits.",
+      "response": [
+        [
+          "carys",
+          "…Freya heard that. Of course she did. Half the farm probably heard it."
+        ],
+        [
+          "carys",
+          "He told me after lunch. He was giving Dean half of ‘Small Hours’, back to the beginning, on Monday. Half our pension, half the house, for a guilty conscience. I said that, and worse. Then I took my bag to the farmhouse."
+        ],
+        [
+          "carys",
+          "The last real thing I said to my husband was that he was mad."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_carys_row"
+        ]
+      }
+    },
+    {
+      "id": "c_carys_debt",
+      "statement": "st_carys_nodebt",
+      "proof": [
+        "carys_loan"
+      ],
+      "title": "Carys owed Eddie £60,000",
+      "insight": "In April Eddie’s company lent Carys £60,000, to be repaid out of the sale. If the sale fell through, so would she, and so would Eddie, who had borrowed against it himself.",
+      "response": [
+        [
+          "carys",
+          "…My business went under in March. Eddie was kind. He lent me sixty thousand to clear it, out of ‘the Westwater money’, and I never told Rhys."
+        ],
+        [
+          "carys",
+          "He said he’d borrowed against the sale himself. Four hundred thousand, on his house. ‘If Monday goes wrong, Carys, we’re both on the street.’"
+        ],
+        [
+          "carys",
+          "So yes. I had every reason in the world to want that sale to happen. I didn’t kill my husband for it."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_carys_loan",
+          "st_carys_eddieloan"
+        ]
+      }
+    },
+    {
+      "id": "c_freya_sold",
+      "statement": "st_freya_nosale",
+      "proof": [
+        "tabloid_page"
+      ],
+      "title": "Freya sold the clip",
+      "insight": "The Banner says it got the video ‘from a member of the documentary crew’, and Freya is the whole crew. She sold the row to the paper before anyone knew Rhys was dead.",
+      "response": [
+        [
+          "freya",
+          "… ‘A member of the documentary crew.’ Thanks, lads."
+        ],
+        [
+          "freya",
+          "I cut the row into a clip that night and sent it to the Banner’s picture desk. Eight thousand pounds. My company’s broke, and a reunion bust-up is a reunion bust-up. I sent it before — before. I swear I sent it before."
+        ],
+        [
+          "freya",
+          "When they ran it on Monday with that headline, I was sick in the lounge bin."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_freya_sold"
+        ]
+      }
+    },
+    {
+      "id": "c_freya_asleep",
+      "statement": "st_freya_asleep",
+      "proof": [
+        "st_huw_glass"
+      ],
+      "title": "Freya was in the lounge",
+      "insight": "Freya wasn’t asleep. After the clocks went back she was in the lounge, in view of Huw, cutting the clip, and she saw Rhys leave. She has footage of the paramedics too, which she never gave the police.",
+      "response": [
+        [
+          "freya",
+          "…He could see me. Of course he could."
+        ],
+        [
+          "freya",
+          "I was in the lounge the whole time, cutting the clip, until I heard Carys scream. Huw was at his desk; I could see the back of his head through the side window all night. Rhys came through on his way out and said, ‘Night, Frey,’ and I said night without even looking up."
+        ],
+        [
+          "freya",
+          "And when the ambulance came I filmed it. The paramedics, Carys on the cobbles. I couldn’t stop myself. I didn’t give the police that one."
+        ],
+        [
+          "narrator",
+          "She opens the file on her laptop and turns it towards you."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "paramedic_footage"
+        ],
+        "statements": [
+          "st_freya_lounge"
+        ]
+      }
+    },
+    {
+      "id": "c_huw_light",
+      "statement": "st_huw_light",
+      "proof": [
+        "paramedic_footage",
+        "st_bryn_saw",
+        "st_freya_light"
+      ],
+      "title": "The landing was dark",
+      "insight": "The landing light wasn’t working that night. On Sunday morning Huw found the bulb loose in its holder and twisted it back before the police looked in daylight, to protect his studio.",
+      "response": [
+        [
+          "huw",
+          "…Duw. All right. It was dark up there. Black as your hat."
+        ],
+        [
+          "huw",
+          "Sunday morning, eight o’clock, I went up to look, and the bulb was loose in its holder. I thought it had shaken loose. No rail, and a dead light — the insurers would have closed me down and I’d have lost the lot."
+        ],
+        [
+          "huw",
+          "So I twisted it back before they came to look in the daylight, and told them it had been on all night. I’ve been sick about it since."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_huw_bulb"
+        ]
+      }
+    },
+    {
+      "id": "c_eddie_happy",
+      "statement": "st_eddie_happy",
+      "proof": [
+        "st_huw_overheard",
+        "letter_impression",
+        "st_carys_row",
+        "st_dean_promise",
+        "d_motive",
+        "rhys_interview"
+      ],
+      "title": "Rhys wasn’t going to sign",
+      "insight": "Rhys wasn’t happy with the sale. On Saturday he wrote to PRS to put Dean’s name on ‘Small Hours’, and told Eddie he wasn’t signing on Monday: ‘You’ll sink us both.’",
+      "response": [
+        [
+          "eddie",
+          "…All right. He had cold feet on Saturday. They all do, at the last minute, about everything. It’s my job to talk them down."
+        ],
+        [
+          "eddie",
+          "He’d have signed. Rhys always signed in the end."
+        ],
+        [
+          "eddie",
+          "And I’ll tell you what I told him: Dean played on that record, he didn’t write it. Thirty years of arguing doesn’t make it true."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_eddie_coldfeet"
+        ]
+      }
+    },
+    {
+      "id": "c_eddie_alibi",
+      "statement": "st_eddie_call",
+      "proof": [
+        "d_alibi"
+      ],
+      "title": "Eddie’s call was the first twenty to two",
+      "insight": "Eddie’s call was real, from twenty past one until five to two — in summer time, before the clocks went back. When Rhys fell, at 01:41 the second time round, Eddie had been alone in the granary for three quarters of an hour.",
+      "response": [
+        [
+          "eddie",
+          "…So I was on the call at the wrong twenty to two. Is that a crime now, being on a phone call?"
+        ],
+        [
+          "eddie",
+          "I said goodnight, I went up, and I went to sleep. I was exhausted. I’m sixty-one."
+        ],
+        [
+          "narrator",
+          "But for the first time, he doesn’t hold your eye."
+        ]
+      ]
+    },
+    {
+      "id": "c_eddie_bed",
+      "statement": "st_eddie_bed",
+      "proof": [
+        "dana_email",
+        "d_ringtone",
+        "nine_nine_nine",
+        "st_bryn_saw",
+        "d_landing"
+      ],
+      "title": "Eddie wasn’t asleep",
+      "insight": "At 18:43 in Los Angeles — 01:43 at Hafod, two minutes after the fall — Westwater’s lawyer rang Eddie, and he declined the call. The 999 line heard his ringtone beside Rhys’s body. He wasn’t asleep. He was at the bottom of the steps.",
+      "response": [
+        [
+          "eddie",
+          "…I declined a call. In my sleep. People do."
+        ],
+        [
+          "narrator",
+          "You tell him what the 999 line heard: someone breathing beside Rhys, two rings of the ‘Small Hours’ riff, then footsteps back up the stone steps and a door closing."
+        ],
+        [
+          "eddie",
+          "I’d like to speak to a solicitor now, please. I think that’s my right."
+        ]
+      ]
+    },
+    {
+      "id": "c_eddie_book",
+      "statement": "st_eddie_book",
+      "proof": [
+        "clasp"
+      ],
+      "title": "The book went into Eddie’s fire",
+      "insight": "Two brass corners from Rhys’s notebook, one stamped R M, were in the ash of the stove Eddie lit on Sunday morning. He took the book from Rhys’s pocket, and burned it.",
+      "response": [
+        [
+          "narrator",
+          "Eddie looks at the two scorched corners in your hand for a long time."
+        ],
+        [
+          "eddie",
+          "Thirty years of words. Do you know how many of them were mine? None. I just made sure people heard them."
+        ],
+        [
+          "narrator",
+          "He doesn’t say anything else."
+        ]
+      ]
+    }
+  ],
+  "deductions": [
+    {
+      "id": "d_fall",
+      "title": "From the top step",
+      "symbol": "stairs",
+      "question": "Where did Rhys fall from?",
+      "options": [
+        "From the bottom step, when Dean shoved him on the video",
+        "From the very top: backwards, down all fourteen steps",
+        "From halfway up, missing his footing in the dark",
+        "He didn’t fall: he was hit on the cobbles"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "post_mortem"
+        ],
+        [
+          "steps_scene"
+        ]
+      ],
+      "proofLabels": [
+        "How he was hurt",
+        "Where the fall began"
+      ],
+      "visibleWhen": {
+        "evidence": "steps_scene"
+      },
+      "conclusion": "Rhys went backwards down the whole flight: his skull was broken at the back, he was grazed by every step, and his phone and his blood are at the very top. The shove on Freya’s video was at the bottom step. Whoever pushed Rhys did it on the landing, fourteen steps above the place where Dean shoved him."
+    },
+    {
+      "id": "d_clocks",
+      "title": "One o’clock, twice",
+      "symbol": "clock.arrow.circlepath",
+      "question": "Why do the times on Huw’s take list run backwards?",
+      "options": [
+        "Take 7 was redone at the end and kept its old number",
+        "The computer’s clock jumped when the power flickered in the storm",
+        "Huw typed the times in by hand and got them muddled",
+        "The clocks went back at 2 a.m., so one o’clock came round twice"
+      ],
+      "answer": 3,
+      "proof": [
+        [
+          "take_list"
+        ],
+        [
+          "whiteboard",
+          "band_chat",
+          "aga_clock"
+        ]
+      ],
+      "proofLabels": [
+        "The times that run backwards",
+        "What happened at two o’clock"
+      ],
+      "visibleWhen": {
+        "evidence": "take_list"
+      },
+      "conclusion": "On Saturday night the clocks went back: at 2 a.m. summer time became 1 a.m. winter time. Every phone and computer at Hafod changed by itself and showed the hour from one to two twice. Take 7, at 01:38, was the first time round; Takes 8 and 9, at 01:06 and 01:24, the second. Anything that wasn’t changed by hand — Freya’s camera, the Aga — kept summer time all night."
+    },
+    {
+      "id": "d_camera",
+      "title": "A camera on summer time",
+      "symbol": "video.fill",
+      "question": "When did Freya film Dean shoving Rhys?",
+      "options": [
+        "At 01:22 — nineteen minutes before the fall",
+        "After the fall: her camera runs an hour slow",
+        "In the first one o’clock, before the clocks went back",
+        "On Friday night: the clip is from the night before"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "freya_camera",
+          "paramedic_footage"
+        ],
+        [
+          "tabloid_page",
+          "police_summary"
+        ]
+      ],
+      "proofLabels": [
+        "What Freya’s camera’s clock is set to",
+        "When the camera says the row was"
+      ],
+      "visibleWhen": {
+        "deduced": "d_clocks"
+      },
+      "conclusion": "Freya’s camera never went back: it is still on summer time today, an hour ahead. So its 01:22 is summer time, the first one o’clock. Dean shoved Rhys before the clocks went back — and if Rhys fell at 01:41 the second time round, the row was more than an hour before the fall."
+    },
+    {
+      "id": "d_alive",
+      "title": "The vocal of his life",
+      "symbol": "waveform",
+      "question": "Was Rhys alive after Dean left him at the steps?",
+      "options": [
+        "Yes: he sang two more takes after the clocks went back",
+        "No: he fell within minutes of the row",
+        "Yes: he walked on the hill until he fell",
+        "Yes, but only until twenty to two, the first time round"
+      ],
+      "answer": 0,
+      "proof": [
+        [
+          "take_list",
+          "lyric_sheet"
+        ],
+        [
+          "d_clocks",
+          "band_chat",
+          "st_freya_lounge"
+        ]
+      ],
+      "proofLabels": [
+        "What Rhys did after the row",
+        "Which one o’clock it was"
+      ],
+      "visibleWhen": {
+        "deduced": "d_clocks"
+      },
+      "conclusion": "After the row Rhys went back into the studio and sang Takes 8 and 9, both after the clocks went back. At 01:38, second time round, Huw told the band he had just sung ‘the vocal of his life’. Dean had left him at the steps in the first one o’clock. Rhys was alive, and singing, for more than an hour after the row."
+    },
+    {
+      "id": "d_nobody",
+      "title": "Nobody came out",
+      "symbol": "house.fill",
+      "question": "Could anyone have come out of the farmhouse when Rhys fell?",
+      "options": [
+        "Yes: Dean, once Bryn had gone out to his car",
+        "Yes: Carys, while Bryn was looking at the steps",
+        "Yes: Bryn himself, leaving his car",
+        "No: Bryn watched the door, and nobody came out until Carys"
+      ],
+      "answer": 3,
+      "proof": [
+        [
+          "st_bryn_car"
+        ],
+        [
+          "band_chat",
+          "st_bryn_dean",
+          "nine_nine_nine"
+        ]
+      ],
+      "proofLabels": [
+        "Who was watching the farmhouse door",
+        "Who was inside, and when"
+      ],
+      "visibleWhen": {
+        "resolved": "c_bryn_sleep"
+      },
+      "conclusion": "From quarter past one, after the clocks went back, Bryn sat in his car facing the yard. Dean was asleep inside — Bryn had photographed him at 01:12 — and nobody came out of the farmhouse until Carys ran out after the alarm. Whoever came down to Rhys came down the steps from the granary, and went back up."
+    },
+    {
+      "id": "d_motive",
+      "title": "His name on it",
+      "symbol": "signature",
+      "question": "What was Rhys going to do on Monday?",
+      "options": [
+        "Sign the sale of his songs, as planned",
+        "Announce the tour",
+        "Put Dean’s name beside his own on ‘Small Hours’",
+        "Leave the band again"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "letter_impression"
+        ],
+        [
+          "st_dean_promise",
+          "dean_tape",
+          "st_huw_overheard",
+          "st_carys_row"
+        ]
+      ],
+      "proofLabels": [
+        "What Rhys wrote",
+        "Who he told"
+      ],
+      "visibleWhen": {
+        "any": [
+          {
+            "resolved": "c_dean_song"
+          },
+          {
+            "resolved": "c_carys_row"
+          }
+        ]
+      },
+      "conclusion": "On Saturday afternoon Rhys wrote to PRS to make ‘Small Hours’ Pritchard/Morgan, fifty-fifty, from the beginning, and he meant to do it on Monday — the day the sale of his songs was due, with a promise in it that he was the only writer. Dean had every reason to keep Rhys alive. Somebody else had every reason not to."
+    },
+    {
+      "id": "d_alibi",
+      "title": "Two alibis, one wrong hour",
+      "symbol": "timer",
+      "question": "Whose phone call covered 01:41, the second time round, when Rhys fell?",
+      "options": [
+        "Both: Eddie’s and Carys’s calls each ran past 01:41",
+        "Neither: Eddie’s call and Carys’s call were both in the first one o’clock",
+        "Only Carys’s: Vancouver is eight hours behind, so her call came later",
+        "Only Eddie’s: Los Angeles logged his call until 5:55pm"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "st_huw_sequence",
+          "dana_email"
+        ],
+        [
+          "st_carys_sister"
+        ]
+      ],
+      "proofLabels": [
+        "When Eddie’s call was",
+        "When Carys’s call was"
+      ],
+      "visibleWhen": {
+        "deduced": "d_alive"
+      },
+      "conclusion": "Both calls were real, and both were in the first one o’clock. Eddie’s ran from twenty past one to five to two, summer time — 5:20 to 5:55 in Los Angeles — and he went up to bed before the clocks went back. Carys talked to her sister from half five to ten to six, Vancouver time, which that night was half past one to ten to two, summer time. When Rhys fell, at 01:41 the second time round, neither of them had an alibi at all."
+    },
+    {
+      "id": "d_landing",
+      "title": "A bulb loosened",
+      "symbol": "lightbulb.fill",
+      "question": "Why was the landing dark when Rhys climbed the steps?",
+      "options": [
+        "Someone on the landing loosened the bulb when the light came on for Eddie",
+        "The bulb blew when Eddie went up, and Huw replaced it on Sunday",
+        "Freya switched it off at the fuse box in her room",
+        "Rhys loosened it himself, because the light woke Carys"
+      ],
+      "answer": 0,
+      "proof": [
+        [
+          "landing_light",
+          "bulb",
+          "st_huw_bulb"
+        ],
+        [
+          "st_freya_light"
+        ]
+      ],
+      "proofLabels": [
+        "The light as it is now",
+        "The light that night"
+      ],
+      "visibleWhen": {
+        "statement": "st_freya_light"
+      },
+      "conclusion": "The landing light works perfectly, and stays on a full minute. That night it came on for Eddie, just before the clocks went back, went out almost at once, and never came on again, not even for Rhys. A quarter-turn of the bulb does that, and only from the landing, standing under the light. Somebody turned it at the moment Eddie went up to bed."
+    },
+    {
+      "id": "d_ringtone",
+      "title": "The riff",
+      "symbol": "phone.fill",
+      "question": "Whose phone rang beside Rhys after he fell?",
+      "options": [
+        "Rhys’s own phone, in his pocket",
+        "Bryn’s, from his car",
+        "Eddie’s: Los Angeles was ringing him back",
+        "Carys’s, as the ambulance service rang her"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "nine_nine_nine"
+        ],
+        [
+          "dana_email",
+          "st_eddie_ringtone"
+        ]
+      ],
+      "proofLabels": [
+        "What the 999 line heard",
+        "Whose phone plays that riff"
+      ],
+      "visibleWhen": {
+        "evidence": "nine_nine_nine"
+      },
+      "conclusion": "Two minutes after the fall, the open 999 line heard someone beside Rhys, then a phone ringing with the opening riff of ‘Small Hours’, then footsteps going back up the steps. At that moment — 6.43 in Los Angeles, 01:43 at Hafod — Westwater’s lawyer rang Eddie, and he declined the call. Eddie’s ringtone has been that riff since 1996."
+    }
+  ]
+}

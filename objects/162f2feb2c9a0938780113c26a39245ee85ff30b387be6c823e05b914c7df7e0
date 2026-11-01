@@ -1,0 +1,220 @@
+{
+  "evidence": [
+    {
+      "id": "police_report",
+      "category": "document",
+      "symbol": "cross.case.fill",
+      "name": "The border police report",
+      "summary": "Damjan Ristev was found dead in Compartment 6, which was genuinely bolted from inside.",
+      "detail": "Preliminary report by Inspector Stefan Jovic, Preševo rail border post, filed 02:38 on Saturday 13 November 2027.\n\nVictim: Damjan Ristev, 52, claims investigator.\nLocation: lower berth, Compartment 6, sleeping car 218.\nEstimated death: 00:10–00:35, subject to full examination.\nCause: internal bleeding from a single narrow puncture beneath the left shoulder. The injury would not necessarily cause immediate collapse.\n\nThe sliding door was closed and its privacy bolt was engaged from inside. Officers used the external emergency release, bending the bolt socket. The night window was latched. No weapon was found. Damjan’s wallet, watch and passport were present; a red document folio listed on his luggage card was not."
+    },
+    {
+      "id": "overnight_timetable",
+      "category": "document",
+      "symbol": "clock.badge",
+      "name": "The overnight timetable",
+      "summary": "Train 417 stood at Skopje for twenty-two minutes across midnight before continuing to the border.",
+      "detail": "International Night Train 417, Friday 12 November 2027. All entries use the clock displayed inside the carriage.\n\nGevgelija · 22:31\nVeles · 23:17\nSkopje · arrive 23:46 · depart 00:08\nKumanovo · arrive 00:42 · depart 00:45\nTabanovce border · arrive 01:07 · depart 01:24\nPreševo border · arrive 01:36 · scheduled depart 01:55\nVranje · 02:31\nBelgrade · 06:48\n\nSkopje was the only stop long enough for routine luggage unloading. Damjan was found at 01:52 while passports were being returned at Preševo."
+    },
+    {
+      "id": "berth_manifest",
+      "category": "document",
+      "symbol": "list.clipboard.fill",
+      "name": "The sleeping-car manifest",
+      "summary": "Elena is still marked aboard to Belgrade, while Nikola is correctly marked off at Kumanovo.",
+      "detail": "Sleeping car 218 · compartments occupied after Veles.\n\n2 · Dr. Hana Koleva · Belgrade · aboard\n3 · Mara Petreska · Belgrade · aboard\n4 · Petar Rusev · Belgrade · aboard\n5 · Nikola Danevski · Kumanovo · off 00:44\n6 · Damjan Ristev · Belgrade · aboard\n8 · Elena Danevska · Belgrade · aboard\n\nInternational procedure requires an early departure to be crossed through in red ink and reported at the next border. Elena’s line has no alteration. Her blue berth card and Belgrade wake-up request remain active."
+    },
+    {
+      "id": "attendant_statement",
+      "category": "witness",
+      "symbol": "person.crop.circle.badge.questionmark",
+      "name": "Emil’s first statement",
+      "summary": "Emil says no passenger left unexpectedly and that he found Damjan when returning passports at 01:52.",
+      "detail": "Statement by Emil Stojanov, sleeper attendant.\n\n‘I collected the Belgrade passengers’ passports after Veles and kept them in the numbered rack. At Skopje I worked the forward door while porters handled the rear. Anyone leaving early had to tell me, and I wrote every change on the manifest.\n\n‘Damjan did not ask for a wake-up. I passed Compartment 6 after Kumanovo and saw the red occupied light. At Preševo I knocked to return his passport. The privacy bolt was on and he did not answer, so I called border police and used the emergency release. Nobody had reported a call from his berth.’"
+    },
+    {
+      "id": "inside_bolt",
+      "category": "physical",
+      "symbol": "lock.fill",
+      "name": "The bloody inside bolt",
+      "summary": "Damjan’s own blood and left-thumb print are on the protected inner face of the privacy bolt.",
+      "detail": "Forensic examination of the Compartment 6 door.\n\nThe brass privacy bolt was fully seated before officers bent its socket with the emergency release. The outer edge carries fresh tool marks from that opening. The protected inner face carries a partial left-thumb print in Damjan Ristev’s blood. The smear runs in the direction used to push the bolt closed.\n\nNo thread, wire or foreign fibre is caught in the mechanism. The bolt could not be reached from the corridor once the sliding door was shut. Someone alive inside the compartment engaged it after Damjan began bleeding."
+    },
+    {
+      "id": "call_panel_log",
+      "category": "physical",
+      "symbol": "bell.and.waves.left.and.right.fill",
+      "name": "The failed berth call",
+      "summary": "Compartment 6 pressed its call button at 00:05, but a broken carriage wire kept the bell from reaching Emil.",
+      "detail": "Service readout from call panel 218-6.\n\n00:05:18 · COMP 6 CALL SWITCH CLOSED\n00:05:18 · FORWARD BELL CIRCUIT OPEN · SIGNAL NOT DELIVERED\n\nA wire fault had been entered in the carriage maintenance book at 22:58 after Compartment 7 tested its button. Emil reset the forward panel between 23:59 and 00:07 but did not repair the wire. The local red indicator in Compartment 6 remained lit.\n\nOnly a hand inside Compartment 6 could press this button. Damjan was alive and attempting to summon help at 00:05."
+    },
+    {
+      "id": "coat_damage",
+      "category": "physical",
+      "symbol": "jacket.fill",
+      "name": "Damjan’s damaged coat",
+      "summary": "The wound passed through Damjan’s coat from behind, and the blood pattern shows that he walked afterward.",
+      "detail": "The travelling coat has one narrow puncture below the left shoulder blade. The fibres are driven inward, consistent with an attack from behind or over Damjan’s left shoulder. There is no corresponding cut in the lower-berth upholstery.\n\nBlood soaked the inner lining around the wound, then formed a thinner downward run toward the left hem. Small transfer marks on the left cuff match the pressure of holding a folded cloth against the injury. The pattern is consistent with Damjan remaining upright and moving for several minutes before lying down."
+    },
+    {
+      "id": "missing_folio",
+      "category": "document",
+      "symbol": "folder.badge.minus",
+      "name": "The missing red folio",
+      "summary": "Damjan’s luggage inventory lists a red document folio that is absent from the locked compartment.",
+      "detail": "Damjan’s handwritten inventory, signed when he boarded at Gevgelija.\n\nLeather suitcase · 9.4 kg\nArchive box · checked cage · seal DR-17\nRed document folio · hand carried\nBlue railway envelope · private\n\nThe suitcase, archive box and personal effects are present. The red folio is missing. A diagonal red transfer mark on an index card in the dining car matches the dyed leather. Damjan’s cash, cards and watch were not taken, making the folio a more likely target than robbery."
+    },
+    {
+      "id": "sealed_report",
+      "category": "document",
+      "symbol": "envelope.fill",
+      "name": "Damjan’s sealed inquiry report",
+      "summary": "Damjan hid the original report behind the berth and warned that the 2011 survivor may have been recorded under the wrong sister’s name.",
+      "detail": "A report sealed in a blue sleeping-car ticket envelope and addressed to the Belgrade Civil Inquiry.\n\nDamjan writes that the 2011 fire investigation identified a body from its berth and luggage before medical records arrived. A later archive comparison suggests that the woman listed as the survivor may actually have been the sister listed as dead. He asks the inquiry to compare the original berth manifest, post-mortem dental chart and the sisters’ separate treatment records.\n\nThe final section concerns a foundation transfer made before the fire. Damjan writes: ‘If the identity is reversed, the transfer was not committed by a dead woman. The person who benefited has been signing the victim’s name ever since.’"
+    },
+    {
+      "id": "corridor_trace",
+      "category": "physical",
+      "symbol": "drop.triangle.fill",
+      "name": "The corridor blood trace",
+      "summary": "Small blood drops run from the rear vestibule toward Compartment 6 and decrease as they approach the door.",
+      "detail": "Oblique-light examination of the sleeper runner.\n\nTwelve tiny drops and two left-cuff transfers contain Damjan’s blood. The largest drop lies nearest the rear vestibule. The drops become smaller and farther apart toward Compartment 6, ending at its door track. No matching trail continues forward toward the dining car.\n\nA clean rectangular interruption beside the linen cupboard contains moisture and lemon soap. The direction of travel is from the rear vestibule to Damjan’s compartment."
+    },
+    {
+      "id": "linen_towel",
+      "category": "physical",
+      "symbol": "square.fill.text.grid.1x2",
+      "name": "The service towel",
+      "summary": "A towel in the service laundry carries Damjan’s blood and explains the wiped section of corridor.",
+      "detail": "A white hand towel recovered from the sleeper’s laundry sack.\n\nThe diluted brown streaks contain Damjan’s blood. The damp edge contains the same lemon soap used at the dining-car sink. A porter initialled the laundry slip at 00:14 and later said he wiped what looked like spilled red wine beside Compartment 7 shortly after the Skopje departure.\n\nThe towel did not create the trail. It removed one short section of a trail already leading from the rear of the car toward Compartment 6."
+    },
+    {
+      "id": "berth_cards",
+      "category": "document",
+      "symbol": "rectangle.stack.badge.person.crop",
+      "name": "The blue berth cards",
+      "summary": "Elena’s card remains in the aboard position even though its edge was lifted during the Skopje stop.",
+      "detail": "Sleeping-car berth cards are blue while a passenger is aboard and turned white when the berth becomes vacant.\n\nCompartment 5 · NIKOLA DANEVSKI · KUMANOVO · card turned white and time-stamped 00:44.\nCompartment 8 · ELENA DANEVSKA · BELGRADE · card still blue.\n\nThe lower edge of Elena’s card has a fresh diagonal crease and a graphite thumb mark matching Emil’s manifest pencil. Someone handled the card at Skopje, then pushed it back into the blue aboard position instead of recording an early departure."
+    },
+    {
+      "id": "carriage_plan",
+      "category": "document",
+      "symbol": "map.fill",
+      "name": "The sleeping-car plan",
+      "summary": "Compartment 6 is seven metres from the rear vestibule and has no route except the corridor.",
+      "detail": "Emergency diagram for sleeping car 218.\n\nForward end: dining-car connection, attendant office, Compartments 1–4.\nMid-car: Compartments 5–8 and service-linen cupboard.\nRear end: steel vestibule and platform door, followed by a sealed luggage van.\n\nCompartment 6 is seven metres from the rear vestibule. The night window opens only eight centimetres for ventilation. There are no connecting compartment doors, maintenance hatches large enough for a person or roof access points. The corridor is the only human route between the compartment and vestibule."
+    },
+    {
+      "id": "vestibule_blood",
+      "category": "physical",
+      "symbol": "drop.fill",
+      "name": "Blood in the rear vestibule",
+      "summary": "Damjan’s blood begins beside the Skopje platform door and transfers to the handrail leading into the corridor.",
+      "detail": "One round drop of Damjan’s blood sits in the protected groove of the rear platform threshold. A longer left-hand smear marks the corridor-side rail at shoulder height. Both are older than the damp air deposited after the train left Skopje.\n\nA short grey wool fibre is caught under the steel rail bracket. It does not match Damjan’s dark coat. The blood placement is consistent with Damjan turning away from the platform door, steadying himself with his left hand and entering the sleeper corridor."
+    },
+    {
+      "id": "door_log",
+      "category": "document",
+      "symbol": "door.left.hand.open",
+      "name": "The rear platform-door log",
+      "summary": "The rear sleeper door stayed open from 23:47 until 00:07 during the Skopje stop.",
+      "detail": "Automatic latch events, rear door, sleeping car 218.\n\n23:47:03 · opened · SKOPJE platform side\n23:50:11 · luggage interlock released\n00:04:26 · luggage interlock secured\n00:07:31 · closed\n00:08:04 · traction enabled\n\nThe door did not open at Kumanovo because that station used the forward sleeper door. It remained locked at Tabanovce and Preševo until border police arrived. The rear vestibule offered an exit only during the twenty-minute Skopje window."
+    },
+    {
+      "id": "platform_image",
+      "category": "document",
+      "symbol": "camera.fill",
+      "name": "The Skopje platform image",
+      "summary": "At 00:06, Elena leaves through the rear sleeper door carrying a small suitcase and Damjan’s red folio.",
+      "detail": "Still frames from Platform Camera 4, synchronised to the station clock.\n\n00:05:54 · Elena Danevska appears in the rear doorway wearing a grey wool coat.\n00:06:02 · she steps onto the platform with a small wheeled suitcase.\n00:06:05 · a red leather document folio is visible beneath her left arm.\n00:06:19 · she turns toward the south exit rather than the Belgrade end of the train.\n\nThe face is unobstructed and matches Elena’s passport photograph. The folio has the same brass corner and diagonal scuff listed in Damjan’s luggage inventory."
+    },
+    {
+      "id": "awl_recovery",
+      "category": "physical",
+      "symbol": "wrench.adjustable.fill",
+      "name": "The recovered cataloguing awl",
+      "summary": "A narrow awl from Damjan’s folio was discarded in a Skopje platform bin with his blood on its point.",
+      "detail": "Skopje station police recovery report, 02:11.\n\nA folding steel cataloguing awl was found beneath paper cups in the bin opposite sleeping car 218. Damjan used the tool to lift old staples and wax seals; its serial number appears in a photograph of his open red folio.\n\nThe point carries Damjan’s blood. The handle was wiped, but a short grey wool fibre with a burgundy thread remains beneath the hinge. The fibre is consistent with the coat Elena wears in the 00:06 platform image."
+    },
+    {
+      "id": "dining_receipts",
+      "category": "document",
+      "symbol": "cup.and.saucer.fill",
+      "name": "The dining-car receipts",
+      "summary": "Damjan and Elena shared tea at 23:41, while Hana and Mara remained together until the Skopje departure call.",
+      "detail": "Last service receipts before the border.\n\n23:41 · Table 4 · two mountain teas · paid D. Ristev\n23:48 · Table 2 · coffee, mineral water, cheese plate · paid M. Petreska\n00:07 · Table 2 closed by server after departure announcement\n\nThe server remembers Damjan and Elena speaking quietly until the Skopje arrival. Elena asked which sleeper door would open beside the south exit. Hana and Mara remained at Table 2, arguing over the wording of the old identification form, until the departure announcement."
+    },
+    {
+      "id": "meeting_note",
+      "category": "document",
+      "symbol": "note.text",
+      "name": "Damjan’s meeting card",
+      "summary": "Damjan arranged to meet ‘E.D.’ in the rear vestibule for five minutes during the Skopje stop.",
+      "detail": "Index card recovered beneath the napkin at Table Four.\n\n‘E.D. — rear vestibule — five minutes when Skopje opens.\nNo bargain. Report remains sealed until 08:00.\nAsk again about transfer authorisation and Mila’s dental envelope.’\n\nA diagonal red mark along the card’s edge matches the dyed leather of Damjan’s missing folio. The note places his planned private meeting at the same end of the carriage where his blood trail begins."
+    },
+    {
+      "id": "mara_notes",
+      "category": "document",
+      "symbol": "newspaper.fill",
+      "name": "Mara’s commission notebook",
+      "summary": "Mara funded Damjan’s research and planned to publish the identity question after he confirmed the dental evidence.",
+      "detail": "Notebook and bank receipt from Mara Petreska’s pouch.\n\nTransfer: €2,400 to Damjan Ristev · research expenses · 3 August 2027.\nArticle outline: ‘The Woman Who Left Berth 10.’\nNotes: ‘Passenger list says one sister. Teeth may say the other. Do not publish name until D.R. confirms. H.K. admits the 2011 chart was provisional.’\n\nMara concealed a formal working relationship, not a chance conversation. Her dining receipt and Hana’s account place her at Table Two when Damjan went to the rear vestibule."
+    },
+    {
+      "id": "passport_envelope",
+      "category": "document",
+      "symbol": "person.text.rectangle.fill",
+      "name": "Elena’s empty passport envelope",
+      "summary": "Emil returned Elena’s passport at 23:50, sixteen minutes before the platform camera recorded her departure.",
+      "detail": "Sleeper passport envelope 8 · ELENA DANEVSKA · BELGRADE.\n\nThe envelope is empty. On the back, Emil wrote in pencil: ‘returned SKP 23:50 — passenger request.’ The international manifest contains no matching early-departure entry. Other Belgrade passports remained sealed in the rack until Preševo.\n\nElena could not lawfully cross the station exit without her passport. Emil prepared her departure before Damjan’s vestibule meeting began."
+    },
+    {
+      "id": "cash_count",
+      "category": "physical",
+      "symbol": "banknote.fill",
+      "name": "The unexplained €100",
+      "summary": "Emil’s shift cash is €100 over the documented railway receipts, folded apart in his private pouch.",
+      "detail": "Cash reconciliation from Emil’s office.\n\nRailway sales and supplements: €286\nCash in official wallet: €286\nCash in private pouch: one €100 note, folded twice\n\nThe note carries Elena’s right-thumb print and Emil’s left-thumb print. Emil initially described it as a tip from a group that left at Veles, but no group in his car bought a supplement or signed a tip receipt. The money explains why an early departure was hidden rather than properly entered."
+    },
+    {
+      "id": "baggage_receipt",
+      "category": "document",
+      "symbol": "suitcase.rolling.fill",
+      "name": "The Skopje baggage slip",
+      "summary": "Elena’s suitcase was unloaded at 00:04 despite carrying a printed Belgrade destination tag.",
+      "detail": "Carbon copy from the Skopje night porter.\n\nCar 218 · Compartment 8 · one grey wheeled suitcase\nPrinted destination: BELGRADE\nRemoved: SKOPJE · 00:04\nHandwritten reason: ‘passenger ill — remove here’\nAuthorising signature: blank\n\nThe porter remembers a woman in a grey coat waiting near the rear door and an attendant saying the paperwork would be corrected later. The manifest was never corrected."
+    },
+    {
+      "id": "old_manifest",
+      "category": "document",
+      "symbol": "doc.text.magnifyingglass",
+      "name": "The 2011 fire manifest",
+      "summary": "Elena had Berth 9 and Mila Berth 10, but the body in Berth 10 was identified before dental records arrived.",
+      "detail": "Night Service 312 · 4 February 2011 · sleeping car after the Demir Kapija fire.\n\nBerth 9 · Elena Danevska · age 27 · listed survivor\nBerth 10 · Mila Danevska · age 19 · listed deceased\n\nFirst identification note: ‘Female body recovered from Berth 10. Damaged luggage tag M. DANEVSKA. Survivor presents Elena Danevska passport. Identity accepted pending dental comparison.’\n\nThe final line was never completed. A wiring appendix says the carriage alarm circuit failed before smoke reached the corridor, clearing the attendant of causing the fire but not of the delayed evacuation."
+    },
+    {
+      "id": "dental_chart",
+      "category": "document",
+      "symbol": "stethoscope",
+      "name": "The sisters’ dental records",
+      "summary": "The dead woman had Elena’s uniquely numbered crown; Mila’s chart shows that tooth had never been treated.",
+      "detail": "Three records compared by Dr. Hana Koleva in October 2027.\n\nElena Danevska, 2009: porcelain crown on lower left molar, laboratory number PK-4417, secured with a short gold retaining pin.\nMila Danevska, 2010: natural lower left molar, no crown and no gold dental work.\nBody from Berth 10: porcelain crown on lower left molar, PK-4417 visible beneath heat damage, with gold retaining pin intact.\n\nLaboratory number PK-4417 was made for Elena. The body identified as Mila was Elena. The person who survived the fire under Elena’s name was Mila."
+    },
+    {
+      "id": "foundation_ledger",
+      "category": "document",
+      "symbol": "building.columns.fill",
+      "name": "The foundation transfer ledger",
+      "summary": "Before the fire, Mila forged Elena’s signature to divert €180,000 and the loss was later assigned to the sister declared dead.",
+      "detail": "Danevski Relief Foundation audit file, January–March 2011.\n\n28 January · €180,000 transferred to North Bridge Supplies using Elena Danevska’s authorisation.\n31 January · Elena disputes the signature and schedules a meeting with foundation counsel in Belgrade.\n4 February · Elena and Mila board Night Service 312.\n11 February · surviving director ‘Elena’ states that Mila forged the transfer and died in the fire.\n\nA handwriting review matches the transfer signature to Mila’s school and bank forms. North Bridge Supplies was controlled by Mila’s boyfriend. The identity error turned the suspected forger into the dead sister and placed the foundation in the survivor’s control."
+    },
+    {
+      "id": "insurance_record",
+      "category": "document",
+      "symbol": "signature",
+      "name": "The 2012 insurance settlement",
+      "summary": "The survivor and Nikola received the family settlement under an agreement that allowed the identification to be reopened.",
+      "detail": "Final settlement following the Demir Kapija fire.\n\nBeneficiaries: Elena Danevska, survivor; Nikola Danevski, next of kin.\nPayment: family loss, medical treatment and destroyed luggage.\nSpecial clause: ‘Identification remains subject to correction if original medical evidence becomes available.’\n\nNikola signed beneath the clause. A handwritten note from Damjan says Nikola asked whether a later correction would require repayment. The record gives Nikola a reason to fear the inquiry, but it also confirms his declared Kumanovo ticket and contains no connection to the Skopje platform exit."
+    }
+  ]
+}

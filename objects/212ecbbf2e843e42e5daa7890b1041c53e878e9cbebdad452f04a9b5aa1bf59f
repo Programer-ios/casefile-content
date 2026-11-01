@@ -1,0 +1,375 @@
+{
+  "topics": [
+    {
+      "id": "t_iris_archive",
+      "suspect": "iris",
+      "prompt": "Where were you after the Vesper meeting?",
+      "lines": [
+        [
+          "you",
+          "Iris, where were you after Felix left?"
+        ],
+        [
+          "iris",
+          "In the archive. Marcus wanted the rights schedule checked before the announcement, and I was the person who could do it."
+        ],
+        [
+          "iris",
+          "I stayed there until I heard Ben shout from Studio B. I did not go into either studio. The archive has enough work in it without borrowing somebody else’s crisis."
+        ],
+        [
+          "iris",
+          "The scanner records my work. So does the door. If you want an alibi, start with the machines."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_iris_archive"
+        ]
+      }
+    },
+    {
+      "id": "t_iris_rights",
+      "suspect": "iris",
+      "prompt": "Tell me about Clearwater Rights.",
+      "visibleWhen": {
+        "evidence": "rights_ledger"
+      },
+      "lines": [
+        [
+          "you",
+          "The ledger has Clearwater Rights taking seventeen percent of the archive income. What was that?"
+        ],
+        [
+          "iris",
+          "A catalogue administration arrangement. Rookery is a small company; we outsource specialist work when we need it."
+        ],
+        [
+          "iris",
+          "The Vesper team had the schedule. Marcus knew the arrangement existed. It was not a secret, and it was not my private account."
+        ],
+        [
+          "iris",
+          "I spent Friday making sure the archive was ready for disclosure. That is what the rights department does."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_iris_clearwater"
+        ]
+      }
+    },
+    {
+      "id": "t_iris_key",
+      "suspect": "iris",
+      "prompt": "What happened to Master B?",
+      "visibleWhen": {
+        "evidence": "key_register"
+      },
+      "lines": [
+        [
+          "you",
+          "The register says you signed out Master B. Where is it now?"
+        ],
+        [
+          "iris",
+          "In the archive door, I thought. I was carrying a stack of files and must have left it there when I went back to the desk."
+        ],
+        [
+          "iris",
+          "I did not use it on Studio B. I have no reason to enter a recording room during a rights audit."
+        ],
+        [
+          "iris",
+          "Marcus was alive the last time I saw him. He was angry about the sale, but he was not in danger from me."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_iris_key"
+        ]
+      }
+    },
+    {
+      "id": "t_tom_show",
+      "suspect": "tom",
+      "prompt": "Where were you when your programme began?",
+      "lines": [
+        [
+          "you",
+          "Tom, where were you when Rookery After Dark began?"
+        ],
+        [
+          "tom",
+          "In Studio A, where I always am. I did the opening live, took a caller, and settled into the show."
+        ],
+        [
+          "tom",
+          "Marcus had just spent an hour telling me the sale would make me replaceable. I went on air and did my job. That is the part of the night I can prove."
+        ],
+        [
+          "tom",
+          "You heard me, didn’t you? The whole quay did."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_tom_live"
+        ]
+      }
+    },
+    {
+      "id": "t_tom_marcus",
+      "suspect": "tom",
+      "prompt": "What did you argue about?",
+      "lines": [
+        [
+          "you",
+          "What did you and Marcus argue about at 20:35?"
+        ],
+        [
+          "tom",
+          "My contract. Vesper wanted to fold the show into a national network and call it a cost saving. Marcus said he’d protect my slot. He said a lot of things."
+        ],
+        [
+          "tom",
+          "I told him he could sell the building, but he couldn’t sell my voice. It sounded good in the moment. It sounds awful now."
+        ],
+        [
+          "tom",
+          "Then I left him to meet Felix and went across the quay. I did not touch Marcus."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_tom_argument"
+        ]
+      }
+    },
+    {
+      "id": "t_anika_departure",
+      "suspect": "anika",
+      "prompt": "When did you leave?",
+      "lines": [
+        [
+          "you",
+          "Anika, when did you leave Rookery?"
+        ],
+        [
+          "anika",
+          "Just after nine. Marcus told me the announcement might be delayed, and I had a train to catch. I locked the staff door behind me."
+        ],
+        [
+          "anika",
+          "I was at the station before half past nine. I did not come back, and I did not know Marcus was dead until Clare called."
+        ],
+        [
+          "anika",
+          "If you want to check, check the door and the taxi. I am tired of being the responsible person who looks guilty because she keeps the receipts."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_anika_left"
+        ]
+      }
+    },
+    {
+      "id": "t_anika_sale",
+      "suspect": "anika",
+      "prompt": "Why was Marcus delaying the sale?",
+      "lines": [
+        [
+          "you",
+          "Why was Marcus suddenly talking about stopping the sale?"
+        ],
+        [
+          "anika",
+          "Because he found a clause he didn’t like. Marcus could turn one bad line in a contract into a personal insult."
+        ],
+        [
+          "anika",
+          "I told him to send it to the lawyers. He said the lawyers had been sent everything except the truth. That was Marcus: a sentence, a storm, and no paperwork."
+        ],
+        [
+          "anika",
+          "I needed the sale to close. So did he. Rookery has been living from invoice to invoice for a year."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_anika_marcus"
+        ]
+      }
+    },
+    {
+      "id": "t_ben_night",
+      "suspect": "ben",
+      "prompt": "What were you doing at 22:30?",
+      "lines": [
+        [
+          "you",
+          "Ben, what were you doing when Marcus was killed?"
+        ],
+        [
+          "ben",
+          "In the control room, mostly. I was checking the rack and waiting to see if the fallback would behave. At 22:30 I went to Studio B and found him."
+        ],
+        [
+          "ben",
+          "I called the police from reception. I didn’t move anything except the door, because I thought the room needed air."
+        ],
+        [
+          "ben",
+          "The camera will show me running in. It won’t show what happened before that. Nobody was in the corridor when I checked the monitor."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_ben_control"
+        ]
+      }
+    },
+    {
+      "id": "t_ben_fallback",
+      "suspect": "ben",
+      "prompt": "Why was the fallback running?",
+      "lines": [
+        [
+          "you",
+          "Why was Auto-Rescue armed for Tom’s show?"
+        ],
+        [
+          "ben",
+          "It had a fault. I repaired the input but didn’t trust it until I could replace the card on Monday."
+        ],
+        [
+          "ben",
+          "Fallback is normal. It plays a recorded opening if the microphone drops. I didn’t realise it would run the whole opening without a live check."
+        ],
+        [
+          "ben",
+          "I should have put a warning on the schedule. I did put one on the ticket. That is the kind of mistake that gets you fired, not arrested."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_ben_auto"
+        ]
+      }
+    },
+    {
+      "id": "t_felix_visit",
+      "suspect": "felix",
+      "prompt": "When did you leave Rookery?",
+      "lines": [
+        [
+          "you",
+          "Felix, when did you leave your meeting with Marcus?"
+        ],
+        [
+          "felix",
+          "At twenty to nine. We had agreed the announcement would go ahead. Marcus was difficult, but he had not walked away from eighteen million pounds."
+        ],
+        [
+          "felix",
+          "I went straight to the Brighton Marine. I had a room booked there and a call with London at ten."
+        ],
+        [
+          "felix",
+          "I never saw Marcus after I left the warehouse. If he changed his mind, he did it after I was gone."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_felix_left"
+        ]
+      }
+    },
+    {
+      "id": "t_felix_sale",
+      "suspect": "felix",
+      "prompt": "What was in the sale agreement?",
+      "lines": [
+        [
+          "you",
+          "What did Clause 7.3 require before Vesper could buy Rookery?"
+        ],
+        [
+          "felix",
+          "A clean archive. No undisclosed claims on the catalogue income. Standard acquisition language."
+        ],
+        [
+          "felix",
+          "Marcus had accepted the clean-archive clause. If he had a problem with an outside arrangement, he should have raised it in the data room. Vesper does not kill sellers; we walk away from them."
+        ],
+        [
+          "felix",
+          "I wanted the announcement at midnight because the market wanted it. That is pressure, not a murder weapon."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_felix_deal"
+        ]
+      }
+    }
+  ],
+  "statements": [
+    {
+      "id": "st_iris_archive",
+      "suspect": "iris",
+      "text": "I stayed in the archive from after the Vesper meeting until Ben shouted from Studio B."
+    },
+    {
+      "id": "st_iris_clearwater",
+      "suspect": "iris",
+      "text": "Clearwater Rights was a routine catalogue administration arrangement, not my private account."
+    },
+    {
+      "id": "st_iris_key",
+      "suspect": "iris",
+      "text": "I left Master B in the archive door and never used it on Studio B."
+    },
+    {
+      "id": "st_tom_live",
+      "suspect": "tom",
+      "text": "I was live in Studio A when Rookery After Dark began at 23:00."
+    },
+    {
+      "id": "st_tom_argument",
+      "suspect": "tom",
+      "text": "I told Marcus he could sell the building, but he could not sell my voice."
+    },
+    {
+      "id": "st_anika_left",
+      "suspect": "anika",
+      "text": "I left Rookery just after nine and did not come back."
+    },
+    {
+      "id": "st_anika_marcus",
+      "suspect": "anika",
+      "text": "Marcus delayed the sale because he found a clause he did not like."
+    },
+    {
+      "id": "st_ben_control",
+      "suspect": "ben",
+      "text": "I was in the control room until I found Marcus at 22:30."
+    },
+    {
+      "id": "st_ben_auto",
+      "suspect": "ben",
+      "text": "I didn’t realise Auto-Rescue could make Tom sound live without a live check."
+    },
+    {
+      "id": "st_felix_left",
+      "suspect": "felix",
+      "text": "I left Rookery before nine and went straight to my hotel."
+    },
+    {
+      "id": "st_felix_deal",
+      "suspect": "felix",
+      "text": "The sale required a clean archive with no undisclosed claim on its income."
+    }
+  ]
+}

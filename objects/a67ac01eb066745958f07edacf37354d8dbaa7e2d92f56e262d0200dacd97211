@@ -1,0 +1,196 @@
+{
+  "evidence": [
+    {
+      "id": "constable_notes",
+      "category": "document",
+      "symbol": "list.clipboard.fill",
+      "name": "Constable Pike’s notes",
+      "summary": "The night’s events as the constable has them.",
+      "detail": "Saturday 17 November. Heavy rain from 9 pm.\n\n7.30 pm — Dinner. Present: the deceased, Mrs. Margaret Thorne, Mr. Daniel Thorne, Miss Eleanor Voss, Mr. Gerald Finch, Dr. Felix Harrow. Butler A. Hobbs serving.\n8.45 pm — Quarrel between deceased and son. Son heard to say ‘I’d sooner see you in your grave.’\n9.00 pm — Deceased retires to study. Not to be disturbed until the midnight toast.\n10.00 pm — Bridge in drawing room until 11.05.\n10.15 pm — Butler hears deceased dictating through study door.\n10.45 pm — Housemaid sees son leave the study.\n11.10 pm — Butler finds deceased slumped at desk. Wound to left temple; bronze bookend on floor. Dr. Harrow: dead ‘within the hour’.\n11.15 pm — Telephone line found dead (storm).\n12.30 am — Study sealed by me.\n\n— Const. R. Pike"
+    },
+    {
+      "id": "maid_statement",
+      "category": "witness",
+      "symbol": "person.text.rectangle.fill",
+      "name": "Statement of Rosie Dunn",
+      "summary": "The housemaid: Daniel never left the billiards room; Eleanor’s office was empty at 9.40.",
+      "detail": "Statement of Rosie Dunn, housemaid, taken by Const. Pike:\n\n‘From half past nine I was up and down to the billiards room — Mr. Daniel kept ringing for soda and ice. Until gone ten he never left that room, sir; he was in no fit state to.\n\nAt twenty to ten I looked in at Miss Voss’s office to make up her fire. Nobody there — lamp off, the typewriter under its cover.\n\nAt a quarter to eleven I saw Mr. Daniel come out of the study, white as a sheet.’"
+    },
+    {
+      "id": "cook_statement",
+      "category": "witness",
+      "symbol": "fork.knife",
+      "name": "Statement of Mrs. Bell",
+      "summary": "The cook: Hobbs was in the servants’ hall from 9.30, apart from two minutes at 10.15.",
+      "detail": "Statement of Mrs. Bell, cook, taken by Const. Pike:\n\n‘Mr. Hobbs came down at half past nine and had his supper with me in the servants’ hall. At a quarter past ten he went up to see to the study fire and was back inside two minutes, saying the master was dictating and not to be disturbed. He never stirred again until Mrs. Thorne rang for him at ten past eleven.’"
+    },
+    {
+      "id": "bronze_bookend",
+      "category": "physical",
+      "symbol": "figure.equestrian.sports",
+      "name": "Bronze bookend",
+      "summary": "Blood on one corner — and Daniel’s fingerprints.",
+      "detail": "A heavy bronze horse, one of a pair, tagged by Constable Pike. There is a little blood on one corner. Pike has dusted it and compared the prints, roughly, against the whisky glass Daniel left in the billiards room: ‘His, near as makes no odds.’\n\nFor a fatal blow, the wound it supposedly made was a small one. It barely bled."
+    },
+    {
+      "id": "whisky_glass",
+      "category": "physical",
+      "symbol": "wineglass.fill",
+      "name": "Polished whisky glass",
+      "summary": "Spotless and dry, though a measure is gone from the decanter.",
+      "detail": "A cut-glass tumbler on the desk, polished spotless and bone dry — not so much as a fingerprint on it. Yet the decanter beside it is a good measure down from where Hobbs filled it before dinner.\n\nLionel poured himself a drink. Someone tidied up afterwards."
+    },
+    {
+      "id": "pill_box",
+      "category": "physical",
+      "symbol": "pills.fill",
+      "name": "Silver pill box",
+      "summary": "Saturday’s tablet was never taken.",
+      "detail": "A silver pill box with seven little lids, engraved with the days of the week. Each holds one digitalis tablet.\n\nSunday’s tablet is there — and so is Saturday’s."
+    },
+    {
+      "id": "calder_invoice",
+      "category": "document",
+      "symbol": "doc.text.fill",
+      "name": "Calder & Rowe invoice",
+      "summary": "Ringed in red by Lionel, with a question mark.",
+      "detail": "An invoice from ‘Calder & Rowe Supplies — Brass Fittings, Birmingham’ for £1,140, marked paid. Lionel has ringed the total in red pencil and added a question mark.\n\nThe typing is slightly uneven: one letter sits high and prints faint wherever it appears."
+    },
+    {
+      "id": "desk_diary",
+      "category": "document",
+      "symbol": "book.closed.fill",
+      "name": "Lionel’s desk diary",
+      "summary": "Monday: the audit at ten, the new will at three.",
+      "detail": "THU 15 — Hartley’s offer: declined (dictated). Calder & Rowe?? No such firm in the trade directory.\n\nSAT 17 — Toast at midnight. Clear the decks.\n\nMON 19 — 10.00 Pemberton & Co.: full audit of the books. 3.00 Osgood: new will."
+    },
+    {
+      "id": "finch_note",
+      "category": "document",
+      "symbol": "envelope.fill",
+      "name": "Unsent note to Finch",
+      "summary": "Lionel knew about Finch’s dealings with Hartley.",
+      "detail": "Folded in the desk drawer, a note in Lionel’s hand, never sent:\n\n‘Gerald — I know about Hartley. Resign quietly before the toast, or I shall announce it for you at midnight. — L.’"
+    },
+    {
+      "id": "unplugged_lamp",
+      "category": "physical",
+      "symbol": "lamp.desk.fill",
+      "name": "Unplugged desk lamp",
+      "summary": "Switched on but dark. Its socket holds the recorder’s flex instead.",
+      "detail": "The green-shaded desk lamp is switched on — but dark. Its plug lies on the carpet behind the desk.\n\nThe only socket back there, hidden from the door by the desk, holds the tape recorder’s flex, which has been run all the way across the room."
+    },
+    {
+      "id": "tape_recorder",
+      "category": "physical",
+      "symbol": "recordingtape",
+      "name": "Tape recorder",
+      "summary": "Holds a reel labelled ‘15 NOV — HARTLEY’, plugged in across the room.",
+      "detail": "A Grundig reel-to-reel on the side table by the bookcase. The reel is labelled ‘15 NOV — HARTLEY / BANK / MISC’ in a neat hand, and is wound about a third of the way through.\n\nOddly, the flex isn’t plugged into the socket right beside it. It runs across the carpet to the socket behind the desk."
+    },
+    {
+      "id": "wilted_fern",
+      "category": "physical",
+      "symbol": "leaf.fill",
+      "name": "Wilted fern",
+      "summary": "Collapsed overnight; the soil smells of bitter almonds.",
+      "detail": "The potted fern beside the desk has collapsed overnight, its fronds browning at the tips. The soil is damp — someone has poured something into it — and when you lean close it gives off a faint, sweetish smell of bitter almonds."
+    },
+    {
+      "id": "burnt_iou",
+      "category": "document",
+      "symbol": "flame.fill",
+      "name": "Burnt IOU",
+      "summary": "A charred scrap: ‘…£3,000… Daniel Thorne’.",
+      "detail": "Among the ashes of the study fire, a charred scrap that didn’t quite burn: ‘…promise to pay… the sum of £3,000… Daniel Thorne’.\n\nIt lies on top of the ash, not under it. It was thrown on the fire late in the evening, after the fire had died down."
+    },
+    {
+      "id": "bridge_scorepad",
+      "category": "document",
+      "symbol": "suit.spade.fill",
+      "name": "Bridge score pad",
+      "summary": "Bridge from 10.00 to 11.05: Margaret and Harrow against Eleanor and Finch.",
+      "detail": "The score pad from last night’s game: ‘Rubber 1 — 10.00’. Partners M.T. & F.H. against E.V. & G.F. Three rubbers; the last entry is timed 11.05.\n\nFor the hour after ten o’clock, four people gave each other an alibi."
+    },
+    {
+      "id": "love_note",
+      "category": "document",
+      "symbol": "envelope.open.fill",
+      "name": "Note in the sewing basket",
+      "summary": "‘The conservatory at half past nine… Burn this. — F.’",
+      "detail": "Folded small and tucked beneath the embroidery silks in Margaret’s sewing basket:\n\n‘My darling M — the conservatory at half past nine, while they’re all at their brandy. Burn this. — F.’"
+    },
+    {
+      "id": "phone_pad",
+      "category": "document",
+      "symbol": "phone.fill",
+      "name": "Telephone pad impression",
+      "summary": "A 19-minute call to WHItehall 4021, booked at 9.32 by ‘G.F.’",
+      "detail": "The top sheet of the telephone pad has been torn away, but the pencil pressed through. Shading the sheet beneath lightly brings it back:\n\n‘Hartley — WHI 4021 — booked 9.32 — 19 min — 4s 9d — G.F.’"
+    },
+    {
+      "id": "time_switch",
+      "category": "physical",
+      "symbol": "timer",
+      "name": "Clockwork time switch",
+      "summary": "Hidden in the telephone drawer. Set to switch ON at 10.14 and OFF at 10.22.",
+      "detail": "Wedged beneath the directory in the telephone-table drawer: a clockwork time switch, the kind used to light lamps while a house stands empty.\n\nIts dial tappets are set: ON at 10.14 pm, OFF at 10.22 pm."
+    },
+    {
+      "id": "rabbit_poison",
+      "category": "physical",
+      "symbol": "hare.fill",
+      "name": "Tin of rabbit poison",
+      "summary": "Vermitox cyanide powder, recently opened.",
+      "detail": "On the boot-room shelf: a tin of Vermitox rabbit-gassing powder. CYANIDE — POISON, the label warns.\n\nThe lid has been prised up recently — the scratches are fresh and bright — and the powder inside bears the scoop-mark of a spoon."
+    },
+    {
+      "id": "cold_grate",
+      "category": "physical",
+      "symbol": "flame",
+      "name": "Cold grate",
+      "summary": "Eleanor’s office fire was laid, but never lit last night.",
+      "detail": "The fire in Eleanor’s office is laid ready — paper, kindling and coal — but was never lit. The grate is stone cold.\n\nWhatever Eleanor did last night, she didn’t spend a raw November evening in here typing."
+    },
+    {
+      "id": "tape_shelf",
+      "category": "physical",
+      "symbol": "archivebox.fill",
+      "name": "Shelf of dictation reels",
+      "summary": "One box is empty: ‘15 NOV — HARTLEY / BANK / MISC’.",
+      "detail": "Lionel’s dictation reels in labelled boxes, a neat row by date in Eleanor’s hand. One box gapes empty: ‘15 NOV — HARTLEY / BANK / MISC’.\n\nEleanor transcribes the reels each morning. Otherwise, they never leave this shelf."
+    },
+    {
+      "id": "carbon_hartley",
+      "category": "document",
+      "symbol": "doc.on.doc.fill",
+      "name": "Carbon copy to Hartley",
+      "summary": "15 Nov: ‘I regret I must decline your offer of the fourteenth.’",
+      "detail": "A carbon copy dated 15 November, to Sir Rupert Hartley, Hartley Precision Ltd. (telephone WHItehall 4021):\n\n‘Dear Rupert — I regret I must decline your offer of the fourteenth. Thorne Instruments is not for sale — not while I draw breath. — L. Thorne’\n\nTyped by Eleanor from Thursday’s dictation."
+    },
+    {
+      "id": "typewriter_flaw",
+      "category": "physical",
+      "symbol": "keyboard.fill",
+      "name": "Eleanor’s typewriter",
+      "summary": "Its lowercase ‘e’ strikes high and faint.",
+      "detail": "Eleanor’s Imperial typewriter. A test line still in the machine shows its quirk: every lowercase ‘e’ strikes high and faint."
+    },
+    {
+      "id": "half_signature",
+      "category": "document",
+      "symbol": "signature",
+      "name": "Half-signed letter",
+      "summary": "‘Lionel Th—’, the nib trailing off the page.",
+      "detail": "In Eleanor’s out-tray, a folder of Saturday’s letters, typed and signed in Lionel’s hand.\n\nThe last one is signed only halfway — ‘Lionel Th—’ — the ink trailing away in a long, wavering line off the edge of the page."
+    },
+    {
+      "id": "shawl_case",
+      "category": "physical",
+      "symbol": "heart.fill",
+      "name": "Shawl and cigarette case",
+      "summary": "Margaret’s shawl, and a case engraved ‘F.H.’, in the conservatory.",
+      "detail": "On the wicker settee: Margaret’s grey cashmere shawl. Beneath a cushion, a silver cigarette case engraved ‘F.H.’\n\nThere are two cigarette ends in the orchid pot, one of them lipsticked."
+    }
+  ]
+}

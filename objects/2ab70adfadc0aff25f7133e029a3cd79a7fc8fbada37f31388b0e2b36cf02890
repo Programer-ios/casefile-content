@@ -1,0 +1,601 @@
+{
+  "topics": [
+    {
+      "id": "t_tom_day",
+      "suspect": "tom",
+      "prompt": "Tell me about Sunday.",
+      "lines": [
+        [
+          "you",
+          "Mr Ashby, tell me about Sunday."
+        ],
+        [
+          "tom",
+          "It was a lovely day. A grim crossing, but it always is for Nell. She had her bird — she’d wanted that bird since she was a kid — and I had a book and a flask. Not a cross word between us all day."
+        ],
+        [
+          "tom",
+          "From about quarter past three I sat in the visitor hut, out of the wind, with my book, until the boat came. She’d said she’d be back by four. Just before four I bought two teas, one for her, for when she came down."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_tom_day",
+          "st_tom_hut"
+        ]
+      }
+    },
+    {
+      "id": "t_tom_boat",
+      "suspect": "tom",
+      "prompt": "What happened when the boat came?",
+      "lines": [
+        [
+          "tom",
+          "It came in at four. I stood on the jetty and watched the path down from the chapel: you can see the last couple of hundred yards of it from there. I sent her a couple of messages. Nothing."
+        ],
+        [
+          "tom",
+          "Then at 16:22: ‘Get on and save me a seat inside, just coming.’ I had both our tickets on my phone, so I scanned us both and told the girl my wife was just coming. I got on and put my coat on the seat by the door."
+        ],
+        [
+          "tom",
+          "I never saw her come aboard. It was heaving: birders everywhere, telescopes, rucksacks. I thought she must have come on in the last rush."
+        ],
+        [
+          "tom",
+          "I remember thinking that message looked odd. I couldn’t have told you why. I put it down to her rushing."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_tom_path",
+          "st_tom_style"
+        ]
+      }
+    },
+    {
+      "id": "t_tom_nell",
+      "suspect": "tom",
+      "prompt": "Tell me about Nell.",
+      "lines": [
+        [
+          "tom",
+          "She spent her first summer on St Ebba’s as a volunteer, at twenty-four, ringing puffins, and she never got over it. This year she ended up running all the trust’s reserves."
+        ],
+        [
+          "tom",
+          "And she was sick on every boat she ever got on. She sat inside by the cabin door, with her eyes on the horizon, every single time. She’d no more climb that ladder to the top deck than fly."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_tom_inside"
+        ]
+      }
+    },
+    {
+      "id": "t_tom_why",
+      "suspect": "tom",
+      "prompt": "Why did Nell go over on Sunday?",
+      "lines": [
+        [
+          "tom",
+          "For the bird, she said. But she’d been dreading Sunday all week. Something to do with the trust’s plans for the island; she didn’t tell me much, it was confidential."
+        ],
+        [
+          "tom",
+          "On Friday night she said, ‘I’ve got to tell somebody something to their face on Sunday, Tom, and it’s going to break their heart.’"
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_tom_why"
+        ]
+      }
+    },
+    {
+      "id": "t_kirsty_count",
+      "suspect": "kirsty",
+      "prompt": "How do you count passengers aboard?",
+      "lines": [
+        [
+          "you",
+          "Kirsty, how do you count passengers aboard?"
+        ],
+        [
+          "kirsty",
+          "Two ways, every boarding. I scan every ticket, and I click every head with my counter as they step aboard, same as my granda did. My dad counts them off at the other end."
+        ],
+        [
+          "kirsty",
+          "Sunday at the Landing: forty tickets, forty on my counter. Then at Seahouses my dad counted thirty-nine off. She went over on the loop. That’s all anyone can think."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_kirsty_forty"
+        ]
+      }
+    },
+    {
+      "id": "t_kirsty_boarding",
+      "suspect": "kirsty",
+      "prompt": "Tell me about the boarding on Sunday.",
+      "lines": [
+        [
+          "kirsty",
+          "We came alongside at four. First scan about ten past. Folk trickled down, then the birders came in a rush at the end, all scopes and elbows. Gaz Milburn was nearly the last, purple in the face."
+        ],
+        [
+          "kirsty",
+          "Tom Ashby showed me two tickets on his phone and said his wife was just coming. Folk do that all the time. You scan what they show you."
+        ],
+        [
+          "kirsty",
+          "You can have the log. I’ll print it off the scanner for you."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "scanner_log"
+        ],
+        "statements": [
+          "st_kirsty_tom"
+        ]
+      }
+    },
+    {
+      "id": "t_kirsty_deck",
+      "suspect": "kirsty",
+      "prompt": "Who was on the upper deck on the way back?",
+      "lines": [
+        [
+          "kirsty",
+          "I always keep a count up top: twelve’s the limit. On the loop I had six up there, Gaz Milburn and five lads with telescopes. Men, every one. I went up twice to tell them to hold on."
+        ],
+        [
+          "kirsty",
+          "No woman. I’ve told the police that. They said she must have gone up after I came down."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_kirsty_deck"
+        ]
+      }
+    },
+    {
+      "id": "t_kirsty_trust",
+      "suspect": "kirsty",
+      "prompt": "What would the trust’s plan mean for Dunn’s Boats?",
+      "visibleWhen": {
+        "evidence": "board_summary"
+      },
+      "lines": [
+        [
+          "kirsty",
+          "The end of us, near enough. Sixty per cent of what we take is St Ebba’s landings, and it says trust boats only from 2026. My granda started those trips in 1964."
+        ],
+        [
+          "kirsty",
+          "So aye, I’d heard of Nell Ashby. I’d never met her. I couldn’t have told you she was on my boat."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_kirsty_radio",
+      "suspect": "kirsty",
+      "prompt": "What happened when you came alongside at four?",
+      "visibleWhen": {
+        "deduced": "d_who"
+      },
+      "lines": [
+        [
+          "kirsty",
+          "Dad radioed the island, same as always: ‘Ebba Belle alongside at the Landing.’ Morag came back on her handset: ‘Thanks, Rob.’"
+        ],
+        [
+          "kirsty",
+          "You could hardly hear her for the wind. And behind her there was this boom, twice, like a big door slamming. Dad said she must be out on the cliffs somewhere, counting something."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_kirsty_radio"
+        ]
+      }
+    },
+    {
+      "id": "t_gaz_day",
+      "suspect": "gaz",
+      "prompt": "Tell me about Sunday.",
+      "lines": [
+        [
+          "you",
+          "Mr Milburn, tell me about Sunday."
+        ],
+        [
+          "gaz",
+          "Siberian rubythroat. First for Northumberland. I was on the first boat with my flask, and I never left that gorse at the foghorn all day. It’s all on the news. Here, have a look."
+        ],
+        [
+          "gaz",
+          "When it flew at 15:52, I went straight down to the chapel garden with everybody else, and I was there till I ran for the boat."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "bird_news"
+        ],
+        "statements": [
+          "st_gaz_chapel"
+        ]
+      }
+    },
+    {
+      "id": "t_gaz_deck",
+      "suspect": "gaz",
+      "prompt": "Where were you on the crossing back?",
+      "lines": [
+        [
+          "gaz",
+          "Top deck, for the loop. Me and five lads from Teesside with their telescopes. There’s seals at the north end, and you might get a skua."
+        ],
+        [
+          "gaz",
+          "There was no woman up there. Not in yellow, not in anything. I’d have noticed: it was blowing a hoolie, and we were hanging on to the rail like monkeys."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_gaz_deck"
+        ]
+      }
+    },
+    {
+      "id": "t_gaz_nell",
+      "suspect": "gaz",
+      "prompt": "Did you know Nell Ashby?",
+      "lines": [
+        [
+          "gaz",
+          "Everybody knew Nell Ashby. In 2023 she was warden on the tern colony down the coast, and she reported me to the police for getting too close. I got a caution. A caution, for a photo."
+        ],
+        [
+          "gaz",
+          "And this year she wanted birders off St Ebba’s unless we paid for her guided trips. I said what I thought of that online, and I’ll not pretend I didn’t."
+        ],
+        [
+          "gaz",
+          "I’m not sorry she can’t ban us now. That’s not the same as wanting her dead."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_gaz_photos",
+      "suspect": "gaz",
+      "prompt": "May I see your photos from Sunday?",
+      "visibleWhen": {
+        "deduced": "d_count"
+      },
+      "lines": [
+        [
+          "gaz",
+          "Bird photos? Aye, go on. Don’t go scrolling too far, mind."
+        ],
+        [
+          "narrator",
+          "He hands you his camera."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "gaz_photos"
+        ]
+      }
+    },
+    {
+      "id": "t_sam_day",
+      "suspect": "sam",
+      "prompt": "Tell me about Sunday.",
+      "lines": [
+        [
+          "you",
+          "Sam, tell me about Sunday."
+        ],
+        [
+          "sam",
+          "Mad. Forty people for my bird. I found it on Saturday morning in the foghorn gorse, a red throat like a cut, and by Sunday it was on every app in the country."
+        ],
+        [
+          "sam",
+          "At quarter to four I did the last sweep, like always before the last boat. North end first: the foghorn, the Churn, the lighthouse. Nobody about. At 16:04 I radioed Morag, ‘north end clear’, and then went down to the Landing to help Kirsty."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_sam_sweep"
+        ]
+      }
+    },
+    {
+      "id": "t_sam_ashbys",
+      "suspect": "sam",
+      "prompt": "Did you see Nell and Tom on Sunday?",
+      "lines": [
+        [
+          "sam",
+          "Nell, all day, at the foghorn with the birders. She was nice to me. She said she’d found her first rare bird on this island too."
+        ],
+        [
+          "sam",
+          "And the two of them at about ten past three, in the chapel ruins. I was in the garden next door, and they were going at it. She said, ‘You promised me you’d stopped.’ He kept saying he’d pay it back. Then she went off up the island on her own."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_sam_row"
+        ]
+      }
+    },
+    {
+      "id": "t_sam_wifi",
+      "suspect": "sam",
+      "prompt": "Is there any Wi-Fi on the island?",
+      "visibleWhen": {
+        "deduced": "d_count"
+      },
+      "lines": [
+        [
+          "sam",
+          "Only in the visitor hut. There’s no signal at all down in the Landing’s cove, so the trust put a router in for the card reader. Visitors use it to post their photos. I look after it."
+        ],
+        [
+          "sam",
+          "It keeps a log of every phone that joins. Hang on, I’ll open Sunday’s on the laptop."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "router_log"
+        ]
+      }
+    },
+    {
+      "id": "t_sam_review",
+      "suspect": "sam",
+      "prompt": "What is the trust planning for the island?",
+      "visibleWhen": {
+        "deduced": "d_count"
+      },
+      "lines": [
+        [
+          "sam",
+          "The review. It came round on Friday. I printed it and pinned it up in the cottage, then took it down again on Saturday so I didn’t have to look at it while I made my tea."
+        ],
+        [
+          "sam",
+          "Here. Everyone on the island’s read it."
+        ]
+      ],
+      "reward": {
+        "evidence": [
+          "board_summary"
+        ]
+      }
+    },
+    {
+      "id": "t_sam_morag",
+      "suspect": "sam",
+      "prompt": "Tell me about Morag.",
+      "visibleWhen": {
+        "deduced": "d_churn"
+      },
+      "lines": [
+        [
+          "sam",
+          "Twenty-four seasons. She knows every seal on the island by name. She’s trained half the rangers in the north of England. Nell Ashby was one of hers, in 2010."
+        ],
+        [
+          "sam",
+          "On Friday the trust emailed her: Nell Ashby would be on the island on Sunday and would like a word with her about the review. Morag read it twice, went out to the seals, and didn’t come in till it was dark."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_sam_email"
+        ]
+      }
+    },
+    {
+      "id": "t_morag_day",
+      "suspect": "morag",
+      "prompt": "Where were you on Sunday afternoon?",
+      "lines": [
+        [
+          "you",
+          "Ms Heslop, where were you on Sunday afternoon?"
+        ],
+        [
+          "morag",
+          "Up at the north end, where I always am on the last day. I did the seal count from the lighthouse gallery at twenty to four. After that I was indoors, the day book in the cottage and the checks in the lighthouse, and I never set foot outside till I locked up."
+        ],
+        [
+          "morag",
+          "At five past four I locked the lighthouse and the oil store for the winter, and came down to the Landing to see the boat off. It’s all in the day book."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_morag_lighthouse"
+        ]
+      }
+    },
+    {
+      "id": "t_morag_island",
+      "suspect": "morag",
+      "prompt": "Tell me about St Ebba’s.",
+      "lines": [
+        [
+          "morag",
+          "Fourteen pups so far this year. Eight hundred pairs of puffins in May. A chapel that’s stood since twelve hundred and something, and a lighthouse that doesn’t need me any more."
+        ],
+        [
+          "morag",
+          "I came for one summer in 2002 and never went home. I haven’t another home, if I’m honest: a caravan at Beadnell for the winters, and I count the days till April."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_morag_nell",
+      "suspect": "morag",
+      "prompt": "Did you know Nell Ashby?",
+      "lines": [
+        [
+          "morag",
+          "She was my volunteer in 2010. A good one: she’d sit in a hide for ten hours and thank you for it. She went up in the world after that."
+        ],
+        [
+          "morag",
+          "On Sunday she was at the foghorn with the birders all day. I’d not have known her from the gallery but for that yellow coat."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "t_morag_review",
+      "suspect": "morag",
+      "prompt": "What do you make of the trust’s review?",
+      "visibleWhen": {
+        "evidence": "board_summary"
+      },
+      "lines": [
+        [
+          "morag",
+          "Reviews come and go. I’ve seen off four. Now they want cameras on poles to count the seals. Let them get a camera to pull a pup out of a gully."
+        ],
+        [
+          "morag",
+          "There’s always some clever soul in an office in Alnwick with a plan for this island. The island doesn’t read them."
+        ]
+      ],
+      "reward": {}
+    }
+  ],
+  "statements": [
+    {
+      "id": "st_tom_day",
+      "suspect": "tom",
+      "text": "It was a lovely day. Not a cross word between us all day."
+    },
+    {
+      "id": "st_tom_hut",
+      "suspect": "tom",
+      "text": "From about quarter past three I sat in the visitor hut with my book until the boat came. Just before four I bought two teas, one for Nell."
+    },
+    {
+      "id": "st_tom_path",
+      "suspect": "tom",
+      "text": "I watched the path from the jetty until she messaged. Then I scanned both our tickets, got on and kept her the seat by the door. I never saw her come aboard."
+    },
+    {
+      "id": "st_tom_style",
+      "suspect": "tom",
+      "text": "When the 16:22 message came, I thought it looked odd. I put it down to her rushing."
+    },
+    {
+      "id": "st_tom_inside",
+      "suspect": "tom",
+      "text": "Nell was sick on every boat. She always sat inside, by the cabin door."
+    },
+    {
+      "id": "st_tom_why",
+      "suspect": "tom",
+      "text": "Nell had been dreading Sunday. She said she had to tell somebody something to their face, and it would break their heart."
+    },
+    {
+      "id": "st_tom_row",
+      "suspect": "tom",
+      "text": "We rowed in the chapel ruins at about ten past three: I’d lost £38,000 of our savings on a trading app. On the boat I thought she was keeping away from me, so I didn’t go looking."
+    },
+    {
+      "id": "st_kirsty_forty",
+      "suspect": "kirsty",
+      "text": "I counted forty aboard on my counter, same as the scanner."
+    },
+    {
+      "id": "st_kirsty_39",
+      "suspect": "kirsty",
+      "text": "My counter said thirty-nine. The scanner said forty, so I told my dad forty."
+    },
+    {
+      "id": "st_kirsty_tom",
+      "suspect": "kirsty",
+      "text": "Tom Ashby scanned two tickets on his phone and said his wife was just coming."
+    },
+    {
+      "id": "st_kirsty_radio",
+      "suspect": "kirsty",
+      "text": "At four, when my dad radioed that we were alongside, Morag answered with the wind roaring and something booming behind her, like a big door slamming."
+    },
+    {
+      "id": "st_kirsty_deck",
+      "suspect": "kirsty",
+      "text": "On the loop I had six on the upper deck: Gaz Milburn and five lads with telescopes. No woman."
+    },
+    {
+      "id": "st_gaz_chapel",
+      "suspect": "gaz",
+      "text": "When the bird flew at 15:52, I went straight down to the chapel garden with everybody else, and stayed there until I ran for the boat."
+    },
+    {
+      "id": "st_gaz_deck",
+      "suspect": "gaz",
+      "text": "I was on the upper deck for the loop with five other lads. There was no woman up there."
+    },
+    {
+      "id": "st_gaz_churn",
+      "suspect": "gaz",
+      "text": "At about two minutes to four, from the cliff path, I saw two people at the Churn wall: a yellow jacket and somebody in dark clothes. When I looked up again from inside the fence, five minutes later, nobody was there, and nobody came down the cliff path past me."
+    },
+    {
+      "id": "st_sam_sweep",
+      "suspect": "sam",
+      "text": "At quarter to four I swept the north end: the foghorn, the Churn, the lighthouse. Nobody was there. At 16:04 I radioed ‘north end clear’."
+    },
+    {
+      "id": "st_sam_row",
+      "suspect": "sam",
+      "text": "At about ten past three I heard Nell and Tom rowing in the chapel ruins. She said, ‘You promised me you’d stopped.’"
+    },
+    {
+      "id": "st_sam_chapel",
+      "suspect": "sam",
+      "text": "When the bird flew at 15:52, I ran down to the chapel garden after it. I never swept the north end: I radioed ‘clear’ from the chapel garden."
+    },
+    {
+      "id": "st_sam_email",
+      "suspect": "sam",
+      "text": "On Friday the trust emailed Morag that Nell would be on the island on Sunday and wanted a word with her about the review."
+    },
+    {
+      "id": "st_morag_lighthouse",
+      "suspect": "morag",
+      "text": "From twenty to four until five past four I was indoors, in the cottage and the lighthouse, and never set foot outside."
+    },
+    {
+      "id": "st_morag_churn",
+      "suspect": "morag",
+      "text": "Nell asked to talk, and I met her at the Churn just before four. She told me what her plan would do. Then she walked off down the cliff path towards the chapel, alive."
+    },
+    {
+      "id": "st_morag_confession",
+      "suspect": "morag",
+      "text": "I met Nell at the Churn just before four, and I pushed her over the wall. Then I answered Tom from her phone."
+    }
+  ]
+}

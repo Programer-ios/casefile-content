@@ -1,0 +1,69 @@
+{
+  "suspects": [
+    {
+      "id": "tom",
+      "name": "Tom Ashby",
+      "role": "The husband",
+      "age": 41,
+      "bio": "Nell’s husband, a software developer who works from home in Alnmouth. He’s no birder: he came over on Sunday to keep her company. He scanned both their tickets onto the last boat, and kept her a seat by the door.",
+      "symbol": "laptopcomputer",
+      "color": "#56657A",
+      "monogram": "TA",
+      "portrait": "portraits/tom.png",
+      "dismissal": "Sorry. I don’t see what that’s got to do with anything.",
+      "rebuttal": "She was my wife. I sat by that door for thirty-four minutes keeping her a seat. Whatever you think of me, I never hurt her."
+    },
+    {
+      "id": "kirsty",
+      "name": "Kirsty Dunn",
+      "role": "The deckhand",
+      "age": 26,
+      "bio": "Rob Dunn’s daughter. She has worked on the Ebba Belle since she was fourteen, and she’ll be the next skipper, if there’s still a boat to skipper. She scanned the tickets onto Sunday’s last boat.",
+      "symbol": "ferry.fill",
+      "color": "#2E5C7A",
+      "monogram": "KD",
+      "portrait": "portraits/kirsty.png",
+      "dismissal": "You’ve lost me there, pet.",
+      "rebuttal": "I was on the boat or on the jetty all afternoon, with forty folk round me. I never even met her."
+    },
+    {
+      "id": "gaz",
+      "name": "Gaz Milburn",
+      "role": "The twitcher",
+      "age": 48,
+      "bio": "A bus driver from Ashington, and one of the best-known birders in Britain: 571 species seen in Britain, and two hundred thousand people watching his videos. He came over on Sunday for the rubythroat. He and Nell Ashby had history.",
+      "symbol": "binoculars.fill",
+      "color": "#6E5B3B",
+      "monogram": "GM",
+      "portrait": "portraits/gaz.png",
+      "dismissal": "Not with you, mate. Next question.",
+      "rebuttal": "I didn’t like her, and I said so, online, in capital letters. I never touched her. I was on that top deck with five lads and their telescopes."
+    },
+    {
+      "id": "sam",
+      "name": "Sam Okafor",
+      "role": "The assistant ranger",
+      "age": 24,
+      "bio": "The island’s assistant ranger, in his second season, from Leeds. On Saturday morning he found the Siberian rubythroat, the bird that brought forty people over on Sunday. One day he hopes to be the island’s ranger himself.",
+      "symbol": "bird.fill",
+      "color": "#3E6B50",
+      "monogram": "SO",
+      "portrait": "portraits/sam.png",
+      "dismissal": "Sorry, I’m not sure what you mean.",
+      "rebuttal": "I’d never hurt anybody. I was looking at a bird. That’s the worst thing I did on Sunday, and I’ll have to live with it."
+    },
+    {
+      "id": "morag",
+      "name": "Morag Heslop",
+      "role": "The senior ranger",
+      "age": 58,
+      "bio": "The senior ranger on St Ebba’s for twenty-four seasons. From April to October she lives in the old keepers’ cottage by the lighthouse, and she knows every seal on the island by name. She saw Sunday’s last boat off from the jetty.",
+      "symbol": "house.lodge.fill",
+      "color": "#5B4E62",
+      "monogram": "MH",
+      "portrait": "portraits/morag.png",
+      "dismissal": "I don’t follow you.",
+      "rebuttal": "Twenty-four years I’ve looked after this island and every soul who lands on it. I was at the lighthouse. Read the day book. You’ve got this wrong."
+    }
+  ]
+}

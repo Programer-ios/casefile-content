@@ -1,0 +1,712 @@
+{
+  "id": "case010",
+  "number": 10,
+  "title": "The Chess Clock",
+  "tagline": "A final round, a missing result, and a clock that stopped at the wrong moment.",
+  "setting": "House of Culture · Bitola · April 2027",
+  "sketchTitle": "BITOLA OPEN",
+  "sketchCredit": "SKETCH: SATURDAY 17 APRIL 2027 · NOT TO SCALE",
+  "stayLabel": "Stay at the House of Culture",
+  "briefing": [
+    "The Bitola Open has filled the House of Culture on Širok Sokak with sixty-four adult players, folding boards, paper score sheets and the dry ticking of chess clocks. It is the biggest open tournament in the country, and tonight’s final round will decide the title.",
+    "At 18:24, Boris Vasilev, sixty-two, the tournament’s chief arbiter and a former national champion, was found dead in the arbiter’s room behind the stage. He had been struck with the brass round bell used to start and end each round. Nothing valuable appears to be missing.",
+    "Round Eight ended at 17:48. The players were given a scheduled break before the final pairings at 19:00. Some went to the foyer café, some stayed in the analysis room, and some walked out onto Širok Sokak. The hall was full of witnesses, but nobody agrees on who was where.",
+    "Boris had spent the afternoon arguing with players, officials and the tournament sponsor. He kept a sealed envelope on his desk and told the assistant arbiter that it would be opened before the prize ceremony. Nobody will say what was inside.",
+    "The police have postponed the final round and sealed the arbiter’s room. The trophy is still under a cloth, the clocks are still set for the next game, and every adult who mattered is still in Bitola. Find out who killed Boris Vasilev, how they crossed a public room without being noticed, and what Boris was about to put on the record."
+  ],
+  "startingEvidence": [
+    "police_report",
+    "tournament_schedule",
+    "scoreboard_photo",
+    "arbiter_statement"
+  ],
+  "locations": [
+    {
+      "id": "hall",
+      "name": "The tournament hall",
+      "summary": "Sixty-four boards, the demonstration table, the results board and the stage where the final round should begin.",
+      "description": "The main hall is a long municipal room with tall windows facing Širok Sokak. Boards fill the floor in numbered rows. At the far end, a raised stage holds the demonstration board, the covered trophy and a brass bell on a small table. The arbiter’s room is behind the stage, reached from the public hall or a staff corridor.",
+      "art": {
+        "aspect": 1.65,
+        "props": [
+          {
+            "label": "Tournament boards",
+            "x": 0.42,
+            "y": 0.52,
+            "w": 0.45,
+            "h": 0.22,
+            "style": "furniture"
+          },
+          {
+            "label": "Demonstration board",
+            "x": 0.19,
+            "y": 0.25,
+            "w": 0.2,
+            "h": 0.27,
+            "style": "fixture"
+          },
+          {
+            "label": "Results board",
+            "x": 0.78,
+            "y": 0.26,
+            "w": 0.23,
+            "h": 0.31,
+            "style": "fixture"
+          },
+          {
+            "label": "Stage",
+            "x": 0.52,
+            "y": 0.86,
+            "w": 0.52,
+            "h": 0.16,
+            "style": "rug"
+          },
+          {
+            "label": "Tall windows",
+            "x": 0.95,
+            "y": 0.46,
+            "w": 0.08,
+            "h": 0.46,
+            "style": "window"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_hall_plan",
+          "label": "The hall plan",
+          "x": 0.08,
+          "y": 0.1,
+          "text": "A faded fire-escape plan beside the stage shows the public hall, the foyer café, the analysis room and the arbiter’s room. A narrow service corridor runs behind the stage and has a door at each end. It is marked for staff use only.",
+          "reward": {
+            "evidence": [
+              "hall_plan"
+            ]
+          }
+        },
+        {
+          "id": "hs_hall_scores",
+          "label": "The score-sheet tray",
+          "x": 0.38,
+          "y": 0.84,
+          "text": "The completed score sheets from Round Eight have been gathered in a plastic tray. Most are clipped in pairs. One board number has been written twice, then crossed out in blue ink.",
+          "reward": {
+            "evidence": [
+              "round8_scores"
+            ]
+          }
+        },
+        {
+          "id": "hs_hall_clocks",
+          "label": "The clock-control sheet",
+          "x": 0.64,
+          "y": 0.43,
+          "text": "An official control sheet lies under the results board. It records the final clock checks and every manual adjustment made during the round. One entry in the break is initialled with a player’s handwriting rather than an arbiter’s.",
+          "reward": {
+            "evidence": [
+              "clock_control"
+            ]
+          }
+        },
+        {
+          "id": "hs_hall_bell",
+          "label": "The round bell",
+          "x": 0.86,
+          "y": 0.92,
+          "text": "The brass bell is missing from the stage table. Its square wooden base is still there, with a clean pale outline where the bell stood. A single dark fibre clings to one corner.",
+          "visibleWhen": {
+            "evidence": "police_report"
+          },
+          "reward": {
+            "evidence": [
+              "bell_log"
+            ]
+          }
+        },
+        {
+          "id": "hs_hall_results",
+          "label": "The results board",
+          "x": 0.93,
+          "y": 0.7,
+          "text": "The standings have been erased from the bottom row but not rewritten. Maja Velkova is still listed half a point ahead of the field. Beneath the board, a blank result slip is pinned to the wall with a red-headed drawing pin.",
+          "reward": {
+            "evidence": [
+              "result_slips"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "arbiter_room",
+      "name": "The arbiter’s room",
+      "summary": "A cramped office behind the stage, with the victim’s desk, tournament files and a service door.",
+      "description": "The room is barely large enough for Boris’s desk, two filing cabinets and a folding chair. The public door opens onto the back of the stage. A second door, normally kept locked, leads into the service corridor. Boris’s green desk lamp is still on.",
+      "art": {
+        "aspect": 1.25,
+        "props": [
+          {
+            "label": "Boris’s desk",
+            "x": 0.49,
+            "y": 0.58,
+            "w": 0.44,
+            "h": 0.22,
+            "style": "furniture"
+          },
+          {
+            "label": "Filing cabinets",
+            "x": 0.16,
+            "y": 0.35,
+            "w": 0.24,
+            "h": 0.46,
+            "style": "fixture"
+          },
+          {
+            "label": "Green lamp",
+            "x": 0.78,
+            "y": 0.27,
+            "w": 0.14,
+            "h": 0.18,
+            "style": "fixture"
+          },
+          {
+            "label": "Service door",
+            "x": 0.91,
+            "y": 0.74,
+            "w": 0.14,
+            "h": 0.28,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_room_desk",
+          "label": "The arbiter’s desk",
+          "x": 0.45,
+          "y": 0.76,
+          "text": "Boris’s desk has been photographed but not cleared. The telephone is off its cradle. A half-drunk coffee has gone cold beside an open results ledger, while the sealed envelope is missing.",
+          "reward": {
+            "evidence": [
+              "desk_items"
+            ]
+          }
+        },
+        {
+          "id": "hs_room_envelope",
+          "label": "The empty drawer",
+          "x": 0.1,
+          "y": 0.78,
+          "text": "The shallow drawer where Boris kept appeals and disciplinary reports is open. Its paper dust is undisturbed except for a clean rectangle where a thick envelope was removed.",
+          "reward": {
+            "evidence": [
+              "appeal_envelope"
+            ]
+          }
+        },
+        {
+          "id": "hs_room_service",
+          "label": "The service door",
+          "x": 0.94,
+          "y": 0.22,
+          "text": "The service door has a spring hinge and a small brass number: SERVICE 2. There is fresh black grease on the latch and a faint scrape in the paint at shoulder height. The corridor beyond is too narrow for the door to stand open.",
+          "reward": {
+            "evidence": [
+              "back_corridor"
+            ]
+          }
+        },
+        {
+          "id": "hs_room_files",
+          "label": "The filing cabinets",
+          "x": 0.1,
+          "y": 0.24,
+          "text": "The cabinets hold old tournament reports and federation correspondence. One folder from a 2018 event has been pulled forward, although nothing else in the row has moved.",
+          "visibleWhen": {
+            "evidence": "appeal_envelope"
+          },
+          "reward": {
+            "evidence": [
+              "old_match_report"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "analysis_room",
+      "name": "The analysis room",
+      "summary": "A side room where players and coaches replayed games during the break.",
+      "description": "The analysis room smells of instant coffee, wool coats and dry-erase marker. Three demonstration boards are covered in half-finished variations. It opens directly onto the service corridor, though the public entrance is through the foyer.",
+      "art": {
+        "aspect": 1.35,
+        "props": [
+          {
+            "label": "Analysis boards",
+            "x": 0.24,
+            "y": 0.34,
+            "w": 0.34,
+            "h": 0.34,
+            "style": "fixture"
+          },
+          {
+            "label": "Long table",
+            "x": 0.56,
+            "y": 0.68,
+            "w": 0.46,
+            "h": 0.2,
+            "style": "furniture"
+          },
+          {
+            "label": "Coat rack",
+            "x": 0.86,
+            "y": 0.28,
+            "w": 0.18,
+            "h": 0.42,
+            "style": "fixture"
+          },
+          {
+            "label": "Service corridor",
+            "x": 0.09,
+            "y": 0.76,
+            "w": 0.15,
+            "h": 0.28,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_analysis_notebook",
+          "label": "Viktor’s analysis notebook",
+          "x": 0.28,
+          "y": 0.82,
+          "text": "A notebook left beside the main board contains a line of analysis in Viktor Markovski’s hand. He has written the position from Maja Velkova’s game, then added a time in the margin: 18:06.",
+          "reward": {
+            "evidence": [
+              "analysis_notebook"
+            ]
+          }
+        },
+        {
+          "id": "hs_analysis_coats",
+          "label": "The coat rack",
+          "x": 0.92,
+          "y": 0.72,
+          "text": "The players’ coats hang from numbered hooks. Viktor’s dark jacket is missing, but his tournament badge is still clipped to the empty hook. A thread of black wool has caught on the corridor-side latch.",
+          "reward": {
+            "evidence": [
+              "coat_check"
+            ]
+          }
+        },
+        {
+          "id": "hs_analysis_table",
+          "label": "The coffee table",
+          "x": 0.54,
+          "y": 0.91,
+          "text": "Paper cups and score sheets cover the table. A café receipt has been folded into a square and tucked under a sugar packet. The time is during the official break.",
+          "reward": {
+            "evidence": [
+              "cafe_receipt"
+            ]
+          }
+        },
+        {
+          "id": "hs_analysis_board",
+          "label": "The demonstration board",
+          "x": 0.1,
+          "y": 0.2,
+          "text": "The main demonstration board shows the final position from Round Eight’s quickest draw. Two pieces are still in the wrong squares, and the black king has been placed on the side normally used for the arbiter’s initials.",
+          "visibleWhen": {
+            "evidence": "round8_scores"
+          },
+          "reward": {
+            "evidence": [
+              "board_four_sheet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "foyer",
+      "name": "The foyer and club office",
+      "summary": "The café counter, registration desk, sponsor table and the door onto Širok Sokak.",
+      "description": "The foyer is brighter and louder than the hall. A café counter runs along one wall, while the Bitola Chess Club has placed its registration books and sponsor folders on folding tables. The street door opens onto the lamps and evening traffic of Širok Sokak.",
+      "art": {
+        "aspect": 1.55,
+        "props": [
+          {
+            "label": "Café counter",
+            "x": 0.25,
+            "y": 0.46,
+            "w": 0.38,
+            "h": 0.2,
+            "style": "furniture"
+          },
+          {
+            "label": "Registration desk",
+            "x": 0.72,
+            "y": 0.45,
+            "w": 0.3,
+            "h": 0.18,
+            "style": "furniture"
+          },
+          {
+            "label": "Sponsor table",
+            "x": 0.55,
+            "y": 0.78,
+            "w": 0.34,
+            "h": 0.18,
+            "style": "furniture"
+          },
+          {
+            "label": "Street door",
+            "x": 0.08,
+            "y": 0.7,
+            "w": 0.16,
+            "h": 0.36,
+            "style": "door"
+          },
+          {
+            "label": "Poster wall",
+            "x": 0.91,
+            "y": 0.28,
+            "w": 0.16,
+            "h": 0.42,
+            "style": "fixture"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_foyer_key",
+          "label": "The service-key log",
+          "x": 0.73,
+          "y": 0.7,
+          "text": "The club’s key log is clipped beneath the registration desk. SERVICE 2 was signed out at 17:52 for ‘courtyard access’ and returned at 18:18. The return line has no name.",
+          "reward": {
+            "evidence": [
+              "service_key_log"
+            ]
+          }
+        },
+        {
+          "id": "hs_foyer_cafe",
+          "label": "The café till",
+          "x": 0.22,
+          "y": 0.75,
+          "text": "The café server remembers a double espresso ordered during the break. The receipt was paid by card, but the customer asked for it folded before leaving.",
+          "reward": {
+            "evidence": [
+              "cafe_receipt"
+            ]
+          }
+        },
+        {
+          "id": "hs_foyer_sponsor",
+          "label": "The sponsor folder",
+          "x": 0.54,
+          "y": 0.88,
+          "text": "The sponsor’s folder contains the city grant application, the prize budget and a letter promising a record final-round audience. The numbers have been revised in pencil.",
+          "reward": {
+            "evidence": [
+              "sponsor_grant"
+            ]
+          }
+        },
+        {
+          "id": "hs_foyer_press",
+          "label": "The press table",
+          "x": 0.87,
+          "y": 0.78,
+          "text": "The local paper has left a camera bag and a notebook beside the registration books. A page is headed ‘Boris Vasilev and the 2018 appeal’, but the next page has been torn out.",
+          "reward": {
+            "evidence": [
+              "journalist_notes"
+            ]
+          }
+        },
+        {
+          "id": "hs_foyer_register",
+          "label": "The registration books",
+          "x": 0.8,
+          "y": 0.25,
+          "text": "The attendance book lists every player, coach and official who entered the building. Viktor Markovski signed out a staff key during the break; the line beside it is the only one without a return signature.",
+          "reward": {
+            "evidence": [
+              "entry_ledger"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "timeline": {
+    "id": "timeline",
+    "title": "Saturday afternoon, reconstructed",
+    "prompt": "Put the tournament events in the order they really happened. Some times are official; the rest must be reasoned out.",
+    "events": [
+      {
+        "id": "tl_round",
+        "text": "Round Eight ends and the clocks are collected",
+        "time": "17:48"
+      },
+      {
+        "id": "tl_key",
+        "text": "SERVICE 2 is signed out",
+        "visibleWhen": {
+          "evidence": "service_key_log"
+        },
+        "teaser": "A key leaves the desk."
+      },
+      {
+        "id": "tl_viktor",
+        "text": "Viktor leaves the analysis room",
+        "visibleWhen": {
+          "evidence": "cafe_receipt"
+        },
+        "teaser": "A coffee remembers a customer."
+      },
+      {
+        "id": "tl_death",
+        "text": "Boris is killed in the arbiter’s room",
+        "time": "18:06"
+      },
+      {
+        "id": "tl_return",
+        "text": "SERVICE 2 is returned",
+        "visibleWhen": {
+          "evidence": "service_key_log"
+        },
+        "teaser": "The return line is blank."
+      },
+      {
+        "id": "tl_found",
+        "text": "Sara finds Boris and calls the police",
+        "time": "18:24"
+      },
+      {
+        "id": "tl_final",
+        "text": "The final round should begin",
+        "time": "19:00"
+      }
+    ],
+    "conclusion": "Round Eight ended at 17:48 and the break began. SERVICE 2 was signed out at 17:52. Viktor’s coffee was paid for at 18:08, after he had left the analysis room and after Boris was killed at about 18:06. The key was returned at 18:18, Sara found Boris at 18:24, and the final round was postponed instead of beginning at 19:00.",
+    "reward": {}
+  },
+  "accusation": {
+    "culprit": "viktor",
+    "methods": [
+      "Used SERVICE 2 to enter the arbiter’s room during the break, struck Boris with the brass round bell, and returned through the service corridor.",
+      "Waited beside the public stage, pulled Boris into the hall and made the death look like an accident during the final-round announcement.",
+      "Added poison to Boris’s coffee, then hid the appeal envelope inside the demonstration board.",
+      "Used the foyer door to leave Bitola, stole the tournament cash and framed the assistant arbiter with the missing result slip."
+    ],
+    "method": 0,
+    "motives": [
+      "To stop Boris filing an ethics report about Viktor’s arranged result and endangering his career as a coach.",
+      "To make Maja Velkova lose the championship after she refused to follow Viktor’s advice.",
+      "To steal the sponsor’s prize fund before the final round.",
+      "To punish Boris for defeating Viktor in the 2018 national championship."
+    ],
+    "motive": 0,
+    "proof": [
+      [
+        "d_time",
+        "clock_control"
+      ],
+      [
+        "d_route",
+        "service_key_log",
+        "back_corridor"
+      ],
+      [
+        "d_report",
+        "appeal_envelope",
+        "old_match_report"
+      ]
+    ],
+    "proofLabels": [
+      "The break and the stopped clock",
+      "The key and the unseen route",
+      "The report Boris was about to file"
+    ],
+    "successTitle": "The final move recorded",
+    "reward": {}
+  },
+  "hints": [
+    {
+      "id": "h_scene",
+      "doneWhen": {
+        "evidence": "hall_plan"
+      },
+      "levels": [
+        "Start with the building, not the players.",
+        "Find every route between the hall, the foyer and Boris’s room.",
+        "Study the fire-escape plan beside the stage."
+      ]
+    },
+    {
+      "id": "h_time",
+      "activeWhen": {
+        "evidence": "hall_plan"
+      },
+      "doneWhen": {
+        "deduced": "d_time"
+      },
+      "levels": [
+        "The break gives the killer a small window.",
+        "Compare the official bell time with the clock-control sheet.",
+        "On the board, decide what the stopped clock can and cannot tell you."
+      ]
+    },
+    {
+      "id": "h_key",
+      "activeWhen": {
+        "evidence": "hall_plan"
+      },
+      "doneWhen": {
+        "evidence": "service_key_log"
+      },
+      "levels": [
+        "Someone used a staff route during the break.",
+        "Look at the key that opens the corridor.",
+        "Check the service-key log beneath the registration desk."
+      ]
+    },
+    {
+      "id": "h_route",
+      "activeWhen": {
+        "evidence": "service_key_log"
+      },
+      "doneWhen": {
+        "deduced": "d_route"
+      },
+      "levels": [
+        "The person who used the key did not need to cross the public hall.",
+        "Match the service key to the doors and the scrape in the paint.",
+        "On the board, identify the route from the analysis room to Boris’s office."
+      ]
+    },
+    {
+      "id": "h_scores",
+      "activeWhen": {
+        "evidence": "round8_scores"
+      },
+      "doneWhen": {
+        "resolved": "c_sara_result"
+      },
+      "levels": [
+        "The missing result is more important than the winner’s name.",
+        "Compare the completed score sheet with the slip on the results board.",
+        "Ask Sara who corrected the Round Eight result, then challenge her with the two records."
+      ]
+    },
+    {
+      "id": "h_report",
+      "activeWhen": {
+        "evidence": "appeal_envelope"
+      },
+      "doneWhen": {
+        "deduced": "d_report"
+      },
+      "levels": [
+        "Boris was killed before he could put something on the record.",
+        "Read the sealed appeal and look for the older file it names.",
+        "On the board, identify what Boris was about to report to the federation."
+      ]
+    },
+    {
+      "id": "h_viktor",
+      "activeWhen": {
+        "deduced": "d_report"
+      },
+      "doneWhen": {
+        "resolved": "c_viktor_alibi"
+      },
+      "levels": [
+        "Viktor says the break kept him in the analysis room.",
+        "A coffee receipt and his missing coat put him on the other side of the stage.",
+        "Ask Viktor about the break, then challenge his alibi with the key and café records."
+      ]
+    },
+    {
+      "id": "h_who",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_route"
+          },
+          {
+            "deduced": "d_report"
+          }
+        ]
+      },
+      "doneWhen": {
+        "deduced": "d_who"
+      },
+      "levels": [
+        "Now connect the person who had the route with the person Boris meant to expose.",
+        "Ask who could reach the room and had something to lose from the report.",
+        "On the board, identify the suspect whose key, coat and tournament record meet in the break."
+      ]
+    },
+    {
+      "id": "h_timeline",
+      "activeWhen": {
+        "deduced": "d_who"
+      },
+      "doneWhen": {
+        "timeline": true
+      },
+      "levels": [
+        "Put the break in order before you accuse anyone.",
+        "The key leaves before the coffee is paid and returns before the body is found.",
+        "Use the seven events to reconstruct Saturday afternoon."
+      ]
+    },
+    {
+      "id": "h_accuse_ready",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_time"
+          },
+          {
+            "deduced": "d_route"
+          },
+          {
+            "deduced": "d_report"
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "You have three proof slots: time, route and motive.",
+        "Choose cards that explain the stopped clock, the service key and the sealed appeal.",
+        "Accuse the person whose alibi fails at the exact moment Boris was killed."
+      ]
+    },
+    {
+      "id": "h_accuse",
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "The case turns on a public tournament hiding one private route.",
+        "The missing result explains why Boris had to be silenced.",
+        "Use the accusation form: the time, the key and the report."
+      ]
+    }
+  ],
+  "epilogue": [
+    "By midnight, the House of Culture was empty except for police, federation officials and the unfinished final pairings. The brass bell sat in an evidence bag on Boris’s desk, beside the cold coffee and the blank result slip.",
+    "The federation suspended the Bitola Open’s results while it reviewed the Round Eight records. Maja Velkova refused the provisional title until every score was checked, and the players agreed to return the following month for a clean final round.",
+    "Sara Dinevska received her arbiter’s certificate the next winter. She kept Boris’s green desk lamp in the club office and used it whenever someone asked her to correct a result without a written reason.",
+    "The tournament now begins with two bells: one for the players, and one for the record. The second bell is never rung unless every clock, score sheet and signature agrees."
+  ]
+}

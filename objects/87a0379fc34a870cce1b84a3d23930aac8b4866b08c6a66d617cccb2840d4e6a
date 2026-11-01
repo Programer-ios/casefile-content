@@ -1,0 +1,76 @@
+{
+  "suspects": [
+    {
+      "id": "priya",
+      "name": "Priya Ratnam",
+      "role": "The chef",
+      "age": 44,
+      "bio": "Chef-owner of Thambi, a nine-year-old Sri Lankan restaurant in Dalston, and your client. Jonah’s one-star review in January halved her bookings. Now she has been arrested, her restaurant is shut, and strangers send her death threats.",
+      "symbol": "fork.knife",
+      "color": "#A0522D",
+      "monogram": "PR",
+      "dismissal": "I’ve had food inspectors tougher than you. That proves nothing.",
+      "rebuttal": "I was at my pass all night — my own camera shows it. I fed that man because I wanted him to be wrong about me. I didn’t want him dead."
+    },
+    {
+      "id": "lena",
+      "name": "Lena Novak",
+      "role": "The fiancée",
+      "age": 30,
+      "bio": "Jonah’s fiancée for a year and the editor of every video he posted. She was out at a pilates class, she says, and came home to find paramedics working on him. It was she who gave you the code to the flat.",
+      "symbol": "film.fill",
+      "color": "#5A6E8C",
+      "monogram": "LN",
+      "dismissal": "No. That’s not what it means. You’re reading it wrong.",
+      "rebuttal": "Owen’s camera shows me in his flat the whole time. I was a coward and a cheat that night. I wasn’t a murderer."
+    },
+    {
+      "id": "marcus",
+      "name": "Marcus Doyle",
+      "role": "The manager",
+      "age": 46,
+      "bio": "Jonah’s manager at Doyle Talent, and his brother-in-law — he’s married to Jonah’s sister, Hannah. A former rower, six foot four, with a handshake like a vice. Jonah brought in most of the agency’s money.",
+      "symbol": "briefcase.fill",
+      "color": "#3F5E4A",
+      "monogram": "MD",
+      "dismissal": "I negotiate for a living. You’re going to have to bring more than that.",
+      "rebuttal": "You’ve got a story, not a case. Jonah was family. Come back when you can prove it."
+    },
+    {
+      "id": "hannah",
+      "name": "Hannah Doyle",
+      "role": "The sister",
+      "age": 38,
+      "bio": "Jonah’s older sister, a primary-school teacher who tutors online in the evenings, and the wife of his manager, Marcus. She has been on compassionate leave since Friday.",
+      "symbol": "graduationcap.fill",
+      "color": "#8A5A7A",
+      "monogram": "HD",
+      "dismissal": "I’m sorry — I don’t see what that has to do with anything.",
+      "rebuttal": "I was teaching a ten-year-old fractions, on camera, from nine until quarter to ten. I spent my whole life keeping peanuts away from my brother."
+    },
+    {
+      "id": "owen",
+      "name": "Owen Hart",
+      "role": "The neighbour",
+      "age": 29,
+      "bio": "A personal trainer who lives in Flat 1, downstairs from Jonah, and sells his own peanut protein balls online. Jonah once reviewed them in a video. He said they tasted like a gym bag.",
+      "symbol": "dumbbell.fill",
+      "color": "#B07A2A",
+      "monogram": "OH",
+      "dismissal": "Mate, I’ve no idea what you’re on about.",
+      "rebuttal": "My camera shows Lena in my flat, and me not leaving it. Hate the guy’s reviews, sure. I didn’t kill him."
+    },
+    {
+      "id": "mihai",
+      "name": "Mihai Lungu",
+      "role": "The courier",
+      "age": 24,
+      "bio": "The delivery rider who left Jonah’s curry at his door at 21:04, and the last person known to have handled the bag. The police want to speak to him again. He has not been easy to find.",
+      "symbol": "bicycle",
+      "color": "#4E7A8A",
+      "monogram": "ML",
+      "dismissal": "I don’t understand. I just bring the food.",
+      "rebuttal": "I put the bag down and I took the photo. You can see the sticker. Then I went to Bow with two pizzas. That is all."
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "contradictions": [
+    {
+      "id": "c_felix_approval",
+      "statement": "st_felix_deal",
+      "proof": [
+        "sale_memo",
+        "marcus_messages"
+      ],
+      "title": "Not yet approved",
+      "insight": "The sale memo says the announcement depends on Marcus’s approval, and his messages show he intended to stop it until Clearwater was resolved.",
+      "response": [
+        [
+          "felix",
+          "…Marcus had not signed. Not finally."
+        ],
+        [
+          "felix",
+          "I thought the pressure of a midnight announcement would bring him round. That is how acquisitions work: deadlines make decisions visible."
+        ],
+        [
+          "felix",
+          "I was trying to close a deal, not prevent him from speaking. If I had wanted the announcement without him, I would not have left the building."
+        ],
+        [
+          "narrator",
+          "Felix was willing to push Marcus past his own deadline. The pressure is real, but the hotel record still places Felix away from the murder window."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "c_ben_auto",
+      "statement": "st_ben_auto",
+      "proof": [
+        "ben_ticket",
+        "automation_log"
+      ],
+      "title": "The warning on the ticket",
+      "insight": "Ben’s own maintenance ticket says the fallback would play the scheduled file and warns staff not to call it live. The automation log shows exactly that happened.",
+      "response": [
+        [
+          "ben",
+          "I read the warning. I wrote the warning."
+        ],
+        [
+          "ben",
+          "I thought Tom would be in Studio A before the fallback reached the microphone. When he wasn’t, the rack did what I had told it to do."
+        ],
+        [
+          "ben",
+          "I was embarrassed. I didn’t think a bad handover made me part of a murder."
+        ],
+        [
+          "narrator",
+          "Ben hid what he knew about the false broadcast, but the records still put him on the equipment side of the night, not on the archive route."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "c_tom_live",
+      "statement": "st_tom_live",
+      "proof": [
+        "automation_log",
+        "listener_recording",
+        "tom_receipt"
+      ],
+      "title": "A voice without a room",
+      "insight": "The first forty-five minutes of the programme came from a fallback file. Tom was at the Anchor Tap when the voice on air greeted the listeners.",
+      "response": [
+        [
+          "tom",
+          "…The opening was recorded. Yes."
+        ],
+        [
+          "tom",
+          "Ben told me the rack was temperamental, and I thought I could get a drink before the live link. The fallback was supposed to be a safety net, not a lie."
+        ],
+        [
+          "tom",
+          "I was angry at Marcus. I was not in the building when he was killed. If you’re looking for the person who used the recording, look at who knew the system would do it."
+        ],
+        [
+          "narrator",
+          "Tom’s live alibi collapses, but the recording also places him away from Studio B during the murder window."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "c_iris_clearwater",
+      "statement": "st_iris_clearwater",
+      "proof": [
+        "rights_ledger",
+        "clearwater_contract"
+      ],
+      "title": "Not an ordinary vendor",
+      "insight": "Clearwater’s 17 percent fee is amended to pay IC Consulting Ltd, whose director and signatory is Iris Chen.",
+      "response": [
+        [
+          "iris",
+          "…You found the photocopy."
+        ],
+        [
+          "iris",
+          "IC Consulting was a way to be paid for work Marcus refused to recognise. I built the rights schedule, negotiated the licences, and kept Rookery’s catalogue alive while he chased the sale."
+        ],
+        [
+          "iris",
+          "It was not theft. It was an arrangement. Marcus could have disclosed it and paid me properly. Instead he was going to make it look like a trapdoor under the deal."
+        ],
+        [
+          "narrator",
+          "Iris admits the private financial interest Marcus had threatened to expose."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "c_iris_archive",
+      "statement": "st_iris_archive",
+      "proof": [
+        "archive_scan_log",
+        "corridor_camera"
+      ],
+      "title": "The archive did not hold her",
+      "insight": "Iris’s last scan was at 21:41. The archive door opened again at 22:12, during the exact period when the corridor camera has no view.",
+      "response": [
+        [
+          "iris",
+          "The scanner records the file, not every minute I spent in the building."
+        ],
+        [
+          "iris",
+          "I went to the reception desk to look for the missing schedule. Then I heard something from the studios and checked the corridor. That is all."
+        ],
+        [
+          "narrator",
+          "Her careful alibi has a gap: she was not continuously in the archive, and the unseen passage opens during the death window."
+        ]
+      ],
+      "reward": {}
+    },
+    {
+      "id": "c_iris_key",
+      "statement": "st_iris_key",
+      "proof": [
+        "studio_b_panel",
+        "key_register"
+      ],
+      "title": "Master B went farther",
+      "insight": "Master B opened Studio B’s rear panel at 22:13. The key was signed out to Iris and never returned.",
+      "response": [
+        [
+          "iris",
+          "I did not use it on Studio B."
+        ],
+        [
+          "narrator",
+          "The rear panel opened with keyed access at 22:13 and closed at 22:20. The public door was untouched until after that."
+        ],
+        [
+          "iris",
+          "…Then someone took it from the archive door. I do not know who."
+        ],
+        [
+          "narrator",
+          "Iris’s key statement no longer fits the door record. The unseen route was used by the person who held Master B."
+        ]
+      ],
+      "reward": {}
+    }
+  ],
+  "deductions": [
+    {
+      "id": "d_broadcast",
+      "title": "The voice on air",
+      "symbol": "radio.fill",
+      "question": "What does the 23:00 broadcast prove?",
+      "options": [
+        "Tom was physically live in Studio A",
+        "A recorded fallback was playing while Tom was elsewhere",
+        "The station’s stream had failed completely",
+        "Marcus had taken over Tom’s programme"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "automation_log"
+        ],
+        [
+          "listener_recording",
+          "tom_receipt"
+        ]
+      ],
+      "proofLabels": [
+        "What the rack played",
+        "What the listener heard"
+      ],
+      "visibleWhen": {
+        "evidence": "automation_log"
+      },
+      "conclusion": "The 23:00 voice was a recording. Auto-Rescue played Tom’s fallback file for forty-five minutes, so the sound of Tom on air cannot place Tom inside Studio A. The programme began after Marcus died, and the system was capable of making a missing person sound present.",
+      "reward": {}
+    },
+    {
+      "id": "d_deal",
+      "title": "The missing percentage",
+      "symbol": "percent",
+      "question": "What had Marcus found in the archive?",
+      "options": [
+        "A routine invoice for Vesper’s public announcement",
+        "A private agreement diverting archive income through Clearwater Rights",
+        "A failed microphone repair charged to Ben",
+        "A second offer to buy Rookery from Felix"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "rights_ledger"
+        ],
+        [
+          "clearwater_contract"
+        ]
+      ],
+      "proofLabels": [
+        "The ledger entry",
+        "The agreement behind it"
+      ],
+      "visibleWhen": {
+        "evidence": "rights_ledger"
+      },
+      "conclusion": "Marcus had found a continuing 17 percent claim on Rookery’s archive income. The Clearwater agreement redirected that money to IC Consulting, and the arrangement had to be disclosed before Vesper could safely buy the company.",
+      "reward": {}
+    },
+    {
+      "id": "d_route",
+      "title": "Behind the soundproofing",
+      "symbol": "arrow.turn.up.right",
+      "question": "How could someone reach Studio B without appearing in the public corridor?",
+      "options": [
+        "By leaving through the loading-yard door",
+        "Through the archive passage with Master B",
+        "By hiding inside Studio A until the camera reset",
+        "By entering through the river windows"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "station_layout"
+        ],
+        [
+          "key_register",
+          "passage_note"
+        ]
+      ],
+      "proofLabels": [
+        "The building route",
+        "The access and blind spot"
+      ],
+      "visibleWhen": {
+        "evidence": "station_layout"
+      },
+      "conclusion": "The archive passage runs behind the acoustic wall and opens directly onto Studio B’s rear service panel. It is outside the camera’s view, and Master B opens both ends.",
+      "reward": {}
+    },
+    {
+      "id": "d_last",
+      "title": "The rear door",
+      "symbol": "door.left.hand.open",
+      "question": "What places someone in Studio B during the death window?",
+      "options": [
+        "The public door opened at 22:22",
+        "The rear panel opened at 22:13 and closed at 22:20",
+        "Ben ran into the building at 22:29",
+        "The radio programme began at 23:00"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "police_summary"
+        ],
+        [
+          "studio_b_panel"
+        ]
+      ],
+      "proofLabels": [
+        "When Marcus died",
+        "The keyed door record"
+      ],
+      "visibleWhen": {
+        "deduced": "d_route"
+      },
+      "conclusion": "Marcus died between 22:10 and 22:25. Studio B’s rear panel opened at 22:13 and closed at 22:20, while the public door stayed untouched. Someone used the hidden route during the murder window.",
+      "reward": {}
+    },
+    {
+      "id": "d_who",
+      "title": "The person with both keys",
+      "symbol": "person.crop.circle.badge.checkmark",
+      "question": "Who connects the hidden deal to the hidden route?",
+      "options": [
+        "Tom Hargreaves",
+        "Iris Chen",
+        "Anika Rao",
+        "Felix Ward"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "clearwater_contract"
+        ],
+        [
+          "key_register",
+          "archive_scan_log"
+        ]
+      ],
+      "proofLabels": [
+        "Who controlled the private agreement",
+        "Who held the route’s key"
+      ],
+      "visibleWhen": {
+        "all": [
+          {
+            "deduced": "d_deal"
+          },
+          {
+            "deduced": "d_last"
+          }
+        ]
+      },
+      "conclusion": "Iris controlled the rights agreement that Marcus was about to expose, and she held the Master B key used on the archive-to-Studio B route. Her last archive scan and the rear-panel opening occupy the same missing stretch of the night.",
+      "reward": {}
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "suspects": [
+    {
+      "id": "daniel",
+      "name": "Daniel Thorne",
+      "role": "The son",
+      "age": 32,
+      "bio": "Lionel’s only son, by his first marriage. Charming, idle and three thousand pounds in debt to a London bookmaker. He threatened his father at dinner in front of everyone.",
+      "symbol": "suit.club.fill",
+      "color": "#8A3F2E",
+      "monogram": "DT",
+      "dismissal": "Is that the best you’ve got? I’ve had sterner talks from my tailor.",
+      "rebuttal": "Me? Ask Rosie — she was in and out of the billiards room all evening. By the time I went into that study, Father was already gone. You’ve got the wrong Thorne."
+    },
+    {
+      "id": "margaret",
+      "name": "Margaret Thorne",
+      "role": "The wife",
+      "age": 47,
+      "bio": "Lionel’s second wife of nine years. Elegant, restless and lonely in a house run to the minute. Under the present will she inherits Larkspur House.",
+      "symbol": "house.fill",
+      "color": "#4A5C82",
+      "monogram": "MT",
+      "dismissal": "I fail to see what that has to do with me.",
+      "rebuttal": "How dare you. I was with Felix in the conservatory when it happened — Gerald saw us through the glass. Whatever else I’ve done, I did not kill my husband."
+    },
+    {
+      "id": "harrow",
+      "name": "Dr. Felix Harrow",
+      "role": "The physician",
+      "age": 55,
+      "bio": "The family’s doctor and Lionel’s friend since the war. He examined the body last night and pronounced on the cause of death.",
+      "symbol": "stethoscope",
+      "color": "#3D6E5B",
+      "monogram": "FH",
+      "dismissal": "I’m a doctor, not a fool. That proves nothing at all.",
+      "rebuttal": "I was in the conservatory with Margaret, God forgive me — and Gerald saw us there. I’d no more poison Lionel than my own mother. Look to whoever was in that study."
+    },
+    {
+      "id": "finch",
+      "name": "Gerald Finch",
+      "role": "The partner",
+      "age": 60,
+      "bio": "Co-founder and fellow director of Thorne Instruments for thirty years. Shrewd and soft-spoken, and lately at odds with Lionel over the company’s future.",
+      "symbol": "briefcase.fill",
+      "color": "#7A6236",
+      "monogram": "GF",
+      "dismissal": "I’ve sat across boardroom tables from better bluffers than you.",
+      "rebuttal": "I was on the telephone to Rupert Hartley for twenty minutes — the exchange will confirm it. I betrayed Lionel’s company, yes. I didn’t poison him. You want someone who was actually in that room."
+    },
+    {
+      "id": "hobbs",
+      "name": "Albert Hobbs",
+      "role": "The butler",
+      "age": 61,
+      "bio": "Butler at Larkspur House for thirty years. Discreet, punctual and fiercely loyal. The last person to hear Lionel Thorne alive — or so everyone believes.",
+      "symbol": "bell.fill",
+      "color": "#5E5E62",
+      "monogram": "AH",
+      "dismissal": "With the greatest respect, I don’t quite follow.",
+      "rebuttal": "I was in the servants’ hall from half past nine — Mrs. Bell will tell you so. I served Mr. Thorne for thirty years. I’d sooner have cut off my own hand."
+    },
+    {
+      "id": "eleanor",
+      "name": "Eleanor Voss",
+      "role": "The secretary",
+      "age": 41,
+      "bio": "Lionel’s private secretary for nineteen years. She keeps his diary, his correspondence, his dictation reels and the company’s accounts. Composed, precise, indispensable.",
+      "symbol": "pencil.line",
+      "color": "#6E3D60",
+      "monogram": "EV",
+      "dismissal": "I’m sure that seemed significant to you.",
+      "rebuttal": "I was at the bridge table when Hobbs heard Mr. Thorne dictating — with three witnesses. You’ve let your imagination run away with you."
+    }
+  ]
+}

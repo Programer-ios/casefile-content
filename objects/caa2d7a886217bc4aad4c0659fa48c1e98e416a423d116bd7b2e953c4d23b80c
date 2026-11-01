@@ -1,0 +1,172 @@
+{
+  "evidence": [
+    {
+      "id": "police_report",
+      "category": "document",
+      "symbol": "cross.case.fill",
+      "name": "The police report",
+      "summary": "Boris Vasilev was killed in the arbiter’s room during the break before the final round.",
+      "detail": "Preliminary report by Inspector Marija Ilievska, filed at 19:05.\n\nVictim: Boris Vasilev, 62, chief arbiter of the Bitola Open.\nLocation: arbiter’s room behind the stage.\nEstimated death: between 17:55 and 18:10.\nCause: a single blunt-force injury to the left side of the head.\n\nThe brass round bell is missing from the stage table. The public door to the room was unlocked, while the service door was closed but not latched. No window was open. Boris’s wallet, phone and watch remain on him. The final round has been postponed."
+    },
+    {
+      "id": "tournament_schedule",
+      "category": "document",
+      "symbol": "calendar",
+      "name": "The tournament schedule",
+      "summary": "Round Eight ended at 17:48, with the final round scheduled for 19:00.",
+      "detail": "Bitola Open programme, Saturday 17 April 2027.\n\n15:30–17:45 · Round Eight\n17:48 · end-of-round bell and collection of score sheets\n18:00–18:45 · scheduled break and final-round pairings\n19:00 · Round Nine\n21:30 · prize ceremony\n\nThe printed schedule says that all clocks and result slips must be returned to the arbiters before the break ends."
+    },
+    {
+      "id": "scoreboard_photo",
+      "category": "document",
+      "symbol": "camera.fill",
+      "name": "The standings photograph",
+      "summary": "A photograph taken at 17:51 shows Maja Velkova half a point ahead, with one result still marked provisional.",
+      "detail": "Nikola Koteski’s photograph of the results board, timestamped 17:51.\n\n1. Maja Velkova · 6½\n2. Katerina Ilievska · 6\n3. Petar Naumov · 6\n4. Aleksandar Ristevski · 5½\n\nBoard 4 is marked with a red question mark. The paper beside it says: ‘Awaiting Boris’s check.’ Maja is the only player who can win the title with a draw in the final round."
+    },
+    {
+      "id": "arbiter_statement",
+      "category": "witness",
+      "symbol": "person.crop.circle.badge.questionmark",
+      "name": "Sara’s first statement",
+      "summary": "Sara says she saw Boris alive at 17:50 and found him when he failed to answer her bell-test call at 18:24.",
+      "detail": "Statement by Sara Dinevska, assistant arbiter.\n\n‘I took the Round Eight sheets to the hall tray at 17:48. Boris told me he was going through Board 4 before the final pairings. At about 17:50 he went into the arbiter’s room. I stayed at the results board until the players began asking for coffee.\n\n‘At 18:22 I called through the public door because the bell-test had not been done. Boris did not answer. I opened it at 18:24 and found him beside the desk. The service door was closed. I did not touch the bell.’"
+    },
+    {
+      "id": "hall_plan",
+      "category": "document",
+      "symbol": "map.fill",
+      "name": "The House of Culture plan",
+      "summary": "The arbiter’s room can be reached from the analysis room through a staff corridor behind the stage.",
+      "detail": "The building plan, printed for the fire marshal.\n\nThe public hall opens onto the foyer and the stage. Behind the stage is a service corridor with two numbered doors: SERVICE 1 opens toward the analysis room; SERVICE 2 opens into the arbiter’s room. The corridor is not visible from the boards or the café counter. Both service doors close automatically, but only SERVICE 2 is normally locked."
+    },
+    {
+      "id": "round8_scores",
+      "category": "document",
+      "symbol": "doc.text",
+      "name": "The Round Eight score sheets",
+      "summary": "The signed sheet for Board 4 records a draw, although the results tray contains a later slip awarding Maja a full point.",
+      "detail": "Official score sheets from Round Eight, signed by both players.\n\nBoard 4 · Maja Velkova — Katerina Ilievska\nMove 11: ½–½\nBoth signatures are written at 17:38. The game lasted nine minutes and ended before the other top boards.\n\nIn the margin, Boris has written: ‘Both players confirm draw. Do not alter without written appeal.’"
+    },
+    {
+      "id": "board_four_sheet",
+      "category": "physical",
+      "symbol": "figure.chess.queen",
+      "name": "The Board Four position",
+      "summary": "The demonstration board shows the quick draw’s final position, but two pieces have been moved since the players signed the sheet.",
+      "detail": "A photograph and inventory of the demonstration board.\n\nThe position is consistent with the signed Board Four sheet except for the black king and a white rook. They have been moved to squares that make the final position look like a forced win for White. A dry-erase mark beside the board reads ‘1–0?’ in Viktor Markovski’s handwriting."
+    },
+    {
+      "id": "clock_control",
+      "category": "physical",
+      "symbol": "clock.fill",
+      "name": "The stopped break clock",
+      "summary": "Boris’s small tournament clock was wound at 17:48 and stopped at 18:06 with a fresh impact mark on its glass.",
+      "detail": "The analogue clock Boris used to time the break.\n\nThe left hand was set to fifteen minutes when the end-of-round bell rang at 17:48. The clock was found on the floor beside the desk, stopped at 18:06. Its glass has a new crescent-shaped impact mark, and a trace of brass is caught in the crack.\n\nThe clock cannot identify the killer by itself. It records the moment something struck or knocked it, inside the estimated death window."
+    },
+    {
+      "id": "bell_log",
+      "category": "document",
+      "symbol": "bell.fill",
+      "name": "The round-bell log",
+      "summary": "The bell rang at 17:48 and was still on the stage table when Sara left it at 17:52.",
+      "detail": "Sara’s round-control notes.\n\n17:45 · final moves called\n17:48 · bell rung; clocks stopped\n17:50 · Board Four sheets delivered to Boris\n17:52 · bell checked on stage; base dry and clean\n18:15 · bell missing when Sara returned for the test\n18:24 · Boris found\n\nThe 18:15 entry is written in Sara’s blue ink. No one signed for removing the bell."
+    },
+    {
+      "id": "desk_items",
+      "category": "physical",
+      "symbol": "briefcase.fill",
+      "name": "Boris’s desk",
+      "summary": "Boris was reviewing the Board Four result when he was attacked; his sealed envelope is missing.",
+      "detail": "Photographs of the arbiter’s desk.\n\nA green lamp was on. The results ledger is open to Board Four, with the provisional 1–0 slip clipped beneath the signed ½–½ sheet. Boris’s coffee is cold but not finished. The telephone handset is off its cradle. A shallow drawer contains paper dust and a clean rectangle where a thick envelope had been."
+    },
+    {
+      "id": "appeal_envelope",
+      "category": "document",
+      "symbol": "envelope.fill",
+      "name": "The federation appeal",
+      "summary": "Boris’s sealed appeal says he intended to report an arranged result and name the person who altered the tournament record.",
+      "detail": "The envelope was found inside the lining of Boris’s desk chair after the police searched the room. It is addressed to the National Chess Federation and marked ‘Open before prize ceremony’.\n\nBoris writes that Board Four’s signed draw was changed to 1–0 after the players left the table. He says the alteration was not an innocent correction and that Viktor Markovski had instructed the players to accept the result before the game began. Boris intends to attach the older 2018 report and request Viktor’s suspension as a coach.\n\nThe last line reads: ‘The title must be decided over the board, not by the person who controls the paperwork.’"
+    },
+    {
+      "id": "back_corridor",
+      "category": "physical",
+      "symbol": "arrow.turn.up.right",
+      "name": "The service corridor",
+      "summary": "The corridor gives a direct route from the analysis room to Boris’s door without crossing the public hall.",
+      "detail": "Photographs of the service corridor behind the stage.\n\nThe passage is narrow and painted the same dark green as the stage wall. SERVICE 1 opens toward the analysis room; SERVICE 2 opens into the arbiter’s room. The paint on SERVICE 2’s latch has a fresh scrape at shoulder height. A short black wool fibre is caught in the latch grease.\n\nThere is no camera in the corridor. The public hall would hide the sound of a door closing whenever the café machine or the crowd was active."
+    },
+    {
+      "id": "analysis_notebook",
+      "category": "document",
+      "symbol": "pencil.line",
+      "name": "Viktor’s analysis notebook",
+      "summary": "Viktor says the 18:06 note was written in the analysis room, but the page describes a position he could not have seen there.",
+      "detail": "A black notebook left on the analysis table.\n\nViktor has copied the Board Four position and written: ‘18:06 — the rook cannot take because the king is pinned.’ The sentence is written over a faint erased line. The actual Board Four sheet has no rook on that square; the rook was moved on the demonstration board after the game ended.\n\nThe page is the only place in the analysis room that records 18:06. Viktor says he wrote it while discussing the game with Maja."
+    },
+    {
+      "id": "coat_check",
+      "category": "physical",
+      "symbol": "tshirt.fill",
+      "name": "The missing jacket",
+      "summary": "Viktor’s jacket was absent during the break, and its black wool matches the fibre on the service latch.",
+      "detail": "The numbered coat-rack sheet and a photograph taken at 18:16.\n\nViktor’s jacket was checked on hook 12 at 15:21. At 18:16 the hook was empty, although his tournament badge still hung from it. The jacket reappears on the hook after the police arrive. Its right cuff has a fresh pale mark shaped like the edge of a brass bell base.\n\nThe fibre from SERVICE 2 is black wool with a thin brown thread woven through it. Viktor’s jacket has the same brown thread at the cuff."
+    },
+    {
+      "id": "cafe_receipt",
+      "category": "document",
+      "symbol": "cup.and.saucer.fill",
+      "name": "The café receipt",
+      "summary": "Viktor paid for a double espresso at 18:08, after claiming he never left the analysis room.",
+      "detail": "Receipt from the foyer café.\n\nSaturday 17 April · 18:08:32\n1 × double espresso\nCard ending 2284 · V. Markovski\n\nThe server remembers Viktor asking for the receipt folded in half. The espresso was collected from the counter, not delivered to the analysis room. The counter is on the public side of the stage, less than a minute from SERVICE 1."
+    },
+    {
+      "id": "service_key_log",
+      "category": "document",
+      "symbol": "key.fill",
+      "name": "The service-key log",
+      "summary": "Viktor signed out SERVICE 2 at 17:52 and it was returned anonymously at 18:18.",
+      "detail": "The Bitola Chess Club’s key sheet, clipped under the registration desk.\n\nSERVICE 1 · 15:05 · Sara Dinevska · stage check · returned 15:16\nSERVICE 2 · 17:52 · Viktor Markovski · courtyard access · returned 18:18\n\nThe return line has no initials. The key was found on the foyer radiator, still warm from someone’s pocket. The club’s rule says only arbiters and the club president may sign out service keys, but Viktor used to manage the building for the federation and had been given a spare badge."
+    },
+    {
+      "id": "sponsor_grant",
+      "category": "document",
+      "symbol": "doc.text.magnifyingglass",
+      "name": "The sponsor’s grant folder",
+      "summary": "Elena promised the city a full final round and risked losing funding if the tournament stopped.",
+      "detail": "Application for the Bitola cultural-events grant.\n\nElena Stojanovska’s application promises 64 registered players, a full final round and a prize ceremony covered by local press. The registration book has 64 names, but the attendance sheet has only 57 signatures. Elena has written in the margin: ‘Boris must not cancel the ceremony before the mayor arrives.’\n\nThe folder gives Elena a reason to fear Boris’s report, but it places her at the sponsor table in the foyer during the break."
+    },
+    {
+      "id": "journalist_notes",
+      "category": "document",
+      "symbol": "newspaper.fill",
+      "name": "Nikola’s notebook",
+      "summary": "Nikola was researching the 2018 appeal and expected Boris to give him a document after the final round.",
+      "detail": "Pages from Nikola Koteski’s chess column notebook.\n\n‘2018: V. Markovski’s player wins after Board Four result corrected from draw to win. Boris objected, then withdrew the objection. Ask why.’\n\nA later note reads: ‘Boris has sealed copy. He will speak after prize ceremony, not before. Do not print until he confirms.’\n\nNikola’s camera metadata places him in the public hall at 17:55, 18:04 and 18:17."
+    },
+    {
+      "id": "entry_ledger",
+      "category": "document",
+      "symbol": "book.pages.fill",
+      "name": "The attendance ledger",
+      "summary": "The public record confirms who was inside during the break and who had a staff badge.",
+      "detail": "Registration and access ledger for Saturday.\n\n17:48 · Round Eight ends\n17:52 · Viktor Markovski signs out SERVICE 2\n17:56 · Maja Velkova leaves the analysis room for the foyer\n18:02 · Elena Stojanovska at sponsor table\n18:04 · Nikola Koteski photographs the empty boards\n18:15 · Sara Dinevska returns to stage\n18:18 · SERVICE 2 returned without initials\n\nThe ledger is written in Sara’s hand, except for the Viktor entry, which is signed in thick black ink."
+    },
+    {
+      "id": "old_match_report",
+      "category": "document",
+      "symbol": "doc.plaintext",
+      "name": "The 2018 match report",
+      "summary": "The older report describes the same kind of result alteration that Boris intended to report again.",
+      "detail": "Federation report, National Championship 2018.\n\nBoard Four’s signed score sheet recorded a draw. An amended result slip awarded a win to a player coached by Viktor Markovski. The arbiter’s objection was withdrawn before the prize ceremony, and no disciplinary hearing followed.\n\nBoris Vasilev’s signature appears at the bottom beside the words: ‘Insufficient evidence for a formal complaint.’ A handwritten note in a different ink says: ‘Not insufficient. Unwelcome.’"
+    },
+    {
+      "id": "result_slips",
+      "category": "physical",
+      "symbol": "rectangle.and.pencil.and.ellipsis",
+      "name": "The result slips",
+      "summary": "The provisional 1–0 slip was written after the signed draw and placed on the results board during the break.",
+      "detail": "Two result slips for Board Four.\n\nOriginal slip: Maja Velkova — Katerina Ilievska · ½–½ · signed by both players at 17:38.\nReplacement slip: Maja Velkova — Katerina Ilievska · 1–0 · no player signatures · entered at 18:17.\n\nThe replacement slip uses blue-black ink and the same squared-off ‘V’ found in Viktor Markovski’s notebook. Sara says she did not write it and Boris would never accept an unsigned correction."
+    }
+  ]
+}

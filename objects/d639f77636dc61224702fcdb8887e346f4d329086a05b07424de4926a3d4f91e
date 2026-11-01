@@ -1,0 +1,523 @@
+{
+  "contradictions": [
+    {
+      "id": "c_julian_drawing_room",
+      "statement": "st_julian_drawing_room",
+      "proof": [
+        "sergeant_notes",
+        "st_agnes_lawn"
+      ],
+      "title": "Julian went down to the glasshouse",
+      "insight": "Julian lied: at a quarter past twelve he slipped out to the glasshouse. He says the door was locked, the lamp low, and his aunt didn’t answer.",
+      "response": [
+        [
+          "julian",
+          "…Oh, for heaven’s sake. Yes. All right."
+        ],
+        [
+          "julian",
+          "At a quarter past twelve I went out for some air, and my feet took me down the lawn. I wanted one more go at her before Kittow got his pen out. The door was locked and the lamp was turned right down. I knocked, I called her, and she didn’t answer."
+        ],
+        [
+          "julian",
+          "I didn’t say so because I knew exactly how it would look. And it does look exactly like that, doesn’t it?"
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_julian_glasshouse"
+        ]
+      }
+    },
+    {
+      "id": "c_julian_money",
+      "statement": "st_julian_money",
+      "proof": [
+        "bank_demand"
+      ],
+      "title": "Julian is close to ruin",
+      "insight": "Julian’s business is failing: the bank is threatening proceedings unless he pays by the end of the month. He swears he has kept it afloat honestly.",
+      "response": [
+        [
+          "julian",
+          "…That’s my private correspondence. Oh, what’s the use."
+        ],
+        [
+          "julian",
+          "All right. Penhallow Motors is on its knees. Nobody in Plymouth wants a new Zephyr when they can’t pay for the old one, and the bank wants six thousand by the end of the month."
+        ],
+        [
+          "julian",
+          "But I’ve kept it afloat honestly, near enough. I’ve never done anything criminal, if that’s what you’re thinking."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_julian_debts"
+        ]
+      }
+    },
+    {
+      "id": "c_julian_forgery",
+      "statement": "st_julian_debts",
+      "proof": [
+        "finance_letter",
+        "deed_fragment"
+      ],
+      "title": "Julian forged the mortgage",
+      "insight": "In May Julian forged his aunt’s signature to borrow £20,000 against Home Farm. That is the ‘something criminal’ in her letter.",
+      "response": [
+        [
+          "julian",
+          "…Where did you get that?"
+        ],
+        [
+          "julian",
+          "Penhallow Motors has been dying for two years. I needed twenty thousand by May or the bank would have had the lot. Home Farm was coming to me one day anyway — I told myself it was a loan against my own inheritance. I practised her signature for a week."
+        ],
+        [
+          "julian",
+          "Yes. I forged it. But I didn’t kill her for it. I didn’t even know she’d found out — she never said a word to me."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_julian_forgery"
+        ]
+      }
+    },
+    {
+      "id": "c_celia_bed",
+      "statement": "st_celia_bed",
+      "proof": [
+        "blue_room_window"
+      ],
+      "title": "Celia couldn’t see the glasshouse",
+      "insight": "The Blue Room faces north over the drive. Celia never watched Hester from her window. She wasn’t in bed when the bell rang.",
+      "response": [
+        [
+          "celia",
+          "…I may have been confused. I had a sick headache."
+        ],
+        [
+          "celia",
+          "Very well. I wasn’t in bed. I couldn’t lie still, so I put on my dressing gown and slipped out into the garden — the rose walk, for the air. I was there when I heard the bell ring, and then I came in."
+        ],
+        [
+          "celia",
+          "I didn’t say so because Julian would have fussed. That’s all."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_celia_rose_walk"
+        ]
+      }
+    },
+    {
+      "id": "c_celia_rose_walk",
+      "statement": "st_celia_rose_walk",
+      "proof": [
+        "celia_mules",
+        "slipper_prints",
+        "st_jory_figure",
+        "st_marian_scent"
+      ],
+      "title": "Celia was inside the glasshouse",
+      "insight": "Celia wasn’t walking among the roses. She was in the glasshouse that night and left by the stokehole. She now admits she went to Hester at twenty to eleven, and swears she left her alive.",
+      "response": [
+        [
+          "celia",
+          "…"
+        ],
+        [
+          "celia",
+          "All right. Yes. At twenty to eleven I went down to the glasshouse, and she let me in. I begged her not to sign that will — to think what it would do to Julian. She wouldn’t listen. She never listened to me."
+        ],
+        [
+          "celia",
+          "I left at ten to eleven, by the stokehole, so that no one would see me crossing the lawn. She was alive. She was sitting there writing in that log of hers, as calm as you please."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_celia_plead"
+        ]
+      }
+    },
+    {
+      "id": "c_celia_alive",
+      "statement": "st_celia_plead",
+      "proof": [
+        "bloom_log",
+        "d_time_of_death",
+        "st_jory_figure"
+      ],
+      "title": "Hester was dead before Celia left",
+      "insight": "Hester logged her orchid every quarter of an hour and wrote nothing after 10.25. Whoever left the stokehole went a few minutes after the bell, not at ten to eleven. Celia didn’t leave a living woman behind her.",
+      "response": [
+        [
+          "celia",
+          "Then she… she must have stopped writing. She was tired. Old women do get tired."
+        ],
+        [
+          "narrator",
+          "Her hands have found each other in her lap and are holding on tight. Hester Penhallow, by every account, had waited twenty-five years to write the next line."
+        ]
+      ],
+      "reward": {
+        "flags": [
+          "celia_shaken"
+        ]
+      }
+    },
+    {
+      "id": "c_celia_knew",
+      "statement": "st_celia_didnt_know",
+      "proof": [
+        "finance_letter",
+        "st_kittow_engaged"
+      ],
+      "title": "Celia knew about the forgery",
+      "insight": "Hester told Celia about Julian’s forgery at six o’clock on Friday. In the morning the proof was to go to Mr. Kittow, and from him to the police.",
+      "response": [
+        [
+          "celia",
+          "…She wrote it down? Of course she did. She wrote everything down."
+        ],
+        [
+          "celia",
+          "Yes. She sent for me at six and showed me the letter. She said Julian had the night to come to her and confess, and in the morning it would all go to Mr. Kittow. And then the police."
+        ],
+        [
+          "celia",
+          "I didn’t tell Julian. I thought I could talk her round myself. I always could talk people round. Everyone except Hester."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_celia_knew"
+        ]
+      }
+    },
+    {
+      "id": "c_marian_kew",
+      "statement": "st_marian_kew",
+      "proof": [
+        "lindqvist_cable"
+      ],
+      "title": "Dr. Ellery works for an American nursery",
+      "insight": "Marian Ellery is no longer at Kew. She came to Penhallow for Lindqvist Orchids of Miami, who want the moon orchid’s seed ‘at any cost’.",
+      "response": [
+        [
+          "marian",
+          "…You’ve been through my satchel. Well. I’d have done the same."
+        ],
+        [
+          "marian",
+          "Kew dismissed me last October. I published some of Hester’s results under my own name, and she wrote to the Director. Then she forgave me, which was worse, and asked me here anyway: she said Edmund’s flower deserved a proper record. Lindqvist pays my rent now. He wanted me to secure the seed for him."
+        ],
+        [
+          "marian",
+          "‘At any cost’ is how Americans write cables. It doesn’t mean murder. And understand this: if I’d killed her, that flower would have been pollinated by eleven o’clock. I could no more have let it close untouched than burned it."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_marian_lindqvist"
+        ]
+      }
+    },
+    {
+      "id": "c_kittow_professional",
+      "statement": "st_kittow_professional",
+      "proof": [
+        "kittow_letter"
+      ],
+      "title": "Kittow was going to marry her",
+      "insight": "Edwin Kittow and Hester Penhallow were secretly engaged. And she had told him more about the crime in her family than he let on.",
+      "response": [
+        [
+          "kittow",
+          "…Ah. She kept it in her blotter. How like her."
+        ],
+        [
+          "kittow",
+          "Yes. I asked her to marry me in 1946, and in 1950, and again this spring. This spring she said yes. September, at St Mewan’s. We meant to tell the family once the will was signed."
+        ],
+        [
+          "kittow",
+          "There is something else you should know. On Friday afternoon she told me she had proof of a crime in the family, and would give it to me this morning. She said she would tell ‘his wife’ at six, so that he might have the decency to come and confess to her first. She didn’t say his name. She didn’t need to."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_kittow_engaged"
+        ]
+      }
+    },
+    {
+      "id": "c_jory_bed",
+      "statement": "st_jory_bed",
+      "proof": [
+        "jory_pipe"
+      ],
+      "title": "Jory was watching the glasshouse",
+      "insight": "Jory wasn’t in bed. He stood at the walled-garden door half the night, watching the glass, and saw someone leave by the stokehole after the bell.",
+      "response": [
+        [
+          "jory",
+          "…That’s mine. Can’t deny it."
+        ],
+        [
+          "jory",
+          "I couldn’t sleep, not with her flower coming out. I stood at the walled-garden door from before eleven, smoking and watching the glass. I heard the bell, I saw the lamp go up and come down. Her ladyship had said keep away, so I’ve said nothing."
+        ],
+        [
+          "jory",
+          "And a few minutes after, something came up out of the stokehole — long and pale, like a nightgown — and hurried away along the wall towards the house. I took it for her ladyship’s ghost, God forgive me. I’d be laughed out of the parish if I said so."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_jory_figure"
+        ]
+      }
+    }
+  ],
+  "deductions": [
+    {
+      "id": "d_struck",
+      "title": "Struck down with her own stick",
+      "symbol": "figure.walk",
+      "question": "How did Lady Penhallow die?",
+      "options": [
+        "She fell from the stepladder and struck the iron staging",
+        "Struck down with the silver knob of her own stick",
+        "Her heart gave out in the excitement",
+        "Poisoned by the cocoa Agnes brought her"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "ebony_stick"
+        ],
+        [
+          "stepladder",
+          "iron_staging",
+          "st_jory_ladder",
+          "st_agnes_stick"
+        ]
+      ],
+      "proofLabels": [
+        "The weapon",
+        "Why it wasn’t a fall"
+      ],
+      "visibleWhen": {
+        "any": [
+          {
+            "evidence": "ebony_stick"
+          },
+          {
+            "evidence": "stepladder"
+          },
+          {
+            "evidence": "iron_staging"
+          }
+        ]
+      },
+      "conclusion": "Nobody climbed the stepladder, and the staging is clean. The round wound is the size of the silver knob of her stick, which someone wiped and slid under the bench. The fall was staged."
+    },
+    {
+      "id": "d_dead_before_bloom",
+      "title": "Dead before the flower opened",
+      "symbol": "moon.stars.fill",
+      "question": "Was Lady Penhallow alive when her orchid opened?",
+      "options": [
+        "Yes — she pollinated it, as she’d planned",
+        "Yes — four people saw her beside it at 11.32",
+        "No — she would never have left it unpollinated"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "st_jory_dawn",
+          "moon_orchid"
+        ],
+        [
+          "bloom_log",
+          "st_marian_pollinate"
+        ]
+      ],
+      "proofLabels": [
+        "The flower at dawn",
+        "What she meant to do the moment it opened"
+      ],
+      "visibleWhen": {
+        "statement": "st_jory_dawn"
+      },
+      "conclusion": "At dawn the moon orchid was still open and untouched. Hester meant to pollinate it the moment it opened, and had waited twenty-five years to do it. She was dead before it opened."
+    },
+    {
+      "id": "d_time_of_death",
+      "title": "Dead by five past eleven",
+      "symbol": "clock.fill",
+      "question": "When did Lady Penhallow really die?",
+      "options": [
+        "Between 10.25 and about 11.05 pm",
+        "Between 11.32 pm and 1.00 am",
+        "Between 1.00 and 5.45 am",
+        "Before Agnes brought her cocoa at 10.15"
+      ],
+      "answer": 0,
+      "proof": [
+        [
+          "bloom_log"
+        ],
+        [
+          "d_dead_before_bloom",
+          "st_jory_dawn"
+        ]
+      ],
+      "proofLabels": [
+        "Her last sign of life",
+        "Why she was dead before it opened"
+      ],
+      "visibleWhen": {
+        "deduced": "d_dead_before_bloom"
+      },
+      "conclusion": "Her last entry was at 10.25, at the first scent. Forty minutes later the flower opened, and she never pollinated it. She died between 10.25 and about 11.05, half an hour before anyone ‘saw’ her at the bell."
+    },
+    {
+      "id": "d_bell_ringer",
+      "title": "A false widow at the bell",
+      "symbol": "bell.fill",
+      "question": "Who did the household see in the glasshouse at 11.32?",
+      "options": [
+        "Lady Penhallow herself",
+        "Someone wearing her veil and shawl",
+        "Jory Trevenna, on his rounds",
+        "No one — a trick of the lamp on the misted glass"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "photo_bell"
+        ],
+        [
+          "photo_bud",
+          "ebony_stick",
+          "d_time_of_death",
+          "st_agnes_stick"
+        ]
+      ],
+      "proofLabels": [
+        "The figure at the bell",
+        "Why it can’t have been Hester"
+      ],
+      "visibleWhen": {
+        "any": [
+          {
+            "deduced": "d_time_of_death"
+          },
+          {
+            "evidence": "photo_bell"
+          }
+        ]
+      },
+      "conclusion": "The figure at the bell stood a head taller than Hester, walked without the stick she couldn’t take a step without, and showed a pale hem under the black. Whoever rang the bell wore her veil and shawl, put them back on her body afterwards, and wanted the house to believe she was alive at 11.32. Four people watched from the terrace. Who wasn’t there?"
+    },
+    {
+      "id": "d_way_out",
+      "title": "Out through the stokehole",
+      "symbol": "door.left.hand.open",
+      "question": "How did the bell-ringer leave a glasshouse locked from the inside?",
+      "options": [
+        "Through the glass door, locking it behind them with a second key",
+        "Down through the stokehole and out by its outer door",
+        "They hid in the stokehole until Jory came at dawn",
+        "Up through a roof ventilator"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "stokehole_door",
+          "st_jory_stokehole"
+        ],
+        [
+          "slipper_prints",
+          "st_jory_figure",
+          "deed_fragment"
+        ]
+      ],
+      "proofLabels": [
+        "The only other way out",
+        "Someone used it that night"
+      ],
+      "visibleWhen": {
+        "deduced": "d_bell_ringer"
+      },
+      "conclusion": "The glass door was locked from inside, with the key in the lock. The only other way out is through the stokehole, and its door can only be unbolted from within. Someone went down those steps after the bell, unbolted the outer door and slipped away into the dark."
+    },
+    {
+      "id": "d_forgery",
+      "title": "Julian forged her name",
+      "symbol": "signature",
+      "question": "What did Lady Penhallow mean to hand her solicitor on Saturday morning?",
+      "options": [
+        "Only her new will, cutting Julian out",
+        "Proof that Julian forged her signature on a £20,000 mortgage",
+        "Proof that Dr. Ellery was selling the orchid to America",
+        "Notice of her engagement to Mr. Kittow"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "finance_letter"
+        ],
+        [
+          "deed_fragment",
+          "st_julian_forgery",
+          "st_agnes_ink"
+        ]
+      ],
+      "proofLabels": [
+        "What she found out",
+        "Proof the signature was forged"
+      ],
+      "visibleWhen": {
+        "evidence": "finance_letter"
+      },
+      "conclusion": "The Home Farm mortgage is signed ‘Hester Penhallow’ in black ink, though she wrote in nothing but green. She told Celia at six o’clock. In the morning the deed was going to Kittow and the police, and that night somebody burned it in the stokehole."
+    },
+    {
+      "id": "d_julian_alibi",
+      "title": "Julian didn’t do it",
+      "symbol": "person.fill.checkmark",
+      "question": "Could Julian have killed his aunt?",
+      "options": [
+        "Yes — he was at the glasshouse at 12.15",
+        "Yes — he slipped out of the library",
+        "No — he was in the library with Kittow while she died"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "pascoe_statement",
+          "st_kittow_library"
+        ],
+        [
+          "d_time_of_death"
+        ]
+      ],
+      "proofLabels": [
+        "Where Julian was",
+        "When she died"
+      ],
+      "visibleWhen": {
+        "deduced": "d_time_of_death"
+      },
+      "conclusion": "Mrs. Pascoe heard Julian and Kittow quarrelling in the library from a quarter past ten until ten past eleven. Hester died in between. By the time Julian knocked at the glasshouse at 12.15, she had been dead for more than an hour."
+    }
+  ]
+}

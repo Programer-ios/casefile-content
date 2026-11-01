@@ -1,0 +1,196 @@
+{
+  "evidence": [
+    {
+      "id": "police_summary",
+      "category": "document",
+      "symbol": "list.clipboard.fill",
+      "name": "Police summary",
+      "summary": "Dyfed-Powys Police’s account of the night, and why they arrested Dean.",
+      "detail": "Dyfed-Powys Police — summary disclosed to Mr D. Pritchard’s solicitor.\n\nSaturday 26 / Sunday 27 October 2024, Hafod Studios, near Rhayader.\nThe deceased, Rhys MORGAN (52), and Dean PRITCHARD (52) argued at the foot of the granary steps. Video recorded by Ms F. HOLT (camera timecode 01:18–01:26) shows PRITCHARD shouting and pushing MORGAN in the chest.\nPRITCHARD first said he went to bed ‘at about one’ and did not see MORGAN after the session. Shown the video, he said they argued and he left MORGAN ‘alive, at about quarter to two’.\n01:41 — MORGAN’s smartwatch detects a hard fall. 01:42 — the watch makes an automated 999 call.\nMrs C. MORGAN, woken by the ambulance service’s call to her as his emergency contact, found her husband at the foot of the steps.\n02:16 — Ambulance on scene. 02:31 — MORGAN pronounced dead.\n\nNo one else was in the yard. Mr E. COLE was on a video call to Los Angeles in the control room, with Mr H. BEVAN, until about 01:55. Mrs MORGAN was on the telephone to her sister in Canada in the farmhouse until about 01:50, then asleep. Ms HOLT and Mr B. LEWIS were asleep. The landing light at the top of the steps was working when tested. All times are taken from the deceased’s watch, the video’s timecode and the witnesses’ phones.\n\nWorking theory: after the argument shown on video, PRITCHARD followed MORGAN up the steps and pushed him.\nPRITCHARD arrested on suspicion of murder, 27 October; released on police bail, 29 October, pending a charging decision by the CPS."
+    },
+    {
+      "id": "tabloid_page",
+      "category": "document",
+      "symbol": "newspaper.fill",
+      "name": "The Banner’s front page",
+      "summary": "‘THE SHOVE’: stills from Freya’s video, timecode 01:22, and ‘thirty years’.",
+      "detail": "The Daily Banner, Monday 28 October. Front page: ‘THE SHOVE’.\n\nThree stills from a video, with the camera’s timecode in the corner of each: 01:22:09, 01:22:11, 01:22:14. Dean Pritchard with his fist up and his mouth open; then both his hands in Rhys Morgan’s chest; then Rhys stumbling back against the bottom of the granary steps.\n\n‘In the clip, Pritchard can be heard shouting “Thirty years! Thirty years!” … Pritchard claims he co-wrote the band’s hit “Small Hours”. Last year he told a podcast: “He stole my life.” … The Banner obtained the video from a member of the documentary crew.’"
+    },
+    {
+      "id": "post_mortem",
+      "category": "document",
+      "symbol": "cross.case.fill",
+      "name": "Post-mortem summary",
+      "summary": "A fall backwards down the whole flight; a bruise from a two-handed push; no alcohol.",
+      "detail": "Summary of the Home Office pathologist’s findings, sent to Dean’s solicitor:\n\nInjuries consistent with a fall backwards down a full flight of stone steps: a fracture at the back of the skull, and grazing down the back, shoulders and backs of the arms from the edges of the steps.\nA fresh bruise across the breastbone, consistent with a forceful push with both hands shortly before death.\nNo injuries suggesting a struggle.\nNo alcohol or drugs in the blood.\nDeath within minutes of the fall."
+    },
+    {
+      "id": "steps_scene",
+      "category": "physical",
+      "symbol": "stairs",
+      "name": "The granary steps",
+      "summary": "Fourteen stone steps, no rail. His blood on the second step from the top; his phone on the landing.",
+      "detail": "Fourteen stone steps up the outside wall of the granary to a small landing, worn hollow in the middle, greasy with moss, with no handrail. The police’s markers are still chalked on them.\n\nRhys’s blood is on the edge of the second step from the top, and again lower down. His phone was found face down on the landing, its screen cracked. At the foot, where he landed, the cobbles are darker than the rest.\n\nThe bottom of the steps, where Dean shoved him on the video, is fourteen steps below the place where the blood begins."
+    },
+    {
+      "id": "landing_light",
+      "category": "physical",
+      "symbol": "lightbulb.fill",
+      "name": "The landing light",
+      "summary": "A sensor light over the landing. It works perfectly now, and stays on a full minute.",
+      "detail": "A caged bulkhead light on the granary wall above the landing, on a motion sensor. Put a foot on the top step and it floods the landing and half the yard with white light, and stays on for a full minute.\n\nYou try it three times. It works perfectly. There’s no handrail on the landing either: it simply stops at the edge."
+    },
+    {
+      "id": "rhys_room",
+      "category": "physical",
+      "symbol": "bed.double.fill",
+      "name": "Rhys’s room",
+      "summary": "The bed not slept in. No sign of the notebook he always carried.",
+      "detail": "The end room on the granary landing, as the police left it. The bed hasn’t been slept in. His bass lies in its open case; his reading glasses are on the windowsill; his jacket hangs on the back of the door, its pockets empty — the police took his wallet.\n\nEveryone you speak to says Rhys never went anywhere without his notebook. It isn’t here, it wasn’t on him, and it isn’t on the police’s list."
+    },
+    {
+      "id": "whiteboard",
+      "category": "document",
+      "symbol": "pencil.line",
+      "name": "The studio whiteboard",
+      "summary": "‘CLOCKS GO BACK 2AM — EXTRA HOUR! Computers & phones do it themselves.’",
+      "detail": "The whiteboard in the control room, in Huw’s capitals:\n\n‘SAT 26 OCT — NIGHT SESSION — “HOLDING PATTERN”\nCLOCKS GO BACK 2AM = 1AM AGAIN = EXTRA HOUR OF STUDIO TIME!! 😎\n(Computers & phones do it themselves. Wall clock, cameras, the Aga & your cars: BY HAND.)’"
+    },
+    {
+      "id": "take_list",
+      "category": "document",
+      "symbol": "waveform",
+      "name": "Huw’s take list",
+      "summary": "Take 7 at 01:38, then Take 8 at 01:06, and Take 9, Rhys’s keeper, at 01:24.",
+      "detail": "The studio computer’s list of takes for ‘Holding Pattern’, Saturday night into Sunday. It numbers the takes in the order they were recorded, and shows the time each one began.\n\nTake 1 · 21:12 · whole band\nTake 2 · 21:48 · whole band\nTake 3 · 22:31 · whole band\nTake 4 · 23:15 · whole band\nTake 5 · 23:58 · whole band\nTake 6 · 00:40 · whole band — ‘D. rough’\nTake 7 · 01:38 · drums only (Bryn)\nTake 8 · 01:06 · lead vocal (Rhys)\nTake 9 · 01:24 · lead vocal (Rhys) — ‘★ KEEPER’"
+    },
+    {
+      "id": "lyric_sheet",
+      "category": "document",
+      "symbol": "pencil",
+      "name": "The lyric sheet",
+      "summary": "Rhys’s pencil, at the bottom: ‘T9 ✓✓ — that’s the one. Bed. R.’",
+      "detail": "The lyric sheet for ‘Holding Pattern’ on the stand in the vocal booth, ringed by a coffee cup and covered in Rhys’s pencil: words crossed out, a breath mark, an arrow. At the bottom, in the same pencil: ‘T9 ✓✓ — that’s the one. Bed. R.’"
+    },
+    {
+      "id": "band_chat",
+      "category": "document",
+      "symbol": "bubble.left.and.bubble.right.fill",
+      "name": "The band chat",
+      "summary": "In order: Freya at 01:52; then Bryn’s photo at 01:12; then Huw at 01:38.",
+      "detail": "The band’s group chat, ‘HALFLIGHT 💡’, on the lounge iPad. Saturday night into Sunday, in the order the messages arrived:\n\n22:14 Freya: [photo: the three of them round one microphone] The boys are back 💡\n00:48 Huw: Take 6 in the bag. Tea in the lounge if anyone’s still alive.\n01:52 Freya: Wrapping for tonight. Got some gold 🎬\n01:12 Bryn: [photo: Dean asleep in his clothes, hugging a bucket] Rock and roll 🤘\n01:38 Huw: Rhys has just sung the vocal of his life. Bed 🌙"
+    },
+    {
+      "id": "aga_clock",
+      "category": "physical",
+      "symbol": "clock.fill",
+      "name": "The Aga’s clock",
+      "summary": "Still an hour fast. Nobody has put it back.",
+      "detail": "The cream Aga in the farmhouse kitchen has a small clock on its front. It says 15:41. Your watch says 14:41.\n\n‘Nobody’s done the Aga,’ Huw says. ‘Nobody ever does the Aga till Christmas.’"
+    },
+    {
+      "id": "freya_camera",
+      "category": "physical",
+      "symbol": "camera.fill",
+      "name": "Freya’s camera",
+      "summary": "Its clock still reads an hour ahead: it’s still on summer time.",
+      "detail": "Freya’s main camera, charging on the windowsill of her room at the top of the granary steps. Its little screen shows the date and the time: ‘WED 30 OCT 15:12’.\n\nYour watch says 14:12."
+    },
+    {
+      "id": "paramedic_footage",
+      "category": "physical",
+      "symbol": "film.fill",
+      "name": "Freya’s footage of the paramedics",
+      "summary": "Timecode 03:16: the ambulance arriving. The landing above is pitch dark.",
+      "detail": "A clip Freya never gave the police, file HOLT_0347, timecode 03:16:40 to 03:19:55.\n\nBlue lights swing across the yard. Two paramedics run to the foot of the granary steps, where Carys is kneeling. Eddie Cole stands three steps up in a dressing gown, lighting the scene with his phone. Above him the top of the steps and the landing are black: no light at all."
+    },
+    {
+      "id": "letter_impression",
+      "category": "document",
+      "symbol": "signature",
+      "name": "The dents on Huw’s notepad",
+      "summary": "A letter to PRS in Rhys’s hand: put Dean’s name on ‘Small Hours’, 50/50.",
+      "detail": "Huw’s notepad on the lounge table has ‘HAFOD STUDIOS’ at the top of every sheet. The top sheet is blank, but the low sun from the window shows dents in it. You shade it lightly with a pencil, and Rhys’s handwriting comes up white:\n\n‘To PRS for Music. Small Hours (Morgan), 1996.\nI am registered as the only writer of this song. I wasn’t. The music is Dean Pritchard’s: he wrote it in his kitchen in Pill in March 1995, and I wrote the words that night. Please amend the registration to Pritchard/Morgan, 50/50, from first publication.\nI’m sorry it has taken thirty years.\nRhys Morgan, Hafod, 26.10.24’"
+    },
+    {
+      "id": "dean_tape",
+      "category": "physical",
+      "symbol": "recordingtape",
+      "name": "The cassette from 1995",
+      "summary": "Dean playing the riff alone; then Rhys’s voice: ‘That’s it, Deano. That’s the one.’",
+      "detail": "A cassette in a cracked case on Dean’s shelf, labelled in faded biro: ‘SMALL HOURS — D’s tune — Pill, 3/95’.\n\nFfion plays it on Dean’s old deck. A guitar, alone: the riff the whole world knows, three times over, slower than the record. Then a young man’s voice, laughing: ‘That’s it, Deano. That’s the one. Write it down before you lose it.’\n\nDean says nothing at all. Ffion says that voice is Rhys."
+    },
+    {
+      "id": "nine_nine_nine",
+      "category": "document",
+      "symbol": "phone.fill",
+      "name": "The 999 recording",
+      "summary": "After the fall: someone by the watch, a phone ringing a guitar riff at 01:43, then steps going up.",
+      "detail": "The ambulance service’s recording of the automated 999 call from Rhys Morgan’s watch, transcribed for the defence. Sunday 27 October 2024. Times are GMT, after the clocks went back.\n\n01:42:05 — Call connects. Automated voice: ‘This is an automated emergency call from a watch. The owner has had a hard fall and is not responding.’ The location follows: Hafod, near Rhayader.\n01:42:30 — Call handler: ‘Ambulance service. Can you hear me? If you can hear me, make a noise.’ No reply. Wind.\n01:42:50 — Footsteps on stone, coming down, quickly. Then, very close: breathing, and a rustle of clothing.\n01:43:10 — A mobile phone rings, very close. The ringtone is an electric guitar riff: the opening bars of ‘Small Hours’. Two rings, then it stops.\n01:43:20 — Footsteps going up stone steps, fast. 01:43:24 — A door closes, above.\n01:45:00 — The call handler rings the emergency contact, Mrs C. Morgan.\n01:46:40 — A woman’s voice, far off and coming closer: ‘Rhys? RHYS!’\n01:46:58 — The same woman, beside the watch, sobbing. Call handler: ‘Hello? Is someone with him?’"
+    },
+    {
+      "id": "sale_agreement",
+      "category": "document",
+      "symbol": "doc.text.fill",
+      "name": "The sale agreement",
+      "summary": "£6.2 million on Monday, for Rhys’s songs and Cole Music’s quarter; Rhys warrants he’s the sole author.",
+      "detail": "In Carys’s folder: the draft agreement for the sale of the Halflight songs to Westwater Song Partners, Los Angeles.\n\nCompletion: Monday 28 October 2024.\nPrice: £6,200,000, for Rhys Morgan’s share as writer, and the quarter share of the publishing held by Cole Music Ltd (director: E. Cole).\nClause 7.2: ‘The Writer is the sole author of every Composition. No other person has claimed, or may claim, authorship of any Composition.’\n\nSigned by Westwater. Not yet signed by Rhys."
+    },
+    {
+      "id": "carys_loan",
+      "category": "document",
+      "symbol": "banknote.fill",
+      "name": "Carys’s loan from Eddie",
+      "summary": "April 2024: Eddie’s company lent Carys £60,000, to be repaid from the sale.",
+      "detail": "Also in Carys’s folder, a loan agreement dated 12 April 2024: Cole Music Ltd lends Mrs Carys Morgan £60,000, interest-free, ‘repayable in full from the proceeds of the Westwater completion’. Signed by Eddie Cole and Carys Morgan."
+    },
+    {
+      "id": "rhys_interview",
+      "category": "physical",
+      "symbol": "video.fill",
+      "name": "Rhys’s Thursday interview",
+      "summary": "Rhys to camera, Thursday: ‘I told Eddie this morning… We’ll talk on Saturday.’",
+      "detail": "From Freya’s hard drive: the interview Rhys asked her not to use, Thursday 24 October. Rhys sits on the lounge sofa and looks straight into the lens.\n\n‘There’s something I’ve got to put right about “Small Hours”, before anyone buys it off me. Dean knows what I mean. I told Eddie this morning. He went white as that wall. He said, “Let’s not do anything daft before the weekend. We’ll talk on Saturday.”’\n\nA pause. ‘Not that bit, Frey.’ The clip ends."
+    },
+    {
+      "id": "dana_email",
+      "category": "document",
+      "symbol": "envelope.fill",
+      "name": "Email from Westwater’s lawyer",
+      "summary": "‘Tried you at 6.43 our time… you declined.’ The call itself: 5:20–5:55pm Pacific.",
+      "detail": "On Carys’s phone, an email she was copied on and never opened. From Dana Whitlock, Westwater Song Partners, Los Angeles, to Eddie Cole. Sent Sunday 27 October, 03:12 (Saturday 20:12 in Los Angeles):\n\n‘Eddie — great call tonight, and thanks for moving it to suit your side. Tried you at 6.43 our time to confirm Monday’s signing. You declined, so I’m assuming you’d crashed! Completion docs attached.\nFor the file: tonight’s call, Sat 26 Oct, 5:20–5:55pm PT, Eddie Cole for the Morgan side.\nDana’"
+    },
+    {
+      "id": "bryn_bottle",
+      "category": "physical",
+      "symbol": "wineglass.fill",
+      "name": "The bottle in Bryn’s car",
+      "summary": "Vodka, two-thirds gone, hidden in his glovebox.",
+      "detail": "Bryn’s old estate car is still parked a few metres from the farmhouse porch, nose towards the granary steps. In the glovebox, under the road atlas, there’s a half-litre bottle of vodka, two-thirds gone, and a packet of extra-strong mints. The driver’s window has been left open an inch."
+    },
+    {
+      "id": "bulb",
+      "category": "physical",
+      "symbol": "lightbulb",
+      "name": "The landing bulb",
+      "summary": "A quarter-turn and it sits loose and dark; anyone on the landing could do it in a second.",
+      "detail": "Huw takes the cage off the landing light for you. Inside is a plain bayonet bulb. Give it a quarter-turn and it sits loose and dark in its holder, and the sensor clicks uselessly. A quarter-turn back and the landing floods with light again.\n\nAnyone standing on the landing, reaching up, could do it in a second. Nobody climbing the steps could do it without lighting them up first."
+    },
+    {
+      "id": "clasp",
+      "category": "physical",
+      "symbol": "flame.fill",
+      "name": "Brass corners in the ash",
+      "summary": "From the lounge stove: two scorched brass corners from a notebook, one stamped ‘R M’.",
+      "detail": "The ash pan of the lounge’s wood burner hasn’t been emptied since Sunday. Among the ash and the charred ends of logs are two small brass corners, the kind that protect the corners of an old-fashioned hardback notebook. They’re scorched black, and one has ‘R M’ punched into it. There’s a curl of burnt card between them."
+    },
+    {
+      "id": "insurer_letter",
+      "category": "document",
+      "symbol": "envelope.open.fill",
+      "name": "The insurers’ letter",
+      "summary": "Cover for the granary depends on a handrail and a landing light. Only the light is done.",
+      "detail": "In Huw’s desk drawer, a letter from Hafod’s insurers, March 2024: ‘Following our survey, cover for the guest accommodation is conditional on (1) a handrail to the external granary steps and (2) lighting to the landing, both by 30 June 2024.’\n\nIn the margin, in Huw’s hand: ‘LIGHT DONE 12/6. Rail — after the band.’"
+    }
+  ]
+}

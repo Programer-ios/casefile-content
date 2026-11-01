@@ -1,0 +1,607 @@
+{
+  "contradictions": [
+    {
+      "id": "c_priya_nut_free",
+      "statement": "st_priya_nut_free",
+      "proof": [
+        "chili_oil"
+      ],
+      "title": "Thambi wasn’t quite nut-free",
+      "insight": "Since February Priya has cooked with a chilli crisp that ‘may contain peanuts’, and she hid the jar. She is terrified the death really was her fault.",
+      "response": [
+        [
+          "priya",
+          "…Where did you find that?"
+        ],
+        [
+          "priya",
+          "My supplier ran out of my usual chilli oil in February. That one tasted right. I saw ‘may contain’ and told myself it was just lawyers covering themselves. When I heard how he died, I hid it at the back of the store."
+        ],
+        [
+          "priya",
+          "I didn’t put it in his curry. It goes in the devilled dishes, never the curry. But I’ve been lying awake asking myself if a spoon went in the wrong pot."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_priya_chili"
+        ]
+      }
+    },
+    {
+      "id": "c_priya_contact",
+      "statement": "st_priya_no_contact",
+      "proof": [
+        "dm_thambi",
+        "receipts_draft"
+      ],
+      "title": "Thambi was asked to pay",
+      "insight": "Three days before the review, Jonah’s business inbox asked Thambi for a £1,500 ‘collab fee’. Priya refused, and the one-star video followed.",
+      "response": [
+        [
+          "priya",
+          "Yes. All right. They wanted fifteen hundred pounds to be nice to me. I told them where to go."
+        ],
+        [
+          "priya",
+          "Three days later, the video. I never told the police. How would it sound? ‘He tried to shake me down, I said no, and then he died eating my food.’"
+        ],
+        [
+          "priya",
+          "I thought it was him. Jonah. Was it not?"
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_priya_fee"
+        ]
+      }
+    },
+    {
+      "id": "c_lena_pilates",
+      "statement": "st_lena_pilates",
+      "proof": [
+        "building_log",
+        "st_mihai_yoga",
+        "owen_camera"
+      ],
+      "title": "Lena was in the building",
+      "insight": "Lena didn’t walk home at ten to ten. She let herself into the building at 21:02 and spent the evening in Owen’s flat downstairs.",
+      "response": [
+        [
+          "lena",
+          "…Yes. I left the class early. I came back at about nine, but I didn’t go up. I went to Owen’s flat. We’ve been… since Christmas."
+        ],
+        [
+          "lena",
+          "I was there when the sirens started. I ran upstairs and they were already working on him, and I said ‘pilates’ because it was the first word that came out."
+        ],
+        [
+          "lena",
+          "I didn’t go near our flat. Ask Owen. His camera sees his door."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_lena_owen"
+        ]
+      }
+    },
+    {
+      "id": "c_owen_alone",
+      "statement": "st_owen_alone",
+      "proof": [
+        "st_lena_owen",
+        "st_mihai_yoga"
+      ],
+      "title": "Owen wasn’t alone",
+      "insight": "Lena was in Owen’s flat from 21:03 until the commotion upstairs. His door camera shows her going in, and shows nobody else in the front hall but the courier.",
+      "response": [
+        [
+          "owen",
+          "…Right. Yeah. She was here. I didn’t say because, well. Her fiancé had just died upstairs."
+        ],
+        [
+          "owen",
+          "I’ll do better than my word, though. My door camera sees my door and the front hall. Here — every minute of Thursday night."
+        ],
+        [
+          "narrator",
+          "He scrolls back through the camera app on his phone and hands it to you."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_owen_lena"
+        ],
+        "evidence": [
+          "owen_camera"
+        ]
+      }
+    },
+    {
+      "id": "c_mihai_account",
+      "statement": "st_mihai_andrei",
+      "proof": [
+        "delivery_photo"
+      ],
+      "title": "Mihai rides on a borrowed account",
+      "insight": "The account belongs to someone else. Mihai rents it, as thousands of couriers do — which is why he has kept away from the police. He saw a woman going into Flat 1 as he came in.",
+      "response": [
+        [
+          "mihai",
+          "…Please. Andrei is my cousin’s friend. He has the papers, I have the bicycle. I pay him a hundred pounds a week to use his account. If the police find out, I lose everything."
+        ],
+        [
+          "mihai",
+          "But I told you the truth about the bag. The sticker was perfect."
+        ],
+        [
+          "mihai",
+          "And one more thing. When I came in, a blonde woman with a yoga mat was at the door downstairs, Flat 1. A man opened it and she went in. She looked at me like I was not there."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_mihai_yoga"
+        ]
+      }
+    },
+    {
+      "id": "c_hannah_close",
+      "statement": "st_hannah_close",
+      "proof": [
+        "jonah_messages"
+      ],
+      "title": "They weren’t getting on",
+      "insight": "Marcus and Jonah were at war in their last week. Hannah overheard their row on Sunday and has been protecting her husband.",
+      "response": [
+        [
+          "hannah",
+          "…I didn’t know about these. ‘Think of Hannah and the kids’? What does that mean?"
+        ],
+        [
+          "hannah",
+          "All right. On Sunday the third, at lunch, they went out into the garden. I heard Jonah say, ‘You’ve been using my name.’ Then Marcus came in white as a sheet, and Jonah left without his pudding."
+        ],
+        [
+          "hannah",
+          "Marcus told me it was a contract dispute. I wanted to believe him."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_hannah_row"
+        ]
+      }
+    },
+    {
+      "id": "c_marcus_thambi",
+      "statement": "st_marcus_thambi",
+      "proof": [
+        "jonah_messages"
+      ],
+      "title": "The Thambi video was Marcus’s idea",
+      "insight": "Marcus suggested the Thambi video himself, and told Jonah to order ‘around nine’. He chose the restaurant and the time.",
+      "response": [
+        [
+          "marcus",
+          "So I suggested it. It’s my job to suggest content. A second-chance video was always going to do numbers."
+        ],
+        [
+          "marcus",
+          "‘Around nine’ because nine is when people are on their phones. That’s not a plot. That’s an algorithm."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_marcus_content"
+        ]
+      }
+    },
+    {
+      "id": "c_marcus_inbox",
+      "statement": "st_marcus_inbox",
+      "proof": [
+        "st_lena_inbox",
+        "jonah_messages"
+      ],
+      "title": "Marcus ran the inbox",
+      "insight": "The business inbox was Marcus’s, and Marcus was asking restaurants for money through it. He calls it normal business.",
+      "response": [
+        [
+          "marcus",
+          "…Fine. I ran it. Mostly. Somebody had to."
+        ],
+        [
+          "marcus",
+          "And yes, I asked restaurants for collab fees. Everyone in this industry does. Some paid, some didn’t. That’s not a crime, it’s a rate card."
+        ],
+        [
+          "marcus",
+          "It isn’t murder, either."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_marcus_fees"
+        ]
+      }
+    },
+    {
+      "id": "c_marcus_run",
+      "statement": "st_marcus_run",
+      "proof": [
+        "family_chat",
+        "d_run"
+      ],
+      "title": "Marcus didn’t run",
+      "insight": "Evie ran Marcus’s 7.2 km wearing his watch and carrying his phone. Marcus admits it now — and says he spent the evening in his garden office.",
+      "response": [
+        [
+          "marcus",
+          "…Fine. Evie took my watch and phone on her run. My knee’s been bad, and I didn’t want to break the streak. Five hundred and twelve days. Vanity, I know."
+        ],
+        [
+          "marcus",
+          "I didn’t mention it because it’s embarrassing, not because it’s sinister. I was in my garden office all evening, doing contracts."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_marcus_home"
+        ]
+      }
+    },
+    {
+      "id": "c_marcus_home",
+      "statement": "st_marcus_home",
+      "proof": [
+        "doyle_doorbell",
+        "st_hannah_out"
+      ],
+      "title": "Marcus went out",
+      "insight": "Marcus left the house with Evie at 20:55 and came back alone at 21:49, from the canal end of the street. He now says he went for a walk.",
+      "response": [
+        [
+          "marcus",
+          "…All right. I walked. Round the park, along the canal. I needed to think. Jonah was about to wreck everything I’d built — my business, my house, my family."
+        ],
+        [
+          "marcus",
+          "So yes, I walked by the water for an hour feeling sorry for myself. I never went near The Ropeworks."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_marcus_walk"
+        ]
+      }
+    },
+    {
+      "id": "c_marcus_walk",
+      "statement": "st_marcus_walk",
+      "proof": [
+        "adult_pens",
+        "boater_statement",
+        "d_towpath"
+      ],
+      "title": "Marcus was at The Ropeworks",
+      "insight": "Marcus was seen keying in at the bike store at 21:18, and Jonah’s new pens — the ones that should have saved him — ended up in the Doyles’ own sharps bin.",
+      "response": [
+        [
+          "marcus",
+          "…"
+        ],
+        [
+          "narrator",
+          "You tell him what the man on the narrowboat saw, and where Jonah’s pens were found: on top of his son’s used needles, in his own kitchen. He looks at you for a long time. When he speaks, it isn’t to you. It is to ask for a solicitor."
+        ]
+      ],
+      "reward": {
+        "flags": [
+          "marcus_silent"
+        ]
+      }
+    }
+  ],
+  "deductions": [
+    {
+      "id": "d_spiked",
+      "title": "Spiked after delivery",
+      "symbol": "testtube.2",
+      "question": "How did peanut get into Jonah’s curry?",
+      "options": [
+        "Cross-contamination from a ladle in Thambi’s kitchen",
+        "Thambi’s chilli crisp, sprinkled on at packing",
+        "Someone sprinkled it on after the curry was delivered",
+        "The courier opened the bag on the stairs and added it"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "lab_report",
+          "thambi_bag"
+        ],
+        [
+          "jonah_stories",
+          "delivery_photo"
+        ]
+      ],
+      "proofLabels": [
+        "Signs of tampering",
+        "The bag was sealed when it arrived"
+      ],
+      "visibleWhen": {
+        "evidence": "lab_report"
+      },
+      "conclusion": "The peanut was dry powder, only in the curry from the top of the tub — none further down, none in Thambi’s pot, and no oil, so it wasn’t the chilli crisp. And the bag reached Jonah’s door sealed. Somebody opened it inside the flat and sprinkled the powder on."
+    },
+    {
+      "id": "d_pens",
+      "title": "The wrong pens",
+      "symbol": "cross.case.fill",
+      "question": "Why didn’t Jonah’s adrenaline pens save him?",
+      "options": [
+        "Someone swapped his new pens for old, weaker ones",
+        "He’d left his new pens at the gym and grabbed old ones",
+        "He injected too late, after he’d already collapsed",
+        "His new pens came from a faulty batch"
+      ],
+      "answer": 0,
+      "proof": [
+        [
+          "pen_tubes"
+        ],
+        [
+          "pharmacy_bag",
+          "st_lena_new_pens"
+        ]
+      ],
+      "proofLabels": [
+        "The pens by his body",
+        "The pens he should have had"
+      ],
+      "visibleWhen": {
+        "any": [
+          {
+            "evidence": "pen_tubes"
+          },
+          {
+            "evidence": "pharmacy_bag"
+          }
+        ]
+      },
+      "conclusion": "Jonah collected two new 0.3 mg pens on 26 February. The pens he used were 0.15 mg — half the dose — and eighteen months out of date, with their labels peeled off. Somebody swapped them."
+    },
+    {
+      "id": "d_window",
+      "title": "Five minutes in the shower",
+      "symbol": "lock.fill",
+      "question": "When could someone have spiked the curry?",
+      "options": [
+        "Between 21:04 and 21:16, while he set up his ring light",
+        "Between 21:29 and 21:33, while he was filming",
+        "Before 21:04, on the stairs, in the courier’s two minutes",
+        "Between 21:19 and 21:24, while Jonah was in the shower"
+      ],
+      "answer": 3,
+      "proof": [
+        [
+          "smart_lock_log",
+          "building_log"
+        ],
+        [
+          "jonah_stories",
+          "st_owen_pipes",
+          "st_lena_shower",
+          "owen_class"
+        ]
+      ],
+      "proofLabels": [
+        "The door opened",
+        "Jonah was in the shower"
+      ],
+      "visibleWhen": {
+        "deduced": "d_spiked"
+      },
+      "conclusion": "At 21:17 Jonah said he was going for a shower, and the pipes ran from about 21:18. At 21:18 someone came in by the back with Flat 3’s guest code; at 21:19 the same code opened his door, and at 21:24 someone let themselves out from inside. Five minutes, while the water ran."
+    },
+    {
+      "id": "d_source",
+      "title": "Alfie’s medicine",
+      "symbol": "pills.fill",
+      "question": "Where did the peanut powder come from?",
+      "options": [
+        "Owen’s peanut flour, carried up the back stairs",
+        "Thambi’s chilli crisp, spooned in at packing",
+        "A sachet of Alfie’s peanut immunotherapy",
+        "A Hart Fuel protein ball, crumbled over the top"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "sachet_corner"
+        ],
+        [
+          "medicine_box",
+          "st_hannah_oit"
+        ]
+      ],
+      "proofLabels": [
+        "What the killer left behind",
+        "Whose medicine it was"
+      ],
+      "visibleWhen": {
+        "evidence": "sachet_corner"
+      },
+      "conclusion": "The torn foil corner under the island comes from a 300 mg sachet of peanut protein — Alfie Doyle’s immunotherapy, made to be opened and stirred into food. The killer brought it from the Doyles’ house."
+    },
+    {
+      "id": "d_hannah",
+      "title": "Hannah was on camera",
+      "symbol": "person.fill.checkmark",
+      "question": "Could Hannah have opened Jonah’s door at 21:19?",
+      "options": [
+        "No — she was tutoring on camera from 21:00 to 21:45",
+        "Yes — her lesson finished early, at 21:15",
+        "Yes — she left a photo in front of her camera and slipped out"
+      ],
+      "answer": 0,
+      "proof": [
+        [
+          "tutoring_log",
+          "st_hannah_tutoring"
+        ],
+        [
+          "d_window",
+          "smart_lock_log",
+          "building_log"
+        ]
+      ],
+      "proofLabels": [
+        "Where Hannah was",
+        "When the door opened"
+      ],
+      "visibleWhen": {
+        "deduced": "d_source"
+      },
+      "conclusion": "From 21:00 to 21:45 Hannah was on video with a ten-year-old, teaching fractions, and the session was recorded. Whoever let themselves into Flat 3 at 21:19, it wasn’t her."
+    },
+    {
+      "id": "d_lena",
+      "title": "Lena was on camera",
+      "symbol": "video.fill",
+      "question": "Could Lena have opened Jonah’s door at 21:19?",
+      "options": [
+        "Yes — she left Owen’s flat by his towpath door at 21:15",
+        "Yes — Owen’s class was pre-recorded, not live",
+        "No — she is on camera in Owen’s flat at 21:19 and 21:24"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "owen_class"
+        ],
+        [
+          "d_window",
+          "smart_lock_log",
+          "building_log"
+        ]
+      ],
+      "proofLabels": [
+        "Where Lena was",
+        "When the door opened"
+      ],
+      "visibleWhen": {
+        "all": [
+          {
+            "deduced": "d_window"
+          },
+          {
+            "statement": "st_lena_owen"
+          }
+        ]
+      },
+      "conclusion": "At 21:19, when the guest code opened Flat 3, Lena was walking across the back of Owen’s online class with a glass of water. At 21:24 she was still on his sofa. Whoever was upstairs, it wasn’t her.",
+      "reward": {}
+    },
+    {
+      "id": "d_run",
+      "title": "Somebody else’s run",
+      "symbol": "figure.run",
+      "question": "Was Marcus really running round Victoria Park on Thursday night?",
+      "options": [
+        "Yes — his watch tracked every step",
+        "No — he faked the route with a GPS app",
+        "Yes, but he cut the route short and sat on a bench",
+        "No — Evie ran it, wearing his watch"
+      ],
+      "answer": 3,
+      "proof": [
+        [
+          "marcus_running",
+          "marcus_history"
+        ],
+        [
+          "family_chat",
+          "doyle_doorbell",
+          "st_marcus_home"
+        ]
+      ],
+      "proofLabels": [
+        "Thursday’s run",
+        "Who was wearing the watch"
+      ],
+      "visibleWhen": {
+        "evidence": "family_chat"
+      },
+      "conclusion": "Thursday’s run was faster than Marcus’s best ever, at a cadence he has never run at, with a heart rate fifteen beats above the highest he has ever recorded — a teenage runner’s numbers. Evie ran it for him: ‘DONE YOUR RUN DAD’. Marcus has no alibi."
+    },
+    {
+      "id": "d_towpath",
+      "title": "The man on the towpath",
+      "symbol": "eye.fill",
+      "question": "Who let themselves in by the bike store at 21:18?",
+      "options": [
+        "Owen, slipping round from his own back door",
+        "Lena, out of Owen’s flat by the towpath",
+        "Marcus, in his reflective running jacket",
+        "The courier, coming back for a tip"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "boater_statement"
+        ],
+        [
+          "d_run",
+          "doyle_doorbell",
+          "st_marcus_walk"
+        ]
+      ],
+      "proofLabels": [
+        "Who was seen at the bike store",
+        "Where Marcus really was"
+      ],
+      "visibleWhen": {
+        "deduced": "d_run"
+      },
+      "conclusion": "A very tall man in a black running jacket with reflective letters — D-something — keyed in at the bike store at 21:18 and walked back towards Victoria Park five minutes later. Marcus, six foot four, with no alibi, came home from the canal end at 21:49.",
+      "reward": {}
+    },
+    {
+      "id": "d_shakedown",
+      "title": "The shakedown",
+      "symbol": "message.fill",
+      "question": "What was Jonah going to reveal on Monday?",
+      "options": [
+        "That he was leaving Lena for someone else",
+        "That restaurants were being shaken down for money in his name",
+        "That Thambi had made other customers ill before",
+        "That he was quitting reviews to open his own restaurant"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "receipts_draft"
+        ],
+        [
+          "dm_thambi",
+          "st_priya_fee",
+          "jonah_messages",
+          "st_lena_inbox",
+          "st_marcus_fees"
+        ]
+      ],
+      "proofLabels": [
+        "Jonah’s plan",
+        "Proof of the demands"
+      ],
+      "visibleWhen": {
+        "evidence": "receipts_draft"
+      },
+      "conclusion": "Through Jonah’s business inbox, restaurants were asked for ‘collab fees’, and those who refused got a savaging. Jonah found out who was behind it, and was going to name them on Monday at nine and then go to the police."
+    }
+  ]
+}

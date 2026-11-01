@@ -1,0 +1,391 @@
+{
+  "contradictions": [
+    {
+      "id": "c_kirsty_count",
+      "statement": "st_kirsty_forty",
+      "proof": [
+        "clicker"
+      ],
+      "title": "The counter said thirty-nine",
+      "insight": "Kirsty’s counter still reads 039. Thirty-nine people stepped aboard at the Landing, though forty tickets were scanned. She trusted the scanner, and then told the MCA that her counter agreed with it.",
+      "response": [
+        [
+          "kirsty",
+          "…Thirty-nine. Aye. I know what it says."
+        ],
+        [
+          "kirsty",
+          "The birders came in a rush at the end, and I thought I’d missed one with my thumb. The scanner said forty, and the scanner’s never wrong, is it? So I told my dad forty, and he took the boat out."
+        ],
+        [
+          "kirsty",
+          "When the MCA asked, I said my counter agreed. If I’d said thirty-nine, it’s us that sailed knowing. That’s my dad’s licence. That’s sixty years."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_kirsty_39"
+        ]
+      }
+    },
+    {
+      "id": "c_tom_row",
+      "statement": "st_tom_day",
+      "proof": [
+        "st_sam_row"
+      ],
+      "title": "They rowed at the chapel",
+      "insight": "At about ten past three Tom and Nell rowed in the chapel ruins. He had lost £38,000 of their savings on a trading app. On the boat he thought she was keeping away from him, so he never went looking for her.",
+      "response": [
+        [
+          "tom",
+          "…Sam heard that. Of course he did. Half the island probably heard it."
+        ],
+        [
+          "tom",
+          "I’d lost thirty-eight thousand pounds of our savings on a trading app. Nell found out on Saturday night. At the chapel she said, ‘You promised me you’d stopped,’ I said I’d pay it back, and she walked off up the island."
+        ],
+        [
+          "tom",
+          "That’s why I never went looking for her on the boat. I thought she was keeping away from me. I sat by the door with her seat and thought: fine, Seahouses, then. And she was never even on it."
+        ],
+        [
+          "tom",
+          "And before you ask, there’s a life policy. Two hundred and fifty thousand. The police asked me about it on the first day."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_tom_row"
+        ]
+      }
+    },
+    {
+      "id": "c_gaz_chapel",
+      "statement": "st_gaz_chapel",
+      "proof": [
+        "gaz_photos"
+      ],
+      "title": "Gaz was in Seal Haven",
+      "insight": "Gaz never went to the chapel garden. From 16:05 to 16:14 he was photographing seal pups inside the fence of Seal Haven, closed since 1 September. On his way there, from the cliff path, he saw Nell at the Churn with somebody in dark clothes.",
+      "response": [
+        [
+          "gaz",
+          "…Them pups. Aye. I was in the Haven."
+        ],
+        [
+          "gaz",
+          "When the bird went, I took the cliff path in case it dropped into the scrub along the top. It didn’t. And the pups were right there below me, and the fence is only waist high. I’ve a caution already, for the terns. They’d take every permit I’ve got."
+        ],
+        [
+          "gaz",
+          "Before I went over the fence I looked back up at the Churn. Two of them at the wall, close together: a yellow jacket and somebody in dark clothes. Too far to tell you man or woman. I thought: two birders falling out over a gull. And I ducked down so they’d not see me go over the fence."
+        ],
+        [
+          "gaz",
+          "Five minutes later, from inside the fence, I looked up again, and there was nobody at the wall. And nobody came down that cliff path past me. I’d have seen them against the sky."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_gaz_churn"
+        ]
+      }
+    },
+    {
+      "id": "c_sam_sweep",
+      "statement": "st_sam_sweep",
+      "proof": [
+        "bird_news"
+      ],
+      "title": "Sam never swept the north end",
+      "insight": "At 16:00:48 Sam was in the chapel garden, behind the rubythroat in J. Purvis’s photo. When the bird flew he ran after it and skipped the sweep, and he radioed ‘north end clear’ from the chapel garden.",
+      "response": [
+        [
+          "sam",
+          "…That’s me. Behind the bird, with my camera up."
+        ],
+        [
+          "sam",
+          "When it flew at 15:52, I knew where it’d go: the chapel elders, they always come back to them. So I ran. I never did the sweep. I radioed ‘north end clear’ from the chapel garden, so Morag wouldn’t know."
+        ],
+        [
+          "sam",
+          "I’ve thought about it every night since. If I’d done the sweep, I’d have been at the Churn at four. I’d have seen her."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_sam_chapel"
+        ]
+      }
+    },
+    {
+      "id": "c_morag_lighthouse",
+      "statement": "st_morag_lighthouse",
+      "proof": [
+        "st_kirsty_radio",
+        "d_who"
+      ],
+      "title": "Morag was out at the Churn",
+      "insight": "Morag wasn’t indoors. At four, when Rob Dunn radioed from the Landing, she answered over the wind with the Churn booming behind her. She says Nell had asked to talk, and that they met at the Churn just before four, and that Nell then walked off down the cliff path, alive.",
+      "response": [
+        [
+          "morag",
+          "…The Churn. Aye. You can’t mistake it, can you, once you’ve heard it."
+        ],
+        [
+          "morag",
+          "Nell asked to talk. She sent me a message from the foghorn: she’d rather I heard it from her than from the board. I said the Churn, at four, where nobody would hear us. She told me what her plan would do to this island, and to me. Twenty-four years."
+        ],
+        [
+          "morag",
+          "Then she walked off down the cliff path towards the chapel, alive. That’s the last I saw of her. I didn’t tell the police because they never asked, and because I knew how it would look."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_morag_churn"
+        ]
+      }
+    },
+    {
+      "id": "c_morag_churn",
+      "statement": "st_morag_churn",
+      "proof": [
+        "st_gaz_churn",
+        "binoculars"
+      ],
+      "title": "Nell never left the Churn",
+      "insight": "Nell never walked away from the Churn. Nobody came down the cliff path past Gaz, and what she had with her went back the other way, past the lighthouse. Morag pushed her over the wall, then took her phone down to the Landing and answered Tom.",
+      "response": [
+        [
+          "narrator",
+          "Morag looks at what you’ve brought her for a long time."
+        ],
+        [
+          "morag",
+          "I taught her to ring her first puffin. Did you know that? On that very wall. She cried when it bit her."
+        ],
+        [
+          "morag",
+          "She said, ‘You’ve had twenty-four wonderful years, Morag.’ As if I’d been on holiday. As if it had all been lent me. I put my hands on her shoulders, and she went over. The Churn did the rest. It always does."
+        ],
+        [
+          "morag",
+          "Then Rob came on the radio, cheerful as you like, and I answered him. The rest was easy. Her phone was lying on the wall, and down at the Landing Tom kept asking everybody where she was. I only had to answer him."
+        ],
+        [
+          "narrator",
+          "She doesn’t say anything else."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_morag_confession"
+        ]
+      }
+    }
+  ],
+  "deductions": [
+    {
+      "id": "d_deck",
+      "title": "Never on the upper deck",
+      "symbol": "ferry.fill",
+      "question": "Did Nell go up to the upper deck on the crossing?",
+      "options": [
+        "Yes: everyone goes up for the seals on the loop",
+        "Yes: she went up to be sick over the rail",
+        "No: nobody up there saw her, and she always sat inside",
+        "No: the upper deck was closed in the swell"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "st_kirsty_deck",
+          "st_gaz_deck"
+        ],
+        [
+          "bea_photo",
+          "st_tom_inside",
+          "tom_messages"
+        ]
+      ],
+      "proofLabels": [
+        "Who was on the upper deck",
+        "Where Nell always sat"
+      ],
+      "visibleWhen": {
+        "evidence": "upper_deck"
+      },
+      "conclusion": "Six people were on the upper deck for the loop, all men with telescopes, and none of them saw a woman. For fifteen years Nell sat inside by the cabin door on every crossing, and on Sunday she asked Tom to save her a seat inside. If she was on the Ebba Belle at all, she was never on the upper deck."
+    },
+    {
+      "id": "d_count",
+      "title": "Forty tickets, thirty-nine people",
+      "symbol": "number",
+      "question": "How many people really got on the Ebba Belle at the Landing?",
+      "options": [
+        "Forty: the scanner read forty tickets",
+        "Forty-one: a ranger came over without a ticket",
+        "Thirty-nine: Gaz Milburn’s ticket was scanned, but he missed the boat",
+        "Thirty-nine: Nell’s ticket was scanned on Tom’s phone, but she never got on"
+      ],
+      "answer": 3,
+      "proof": [
+        [
+          "scanner_log",
+          "st_kirsty_tom"
+        ],
+        [
+          "clicker",
+          "st_kirsty_39"
+        ]
+      ],
+      "proofLabels": [
+        "Whose phone Nell’s ticket was on",
+        "How many people stepped aboard"
+      ],
+      "visibleWhen": {
+        "evidence": "scanner_log"
+      },
+      "conclusion": "Forty tickets were scanned at the Landing, but only thirty-nine people stepped aboard: Kirsty’s counter still says so. Nell’s ticket went through on Tom’s phone, two seconds after his own. Thirty-nine people got on at the island, and thirty-nine got off at Seahouses. Nell never left St Ebba’s."
+    },
+    {
+      "id": "d_text",
+      "title": "Not her message",
+      "symbol": "wifi.router.fill",
+      "question": "Who sent Tom ‘Get on & save me a seat inside’ at 16:22?",
+      "options": [
+        "Nell, on her way down from the chapel",
+        "Nell, from the north end, while she still had a signal",
+        "Nell, from the boat, after she had slipped aboard",
+        "Somebody at the Landing, with Nell’s phone in their pocket"
+      ],
+      "answer": 3,
+      "proof": [
+        [
+          "router_log"
+        ],
+        [
+          "d_count",
+          "st_tom_path",
+          "st_tom_style",
+          "tom_messages"
+        ]
+      ],
+      "proofLabels": [
+        "Where Nell’s phone was at 16:22",
+        "Whether Nell sent it"
+      ],
+      "visibleWhen": {
+        "evidence": "router_log"
+      },
+      "conclusion": "At 16:22 Nell’s phone was on the visitor hut’s Wi-Fi, the only connection at the Landing, for less than a minute and a half. Nell wasn’t there: Tom was watching the path for her, she never got on the boat, and the message isn’t even written the way she wrote. Somebody standing in the crowd at the Landing had her phone in a pocket, read Tom’s messages, and answered him."
+    },
+    {
+      "id": "d_churn",
+      "title": "Last seen at the Churn",
+      "symbol": "water.waves",
+      "question": "Where was Nell last seen alive?",
+      "options": [
+        "In the chapel garden, with the crowd watching the bird",
+        "On the path down to the Landing, at twenty past four",
+        "At the Churn, just before four, with somebody in dark clothes",
+        "In the visitor hut with Tom, at quarter past three"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "gaz_photos"
+        ],
+        [
+          "st_gaz_churn"
+        ]
+      ],
+      "proofLabels": [
+        "Where she was going at 15:53",
+        "Who saw her there"
+      ],
+      "visibleWhen": {
+        "statement": "st_gaz_churn"
+      },
+      "conclusion": "At 15:53, as the bird flew, Nell walked away from the crowd, alone, out along the spur to the Churn. At about two minutes to four Gaz saw her at the Churn wall with somebody in dark clothes. A few minutes later nobody was there, and nobody came back down the cliff path past him. The spur is a dead end: whoever was with her went back by the main path, past the lighthouse."
+    },
+    {
+      "id": "d_who",
+      "title": "At the Churn, then at the Landing",
+      "symbol": "figure.walk",
+      "question": "Who could have been at the Churn just before four, and at the Landing at 16:22?",
+      "options": [
+        "Tom Ashby",
+        "Gaz Milburn",
+        "Sam Okafor",
+        "Morag Heslop"
+      ],
+      "answer": 3,
+      "proof": [
+        [
+          "router_log"
+        ],
+        [
+          "island_log",
+          "st_morag_lighthouse",
+          "st_sam_chapel"
+        ]
+      ],
+      "proofLabels": [
+        "Who was at the Landing when Tom got the message",
+        "Where the two rangers really were at four"
+      ],
+      "visibleWhen": {
+        "all": [
+          {
+            "deduced": "d_churn"
+          },
+          {
+            "resolved": "c_sam_sweep"
+          }
+        ]
+      },
+      "conclusion": "Whoever was with Nell at the Churn just before four went back past the lighthouse, and answered Tom from the Landing at 16:22. Tom was paying for two teas in the hut at 15:57, sixteen minutes from the Churn. Sam was in the chapel garden at 16:00:48. Kirsty came in with the boat at 16:00. Gaz didn’t reach the Landing until 16:26, four minutes after the message. Only Morag was alone at the north end, three minutes from the Churn, and at the Landing in time: her phone joined the hut’s Wi-Fi at 16:18."
+    },
+    {
+      "id": "d_motive",
+      "title": "Something to say face to face",
+      "symbol": "doc.text.fill",
+      "question": "Why did Nell come to St Ebba’s on the last landing day?",
+      "options": [
+        "To see the Siberian rubythroat before it moved on",
+        "To warn the Dunns that their day trips would end",
+        "To tell the rangers herself that the trust meant to replace them",
+        "To make it up with Tom, away from home"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "board_summary"
+        ],
+        [
+          "st_sam_email",
+          "st_morag_confession"
+        ]
+      ],
+      "proofLabels": [
+        "What Nell’s plan would do",
+        "Whom she came to tell"
+      ],
+      "visibleWhen": {
+        "all": [
+          {
+            "evidence": "board_summary"
+          },
+          {
+            "deduced": "d_churn"
+          }
+        ]
+      },
+      "conclusion": "Nell’s plan would take the rangers off St Ebba’s, turn the keepers’ cottage into a holiday let, and end the day trips. It was going to the board on Tuesday. The staff it hurt were to be told in person before Tuesday, and on Friday the trust told Morag that Nell would be over on Sunday and wanted a word. Nell came over on the last landing day to tell the island’s rangers herself."
+    }
+  ]
+}

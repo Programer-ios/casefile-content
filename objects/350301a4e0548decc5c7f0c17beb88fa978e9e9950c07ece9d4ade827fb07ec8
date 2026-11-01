@@ -1,0 +1,481 @@
+{
+  "contradictions": [
+    {
+      "id": "c_daniel_study",
+      "statement": "st_daniel_billiards",
+      "proof": [
+        "burnt_iou",
+        "bronze_bookend",
+        "maid_statement",
+        "constable_notes"
+      ],
+      "title": "Daniel was in the study at 10.45",
+      "insight": "Daniel lied: he was in the study at 10.45. But by his account his father was already dead — which explains the prints on the bookend and the IOU in the grate.",
+      "response": [
+        [
+          "daniel",
+          "…All right. All right!"
+        ],
+        [
+          "daniel",
+          "I went in at a quarter to eleven to apologise. Dutch courage, I suppose. He was slumped over the desk. Dead. I knew it the moment I touched his hand."
+        ],
+        [
+          "daniel",
+          "That bookend was lying on the floor. I picked it up without thinking — then I saw my IOU sitting on his blotter and… God help me, I threw it on the fire. Then I ran."
+        ],
+        [
+          "daniel",
+          "I didn’t kill him. He was dead when I got there. I swear it."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_daniel_found_body"
+        ]
+      }
+    },
+    {
+      "id": "c_margaret_room",
+      "statement": "st_margaret_drawing_room",
+      "proof": [
+        "love_note",
+        "shawl_case"
+      ],
+      "title": "Margaret was in the conservatory",
+      "insight": "Margaret wasn’t in the drawing room between half past nine and ten. She was in the conservatory with Dr. Harrow.",
+      "response": [
+        [
+          "margaret",
+          "…Where did you find that?"
+        ],
+        [
+          "margaret",
+          "Very well. Felix and I were in the conservatory from about half past nine until nearly ten. We are — fond of each other. We have been for some time."
+        ],
+        [
+          "margaret",
+          "We came back separately so that no one would notice. We were together the whole time. Ask Felix."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_margaret_conservatory"
+        ]
+      }
+    },
+    {
+      "id": "c_harrow_room",
+      "statement": "st_harrow_drawing_room",
+      "proof": [
+        "love_note",
+        "shawl_case",
+        "st_margaret_conservatory"
+      ],
+      "title": "Harrow was in the conservatory",
+      "insight": "Dr. Harrow spent half an hour in the conservatory with Margaret, not in the drawing room.",
+      "response": [
+        [
+          "harrow",
+          "Ah."
+        ],
+        [
+          "harrow",
+          "Yes. I was in the conservatory with Margaret from half past nine until five to ten. We came back to the drawing room separately."
+        ],
+        [
+          "harrow",
+          "It was foolish, and it was wrong. But it was not murder."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_harrow_conservatory"
+        ]
+      }
+    },
+    {
+      "id": "c_harrow_blow",
+      "statement": "st_harrow_blow",
+      "proof": [
+        "wilted_fern",
+        "d_poisoned",
+        "bronze_bookend",
+        "d_time_of_death"
+      ],
+      "title": "Harrow misjudged the cause of death",
+      "insight": "Lionel wasn’t struck down. He was poisoned with cyanide, and grazed his temple on the bookend as he collapsed.",
+      "response": [
+        [
+          "harrow",
+          "…Let me think again."
+        ],
+        [
+          "harrow",
+          "The wound barely bled, did it? A man who’s already dying doesn’t bleed much. And that smell in the room last night — I took it for the brandy. Bitter almonds. Good God. Cyanide."
+        ],
+        [
+          "harrow",
+          "He didn’t die of that blow; he struck his head as he fell. Cyanide kills within minutes. Lionel was poisoned — and I should have seen it."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_harrow_cyanide"
+        ]
+      }
+    },
+    {
+      "id": "c_finch_library",
+      "statement": "st_finch_library",
+      "proof": [
+        "phone_pad"
+      ],
+      "title": "Finch was on the telephone to Hartley",
+      "insight": "Finch lied to hide his secret deal. The exchange’s charges put him at the hall telephone from 9.32 to 9.51 — with a clear view of the study corridor.",
+      "response": [
+        [
+          "finch",
+          "…An impression on a telephone pad. How very thorough of you."
+        ],
+        [
+          "finch",
+          "Very well. I wasn’t in the library. From half past nine I was on the hall telephone to Rupert Hartley, arranging to sell him my shares — whatever Lionel thought of it."
+        ],
+        [
+          "finch",
+          "Nineteen minutes, the exchange said. Business, not murder."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_finch_phone"
+        ]
+      }
+    },
+    {
+      "id": "c_eleanor_typing",
+      "statement": "st_eleanor_typing",
+      "proof": [
+        "maid_statement",
+        "cold_grate"
+      ],
+      "title": "Eleanor wasn’t in her office",
+      "insight": "Eleanor’s office was dark and cold all evening. She now admits she was in the study with Lionel at about twenty to ten — but insists he was alive when she left.",
+      "response": [
+        [
+          "eleanor",
+          "…I see."
+        ],
+        [
+          "eleanor",
+          "Very well. I wasn’t typing. At about twenty to ten I took Mr. Thorne the day’s letters to sign. I didn’t mention it because I knew how it would look."
+        ],
+        [
+          "eleanor",
+          "He was perfectly well when I left him at a quarter to ten. And he was dictating at a quarter past, wasn’t he? Hobbs heard him."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_eleanor_letters"
+        ]
+      }
+    },
+    {
+      "id": "c_eleanor_letters",
+      "statement": "st_eleanor_letters",
+      "proof": [
+        "half_signature"
+      ],
+      "title": "Lionel died mid-signature",
+      "insight": "The last letter Eleanor brought him is signed ‘Lionel Th—’, the nib trailing off the page. He didn’t stop because he was tired. He collapsed while she stood beside him.",
+      "response": [
+        [
+          "eleanor",
+          "That? He — he must have been tired. He waved me away before he’d finished. Mr. Thorne often left things half done."
+        ],
+        [
+          "narrator",
+          "Her hand has crept to her throat. Lionel Thorne, by every account, never left anything half done in his life."
+        ]
+      ],
+      "reward": {
+        "flags": [
+          "eleanor_rattled"
+        ]
+      }
+    },
+    {
+      "id": "c_eleanor_calder",
+      "statement": "st_eleanor_calder",
+      "proof": [
+        "d_calder",
+        "desk_diary"
+      ],
+      "title": "Calder & Rowe was Eleanor’s invention",
+      "insight": "Eleanor admits embezzling through a sham supplier — but clings to the 10.15 ‘dictation’ as her alibi for murder.",
+      "response": [
+        [
+          "eleanor",
+          "…"
+        ],
+        [
+          "eleanor",
+          "Nineteen years. Nineteen years of his letters and his tempers and his name signed in my hand on a thousand cheques. Do you know what he paid me?"
+        ],
+        [
+          "eleanor",
+          "Yes. I invented Calder & Rowe. I took what I was owed. But I did not kill him. He was alive at a quarter past ten — Hobbs heard him."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_eleanor_embezzle"
+        ]
+      }
+    }
+  ],
+  "deductions": [
+    {
+      "id": "d_poisoned",
+      "title": "Cyanide in the whisky",
+      "symbol": "drop.fill",
+      "question": "How did Lionel Thorne really die?",
+      "options": [
+        "Struck down with the bronze bookend",
+        "Poisoned — cyanide in his whisky",
+        "A heart attack brought on by the quarrel",
+        "Smothered, then staged as a fall"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "st_harrow_cyanide",
+          "wilted_fern",
+          "rabbit_poison"
+        ],
+        [
+          "whisky_glass",
+          "wilted_fern"
+        ]
+      ],
+      "proofLabels": [
+        "Signs of cyanide",
+        "What he drank"
+      ],
+      "visibleWhen": {
+        "any": [
+          {
+            "evidence": "bronze_bookend"
+          },
+          {
+            "evidence": "whisky_glass"
+          },
+          {
+            "evidence": "wilted_fern"
+          }
+        ]
+      },
+      "conclusion": "Someone laced Lionel’s whisky with cyanide, tipped the dregs into the fern and polished the glass clean. The temple wound came from his fall."
+    },
+    {
+      "id": "d_poison_source",
+      "title": "Rabbit poison from the boot room",
+      "symbol": "hare.fill",
+      "question": "Where did the cyanide come from?",
+      "options": [
+        "Dr. Harrow’s medical bag",
+        "The gardener’s tin of rabbit poison in the boot room",
+        "Lionel’s own heart tablets",
+        "It was brought down from London"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "rabbit_poison"
+        ],
+        [
+          "d_poisoned",
+          "st_harrow_cyanide",
+          "st_hobbs_boot_room",
+          "wilted_fern"
+        ]
+      ],
+      "proofLabels": [
+        "The source",
+        "A link to the death"
+      ],
+      "visibleWhen": {
+        "deduced": "d_poisoned"
+      },
+      "conclusion": "The Vermitox tin in the boot room was opened after the gardener left on Friday. Anyone in the house could have reached it — but Hobbs saw only Eleanor and Daniel pass through."
+    },
+    {
+      "id": "d_recording",
+      "title": "The voice was a recording",
+      "symbol": "recordingtape",
+      "question": "What did Hobbs really hear through the study door at 10.15?",
+      "options": [
+        "Lionel dictating a new letter",
+        "Someone imitating Lionel’s voice",
+        "An old dictation reel playing on the tape recorder",
+        "The wireless from the drawing room"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "st_hobbs_voice",
+          "tape_shelf",
+          "carbon_hartley"
+        ],
+        [
+          "carbon_hartley",
+          "time_switch",
+          "unplugged_lamp",
+          "st_hobbs_lamp",
+          "tape_shelf"
+        ],
+        [
+          "tape_recorder",
+          "tape_shelf",
+          "time_switch"
+        ]
+      ],
+      "proofLabels": [
+        "What Hobbs heard",
+        "Why it wasn’t live",
+        "What played it"
+      ],
+      "visibleWhen": {
+        "statement": "st_hobbs_voice"
+      },
+      "conclusion": "The words Hobbs heard were dictated on 15 November, and that very reel was in the recorder. The ‘voice’ at 10.15 proves nothing about when Lionel died."
+    },
+    {
+      "id": "d_time_of_death",
+      "title": "Dead before ten o’clock",
+      "symbol": "clock.fill",
+      "question": "When did Lionel actually die?",
+      "options": [
+        "Between 9.25 and 10.00 pm",
+        "Between 10.15 and 10.45 pm",
+        "Between 10.45 and 11.10 pm",
+        "Before he left the dinner table"
+      ],
+      "answer": 0,
+      "proof": [
+        [
+          "st_hobbs_ice",
+          "st_eleanor_letters",
+          "half_signature"
+        ],
+        [
+          "pill_box"
+        ],
+        [
+          "st_harrow_pill",
+          "st_margaret_pill"
+        ]
+      ],
+      "proofLabels": [
+        "Last seen alive",
+        "The tablet he never took",
+        "His ten o’clock habit"
+      ],
+      "visibleWhen": {
+        "evidence": "pill_box"
+      },
+      "conclusion": "Hobbs saw him well at 9.25. He never missed his ten o’clock tablet, yet Saturday’s was still in the box. Lionel died between 9.25 and 10.00."
+    },
+    {
+      "id": "d_switch",
+      "title": "A time switch faked the alibi",
+      "symbol": "timer",
+      "question": "How did the recorder start playing at 10.14 with Lionel already dead?",
+      "options": [
+        "Lionel set it running himself before he died",
+        "A clockwork time switch, wired into the desk lamp’s socket",
+        "Someone slipped into the study at 10.14",
+        "The telephone line set it off"
+      ],
+      "answer": 1,
+      "proof": [
+        [
+          "time_switch"
+        ],
+        [
+          "unplugged_lamp",
+          "st_hobbs_lamp",
+          "tape_recorder"
+        ]
+      ],
+      "proofLabels": [
+        "The device",
+        "How it was wired in"
+      ],
+      "visibleWhen": {
+        "deduced": "d_recording"
+      },
+      "conclusion": "The recorder’s flex was run to the hidden socket behind the desk, through a time switch set for 10.14 to 10.22. Whoever set it bought themselves an alibi at the bridge table — then had to take the switch away after the body was found."
+    },
+    {
+      "id": "d_daniel_innocent",
+      "title": "Daniel didn’t do it",
+      "symbol": "person.fill.checkmark",
+      "question": "Could Daniel have poisoned his father?",
+      "options": [
+        "Yes — he was alone in the study at 10.45",
+        "Yes — he slipped out of the billiards room",
+        "No — he was in the billiards room when Lionel was poisoned"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "maid_statement"
+        ],
+        [
+          "d_time_of_death",
+          "pill_box"
+        ]
+      ],
+      "proofLabels": [
+        "Where Daniel was",
+        "When Lionel died"
+      ],
+      "visibleWhen": {
+        "deduced": "d_time_of_death"
+      },
+      "conclusion": "Rosie was in and out of the billiards room from 9.30 until after ten, and Daniel never left it. By the time he stumbled into the study at 10.45, his father had been dead for an hour."
+    },
+    {
+      "id": "d_calder",
+      "title": "Calder & Rowe is a sham",
+      "symbol": "doc.text.magnifyingglass",
+      "question": "What was Calder & Rowe Supplies?",
+      "options": [
+        "A genuine supplier of brass fittings",
+        "A front for Hartley Precision",
+        "A sham firm, its invoices typed on Eleanor’s typewriter",
+        "Daniel’s bookmaker under another name"
+      ],
+      "answer": 2,
+      "proof": [
+        [
+          "calder_invoice"
+        ],
+        [
+          "typewriter_flaw"
+        ]
+      ],
+      "proofLabels": [
+        "The invoice",
+        "The machine that typed it"
+      ],
+      "visibleWhen": {
+        "evidence": "calder_invoice"
+      },
+      "conclusion": "Every Calder & Rowe invoice carries the high, faint ‘e’ of Eleanor’s own typewriter. She invented the firm and paid herself — and Monday’s audit would have found it."
+    }
+  ]
+}

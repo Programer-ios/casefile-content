@@ -1,0 +1,905 @@
+{
+  "id": "case011",
+  "number": 11,
+  "title": "The Midnight Express",
+  "tagline": "A locked compartment, five night stops, and a passenger list that does not agree with the train.",
+  "setting": "International Night Train 417 · Skopje–Preševo · November 2027",
+  "sketchTitle": "SLEEPING CAR 218",
+  "sketchCredit": "SKETCH: FRIDAY 12 NOVEMBER 2027 · CARRIAGE TIME",
+  "stayLabel": "Stay aboard Night Train 417",
+  "briefing": [
+    "International Night Train 417 is running north through the dark toward Belgrade. Its sleeping car left Veles almost full, stopped at Skopje across midnight, called at Kumanovo and Tabanovce, and is now standing under the white border lamps at Preševo. Some passengers are asleep. Others have already stepped off into the night.",
+    "At 01:52, sleeper attendant Emil Stojanov opened Compartment 6 to return a passport and found Damjan Ristev, fifty-two, dead beside the lower berth. Damjan had a single narrow puncture wound beneath his left shoulder. There was no weapon in the room.",
+    "The compartment appeared impossible. Its sliding door was locked, the brass privacy bolt was thrown from inside and the window was latched. Border officers forced the emergency release only after Damjan failed to answer. Nothing large enough for a person connects the compartment to the corridor or the track.",
+    "Damjan was a claims investigator travelling to a civil inquiry in Belgrade. He had spent months reopening the 2011 Demir Kapija sleeper fire, in which one of two sisters died. Witnesses saw him carrying a red document folio before Skopje. The folio is missing, and the passengers disagree about whom he intended to name in his report.",
+    "Train 417 cannot remain at the border until daylight. Reconstruct the stops, decide whether the locked compartment was truly the scene of the attack, and identify which passenger left the train with a reason to silence Damjan Ristev."
+  ],
+  "startingEvidence": [
+    "police_report",
+    "overnight_timetable",
+    "berth_manifest",
+    "attendant_statement"
+  ],
+  "locations": [
+    {
+      "id": "compartment_six",
+      "name": "Compartment 6",
+      "summary": "Damjan’s locked sleeper compartment, with the body, lower berth and missing red folio.",
+      "description": "Compartment 6 is narrow enough that the open washbasin almost touches the lower berth. Damjan’s suitcase sits beneath the window, his coat lies where the border officers cut it away, and the brass privacy bolt remains bent from the emergency release. The air smells of wool, metal and the dining car’s lemon soap.",
+      "art": {
+        "aspect": 1.32,
+        "props": [
+          {
+            "label": "Lower berth",
+            "x": 0.53,
+            "y": 0.64,
+            "w": 0.58,
+            "h": 0.27,
+            "style": "furniture"
+          },
+          {
+            "label": "Sliding door",
+            "x": 0.09,
+            "y": 0.5,
+            "w": 0.16,
+            "h": 0.66,
+            "style": "door"
+          },
+          {
+            "label": "Night window",
+            "x": 0.78,
+            "y": 0.29,
+            "w": 0.3,
+            "h": 0.29,
+            "style": "window"
+          },
+          {
+            "label": "Washbasin",
+            "x": 0.82,
+            "y": 0.73,
+            "w": 0.24,
+            "h": 0.2,
+            "style": "fixture"
+          },
+          {
+            "label": "Call panel",
+            "x": 0.24,
+            "y": 0.25,
+            "w": 0.14,
+            "h": 0.18,
+            "style": "fixture"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_comp_bolt",
+          "label": "The inside bolt",
+          "x": 0.08,
+          "y": 0.3,
+          "text": "The brass bolt is genuinely thrown into its socket. On the protected inner face, beneath the damage from the emergency release, there is a dark thumb-shaped smear that the first officers did not touch.",
+          "reward": {
+            "evidence": [
+              "inside_bolt"
+            ]
+          }
+        },
+        {
+          "id": "hs_comp_call",
+          "label": "The berth call button",
+          "x": 0.38,
+          "y": 0.1,
+          "text": "The call button beside the berth is depressed and slow to return. Its tiny indicator is lit red, although Emil says no bell sounded in his office. A service label gives the panel’s serial number.",
+          "reward": {
+            "evidence": [
+              "call_panel_log"
+            ]
+          }
+        },
+        {
+          "id": "hs_comp_coat",
+          "label": "Damjan’s coat",
+          "x": 0.46,
+          "y": 0.86,
+          "text": "Damjan’s dark travelling coat has been cut open by the border medic. A single narrow hole passes through the back below the left shoulder. The lining is heavily stained, but the outer cloth shows a thinner trail running toward the hem.",
+          "reward": {
+            "evidence": [
+              "coat_damage"
+            ]
+          }
+        },
+        {
+          "id": "hs_comp_luggage",
+          "label": "The open suitcase",
+          "x": 0.75,
+          "y": 0.9,
+          "text": "Damjan’s suitcase contains two shirts, a shaving kit and an inventory card in his handwriting. The card lists a red document folio that is no longer in the compartment. His wallet, watch and travel money remain.",
+          "reward": {
+            "evidence": [
+              "missing_folio"
+            ]
+          }
+        },
+        {
+          "id": "hs_comp_headboard",
+          "label": "The loose headboard",
+          "x": 0.87,
+          "y": 0.52,
+          "text": "One screw in the padded headboard has been loosened by hand. Behind it is a blue railway ticket envelope, flattened against the wall and sealed with Damjan’s initials.",
+          "visibleWhen": {
+            "evidence": "missing_folio"
+          },
+          "reward": {
+            "evidence": [
+              "sealed_report"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sleeper_corridor",
+      "name": "The sleeper corridor",
+      "summary": "Eight compartments, a patterned runner, berth cards and a service-linen cupboard.",
+      "description": "The corridor runs the length of sleeping car 218. Compartment doors line one side and black windows the other. Blue berth cards sit in brass clips beside each door. A patterned runner hides dirt well, and the rear half of the carriage has already been wiped once since Skopje.",
+      "art": {
+        "aspect": 1.75,
+        "props": [
+          {
+            "label": "Compartment doors",
+            "x": 0.26,
+            "y": 0.48,
+            "w": 0.34,
+            "h": 0.58,
+            "style": "door"
+          },
+          {
+            "label": "Corridor runner",
+            "x": 0.52,
+            "y": 0.86,
+            "w": 0.75,
+            "h": 0.2,
+            "style": "rug"
+          },
+          {
+            "label": "Berth-card clips",
+            "x": 0.43,
+            "y": 0.27,
+            "w": 0.3,
+            "h": 0.16,
+            "style": "fixture"
+          },
+          {
+            "label": "Linen cupboard",
+            "x": 0.81,
+            "y": 0.49,
+            "w": 0.2,
+            "h": 0.46,
+            "style": "fixture"
+          },
+          {
+            "label": "Rear vestibule",
+            "x": 0.96,
+            "y": 0.5,
+            "w": 0.08,
+            "h": 0.54,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_corridor_runner",
+          "label": "The patterned runner",
+          "x": 0.58,
+          "y": 0.9,
+          "text": "Under oblique light, a chain of tiny brown marks appears between the rear vestibule and Compartment 6. The drops grow smaller toward the compartment. A clean rectangular gap interrupts the trail beside the linen cupboard.",
+          "reward": {
+            "evidence": [
+              "corridor_trace"
+            ]
+          }
+        },
+        {
+          "id": "hs_corridor_linen",
+          "label": "The service laundry",
+          "x": 0.82,
+          "y": 0.64,
+          "text": "The linen cupboard holds sealed pillowcases and a canvas laundry sack. Inside the sack is one damp hand towel, marked with diluted rust-coloured streaks and the lemon scent used in the dining car sinks.",
+          "visibleWhen": {
+            "evidence": "corridor_trace"
+          },
+          "reward": {
+            "evidence": [
+              "linen_towel"
+            ]
+          }
+        },
+        {
+          "id": "hs_corridor_cards",
+          "label": "The berth cards",
+          "x": 0.6,
+          "y": 0.12,
+          "text": "Each blue card shows a passenger, destination and wake-up request. Compartment 8 still displays ELENA DANEVSKA · BELGRADE · ABOARD. Its lower edge is creased as though someone lifted it and pushed it back into the clip.",
+          "reward": {
+            "evidence": [
+              "berth_cards"
+            ]
+          }
+        },
+        {
+          "id": "hs_corridor_plan",
+          "label": "The carriage diagram",
+          "x": 0.12,
+          "y": 0.16,
+          "text": "An evacuation diagram shows the dining-car connection at the forward end, eight compartments along the corridor, Emil’s office beside Compartment 1 and the rear vestibule seven metres beyond Compartment 6. There is no connecting door between compartments.",
+          "reward": {
+            "evidence": [
+              "carriage_plan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rear_vestibule",
+      "name": "The rear vestibule",
+      "summary": "The steel platform between carriages, with the Skopje door sensor and the first trace of blood.",
+      "description": "The rear vestibule is a ribbed steel chamber between the sleeper and the sealed luggage van. One door opens onto station platforms; the other leads back into the corridor. At speed the floor shakes and the windows show only reflected emergency lights. During a stop, it is the quietest place on the train to speak privately.",
+      "art": {
+        "aspect": 1.22,
+        "props": [
+          {
+            "label": "Platform door",
+            "x": 0.48,
+            "y": 0.42,
+            "w": 0.5,
+            "h": 0.66,
+            "style": "door"
+          },
+          {
+            "label": "Corridor door",
+            "x": 0.11,
+            "y": 0.53,
+            "w": 0.18,
+            "h": 0.55,
+            "style": "door"
+          },
+          {
+            "label": "Door sensor",
+            "x": 0.77,
+            "y": 0.2,
+            "w": 0.14,
+            "h": 0.15,
+            "style": "fixture"
+          },
+          {
+            "label": "Steel handrail",
+            "x": 0.82,
+            "y": 0.57,
+            "w": 0.12,
+            "h": 0.48,
+            "style": "fixture"
+          },
+          {
+            "label": "Radio shelf",
+            "x": 0.22,
+            "y": 0.84,
+            "w": 0.24,
+            "h": 0.16,
+            "style": "furniture"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_vestibule_threshold",
+          "label": "The platform threshold",
+          "x": 0.5,
+          "y": 0.82,
+          "text": "A dark drop sits in the ridged steel where the platform door meets the floor. A second smear marks the corridor-side handrail. Both are sheltered from rain and align with the trail leading toward Compartment 6.",
+          "reward": {
+            "evidence": [
+              "vestibule_blood"
+            ]
+          }
+        },
+        {
+          "id": "hs_vestibule_sensor",
+          "label": "The platform-door sensor",
+          "x": 0.61,
+          "y": 0.12,
+          "text": "The electronic latch keeps its last twenty events. The rear platform door opened one minute after the Skopje arrival and remained open for the entire service stop. It closed seconds before the train moved.",
+          "reward": {
+            "evidence": [
+              "door_log"
+            ]
+          }
+        },
+        {
+          "id": "hs_vestibule_camera",
+          "label": "The Skopje platform image",
+          "x": 0.88,
+          "y": 0.74,
+          "text": "Border police have sent a still from Skopje’s platform camera. A woman in a grey wool coat steps down from the rear sleeper door at 00:06. She carries a small suitcase and a red folio against her chest.",
+          "visibleWhen": {
+            "evidence": "door_log"
+          },
+          "reward": {
+            "evidence": [
+              "platform_image"
+            ]
+          }
+        },
+        {
+          "id": "hs_vestibule_radio",
+          "label": "The station-police bulletin",
+          "x": 0.32,
+          "y": 0.72,
+          "text": "A radio bulletin from Skopje reports that a cleaner found a narrow steel awl in a platform bin after Train 417 departed. The tool has a dark stain near the point and a grey wool fibre caught beneath its folding handle.",
+          "visibleWhen": {
+            "evidence": "platform_image"
+          },
+          "reward": {
+            "evidence": [
+              "awl_recovery"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dining_car",
+      "name": "The dining car",
+      "summary": "A nearly empty midnight carriage where Damjan arranged his final private meeting.",
+      "description": "The dining car has six small tables under shaded lamps. Only tea, coffee and cold food were served after Veles. Receipts are pinned by time behind the counter, and the last passengers left when the train rolled into Skopje. Table Four still holds a folded napkin and a circle left by a tea glass.",
+      "art": {
+        "aspect": 1.6,
+        "props": [
+          {
+            "label": "Table Four",
+            "x": 0.35,
+            "y": 0.64,
+            "w": 0.32,
+            "h": 0.24,
+            "style": "furniture"
+          },
+          {
+            "label": "Service counter",
+            "x": 0.74,
+            "y": 0.4,
+            "w": 0.38,
+            "h": 0.25,
+            "style": "furniture"
+          },
+          {
+            "label": "Receipt rail",
+            "x": 0.74,
+            "y": 0.16,
+            "w": 0.34,
+            "h": 0.13,
+            "style": "fixture"
+          },
+          {
+            "label": "Journalist’s seat",
+            "x": 0.17,
+            "y": 0.3,
+            "w": 0.26,
+            "h": 0.23,
+            "style": "furniture"
+          },
+          {
+            "label": "Tea trolley",
+            "x": 0.9,
+            "y": 0.78,
+            "w": 0.15,
+            "h": 0.24,
+            "style": "fixture"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_dining_receipts",
+          "label": "The midnight receipts",
+          "x": 0.93,
+          "y": 0.14,
+          "text": "The numbered receipts show two teas at Table Four at 23:41, paid by Damjan. A separate receipt keeps Hana and Mara at Table Two from 23:48 until the Skopje departure announcement.",
+          "reward": {
+            "evidence": [
+              "dining_receipts"
+            ]
+          }
+        },
+        {
+          "id": "hs_dining_table",
+          "label": "Table Four",
+          "x": 0.15,
+          "y": 0.76,
+          "text": "Under the folded napkin is one of Damjan’s index cards. It reads: ‘E.D. — rear vestibule — five minutes when Skopje opens. Report remains sealed until 08:00.’ A diagonal red line matches the folder marks in his suitcase.",
+          "reward": {
+            "evidence": [
+              "meeting_note"
+            ]
+          }
+        },
+        {
+          "id": "hs_dining_notebook",
+          "label": "Mara’s notebook pouch",
+          "x": 0.08,
+          "y": 0.12,
+          "text": "Mara left a zip pouch beneath her seat. It contains an article outline, a bank-transfer receipt to Damjan and the line: ‘Do not publish the sister’s name until D.R. confirms the dental match.’",
+          "reward": {
+            "evidence": [
+              "mara_notes"
+            ]
+          }
+        },
+        {
+          "id": "hs_dining_trolley",
+          "label": "The tea service",
+          "x": 0.72,
+          "y": 0.88,
+          "text": "The pot used for Damjan’s table still contains plain mountain tea. The cups were washed together, and the server saw both Damjan and Elena drink from the same pot. Nothing in the service explains a puncture wound or the blood in the vestibule.",
+          "reward": {}
+        }
+      ]
+    },
+    {
+      "id": "attendant_office",
+      "name": "The attendant’s office and luggage cage",
+      "summary": "The manifest desk, passport rack, baggage slips and archive box Damjan brought aboard.",
+      "description": "Emil’s office is a fold-down seat and desk beside Compartment 1. A locked mesh cage behind it holds checked bags and Damjan’s archive box. Passenger passports sit in numbered envelopes above the desk until the two border inspections are complete. Every alteration should be written on the international manifest in red ink.",
+      "art": {
+        "aspect": 1.42,
+        "props": [
+          {
+            "label": "Manifest desk",
+            "x": 0.37,
+            "y": 0.62,
+            "w": 0.42,
+            "h": 0.25,
+            "style": "furniture"
+          },
+          {
+            "label": "Passport rack",
+            "x": 0.31,
+            "y": 0.23,
+            "w": 0.42,
+            "h": 0.23,
+            "style": "fixture"
+          },
+          {
+            "label": "Luggage cage",
+            "x": 0.78,
+            "y": 0.52,
+            "w": 0.36,
+            "h": 0.58,
+            "style": "fixture"
+          },
+          {
+            "label": "Cash pouch",
+            "x": 0.18,
+            "y": 0.82,
+            "w": 0.2,
+            "h": 0.16,
+            "style": "fixture"
+          },
+          {
+            "label": "Archive box",
+            "x": 0.75,
+            "y": 0.83,
+            "w": 0.32,
+            "h": 0.19,
+            "style": "furniture"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_attendant_manifest",
+          "label": "The international manifest",
+          "x": 0.35,
+          "y": 0.7,
+          "text": "The working manifest matches the copy already in the case file. Nikola is marked off at Kumanovo. Elena remains blue and unaltered all the way to Belgrade. No red-ink early-departure note appears beside her name.",
+          "reward": {
+            "evidence": [
+              "berth_manifest"
+            ]
+          }
+        },
+        {
+          "id": "hs_attendant_passports",
+          "label": "The passport rack and cash pouch",
+          "x": 0.58,
+          "y": 0.12,
+          "text": "Envelope 8 is empty and creased. A pencil note on its back says ‘returned SKP 23:50’. In Emil’s cash pouch, the shift total is exactly €100 over the receipts, folded apart from the railway money.",
+          "reward": {
+            "evidence": [
+              "passport_envelope",
+              "cash_count"
+            ]
+          }
+        },
+        {
+          "id": "hs_attendant_baggage",
+          "label": "The Skopje baggage slips",
+          "x": 0.81,
+          "y": 0.43,
+          "text": "A porter’s carbon copy records one small suitcase unloaded from Compartment 8 at 00:04. Its printed destination is Belgrade. Beside it, someone has written ‘passenger ill — remove here’ without a signature.",
+          "reward": {
+            "evidence": [
+              "baggage_receipt"
+            ]
+          }
+        },
+        {
+          "id": "hs_attendant_archive",
+          "label": "The 2011 archive folder",
+          "x": 0.5,
+          "y": 0.9,
+          "text": "Damjan’s checked archive box contains the burned train’s berth list and first identification report. Elena Danevska had Berth 9; Mila Danevska had Berth 10. The body in Berth 10 was named from location and luggage, with dental comparison marked ‘pending’.",
+          "reward": {
+            "evidence": [
+              "old_manifest"
+            ]
+          }
+        },
+        {
+          "id": "hs_attendant_dental",
+          "label": "The sealed dental envelope",
+          "x": 0.9,
+          "y": 0.72,
+          "text": "Inside the archive folder is an envelope stamped RECEIVED 21 NOV 2011 — AFTER CLOSURE. It contains separate dental charts for Elena and Mila, plus the post-mortem chart from the body in Berth 10.",
+          "visibleWhen": {
+            "evidence": "old_manifest"
+          },
+          "reward": {
+            "evidence": [
+              "dental_chart"
+            ]
+          }
+        },
+        {
+          "id": "hs_attendant_ledger",
+          "label": "The foundation audit",
+          "x": 0.6,
+          "y": 0.66,
+          "text": "A slim audit ledger is clipped beneath the dental envelope. It tracks a €180,000 transfer made before the 2011 fire with Elena’s forged signature, then written off after the woman named as Mila was declared dead.",
+          "visibleWhen": {
+            "evidence": "dental_chart"
+          },
+          "reward": {
+            "evidence": [
+              "foundation_ledger"
+            ]
+          }
+        },
+        {
+          "id": "hs_attendant_insurance",
+          "label": "The old insurance settlement",
+          "x": 0.88,
+          "y": 0.92,
+          "text": "The last pocket of Damjan’s archive box holds the 2012 settlement. The survivor named Elena and her brother Nikola received the family payment. Nikola’s signature acknowledges that the identification could be reopened if new medical evidence appeared.",
+          "visibleWhen": {
+            "evidence": "foundation_ledger"
+          },
+          "reward": {
+            "evidence": [
+              "insurance_record"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "timeline": {
+    "id": "timeline",
+    "title": "The night train, reconstructed",
+    "prompt": "Put the last journey of Compartment 6 in order. All times use the clock displayed inside sleeping car 218.",
+    "events": [
+      {
+        "id": "tl_tea",
+        "text": "Damjan and Elena finish tea at Table Four",
+        "time": "23:41"
+      },
+      {
+        "id": "tl_arrive",
+        "text": "Train 417 arrives at Skopje",
+        "time": "23:46"
+      },
+      {
+        "id": "tl_passport",
+        "text": "Elena’s passport is returned early",
+        "visibleWhen": {
+          "evidence": "passport_envelope"
+        },
+        "teaser": "One passport leaves Emil’s rack."
+      },
+      {
+        "id": "tl_meeting",
+        "text": "Damjan meets E.D. in the rear vestibule",
+        "visibleWhen": {
+          "evidence": "meeting_note"
+        },
+        "teaser": "Five private minutes were arranged."
+      },
+      {
+        "id": "tl_attack",
+        "text": "Damjan is wounded beside the platform door",
+        "visibleWhen": {
+          "deduced": "d_attack"
+        },
+        "teaser": "The compartment was not the first scene."
+      },
+      {
+        "id": "tl_call",
+        "text": "The call button in Compartment 6 is pressed",
+        "time": "00:05",
+        "visibleWhen": {
+          "evidence": "call_panel_log"
+        },
+        "teaser": "A silent electrical record."
+      },
+      {
+        "id": "tl_exit",
+        "text": "A woman in a grey coat leaves with the red folio",
+        "time": "00:06",
+        "visibleWhen": {
+          "evidence": "platform_image"
+        },
+        "teaser": "The platform camera remembers."
+      },
+      {
+        "id": "tl_depart",
+        "text": "Train 417 departs Skopje",
+        "time": "00:08"
+      },
+      {
+        "id": "tl_found",
+        "text": "Emil opens Compartment 6 at Preševo",
+        "time": "01:52"
+      }
+    ],
+    "conclusion": "Damjan and Elena finished tea before Train 417 reached Skopje. Elena recovered her passport at 23:50 and met Damjan in the rear vestibule at 23:55. He was wounded there, reached Compartment 6 and pressed the failed call at 00:05. Elena stepped onto the platform with his folio at 00:06, two minutes before departure. Damjan remained undiscovered until the passports were returned at Preševo at 01:52.",
+    "reward": {}
+  },
+  "accusation": {
+    "culprit": "elena",
+    "methods": [
+      "Met Damjan in the rear vestibule during the Skopje stop, stabbed him with the cataloguing awl, took his red folio and left the train before he died inside Compartment 6.",
+      "Used Emil’s emergency key after Tabanovce, killed Damjan on the lower berth and locked the compartment from the corridor.",
+      "Poisoned Damjan’s tea in the dining car, then added the puncture wound after the compartment was opened at Preševo.",
+      "Reached Damjan through the night window at Kumanovo and escaped across the tracks before the train departed."
+    ],
+    "method": 0,
+    "motives": [
+      "To stop Damjan proving that she was Mila Danevska, that Elena died in the 2011 fire, and that the stolen identity concealed the foundation transfer.",
+      "To protect Nikola from losing the family’s old insurance settlement.",
+      "To prevent Mara publishing criticism of the foundation’s recent charity work.",
+      "To hide Emil’s bribe and avoid being fined for leaving the train at the wrong station."
+    ],
+    "motive": 0,
+    "proof": [
+      [
+        "d_bolt",
+        "inside_bolt",
+        "call_panel_log"
+      ],
+      [
+        "d_stop",
+        "door_log",
+        "platform_image"
+      ],
+      [
+        "d_identity",
+        "d_report",
+        "d_who",
+        "dental_chart",
+        "sealed_report"
+      ]
+    ],
+    "proofLabels": [
+      "Why the killer was never inside the locked room",
+      "The attack and departure at Skopje",
+      "The name Damjan’s report would expose"
+    ],
+    "successTitle": "The passenger list corrected",
+    "reward": {}
+  },
+  "hints": [
+    {
+      "id": "h_bolt",
+      "doneWhen": {
+        "deduced": "d_bolt"
+      },
+      "levels": [
+        "Begin with the locked door, but do not assume the killer locked it.",
+        "Look for something only a living person inside Compartment 6 could have touched.",
+        "Examine the inside bolt and the berth call button, then answer the first board question."
+      ]
+    },
+    {
+      "id": "h_trace",
+      "activeWhen": {
+        "deduced": "d_bolt"
+      },
+      "doneWhen": {
+        "deduced": "d_attack"
+      },
+      "levels": [
+        "If Damjan locked the door, the attack began somewhere else.",
+        "Follow the direction of the small marks outside his compartment.",
+        "Examine the corridor runner, then compare it with the rear vestibule threshold."
+      ]
+    },
+    {
+      "id": "h_stop",
+      "activeWhen": {
+        "deduced": "d_attack"
+      },
+      "doneWhen": {
+        "deduced": "d_stop"
+      },
+      "levels": [
+        "The open platform door turns a vestibule into an exit.",
+        "Find the stop during which that rear door stayed open.",
+        "Read the platform-door log and compare it with the overnight timetable."
+      ]
+    },
+    {
+      "id": "h_manifest",
+      "activeWhen": {
+        "evidence": "platform_image"
+      },
+      "doneWhen": {
+        "resolved": "c_emil_manifest"
+      },
+      "levels": [
+        "The woman in the platform image should no longer appear aboard.",
+        "Someone returned her passport but left her berth card unchanged.",
+        "Ask Emil about early departures, then present the passport envelope or cash count."
+      ]
+    },
+    {
+      "id": "h_archive",
+      "activeWhen": {
+        "deduced": "d_stop"
+      },
+      "doneWhen": {
+        "all": [
+          {
+            "evidence": "sealed_report"
+          },
+          {
+            "evidence": "dental_chart"
+          }
+        ]
+      },
+      "levels": [
+        "Damjan hid the conclusion, but the original records travelled separately.",
+        "The 2011 identity began with a berth number and an unopened envelope.",
+        "Search Damjan’s suitcase and headboard, then compare the archive box with the dental envelope."
+      ]
+    },
+    {
+      "id": "h_identity",
+      "activeWhen": {
+        "evidence": "dental_chart"
+      },
+      "doneWhen": {
+        "deduced": "d_identity"
+      },
+      "levels": [
+        "The body in 2011 was named from luggage, not from the body itself.",
+        "Only one sister had the numbered porcelain crown.",
+        "Compare the old berth manifest with the dental chart on the board."
+      ]
+    },
+    {
+      "id": "h_elena",
+      "activeWhen": {
+        "deduced": "d_stop"
+      },
+      "doneWhen": {
+        "resolved": "c_elena_departure"
+      },
+      "levels": [
+        "Elena admits leaving at Skopje, but her time protects her from the attack.",
+        "The dining receipt, luggage slip and platform camera give a different sequence.",
+        "Ask Elena when she left, then challenge her with the platform image."
+      ]
+    },
+    {
+      "id": "h_report",
+      "activeWhen": {
+        "deduced": "d_identity"
+      },
+      "doneWhen": {
+        "deduced": "d_report"
+      },
+      "levels": [
+        "A changed name explains danger only if something else depended on it.",
+        "Find what happened to the foundation money before the 2011 fire.",
+        "Read the foundation ledger and Damjan’s sealed report, then answer the board question."
+      ]
+    },
+    {
+      "id": "h_who",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_stop"
+          },
+          {
+            "deduced": "d_identity"
+          }
+        ]
+      },
+      "doneWhen": {
+        "deduced": "d_who"
+      },
+      "levels": [
+        "Connect the passenger who left at Skopje with the identity threatened by the report.",
+        "The manifest kept a name aboard after the platform camera showed the person leaving.",
+        "On the board, combine the platform image with the dental report and berth records."
+      ]
+    },
+    {
+      "id": "h_timeline",
+      "activeWhen": {
+        "deduced": "d_who"
+      },
+      "doneWhen": {
+        "timeline": true
+      },
+      "levels": [
+        "Reconstruct Skopje before making the accusation.",
+        "The passport leaves the rack before the meeting; the call comes before the platform exit.",
+        "Order all nine events from the dining-car tea to the Preševo discovery."
+      ]
+    },
+    {
+      "id": "h_accuse_ready",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_bolt"
+          },
+          {
+            "deduced": "d_stop"
+          },
+          {
+            "deduced": "d_identity"
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "The accusation needs three links: the locked room, the Skopje exit and the old identity.",
+        "Choose proof showing that Damjan locked himself in, that the attacker left at 00:06 and that the dental report threatened that passenger.",
+        "Accuse the person whose name remained on the manifest after she carried Damjan’s folio off the train."
+      ]
+    },
+    {
+      "id": "h_accuse",
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "The impossible room was Damjan’s refuge, not the killer’s escape.",
+        "The decisive passenger left at Skopje while the manifest said she was still aboard.",
+        "Use the accusation form: Damjan’s bolt, the platform departure and the wrong sister’s name."
+      ]
+    }
+  ],
+  "epilogue": [
+    "By dawn, sleeping car 218 stood empty on a siding outside Preševo. The blue berth card for Compartment 8 was still clipped beside the door, carrying Elena Danevska north after the woman using that name had stepped onto the Skopje platform.",
+    "The Belgrade inquiry restored Elena Danevska’s name to the woman who died in the 2011 fire and reopened the forged foundation transfer. Independent trustees kept the Danevski Relief Foundation operating so that its beneficiaries did not lose help because of its director’s crimes.",
+    "Dr. Hana Koleva filed a corrected identification and later taught the case as a warning against naming bodies from rooms, luggage or passenger lists. Petar Rusev’s father was formally cleared of causing the fire, although the railway accepted that its failed wiring had delayed the alarm.",
+    "Emil Stojanov lost his international sleeper assignment for the bribe. His evidence still fixed the moment a passenger vanished from the record: a passport returned at 23:50, a suitcase unloaded at 00:04, and a name left behind in blue ink.",
+    "Damjan’s report reached the inquiry in the same railway envelope he had hidden behind the berth. On its final page he had written one sentence twice: the dead deserve more than the name that is easiest to file."
+  ]
+}

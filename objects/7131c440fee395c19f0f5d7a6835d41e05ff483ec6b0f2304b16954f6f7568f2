@@ -1,0 +1,819 @@
+{
+  "id": "case008",
+  "number": 8,
+  "title": "Black Ice",
+  "tagline": "A famous hotel cut off by snow, a power cut at midnight, and a housekeeper who never finished her rounds.",
+  "setting": "Glen Morran · the Highlands · January 2026",
+  "sketchTitle": "THE GLENMORRAN",
+  "sketchCredit": "SKETCH: SUNDAY 25 JANUARY 2026 · NOT TO SCALE",
+  "stayLabel": "Stay at the Glenmorran",
+  "briefing": [
+    "The Glenmorran Hotel, at the head of Glen Morran in the Highlands. Sunday 25 January 2026: Burns Night. You came up on Friday for the hotel’s famous Burns supper and a few days’ walking. Queen Victoria took tea here, The Grey Lady of Glenmorran was filmed in its Great Hall, and its bar keeps four hundred whiskies. Since half past nine last night, black ice has closed the pass, and the hotel is cut off.",
+    "At the supper the film’s star, Dame Vivienne Lisle, 78, did something nobody expected. She took her famous black diamond, the Black Ice, out of its display case and fastened it round the neck of the head housekeeper, Halina Kowalczyk, ‘Mrs K’ to three generations of guests. ‘For twenty winters this woman has looked after me,’ she said. ‘It’s hers.’ Mrs K went up to turn down the first-floor beds, wearing it.",
+    "At two minutes to midnight the lights went out: the storm, everyone said. You sat in the Great Hall with everyone else, in candlelight, while Dame Vivienne sang Burns. At 00:24 the night porter got the lights back. At 06:40 this morning, Mrs K’s daughter Kasia found her mother dead on the floor of the linen room. The Black Ice was gone.",
+    "The police will come up the glen behind the gritters this afternoon. Until then nobody can leave, and whoever killed Mrs K is still in the hotel. Kasia has asked you to find out who it was before the police arrive and the guests scatter. ‘My mother noticed everything,’ she says. ‘Nobody ever noticed her.’",
+    "Alasdair Munro, the owner, has given you the run of the hotel, and Dr Morven Shaw, a GP who was at the supper, has examined Mrs K. Everyone who was in the Glenmorran last night is still here."
+  ],
+  "startingEvidence": [
+    "doctors_note",
+    "night_book",
+    "black_ice"
+  ],
+  "locations": [
+    {
+      "id": "first",
+      "name": "The first floor",
+      "summary": "The Victoria Suite, the linen room, Mrs K’s trolley, the Stag Room and the main stairs.",
+      "description": "The Glenmorran’s best corridor: tartan carpet, stags’ heads, and bedrooms named for Highland plants and beasts. The Victoria Suite, Miss Rennie’s room and the linen room are at the west end, by the back stairs down to the kitchens. The main stairs come up in the middle, and the Stag Room is at the east end. Mrs K’s trolley stands where she left it, outside the linen room.",
+      "art": {
+        "aspect": 1.7,
+        "props": [
+          {
+            "label": "Victoria Suite",
+            "x": 0.12,
+            "y": 0.24,
+            "w": 0.2,
+            "h": 0.4
+          },
+          {
+            "label": "Miss Rennie",
+            "x": 0.315,
+            "y": 0.24,
+            "w": 0.17,
+            "h": 0.4
+          },
+          {
+            "label": "Linen room",
+            "x": 0.5,
+            "y": 0.24,
+            "w": 0.18,
+            "h": 0.4
+          },
+          {
+            "label": "Guest rooms",
+            "x": 0.685,
+            "y": 0.24,
+            "w": 0.17,
+            "h": 0.4
+          },
+          {
+            "label": "Stag Room",
+            "x": 0.88,
+            "y": 0.24,
+            "w": 0.2,
+            "h": 0.4
+          },
+          {
+            "label": "Corridor",
+            "x": 0.5,
+            "y": 0.57,
+            "w": 0.96,
+            "h": 0.16,
+            "style": "rug"
+          },
+          {
+            "label": "Trolley",
+            "x": 0.47,
+            "y": 0.57,
+            "w": 0.14,
+            "h": 0.1,
+            "style": "fixture"
+          },
+          {
+            "label": "Back stairs",
+            "symbol": "stairs",
+            "x": 0.1,
+            "y": 0.85,
+            "w": 0.14,
+            "h": 0.24
+          },
+          {
+            "label": "Main stairs",
+            "symbol": "stairs",
+            "x": 0.56,
+            "y": 0.85,
+            "w": 0.18,
+            "h": 0.24
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_fl_linen",
+          "label": "The linen room",
+          "x": 0.5,
+          "y": 0.37,
+          "text": "A narrow room of slatted shelves, warm from the hot-water pipes and smelling of starch. Mr Munro unlocks it for you. Kasia found her mother on the floor by the far shelves; her big rubber torch lies where it rolled. On the near shelf, clean pillowcases are half put away; the rest are still in their basket on the floor. You go through every shelf and the basket: no chain, and no stone."
+        },
+        {
+          "id": "hs_fl_trolley",
+          "label": "Mrs K’s trolley",
+          "x": 0.6,
+          "y": 0.57,
+          "text": "Fresh towels, a stack of shortbread rounds in waxed paper, a basket of hot water bottles, and her clipboard.",
+          "reward": {
+            "evidence": [
+              "turndown_list"
+            ]
+          }
+        },
+        {
+          "id": "hs_fl_stag",
+          "label": "The Stag Room",
+          "x": 0.88,
+          "y": 0.37,
+          "text": "Rory Lisle’s room, at the east end of the corridor.",
+          "reward": {
+            "evidence": [
+              "rory_bed"
+            ]
+          }
+        },
+        {
+          "id": "hs_fl_suite",
+          "label": "The Victoria Suite",
+          "x": 0.12,
+          "y": 0.37,
+          "text": "Dame Vivienne’s suite: a sitting room full of hothouse flowers, and a bedroom with a four-poster, where she slept last night with Mrs K’s hot water bottle at her feet. A connecting door leads through to a smaller room, Miss Rennie’s. It’s shut."
+        },
+        {
+          "id": "hs_fl_stairs",
+          "label": "The top of the main stairs",
+          "x": 0.72,
+          "y": 0.84,
+          "text": "Now that you know the darkness was made, you look at the ways somebody could have come up to this floor in it.",
+          "visibleWhen": {
+            "deduced": "d_dark"
+          },
+          "reward": {
+            "evidence": [
+              "wax"
+            ]
+          }
+        },
+        {
+          "id": "hs_fl_peggy",
+          "label": "Miss Rennie’s room",
+          "x": 0.315,
+          "y": 0.37,
+          "text": "Only Miss Rennie could have reached the switch, so you ask to see her room. She opens the door for you without a word, and waits in the corridor.",
+          "visibleWhen": {
+            "deduced": "d_who"
+          },
+          "reward": {
+            "evidence": [
+              "peggy_room",
+              "promise_card"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hall",
+      "name": "The Great Hall",
+      "summary": "The stage, the bar, reception and the great fireplace.",
+      "description": "A baronial hall of dark panelling and antlers, with a stage for the band and a fireplace you could stand up in, still smoking this morning. Through an arch is the bar, its four hundred whiskies on shelves to the ceiling. Reception is by the front door, with the night porter’s desk and the board of brass room keys behind it.",
+      "art": {
+        "aspect": 1.3,
+        "props": [
+          {
+            "label": "Great Hall",
+            "x": 0.38,
+            "y": 0.52,
+            "w": 0.66,
+            "h": 0.76,
+            "style": "rug"
+          },
+          {
+            "label": "Stage",
+            "x": 0.33,
+            "y": 0.11,
+            "w": 0.32,
+            "h": 0.12,
+            "style": "fixture"
+          },
+          {
+            "label": "Fireplace",
+            "symbol": "fireplace.fill",
+            "x": 0.1,
+            "y": 0.52,
+            "w": 0.15,
+            "h": 0.24,
+            "style": "fixture"
+          },
+          {
+            "label": "Bar",
+            "symbol": "wineglass.fill",
+            "x": 0.86,
+            "y": 0.28,
+            "w": 0.22,
+            "h": 0.4
+          },
+          {
+            "label": "Reception",
+            "symbol": "bell.fill",
+            "x": 0.86,
+            "y": 0.78,
+            "w": 0.22,
+            "h": 0.22
+          },
+          {
+            "label": "Main stairs",
+            "symbol": "stairs",
+            "x": 0.56,
+            "y": 0.84,
+            "w": 0.14,
+            "h": 0.16
+          },
+          {
+            "label": "Front door",
+            "x": 0.86,
+            "y": 0.975,
+            "w": 0.14,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_gh_stage",
+          "label": "The stage",
+          "x": 0.33,
+          "y": 0.26,
+          "text": "The band’s instruments are still in their cases; nobody can leave the glen. Their leader, Ewan, shows you his camera.",
+          "reward": {
+            "evidence": [
+              "band_photo"
+            ]
+          }
+        },
+        {
+          "id": "hs_gh_bar",
+          "label": "The bar",
+          "x": 0.86,
+          "y": 0.5,
+          "text": "Tomasz is polishing glasses that don’t need it. Behind him, in a cardboard box, are the supper’s red table candles in their tartan holders.",
+          "reward": {
+            "evidence": [
+              "till_roll"
+            ]
+          }
+        },
+        {
+          "id": "hs_gh_reception",
+          "label": "Reception",
+          "x": 0.68,
+          "y": 0.7,
+          "text": "The night book lies open on the desk. Mr Munro shows you the note he made this morning when he rang the gritting depot.",
+          "reward": {
+            "evidence": [
+              "depot_call"
+            ]
+          }
+        },
+        {
+          "id": "hs_gh_fire",
+          "label": "The fireplace",
+          "x": 0.27,
+          "y": 0.52,
+          "text": "When the lights went out, Mr Munro set candles in the hotel’s silver sticks along this mantelpiece, and Dame Vivienne stood here and sang ‘My Love Is Like a Red, Red Rose’ to thirty frightened people. White wax has run down the stone."
+        }
+      ]
+    },
+    {
+      "id": "below",
+      "name": "Below stairs",
+      "summary": "The kitchens, the plant room, the staff cottage across the yard, and the car park.",
+      "description": "Behind the green baize door are the kitchens. The back stairs come down into them from the first floor, and the cellar stairs go on down to the cellar and the plant room. The back door opens onto a courtyard deep in snow, with the staff cottage across it and the car park beyond, by the gate.",
+      "art": {
+        "aspect": 1.3,
+        "props": [
+          {
+            "label": "Back stairs",
+            "symbol": "stairs",
+            "x": 0.08,
+            "y": 0.16,
+            "w": 0.12,
+            "h": 0.22
+          },
+          {
+            "label": "Kitchens",
+            "symbol": "fork.knife",
+            "x": 0.36,
+            "y": 0.18,
+            "w": 0.4,
+            "h": 0.28
+          },
+          {
+            "label": "Cellar stairs",
+            "symbol": "stairs",
+            "x": 0.64,
+            "y": 0.16,
+            "w": 0.12,
+            "h": 0.22
+          },
+          {
+            "label": "Plant room",
+            "symbol": "bolt.fill",
+            "x": 0.87,
+            "y": 0.18,
+            "w": 0.2,
+            "h": 0.28
+          },
+          {
+            "label": "Back door",
+            "x": 0.36,
+            "y": 0.335,
+            "w": 0.12,
+            "h": 0.02,
+            "style": "door"
+          },
+          {
+            "label": "Courtyard",
+            "x": 0.5,
+            "y": 0.6,
+            "w": 0.94,
+            "h": 0.3,
+            "style": "rug"
+          },
+          {
+            "label": "Staff cottage",
+            "symbol": "house.fill",
+            "x": 0.2,
+            "y": 0.87,
+            "w": 0.28,
+            "h": 0.2
+          },
+          {
+            "label": "Car park",
+            "symbol": "car.fill",
+            "x": 0.74,
+            "y": 0.87,
+            "w": 0.4,
+            "h": 0.2
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_bs_kitchen",
+          "label": "The kitchens",
+          "x": 0.22,
+          "y": 0.14,
+          "text": "The chef says every clock in here was blinking 00:00 this morning, the ovens, the microwave and the dishwasher, until he set them again at six. At midnight the kitchens were empty: ‘We were all in the hall for the last dance and the photo.’ The back stairs come down at one end; the cellar stairs go down from the passage at the other."
+        },
+        {
+          "id": "hs_bs_plant",
+          "label": "The plant room",
+          "x": 0.78,
+          "y": 0.4,
+          "text": "Down the cellar stairs and along a whitewashed passage is a warm room that hums with the boiler. Hamish shows you the switch, and you time the walk back to each part of the hotel.",
+          "reward": {
+            "evidence": [
+              "plant_room"
+            ]
+          }
+        },
+        {
+          "id": "hs_bs_cottage",
+          "label": "The staff cottage",
+          "x": 0.2,
+          "y": 0.68,
+          "text": "A low whitewashed cottage across the yard, with a holly bush by the door.",
+          "reward": {
+            "evidence": [
+              "cottage"
+            ]
+          }
+        },
+        {
+          "id": "hs_bs_car",
+          "label": "The car park",
+          "x": 0.74,
+          "y": 0.68,
+          "text": "Every car is under a foot of snow except one: Rory Lisle’s red sports car by the gatepost, with only a few inches on its bonnet. Somebody ran its engine for a long while last night, and the snow kept falling after. By the gatepost, your phone finds one bar of signal; a step away, it’s gone."
+        }
+      ]
+    }
+  ],
+  "timeline": {
+    "id": "timeline",
+    "title": "Saturday night, reconstructed",
+    "prompt": "Put the events in the order they really happened. Times you know for certain are shown; reason out the rest.",
+    "events": [
+      {
+        "id": "tl_gift",
+        "text": "Dame Vivienne gives Mrs K the Black Ice",
+        "time": "23:15"
+      },
+      {
+        "id": "tl_munro",
+        "text": "Mr Munro asks Mrs K for the diamond",
+        "visibleWhen": {
+          "evidence": "turndown_list"
+        },
+        "teaser": "Something written down."
+      },
+      {
+        "id": "tl_rory",
+        "text": "Rory’s call to his bookmaker begins",
+        "visibleWhen": {
+          "evidence": "rory_calls"
+        },
+        "teaser": "Something a phone remembers."
+      },
+      {
+        "id": "tl_photo",
+        "text": "The band takes its photo",
+        "visibleWhen": {
+          "evidence": "band_photo"
+        },
+        "teaser": "Something a camera saw."
+      },
+      {
+        "id": "tl_dark",
+        "text": "The lights go out",
+        "time": "23:58"
+      },
+      {
+        "id": "tl_candle",
+        "text": "Tomasz takes a candle up the main stairs",
+        "visibleWhen": {
+          "statement": "st_tom_beam"
+        },
+        "teaser": "Something somebody kept quiet."
+      },
+      {
+        "id": "tl_reset",
+        "text": "Hamish pushes the main switch up",
+        "time": "00:24"
+      },
+      {
+        "id": "tl_found",
+        "text": "Kasia finds her mother",
+        "time": "06:40"
+      }
+    ],
+    "conclusion": "At 23:15 Dame Vivienne gave the Black Ice away. At 23:45 Mr Munro went up to beg for it, and at 23:52, from his car by the gatepost, Rory began begging his bookmaker. At 23:57 the band took its photo, and a minute later the lights went out: not the storm, but the hotel’s own main switch, three minutes’ walk from the Great Hall. At five past twelve Tomasz climbed the main stairs with a red candle, calling for Mrs K. She didn’t answer. At 00:24 Hamish pushed the switch back up, and at 06:40 Kasia found her mother."
+  },
+  "accusation": {
+    "culprit": "peggy",
+    "methods": [
+      "Came in from the car park by the back door, and struck her with her own torch",
+      "Went up the main stairs with a candle, and struck her with her own torch",
+      "Hid in the linen room before midnight, and struck her with her own torch",
+      "Went up the back stairs in the dark, and struck her with her own torch"
+    ],
+    "method": 3,
+    "motives": [
+      "To pay off gambling debts",
+      "To save the hotel from the bank",
+      "Because the diamond had been promised to the killer",
+      "To sell it and start again abroad",
+      "To take back a gift given on a whim"
+    ],
+    "motive": 2,
+    "proof": [
+      [
+        "d_dark",
+        "cottage",
+        "st_ham_off"
+      ],
+      [
+        "d_who",
+        "st_peggy_kitchen",
+        "band_photo"
+      ],
+      [
+        "d_ice",
+        "promise_card",
+        "st_viv_promise",
+        "st_peggy_confession"
+      ]
+    ],
+    "proofLabels": [
+      "What happened at 23:58",
+      "Where the killer was at 23:58",
+      "What became of the Black Ice"
+    ],
+    "successTitle": "Case closed"
+  },
+  "hints": [
+    {
+      "id": "h_start",
+      "doneWhen": {
+        "evidence": "turndown_list"
+      },
+      "levels": [
+        "Start where Mrs K was working when she died.",
+        "Her trolley is still in the first-floor corridor.",
+        "On the first floor, examine Mrs K’s trolley."
+      ]
+    },
+    {
+      "id": "h_last",
+      "activeWhen": {
+        "evidence": "turndown_list"
+      },
+      "doneWhen": {
+        "deduced": "d_last"
+      },
+      "levels": [
+        "Her list ends with a crooked line.",
+        "When did the lights go out?",
+        "On the board, answer ‘At 23:58, in the linen room, as the lights went out’, with Mrs K’s turndown list and the night book."
+      ]
+    },
+    {
+      "id": "h_alasdair",
+      "activeWhen": {
+        "evidence": "turndown_list"
+      },
+      "doneWhen": {
+        "resolved": "c_al_hall"
+      },
+      "levels": [
+        "Mr Munro says he never left the Great Hall after the gift.",
+        "Read Mrs K’s list again. Who came up at 23:45?",
+        "Ask Mr Munro ‘Where were you after the gift?’, then challenge his ‘never left the Great Hall’ statement with Mrs K’s turndown list."
+      ]
+    },
+    {
+      "id": "h_peggy_suite",
+      "activeWhen": {
+        "evidence": "turndown_list"
+      },
+      "doneWhen": {
+        "resolved": "c_peggy_suite"
+      },
+      "levels": [
+        "Miss Rennie says she was in the Victoria Suite from half past eleven.",
+        "What did Mrs K find when she turned the suite down at 23:52?",
+        "Ask Miss Rennie ‘Where were you when the lights went out?’, then challenge her ‘in the suite’ statement with Mrs K’s turndown list."
+      ]
+    },
+    {
+      "id": "h_rory",
+      "doneWhen": {
+        "resolved": "c_rory_bed"
+      },
+      "levels": [
+        "Rory says he slept through the whole thing.",
+        "Mrs K turned his bed down at 23:48. Is it still turned down?",
+        "On the first floor, examine the Stag Room. Then ask Rory ‘Where were you when the lights went out?’ and challenge his ‘slept through’ statement with his bed."
+      ]
+    },
+    {
+      "id": "h_cottage",
+      "doneWhen": {
+        "evidence": "cottage"
+      },
+      "levels": [
+        "Everyone says the storm put the lights out. Did it put out every light in the glen?",
+        "Mrs K’s cottage is across the yard, on the same cable as the hotel.",
+        "Below stairs, examine the staff cottage."
+      ]
+    },
+    {
+      "id": "h_hamish",
+      "activeWhen": {
+        "evidence": "cottage"
+      },
+      "doneWhen": {
+        "resolved": "c_ham_storm"
+      },
+      "levels": [
+        "Hamish says storms trip that switch every winter.",
+        "The cottage is on the same cable as the hotel. Did the storm touch it?",
+        "Ask Hamish ‘What happened when the lights went out?’, then challenge his ‘storms trip that switch’ statement with the staff cottage."
+      ]
+    },
+    {
+      "id": "h_dark",
+      "activeWhen": {
+        "statement": "st_ham_off"
+      },
+      "doneWhen": {
+        "deduced": "d_dark"
+      },
+      "levels": [
+        "The cottage never lost its clocks. So what happened at the hotel’s own main switch?",
+        "A trip leaves the lever halfway. Where was it when Hamish got to the plant room?",
+        "On the board, answer ‘Somebody switched off the hotel’s main switch’, with the staff cottage and Hamish’s statement about the switch."
+      ]
+    },
+    {
+      "id": "h_stairs",
+      "activeWhen": {
+        "deduced": "d_dark"
+      },
+      "doneWhen": {
+        "evidence": "wax"
+      },
+      "levels": [
+        "Who moved about the hotel in the dark?",
+        "Look at the ways up to the first floor.",
+        "On the first floor, examine the top of the main stairs."
+      ]
+    },
+    {
+      "id": "h_tomasz",
+      "activeWhen": {
+        "evidence": "wax"
+      },
+      "doneWhen": {
+        "resolved": "c_tom_bar"
+      },
+      "levels": [
+        "Tomasz says he never left the bar in the dark.",
+        "Whose candles were red?",
+        "Ask Tomasz ‘Where were you in the dark?’, then challenge his ‘never left the bar’ statement with the red wax."
+      ]
+    },
+    {
+      "id": "h_photo",
+      "activeWhen": {
+        "deduced": "d_dark"
+      },
+      "doneWhen": {
+        "evidence": "band_photo"
+      },
+      "levels": [
+        "Where was everybody when the lights went out?",
+        "The band took a photo just before.",
+        "In the Great Hall, examine the stage."
+      ]
+    },
+    {
+      "id": "h_who",
+      "activeWhen": {
+        "deduced": "d_dark"
+      },
+      "doneWhen": {
+        "deduced": "d_who"
+      },
+      "levels": [
+        "Whoever switched off the main switch was in the plant room at 23:58.",
+        "Everybody at the supper is in the band’s photo. Check the walking times on the main switch’s card: of the rest, who was busy somewhere else, and who says they were downstairs?",
+        "On the board, answer ‘Peggy Rennie’, with Miss Rennie’s statement about the kitchens and the bar’s till roll."
+      ]
+    },
+    {
+      "id": "h_peggy_torch",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_tom_beam"
+          },
+          {
+            "statement": "st_peggy_kitchen"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_peggy_torch"
+      },
+      "levels": [
+        "Miss Rennie says she felt her way back up in the dark.",
+        "What did Tomasz see go into the Victoria Suite at eight minutes past twelve?",
+        "Challenge Miss Rennie’s ‘felt my way back up’ statement with Tomasz’s statement about the torch beam."
+      ]
+    },
+    {
+      "id": "h_peggy_room",
+      "activeWhen": {
+        "deduced": "d_who"
+      },
+      "doneWhen": {
+        "evidence": "peggy_room"
+      },
+      "levels": [
+        "Only one person could have reached the switch.",
+        "Search her room.",
+        "On the first floor, examine Miss Rennie’s room."
+      ]
+    },
+    {
+      "id": "h_ice",
+      "activeWhen": {
+        "evidence": "peggy_room"
+      },
+      "doneWhen": {
+        "deduced": "d_ice"
+      },
+      "levels": [
+        "Something is missing from Miss Rennie’s room.",
+        "Her tooth mug is gone, her window’s catch is up, and last night was bitterly cold.",
+        "On the board, answer ‘Outside her window, on the ledge’, with Miss Rennie’s room and the night book."
+      ]
+    },
+    {
+      "id": "h_peggy_confess",
+      "activeWhen": {
+        "deduced": "d_ice"
+      },
+      "doneWhen": {
+        "statement": "st_peggy_confession"
+      },
+      "levels": [
+        "Miss Rennie says she never saw Mrs K.",
+        "You know where the Black Ice is now.",
+        "Challenge Miss Rennie’s ‘never saw Halina’ statement with your answer about the Black Ice."
+      ]
+    },
+    {
+      "id": "h_viv",
+      "activeWhen": {
+        "evidence": "promise_card"
+      },
+      "doneWhen": {
+        "resolved": "c_viv_claim"
+      },
+      "levels": [
+        "Dame Vivienne says nobody else had a claim on the Black Ice.",
+        "What was in Miss Rennie’s handbag?",
+        "Ask Dame Vivienne ‘Tell me about the Black Ice.’, then challenge her ‘nobody else had a claim’ statement with the 1985 card."
+      ]
+    },
+    {
+      "id": "h_timeline",
+      "activeWhen": {
+        "deduced": "d_who"
+      },
+      "doneWhen": {
+        "timeline": true
+      },
+      "levels": [
+        "Put Saturday night in order.",
+        "Mr Munro went up at 23:45, Rory’s call began at 23:52 by his phone, the photo was at 23:57, and Tomasz went up at five past twelve.",
+        "The order: the gift, Mr Munro’s visit, Rory’s call, the band’s photo, the lights out, Tomasz’s candle, the switch pushed up, Kasia’s discovery."
+      ]
+    },
+    {
+      "id": "h_accuse_ready",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_dark"
+          },
+          {
+            "deduced": "d_who"
+          },
+          {
+            "deduced": "d_ice"
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "For each proof slot, ask: what really happened at 23:58, where was the killer, and what became of the Black Ice?",
+        "What happened at 23:58: your answer about the darkness, the staff cottage, or Hamish on the switch. Where the killer was: your answer about the plant room, Miss Rennie on the kitchens, or the band’s photo. The Black Ice: your answer about where it is, the 1985 card, Dame Vivienne’s admission, or the confession.",
+        "Accuse Peggy Rennie: she went up the back stairs in the dark and struck her with her own torch, because the diamond had been promised to the killer. Prove it with your answer about the darkness, your answer about who could have been in the plant room, and your answer about the Black Ice."
+      ]
+    },
+    {
+      "id": "h_accuse",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_dark"
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "deduced": "d_dark"
+                },
+                {
+                  "deduced": "d_who"
+                },
+                {
+                  "deduced": "d_ice"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "The storm didn’t put the lights out. Who was alone downstairs at 23:58?",
+        "Only one person has nobody to say where they were when the switch went down.",
+        "The killer is Peggy Rennie: she went up the back stairs in the dark and struck her with her own torch, because the diamond had been promised to the killer. Prove it with your answer about the darkness, your answer about who could have been in the plant room, and your answer about the Black Ice."
+      ]
+    }
+  ],
+  "epilogue": [
+    "The gritters reached the pass at half past twelve, and the police came up the glen behind them at ten past two. Peggy Rennie was waiting for them in the library in her good coat, with her handbag on her knees. She told them everything, in order, as if she were reading out the running list for a quick change. That evening she was charged with Halina Kowalczyk’s murder.",
+    "In the storm of 1998 she had held the torch while old Mr Dunbar, the handyman, put the big switch back, and she never forgot where anything was at the Glenmorran. On Saturday she switched the hotel off at two minutes to midnight, climbed the back stairs by the light of the pencil torch she had worn in the wings for forty years, and found Halina restocking pillowcases. ‘It’s mine, Hal,’ Peggy told her. ‘She promised it to me.’ ‘Then ask her,’ Halina said, and turned her back. Afterwards Peggy switched Halina’s torch off, because a light on that floor would have brought somebody running, and slipped back to her room as Tomasz came up the main stairs with his candle, calling for Mrs K. She dropped the stone in her tooth mug, filled it at the basin and set it out on the ledge in the snow. By morning it was what Archie had always called it: black ice.",
+    "Dame Vivienne gave the Black Ice to Kasia. Kasia sold it in Antwerp in March. The money paid off the Glenmorran’s bank, and in return the people who work there, from Hamish to the kitchen porter, now own a third of it. Dame Vivienne died at the hotel in April, in the Victoria Suite, with Kasia reading to her.",
+    "Rory goes to a meeting in Wandsworth every Tuesday, and hasn’t placed a bet since January. Alasdair Munro still runs the Burns supper. Tomasz still runs the bar, and on Sundays he cooks pierogi for Kasia, the way her mother used to cook for him. Hamish retired at Easter. Before he went, he screwed a brass plate to the plant-room door: KEEP LOCKED. ASK THE PORTER.",
+    "At the next Burns supper, when Alasdair rose for the toast to the lassies, he raised his glass to Mrs K instead, and the whole hall stood. Upstairs, the first-floor beds had been turned down by her daughter: the corners folded back, a hot water bottle under every sheet, and a round of shortbread on every pillow."
+  ]
+}

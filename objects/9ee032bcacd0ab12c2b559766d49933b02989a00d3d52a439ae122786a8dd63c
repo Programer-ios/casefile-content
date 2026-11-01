@@ -1,0 +1,1616 @@
+{
+  "id": "case003",
+  "number": 3,
+  "title": "Last Order",
+  "tagline": "A food critic with a deadly allergy, a one-star review, and a takeaway that killed him.",
+  "setting": "Hackney · East London · March 2024",
+  "sketchTitle": "HACKNEY",
+  "sketchCredit": "SKETCH: SITE VISIT, 11 MARCH 2024 · NOT TO SCALE",
+  "stayLabel": "Stay in Hackney",
+  "briefing": [
+    "Hackney, East London. Monday 11 March 2024, nine o’clock in the morning.",
+    "Last Thursday night Jonah Pryce — thirty-four, 1.3 million followers, the most feared food critic on the internet — ordered a takeaway from a restaurant he had torn apart in January. He had a severe peanut allergy, and said so on the order. At 21:29 he posted himself taking the first spoonful. By 22:19 he was dead.",
+    "A lab found peanut in the curry. Thambi’s chef-owner, Priya Ratnam, has been arrested on suspicion of manslaughter, her restaurant is shut, and half the internet has already convicted her. She swears her kitchen is nut-free.",
+    "Her solicitors have hired you to find out what really happened. Jonah’s fiancée has given you the code to the flat. Everyone involved, she says, has been lying to the police about something.",
+    "Find out who killed Jonah Pryce, how it was done and why — and be ready to prove it."
+  ],
+  "startingEvidence": [
+    "police_summary",
+    "jonah_stories"
+  ],
+  "locations": [
+    {
+      "id": "flat",
+      "name": "Jonah’s Flat",
+      "summary": "Where Jonah died. Kitchen and living room.",
+      "description": "Flat 3, The Ropeworks: an old rope factory by the canal, turned into four flats. One long room — kitchen at one end, sofa at the other, a ring light still standing by the island. The front door hangs crooked where the police forced it.",
+      "art": {
+        "aspect": 1.3,
+        "props": [
+          {
+            "label": "Window — canal",
+            "x": 0.02,
+            "y": 0.45,
+            "w": 0.04,
+            "h": 0.5,
+            "style": "window"
+          },
+          {
+            "label": "Kitchen counter",
+            "symbol": "refrigerator.fill",
+            "x": 0.33,
+            "y": 0.09,
+            "w": 0.5,
+            "h": 0.12
+          },
+          {
+            "label": "Studio",
+            "x": 0.72,
+            "y": 0.025,
+            "w": 0.12,
+            "h": 0.05,
+            "style": "door"
+          },
+          {
+            "label": "Bathroom",
+            "x": 0.89,
+            "y": 0.025,
+            "w": 0.12,
+            "h": 0.05,
+            "style": "door"
+          },
+          {
+            "label": "Kitchen island",
+            "symbol": "fork.knife",
+            "x": 0.42,
+            "y": 0.4,
+            "w": 0.3,
+            "h": 0.14
+          },
+          {
+            "label": "Ring light",
+            "symbol": "camera.fill",
+            "x": 0.6,
+            "y": 0.62,
+            "w": 0.1,
+            "h": 0.1
+          },
+          {
+            "label": "Rug",
+            "x": 0.26,
+            "y": 0.73,
+            "w": 0.36,
+            "h": 0.28,
+            "style": "rug"
+          },
+          {
+            "label": "Sofa",
+            "symbol": "sofa.fill",
+            "x": 0.24,
+            "y": 0.88,
+            "w": 0.3,
+            "h": 0.12
+          },
+          {
+            "label": "Hallway",
+            "x": 0.88,
+            "y": 0.58,
+            "w": 0.18,
+            "h": 0.6,
+            "style": "rug"
+          },
+          {
+            "label": "Coat hooks",
+            "x": 0.95,
+            "y": 0.34,
+            "w": 0.06,
+            "h": 0.1,
+            "style": "fixture"
+          },
+          {
+            "label": "Front door",
+            "x": 0.98,
+            "y": 0.82,
+            "w": 0.04,
+            "h": 0.18,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_fl_bag",
+          "label": "The takeaway bag",
+          "x": 0.34,
+          "y": 0.34,
+          "text": "Thambi’s brown paper bag, still folded on the island beside the empty rice tub. The police took the curry and left the bag.",
+          "reward": {
+            "evidence": [
+              "thambi_bag"
+            ]
+          }
+        },
+        {
+          "id": "hs_fl_rug",
+          "label": "The rug",
+          "x": 0.36,
+          "y": 0.71,
+          "text": "Where the paramedics worked on him: tape, wrappers, a blood-pressure cuff’s packaging — and two clear plastic tubes.",
+          "reward": {
+            "evidence": [
+              "pen_tubes"
+            ]
+          }
+        },
+        {
+          "id": "hs_fl_drawer",
+          "label": "Kitchen drawer",
+          "x": 0.2,
+          "y": 0.18,
+          "text": "The drawer everyone has: takeaway menus, batteries, a broken corkscrew. And a pharmacy bag.",
+          "reward": {
+            "evidence": [
+              "pharmacy_bag"
+            ]
+          }
+        },
+        {
+          "id": "hs_fl_keypad",
+          "label": "Door keypad",
+          "x": 0.88,
+          "y": 0.84,
+          "text": "A smart lock with a keypad, the frame around it splintered. Lena opens the lock’s app on her phone and shows you Thursday’s history.",
+          "reward": {
+            "evidence": [
+              "smart_lock_log"
+            ]
+          }
+        },
+        {
+          "id": "hs_fl_hooks",
+          "label": "Coat hooks",
+          "x": 0.91,
+          "y": 0.42,
+          "text": "Jonah’s black crossbody bag hangs on the hook nearest the door. Inside, a small zip pouch, open and empty. Lena says his pens lived in there, and nowhere else."
+        },
+        {
+          "id": "hs_fl_ringlight",
+          "label": "Ring light",
+          "x": 0.6,
+          "y": 0.745,
+          "text": "The ring light and camera, still aimed at the island. The memory card is gone — the police took it. Whatever he filmed at 21:29, his followers saw it before they did."
+        },
+        {
+          "id": "hs_fl_bathroom",
+          "label": "Bathroom",
+          "x": 0.9,
+          "y": 0.15,
+          "text": "A small bathroom with a big shower. The extractor fan vents straight out through the back wall of the building, onto the canal towpath below."
+        },
+        {
+          "id": "hs_fl_fridge",
+          "label": "Fridge door",
+          "x": 0.5,
+          "y": 0.18,
+          "text": "An allergy action plan with Jonah’s photo on it. Beside it, a child’s felt-tip drawing of two stick figures in capes: ‘ME AND UNCLE JONAH — SUPERHEROES.’"
+        },
+        {
+          "id": "hs_fl_window",
+          "label": "Window",
+          "x": 0.1,
+          "y": 0.45,
+          "text": "Below the window, the canal and the towpath — joggers, cyclists, narrowboats. At night it’s dark down there, and nobody looks up."
+        },
+        {
+          "id": "hs_fl_floor",
+          "label": "Under the island",
+          "x": 0.5,
+          "y": 0.5,
+          "text": "Somebody stood at this island and doctored the curry. You get down on the floor with a torch and run it along the kickboard.",
+          "visibleWhen": {
+            "deduced": "d_spiked"
+          },
+          "reward": {
+            "evidence": [
+              "sachet_corner"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "studio",
+      "name": "Jonah’s Studio",
+      "summary": "His office and edit suite.",
+      "description": "The second bedroom, which Jonah turned into an office: two monitors, a good microphone, soundproofing foam on the walls. PR boxes from brands are stacked to the ceiling. It smells of new cardboard.",
+      "art": {
+        "aspect": 1.2,
+        "props": [
+          {
+            "label": "Window",
+            "x": 0.5,
+            "y": 0.025,
+            "w": 0.3,
+            "h": 0.04,
+            "style": "window"
+          },
+          {
+            "label": "Desk",
+            "symbol": "laptopcomputer",
+            "x": 0.5,
+            "y": 0.22,
+            "w": 0.46,
+            "h": 0.14
+          },
+          {
+            "label": "Chair",
+            "symbol": "chair.fill",
+            "x": 0.5,
+            "y": 0.38,
+            "w": 0.1,
+            "h": 0.08
+          },
+          {
+            "label": "Shelf",
+            "symbol": "books.vertical.fill",
+            "x": 0.06,
+            "y": 0.45,
+            "w": 0.1,
+            "h": 0.36
+          },
+          {
+            "label": "Whiteboard",
+            "x": 0.97,
+            "y": 0.42,
+            "w": 0.04,
+            "h": 0.32,
+            "style": "fixture"
+          },
+          {
+            "label": "PR boxes",
+            "symbol": "shippingbox.fill",
+            "x": 0.8,
+            "y": 0.8,
+            "w": 0.24,
+            "h": 0.2
+          },
+          {
+            "label": "Rug",
+            "x": 0.46,
+            "y": 0.68,
+            "w": 0.4,
+            "h": 0.24,
+            "style": "rug"
+          },
+          {
+            "x": 0.3,
+            "y": 0.975,
+            "w": 0.16,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_st_laptop",
+          "label": "Laptop",
+          "x": 0.64,
+          "y": 0.26,
+          "text": "Jonah’s laptop, asleep on the desk. Wake it and it asks for a six-digit passcode."
+        },
+        {
+          "id": "hs_st_whiteboard",
+          "label": "Whiteboard",
+          "x": 0.9,
+          "y": 0.42,
+          "text": "His content calendar for March. Thursday 7: ‘THAMBI RD 2 — 9pm’. Monday 11, ringed three times in red: ‘09:00 — RECEIPTS — no going back’."
+        },
+        {
+          "id": "hs_st_boxes",
+          "label": "PR boxes",
+          "x": 0.74,
+          "y": 0.7,
+          "text": "Free gifts from brands hoping for a mention: hot sauces, knives, a pizza oven. Every label reads ‘Jonah Pryce, c/o Doyle Talent’ — every parcel went through Marcus first."
+        },
+        {
+          "id": "hs_st_shelf",
+          "label": "Shelf",
+          "x": 0.16,
+          "y": 0.48,
+          "text": "A glass award — ‘Food Creator of the Year 2023’ — and a framed photo of Jonah and a small boy in matching capes, both giving the camera a thumbs-up."
+        },
+        {
+          "id": "hs_st_drawer",
+          "label": "Desk drawer",
+          "x": 0.28,
+          "y": 0.32,
+          "text": "Chargers, lens caps, two passports — and a folder of household papers: the mortgage, the boiler, the insurance.",
+          "reward": {
+            "evidence": [
+              "life_policy"
+            ]
+          }
+        },
+        {
+          "id": "hs_st_receipts",
+          "label": "Laptop: RECEIPTS",
+          "x": 0.36,
+          "y": 0.14,
+          "text": "With Lena’s passcode the laptop opens on the last thing Jonah worked on: a script, and a folder of screenshots.",
+          "visibleWhen": {
+            "flag": "laptop_open"
+          },
+          "reward": {
+            "evidence": [
+              "receipts_draft",
+              "dm_thambi"
+            ]
+          }
+        },
+        {
+          "id": "hs_st_messages",
+          "label": "Laptop: messages",
+          "x": 0.64,
+          "y": 0.14,
+          "text": "His messages sync from his phone. The last conversation he had with anyone who wasn’t a follower is with his manager.",
+          "visibleWhen": {
+            "all": [
+              {
+                "flag": "laptop_open"
+              },
+              {
+                "deduced": "d_shakedown"
+              }
+            ]
+          },
+          "reward": {
+            "evidence": [
+              "jonah_messages"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "building",
+      "name": "The Ropeworks",
+      "summary": "The front hall, the stairs and the bike store.",
+      "description": "The common parts of the building: a front hall with post boxes and a buzzer panel, the main stairs, and at the back a bike store with its own door onto the canal towpath. Flat 1, Owen’s, opens off the front hall.",
+      "art": {
+        "aspect": 1.3,
+        "props": [
+          {
+            "label": "Main entrance",
+            "x": 0.42,
+            "y": 0.975,
+            "w": 0.18,
+            "h": 0.05,
+            "style": "door"
+          },
+          {
+            "label": "Entry panel",
+            "x": 0.56,
+            "y": 0.92,
+            "w": 0.06,
+            "h": 0.06,
+            "style": "fixture"
+          },
+          {
+            "label": "Front hall",
+            "x": 0.34,
+            "y": 0.72,
+            "w": 0.4,
+            "h": 0.4,
+            "style": "rug"
+          },
+          {
+            "label": "Flat 1",
+            "x": 0.02,
+            "y": 0.6,
+            "w": 0.04,
+            "h": 0.2,
+            "style": "door"
+          },
+          {
+            "label": "Main stairs",
+            "symbol": "stairs",
+            "x": 0.4,
+            "y": 0.3,
+            "w": 0.2,
+            "h": 0.36
+          },
+          {
+            "label": "Post boxes",
+            "symbol": "tray.2.fill",
+            "x": 0.14,
+            "y": 0.92,
+            "w": 0.16,
+            "h": 0.1
+          },
+          {
+            "label": "Bike store",
+            "symbol": "bicycle",
+            "x": 0.82,
+            "y": 0.26,
+            "w": 0.3,
+            "h": 0.32
+          },
+          {
+            "label": "Back stairs",
+            "symbol": "stairs",
+            "x": 0.82,
+            "y": 0.68,
+            "w": 0.16,
+            "h": 0.28
+          },
+          {
+            "label": "To the towpath",
+            "x": 0.98,
+            "y": 0.2,
+            "w": 0.04,
+            "h": 0.2,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_bd_panel",
+          "label": "Entry panel",
+          "x": 0.64,
+          "y": 0.86,
+          "text": "A keypad and intercom by the main entrance. Residents and their guests use the same codes for the front door, the bike store door and their own flats. Visitors buzz up; a flat can let them in from a phone."
+        },
+        {
+          "id": "hs_bd_flat1",
+          "label": "Flat 1",
+          "x": 0.12,
+          "y": 0.6,
+          "text": "Owen’s door, with a small camera above it. It looks out across the front hall to the main entrance and the foot of the main stairs. It can’t see the bike store, or the back stairs. Flat 1, on the ground floor, also has a back door of its own straight onto the towpath."
+        },
+        {
+          "id": "hs_bd_sacks",
+          "label": "Stairs cupboard",
+          "x": 0.16,
+          "y": 0.76,
+          "text": "A cupboard under the main stairs, its padlock hanging open. Owen keeps his stock in here.",
+          "reward": {
+            "evidence": [
+              "owen_flour"
+            ]
+          }
+        },
+        {
+          "id": "hs_bd_bikestore",
+          "label": "Bike store",
+          "x": 0.63,
+          "y": 0.24,
+          "text": "Bikes, scooters, a pram. The door at the far end opens straight onto the canal towpath, on the same keypad codes as the front door. From here the back stairs go up to Flats 2, 3 and 4. Anyone who came in this way would never pass through the front hall."
+        },
+        {
+          "id": "hs_bd_towpath",
+          "label": "The towpath",
+          "x": 0.93,
+          "y": 0.42,
+          "text": "Outside the bike store door, on the back wall of the building two floors up, is Flat 3’s bathroom vent. A neighbour on a narrowboat laughs: ‘When he’s in the shower it steams like a kettle. You can set your watch by it — every night before he films.’"
+        },
+        {
+          "id": "hs_bd_notice",
+          "label": "Notice board",
+          "x": 0.28,
+          "y": 0.86,
+          "text": "Bin days, a lost cat, and a laminated notice: ‘Door system queries — please contact the residents’ committee: Owen Hart, Flat 1.’"
+        },
+        {
+          "id": "hs_bd_boat",
+          "label": "Narrowboat",
+          "x": 0.7,
+          "y": 0.06,
+          "text": "Now you know Marcus wasn’t running, you go back to the towpath. The narrowboat moored behind the bike store has a chimney, a cat and a man on deck with a roll-up, who has seen everything that happens here for six years.",
+          "visibleWhen": {
+            "deduced": "d_run"
+          },
+          "reward": {
+            "evidence": [
+              "boater_statement"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "thambi",
+      "name": "Thambi",
+      "summary": "Priya’s restaurant in Dalston, shut by the council.",
+      "description": "Eleven tables and an open kitchen behind a long pass, shut since Friday. Someone has sprayed MURDERER across the shutter. Inside it still smells of curry leaves and coconut.",
+      "art": {
+        "aspect": 1.4,
+        "props": [
+          {
+            "label": "Tables",
+            "symbol": "chair.fill",
+            "x": 0.18,
+            "y": 0.5,
+            "w": 0.26,
+            "h": 0.5
+          },
+          {
+            "label": "Front door",
+            "x": 0.14,
+            "y": 0.975,
+            "w": 0.16,
+            "h": 0.05,
+            "style": "door"
+          },
+          {
+            "label": "The pass",
+            "x": 0.5,
+            "y": 0.5,
+            "w": 0.08,
+            "h": 0.6,
+            "style": "fixture"
+          },
+          {
+            "label": "Stoves",
+            "symbol": "flame.fill",
+            "x": 0.78,
+            "y": 0.5,
+            "w": 0.24,
+            "h": 0.14
+          },
+          {
+            "label": "Dry store",
+            "symbol": "cabinet.fill",
+            "x": 0.9,
+            "y": 0.13,
+            "w": 0.18,
+            "h": 0.2
+          },
+          {
+            "label": "Packing station",
+            "symbol": "bag.fill",
+            "x": 0.76,
+            "y": 0.86,
+            "w": 0.26,
+            "h": 0.14
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_th_tablet",
+          "label": "Order tablet",
+          "x": 0.5,
+          "y": 0.32,
+          "text": "The tablet at the pass that takes delivery orders. Priya brings up order #4471: the order, the allergy note, and the courier’s photo when he left it.",
+          "reward": {
+            "evidence": [
+              "delivery_photo"
+            ]
+          }
+        },
+        {
+          "id": "hs_th_camera",
+          "label": "Kitchen camera",
+          "x": 0.62,
+          "y": 0.16,
+          "text": "A camera over the pass, installed for the insurers. Priya has had Thursday night copied for her solicitors.",
+          "reward": {
+            "evidence": [
+              "thambi_cctv"
+            ]
+          }
+        },
+        {
+          "id": "hs_th_store",
+          "label": "Dry store",
+          "x": 0.9,
+          "y": 0.3,
+          "text": "Sacks of rice and lentils, tins of coconut milk, a wall of spices in labelled jars. Right at the back, behind the rice, a jar that doesn’t match the others.",
+          "reward": {
+            "evidence": [
+              "chili_oil"
+            ]
+          }
+        },
+        {
+          "id": "hs_th_packing",
+          "label": "Packing station",
+          "x": 0.68,
+          "y": 0.78,
+          "text": "Paper bags, tubs, and a roll of round orange stickers printed with Thambi’s elephant. You peel one off and try to lift it again: it tears the paper unless you’re very slow and very careful."
+        },
+        {
+          "id": "hs_th_pot",
+          "label": "Stock pot",
+          "x": 0.84,
+          "y": 0.62,
+          "text": "The big pot the curry came out of, scrubbed and empty now. A police evidence tag on the handle: ‘Sampled 08/03 — see lab report CU-0308’."
+        },
+        {
+          "id": "hs_th_sign",
+          "label": "Sign by the pass",
+          "x": 0.36,
+          "y": 0.14,
+          "text": "Hand-painted, nine years old: ‘NUT-FREE KITCHEN SINCE 2015 — ask us anything.’ Someone has drawn a skull on it in marker, through the window."
+        }
+      ]
+    },
+    {
+      "id": "doyles",
+      "name": "The Doyles’ House",
+      "summary": "Hannah and Marcus’s home, by Victoria Park.",
+      "description": "A Victorian terrace on the edge of Victoria Park: school bags in the hall, running shoes by the door, the calendar on the fridge crammed with clubs and lessons. Hannah, on compassionate leave, has asked you in. Marcus is out; the children are at school.",
+      "art": {
+        "aspect": 1.2,
+        "props": [
+          {
+            "label": "Front door",
+            "x": 0.14,
+            "y": 0.975,
+            "w": 0.16,
+            "h": 0.05,
+            "style": "door"
+          },
+          {
+            "label": "Hall",
+            "x": 0.18,
+            "y": 0.72,
+            "w": 0.24,
+            "h": 0.4,
+            "style": "rug"
+          },
+          {
+            "label": "Coat cupboard",
+            "symbol": "cabinet.fill",
+            "x": 0.06,
+            "y": 0.62,
+            "w": 0.1,
+            "h": 0.18
+          },
+          {
+            "label": "Desk",
+            "symbol": "laptopcomputer",
+            "x": 0.18,
+            "y": 0.2,
+            "w": 0.24,
+            "h": 0.12
+          },
+          {
+            "label": "Kitchen",
+            "x": 0.72,
+            "y": 0.4,
+            "w": 0.48,
+            "h": 0.6,
+            "style": "rug"
+          },
+          {
+            "label": "Cupboards",
+            "symbol": "cabinet.fill",
+            "x": 0.72,
+            "y": 0.08,
+            "w": 0.3,
+            "h": 0.1
+          },
+          {
+            "label": "Fridge",
+            "symbol": "refrigerator.fill",
+            "x": 0.94,
+            "y": 0.32,
+            "w": 0.1,
+            "h": 0.18
+          },
+          {
+            "label": "Island",
+            "x": 0.66,
+            "y": 0.5,
+            "w": 0.22,
+            "h": 0.12
+          },
+          {
+            "label": "Back door",
+            "x": 0.98,
+            "y": 0.72,
+            "w": 0.04,
+            "h": 0.18,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_dh_shoes",
+          "label": "Running shoes",
+          "x": 0.34,
+          "y": 0.84,
+          "text": "Two pairs of running shoes by the door, a man’s size twelve and a girl’s size five spikes, and above them a black running jacket with ‘DT’ in reflective letters across the back. On the wall, a row of medals: ‘Evie Doyle — County Cross-Country, U17, 1st’."
+        },
+        {
+          "id": "hs_dh_fridge",
+          "label": "Fridge",
+          "x": 0.88,
+          "y": 0.44,
+          "text": "The family calendar, Alfie’s allergy plan, and a dosing chart for his immunotherapy, one tick for every morning. On Thursday 7 March someone has written ‘J’s video 9pm!’ and drawn a little camera."
+        },
+        {
+          "id": "hs_dh_cupboard",
+          "label": "Cupboard above the kettle",
+          "x": 0.62,
+          "y": 0.16,
+          "text": "Alfie’s medicines live in the cupboard above the kettle, out of his reach. Hannah takes down a pharmacy box.",
+          "visibleWhen": {
+            "evidence": "sachet_corner"
+          },
+          "reward": {
+            "evidence": [
+              "medicine_box"
+            ]
+          }
+        },
+        {
+          "id": "hs_dh_desk",
+          "label": "Hannah’s desk",
+          "x": 0.3,
+          "y": 0.26,
+          "text": "A laptop on a pile of marking, a webcam, a whiteboard of fractions. Hannah opens her tutoring account to show you her week.",
+          "reward": {
+            "evidence": [
+              "tutoring_log"
+            ]
+          },
+          "visibleWhen": {
+            "deduced": "d_source"
+          }
+        },
+        {
+          "id": "hs_dh_coats",
+          "label": "Coat cupboard",
+          "x": 0.14,
+          "y": 0.58,
+          "text": "Coats, scooters, a box of hats. And on the top shelf, a shoebox labelled in marker.",
+          "visibleWhen": {
+            "all": [
+              {
+                "deduced": "d_pens"
+              },
+              {
+                "deduced": "d_source"
+              }
+            ]
+          },
+          "reward": {
+            "evidence": [
+              "old_pens_box"
+            ]
+          }
+        },
+        {
+          "id": "hs_dh_ipad",
+          "label": "iPad on the counter",
+          "x": 0.6,
+          "y": 0.42,
+          "text": "The family iPad, propped against the fruit bowl, open at the family group chat. Hannah scrolls back to Thursday for you without being asked.",
+          "visibleWhen": {
+            "all": [
+              {
+                "statement": "st_marcus_run"
+              },
+              {
+                "deduced": "d_source"
+              }
+            ]
+          },
+          "reward": {
+            "evidence": [
+              "family_chat",
+              "marcus_history"
+            ]
+          }
+        },
+        {
+          "id": "hs_dh_doorbell",
+          "label": "Video doorbell",
+          "x": 0.24,
+          "y": 0.86,
+          "text": "A video doorbell by the front door. Hannah hesitates, then opens its app on her phone and finds Thursday evening.",
+          "visibleWhen": {
+            "statement": "st_marcus_home"
+          },
+          "reward": {
+            "evidence": [
+              "doyle_doorbell"
+            ]
+          }
+        },
+        {
+          "id": "hs_dh_sharps",
+          "label": "Under the sink",
+          "x": 0.78,
+          "y": 0.26,
+          "text": "Under the kitchen sink: bleach, bin bags, and a yellow sharps bin with a sealed lid and a slot, for Alfie’s used pens. When it’s full it goes back to the pharmacy to be burned, unopened.",
+          "visibleWhen": {
+            "deduced": "d_run"
+          },
+          "reward": {
+            "evidence": [
+              "adult_pens"
+            ]
+          }
+        }
+      ],
+      "availableWhen": {
+        "flag": "doyles_invite"
+      },
+      "lockedHint": "Hannah would have to invite you."
+    }
+  ],
+  "timeline": {
+    "id": "timeline",
+    "title": "Thursday night, reconstructed",
+    "prompt": "Put Thursday night’s events in the order they really happened. Times you know for certain are shown; reason out the rest.",
+    "events": [
+      {
+        "id": "tl_packed",
+        "text": "Priya seals Jonah’s order at Thambi",
+        "time": "20:47",
+        "visibleWhen": {
+          "evidence": "thambi_cctv"
+        },
+        "teaser": "What happened to the curry before it left the restaurant."
+      },
+      {
+        "id": "tl_out",
+        "text": "Marcus leaves home in his running gear",
+        "visibleWhen": {
+          "statement": "st_hannah_out"
+        },
+        "teaser": "Who went out that evening."
+      },
+      {
+        "id": "tl_lena",
+        "text": "Lena goes into Owen’s flat",
+        "visibleWhen": {
+          "statement": "st_lena_owen"
+        },
+        "teaser": "Someone was in the building who said they weren’t."
+      },
+      {
+        "id": "tl_delivered",
+        "text": "Mihai leaves the sealed bag at Jonah’s door",
+        "time": "21:04",
+        "visibleWhen": {
+          "evidence": "delivery_photo"
+        },
+        "teaser": "How the curry reached the door."
+      },
+      {
+        "id": "tl_story",
+        "text": "Jonah posts a story: the bag still sealed, a shower first",
+        "time": "21:17"
+      },
+      {
+        "id": "tl_entry",
+        "text": "Someone opens Flat 3 with the guest code",
+        "time": "21:19",
+        "visibleWhen": {
+          "evidence": "smart_lock_log"
+        },
+        "teaser": "What the front door remembers."
+      },
+      {
+        "id": "tl_spiked",
+        "text": "The curry is spiked",
+        "visibleWhen": {
+          "deduced": "d_window"
+        },
+        "teaser": "When the curry was poisoned."
+      },
+      {
+        "id": "tl_tasting",
+        "text": "Jonah posts himself taking the first spoonful",
+        "time": "21:29"
+      },
+      {
+        "id": "tl_999",
+        "text": "Jonah calls 999: the pens aren’t working",
+        "time": "21:33"
+      },
+      {
+        "id": "tl_evie",
+        "text": "Evie posts ‘DONE YOUR RUN DAD’ in the family chat",
+        "time": "21:41",
+        "visibleWhen": {
+          "evidence": "family_chat"
+        },
+        "teaser": "A message sent that evening."
+      },
+      {
+        "id": "tl_home",
+        "text": "Marcus gets home alone, from the canal end of the street",
+        "visibleWhen": {
+          "evidence": "doyle_doorbell"
+        },
+        "teaser": "When the last person came home."
+      }
+    ],
+    "conclusion": "At 21:17 Jonah was alive and the bag was sealed. At 21:19, while he showered, someone opened his door with the guest code; by 21:24 the curry was poisoned and his pens were useless. Whoever did it had made very sure to be seen somewhere else."
+  },
+  "accusation": {
+    "culprit": "marcus",
+    "methods": [
+      "Sprinkled peanut flour onto the curry and swapped his pens for useless ones",
+      "Spooned a peanut-laced condiment into the curry and swapped his pens for useless ones",
+      "Sprinkled peanut immunotherapy powder onto the curry and swapped his pens for useless ones",
+      "Crumbled a peanut snack over the curry and swapped his pens for useless ones"
+    ],
+    "method": 2,
+    "motives": [
+      "To collect the life insurance on Jonah’s life",
+      "Revenge for the one-star review that ruined a restaurant",
+      "So that Lena would be free to leave him",
+      "To stop Jonah exposing his extortion of restaurants",
+      "To inherit Jonah’s money through his sister"
+    ],
+    "motive": 3,
+    "proof": [
+      [
+        "d_run",
+        "family_chat",
+        "doyle_doorbell",
+        "st_marcus_home",
+        "marcus_history",
+        "d_towpath",
+        "boater_statement"
+      ],
+      [
+        "d_source",
+        "medicine_box",
+        "old_pens_box",
+        "adult_pens"
+      ],
+      [
+        "d_shakedown",
+        "jonah_messages",
+        "receipts_draft",
+        "st_marcus_fees"
+      ]
+    ],
+    "proofLabels": [
+      "The alibi that wasn’t",
+      "The means — from the killer’s own home",
+      "Motive — why it had to be before Monday"
+    ],
+    "successTitle": "Case closed"
+  },
+  "hints": [
+    {
+      "id": "h_scene",
+      "doneWhen": {
+        "all": [
+          {
+            "evidence": "thambi_bag"
+          },
+          {
+            "evidence": "pen_tubes"
+          },
+          {
+            "evidence": "smart_lock_log"
+          }
+        ]
+      },
+      "levels": [
+        "Start where it happened. Have you been over Jonah’s flat properly?",
+        "Look at the takeaway bag, at what the paramedics left on the rug, and at the front door.",
+        "In Jonah’s Flat, examine the takeaway bag, the rug and the door keypad."
+      ]
+    },
+    {
+      "id": "h_lab",
+      "doneWhen": {
+        "evidence": "lab_report"
+      },
+      "levels": [
+        "Your client has seen something the internet hasn’t.",
+        "Priya’s solicitors have the police lab’s report on the curry.",
+        "Ask Priya what the police lab found."
+      ]
+    },
+    {
+      "id": "h_spiked",
+      "activeWhen": {
+        "evidence": "lab_report"
+      },
+      "doneWhen": {
+        "deduced": "d_spiked"
+      },
+      "levels": [
+        "Read the lab report closely. Where exactly in the curry was the peanut?",
+        "Now look at the state of the bag when it reached Jonah’s door, and at 21:17.",
+        "On the board, answer ‘Someone sprinkled it on after the curry was delivered’, with the food lab report (or the Thambi bag) and Jonah’s last stories (or the proof-of-delivery photo)."
+      ]
+    },
+    {
+      "id": "h_pens",
+      "activeWhen": {
+        "any": [
+          {
+            "evidence": "pen_tubes"
+          },
+          {
+            "evidence": "pharmacy_bag"
+          }
+        ]
+      },
+      "doneWhen": {
+        "deduced": "d_pens"
+      },
+      "levels": [
+        "The police say Jonah’s pens were out of date. Were they his pens at all?",
+        "Read the dose printed on the empty tubes. Then find out what dose he was prescribed, and when he last collected new pens.",
+        "Answer ‘Someone swapped his new pens for old, weaker ones’, with the empty pen tubes and the pharmacy bag (or Lena’s statement about his new pens)."
+      ]
+    },
+    {
+      "id": "h_window",
+      "activeWhen": {
+        "deduced": "d_spiked"
+      },
+      "doneWhen": {
+        "deduced": "d_window"
+      },
+      "levels": [
+        "If the curry was spiked in the flat, someone was in the flat. When?",
+        "Jonah told his followers what he was doing at 21:17. What does the front door say happened next?",
+        "Answer ‘Between 21:19 and 21:24, while Jonah was in the shower’, with the smart lock history (or the building door log) and Jonah’s last stories (or Owen’s statement about the pipes)."
+      ]
+    },
+    {
+      "id": "h_sachet",
+      "activeWhen": {
+        "deduced": "d_spiked"
+      },
+      "doneWhen": {
+        "evidence": "sachet_corner"
+      },
+      "levels": [
+        "Whoever spiked the curry stood at the kitchen island. Did they leave anything behind?",
+        "Get down on the floor around the island.",
+        "In Jonah’s Flat, examine the floor under the kitchen island."
+      ]
+    },
+    {
+      "id": "h_source",
+      "activeWhen": {
+        "evidence": "sachet_corner"
+      },
+      "doneWhen": {
+        "deduced": "d_source"
+      },
+      "levels": [
+        "Peanut protein, 300 mg, ‘open and mix into food’. Who in this case is prescribed something like that?",
+        "Ask Hannah whether anyone else in the family has Jonah’s allergy, and look in the Doyles’ kitchen cupboard.",
+        "Answer ‘A sachet of Alfie’s peanut immunotherapy’, with the torn foil corner and Alfie’s medicine box (or Hannah’s statement about his treatment)."
+      ]
+    },
+    {
+      "id": "h_laptop",
+      "doneWhen": {
+        "flag": "laptop_open"
+      },
+      "levels": [
+        "Jonah’s laptop is in his studio, locked. The police didn’t bother with it.",
+        "His fiancée knows the passcode.",
+        "Ask Lena whether you may look at Jonah’s laptop."
+      ],
+      "activeWhen": {
+        "deduced": "d_spiked"
+      }
+    },
+    {
+      "id": "h_shakedown",
+      "activeWhen": {
+        "evidence": "receipts_draft"
+      },
+      "doneWhen": {
+        "deduced": "d_shakedown"
+      },
+      "levels": [
+        "Jonah was going to post something on Monday morning. What, and about whom?",
+        "Read the draft and the screenshot beside it. Then find out who ran his business inbox.",
+        "Answer ‘That restaurants were being shaken down for money in his name’, with the draft video RECEIPTS and the screenshot of the message to Thambi (or the messages between Jonah and Marcus)."
+      ]
+    },
+    {
+      "id": "h_old_pens",
+      "activeWhen": {
+        "deduced": "d_pens"
+      },
+      "doneWhen": {
+        "evidence": "old_pens_box"
+      },
+      "levels": [
+        "A child’s adrenaline pens, eighteen months out of date. Who keeps pens like that?",
+        "Ask Hannah whether she keeps spare pens, then look in the Doyles’ coat cupboard.",
+        "In the Doyles’ House, examine the coat cupboard."
+      ]
+    },
+    {
+      "id": "h_hannah",
+      "activeWhen": {
+        "deduced": "d_source"
+      },
+      "doneWhen": {
+        "deduced": "d_hannah"
+      },
+      "levels": [
+        "The medicine came from the Doyles’ house, and Hannah knows the guest code. Could she have used it?",
+        "Ask Hannah what she was doing on Thursday, and look at her desk.",
+        "Answer ‘No — she was tutoring on camera from 21:00 to 21:45’, with Hannah’s tutoring record and your ‘Five minutes in the shower’ deduction."
+      ]
+    },
+    {
+      "id": "h_owen_class",
+      "activeWhen": {
+        "all": [
+          {
+            "resolved": "c_owen_alone"
+          },
+          {
+            "deduced": "d_window"
+          }
+        ]
+      },
+      "doneWhen": {
+        "evidence": "owen_class"
+      },
+      "levels": [
+        "Owen teaches online. Was anything recorded at 21:19?",
+        "Owen records every class he teaches.",
+        "Ask Owen whether you may see the recording of his class."
+      ]
+    },
+    {
+      "id": "h_lena_cleared",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_window"
+          },
+          {
+            "statement": "st_lena_owen"
+          }
+        ]
+      },
+      "doneWhen": {
+        "deduced": "d_lena"
+      },
+      "levels": [
+        "Lena had the codes, a motive and the chance. Can you rule her out?",
+        "Owen records every class he teaches.",
+        "Answer ‘No — she is on camera in Owen’s flat at 21:19 and 21:24’, with the recording of Owen’s class and your ‘Five minutes in the shower’ deduction."
+      ]
+    },
+    {
+      "id": "h_marcus_alibi",
+      "activeWhen": {
+        "deduced": "d_source"
+      },
+      "doneWhen": {
+        "statement": "st_marcus_run"
+      },
+      "levels": [
+        "Someone else lives in the house where Alfie’s medicine is kept.",
+        "Ask Marcus where he was on Thursday night.",
+        "Interrogate Marcus Doyle and ask him where he was on Thursday night."
+      ]
+    },
+    {
+      "id": "h_chat",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_marcus_run"
+          },
+          {
+            "deduced": "d_source"
+          }
+        ]
+      },
+      "doneWhen": {
+        "evidence": "family_chat"
+      },
+      "levels": [
+        "Marcus says his run proves where he was. Does his family agree?",
+        "The Doyles keep an iPad on the kitchen counter.",
+        "In the Doyles’ House, examine the iPad on the counter."
+      ]
+    },
+    {
+      "id": "h_run",
+      "activeWhen": {
+        "evidence": "family_chat"
+      },
+      "doneWhen": {
+        "deduced": "d_run"
+      },
+      "levels": [
+        "Compare Thursday’s run with every other run Marcus has posted.",
+        "Compare Thursday’s numbers with his other runs on the family iPad, and re-read Evie’s message.",
+        "Answer ‘No — Evie ran it, wearing his watch’, with Marcus’s running app (or his month of runs) and the Doyle family chat."
+      ]
+    },
+    {
+      "id": "h_marcus_run",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_marcus_run"
+          },
+          {
+            "deduced": "d_run"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_marcus_run"
+      },
+      "levels": [
+        "You know Marcus didn’t run. Tell him so.",
+        "Your deductions are cards too.",
+        "Challenge Marcus’s ‘running round Victoria Park’ statement with your ‘Somebody else’s run’ deduction, or the family chat."
+      ]
+    },
+    {
+      "id": "h_marcus_home",
+      "activeWhen": {
+        "statement": "st_marcus_home"
+      },
+      "doneWhen": {
+        "resolved": "c_marcus_home"
+      },
+      "levels": [
+        "Marcus now says he never left his garden office. Did he?",
+        "The Doyles’ front door has a camera.",
+        "In the Doyles’ House, examine the video doorbell, then challenge Marcus’s ‘garden office’ statement with it."
+      ]
+    },
+    {
+      "id": "h_towpath",
+      "activeWhen": {
+        "deduced": "d_run"
+      },
+      "doneWhen": {
+        "deduced": "d_towpath"
+      },
+      "levels": [
+        "Someone came in by the bike store at 21:18. Did anyone see them?",
+        "Somebody lives on the canal right behind The Ropeworks.",
+        "In The Ropeworks, examine the narrowboat. Then answer ‘Marcus, in his reflective running jacket’, with the narrowboat owner’s statement and your ‘Somebody else’s run’ deduction."
+      ]
+    },
+    {
+      "id": "h_jacket",
+      "activeWhen": {
+        "deduced": "d_run"
+      },
+      "doneWhen": {
+        "evidence": "adult_pens"
+      },
+      "levels": [
+        "Jonah’s new pens didn’t vanish. Somebody took them away.",
+        "In a house with an allergic child, there’s one bin nobody ever looks into.",
+        "In the Doyles’ House, examine the cupboard under the kitchen sink."
+      ]
+    },
+    {
+      "id": "h_marcus_walk",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_marcus_walk"
+          },
+          {
+            "evidence": "adult_pens"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_marcus_walk"
+      },
+      "levels": [
+        "Marcus swears he never went near The Ropeworks.",
+        "Someone on the towpath saw who came in by the bike store, and something from Flat 3 ended up in his own house.",
+        "Challenge Marcus’s ‘never went near The Ropeworks’ statement with the pens in the sharps bin, or the narrowboat owner’s statement."
+      ]
+    },
+    {
+      "id": "h_marcus_thambi",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_marcus_thambi"
+          },
+          {
+            "evidence": "jonah_messages"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_marcus_thambi"
+      },
+      "levels": [
+        "Marcus says the Thambi video was Jonah’s idea.",
+        "Read the last messages between them.",
+        "Challenge Marcus’s ‘Jonah’s idea, not mine’ statement with the messages between Jonah and Marcus."
+      ]
+    },
+    {
+      "id": "h_marcus_inbox",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_marcus_inbox"
+          },
+          {
+            "any": [
+              {
+                "statement": "st_lena_inbox"
+              },
+              {
+                "evidence": "jonah_messages"
+              }
+            ]
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_marcus_inbox"
+      },
+      "levels": [
+        "Marcus says half the team used Jonah’s inbox.",
+        "Lena says otherwise — and so do his own messages.",
+        "Challenge Marcus’s ‘half the team used Jonah’s inbox’ statement with Lena’s statement about the inbox, or the messages between Jonah and Marcus."
+      ]
+    },
+    {
+      "id": "h_hannah_row",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_hannah_close"
+          },
+          {
+            "evidence": "jonah_messages"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_hannah_close"
+      },
+      "levels": [
+        "Hannah says her husband and her brother never had a cross word.",
+        "Jonah’s laptop tells a different story.",
+        "Challenge Hannah’s ‘got on like brothers’ statement with the messages between Jonah and Marcus."
+      ]
+    },
+    {
+      "id": "h_priya_fee",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_priya_no_contact"
+          },
+          {
+            "evidence": "dm_thambi"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_priya_contact"
+      },
+      "levels": [
+        "Priya says nobody from Jonah’s side contacted her before the review.",
+        "One of the screenshots on Jonah’s laptop was sent to Thambi.",
+        "Challenge Priya’s ‘nobody from Jonah’s side ever contacted me’ statement with the screenshot of the message to Thambi."
+      ]
+    },
+    {
+      "id": "h_logs",
+      "activeWhen": {
+        "deduced": "d_spiked"
+      },
+      "doneWhen": {
+        "evidence": "building_log"
+      },
+      "levels": [
+        "The building’s doors keep a record too.",
+        "Someone in the building has the admin login. Read the notice board.",
+        "Ask Owen Hart who can see the building’s door records."
+      ]
+    },
+    {
+      "id": "h_lena",
+      "activeWhen": {
+        "statement": "st_lena_pilates"
+      },
+      "doneWhen": {
+        "resolved": "c_lena_pilates"
+      },
+      "levels": [
+        "Lena says she walked in at ten to ten. Did she?",
+        "The building’s door log records every code, and the courier saw someone downstairs.",
+        "Challenge Lena’s ‘pilates until 21:30’ statement with the building door log (or Mihai’s statement about the woman with the yoga mat)."
+      ]
+    },
+    {
+      "id": "h_owen",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_owen_alone"
+          },
+          {
+            "any": [
+              {
+                "statement": "st_lena_owen"
+              },
+              {
+                "statement": "st_mihai_yoga"
+              }
+            ]
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_owen_alone"
+      },
+      "levels": [
+        "Owen says he was on his own all evening.",
+        "Someone else says otherwise.",
+        "Challenge Owen’s ‘on my own’ statement with Lena’s admission (or Mihai’s statement about the woman with the yoga mat)."
+      ]
+    },
+    {
+      "id": "h_mihai",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_mihai_andrei"
+          },
+          {
+            "evidence": "delivery_photo"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_mihai_account"
+      },
+      "levels": [
+        "The courier says he’s ‘Andrei P.’.",
+        "Look at the profile photo on the proof-of-delivery screen.",
+        "Challenge Mihai’s ‘I am Andrei P.’ statement with the proof-of-delivery photo."
+      ]
+    },
+    {
+      "id": "h_priya_oil",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_priya_nut_free"
+          },
+          {
+            "evidence": "chili_oil"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_priya_nut_free"
+      },
+      "levels": [
+        "Your client swears nothing in her kitchen contains nuts.",
+        "Something was hidden at the back of her dry store.",
+        "Challenge Priya’s ‘nothing in my kitchen contains nuts’ statement with the jar of chilli crisp."
+      ]
+    },
+    {
+      "id": "h_timeline",
+      "activeWhen": {
+        "all": [
+          {
+            "evidence": "thambi_cctv"
+          },
+          {
+            "statement": "st_hannah_out"
+          },
+          {
+            "statement": "st_lena_owen"
+          },
+          {
+            "evidence": "delivery_photo"
+          },
+          {
+            "evidence": "smart_lock_log"
+          },
+          {
+            "deduced": "d_window"
+          },
+          {
+            "evidence": "family_chat"
+          },
+          {
+            "evidence": "doyle_doorbell"
+          }
+        ]
+      },
+      "doneWhen": {
+        "timeline": true
+      },
+      "levels": [
+        "Every event of Thursday night is now on the record. Can you put them in order?",
+        "Open the timeline in your Notebook. Anchor the events whose times you know, then reason about the rest.",
+        "The true order: Priya seals the bag, Marcus and Evie go out, Lena goes to Owen’s, the delivery, Jonah’s 21:17 story, the guest code, the curry spiked, the first spoonful, the 999 call, Evie’s message, Marcus home."
+      ]
+    },
+    {
+      "id": "h_accuse_ready",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_run"
+          },
+          {
+            "any": [
+              {
+                "evidence": "adult_pens"
+              },
+              {
+                "deduced": "d_source"
+              },
+              {
+                "evidence": "old_pens_box"
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "deduced": "d_shakedown"
+              },
+              {
+                "evidence": "jonah_messages"
+              }
+            ]
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "You may already have enough for an arrest. Whose alibi has fallen apart, whose house did the weapons come from, and who needed Jonah silent before Monday?",
+        "Only one person had the guest code, the medicine, the old pens and no alibi, and stood to be ruined at nine o’clock on Monday.",
+        "Accuse Marcus Doyle: he sprinkled peanut immunotherapy powder onto the curry and swapped his pens for useless ones, to stop Jonah exposing his extortion of restaurants. Prove it with your run deduction (or the family chat), your medicine deduction (or Alfie’s medicine box), and your shakedown deduction (or the draft video RECEIPTS)."
+      ]
+    },
+    {
+      "id": "h_accuse",
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "Review your board. Who was in Flat 3 at 21:19, where did the poison and the old pens come from, and who would be ruined on Monday?",
+        "Every part of the accusation needs a card: the alibi, the means and the motive. If one is missing, the hints above will have pointed you to it. Re-read your notebook.",
+        "The killer is Marcus Doyle: peanut immunotherapy powder on the curry and useless pens in Jonah’s pouch, to stop Jonah exposing his extortion of restaurants. Prove it with your run deduction, your medicine deduction, and your shakedown deduction."
+      ]
+    }
+  ],
+  "epilogue": [
+    "Marcus Doyle said nothing at all, then or later, on the advice of the solicitor he had asked for. He didn’t need to. Jonah’s pens in the family sharps bin, the sachet missing from his son’s box and the run his daughter had made for him were enough, and he was charged with murder.",
+    "For a year he had used Jonah’s name to shake down restaurants — thirty-one of them, about forty thousand pounds — and steered Jonah towards the ones that wouldn’t pay. When Jonah confronted him at Sunday lunch, Marcus had eight days before the video went out. He chose Thambi because Priya had refused him, and nine o’clock because he knew exactly how long his brother-in-law spent in the shower before he filmed.",
+    "He borrowed his daughter for an alibi, his son’s medicine for a weapon, and the old pens his wife kept to teach people how to save a child’s life. He meant to drop Jonah’s pens in the canal on the way home, but a man was smoking on the deck of a narrowboat, so he took them home, to the one bin in the house nobody ever opens. And he hadn’t counted on a fifteen-year-old running faster than he ever had.",
+    "At nine o’clock on Monday 18 March, Lena posted the video Jonah never got to post. RECEIPTS had eleven million views by the evening. By the end of the week, thirty-one restaurants had come forward.",
+    "The case against Priya Ratnam was dropped. Thambi reopened in April with a queue round the block and a new jar of chilli oil: ‘Peanut-free. I rang the factory myself.’ Mihai got an account of his own. Owen moved to Walthamstow, and Lena went home to Ljubljana.",
+    "Hannah Doyle took the box of old pens to the pharmacy to be destroyed, and taught her next training session with a dummy pen. Evie’s 7.2 kilometres are still on her father’s profile: the fastest run he never ran."
+  ]
+}

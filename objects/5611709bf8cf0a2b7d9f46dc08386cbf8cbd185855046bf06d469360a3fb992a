@@ -1,0 +1,82 @@
+{
+  "suspects": [
+    {
+      "id": "callum",
+      "name": "Callum Rendle",
+      "role": "The brother",
+      "age": 37,
+      "bio": "Tess’s older brother. He builds camper vans at Saltworks Vans, the business he runs with Lou Bray, and he converted Moss himself. The police say his work killed his sister. He has barely slept since Saturday.",
+      "symbol": "wrench.and.screwdriver.fill",
+      "color": "#3E6E73",
+      "monogram": "CR",
+      "portrait": "portraits/callum.png",
+      "dismissal": "I don’t know. I don’t know anything any more.",
+      "rebuttal": "She died in my van, beside my heater. You think I don’t know that? I’d give anything to have been in there instead of her."
+    },
+    {
+      "id": "jo",
+      "name": "Jo Tremlett",
+      "role": "The ex",
+      "age": 32,
+      "bio": "A paramedic, and Tess’s girlfriend for three years, until they split up in September and Tess moved out into a house share. She still can’t talk about Tess in the past tense.",
+      "symbol": "cross.case.fill",
+      "color": "#5A7F4E",
+      "monogram": "JT",
+      "portrait": "portraits/jo.png",
+      "dismissal": "That’s got nothing to do with anything.",
+      "rebuttal": "I loved her. I’ve spent my whole working life keeping people alive. I would never have hurt her."
+    },
+    {
+      "id": "gwen",
+      "name": "Gwen Westcott",
+      "role": "The farmer",
+      "age": 64,
+      "bio": "Her family has farmed the land around Marram Point for four generations. She has fought the overnight vans for years — the litter, the fires, the dogs among her ewes — and the police found one of her notes on Moss’s windscreen.",
+      "symbol": "leaf.fill",
+      "color": "#7A5A3A",
+      "monogram": "GW",
+      "portrait": "portraits/gwen.png",
+      "dismissal": "I’ve ewes to see to. Get to the point.",
+      "rebuttal": "I write notes. I’ve written hundreds. I never killed anybody, and I’d like to see you prove I did."
+    },
+    {
+      "id": "dan",
+      "name": "Dan Kellow",
+      "role": "The café owner",
+      "age": 27,
+      "bio": "He runs the Lookout, the café at Marram Point, and crews the inshore lifeboat at Appledore, where he lives. On Saturday morning he found Tess, pulled her out of the van and tried to bring her back. Years ago, he taught surfing for Callum.",
+      "symbol": "lifepreserver.fill",
+      "color": "#B0643A",
+      "monogram": "DK",
+      "portrait": "portraits/dan.png",
+      "dismissal": "Ask me something useful.",
+      "rebuttal": "I pulled her out of that van with my own hands and tried to bring her back. Don’t you dare."
+    },
+    {
+      "id": "lou",
+      "name": "Lou Bray",
+      "role": "The business partner",
+      "age": 44,
+      "bio": "Callum’s partner in Saltworks Vans: she does the carpentry and the books. With Trading Standards asking questions, she is trying to keep the business alive, and their apprentice, Kai, in a job.",
+      "symbol": "hammer.fill",
+      "color": "#7A4E6E",
+      "monogram": "LB",
+      "portrait": "portraits/lou.png",
+      "dismissal": "I’ve got a business going under. Make it quick.",
+      "rebuttal": "I’d never hurt Callum, and I’d never have hurt Tess. Whatever you think I’ve done, it isn’t that."
+    },
+    {
+      "id": "pete",
+      "name": "Pete Stannard",
+      "role": "The mechanic",
+      "age": 58,
+      "bio": "He runs the MOT garage in Unit 5, next door to Saltworks: a friendly, unhurried man who lends Callum his ramp and keeps the kettle on for the apprentice.",
+      "symbol": "car.fill",
+      "color": "#4F5D73",
+      "monogram": "PS",
+      "portrait": "portraits/pete.png",
+      "dismissal": "Sorry, I’m not with you.",
+      "rebuttal": "I was in Exeter with my mum. Ask the home, ask the hotel. I don’t know what else you want from me."
+    }
+  ]
+}

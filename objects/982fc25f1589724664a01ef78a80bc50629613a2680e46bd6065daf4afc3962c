@@ -1,0 +1,228 @@
+{
+  "evidence": [
+    {
+      "id": "police_summary",
+      "category": "document",
+      "symbol": "list.clipboard.fill",
+      "name": "Police summary",
+      "summary": "The Met’s account of Thursday night, and its working theory.",
+      "detail": "Metropolitan Police — summary disclosed to Ashworth & Kaur, solicitors for Ms P. Ratnam.\n\nThursday 7 March 2024\n20:31 — Deceased (Jonah PRYCE, 34) orders from Thambi, Dalston, by delivery app. Order note: ‘SEVERE PEANUT ALLERGY’.\n21:04 — Order delivered, contactless, to Flat 3, The Ropeworks, Hackney Wick.\n21:33 — 999 call from deceased: allergic reaction, ‘pens not working’.\n21:44 — Ambulance arrives. 21:45 — Police force the door. Deceased in cardiac arrest; two used adrenaline pens beside him, both out of date — believed to be his own.\n22:19 — Pronounced dead, Homerton Hospital.\n\nFriday 8 March — public analyst finds peanut protein in the curry (report attached). Ms RATNAM arrested on suspicion of gross negligence manslaughter, released under investigation. Thambi closed by the council pending inquiry.\n\nNo suspicious circumstances noted by attending officers; curry and phone retained, flat released to the fiancée, 8 March. Coroner informed; inquest opened and adjourned.\n\nWorking theory: contamination at Thambi during packing — e.g. a garnish or condiment containing peanut, sprinkled over the curry. Deceased’s own expired pens a contributing factor."
+    },
+    {
+      "id": "jonah_stories",
+      "category": "document",
+      "symbol": "iphone",
+      "name": "Jonah’s last stories",
+      "summary": "21:17, the bag still sealed: ‘Shower first.’ 21:29, he tears it open and takes the first spoonful.",
+      "detail": "Saved and reposted by thousands of his followers.\n\n21:17 — The Thambi bag on his kitchen island, its round orange sticker unbroken across the fold. Caption: ‘Round two with Thambi 🙏 They swear they’re nut-free. Shower first, then we find out 😅’\n\n21:29 — Jonah at the island under his ring light, hair still wet. He rips the bag open down its side — ‘Never break the seal, it’s bad luck’ — spoons half the curry onto a plate and leaves the rest in the tub. ‘Moment of truth…’ He takes the first spoonful and gives the camera a thumbs-up."
+    },
+    {
+      "id": "lab_report",
+      "category": "document",
+      "symbol": "testtube.2",
+      "name": "Food lab report",
+      "summary": "Peanut in the curry on his plate, as a fine powder on top. None in what was left in the tub.",
+      "detail": "Public analyst’s report for the Metropolitan Police, samples from the deceased’s flat, 8 March 2024.\n\nCurry on the plate: peanut protein at a very high level. Under the microscope the surface carries a fine, pale powder. No fragments of chilli, garlic or shallot; no added oil.\nCurry left at the bottom of the tub: no peanut detected.\nCoconut rice: no peanut detected.\nThambi’s stock pot (sampled 8 March): no peanut detected."
+    },
+    {
+      "id": "thambi_bag",
+      "category": "physical",
+      "symbol": "bag.fill",
+      "name": "The Thambi bag",
+      "summary": "Jonah tore it open down the side. Someone else had peeled the seal and pressed it back on.",
+      "detail": "The paper bag Jonah’s order came in, on the island. It has been torn open down one side, the way Jonah does it in his 21:29 story. The round orange Thambi sticker is still on the fold at the top — but it is creased across the middle, one edge sits crooked over a small tear in the paper, and torn paper fibres are stuck to its underside.\n\nSomebody peeled it off and pressed it back on."
+    },
+    {
+      "id": "pen_tubes",
+      "category": "physical",
+      "symbol": "cross.case.fill",
+      "name": "Empty pen tubes",
+      "summary": "0.15 mg pens, eighteen months out of date, their labels peeled off.",
+      "detail": "Two empty carrier tubes on the rug, where the paramedics dropped them. Each is printed ‘Adrenaline auto-injector 0.15 mg’ and ‘EXP 08/2022’.\n\nThe pharmacy labels have been peeled off, leaving rectangles of tacky glue. These pens expired eighteen months ago."
+    },
+    {
+      "id": "pharmacy_bag",
+      "category": "document",
+      "symbol": "pills.fill",
+      "name": "Pharmacy bag",
+      "summary": "Jonah collected two new adult pens on 26 February.",
+      "detail": "In the kitchen drawer: a pharmacy bag and an empty box. The dispensing label reads ‘Mr J. PRYCE — Adrenaline auto-injector 0.3 mg × 2 — carry at all times’, dated 26 February 2024. The box is stamped ‘EXP 09/2025’.\n\nTen days before he died, Jonah collected two new adult pens."
+    },
+    {
+      "id": "smart_lock_log",
+      "category": "document",
+      "symbol": "lock.fill",
+      "name": "Smart lock history",
+      "summary": "21:19: Flat 3 opened with the guest code. 21:24: opened from inside, and locked again.",
+      "detail": "Flat 3 front door — lock history, Thursday 7 March (the door locks itself a minute after it closes):\n\n18:12 Unlocked — JONAH (keypad)\n18:13 Locked — auto\n20:24 Unlocked — inside handle\n20:25 Locked — auto\n21:04 Unlocked — inside handle\n21:05 Locked — auto\n21:19 Unlocked — GUEST (keypad)\n21:20 Locked — auto\n21:24 Unlocked — inside handle\n21:25 Locked — auto\n21:45 Door forced — alarm\n\nCodes: JONAH · LENA · CLEANER (Mon & Thu, 09:00–12:00 only) · GUEST (‘family & team’)"
+    },
+    {
+      "id": "building_log",
+      "category": "document",
+      "symbol": "building.2.fill",
+      "name": "Building door log",
+      "summary": "21:18: someone came in the back way, by the bike store, with Flat 3’s guest code.",
+      "detail": "The Ropeworks — door access log, Thursday 7 March:\n\n18:11 Main entrance — code: Flat 3 JONAH\n20:23 Main entrance — exit button\n21:02 Main entrance — code: Flat 3 LENA\n21:03 Main entrance — opened remotely from Flat 3 (intercom app)\n21:18 Bike store (towpath door) — code: Flat 3 GUEST\n21:25 Bike store (towpath door) — exit button\n21:44 Main entrance — emergency services override"
+    },
+    {
+      "id": "sachet_corner",
+      "category": "physical",
+      "symbol": "pills.fill",
+      "name": "Torn foil corner",
+      "summary": "From a sachet of peanut protein: ‘300 mg … open and mix into food’.",
+      "detail": "Pushed under the kickboard of the kitchen island: a torn corner of a silver foil sachet. Printed on it, in green:\n\n‘…NUT PROTEIN · 300 mg’\n‘…L IMMUNOTHERAPY — open and mix into food’"
+    },
+    {
+      "id": "receipts_draft",
+      "category": "document",
+      "symbol": "laptopcomputer",
+      "name": "Draft video: RECEIPTS",
+      "summary": "To post Monday 9 a.m.: restaurants were shaken down in his name.",
+      "detail": "A script on Jonah’s laptop, last edited Tuesday 5 March, 23:40, scheduled for Monday 11 March, 09:00:\n\n‘RECEIPTS. For a year, restaurants have been asked for “collab fees” through my business inbox — five hundred, a thousand, two thousand pounds. The ones who said no got a visit from me. I didn’t know. I found out last week, and I’m sick about it.\n\nI’m not going to hide who did it. It was the person I trusted most with my name. Monday, nine o’clock: names, screenshots, everything. Then I’m going to the police.’\n\nA folder beside it holds 31 screenshots."
+    },
+    {
+      "id": "dm_thambi",
+      "category": "document",
+      "symbol": "message.fill",
+      "name": "Screenshot: message to Thambi",
+      "summary": "2 January: ‘a small collab fee (£1,500)… otherwise he’ll be visiting as a regular customer’.",
+      "detail": "One of the 31 screenshots in the RECEIPTS folder. Jonah’s business inbox, 2 January 2024, to Thambi:\n\n‘Hi Priya! Jonah’s been eyeing up Thambi 🔥 For a feature we ask a small collab fee (£1,500). Otherwise he’ll be visiting as a regular customer — and he’s very honest 😉 Let me know! Team J’\n\nThambi’s reply: ‘We don’t pay for reviews. Come and eat like anyone else.’\n\nThe one-star video went up on 5 January."
+    },
+    {
+      "id": "jonah_messages",
+      "category": "document",
+      "symbol": "bubble.left.and.bubble.right.fill",
+      "name": "Messages: Jonah and Marcus",
+      "summary": "‘Think of Hannah and the kids.’ ‘Monday.’ And: ‘order around nine’.",
+      "detail": "On Jonah’s laptop, synced from his phone.\n\nTuesday 5 March, 22:14\nMarcus: Mate. Don’t do this. Let me explain. Think of Hannah and the kids.\nJonah: You should have thought of them. Monday.\n\nWednesday 6 March, 11:02\nMarcus: Fine. At least do the Thambi second-chance video tomorrow night. It’ll do numbers either way. Order around nine.\nJonah: Fine. Last thing I do for you."
+    },
+    {
+      "id": "life_policy",
+      "category": "document",
+      "symbol": "doc.text.fill",
+      "name": "Joint life policy",
+      "summary": "£450,000 to whichever of Jonah and Lena outlives the other.",
+      "detail": "In the studio desk drawer, the schedule of a life insurance policy taken out last spring, when Jonah and Lena bought the flat:\n\n‘Joint life, first death. Lives assured: Mr Jonah Pryce, Ms Lena Novak. Sum assured: £450,000, payable to the surviving life assured.’\n\nWith Jonah dead, it pays Lena £450,000."
+    },
+    {
+      "id": "thambi_cctv",
+      "category": "document",
+      "symbol": "video.fill",
+      "name": "Thambi’s kitchen camera",
+      "summary": "20:47: Priya seals the bag. From 20:30 to 22:10 she never leaves the pass.",
+      "detail": "Thambi’s kitchen camera, Thursday 7 March:\n\n20:41 — Priya ladles chicken curry into a tub from the stock pot that fed three other customers that night, and snaps the lid on. No garnish, nothing sprinkled. None of the other customers reported a problem.\n20:47 — She packs order #4471, folds the bag and seals it with a round orange Thambi sticker.\n\nFrom 20:30 to 22:10 Priya never leaves the pass."
+    },
+    {
+      "id": "delivery_photo",
+      "category": "document",
+      "symbol": "camera.fill",
+      "name": "Proof-of-delivery photo",
+      "summary": "21:04: the bag at Jonah’s door, seal unbroken. Courier: ‘Andrei P.’",
+      "detail": "Delivery app, order #4471 — delivered 21:04, left at door (contactless).\n\nPhoto: a brown paper bag on the doormat of Flat 3, the round orange Thambi sticker across its fold, unbroken.\n\nCourier: ‘Andrei P.’ ★4.9 — 2,311 deliveries. Profile photo: a heavy-set man in his forties with a grey beard."
+    },
+    {
+      "id": "chili_oil",
+      "category": "physical",
+      "symbol": "drop.fill",
+      "name": "Jar of chilli crisp",
+      "summary": "Hidden in Thambi’s dry store: ‘May contain peanuts.’",
+      "detail": "At the back of Thambi’s dry store, behind the sacks of rice: a jar of ‘Golden Lotus chilli crisp’, two-thirds used. Written on the lid in marker: ‘OPENED 12/2 — P.’\n\nThe small print on the label: ‘May contain peanuts.’\n\nIt is an oily paste of fried chilli, garlic and shallot."
+    },
+    {
+      "id": "owen_flour",
+      "category": "physical",
+      "symbol": "shippingbox.fill",
+      "name": "Hart Fuel stock",
+      "summary": "In the cupboard under the stairs: 15 kg of peanut flour, one sack open.",
+      "detail": "In the cupboard under the main stairs, which Owen rents from the building as a store: three 5 kg sacks of fine, pale peanut flour, one opened and clipped shut, and flat-pack boxes printed ‘HART FUEL — handmade peanut protein balls’.\n\nA sticky note on the inside of the door, in capitals: ‘OWEN — PLEASE keep this locked. J (FLAT 3)’. Underneath, in another hand: ‘It’s sealed, relax!’"
+    },
+    {
+      "id": "owen_camera",
+      "category": "document",
+      "symbol": "video.fill",
+      "name": "Owen’s door camera",
+      "summary": "Lena in Flat 1 from 21:03 to 21:47. Nobody else in the front hall but the courier.",
+      "detail": "Flat 1 door camera — it sees Owen’s door and the front hall, but not the back stairs. Thursday 7 March:\n\n21:02 — Lena, with a yoga mat, knocks at Flat 1.\n21:03 — Owen lets her in, as a courier with a paper bag passes behind her and goes up the main stairs.\n21:05 — The courier comes back down, empty-handed, and leaves.\n21:44 — Paramedics and two police officers run in and up the stairs.\n21:47 — Lena comes out of Flat 1 and runs upstairs.\n\nNo other movement in the front hall from 20:30 to 22:00."
+    },
+    {
+      "id": "owen_class",
+      "category": "document",
+      "symbol": "video.fill",
+      "name": "Recording of Owen’s class",
+      "summary": "21:19, Lena crosses the room behind Owen; at 21:24 she’s on his sofa.",
+      "detail": "Owen’s live online class, ‘Core & Mobility’, Thursday 7 March, 21:00–21:30, recorded for his subscribers. Owen faces the camera in his living room; behind him, a sofa and the kitchen.\n\n21:19 — Lena walks behind him with a glass of water and sits on the sofa.\n21:24 — Still on the sofa, scrolling her phone. Owen, mid-plank: ‘And that’s my neighbour’s shower, folks — the pipes in this building, honestly.’\n21:30 — Class ends. Lena is still there."
+    },
+    {
+      "id": "medicine_box",
+      "category": "physical",
+      "symbol": "pills.fill",
+      "name": "Alfie’s medicine box",
+      "summary": "Peanut protein, 300 mg sachets. One sachet is unaccounted for.",
+      "detail": "In the cupboard above the Doyles’ kettle, a pharmacy box: ‘ALFIE DOYLE — Peanut protein oral immunotherapy, 300 mg sachets. ONE sachet daily: open and mix into yoghurt.’ Dispensed 1 March: 30 sachets.\n\nThe dosing chart on the fridge is ticked for every day from 1 to 11 March. Eleven used. There should be nineteen left.\n\nThere are eighteen."
+    },
+    {
+      "id": "old_pens_box",
+      "category": "physical",
+      "symbol": "archivebox.fill",
+      "name": "Box of old pens",
+      "summary": "‘OLD PENS — TRAINING ONLY.’ The lid says four. There are two.",
+      "detail": "A shoebox on the top shelf of the Doyles’ coat cupboard, labelled in marker ‘OLD PENS — TRAINING ONLY — DO NOT USE’. Hannah uses expired pens to show babysitters and school staff what to do.\n\nInside: two junior pens, 0.15 mg, EXP 08/2022, pharmacy labels ‘ALFIE DOYLE’. The list taped inside the lid says four."
+    },
+    {
+      "id": "family_chat",
+      "category": "document",
+      "symbol": "message.fill",
+      "name": "The Doyle family chat",
+      "summary": "21:41, Evie: ‘DONE YOUR RUN DAD… you owe me £20’.",
+      "detail": "The family group chat, open on the iPad on the Doyles’ kitchen counter. Thursday 7 March:\n\n21:41 Evie: DONE YOUR RUN DAD 🏃‍♀️ 7.2k in 35 mins!!! you owe me £20 💸\n21:42 Hannah: Shh, tutoring! x\n21:58 Marcus: Legend. Knee’s grateful x"
+    },
+    {
+      "id": "tutoring_log",
+      "category": "document",
+      "symbol": "laptopcomputer",
+      "name": "Hannah’s tutoring record",
+      "summary": "Thursday 21:00–21:45: maths with a Year 6 pupil, camera on throughout.",
+      "detail": "Hannah’s account on the tutoring site, session history:\n\nThursday 7 March, 21:00–21:45 — Year 6 maths (fractions) with Kofi A. Video on throughout. Recording kept for 30 days.\n\nKofi’s mother has left a review: ‘Mrs Doyle was brilliant as always, even with her daughter shouting through the door at the end! ★★★★★’"
+    },
+    {
+      "id": "marcus_running",
+      "category": "document",
+      "symbol": "figure.run",
+      "name": "Marcus’s running app",
+      "summary": "Thursday, 20:58–21:33: 7.2 km round Victoria Park, logged on his watch.",
+      "detail": "Marcus’s public profile: ‘MarcusD 🚣 — Streak: 512 days’.\n\nThursday 7 March, 20:58–21:33 — ‘Evening run, round Victoria Park’, 7.2 km. Pace 4:51/km. Heart rate average 165, max 194. Cadence 178 steps/min."
+    },
+    {
+      "id": "marcus_history",
+      "category": "document",
+      "symbol": "figure.run",
+      "name": "Marcus’s month of runs",
+      "summary": "Every other run: slower, with a lower heart rate and a different cadence.",
+      "detail": "Marcus’s running app is logged in on the family iPad, too. His runs this month, apart from Thursday:\n\n6–8 km each, pace 5:35–5:50/km. Heart rate average 148–155, max 171–176. Cadence 162–166.\n\nBest pace he has ever recorded: 4:58/km. Highest heart rate ever: 179."
+    },
+    {
+      "id": "doyle_doorbell",
+      "category": "document",
+      "symbol": "video.fill",
+      "name": "The Doyles’ doorbell camera",
+      "summary": "20:55 out together; 21:43 Evie back; 21:49 Marcus back, from the canal end.",
+      "detail": "The Doyles’ video doorbell, Thursday 7 March:\n\n20:55 — Marcus and Evie leave together in running gear. Evie has a watch on each wrist: her own small one, and a big black one.\n21:43 — Evie comes back alone, flushed, out of breath.\n21:49 — Marcus comes back alone, walking fast from the canal end of the street, hood up."
+    },
+    {
+      "id": "boater_statement",
+      "category": "witness",
+      "symbol": "eye.fill",
+      "name": "The narrowboat owner",
+      "summary": "21:18: a very tall man in a black running jacket keyed in at the bike store.",
+      "detail": "Ray Okafor lives on the narrowboat Second Wind, moored on the towpath behind The Ropeworks:\n\n‘About quarter past nine I was on deck having a smoke. A very tall bloke in a black running jacket — hood up, reflective letters across the back, D-something — came along from the Victoria Park end and stood under the building like he was waiting for a bus. Then he keyed himself in at the bike store door.\n\nFive minutes later he came out and went back the way he came. Walking fast, not running. I thought: odd sort of run, that.’"
+    },
+    {
+      "id": "adult_pens",
+      "category": "physical",
+      "symbol": "cross.case.fill",
+      "name": "Pens in the sharps bin",
+      "summary": "Jonah’s two new adult pens, unused, dropped into the Doyles’ sharps bin.",
+      "detail": "Under the Doyles’ kitchen sink, the yellow sharps bin where they put Alfie’s used pens and needles, to go back to the pharmacy for burning. Through its slot, on top of everything else: two adrenaline pens, 0.3 mg, adult dose. Pharmacy label: ‘Mr J. PRYCE’. EXP 09/2025.\n\nUnused."
+    }
+  ]
+}

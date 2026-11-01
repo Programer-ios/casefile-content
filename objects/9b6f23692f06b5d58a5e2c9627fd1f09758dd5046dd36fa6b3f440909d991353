@@ -1,0 +1,771 @@
+{
+  "topics": [
+    {
+      "id": "t_julian_evening",
+      "suspect": "julian",
+      "prompt": "Where were you last night?",
+      "lines": [
+        [
+          "you",
+          "Where were you after dinner, Mr. Penhallow?"
+        ],
+        [
+          "julian",
+          "In the library with Kittow from a quarter past ten, trying to make him see sense about that will. It got rather loud, I’m afraid. Then we all trooped out onto the terrace to wait for Aunt Hester’s bell."
+        ],
+        [
+          "julian",
+          "When it rang we saw her, plain as day, holding up her lamp. Then we went back in and sat about drinking champagne until one, waiting for her to ring again. I never left the drawing room until the rest of us went up."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_julian_library",
+          "st_julian_drawing_room"
+        ]
+      }
+    },
+    {
+      "id": "t_julian_quarrel",
+      "suspect": "julian",
+      "prompt": "What was the quarrel at dinner about?",
+      "lines": [
+        [
+          "julian",
+          "She announced over the soup that she was signing a new will at ten this morning. Penhallow to the National Trust, lock, stock and glasshouse. Uncle Edmund promised me this place when I was nine years old."
+        ],
+        [
+          "julian",
+          "I have a perfectly good offer for it from Sunnyside Holiday Camps. Chalets on the lawn, a swimming pool where the kitchen garden is. People need holidays. She looked at me as if I’d suggested selling Edmund’s bones."
+        ],
+        [
+          "julian",
+          "So yes, we had words. I said she’d regret it. That isn’t a threat. It’s what people say."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_julian_will"
+        ]
+      }
+    },
+    {
+      "id": "t_julian_aunt",
+      "suspect": "julian",
+      "prompt": "What was your aunt like?",
+      "lines": [
+        [
+          "julian",
+          "Twenty years in black for a man who died in a jungle. She talked to his plants. I’m not being cruel — she did. Out loud, every morning."
+        ],
+        [
+          "julian",
+          "She was clever, mind you. Cleverer than Uncle Edmund, Kittow says, and Kittow ought to know. She just never let anyone see it."
+        ]
+      ]
+    },
+    {
+      "id": "t_julian_money",
+      "suspect": "julian",
+      "prompt": "How is your business doing?",
+      "lines": [
+        [
+          "julian",
+          "Penhallow Motors? Splendidly. Best year we’ve had. Everyone wants a Zephyr."
+        ],
+        [
+          "julian",
+          "If you’re asking whether I needed Aunt Hester’s money, the answer’s no. My affairs are in perfectly good order."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_julian_money"
+        ]
+      }
+    },
+    {
+      "id": "t_julian_glasshouse",
+      "suspect": "julian",
+      "prompt": "Tell me exactly what you found at the glasshouse.",
+      "visibleWhen": {
+        "resolved": "c_julian_drawing_room"
+      },
+      "lines": [
+        [
+          "julian",
+          "The door was locked. The lamp inside had been turned right down to a glimmer; I could just make out the white of that flower. I knocked twice and called her name. Nothing."
+        ],
+        [
+          "julian",
+          "I thought she was sulking, or had dropped off in her chair. I didn’t go round the back — I didn’t know there was a back. I came away."
+        ],
+        [
+          "julian",
+          "The smell, though. That orchid of hers. It came through the glass like a wall."
+        ]
+      ]
+    },
+    {
+      "id": "t_julian_celia",
+      "suspect": "julian",
+      "prompt": "Did your wife know about the mortgage?",
+      "visibleWhen": {
+        "resolved": "c_julian_forgery"
+      },
+      "lines": [
+        [
+          "julian",
+          "Celia? God, no. I’d have died first. She thinks the business is doing splendidly — I’ve told her so every week for a year."
+        ],
+        [
+          "julian",
+          "She went up early last night with one of her heads. She’s been sleeping badly all summer. That’s my fault too, I suppose."
+        ]
+      ]
+    },
+    {
+      "id": "t_celia_evening",
+      "suspect": "celia",
+      "prompt": "Where were you last night?",
+      "lines": [
+        [
+          "celia",
+          "Upstairs, in bed. I had the most appalling head — I said goodnight at half past ten and went straight up."
+        ],
+        [
+          "celia",
+          "The bell woke me. I went to the window, and there she was — down in the glasshouse with her lamp, beside that enormous white flower. Like something out of Shakespeare. Then I couldn’t sleep, so I put on my dressing gown and came down to the others."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_celia_bed"
+        ]
+      }
+    },
+    {
+      "id": "t_celia_stage",
+      "suspect": "celia",
+      "prompt": "You were on the stage, I hear.",
+      "lines": [
+        [
+          "celia",
+          "Eleven years in rep. Bristol, Bath, a season at Stratford. I was a rather good Lady Macbeth, though I say it myself."
+        ],
+        [
+          "celia",
+          "The sleepwalking scene. Every night, the whole house held its breath. Then I married Julian, and Penhallow Motors, and that was that."
+        ]
+      ]
+    },
+    {
+      "id": "t_celia_hester",
+      "suspect": "celia",
+      "prompt": "How did you get on with Lady Penhallow?",
+      "lines": [
+        [
+          "celia",
+          "She thought Julian had married beneath him. An actress! She never said so. She didn’t need to."
+        ],
+        [
+          "celia",
+          "But she could be kind. She showed me her orchid once, in May, and talked to it as if Edmund were standing there. I rather envied her, to tell you the truth. Fancy loving someone that much."
+        ]
+      ]
+    },
+    {
+      "id": "t_celia_forgery",
+      "suspect": "celia",
+      "prompt": "Did you know your husband forged his aunt’s name?",
+      "visibleWhen": {
+        "evidence": "finance_letter"
+      },
+      "lines": [
+        [
+          "celia",
+          "Forged? Julian? Don’t be absurd. Julian couldn’t forge a sick note."
+        ],
+        [
+          "celia",
+          "I know nothing whatever about any mortgage. Julian keeps the business to himself. Ask him."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_celia_didnt_know"
+        ]
+      }
+    },
+    {
+      "id": "t_marian_orchid",
+      "suspect": "marian",
+      "prompt": "Tell me about the moon orchid.",
+      "lines": [
+        [
+          "marian",
+          "Edmund Penhallow collected it in the Shan Hills in 1938. The valley it came from was burnt out in the war. As far as anyone knows, Hester’s plant is the last one alive. It had never once flowered in England."
+        ],
+        [
+          "marian",
+          "It opens a single time, after dark. From the first scent to the open flower takes about forty minutes, and it closes for good when the sun comes up. The only chance to pollinate it is while it’s open — and the moment it opens is the best chance of all."
+        ],
+        [
+          "marian",
+          "Hester had waited twenty-five years for last night. She’d have pollinated it the instant it opened. She’d sooner have died than miss it."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_marian_pollinate"
+        ]
+      }
+    },
+    {
+      "id": "t_marian_evening",
+      "suspect": "marian",
+      "prompt": "Where were you last night?",
+      "lines": [
+        [
+          "marian",
+          "I photographed Hester with the bud at twenty-five past nine, before she locked herself in. Then from ten until about ten past eleven I was in my darkroom developing it — Mrs. Pascoe came knocking at one point, poor woman, and I shouted at her."
+        ],
+        [
+          "marian",
+          "After that I set up my tripod on the terrace to wait for the bell. It came later than I expected. I’d have sworn that flower would be open by eleven."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_marian_darkroom"
+        ]
+      }
+    },
+    {
+      "id": "t_marian_kew",
+      "suspect": "marian",
+      "prompt": "You’re here on behalf of Kew?",
+      "lines": [
+        [
+          "marian",
+          "That’s right. The Herbarium wants a full record of the flower — photographs, measurements, the timing. Hester and I have corresponded about the plant for five years."
+        ],
+        [
+          "marian",
+          "Under the new will the orchid was going to Kew. That’s why I’m here."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_marian_kew"
+        ]
+      }
+    },
+    {
+      "id": "t_marian_bell",
+      "suspect": "marian",
+      "prompt": "What did you see when the bell rang?",
+      "visibleWhen": {
+        "any": [
+          {
+            "deduced": "d_struck"
+          },
+          {
+            "deduced": "d_dead_before_bloom"
+          }
+        ]
+      },
+      "lines": [
+        [
+          "marian",
+          "Hester, with the lamp held up beside the flower. She raised her hand to us — rather grandly, I thought, for her. Then she turned away and the lamp went down."
+        ],
+        [
+          "marian",
+          "I took one exposure, the moment the bell went. Half a second at full aperture, through misted glass at forty yards, so don’t expect much. I developed it first thing this morning. The print’s on the line in my darkroom."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_marian_photo"
+        ]
+      }
+    },
+    {
+      "id": "t_marian_lindqvist",
+      "suspect": "marian",
+      "prompt": "What exactly did Lindqvist want?",
+      "visibleWhen": {
+        "resolved": "c_marian_kew"
+      },
+      "lines": [
+        [
+          "marian",
+          "The seed. A pod from that flower holds a million seeds, and every seedling would sell in Florida for a hundred dollars. Lindqvist wanted to own the moon orchid, the way a man owns a racehorse."
+        ],
+        [
+          "marian",
+          "I was going to ask Hester to sell him a share of the seed. Legally, and honestly. She’d have refused, of course. She’d already left it all to Kew."
+        ]
+      ]
+    },
+    {
+      "id": "t_marian_scent",
+      "suspect": "marian",
+      "prompt": "When Celia came down at 11.45, did you notice anything?",
+      "visibleWhen": {
+        "deduced": "d_bell_ringer"
+      },
+      "lines": [
+        [
+          "marian",
+          "Now you ask… yes. When she came into the drawing room she brought the scent of the orchid in with her. Clove and lily — I’d know it anywhere. Strong, as if she’d been standing over the flower."
+        ],
+        [
+          "marian",
+          "I thought it must have drifted up through the windows. But the drawing-room windows were shut by then, and the glasshouse is forty yards away. That scent clings to whatever has been near it. It doesn’t travel."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_marian_scent"
+        ]
+      }
+    },
+    {
+      "id": "t_kittow_evening",
+      "suspect": "kittow",
+      "prompt": "Where were you last night?",
+      "lines": [
+        [
+          "kittow",
+          "In the library with Julian from a quarter past ten until a quarter past eleven, being shouted at. He wanted me to persuade Hester not to sign. I told him that a solicitor’s duty is to his client’s wishes, not her heir’s."
+        ],
+        [
+          "kittow",
+          "Mrs. Pascoe brought us whisky at twenty to eleven, and I dare say she heard every word. Then we went out to the terrace for the bell, and back to the drawing room until one."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_kittow_library"
+        ]
+      }
+    },
+    {
+      "id": "t_kittow_will",
+      "suspect": "kittow",
+      "prompt": "Tell me about the new will.",
+      "lines": [
+        [
+          "kittow",
+          "It was to be signed at ten this morning, before Mrs. Pascoe and the vicar. Never a witness who benefits — I’m left Edmund’s watch, so I couldn’t sign it myself. It leaves Penhallow and its gardens to the National Trust, with an endowment. Julian receives a thousand pounds and his uncle’s books."
+        ],
+        [
+          "kittow",
+          "Under the old will — the will of 1950, which now stands — he inherits everything. You’ll find the draft in my briefcase in the library. I have no secrets from the police, or from you."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_kittow_will"
+        ]
+      }
+    },
+    {
+      "id": "t_kittow_hester",
+      "suspect": "kittow",
+      "prompt": "How well did you know Lady Penhallow?",
+      "lines": [
+        [
+          "kittow",
+          "I have acted for the family for forty years. I drew up Sir Edmund’s will before he sailed in 1941, and Hester’s after the telegram came."
+        ],
+        [
+          "kittow",
+          "My relations with Lady Penhallow were entirely professional, I assure you."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_kittow_professional"
+        ]
+      }
+    },
+    {
+      "id": "t_kittow_hester_heart",
+      "suspect": "kittow",
+      "prompt": "What was she like, Edwin — really?",
+      "visibleWhen": {
+        "resolved": "c_kittow_professional"
+      },
+      "lines": [
+        [
+          "kittow",
+          "She laughed more this summer than in the whole of the twenty years before it. She’d decided she was allowed to."
+        ],
+        [
+          "kittow",
+          "She said the orchid was Edmund’s, and after last night she could let him rest. Then she would wear grey. Just grey, to begin with."
+        ]
+      ]
+    },
+    {
+      "id": "t_agnes_evening",
+      "suspect": "agnes",
+      "prompt": "Tell me about last night.",
+      "lines": [
+        [
+          "agnes",
+          "At a quarter past ten I took her a flask of cocoa. She’d said no one was to come near, but she’d eaten nothing at dinner. She scolded me and let me in, and drank a cup while I stood there. She’d been writing up her log every quarter of an hour, happy as a girl. Then she locked the door behind me."
+        ],
+        [
+          "agnes",
+          "I was on the terrace with the others when the bell rang. I went up to bed at midnight, and at a quarter past twelve I looked out of my window and saw Mr. Julian on the lawn in the moonlight, walking down towards the glasshouse. I told the sergeant so. I’m sorry for it now."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_agnes_cocoa",
+          "st_agnes_lawn"
+        ]
+      }
+    },
+    {
+      "id": "t_agnes_terrace",
+      "suspect": "agnes",
+      "prompt": "Who was on the terrace when the bell rang?",
+      "lines": [
+        [
+          "agnes",
+          "Mr. Julian, Mr. Kittow, Dr. Ellery with her camera, and myself. We saw her lift the lamp and wave us away, and we went back in."
+        ],
+        [
+          "agnes",
+          "Mrs. Celia had gone up at half past ten with a headache. She came down to the drawing room at a quarter to twelve in her pale-blue dressing gown, all eyes, and said the bell had woken her and she’d watched from her window."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_agnes_celia"
+        ]
+      }
+    },
+    {
+      "id": "t_agnes_hester",
+      "suspect": "agnes",
+      "prompt": "What were Lady Penhallow’s habits?",
+      "lines": [
+        [
+          "agnes",
+          "Her hip was very bad. She couldn’t take one step without her stick, not even across her own bedroom — and she hadn’t been up a ladder in ten years. That’s what Jory was for."
+        ],
+        [
+          "agnes",
+          "And she wrote in green ink. Only green, ever since the telegram came in ’43 — it was Edmund’s colour. Her letters, her labels, her cheques. Green."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_agnes_stick",
+          "st_agnes_ink"
+        ]
+      }
+    },
+    {
+      "id": "t_agnes_rooms",
+      "suspect": "agnes",
+      "prompt": "May I see Lady Penhallow’s rooms?",
+      "lines": [
+        [
+          "agnes",
+          "Her sitting room is locked. She kept the only spare key with me. I suppose it doesn’t matter now."
+        ],
+        [
+          "narrator",
+          "She takes a small key from her pocket and holds it a moment before she gives it to you. Lady Penhallow’s Sitting Room is now open to you."
+        ]
+      ],
+      "reward": {
+        "flags": [
+          "sitting_key"
+        ]
+      }
+    },
+    {
+      "id": "t_agnes_will",
+      "suspect": "agnes",
+      "prompt": "Did Lady Penhallow provide for you?",
+      "lines": [
+        [
+          "agnes",
+          "Under the old will, two thousand pounds. Under the new one, the lodge for my lifetime and three hundred a year. She told me so in June, and I cried like a child."
+        ],
+        [
+          "agnes",
+          "So if you’re wondering, I had every reason in the world to want her alive until ten o’clock this morning."
+        ]
+      ]
+    },
+    {
+      "id": "t_jory_dawn",
+      "suspect": "jory",
+      "prompt": "Tell me how you found her.",
+      "lines": [
+        [
+          "jory",
+          "I come at a quarter to six to stoke up, same as every morning, by the stokehole. The outer door was unbolted — I’ll come to that. I went up the steps, and there was her ladyship, lying by the bench with the steps beside her. Cold."
+        ],
+        [
+          "jory",
+          "And the flower was open still, just. White as a plate. No one had touched it — her brush lying by the book, clean, the pollen still sitting in the flower. Twenty-five years she waited for that night."
+        ],
+        [
+          "jory",
+          "So I did it for her. With her own brush, the way she showed me, and tied it off with a bit of twine. It closed up not five minutes after. Then I ran for the house."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_jory_dawn"
+        ]
+      }
+    },
+    {
+      "id": "t_jory_evening",
+      "suspect": "jory",
+      "prompt": "Where were you last night?",
+      "lines": [
+        [
+          "jory",
+          "I banked the boiler at nine and went home. In my bed by ten, same as always. Her ladyship didn’t want nobody near the glass, and I do what I’m told."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_jory_bed"
+        ]
+      }
+    },
+    {
+      "id": "t_jory_stokehole",
+      "suspect": "jory",
+      "prompt": "What about the stokehole door?",
+      "lines": [
+        [
+          "jory",
+          "I bolt that door at nine every night of my life. It’s only got a bolt on the inside, see — you can’t open it from the garden, nor shut it. This morning it was standing unbolted."
+        ],
+        [
+          "jory",
+          "And somebody’d been at my boiler. Fire door open, and the fire roaring up like a furnace when I’d left it banked low. Somebody burned something in there."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_jory_stokehole"
+        ]
+      }
+    },
+    {
+      "id": "t_jory_ladder",
+      "suspect": "jory",
+      "prompt": "Would she have climbed the stepladder?",
+      "visibleWhen": {
+        "evidence": "stepladder"
+      },
+      "lines": [
+        [
+          "jory",
+          "Her ladyship? Not in ten years. Couldn’t, with that hip. Anything high, she’d call me."
+        ],
+        [
+          "jory",
+          "And there was nothing up there to climb to. The lamp hangs on the bracket where I put it. Those steps live on their hook by the door. Last time they came down was Whitsun."
+        ]
+      ],
+      "reward": {
+        "statements": [
+          "st_jory_ladder"
+        ]
+      }
+    },
+    {
+      "id": "t_jory_julian",
+      "suspect": "jory",
+      "prompt": "What do you make of Mr. Julian?",
+      "lines": [
+        [
+          "jory",
+          "Holiday camp. Chalets on Sir Edmund’s lawn and a swimming bath in my kitchen garden. That’s what he wants."
+        ],
+        [
+          "jory",
+          "But I’ll say this for him: he’s no more stomach for blood than a hen. He fainted at a pig-killing when he was twelve."
+        ]
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "id": "st_julian_library",
+      "suspect": "julian",
+      "text": "From a quarter past ten to a quarter past eleven I was arguing with Kittow in the library."
+    },
+    {
+      "id": "st_julian_drawing_room",
+      "suspect": "julian",
+      "text": "After the bell I never left the drawing room until we all went up at one."
+    },
+    {
+      "id": "st_julian_will",
+      "suspect": "julian",
+      "text": "Aunt Hester was signing a new will this morning that cut me out of Penhallow."
+    },
+    {
+      "id": "st_julian_money",
+      "suspect": "julian",
+      "text": "My affairs are in perfectly good order. I didn’t need Aunt Hester’s money."
+    },
+    {
+      "id": "st_julian_debts",
+      "suspect": "julian",
+      "text": "Penhallow Motors is in trouble, but I’ve kept it afloat honestly. I’ve never done anything criminal."
+    },
+    {
+      "id": "st_julian_glasshouse",
+      "suspect": "julian",
+      "text": "At a quarter past twelve I went down to the glasshouse. The door was locked, the lamp turned low, and she didn’t answer."
+    },
+    {
+      "id": "st_julian_forgery",
+      "suspect": "julian",
+      "text": "I forged Aunt Hester’s signature on a £20,000 mortgage of Home Farm."
+    },
+    {
+      "id": "st_celia_bed",
+      "suspect": "celia",
+      "text": "From half past ten I was in bed. The bell woke me, and I watched Hester from my window."
+    },
+    {
+      "id": "st_celia_rose_walk",
+      "suspect": "celia",
+      "text": "I couldn’t sleep, so I walked in the rose walk until I heard the bell, then came in. I never went near the glasshouse."
+    },
+    {
+      "id": "st_celia_plead",
+      "suspect": "celia",
+      "text": "At twenty to eleven I went to the glasshouse to plead with Hester over the will. When I left at ten to eleven she was alive, writing in her log."
+    },
+    {
+      "id": "st_celia_didnt_know",
+      "suspect": "celia",
+      "text": "I know nothing whatever about any forgery or mortgage."
+    },
+    {
+      "id": "st_celia_knew",
+      "suspect": "celia",
+      "text": "Hester told me at six o’clock that Julian had forged her name, and that in the morning the proof would go to Mr. Kittow."
+    },
+    {
+      "id": "st_marian_pollinate",
+      "suspect": "marian",
+      "text": "The moon orchid opens about forty minutes after its first scent. Hester would have pollinated it the instant it opened — she’d sooner have died than miss it."
+    },
+    {
+      "id": "st_marian_darkroom",
+      "suspect": "marian",
+      "text": "From ten until ten past eleven I was in my darkroom. Then I set up my camera on the terrace."
+    },
+    {
+      "id": "st_marian_kew",
+      "suspect": "marian",
+      "text": "I’m here on behalf of Kew, to record the bloom."
+    },
+    {
+      "id": "st_marian_lindqvist",
+      "suspect": "marian",
+      "text": "Kew dismissed me last year. I’m paid by Lindqvist Orchids of Miami, who want the seed."
+    },
+    {
+      "id": "st_marian_photo",
+      "suspect": "marian",
+      "text": "I took one photograph from the terrace the moment the bell rang. The print is drying in my darkroom."
+    },
+    {
+      "id": "st_marian_scent",
+      "suspect": "marian",
+      "text": "When Celia came into the drawing room at 11.45 she smelled strongly of the moon orchid, as if she’d been standing over it."
+    },
+    {
+      "id": "st_kittow_library",
+      "suspect": "kittow",
+      "text": "From a quarter past ten until a quarter past eleven I was in the library with Julian."
+    },
+    {
+      "id": "st_kittow_will",
+      "suspect": "kittow",
+      "text": "Under the new will Julian would have had £1,000. Under the old one, which now stands, he inherits Penhallow."
+    },
+    {
+      "id": "st_kittow_professional",
+      "suspect": "kittow",
+      "text": "My relations with Lady Penhallow were entirely professional."
+    },
+    {
+      "id": "st_kittow_engaged",
+      "suspect": "kittow",
+      "text": "Hester and I were to be married in September. She told me she would tell Celia about Julian’s crime at six on Friday, so he could confess before Saturday."
+    },
+    {
+      "id": "st_agnes_cocoa",
+      "suspect": "agnes",
+      "text": "At a quarter past ten I took her cocoa. She was well, and writing her log every quarter of an hour."
+    },
+    {
+      "id": "st_agnes_lawn",
+      "suspect": "agnes",
+      "text": "At a quarter past twelve I saw Mr. Julian from my window, walking down the lawn towards the glasshouse."
+    },
+    {
+      "id": "st_agnes_celia",
+      "suspect": "agnes",
+      "text": "Mrs. Celia missed the bell. She came down at a quarter to twelve in her pale-blue dressing gown, saying it had woken her."
+    },
+    {
+      "id": "st_agnes_stick",
+      "suspect": "agnes",
+      "text": "Her ladyship couldn’t take a single step without her stick, and hadn’t been up a ladder in ten years."
+    },
+    {
+      "id": "st_agnes_ink",
+      "suspect": "agnes",
+      "text": "Since 1943 she wrote everything in green ink — letters, labels, cheques. Never any other colour."
+    },
+    {
+      "id": "st_jory_dawn",
+      "suspect": "jory",
+      "text": "At a quarter to six the moon orchid was still open, and nobody had pollinated it. I did it myself, with her brush."
+    },
+    {
+      "id": "st_jory_bed",
+      "suspect": "jory",
+      "text": "I banked the boiler at nine and was in my bed by ten."
+    },
+    {
+      "id": "st_jory_stokehole",
+      "suspect": "jory",
+      "text": "I bolted the stokehole door at nine. At dawn it was unbolted, and somebody had burned something in my boiler."
+    },
+    {
+      "id": "st_jory_ladder",
+      "suspect": "jory",
+      "text": "Her ladyship never climbed those steps. They hang on their hook by the door, and hadn’t come down since Whitsun."
+    },
+    {
+      "id": "st_jory_figure",
+      "suspect": "jory",
+      "text": "A few minutes after the lamp went down, I saw a pale figure in something long come up out of the stokehole and hurry away along the wall towards the house."
+    }
+  ]
+}

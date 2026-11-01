@@ -1,0 +1,260 @@
+{
+  "evidence": [
+    {
+      "id": "police_summary",
+      "category": "document",
+      "symbol": "list.clipboard.fill",
+      "name": "Police summary",
+      "summary": "Devon and Cornwall Police’s account of Tess’s death, and their conclusion.",
+      "detail": "Devon and Cornwall Police — summary for the family of the deceased, given to Mrs R. Rendle by the coroner’s officer.\n\nSaturday 18 November 2023\n08:42 — 999 call from Daniel KELLOW (café owner): woman unresponsive in a camper van, Marram Point car park, Croyde.\n08:52 — Ambulance arrives. Deceased (Tess RENDLE, 31) pronounced dead at the scene. Diesel night heater still running. Carbon monoxide poisoning (carboxyhaemoglobin 64% on initial post-mortem blood test; full toxicology awaited). Estimated time of death 01:00–03:00.\nVehicle: VW Transporter camper ‘Moss’, owner Callum RENDLE (brother), converted by his firm, Saltworks Vans, Braunton. Borrowed by the deceased on Friday 17 November.\nUnder the windscreen wiper, a note in block capitals: ‘NO OVERNIGHT SLEEPING. LAST WARNING. NEXT TIME I WON’T BE SO POLITE.’ Author not identified; similar notes are often left on vehicles at that car park.\n\nMonday 20 November — vehicle examination at the police compound, Barnstaple: heater exhaust joint not sealed. No gasket present; clamp loose, with tool marks indicating recent adjustment. Exhaust gases escaping into the seat box and the living area. CO alarm present, batteries fitted, functional on test (test button); why it did not activate is unclear — possibly sited too far from the heater. Engine and cooling system: no faults found.\n\nTuesday 21 November — Mr C. RENDLE interviewed voluntarily under caution regarding the installation. Vehicle retained at the police compound pending the inquest.\n\nNo suspicion of deliberate harm. Enquiries continue into the installation. File passed to the coroner; Trading Standards informed regarding Saltworks Vans."
+    },
+    {
+      "id": "tess_messages",
+      "category": "document",
+      "symbol": "message.fill",
+      "name": "Tess and Callum’s messages",
+      "summary": "Friday: Tess asks to borrow Moss.",
+      "detail": "Messages between Tess and Callum on Friday 17 November. Ruth has Tess’s phone now.\n\nTess, 11:40: Finished my nights 🙌 Can I borrow Moss tonight? I need the sea.\nCallum, 11:52: Course! Heater’s fab 🔥 Keys at the yard from 3 x\nTess, 11:53: You’re the best. Megan’s dropping me 💚\nTess, 16:05: Here! She’s perfect. Thank you bro x\nCallum, 16:06: Enjoy. Sunrise is 07:41 🌊"
+    },
+    {
+      "id": "cafe_footage",
+      "category": "document",
+      "symbol": "video.fill",
+      "name": "The café’s camera",
+      "summary": "The car park from Friday afternoon to Saturday morning.",
+      "detail": "The camera over the Lookout’s door covers the car park entrance and the end bays. Dan’s notes on what it shows — you check them against the clips on his laptop, and they’re accurate — Friday 17 to Saturday 18 November:\n\n16:03 — Moss arrives and parks in the end bay, nose to the sea.\n16:10–16:40 — a woman (Tess) walks along the cliff edge as the sun goes down, and back. No lights in Moss after that.\n19:30 — fairy lights on inside Moss. From about 19:35, the heater’s exhaust shows as a thin plume under the van.\n21:03 — a small white hatchback parks beside Moss. The driver, a woman carrying a bunch of flowers, gets into Moss.\n21:41 — she gets out without the flowers, sits in her car for a minute, and drives away.\n21:45 — Tess comes out, drops something in the bin, and goes back in.\n23:09 — a quad bike with one headlight stops beside Moss. A figure in a waxed jacket and a head torch goes to the windscreen. 23:11 — the quad rides off towards the field gate.\nNo other movement near Moss all night.\nSaturday 08:31 — Dan arrives to open up. 08:40 — Dan at Moss."
+    },
+    {
+      "id": "memorial_bench",
+      "category": "physical",
+      "symbol": "heart.fill",
+      "name": "The bench at the cliff edge",
+      "summary": "In memory of Kieran Moyle, 2003–2019.",
+      "detail": "A teak bench facing the sea, worn silver by the weather. The brass plaque reads: ‘KIERAN MOYLE · 2003–2019 · He loved these waves · Mum & Dad’. Fresh carnations are cable-tied to the arm, with a card in a plastic sleeve: ‘Every month. Still sorry. D.’"
+    },
+    {
+      "id": "jo_flowers",
+      "category": "physical",
+      "symbol": "camera.macro",
+      "name": "Roses in the bin",
+      "summary": "A dozen white roses, thrown away unopened.",
+      "detail": "A dozen white roses, still in the florist’s cellophane, on top of the rubbish in the car park bin. The card is still tucked inside: ‘I’m sorry. I’ll always be here. Jo x’"
+    },
+    {
+      "id": "gwen_sign",
+      "category": "physical",
+      "symbol": "exclamationmark.triangle.fill",
+      "name": "Sign on the field gate",
+      "summary": "Westcott Farm’s warning to vanlifers, in block capitals.",
+      "detail": "A board wired to the field gate, painted by hand in big block capitals: ‘WESTCOTT FARM. PRIVATE LAND. NO OVERNIGHT SLEEPING. NO FIRES. DOGS ON LEADS. THIS IS YOUR LAST WARNING.’ The same capitals and the same ‘LAST WARNING’ as the note the police found under Moss’s wiper."
+    },
+    {
+      "id": "heater_joint",
+      "category": "physical",
+      "symbol": "flame.fill",
+      "name": "The heater’s exhaust joint",
+      "summary": "No gasket, a loose clamp — and a broken paint mark.",
+      "detail": "Under Moss’s passenger seat, where the exhaust pipe meets the heater’s outlet, there is no gasket, and the clamp turns with your fingers. Someone once drew a line of yellow paint across the clamp nut and on to the bracket: the mark a fitter makes when a nut is tightened, so that anyone can see if it ever moves. The line is broken. The nut has been turned since it was painted, and its corners are bright where a spanner has bitten through the tarnish. Inside, the seat box is filmed with soot."
+    },
+    {
+      "id": "co_alarm",
+      "category": "physical",
+      "symbol": "smoke.fill",
+      "name": "Moss’s CO alarm",
+      "summary": "It works when you test it. But someone has covered its sensor.",
+      "detail": "A battery carbon monoxide alarm with a small screen, reading ‘0’. Press TEST and it shrieks. But the slotted grille on its left side, where the gas reaches the sensor, is covered by a strip of clear tape, cut neatly to the width of the grille. You only see it when the light catches it. On the back, a police sticker: ‘Function test — OK. 20/11.’"
+    },
+    {
+      "id": "alarm_leaflet",
+      "category": "document",
+      "symbol": "doc.text.fill",
+      "name": "The alarm’s leaflet",
+      "summary": "What the TEST button does — and doesn’t — check.",
+      "detail": "‘Press the TEST button weekly. The test checks the electronics, the battery and the sounder. It does not expose the sensor to carbon monoxide. Never cover, paint or obstruct the sensor openings. An obstructed sensor will not detect carbon monoxide.’"
+    },
+    {
+      "id": "mot_certificate",
+      "category": "document",
+      "symbol": "checkmark.seal.fill",
+      "name": "Moss’s MOT certificate",
+      "summary": "Passed on 2 November, at the garage next door.",
+      "detail": "MOT test certificate. VW Transporter, sage green. Test date: 2 November 2023. Result: PASS. Testing station: Stannard Motors, Unit 5, Braunton. Tester: P. Stannard. Advisory: ‘Nearside front tyre worn close to legal limit.’ Nothing else."
+    },
+    {
+      "id": "build_photos",
+      "category": "document",
+      "symbol": "photo.fill",
+      "name": "Callum’s build photos",
+      "summary": "Moss’s heater, photographed step by step on the day it was fitted.",
+      "detail": "Saltworks’ build album for Moss, October 2021 — the first van the business ever converted: two hundred photographs, one for every step. Photo 112 shows the heater’s exhaust joint with a new gasket in place, the clamp tightened, and a line of yellow paint across the nut and on to the bracket. Underneath is Callum’s checklist: ‘Gasket ✓ Clamp tightened ✓ Paint-marked ✓ Leak test ✓ CO alarm ✓’. Every install in every album has the same list."
+    },
+    {
+      "id": "callum_story",
+      "category": "document",
+      "symbol": "iphone",
+      "name": "Callum’s heater check",
+      "summary": "Thursday, 17:41: the alarm reads zero, its sensor clear.",
+      "detail": "A story Callum posted at 17:41 on Thursday 16 November, filmed inside Moss in the rear yard. The heater roars; the camera holds on the CO alarm. The screen reads 0, and the slotted grille on its side is open and clear. Caption: ‘Weekly heater check ✅ Moss ready for dawn patrol 🌊’."
+    },
+    {
+      "id": "gate_log",
+      "category": "document",
+      "symbol": "video.fill",
+      "name": "The gate camera",
+      "summary": "Everyone who came through the yard gate, Thursday to Friday.",
+      "detail": "Saltworks’ gate camera sees the gate and the fronts of Units 4 and 5. It can’t see the rear yard. Thursday 16 to Friday 17 November:\n\nThu 17:05 — Pete Stannard drives away in his car.\nThu 17:24 — Callum drives Moss round to the rear yard.\nThu 18:31 — Dan Kellow at the gate, on foot. Callum comes out, and they argue in the gateway. 18:37 — Callum turns his back and walks off round the side of Unit 4, towards the rear yard; Dan follows him, still shouting. Both out of shot. 18:40 — both back in view. 18:44 — Callum walks Dan to his car, and Dan drives off.\nThu 19:52 — Callum locks the gate and cycles away.\nThu 22:40 — Lou Bray’s car. She unlocks the gate and goes into Unit 4 by the front door. She carries boxes out to her car: two at 22:44, two at 22:48, two at 22:51. 22:55 — she locks up and drives off.\nFri 01:02 — CAMERA OFFLINE (no connection).\nFri 08:35 — camera back online: Callum has restarted the router. Moss is already parked in front of Unit 4.\nFri 11:58 — Pete drives away in his car.\nFri 15:31 — Tess arrives, dropped off. 15:44 — Tess drives Moss out of the gate.\nNobody else comes or goes while the camera is recording."
+    },
+    {
+      "id": "alarm_log",
+      "category": "document",
+      "symbol": "lock.fill",
+      "name": "Unit 4’s alarm log",
+      "summary": "Thursday night: who unset the alarm, and which sensors fired.",
+      "detail": "Unit 4 intruder alarm, Thursday 16 November:\n\n19:51 — SET (user: CALLUM)\n22:41 — UNSET (user: LOU)\n22:41–22:53 — movement: OFFICE CORRIDOR, STOCKROOM. Front door opened 22:44, 22:48, 22:51.\n22:49:10 — Rear door OPENED. 22:49:52 — Rear door CLOSED. 22:50 — movement: STOCKROOM.\nWorkshop: no movement.\n22:54 — SET (user: LOU)\nFriday 08:28 — UNSET (user: CALLUM)"
+    },
+    {
+      "id": "stock_count",
+      "category": "document",
+      "symbol": "shippingbox.fill",
+      "name": "The stockroom count",
+      "summary": "Fourteen heaters on the stock sheet. Eight on the shelf.",
+      "detail": "The stock sheet on the clipboard lists fourteen boxed 2 kW diesel heaters. There are eight on the shelf. Across the bottom of last week’s sheet, in Callum’s writing: ‘Heaters short AGAIN. Ask Kai.’"
+    },
+    {
+      "id": "cartons",
+      "category": "physical",
+      "symbol": "shippingbox.fill",
+      "name": "Cartons in the recycling cage",
+      "summary": "Six empty heater cartons, flattened, behind Unit 4.",
+      "detail": "The recycling cage behind Unit 4, a few steps from Moss’s spot. On top of the cardboard: six flattened outer cartons for 2 kW diesel heaters, their shipping labels still on. The heaters left the yard in their own smaller boxes."
+    },
+    {
+      "id": "marketplace_ad",
+      "category": "document",
+      "symbol": "tag.fill",
+      "name": "An online listing",
+      "summary": "Brand-new heaters for sale, collection Braunton.",
+      "detail": "Callum finds it in two minutes on a selling site: ‘2 kW diesel night heater, top brand, brand new and boxed, £650 each (RRP £1,100), 6 available. Collection Braunton. No time-wasters.’ Seller: ‘L.B.’, a member since August 2023. In the background of one photo there’s the end of a stockroom shelf, and a Saltworks Vans sticker."
+    },
+    {
+      "id": "tess_notebook",
+      "category": "document",
+      "symbol": "book.closed.fill",
+      "name": "Tess’s notebook",
+      "summary": "The flat she was buying, and the money she was owed.",
+      "detail": "A notebook with a wave drawn on the cover. Most of it is shift notes and shopping lists. One page is headed ‘FLAT!!!’: ‘Offer accepted 💚 Completion 12 Jan. Deposit £18,000 — Callum by Christmas (he PROMISED).’ Further down, in a different pen, dated Sunday 12 November: ‘Lunch at Mum’s. Callum says he can’t. Not till spring, maybe. Told him what I think. Can’t do this again.’"
+    },
+    {
+      "id": "megan_statement",
+      "category": "witness",
+      "symbol": "quote.bubble.fill",
+      "name": "Megan’s account",
+      "summary": "Tess’s housemate, on Tess’s last day and the people in her life.",
+      "detail": "Megan Hale, Tess’s housemate, a nurse at the same hospital:\n\n‘She came in at ten past eight on Friday morning after her last night and went straight to bed. When she woke up, about half past eleven, she came down and said, “I need the sea,” and texted Callum there and then. I dropped her at the yard at half past three. She’d have crashed out again the minute she lay down in that van.\n\n‘She and Callum had a row at their mum’s on Sunday, about money he owed her. It was her flat deposit. She was really upset.\n\n‘And Jo still had Tess on location sharing, from when they lived together. Tess kept meaning to turn it off. She said Jo still checked where she was, and it creeped her out.’"
+    },
+    {
+      "id": "tess_last_message",
+      "category": "document",
+      "symbol": "message.fill",
+      "name": "Tess’s last message",
+      "summary": "22:10 on Friday, to Megan.",
+      "detail": "Tess to Megan, Friday 17 November, 22:10: ‘Jo turned up. With flowers. Unbelievable. Head’s pounding — going to sleep x’\n\nMegan replied at 22:30: ‘Omg!! Drink some water and ring me tomorrow 💚’ Her reply was never read."
+    },
+    {
+      "id": "tess_story",
+      "category": "document",
+      "symbol": "camera.fill",
+      "name": "Tess’s story",
+      "summary": "Friday, 19:31: ‘Heater on, kettle on.’",
+      "detail": "Tess’s story at 19:31 on Friday, screenshotted by Megan. Moss’s living area is strung with fairy lights; Tess, in a hoodie, holds up a mug and grins. Caption: ‘Tiny house by the sea 🌊 First night off in a fortnight. Heater on, kettle on 💚’. On the wall behind her shoulder, the CO alarm catches the fairy lights: a thin bright strip runs across its side. No location is tagged."
+    },
+    {
+      "id": "abby_statement",
+      "category": "witness",
+      "symbol": "quote.bubble.fill",
+      "name": "Abby’s account",
+      "summary": "Callum’s wife, on Friday night, the business and the past.",
+      "detail": "Abby Rendle, Callum’s wife:\n\n‘Callum was home with me and Ruby on Friday night. He didn’t sleep — he never does when Tess is out in that van on her own; he kept checking the wind on his phone. Ruby and I used to go with him in the summer, before she started nursery.\n\n‘The business is in a bad way. Everyone’s mortgage went up this year, and nobody’s buying vans. Callum’s been blaming Kai for heaters going missing. I never believed that.\n\n‘And he doesn’t talk about the surf school. Not to me, not to anyone. Don’t ask me why.’"
+    },
+    {
+      "id": "kitchen_calendar",
+      "category": "physical",
+      "symbol": "calendar",
+      "name": "The family calendar",
+      "summary": "Every Friday since October: ‘C — Marram’.",
+      "detail": "The Rendles’ calendar on the fridge. Every Friday since the first of October says ‘C — Marram 🌊’ in Callum’s capitals: his night in Moss at Marram Point, and the dawn surf after it. On Friday 17 November it’s crossed out, and underneath, in Abby’s writing: ‘Tess has Moss!’"
+    },
+    {
+      "id": "lou_doorbell",
+      "category": "document",
+      "symbol": "video.fill",
+      "name": "Lou’s doorbell camera",
+      "summary": "Lou’s drive in Barnstaple, Thursday night to Friday morning.",
+      "detail": "Lou’s front-door camera, Thursday 16 to Friday 17 November:\n\n23:14 — Lou’s car pulls on to the drive. She goes in.\nNo movement until 07:48 Friday, when her husband, Steve, takes the bins out.\n08:05 — Lou drives off.\nThe car never moves in between, and Barnstaple is six miles from the yard."
+    },
+    {
+      "id": "partnership_policy",
+      "category": "document",
+      "symbol": "signature",
+      "name": "Partnership insurance",
+      "summary": "If either partner dies, the other receives £200,000.",
+      "detail": "A ‘partner protection’ life policy taken out by Saltworks Vans in 2021. Lives insured: Callum Rendle and Louise Bray. On the death of either, £200,000 is paid to the surviving partner, to buy the dead partner’s share of the business from their family. Premiums paid up to date."
+    },
+    {
+      "id": "dan_dm",
+      "category": "document",
+      "symbol": "envelope.fill",
+      "name": "Dan’s message to Callum",
+      "summary": "Wednesday night, after Callum announced the surf school.",
+      "detail": "A direct message to Callum from Dan Kellow’s account, Wednesday 15 November, 23:14:\n\n‘Rendle Surf is back? Are you serious? After Kieran? You stood up at that inquest and put it all on me, and now you want to take other people’s kids out in the water again. You’ll get what’s coming to you, Callum. Mark my words.’\n\nCallum didn’t reply."
+    },
+    {
+      "id": "surf_flyer",
+      "category": "document",
+      "symbol": "figure.surfing",
+      "name": "Rendle Surf flyer",
+      "summary": "‘Rendle Surf is back — spring 2024.’",
+      "detail": "A box of glossy flyers, fresh from the printer: ‘RENDLE SURF IS BACK! Lessons for all ages from April 2024. Croyde’s original surf school.’ A photo of Callum grinning on a longboard. Taped to the lid is a printout of the post announcing it in September, with its two hundred and fourteen comments. One of them, from Dan Kellow, says only: ‘Unbelievable.’"
+    },
+    {
+      "id": "inquest_article",
+      "category": "document",
+      "symbol": "newspaper.fill",
+      "name": "The newspaper cutting",
+      "summary": "October 2020: the inquest into a drowning at Croyde.",
+      "detail": "North Devon Journal, 15 October 2020. ‘Coroner criticises surf school after teenager drowns’.\n\n‘Kieran Moyle, 16, from Bristol, drowned in a rip current at Croyde on 21 August 2019 during a group lesson run by Rendle Surf. The inquest, held largely by video link, heard that a junior instructor, Daniel Kellow, 24, had been left alone with nine beginners while the school’s owner, Callum Rendle, taught a private lesson 300 metres away. Mr Rendle told the hearing the instructor had been “badly positioned”. The coroner recorded a conclusion of accidental death, but called the supervision “wholly inadequate”.\n\n‘Kieran’s mother, Sarah Moyle, said her son had been “the light of our lives”. His father, a mechanic from Swindon who asked not to be named, and who had brought him to Croyde every August since he was small, told the hearing by video link: “He was a strong swimmer. Somebody should answer for this.”’\n\nIn the margin, in Callum’s writing: ‘Every day.’"
+    },
+    {
+      "id": "kai_message",
+      "category": "document",
+      "symbol": "bubble.left.and.bubble.right.fill",
+      "name": "Kai’s message",
+      "summary": "Saturday afternoon, unread: what Kai saw on Friday morning.",
+      "detail": "A message to Callum from Kai Huxtable, the Saltworks apprentice, Saturday 18 November, 14:02. Unread until now:\n\n‘Callum mate I’m so sorry about Tess 💔 is it true it was the heater?? Pete said Friday morning he’d had Moss’s seat base off for a look cos he thought he could smell coolant. He came in his back door with a torch and his knees all wet just as I got there, about 8. Did he tell u? Weird cos he always says ur installs are the tidiest on the estate. Anything u need just say’"
+    },
+    {
+      "id": "kieran_photo",
+      "category": "physical",
+      "symbol": "photo.fill",
+      "name": "Photo in Pete’s office",
+      "summary": "A teenage boy with a surfboard.",
+      "detail": "A photo in a clip frame on the wall of Pete’s back office: a lanky teenage boy in a hired wetsuit, a foam surfboard under one arm, grinning, with Croyde Bay behind him. Written in marker along the bottom: ‘K — first lesson! Aug ’19’."
+    },
+    {
+      "id": "gasket",
+      "category": "physical",
+      "symbol": "largecircle.fill.circle",
+      "name": "Gasket from the drain",
+      "summary": "A small exhaust gasket, ringed with fresh soot.",
+      "detail": "From the silt trap of the drain outside Pete’s back door: a thin round gasket the size of a large coin, with a hole in the middle and a ring of black soot on one face — fresh, not rusted. You photograph it where it lies and ring the coroner’s officer; by the afternoon it is in a police evidence bag. Shown the photograph, Callum goes white. ‘That’s a heater exhaust gasket. Twenty-four millimetre. The kind we fit.’"
+    },
+    {
+      "id": "tape_roll",
+      "category": "physical",
+      "symbol": "scissors",
+      "name": "Roll of clear tape",
+      "summary": "From Pete’s bench drawer: narrow clear tape, cut square.",
+      "detail": "A roll of clear tape from the drawer under Pete’s workbench, narrower than parcel tape — about the width of the strip over the grille on Moss’s alarm. Its end has been cut square with a blade, not torn. You photograph it and leave it where it is."
+    }
+  ]
+}

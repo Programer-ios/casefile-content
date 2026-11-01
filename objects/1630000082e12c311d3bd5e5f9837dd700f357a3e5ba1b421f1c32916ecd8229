@@ -1,0 +1,164 @@
+{
+  "evidence": [
+    {
+      "id": "police_summary",
+      "category": "document",
+      "symbol": "doc.text.magnifyingglass",
+      "name": "The police summary",
+      "summary": "Marcus Vale was killed in Studio B between 22:10 and 22:25 and found at 22:30. A brass reel weight may be the weapon.",
+      "detail": "Preliminary notes made by Detective Sergeant Leah Morley at 23:15 on Friday.\n\nMarcus Vale, 51, founder and CEO of Rookery Audio. Found by Benjamin Bell in Studio B at 22:30. Death appears to have occurred between 22:10 and 22:25, pending the pathologist’s examination.\n\nOne blunt-force injury to the left side of the head. A brass tape-reel weight was found on the floor near the body. No sign of forced entry. Wallet, phone and watch remain on the victim.\n\nThe front door was locked from the inside. The staff entrance alarm was set. The central corridor camera has a gap in its clips between 22:11 and 22:21. The archive passage is not covered by any camera.\n\nThe sale of Rookery Audio to Vesper Media was due to be announced at midnight. All staff who were present have been asked to remain available."
+    },
+    {
+      "id": "marcus_messages",
+      "category": "document",
+      "symbol": "message.fill",
+      "name": "Marcus’s messages",
+      "summary": "Marcus told Clare he had found a private rights arrangement inside Rookery’s archive and might stop the sale.",
+      "detail": "Messages between Marcus and his sister Clare on Friday.\n\n19:48 Marcus: Found a payment trail in the archive that doesn’t belong in the Vesper pack.\n19:49 Clare: You’re selling the company in three hours. What does ‘doesn’t belong’ mean?\n19:51 Marcus: It means somebody has been taking a percentage of our old catalogue before it reaches the company account.\n19:55 Clare: Who?\n19:57 Marcus: I’m checking the signature. Don’t call anyone yet.\n20:02 Marcus: If the Clearwater page is what I think it is, I’m stopping the announcement.\n20:04 Clare: Marcus.\n20:05 Marcus: I know. I’ll tell you when I know.\n\nThere are no later messages."
+    },
+    {
+      "id": "broadcast_schedule",
+      "category": "document",
+      "symbol": "radio.fill",
+      "name": "The broadcast schedule",
+      "summary": "Tom Hargreaves’s programme was scheduled for 23:00, with a fallback file already loaded into the automation system.",
+      "detail": "Rookery After Dark, Friday 16 October.\n\n23:00–01:00 · Host: Tom Hargreaves · Studio A · live link required\n23:00 fallback · THL_2300_FALLBACK.wav · loaded by B. Bell at 18:42\n23:45 station ident\n00:00 Vesper Media acquisition announcement, subject to Marcus Vale’s approval\n\nThe schedule is printed in Iris Chen’s handwriting, with one note in Marcus’s red pen: ‘No announcement until I sign the archive schedule.’"
+    },
+    {
+      "id": "sale_memo",
+      "category": "document",
+      "symbol": "doc.plaintext",
+      "name": "The Vesper sale memo",
+      "summary": "Vesper’s offer depends on receiving Rookery’s archive rights cleanly. Marcus marked one clause for review.",
+      "detail": "Confidential heads of terms between Rookery Audio Ltd and Vesper Media Group, 9 October 2026.\n\nPurchase price: £18,000,000, subject to completion accounts and transfer of the Rookery Audio archive.\n\nClause 7.3: The seller warrants that no third party has a continuing right to a percentage of licensing income from the catalogue except those listed in Schedule C.\n\nSchedule C is marked ‘to follow’. In the margin beside Clause 7.3 Marcus has written: ‘Do not sign until Clearwater is resolved.’"
+    },
+    {
+      "id": "station_layout",
+      "category": "document",
+      "symbol": "map.fill",
+      "name": "The warehouse plan",
+      "summary": "The archive’s staff door opens onto a narrow passage that reaches the back of Studio B without crossing reception.",
+      "detail": "Rookery Audio’s original warehouse plan, annotated after the studios were soundproofed.\n\nThe public corridor runs from reception past Studio A to Studio B. Behind the acoustic wall is a staff passage connecting the archive to Studio B’s rear service panel. The passage is not visible from reception and has no camera.\n\nThe archive door and Studio B’s rear panel both accept Master B. The plan notes that the passage should remain locked, but the archive’s door-contact light is the only alarm."
+    },
+    {
+      "id": "entry_log",
+      "category": "document",
+      "symbol": "door.left.hand.open",
+      "name": "The entry log",
+      "summary": "The public entrance stayed locked after 20:48; the loading-yard door was armed all night.",
+      "detail": "Building access report for Friday.\n\n20:01 · staff entrance opened by Iris Chen\n20:04 · public entrance opened by Felix Ward\n20:48 · public entrance closed by Felix Ward\n21:07 · staff entrance opened by Anika Rao\n21:08 · staff entrance closed by Anika Rao\n22:29 · public entrance opened by Ben Bell\n\nNo other exterior door events are recorded between 21:08 and 22:29. The loading-yard alarm remained set."
+    },
+    {
+      "id": "key_register",
+      "category": "document",
+      "symbol": "key.fill",
+      "name": "The master-key register",
+      "summary": "Master B was signed out by Iris Chen at 20:02 for an archive audit and was not returned before the police arrived.",
+      "detail": "The sign-out sheet clipped beneath the reception key cabinet.\n\nMaster A · 17:55 · B. Bell · rack inspection · returned 18:42\nMaster B · 20:02 · I. Chen · archive audit · not returned\n\nAt the bottom, in Clare’s handwriting: ‘Iris says she left it in the archive door. Police did not find it there.’ The Master B key opens the archive’s staff door and the rear service panel in Studio B."
+    },
+    {
+      "id": "visitor_log",
+      "category": "document",
+      "symbol": "book.pages.fill",
+      "name": "The visitor book",
+      "summary": "Felix Ward signed in at 20:04 and out at 20:48. Anika’s name is absent, despite a second cup at the desk.",
+      "detail": "Friday’s visitor page.\n\n20:04 · Felix Ward · Vesper Media · meeting Marcus Vale · signature\n20:48 · Felix Ward · departure · signature\n\nThe next line is blank. The ink on Felix’s departure signature is still slightly shiny, as if the book was closed soon after. A second paper cup has left a ring beside the page, but there is no name beside it."
+    },
+    {
+      "id": "corridor_camera",
+      "category": "physical",
+      "symbol": "video.fill",
+      "name": "The corridor camera",
+      "summary": "The camera shows the public corridor empty at 22:11, then loses its clips until 22:21. Studio B’s public door opens at 22:22.",
+      "detail": "Recovered clips from the camera above reception.\n\n22:09:44 · Anika Rao crosses from the staff entrance toward reception.\n22:11:03 · the public corridor is empty; Studio A’s red light is on.\n22:11:04–22:21:18 · no clip available. The camera reports an alarm-state interruption.\n22:21:19 · the corridor is empty again.\n22:22:06 · Studio B’s public door opens from the inside and closes after three seconds.\n22:29:17 · Ben Bell runs into view from reception.\n\nThe camera cannot see the archive passage or Studio B’s rear service panel."
+    },
+    {
+      "id": "anika_taxi",
+      "category": "document",
+      "symbol": "car.fill",
+      "name": "Anika’s taxi receipt",
+      "summary": "Anika Rao paid for a taxi from North Quay at 21:12, matching her claim that she left before the murder.",
+      "detail": "Receipt from Brighton Cars.\n\nPickup: Rookery Audio, North Quay\nBooked: 21:04\nPaid: 21:12\nDestination: Hove station\nCardholder: A. Rao\n\nThe driver’s initials are written in the margin. The company confirms the car was dispatched from the quay and dropped its passenger at Hove station at 21:27."
+    },
+    {
+      "id": "felix_hotel",
+      "category": "document",
+      "symbol": "building.2.fill",
+      "name": "Felix’s hotel record",
+      "summary": "Felix Ward checked into the Brighton Marine at 21:36, with a key-card use at 21:39.",
+      "detail": "The Brighton Marine’s night report, printed at 23:02.\n\nGuest: Felix Ward\nReservation: Vesper Media\nCheck-in: 21:36\nRoom key issued: 21:37\nLift key used: 21:39\nRoom 508 door opened: 21:40\n\nThe hotel is a twelve-minute drive from North Quay in Friday traffic. Felix’s coat was damp when he arrived, and the receptionist remembers him asking for a glass of water."
+    },
+    {
+      "id": "automation_log",
+      "category": "document",
+      "symbol": "waveform.path.ecg",
+      "name": "The automation log",
+      "summary": "At 23:00 the station played THL_2300_FALLBACK.wav automatically. No microphone input was logged during the first forty-five minutes.",
+      "detail": "Export from Rookery’s broadcast automation rack.\n\n18:42:11 · B. Bell · Auto-Rescue input fault closed\n18:42:19 · THL_2300_FALLBACK.wav loaded for 23:00\n22:58:00 · scheduled programme armed\n23:00:00 · THL_2300_FALLBACK.wav started\n23:00–23:45 · microphone input: none\n23:45:00 · station ident inserted\n23:47:02 · live input resumed\n\nThe file is a complete recording of Tom Hargreaves’s usual opening monologue. Auto-Rescue is designed to make a recorded host sound live when the studio feed fails."
+    },
+    {
+      "id": "listener_recording",
+      "category": "witness",
+      "symbol": "ear.fill",
+      "name": "The listener’s recording",
+      "summary": "A listener’s phone recording captures the same breath and chair squeak twice, proving the 23:07 link was a replay.",
+      "detail": "Audio file sent to Rookery at 23:18 by listener Priya Nair.\n\nAt 23:07 Tom appears to say: ‘If you’re awake, you’re in the right place.’ Behind the words is a short chair squeak followed by two breaths. The same chair squeak and the same two breaths occur at 23:08 in the reference recording made during Thursday’s rehearsal.\n\nPriya writes: ‘I thought the show sounded unusually polished. I was listening from my flat in Kemptown.’"
+    },
+    {
+      "id": "studio_b_panel",
+      "category": "physical",
+      "symbol": "rectangle.portrait.and.arrow.right",
+      "name": "Studio B’s rear panel",
+      "summary": "The rear service panel opened at 22:13 with a key and closed at 22:20. The public door was untouched until 22:22.",
+      "detail": "Door-contact report from Studio B.\n\n22:13:08 · rear service panel opened · keyed access\n22:20:41 · rear service panel closed\n22:22:06 · public door opened from inside\n22:22:09 · public door closed\n\nThe rear panel opens directly onto the archive passage. On the inside frame is a small smear of blue-grey paint, the colour used on the archive door. The brass reel weight was on the floor by the mixing desk; the table has one fresh crescent-shaped dent."
+    },
+    {
+      "id": "ben_ticket",
+      "category": "document",
+      "symbol": "wrench.and.screwdriver.fill",
+      "name": "Ben’s maintenance ticket",
+      "summary": "Ben Bell repaired the Auto-Rescue input at 18:42 and left the fallback file armed for the night shift.",
+      "detail": "Maintenance ticket BB-441, opened at 18:16 and closed at 18:42.\n\nFault: Auto-Rescue input intermittently drops the live microphone.\nAction: reseated the input card, tested with a rehearsal file, left fallback mode enabled until Monday.\nEngineer: Ben Bell.\n\nBen has initialled the warning: ‘If live feed fails after 23:00, the system will play the scheduled fallback. Do not call it live.’"
+    },
+    {
+      "id": "tom_receipt",
+      "category": "document",
+      "symbol": "fork.knife",
+      "name": "Tom’s pub receipt",
+      "summary": "Tom paid for a drink at the Anchor Tap at 23:06, during the programme’s first recorded link.",
+      "detail": "Card receipt from the Anchor Tap, across the quay.\n\nFriday 16 October · 23:06:14\n1 × tonic water · £2.80\nCard ending 0419 · T. Hargreaves\n\nThe bartender remembers Tom sitting in the window alcove from shortly after eleven until the station ident at 23:45. Tom’s phone connected to the pub’s Wi-Fi at 23:05."
+    },
+    {
+      "id": "rights_ledger",
+      "category": "document",
+      "symbol": "book.closed.fill",
+      "name": "The rights ledger",
+      "summary": "A pencil entry sends 17 percent of Rookery’s archive licensing income through Clearwater Rights before Vesper sees it.",
+      "detail": "Rookery Audio rights ledger, current through September 2026.\n\nMost archive licences are paid directly to Rookery Audio Ltd. One line is different:\n\nCLEARWATER RIGHTS · catalogue administration · 17% of gross licence income · schedule pending\n\nThe beneficiary column has been covered with correction fluid. In the margin Marcus has written: ‘Who approved this? Check against Vesper 7.3.’ The entry is initialled I.C."
+    },
+    {
+      "id": "clearwater_contract",
+      "category": "document",
+      "symbol": "signature",
+      "name": "The Clearwater agreement",
+      "summary": "The private agreement routes archive money to IC Consulting, a company controlled by Iris Chen.",
+      "detail": "Photocopy of the two-page Clearwater Rights agreement, dated 3 March 2025.\n\nRookery Audio grants Clearwater Rights a continuing 17 percent administration fee on selected archive licences. The handwritten amendment on page two instructs Clearwater to pay the fee to IC Consulting Ltd ‘as management consideration’.\n\nCompany number 11820471 belongs to IC Consulting Ltd. The director listed at Companies House is Iris Chen. Iris’s signature appears beside the amendment, although the original page is missing from the archive box.\n\nMarcus’s red pen circles the words ‘continuing’ and ‘before completion’."
+    },
+    {
+      "id": "archive_scan_log",
+      "category": "document",
+      "symbol": "scanner.fill",
+      "name": "The archive scan log",
+      "summary": "Iris’s staff code made the last archive scan at 21:41, and the archive door opened again at 22:12 without a new scan.",
+      "detail": "Local activity report from the archive scanner and door contact.\n\n21:32:17 · staff code IC-04 · Clearwater folder opened\n21:41:03 · staff code IC-04 · page 2 scanned\n21:41:08 · staff code IC-04 · archive door closed\n22:12:54 · archive door opened · key contact\n22:20:48 · archive door closed\n\nThe scanner has no scan between 21:41 and Monday. The door-contact report uses the same Master B key family as the Studio B rear panel."
+    },
+    {
+      "id": "passage_note",
+      "category": "physical",
+      "symbol": "arrow.turn.up.right",
+      "name": "The staff passage",
+      "summary": "Blue-grey paint is fresh on the passage latch, and the route has no camera or sound pickup.",
+      "detail": "The passage behind the acoustic wall is less than a metre wide. Dust on the floor is broken only at the archive door and the rear panel. A crescent of fresh blue-grey paint has transferred from the archive door to the latch plate.\n\nThe red door-contact light is visible from neither studio. The passage contains no microphone, camera, or motion sensor. Anyone using it would reach Studio B without appearing in the public corridor."
+    }
+  ]
+}

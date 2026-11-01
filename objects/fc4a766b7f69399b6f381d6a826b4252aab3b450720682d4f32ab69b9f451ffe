@@ -1,0 +1,1892 @@
+{
+  "id": "case004",
+  "number": 4,
+  "title": "Undertow",
+  "tagline": "A borrowed camper van, a cold night by the sea, and a heater that should never have failed.",
+  "setting": "Croyde · North Devon · November 2023",
+  "sketchTitle": "CROYDE",
+  "sketchCredit": "SKETCH: SITE VISIT, 22 NOVEMBER 2023 · NOT TO SCALE",
+  "stayLabel": "Stay in Croyde",
+  "briefing": [
+    "Croyde, North Devon. Wednesday 22 November 2023. Out of season the village belongs to the surfers and the sheep: the car parks are empty, half the cottages are dark, and the wind comes straight off the Atlantic.",
+    "On Friday morning Tess Rendle, 31, an A&E nurse at the hospital in Barnstaple, finished four night shifts in a row, and that evening she borrowed her brother’s camper van, Moss, to sleep by the sea. She parked at the clifftop car park at Marram Point. At 08:40 on Saturday the man who runs the café there found her dead inside, with the diesel heater still running. Carbon monoxide.",
+    "The police vehicle examiner found the heater’s exhaust leaking into the van: no gasket in the joint, and the clamp loose. Her brother, Callum, builds camper vans for a living, and he fitted that heater himself. Nobody else is suspected. Callum has been interviewed under caution about his work, the coroner has the file, Trading Standards want his records, and online he is already ‘the van man who gassed his own sister’.",
+    "Their mother, Ruth Rendle, has hired you. ‘Tess treated carbon monoxide poisoning every winter. She would never have slept next to a heater she didn’t trust. And Callum never skips a step — never. I’ve lost my daughter. Don’t let me lose my son as well.’",
+    "Moss is in the police compound in Barnstaple, waiting for the coroner; Callum’s solicitor has arranged for you to see it. Callum has given you the keys to everything else."
+  ],
+  "startingEvidence": [
+    "police_summary",
+    "tess_messages"
+  ],
+  "locations": [
+    {
+      "id": "carpark",
+      "name": "Marram Point",
+      "summary": "The clifftop car park where Tess died, and Dan’s café.",
+      "description": "A gravel car park on the headland above Croyde Bay, with room for forty cars and, this week, none. A café in a converted shipping container, a pay-and-display machine, a bench at the cliff edge and a gate into Westcott Farm. The end bay, nearest the sea, still has police tape on its post.",
+      "art": {
+        "aspect": 1.4,
+        "props": [
+          {
+            "label": "Cliff edge — the sea",
+            "x": 0.5,
+            "y": 0.03,
+            "w": 0.96,
+            "h": 0.05,
+            "style": "window"
+          },
+          {
+            "label": "Bench",
+            "symbol": "chair.lounge.fill",
+            "x": 0.2,
+            "y": 0.15,
+            "w": 0.12,
+            "h": 0.07
+          },
+          {
+            "label": "End bay",
+            "x": 0.82,
+            "y": 0.24,
+            "w": 0.18,
+            "h": 0.2,
+            "style": "rug"
+          },
+          {
+            "label": "Parking bays",
+            "symbol": "car.fill",
+            "x": 0.5,
+            "y": 0.46,
+            "w": 0.46,
+            "h": 0.28,
+            "style": "rug"
+          },
+          {
+            "label": "The Lookout",
+            "symbol": "cup.and.saucer.fill",
+            "x": 0.14,
+            "y": 0.68,
+            "w": 0.22,
+            "h": 0.16
+          },
+          {
+            "label": "Bin",
+            "x": 0.32,
+            "y": 0.82,
+            "w": 0.05,
+            "h": 0.06,
+            "style": "fixture"
+          },
+          {
+            "label": "Pay machine",
+            "x": 0.54,
+            "y": 0.86,
+            "w": 0.06,
+            "h": 0.06,
+            "style": "fixture"
+          },
+          {
+            "label": "Field gate",
+            "x": 0.98,
+            "y": 0.62,
+            "w": 0.04,
+            "h": 0.2,
+            "style": "door"
+          },
+          {
+            "label": "Road in",
+            "x": 0.5,
+            "y": 0.975,
+            "w": 0.2,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_cp_bay",
+          "label": "The end bay",
+          "x": 0.82,
+          "y": 0.3,
+          "text": "Where Moss stood all night, nose to the sea. Nothing on the gravel now but tyre marks and a strip of police tape snapping on its post. From here you can see the camera over the café door, pointing straight across the car park."
+        },
+        {
+          "id": "hs_cp_cafe",
+          "label": "The café",
+          "x": 0.3,
+          "y": 0.68,
+          "text": "The Lookout: coffee, bacon rolls and wetsuit hire, open weekends out of season. Dan Kellow runs it. There’s a camera above the door, and a lifeboat collecting tin on the counter."
+        },
+        {
+          "id": "hs_cp_bench",
+          "label": "The bench",
+          "x": 0.33,
+          "y": 0.15,
+          "text": "A teak bench at the very edge of the cliff, weathered silver, with a brass plaque on the backrest. Someone has cable-tied a fresh bunch of carnations to the arm.",
+          "reward": {
+            "evidence": [
+              "memorial_bench"
+            ]
+          }
+        },
+        {
+          "id": "hs_cp_bin",
+          "label": "The bin",
+          "x": 0.41,
+          "y": 0.82,
+          "text": "The car park bin, not emptied since the weekend. On top of the rubbish, still in their cellophane, a dozen white roses.",
+          "reward": {
+            "evidence": [
+              "jo_flowers"
+            ]
+          }
+        },
+        {
+          "id": "hs_cp_gate",
+          "label": "The field gate",
+          "x": 0.87,
+          "y": 0.62,
+          "text": "A steel gate into Westcott Farm, padlocked, with a hand-painted board wired to the bars. Beyond it, sheep, and a quad bike parked by a feed trough.",
+          "reward": {
+            "evidence": [
+              "gwen_sign"
+            ]
+          }
+        },
+        {
+          "id": "hs_cp_machine",
+          "label": "Pay machine",
+          "x": 0.63,
+          "y": 0.86,
+          "text": "‘MARRAM POINT. PAY & DISPLAY 8 a.m.–6 p.m. NO OVERNIGHT SLEEPING. NO CAMPING.’ Underneath, someone has added in marker pen: ‘nobody checks in winter x’."
+        }
+      ]
+    },
+    {
+      "id": "compound",
+      "name": "Police Compound",
+      "summary": "Where Moss is kept, behind Barnstaple police station.",
+      "description": "A fenced lot behind Barnstaple police station, where vehicles wait for the coroner. Moss is at the end of the row under a grey cover, an evidence label on the windscreen. A civilian examiner, Mr Hosking, walks you over and lifts the cover: Callum’s solicitor has arranged it. You may look, and photograph, but not remove anything.",
+      "art": {
+        "aspect": 1.3,
+        "props": [
+          {
+            "label": "Moss",
+            "symbol": "car.fill",
+            "x": 0.5,
+            "y": 0.46,
+            "w": 0.6,
+            "h": 0.34
+          },
+          {
+            "label": "Sliding door",
+            "x": 0.44,
+            "y": 0.64,
+            "w": 0.2,
+            "h": 0.03,
+            "style": "door"
+          },
+          {
+            "label": "Other vehicles",
+            "x": 0.1,
+            "y": 0.46,
+            "w": 0.14,
+            "h": 0.5,
+            "style": "rug"
+          },
+          {
+            "label": "Other vehicles",
+            "x": 0.9,
+            "y": 0.46,
+            "w": 0.14,
+            "h": 0.5,
+            "style": "rug"
+          },
+          {
+            "label": "Compound fence",
+            "x": 0.5,
+            "y": 0.03,
+            "w": 0.96,
+            "h": 0.04,
+            "style": "window"
+          },
+          {
+            "label": "Gate",
+            "x": 0.5,
+            "y": 0.975,
+            "w": 0.2,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_pc_seat",
+          "label": "Moss — passenger seat",
+          "x": 0.37,
+          "y": 0.37,
+          "text": "Mr Hosking slides the door open for you. The passenger seat base lifts off on four screws. Underneath sits the diesel heater, a grey box the size of a shoebox, with its exhaust pipe dropping through the floor.",
+          "reward": {
+            "evidence": [
+              "heater_joint"
+            ]
+          }
+        },
+        {
+          "id": "hs_pc_alarm",
+          "label": "Moss — CO alarm",
+          "x": 0.64,
+          "y": 0.37,
+          "text": "A carbon monoxide alarm with a little screen, screwed to the wall by the sliding door at pillow height.",
+          "reward": {
+            "evidence": [
+              "co_alarm"
+            ]
+          }
+        },
+        {
+          "id": "hs_pc_pocket",
+          "label": "Moss — door pocket",
+          "x": 0.31,
+          "y": 0.53,
+          "text": "In the pocket of the sliding door: a head torch, a tide table, a bag of jelly babies and the alarm’s folded leaflet.",
+          "reward": {
+            "evidence": [
+              "alarm_leaflet"
+            ]
+          }
+        },
+        {
+          "id": "hs_pc_glovebox",
+          "label": "Moss — glovebox",
+          "x": 0.26,
+          "y": 0.37,
+          "text": "Insurance papers, a parking receipt from Saunton, a tyre gauge, and Moss’s latest MOT certificate.",
+          "reward": {
+            "evidence": [
+              "mot_certificate"
+            ]
+          }
+        },
+        {
+          "id": "hs_pc_label",
+          "label": "The evidence label",
+          "x": 0.68,
+          "y": 0.53,
+          "text": "‘Exhibit — VW Transporter. Examined 20/11. Released: NOT YET — CORONER.’ Mr Hosking says the coroner’s officer wants Moss kept until the inquest, and Trading Standards want photographs of every fitting."
+        }
+      ]
+    },
+    {
+      "id": "workshop",
+      "name": "Saltworks Vans",
+      "summary": "Callum’s workshop in Braunton.",
+      "description": "Unit 4 on a small industrial estate outside Braunton: a workshop with a roller door, an office and a stockroom, inside a steel palisade fence with a single gate. Moss’s usual bay is empty. Callum is at the bench, sanding the same cupboard door over and over.",
+      "art": {
+        "aspect": 1.3,
+        "props": [
+          {
+            "label": "Moss’s empty bay",
+            "x": 0.72,
+            "y": 0.3,
+            "w": 0.44,
+            "h": 0.4,
+            "style": "rug"
+          },
+          {
+            "label": "Workbench",
+            "symbol": "wrench.and.screwdriver.fill",
+            "x": 0.24,
+            "y": 0.12,
+            "w": 0.3,
+            "h": 0.1
+          },
+          {
+            "label": "Office",
+            "x": 0.14,
+            "y": 0.52,
+            "w": 0.2,
+            "h": 0.18,
+            "style": "fixture"
+          },
+          {
+            "label": "Stockroom",
+            "symbol": "shippingbox.fill",
+            "x": 0.38,
+            "y": 0.5,
+            "w": 0.14,
+            "h": 0.16
+          },
+          {
+            "label": "Back door",
+            "x": 0.5,
+            "y": 0.025,
+            "w": 0.12,
+            "h": 0.05,
+            "style": "door"
+          },
+          {
+            "label": "Roller door",
+            "x": 0.6,
+            "y": 0.78,
+            "w": 0.4,
+            "h": 0.04,
+            "style": "door"
+          },
+          {
+            "label": "Front yard",
+            "x": 0.5,
+            "y": 0.88,
+            "w": 0.96,
+            "h": 0.14,
+            "style": "rug"
+          },
+          {
+            "label": "Gate & camera",
+            "x": 0.5,
+            "y": 0.975,
+            "w": 0.2,
+            "h": 0.05,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_ws_bench",
+          "label": "Callum’s workbench",
+          "x": 0.385,
+          "y": 0.14,
+          "text": "Callum’s bench: clamps, a heat gun, a tin of yellow paint pens, and a tablet propped against a jar of rivets, open at Saltworks’ build albums. There’s an album for every van they’ve ever built.",
+          "reward": {
+            "evidence": [
+              "build_photos"
+            ]
+          }
+        },
+        {
+          "id": "hs_ws_bay",
+          "label": "Moss’s bay",
+          "x": 0.72,
+          "y": 0.3,
+          "text": "An empty bay with an oil stain the shape of a van. A whiteboard on the wall: the Jenkinses’ kitchen pod, two half-built conversions, and ‘MOSS — cupboard catch’ ticked off in Callum’s writing."
+        },
+        {
+          "id": "hs_ws_gate",
+          "label": "The gate",
+          "x": 0.69,
+          "y": 0.93,
+          "text": "The only way into the yard: a steel gate in a fence of spiked palisade, two and a half metres high, all the way round both units. Three people have keys to it: Callum, Lou and Pete. A camera on the gatepost watches the gate and the fronts of Units 4 and 5. It can’t see round the back."
+        },
+        {
+          "id": "hs_ws_office",
+          "label": "The office",
+          "x": 0.12,
+          "y": 0.665,
+          "text": "Callum logs you in to the gate camera’s recordings on the office computer. It keeps thirty days, with a gap most nights: the router updates itself at one in the morning, and the camera doesn’t always come back. Lou has been on at the internet company about it for months.",
+          "visibleWhen": {
+            "deduced": "d_target"
+          },
+          "reward": {
+            "evidence": [
+              "gate_log"
+            ]
+          }
+        },
+        {
+          "id": "hs_ws_panel",
+          "label": "Alarm panel",
+          "x": 0.24,
+          "y": 0.6,
+          "text": "Unit 4’s alarm panel, by the office door. Callum scrolls back to Thursday night: who set and unset it, and which sensors fired.",
+          "visibleWhen": {
+            "resolved": "c_lou_home"
+          },
+          "reward": {
+            "evidence": [
+              "alarm_log"
+            ]
+          }
+        },
+        {
+          "id": "hs_ws_stock",
+          "label": "The stockroom",
+          "x": 0.5,
+          "y": 0.52,
+          "text": "Shelves of boxed heaters, fridges and leisure batteries, with a stock sheet on a clipboard. While you count, Callum takes out his phone and starts searching.",
+          "visibleWhen": {
+            "resolved": "c_lou_home"
+          },
+          "reward": {
+            "evidence": [
+              "stock_count",
+              "marketplace_ad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rearyard",
+      "name": "The Rear Yard",
+      "summary": "Behind Units 4 and 5, where Moss stood the night before.",
+      "description": "A strip of gravel behind both units, hemmed in by the palisade fence, with a bramble field beyond. Unit 4’s back door opens on to it; so does Unit 5’s, Pete Stannard’s garage. This is where Moss was parked from Thursday afternoon until Callum brought it round the front on Friday morning, out of sight of the gate camera.",
+      "art": {
+        "aspect": 1.4,
+        "props": [
+          {
+            "label": "Fence — bramble field beyond",
+            "x": 0.5,
+            "y": 0.03,
+            "w": 0.96,
+            "h": 0.05,
+            "style": "window"
+          },
+          {
+            "label": "Moss’s spot",
+            "x": 0.3,
+            "y": 0.42,
+            "w": 0.26,
+            "h": 0.3,
+            "style": "rug"
+          },
+          {
+            "label": "Recycling cage",
+            "x": 0.56,
+            "y": 0.2,
+            "w": 0.1,
+            "h": 0.14,
+            "style": "fixture"
+          },
+          {
+            "label": "Drain",
+            "x": 0.86,
+            "y": 0.62,
+            "w": 0.05,
+            "h": 0.05,
+            "style": "fixture"
+          },
+          {
+            "label": "Unit 4",
+            "symbol": "wrench.and.screwdriver.fill",
+            "x": 0.22,
+            "y": 0.86,
+            "w": 0.42,
+            "h": 0.24
+          },
+          {
+            "label": "Unit 5 — Stannard Motors",
+            "symbol": "car.fill",
+            "x": 0.72,
+            "y": 0.86,
+            "w": 0.54,
+            "h": 0.24
+          },
+          {
+            "x": 0.34,
+            "y": 0.735,
+            "w": 0.08,
+            "h": 0.03,
+            "style": "door"
+          },
+          {
+            "x": 0.7,
+            "y": 0.735,
+            "w": 0.08,
+            "h": 0.03,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_ry_spot",
+          "label": "Moss’s spot",
+          "x": 0.3,
+          "y": 0.42,
+          "text": "A rectangle of gravel, flattened where Moss stood on Thursday night. From here you can’t see the gate at all, and the gate camera can’t see you: the units are in the way."
+        },
+        {
+          "id": "hs_ry_u4door",
+          "label": "Unit 4’s back door",
+          "x": 0.34,
+          "y": 0.7,
+          "text": "Saltworks’ back door, steel, with an alarm contact on the frame. Nobody uses it much."
+        },
+        {
+          "id": "hs_ry_u5door",
+          "label": "Unit 5’s back door",
+          "x": 0.7,
+          "y": 0.66,
+          "text": "The back door of Unit 5, Pete’s garage. Shut. Somewhere inside, a radio."
+        },
+        {
+          "id": "hs_ry_fence",
+          "label": "The fence",
+          "x": 0.5,
+          "y": 0.06,
+          "text": "Two and a half metres of palisade, each upright split into three spikes, and brambles thick behind it. Nobody has climbed it; there isn’t a mark on the bramble or the paint."
+        },
+        {
+          "id": "hs_ry_counter",
+          "label": "Pete’s parts counter",
+          "x": 0.9,
+          "y": 0.8,
+          "text": "Through Pete’s back door: invoices on a spike, a kettle, two mugs and a jar of teabags. On the wall, a framed MOT tester’s certificate made out to Peter J. Stannard, and a faded photo of a garage forecourt in Swindon.",
+          "visibleWhen": {
+            "flag": "garage_open"
+          }
+        },
+        {
+          "id": "hs_ry_cage",
+          "label": "Recycling cage",
+          "x": 0.67,
+          "y": 0.2,
+          "text": "A wire cage of cardboard against the fence, a few steps from Moss’s spot.",
+          "visibleWhen": {
+            "resolved": "c_lou_rear"
+          },
+          "reward": {
+            "evidence": [
+              "cartons"
+            ]
+          }
+        },
+        {
+          "id": "hs_ry_photo",
+          "label": "Pete’s office",
+          "x": 0.61,
+          "y": 0.8,
+          "text": "Off the back of Pete’s workshop, a cupboard of an office that nobody else goes into: a desk, a filing cabinet, a calendar from a tyre company, and on the wall above the desk a photo in a clip frame.",
+          "visibleWhen": {
+            "all": [
+              {
+                "flag": "garage_open"
+              },
+              {
+                "asked": "t_callum_kieran"
+              }
+            ]
+          },
+          "reward": {
+            "evidence": [
+              "kieran_photo"
+            ]
+          }
+        },
+        {
+          "id": "hs_ry_drain",
+          "label": "The drain",
+          "x": 0.86,
+          "y": 0.5,
+          "text": "A square drain grate in the gravel just outside Pete’s back door. Callum levers it up with a screwdriver. In the silt trap underneath, among the leaves, something small and round and black.",
+          "visibleWhen": {
+            "any": [
+              {
+                "deduced": "d_father"
+              },
+              {
+                "resolved": "c_pete_newcomer"
+              }
+            ]
+          },
+          "reward": {
+            "evidence": [
+              "gasket"
+            ]
+          }
+        },
+        {
+          "id": "hs_ry_drawer",
+          "label": "Pete’s bench drawer",
+          "x": 0.505,
+          "y": 0.8,
+          "text": "The drawer under Pete’s workbench: cable ties, fuses, a box of jubilee clips — and a roll of clear tape with its end cut square.",
+          "visibleWhen": {
+            "all": [
+              {
+                "flag": "garage_open"
+              },
+              {
+                "any": [
+                  {
+                    "deduced": "d_father"
+                  },
+                  {
+                    "resolved": "c_pete_newcomer"
+                  }
+                ]
+              }
+            ]
+          },
+          "reward": {
+            "evidence": [
+              "tape_roll"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "house",
+      "name": "Tess’s House",
+      "summary": "The house share in Barnstaple where Tess lived.",
+      "description": "A terraced house near the hospital that Tess shared with Megan Hale, another nurse. Tess’s room is at the front: a single bed, a rail of scrubs and a wetsuit, a desk under the window. Megan has been off work since Saturday, and has made you tea.",
+      "art": {
+        "aspect": 1.2,
+        "props": [
+          {
+            "label": "Window",
+            "x": 0.5,
+            "y": 0.025,
+            "w": 0.3,
+            "h": 0.04,
+            "style": "window"
+          },
+          {
+            "label": "Desk",
+            "symbol": "lamp.desk.fill",
+            "x": 0.6,
+            "y": 0.12,
+            "w": 0.26,
+            "h": 0.1
+          },
+          {
+            "label": "Bed",
+            "symbol": "bed.double.fill",
+            "x": 0.18,
+            "y": 0.3,
+            "w": 0.26,
+            "h": 0.3
+          },
+          {
+            "label": "Clothes rail",
+            "symbol": "hanger",
+            "x": 0.92,
+            "y": 0.36,
+            "w": 0.08,
+            "h": 0.28
+          },
+          {
+            "label": "Noticeboard",
+            "x": 0.97,
+            "y": 0.12,
+            "w": 0.04,
+            "h": 0.12,
+            "style": "fixture"
+          },
+          {
+            "x": 0.5,
+            "y": 0.6,
+            "w": 0.14,
+            "h": 0.04,
+            "style": "door"
+          },
+          {
+            "label": "Kitchen",
+            "x": 0.5,
+            "y": 0.82,
+            "w": 0.92,
+            "h": 0.3,
+            "style": "rug"
+          },
+          {
+            "label": "Kitchen table",
+            "symbol": "cup.and.saucer.fill",
+            "x": 0.4,
+            "y": 0.83,
+            "w": 0.38,
+            "h": 0.12
+          },
+          {
+            "label": "Fridge",
+            "symbol": "refrigerator.fill",
+            "x": 0.9,
+            "y": 0.83,
+            "w": 0.1,
+            "h": 0.14
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_th_desk",
+          "label": "Tess’s desk",
+          "x": 0.685,
+          "y": 0.12,
+          "text": "Mortgage papers in a plastic wallet, a stethoscope, a tide clock that has stopped, and a notebook with a wave drawn on the cover.",
+          "reward": {
+            "evidence": [
+              "tess_notebook"
+            ]
+          }
+        },
+        {
+          "id": "hs_th_board",
+          "label": "Noticeboard",
+          "x": 0.9,
+          "y": 0.14,
+          "text": "Her rota — nights Monday to Thursday, ‘OFF!!!’ on Friday in green pen — a photo of Tess and Callum sitting on Moss’s roof with their boards, and a poster from A&E: ‘Headache? Dizzy? Sick? Everyone in the house feeling it? THINK CARBON MONOXIDE.’"
+        },
+        {
+          "id": "hs_th_rail",
+          "label": "Clothes rail",
+          "x": 0.82,
+          "y": 0.36,
+          "text": "Navy scrubs, a winter wetsuit still sandy at the ankles, and a hoodie that says ‘Saltworks Vans — Crew’ across the back."
+        },
+        {
+          "id": "hs_th_table",
+          "label": "Kitchen table",
+          "x": 0.265,
+          "y": 0.83,
+          "text": "Megan sits down opposite you with both hands round her mug. She looks as if she hasn’t slept since Saturday.",
+          "reward": {
+            "evidence": [
+              "megan_statement"
+            ]
+          }
+        },
+        {
+          "id": "hs_th_phone",
+          "label": "Megan’s phone",
+          "x": 0.535,
+          "y": 0.83,
+          "text": "Megan opens her messages with Tess and hands you the phone. She screenshotted Tess’s story on Friday night, to tease her about it.",
+          "reward": {
+            "evidence": [
+              "tess_last_message",
+              "tess_story"
+            ]
+          }
+        },
+        {
+          "id": "hs_th_fridge",
+          "label": "Fridge",
+          "x": 0.79,
+          "y": 0.84,
+          "text": "A rota for the bins, a magnet from Croyde, and a sticky note in Tess’s round handwriting: ‘Flat!! Completion 12 Jan 🏠’."
+        }
+      ]
+    },
+    {
+      "id": "cottage",
+      "name": "Callum’s Cottage",
+      "summary": "Callum and Abby’s home at the top of Croyde.",
+      "description": "A pebble-dashed cottage at the top of the village, with surfboards racked along the side wall. Inside it smells of wet neoprene and toast. Callum is at the yard; his wife, Abby, has dropped their daughter at nursery and let you in.",
+      "art": {
+        "aspect": 1.2,
+        "props": [
+          {
+            "label": "Front door",
+            "x": 0.14,
+            "y": 0.975,
+            "w": 0.16,
+            "h": 0.05,
+            "style": "door"
+          },
+          {
+            "label": "Hall",
+            "x": 0.16,
+            "y": 0.72,
+            "w": 0.24,
+            "h": 0.4,
+            "style": "rug"
+          },
+          {
+            "label": "Boards",
+            "symbol": "figure.surfing",
+            "x": 0.05,
+            "y": 0.6,
+            "w": 0.06,
+            "h": 0.3
+          },
+          {
+            "label": "Callum’s desk",
+            "symbol": "laptopcomputer",
+            "x": 0.22,
+            "y": 0.2,
+            "w": 0.38,
+            "h": 0.12
+          },
+          {
+            "label": "Kitchen",
+            "x": 0.68,
+            "y": 0.3,
+            "w": 0.56,
+            "h": 0.5,
+            "style": "rug"
+          },
+          {
+            "label": "Kitchen table",
+            "symbol": "cup.and.saucer.fill",
+            "x": 0.66,
+            "y": 0.32,
+            "w": 0.38,
+            "h": 0.12
+          },
+          {
+            "label": "Sofa",
+            "symbol": "sofa.fill",
+            "x": 0.66,
+            "y": 0.78,
+            "w": 0.3,
+            "h": 0.12
+          },
+          {
+            "label": "Garage",
+            "x": 0.98,
+            "y": 0.75,
+            "w": 0.04,
+            "h": 0.18,
+            "style": "door"
+          }
+        ]
+      },
+      "hotspots": [
+        {
+          "id": "hs_ct_table",
+          "label": "Kitchen table",
+          "x": 0.51,
+          "y": 0.32,
+          "text": "Abby Rendle pours you a coffee and sits with her hands round her own. There’s a child’s drawing of a green van on the fridge behind her.",
+          "reward": {
+            "evidence": [
+              "abby_statement"
+            ]
+          }
+        },
+        {
+          "id": "hs_ct_desk",
+          "label": "Callum’s desk",
+          "x": 0.14,
+          "y": 0.08,
+          "text": "Invoices, a red-topped letter from HMRC, a mug of pens and a ring binder labelled ‘SALTWORKS — INSURANCE’.",
+          "reward": {
+            "evidence": [
+              "partnership_policy"
+            ]
+          }
+        },
+        {
+          "id": "hs_ct_boards",
+          "label": "The boards",
+          "x": 0.06,
+          "y": 0.5,
+          "text": "Six surfboards in a rack, one with a snapped fin, and a changing robe on a hook. Callum’s wetsuit hangs on a hook, still damp: he was in the water off the beach below the house on Saturday morning when Dan rang."
+        },
+        {
+          "id": "hs_ct_calendar",
+          "label": "Family calendar",
+          "x": 0.86,
+          "y": 0.3,
+          "text": "The calendar on the fridge, under a magnet shaped like a wave.",
+          "visibleWhen": {
+            "deduced": "d_when"
+          },
+          "reward": {
+            "evidence": [
+              "kitchen_calendar"
+            ]
+          }
+        },
+        {
+          "id": "hs_ct_garage",
+          "label": "The garage",
+          "x": 0.87,
+          "y": 0.75,
+          "text": "Old surf school gear: foam boards, a stack of rash vests, a sun-faded flag. On the workbench, a box fresh from the printer.",
+          "visibleWhen": {
+            "deduced": "d_target"
+          },
+          "reward": {
+            "evidence": [
+              "surf_flyer"
+            ]
+          }
+        },
+        {
+          "id": "hs_ct_drawer",
+          "label": "Desk drawer",
+          "x": 0.22,
+          "y": 0.32,
+          "text": "The drawer Callum told you about. Under the chequebooks lies a newspaper cutting, gone soft from being folded and unfolded.",
+          "visibleWhen": {
+            "asked": "t_callum_kieran"
+          },
+          "reward": {
+            "evidence": [
+              "inquest_article"
+            ]
+          }
+        },
+        {
+          "id": "hs_ct_phone",
+          "label": "Callum’s phone",
+          "x": 0.3,
+          "y": 0.08,
+          "text": "Callum’s old phone, on charge on the desk: he’s been using the shop phone since Saturday, because he can’t face this one. Dozens of unread messages. Abby rings him, and he tells her you can look.",
+          "visibleWhen": {
+            "any": [
+              {
+                "deduced": "d_father"
+              },
+              {
+                "resolved": "c_pete_newcomer"
+              }
+            ]
+          },
+          "reward": {
+            "evidence": [
+              "kai_message"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "timeline": {
+    "id": "timeline",
+    "title": "Thursday to Saturday, reconstructed",
+    "prompt": "Put the events in the order they really happened. Times you know for certain are shown; reason out the rest.",
+    "events": [
+      {
+        "id": "tl_check",
+        "text": "Callum’s weekly heater check: the alarm reads zero",
+        "time": "Thu 17:41",
+        "visibleWhen": {
+          "evidence": "callum_story"
+        },
+        "teaser": "Something done at the yard on Thursday."
+      },
+      {
+        "id": "tl_lou",
+        "text": "Lou carries boxes out of the yard",
+        "time": "Thu 22:40",
+        "visibleWhen": {
+          "evidence": "gate_log"
+        },
+        "teaser": "Something the gate camera saw."
+      },
+      {
+        "id": "tl_rigged",
+        "text": "Moss is rigged",
+        "visibleWhen": {
+          "deduced": "d_when"
+        },
+        "teaser": "Something done to Moss."
+      },
+      {
+        "id": "tl_kai",
+        "text": "Kai sees Pete come in from the rear yard",
+        "time": "Fri 08:00",
+        "visibleWhen": {
+          "evidence": "kai_message"
+        },
+        "teaser": "Something someone noticed."
+      },
+      {
+        "id": "tl_ask",
+        "text": "Tess asks to borrow Moss",
+        "time": "Fri 11:40"
+      },
+      {
+        "id": "tl_pete",
+        "text": "Pete leaves for Exeter",
+        "time": "Fri 11:58",
+        "visibleWhen": {
+          "evidence": "gate_log"
+        },
+        "teaser": "Something else the gate camera saw."
+      },
+      {
+        "id": "tl_told",
+        "text": "Callum tells Lou and Kai that Tess is taking Moss",
+        "visibleWhen": {
+          "statement": "st_lou_told"
+        },
+        "teaser": "Something said at the yard."
+      },
+      {
+        "id": "tl_collect",
+        "text": "Callum tests the alarm, and Tess drives Moss away",
+        "time": "Fri 15:44",
+        "visibleWhen": {
+          "statement": "st_callum_test"
+        },
+        "teaser": "Something at the yard on Friday afternoon."
+      },
+      {
+        "id": "tl_story",
+        "text": "Tess posts a story: heater on, kettle on",
+        "time": "Fri 19:31",
+        "visibleWhen": {
+          "evidence": "tess_story"
+        },
+        "teaser": "Something Tess posted."
+      },
+      {
+        "id": "tl_jo",
+        "text": "Jo argues with Tess in the van",
+        "time": "Fri 21:03",
+        "visibleWhen": {
+          "statement": "st_jo_visit"
+        },
+        "teaser": "A visitor."
+      },
+      {
+        "id": "tl_note",
+        "text": "Gwen leaves her note on Moss",
+        "time": "Fri 23:09",
+        "visibleWhen": {
+          "statement": "st_gwen_heater"
+        },
+        "teaser": "Another visitor."
+      },
+      {
+        "id": "tl_found",
+        "text": "Dan finds Tess",
+        "time": "Sat 08:40"
+      }
+    ],
+    "conclusion": "Moss was rigged at dawn on Friday, in the rear yard, while only Pete was there. At 11:40 Tess asked for the van; at 11:58 Pete left for Exeter; just after twelve Callum told the others. When Pete drove away, he believed Callum would be the one sleeping beside that heater."
+  },
+  "accusation": {
+    "culprit": "pete",
+    "methods": [
+      "Swapped in a faulty heater and switched the alarm off",
+      "Blocked the heater’s outlet and took the alarm’s batteries out",
+      "Loosened the heater’s exhaust joint and taped over the alarm’s sensor",
+      "Piped the engine’s exhaust into the van and disconnected the alarm"
+    ],
+    "method": 2,
+    "motives": [
+      "To get out of repaying a loan",
+      "Jealousy — she was moving on without them",
+      "To collect on a life insurance policy",
+      "Revenge for a drowning",
+      "To drive the vans off the clifftop for good"
+    ],
+    "motive": 3,
+    "proof": [
+      [
+        "d_friday",
+        "kai_message",
+        "st_pete_coolant",
+        "timeline"
+      ],
+      [
+        "gasket",
+        "tape_roll"
+      ],
+      [
+        "d_father",
+        "inquest_article",
+        "kieran_photo",
+        "st_pete_kieran"
+      ]
+    ],
+    "proofLabels": [
+      "The chance — at Moss before anyone knew Tess would take it",
+      "The means — what the killer left behind",
+      "The motive — why the killer wanted Callum dead"
+    ],
+    "successTitle": "Case closed"
+  },
+  "hints": [
+    {
+      "id": "h_scene",
+      "doneWhen": {
+        "all": [
+          {
+            "evidence": "heater_joint"
+          },
+          {
+            "evidence": "co_alarm"
+          },
+          {
+            "evidence": "build_photos"
+          }
+        ]
+      },
+      "levels": [
+        "Start with the van itself. Have you looked at Moss properly?",
+        "Lift Moss’s passenger seat, look at the alarm by the door, and see how Callum builds his vans.",
+        "At the Police Compound, examine Moss’s passenger seat and Moss’s CO alarm; at Saltworks Vans, examine Callum’s workbench."
+      ]
+    },
+    {
+      "id": "h_fitted",
+      "activeWhen": {
+        "evidence": "heater_joint"
+      },
+      "doneWhen": {
+        "deduced": "d_fitted"
+      },
+      "levels": [
+        "Look closely at the exhaust joint. Is that how Callum left it?",
+        "Compare the joint now with Callum’s photographs of the day he fitted it — or with Thursday’s check.",
+        "On the board, answer ‘No — it was fitted properly, then undone’, with the heater’s exhaust joint and Callum’s build photos (or his heater check)."
+      ]
+    },
+    {
+      "id": "h_alarm",
+      "activeWhen": {
+        "evidence": "co_alarm"
+      },
+      "doneWhen": {
+        "deduced": "d_alarm"
+      },
+      "levels": [
+        "An alarm that shrieks when you press its button can still be useless.",
+        "Read the alarm’s leaflet. What does the TEST button actually test?",
+        "On the board, answer ‘Someone had taped over its sensor’, with Moss’s CO alarm and the alarm’s leaflet (or Callum on testing it for Tess)."
+      ]
+    },
+    {
+      "id": "h_check",
+      "activeWhen": {
+        "evidence": "heater_joint"
+      },
+      "doneWhen": {
+        "evidence": "callum_story"
+      },
+      "levels": [
+        "Callum checks Moss’s heater every week. When was the last time?",
+        "Ask Callum about his last check.",
+        "Ask Callum ‘When did you last check the heater?’"
+      ]
+    },
+    {
+      "id": "h_megan",
+      "doneWhen": {
+        "all": [
+          {
+            "evidence": "megan_statement"
+          },
+          {
+            "evidence": "tess_last_message"
+          }
+        ]
+      },
+      "levels": [
+        "Tess shared a house. Someone heard from her that night.",
+        "Visit Tess’s house and talk to Megan.",
+        "In Tess’s House, examine the kitchen table and Megan’s phone."
+      ]
+    },
+    {
+      "id": "h_cafe",
+      "doneWhen": {
+        "evidence": "cafe_footage"
+      },
+      "levels": [
+        "Somebody was watching the car park all night.",
+        "There’s a camera over the café door. Ask the man who runs the café.",
+        "Ask Dan ‘Does the café have a camera?’"
+      ]
+    },
+    {
+      "id": "h_jo_home",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_jo_home"
+          },
+          {
+            "any": [
+              {
+                "evidence": "cafe_footage"
+              },
+              {
+                "evidence": "tess_last_message"
+              },
+              {
+                "evidence": "jo_flowers"
+              }
+            ]
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_jo_home"
+      },
+      "levels": [
+        "Jo says she spent Friday night at home.",
+        "Tess told Megan who turned up. There are roses in the bin. And the café’s camera saw the car park.",
+        "Challenge Jo’s ‘at home on Friday night’ statement with Tess’s last message, the café’s camera or the roses in the bin."
+      ]
+    },
+    {
+      "id": "h_jo_story",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_jo_story"
+          },
+          {
+            "any": [
+              {
+                "evidence": "megan_statement"
+              },
+              {
+                "evidence": "tess_story"
+              }
+            ]
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_jo_findmy"
+      },
+      "levels": [
+        "Jo says Tess’s story told her where Tess was. Look at the story again.",
+        "There’s no location on Tess’s story. Megan knows how Jo always knew where Tess was.",
+        "Challenge Jo’s ‘story showed where she was’ statement with Megan’s account (or Tess’s story)."
+      ]
+    },
+    {
+      "id": "h_gwen",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_gwen_never"
+          },
+          {
+            "any": [
+              {
+                "evidence": "cafe_footage"
+              },
+              {
+                "evidence": "gwen_sign"
+              }
+            ]
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_gwen_never"
+      },
+      "levels": [
+        "Gwen says she wasn’t at the car park on Friday night.",
+        "Who rode up to Moss at 23:09? And whose capitals are on that note?",
+        "Challenge Gwen’s ‘wasn’t up at the car park on Friday night’ statement with the café’s camera or the sign on the field gate."
+      ]
+    },
+    {
+      "id": "h_callum_row",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_callum_fine"
+          },
+          {
+            "any": [
+              {
+                "evidence": "tess_notebook"
+              },
+              {
+                "evidence": "megan_statement"
+              }
+            ]
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_callum_row"
+      },
+      "levels": [
+        "Callum says he and Tess never fell out.",
+        "Tess wrote about Sunday in her notebook. Megan remembers it too.",
+        "Challenge Callum’s ‘never fell out’ statement with Tess’s notebook or Megan’s account."
+      ]
+    },
+    {
+      "id": "h_gas",
+      "activeWhen": {
+        "evidence": "tess_story"
+      },
+      "doneWhen": {
+        "deduced": "d_gas"
+      },
+      "levels": [
+        "Carbon monoxide gives you a headache long before it kills you.",
+        "When did Tess turn the heater on? And when did people in or near the van start to notice something?",
+        "On the board, answer ‘From the moment Tess turned the heater on’, with Tess’s story (or the café’s camera) and Jo’s headache (or Tess’s last message)."
+      ]
+    },
+    {
+      "id": "h_lou_friday",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_fitted"
+          },
+          {
+            "deduced": "d_alarm"
+          }
+        ]
+      },
+      "doneWhen": {
+        "statement": "st_lou_friday"
+      },
+      "levels": [
+        "Who was at the yard all day on Friday, watching Moss?",
+        "Ask Callum’s business partner what Friday was like.",
+        "Ask Lou ‘Tell me about Friday at the yard.’"
+      ]
+    },
+    {
+      "id": "h_when",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_fitted"
+          },
+          {
+            "deduced": "d_alarm"
+          }
+        ]
+      },
+      "doneWhen": {
+        "deduced": "d_when"
+      },
+      "levels": [
+        "When was Moss last known to be safe? And when could nobody have touched it unseen?",
+        "Callum’s Thursday check, and the hours Moss spent in front of the workshop on Friday.",
+        "On the board, answer ‘In the yard, between Thursday evening and half past eight on Friday’, with Callum’s heater check and Lou’s (or Callum’s) statement about Friday."
+      ]
+    },
+    {
+      "id": "h_target",
+      "activeWhen": {
+        "deduced": "d_when"
+      },
+      "doneWhen": {
+        "deduced": "d_target"
+      },
+      "levels": [
+        "Moss was rigged before half past eight on Friday. When did Tess ask for it?",
+        "Re-read Tess’s messages to Callum. Who would normally have slept in Moss on a Friday night? Look at the family calendar at Callum’s cottage.",
+        "On the board, answer ‘Callum — Fridays were his night in Moss’, with your answer about when Moss was rigged and Tess’s messages (or Megan’s account)."
+      ]
+    },
+    {
+      "id": "h_gate",
+      "activeWhen": {
+        "deduced": "d_target"
+      },
+      "doneWhen": {
+        "evidence": "gate_log"
+      },
+      "levels": [
+        "The yard has one way in, and it’s watched.",
+        "The gate camera keeps thirty days of recordings.",
+        "At Saltworks Vans, examine the office."
+      ]
+    },
+    {
+      "id": "h_garage",
+      "activeWhen": {
+        "deduced": "d_target"
+      },
+      "doneWhen": {
+        "flag": "garage_open"
+      },
+      "levels": [
+        "There’s another unit on that yard, with a back door of its own.",
+        "Ask Pete if you can see his garage.",
+        "Ask Pete ‘Can I have a look round your garage?’"
+      ]
+    },
+    {
+      "id": "h_enemies",
+      "activeWhen": {
+        "deduced": "d_target"
+      },
+      "doneWhen": {
+        "asked": "t_callum_enemies"
+      },
+      "levels": [
+        "If Callum was the target, who wanted him dead?",
+        "Ask Callum.",
+        "Ask Callum ‘Who would want you dead?’"
+      ]
+    },
+    {
+      "id": "h_dan_contact",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_dan_nothing"
+          },
+          {
+            "any": [
+              {
+                "evidence": "dan_dm"
+              },
+              {
+                "evidence": "gate_log"
+              }
+            ]
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_dan_contact"
+      },
+      "levels": [
+        "Dan says he’s had nothing to do with Callum for years.",
+        "What did Dan send Callum on Wednesday? Where was he on Thursday evening?",
+        "Challenge Dan’s ‘nothing to do with Callum since the inquest’ statement with Dan’s message to Callum or the gate camera."
+      ]
+    },
+    {
+      "id": "h_lou_home",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_lou_home"
+          },
+          {
+            "evidence": "gate_log"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_lou_home"
+      },
+      "levels": [
+        "Lou says she was at home all Thursday night.",
+        "Watch the gate camera’s Thursday night.",
+        "Challenge Lou’s ‘at home all Thursday night’ statement with the gate camera."
+      ]
+    },
+    {
+      "id": "h_lou_paperwork",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_lou_paperwork"
+          },
+          {
+            "any": [
+              {
+                "evidence": "stock_count"
+              },
+              {
+                "evidence": "marketplace_ad"
+              },
+              {
+                "evidence": "gate_log"
+              }
+            ]
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_lou_paperwork"
+      },
+      "levels": [
+        "VAT paperwork doesn’t come in boxes.",
+        "Count the stockroom — and see what’s for sale online.",
+        "Challenge Lou’s ‘VAT paperwork’ statement with the stockroom count, the online listing or the gate camera."
+      ]
+    },
+    {
+      "id": "h_alarm_log",
+      "activeWhen": {
+        "resolved": "c_lou_home"
+      },
+      "doneWhen": {
+        "evidence": "alarm_log"
+      },
+      "levels": [
+        "Unit 4 has an intruder alarm. It remembers who came in, and where they went.",
+        "The alarm panel is by the office door.",
+        "At Saltworks Vans, examine the alarm panel."
+      ]
+    },
+    {
+      "id": "h_lou_rear",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_lou_heaters"
+          },
+          {
+            "evidence": "alarm_log"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_lou_rear"
+      },
+      "levels": [
+        "Lou says she never went out of the back.",
+        "What does Unit 4’s alarm log say about the rear door?",
+        "Challenge Lou’s ‘never went out the back’ statement with Unit 4’s alarm log."
+      ]
+    },
+    {
+      "id": "h_minutes",
+      "activeWhen": {
+        "any": [
+          {
+            "resolved": "c_lou_rear"
+          },
+          {
+            "evidence": "gate_log"
+          }
+        ]
+      },
+      "doneWhen": {
+        "statement": "st_callum_minutes"
+      },
+      "levels": [
+        "How long would it take to do what was done to Moss?",
+        "Ask the man who fitted the heater.",
+        "Ask Callum ‘How long would it take to undo the joint?’"
+      ]
+    },
+    {
+      "id": "h_callum_dan",
+      "activeWhen": {
+        "evidence": "gate_log"
+      },
+      "doneWhen": {
+        "statement": "st_callum_dan"
+      },
+      "levels": [
+        "Dan was out of the camera’s sight for three minutes. Who was with him?",
+        "Ask Callum about Dan’s visit.",
+        "Ask Callum ‘What happened when Dan came to the yard?’"
+      ]
+    },
+    {
+      "id": "h_lou_doorbell",
+      "activeWhen": {
+        "resolved": "c_lou_rear"
+      },
+      "doneWhen": {
+        "evidence": "lou_doorbell"
+      },
+      "levels": [
+        "The gate camera went blind after one in the morning. Lou has a key. Where was she?",
+        "Ask Lou whether she could have come back later.",
+        "Ask Lou ‘Could you have come back to the yard later that night?’"
+      ]
+    },
+    {
+      "id": "h_lou",
+      "activeWhen": {
+        "resolved": "c_lou_rear"
+      },
+      "doneWhen": {
+        "deduced": "d_lou"
+      },
+      "levels": [
+        "Lou went out of the back door on Thursday night. For how long? And where was she after that, while the camera was down?",
+        "Unit 4’s alarm log times the rear door; Lou’s doorbell camera covers the rest of the night.",
+        "On the board, answer ‘No — under a minute out the back, and home all night after’, with Unit 4’s alarm log and Lou’s doorbell camera."
+      ]
+    },
+    {
+      "id": "h_dan",
+      "activeWhen": {
+        "all": [
+          {
+            "evidence": "gate_log"
+          },
+          {
+            "resolved": "c_dan_contact"
+          }
+        ]
+      },
+      "doneWhen": {
+        "deduced": "d_dan"
+      },
+      "levels": [
+        "Dan came to the yard on Thursday evening. How far in did he get?",
+        "The gate camera saw it, and so did Callum.",
+        "On the board, answer ‘No — Callum never let him out of arm’s reach’, with the gate camera and Callum’s statement about Dan’s visit (or about how long the job takes)."
+      ]
+    },
+    {
+      "id": "h_kieran",
+      "activeWhen": {
+        "deduced": "d_dan"
+      },
+      "doneWhen": {
+        "asked": "t_callum_kieran"
+      },
+      "levels": [
+        "Dan isn’t the only person who might blame Callum for Kieran Moyle’s death.",
+        "Callum used to run a surf school. He has never told you the whole story.",
+        "Ask Callum ‘Tell me about Rendle Surf.’"
+      ]
+    },
+    {
+      "id": "h_article",
+      "activeWhen": {
+        "asked": "t_callum_kieran"
+      },
+      "doneWhen": {
+        "evidence": "inquest_article"
+      },
+      "levels": [
+        "Callum has kept something since 2020.",
+        "He told you where: his desk at home.",
+        "In Callum’s Cottage, examine the desk drawer."
+      ]
+    },
+    {
+      "id": "h_pete_newcomer",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_pete_newcomer"
+          },
+          {
+            "evidence": "kieran_photo"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_pete_newcomer"
+      },
+      "levels": [
+        "Look closely at the photo in Pete’s office. Where and when was it taken?",
+        "Pete says he’d never been to North Devon before he took the unit.",
+        "Challenge Pete’s ‘never set foot in North Devon’ statement with the photo in Pete’s office."
+      ]
+    },
+    {
+      "id": "h_father",
+      "activeWhen": {
+        "evidence": "inquest_article"
+      },
+      "doneWhen": {
+        "deduced": "d_father"
+      },
+      "levels": [
+        "Kieran had his mother’s surname. What does the cutting say about his father?",
+        "A mechanic from Swindon. Who do you know who fits — and who keeps a photo of a boy at Croyde on his office wall?",
+        "On the board, answer ‘Pete Stannard, the mechanic next door’, with the newspaper cutting and the photo in Pete’s office (or what Pete told you about Swindon)."
+      ]
+    },
+    {
+      "id": "h_kai",
+      "activeWhen": {
+        "any": [
+          {
+            "deduced": "d_father"
+          },
+          {
+            "resolved": "c_pete_newcomer"
+          }
+        ]
+      },
+      "doneWhen": {
+        "evidence": "kai_message"
+      },
+      "levels": [
+        "Callum hasn’t read his messages since Saturday. Someone at the yard wrote to him.",
+        "His old phone is at the cottage.",
+        "In Callum’s Cottage, examine Callum’s phone."
+      ]
+    },
+    {
+      "id": "h_gasket",
+      "activeWhen": {
+        "any": [
+          {
+            "deduced": "d_father"
+          },
+          {
+            "resolved": "c_pete_newcomer"
+          }
+        ]
+      },
+      "doneWhen": {
+        "evidence": "gasket"
+      },
+      "levels": [
+        "Moss’s heater is missing a part. Where did it go?",
+        "Look around the rear yard again, especially near Pete’s back door.",
+        "In the Rear Yard, examine the drain."
+      ]
+    },
+    {
+      "id": "h_pete_moss",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_pete_friday"
+          },
+          {
+            "evidence": "kai_message"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_pete_moss"
+      },
+      "levels": [
+        "Pete says he never went near Moss on Friday.",
+        "Kai was there at about eight.",
+        "Challenge Pete’s ‘never went near Moss’ statement with Kai’s message."
+      ]
+    },
+    {
+      "id": "h_pete_rushed",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_pete_rushed"
+          },
+          {
+            "evidence": "kai_message"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_pete_rushed"
+      },
+      "levels": [
+        "Pete told the police Callum’s work was rushed. Is that what he says when the police aren’t listening?",
+        "Kai knows what Pete really thought of Callum’s installs.",
+        "Challenge Pete’s ‘work’s been rushed’ statement with Kai’s message."
+      ]
+    },
+    {
+      "id": "h_pete_coolant",
+      "activeWhen": {
+        "statement": "st_pete_coolant"
+      },
+      "doneWhen": {
+        "resolved": "c_pete_coolant"
+      },
+      "levels": [
+        "Pete says he could smell coolant. Was anything wrong with Moss’s cooling system?",
+        "The vehicle examiner looked at the engine and the cooling system.",
+        "Challenge Pete’s ‘could smell coolant’ statement with the police summary."
+      ]
+    },
+    {
+      "id": "h_pete_nephew",
+      "activeWhen": {
+        "all": [
+          {
+            "statement": "st_pete_nephew"
+          },
+          {
+            "deduced": "d_father"
+          }
+        ]
+      },
+      "doneWhen": {
+        "resolved": "c_pete_nephew"
+      },
+      "levels": [
+        "Pete says the boy in the photo is his sister’s son. Is he?",
+        "What does the newspaper say about Kieran’s father — and who fits?",
+        "Once you have answered who Kieran’s father was, challenge Pete’s ‘my sister’s lad’ statement with that answer."
+      ]
+    },
+    {
+      "id": "h_friday",
+      "activeWhen": {
+        "evidence": "kai_message"
+      },
+      "doneWhen": {
+        "deduced": "d_friday"
+      },
+      "levels": [
+        "What was Pete really doing at Moss on Friday morning?",
+        "Was there anything wrong with Moss’s cooling system? And what turned up outside Pete’s back door?",
+        "On the board, answer ‘Loosening the heater’s exhaust and taping over the alarm’, with Kai’s message (or Pete’s coolant story) and the police summary (or the gasket)."
+      ]
+    },
+    {
+      "id": "h_timeline",
+      "activeWhen": {
+        "deduced": "d_friday"
+      },
+      "doneWhen": {
+        "timeline": true
+      },
+      "levels": [
+        "Put the three days in order.",
+        "Moss was rigged after Lou left on Thursday night and before Kai arrived; Callum told the others after Pete had gone.",
+        "The order: heater check, Lou’s boxes, Moss rigged, Kai sees Pete, Tess asks, Pete leaves, Callum tells the others, Tess drives away, Tess’s story, Jo, Gwen’s note, Dan finds Tess."
+      ]
+    },
+    {
+      "id": "h_accuse_ready",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_friday"
+          },
+          {
+            "deduced": "d_father"
+          },
+          {
+            "evidence": "gasket"
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "For each proof slot, ask: which of your cards shows Pete had the chance, which shows what he used, and which shows why?",
+        "The chance: what Kai saw, your answer about Friday morning, or the timeline. The means: what was found by Pete’s back door or in his bench drawer. The motive: the newspaper cutting, or your answer about Kieran’s father.",
+        "Accuse Pete Stannard: he loosened the heater’s exhaust joint and taped over the alarm’s sensor, in revenge for a drowning. Prove it with your answer about Friday morning (or Kai’s message, or the timeline), the gasket from the drain (or the tape roll), and your answer about Kieran’s father (or the newspaper cutting)."
+      ]
+    },
+    {
+      "id": "h_accuse",
+      "activeWhen": {
+        "all": [
+          {
+            "deduced": "d_target"
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "deduced": "d_friday"
+                },
+                {
+                  "deduced": "d_father"
+                },
+                {
+                  "evidence": "gasket"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "doneWhen": {
+        "solved": true
+      },
+      "levels": [
+        "Moss was rigged before anyone knew Tess would be in it. Think about who that makes the target — and who was in the yard.",
+        "Somebody blamed Callum for a death long before Tess died.",
+        "The killer is Pete Stannard, Kieran Moyle’s father: he loosened the heater’s exhaust joint and taped over the alarm’s sensor, in revenge for a drowning. Prove it with your answer about Friday morning, the gasket, and your answer about Kieran’s father."
+      ]
+    }
+  ],
+  "epilogue": [
+    "Pete Stannard said nothing at all for a day. Then he asked for a pen and wrote four pages, and the last line was the same as the first: ‘It should have been him.’",
+    "He had planned it for eighteen months: the unit next door, the mugs of tea, the borrowed ramp, the MOT that let him study Moss’s heater at his leisure. He couldn’t touch it then: Callum checked it every Thursday and would have found it. It had to be after the last check and before the Friday night, so he came in at six, as he always did, before anyone else, and went out of his back door with a torch. Callum’s own heater, Callum’s own work. He wanted it to look like carelessness, he wrote, because carelessness was what had killed his son. His thumbprint was on the sticky side of the tape. The gasket from Moss’s heater was in the drain outside his back door, where he had dropped it when Kai turned up early for his tea. By torchlight, kneeling on wet gravel, he had never noticed the line of yellow paint across the nut.",
+    "He hadn’t known about Tess. He drove out of the yard at 11:58; Callum told the others just after twelve. On Saturday, in a hotel room in Exeter, he heard that a young woman had died in Callum Rendle’s van, and understood that he had made another family like his own. He was charged with her murder.",
+    "The coroner suspended Tess’s inquest the day Pete was charged. Trading Standards closed their file on Saltworks Vans, and the internet moved on without apologising. Callum never reopened Rendle Surf. Moss sits in a police garage in Exeter, waiting for the trial, and Callum has told them he never wants her back.",
+    "Lou Bray paid back every heater and told Kai she was sorry. Jo Tremlett turned off the location sharing at last. Gwen Westcott still leaves notes on vans at Marram Point, but these days they begin ‘Please’. And one cold morning in December, Dan Kellow and Callum Rendle, who hadn’t spoken properly in four years, sat on the bench at the cliff edge and talked until long after the café should have opened.",
+    "By the spring there were two benches at Marram Point, side by side, facing the same waves. KIERAN MOYLE · He loved these waves. TESS RENDLE · 1992–2023 · She needed the sea."
+  ]
+}
